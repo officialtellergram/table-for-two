@@ -558,13 +558,9 @@ function dcmp(a,b){ // nulls (no scheduled drop) last
 /* ---------- Render (list) ---------- */
 function render(){
   const list=currentList();
-  const nOpen=list.filter(x=>x.state==='open').length;
-  const asOf=(RAW.find(s=>s.availability&&s.availability.checkedAt)||{}).availability;
   const nextC=list.find(x=>x.state==='countdown'&&x.drop);
-  $('countLine').innerHTML='Showing <b>'+list.length+'</b> of '+RAW.length+' spots · '+
-    '<b style="color:var(--good)">'+nOpen+'</b> with tables open'+
-    (nextC?' · next drop <b>'+fmtCountdown(nextC.drop-Date.now())+'</b> ('+esc(nextC.s.name)+')':'')+
-    (asOf?' · availability as of '+esc(asOf.checkedAt):'');
+  $('countLine').innerHTML='Showing <b>'+list.length+'</b> of '+RAW.length+' spots'+
+    (nextC?' · next drop <b>'+fmtCountdown(nextC.drop-Date.now())+'</b> ('+esc(nextC.s.name)+')':'');
   const grid=$('grid'); grid.innerHTML=''; cards.length=0;
   if(!list.length){ showState('<h2>No matches</h2><p>Try clearing a filter.</p>'); return; }
   hideState();
@@ -738,6 +734,13 @@ for(const id of ['q','sort','fCuisine','fHood','fDiff','fWalk']){
 }
 
 (async function boot(){
+  if(location.protocol==='file:'){
+    showState('<h2>⚠ Open via the local server, not a file</h2>'+
+      '<p style="max-width:520px;margin:0 auto;line-height:1.6">You\'re viewing this as a <b>file://</b> path, so the browser blocks loading the city data '+
+      '(and it silently falls back to NYC only, with no availability).<br><br>'+
+      'Open <b style="color:var(--accent2)">http://localhost:8080</b> in your address bar instead of double-clicking the file.</p>');
+    return;
+  }
   showState('<div class="spin"></div><h2>Starting…</h2>');
   await loadManifest();
   initCitySelect();
