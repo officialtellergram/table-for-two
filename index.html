@@ -783,18 +783,35 @@ for(const id of ['q','sort','fCuisine','fHood','fDiff','fWalk']){
   $(id).addEventListener('input',()=>{ if(view==='list') render(); });
 }
 
-/* Collapse the header on scroll-down; expand only at the top or on tap */
+/* Collapse the header on scroll-down; expand only at the top or on tap.
+   The header is sticky, so when it shrinks it gives back height at the top of
+   the document and the content below would jump UP (hiding the first card).
+   While the height animates we counter-scroll by the exact change each frame,
+   so the content you're looking at stays put — only the slim bar shrinks. */
 (function(){
   const hdr=document.querySelector('header');
+  const se=document.scrollingElement||document.documentElement;
   let collapsed=false;
-  function set(v){ if(v===collapsed) return; collapsed=v; hdr.classList.toggle('collapsed',v); }
+  function set(v,anchor){
+    if(v===collapsed) return;
+    collapsed=v;
+    let lastH=hdr.offsetHeight;
+    hdr.classList.toggle('collapsed',v);
+    if(!anchor) return;             // at the very top: let it expand naturally
+    let n=0;
+    (function step(){               // ride out the CSS height transition (~0.3s)
+      const h=hdr.offsetHeight, d=h-lastH;
+      if(d){ se.scrollTop=Math.max(0,se.scrollTop+d); lastH=h; }
+      if(n++<32) requestAnimationFrame(step);
+    })();
+  }
   window.addEventListener('scroll',()=>{
-    const y=window.scrollY||document.documentElement.scrollTop||0;
-    if(y<=8) set(false);            // fully back at the top → expand
-    else if(y>90) set(true);        // scrolled down → collapse
+    const y=window.scrollY||se.scrollTop||0;
+    if(y<=8) set(false,false);      // fully back at the top → expand naturally
+    else if(y>90) set(true,true);   // scrolled down → collapse, anchored
   },{passive:true});
   hdr.addEventListener('click',e=>{ // tapping the slim bar (not a control) expands it
-    if(collapsed && !e.target.closest('select,button,a,input,label')) set(false);
+    if(collapsed && !e.target.closest('select,button,a,input,label')) set(false,true);
   });
 })();
 
