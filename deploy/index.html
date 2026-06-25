@@ -74,6 +74,9 @@
     background:transparent;border:1px solid var(--line);border-radius:10px;
     padding:8px 12px;appearance:none;cursor:pointer;color:var(--txt)}
   .city-select{font-weight:600;font-size:13px;letter-spacing:.3px}
+  /* native dropdown popup — force readable contrast in both themes */
+  select option{background:var(--panel);color:var(--txt);font-weight:500}
+  select option:disabled{color:var(--faint)}
   .city-select:hover,.sort-select:hover,.filter-select:hover,.iconbtn:hover{border-color:var(--line2)}
   select:focus-visible,input:focus-visible{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(201,168,106,.16)}
   .iconbtn{background:transparent;border:1px solid var(--line);border-radius:10px;
