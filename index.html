@@ -130,6 +130,18 @@
   .legend .k{display:inline-flex;align-items:center;gap:7px}
   .legend .sw{width:7px;height:7px;border-radius:50%;flex:none}
 
+  /* Collapsible header: shrinks to a slim bar once you scroll down */
+  .topbar{transition:padding .28s ease}
+  .brand{transition:font-size .28s ease,letter-spacing .28s ease}
+  .controls,.count-line,.legend{overflow:hidden;max-height:70vh;
+    transition:max-height .3s ease,opacity .22s ease,margin .3s ease,padding .3s ease}
+  header.collapsed .controls,header.collapsed .count-line,header.collapsed .legend{
+    max-height:0;opacity:0;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;pointer-events:none}
+  header.collapsed .topbar{padding:9px 0}
+  header.collapsed .brand{font-size:14px;letter-spacing:2.5px}
+  header.collapsed .brand .mark{font-size:15px}
+  header.collapsed{cursor:pointer}
+
   .meta-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
   .tag{font-size:11px;color:var(--muted);background:transparent;border:1px solid var(--line);
     border-radius:7px;padding:3px 8px;letter-spacing:.1px}
@@ -770,6 +782,21 @@ $('themeToggle').onclick=toggleTheme;
 for(const id of ['q','sort','fCuisine','fHood','fDiff','fWalk']){
   $(id).addEventListener('input',()=>{ if(view==='list') render(); });
 }
+
+/* Collapse the header on scroll-down; expand only at the top or on tap */
+(function(){
+  const hdr=document.querySelector('header');
+  let collapsed=false;
+  function set(v){ if(v===collapsed) return; collapsed=v; hdr.classList.toggle('collapsed',v); }
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY||document.documentElement.scrollTop||0;
+    if(y<=8) set(false);            // fully back at the top → expand
+    else if(y>90) set(true);        // scrolled down → collapse
+  },{passive:true});
+  hdr.addEventListener('click',e=>{ // tapping the slim bar (not a control) expands it
+    if(collapsed && !e.target.closest('select,button,a,input,label')) set(false);
+  });
+})();
 
 (async function boot(){
   initTheme();
