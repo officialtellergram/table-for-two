@@ -2,7 +2,7 @@
   "meta": {
     "source": "curate.py",
     "city": "Boston, MA",
-    "count": 14,
+    "count": 25,
     "generated": "2026-06-25",
     "disclaimer": "Always confirm release times with the restaurant."
   },
@@ -11,16 +11,16 @@
       "id": "sarma",
       "name": "Sarma",
       "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean / Turkish meze",
+      "cuisine": "Eastern Mediterranean meze",
       "coordinates": {
         "lat": 42.3881868,
         "lng": -71.0954753
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "priceRange": "$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/boston-ma/venues/sarma",
-      "website": "https://www.sarmarestaurant.com",
+      "website": "https://www.sarmarestaurant.com/",
       "phoneNumber": "617 764 4464",
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
@@ -30,67 +30,200 @@
       "walkIns": true,
       "walkIn": null,
       "tips": [
-        "A new day opens on Resy each morning at 10:00 AM ET, 30 days out; log in at 9:59 and refresh.",
-        "Walk-ins welcome at the 20-seat bar and high-tops, best right at 5 PM open.",
-        "Use Resy Notify for sold-out dates; parties of 7+ go through the private-events form."
+        "New day opens each morning at 10:00 AM ET, 30 days out; prime slots vanish instantly",
+        "20-seat bar and high-tops held for first-come walk-ins",
+        "Parties of 7+ via private-events form; phone after 3 PM"
       ],
-      "signatureDish": "Black Sea cornbread; lamb kofte sliders",
+      "signatureDish": "Sesame fried chicken with tahini remoulade",
       "lastVerified": "2026-06-25",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
       }
     },
     {
-      "id": "krasi",
-      "name": "Krasi",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek meze / wine bar",
+      "id": "tonino",
+      "name": "Tonino",
+      "neighborhood": "Jamaica Plain",
+      "cuisine": "Italian-American",
       "coordinates": {
-        "lat": 42.3486647,
-        "lng": -71.0841093
+        "lat": 42.3087688,
+        "lng": -71.118264
       },
-      "difficulty": 4,
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/boston-ma/venues/tonino",
+      "website": "https://www.toninojp.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "11-table trattoria from JB semifinalist chef Luke Fetbroth",
+        "Reservations open daily at noon, 30 days out; parties of 5 or fewer only",
+        "Use the Resy Notify waitlist; try walking in for a chance"
+      ],
+      "signatureDish": "House-extruded pastas; fresh seafood",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
+      }
+    },
+    {
+      "id": "311-omakase",
+      "name": "311 Omakase",
+      "neighborhood": "South End",
+      "cuisine": "Japanese omakase",
+      "coordinates": null,
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://311-boston.resos.com/booking",
+      "website": "https://311boston.com",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "15th",
+      "bookingWindow": "75 days",
+      "bookingWindowDays": 75,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Boston's only Michelin star (2025) — 10-seat counter, two seatings nightly",
+        "Reservations drop monthly on the 15th at 12:00 PM ET, 75 days out",
+        "Books out within minutes; set a reminder for the 15th",
+        "Actual platform is Resos (311-boston.resos.com), not Tock/Resy — verify booking page",
+        "Prepaid; no walk-ins"
+      ],
+      "signatureDish": "18-course nigiri progression",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "carmelinas",
+      "name": "Carmelina's",
+      "neighborhood": "North End",
+      "cuisine": "Sicilian Italian",
+      "coordinates": {
+        "lat": 42.3638736,
+        "lng": -71.0541614
+      },
+      "difficulty": 5,
       "priceRange": "$$$",
       "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/r/krasi-boston",
-      "website": "https://www.krasiboston.com",
-      "phoneNumber": "(617) 536-0230",
-      "releaseSchedule": "daily",
+      "platformUrl": "https://www.yelp.com/reservations/carmelinas-boston-2",
+      "website": "https://www.carmelinasboston.com/",
+      "phoneNumber": "(617) 742-0020",
+      "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
       "bookingWindow": "",
       "bookingWindowDays": null,
-      "walkIns": true,
+      "walkIns": false,
       "walkIn": null,
       "tips": [
-        "VERIFY release time",
-        "Books up to ~3 months out; grab dates as soon as they enter the window.",
-        "Avoid Wednesday (Symposium wine nights) and weekend brunch for easier tables; try the bar as a weekday walk-in."
+        "Online-only booking via Yelp Reservations (no phone); max party of 6",
+        "Books weeks to months out; 90-minute table limit, 10-min grace",
+        "Actual platform is Yelp Reservations, not OpenTable/Resy — book at yelp.com link",
+        "VERIFY release time/window"
       ],
-      "signatureDish": "Lalagites (fried pancakes with thyme honey and cheese)",
+      "signatureDish": "Lobster ravioli",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "grace-by-nia",
+      "name": "Grace by Nia",
+      "neighborhood": "Seaport",
+      "cuisine": "Southern American / soul food supper club",
+      "coordinates": {
+        "lat": 42.3526,
+        "lng": -71.0444
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/gracebynia",
+      "website": "https://www.gracebynia.com/",
+      "phoneNumber": "+1-617-927-9411",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Boston Seaport's first Black-woman-owned supper club with nightly live soul music",
+        "Founder cites a 30-day waitlist; books out weeks ahead",
+        "Wed/Thu and Sunday brunch via OpenTable/SevenRooms; Fri/Sat/Sun evenings via phone 617-405-5171 or reservations@bignight.com",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Bourbon peach ribs; lobster mac",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "yoshida-omakase",
+      "name": "Yoshida Omakase",
+      "neighborhood": "Back Bay",
+      "cuisine": "Japanese omakase (Edomae)",
+      "coordinates": {
+        "lat": 42.3497088,
+        "lng": -71.0892132
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/yoshida-boston",
+      "website": "https://www.yoshidaomakase.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "24-seat counter, two fixed nightly seatings, ~$301 pp prepaid",
+        "Short ~2-week rolling release on Tock; waitlist offered",
+        "VERIFY release time (12:00 PM ET) and 14-day window on live Tock page"
+      ],
+      "signatureDish": "Dry-aged (jukusei) fish; lobster and toro with osetra caviar",
       "lastVerified": "2026-06-25",
       "availability": null
     },
     {
       "id": "o-ya",
-      "name": "O Ya",
+      "name": "o ya",
       "neighborhood": "Leather District",
-      "cuisine": "Japanese omakase / sushi tasting",
+      "cuisine": "Contemporary Japanese omakase",
       "coordinates": {
         "lat": 42.3513538,
         "lng": -71.0569341
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "priceRange": "$$$$",
       "platform": "Tock",
       "platformUrl": "https://www.exploretock.com/o-ya/",
-      "website": "https://www.o-ya.restaurant",
+      "website": "https://www.o-ya.restaurant/",
       "phoneNumber": "",
       "releaseSchedule": "daily",
       "releaseTime": "12:00 PM ET",
@@ -100,155 +233,89 @@
       "walkIns": false,
       "walkIn": null,
       "tips": [
-        "A new day releases on Tock at 12:00 PM noon ET, 90 days out, one day at a time; save your card and refresh at noon.",
-        "Prepaid reservations only, no walk-ins; max party of 6.",
-        "Flex on Tue/Wed and the 5:00-5:30 PM or 8:30 PM seatings; set a Tock waitlist alert for cancellations."
+        "Prepaid 20-course tasting (~$295+ pp before fees) via Tock",
+        "Reservations release 90 days out, one day at a time, at noon ET",
+        "Weekend dates sell out; book 6-8 weeks ahead",
+        "Ignore stray OpenTable listings — official platform is Tock"
       ],
-      "signatureDish": "Foie gras nigiri with balsamic chocolate kabayaki",
+      "signatureDish": "Fried Kumamoto oyster nigiri with squid ink bubbles",
       "lastVerified": "2026-06-25",
       "availability": null
     },
     {
-      "id": "wa-shin",
-      "name": "Wa Shin",
-      "neighborhood": "Bay Village",
-      "cuisine": "Japanese Edomae omakase",
+      "id": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
       "coordinates": {
-        "lat": 42.3503392,
-        "lng": -71.0688965
+        "lat": 42.3423765,
+        "lng": -71.0704578
       },
-      "difficulty": 5,
-      "priceRange": "$$$$",
+      "difficulty": 4,
+      "priceRange": "$$$",
       "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/boston-ma/venues/wa-shin",
-      "website": "https://washinboston.com",
+      "platformUrl": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna",
+      "website": "https://kavaneotaverna.com/",
       "phoneNumber": "",
       "releaseSchedule": "daily",
-      "releaseTime": "12:00 PM ET",
+      "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "14 days",
-      "bookingWindowDays": 14,
-      "walkIns": false,
+      "bookingWindow": "1 days",
+      "bookingWindowDays": 1,
+      "walkIns": true,
       "walkIn": null,
       "tips": [
-        "Reservations release daily at 12:00 PM ET, 14 days in advance; be online exactly at noon.",
-        "Michelin-recommended; only ~8 seats per seating, so parties of 1-2 find more openings.",
-        "Full prepayment plus 20% admin fee at booking; reservations are transferable."
+        "Reservations open only ONE day in advance at 10:00 AM ET on Resy — book the morning before",
+        "Tiny taverna; tables held only 15 minutes",
+        "Holds some walk-in space daily"
       ],
-      "signatureDish": "Multi-course Edomae omakase (~18 courses)",
+      "signatureDish": "Grilled octopus (oktapodi)",
       "lastVerified": "2026-06-25",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 4,
+        "windowDays": 7,
+        "openDays": 2,
         "open": true,
         "dates": [
-          "2026-07-04",
-          "2026-07-06",
-          "2026-07-07",
-          "2026-07-08"
+          "2026-06-25",
+          "2026-06-26"
         ]
       }
     },
     {
-      "id": "mamma-maria",
-      "name": "Mamma Maria",
-      "neighborhood": "North End",
-      "cuisine": "Regional Italian fine dining",
-      "coordinates": {
-        "lat": 42.3640694,
-        "lng": -71.0533173
-      },
+      "id": "avra-estiatorio",
+      "name": "Avra Estiatorio",
+      "neighborhood": "Back Bay",
+      "cuisine": "Greek / Mediterranean seafood",
+      "coordinates": null,
       "difficulty": 4,
       "priceRange": "$$$$",
-      "platform": "SevenRooms",
-      "platformUrl": "https://www.sevenrooms.com/reservations/mammamaria",
-      "website": "https://www.mammamaria.com",
-      "phoneNumber": "",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/boston-ma/venues/avra-boston",
+      "website": "https://theavragroup.com/avra-boston",
+      "phoneNumber": "+1-214-294-8888",
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "VERIFY release time",
-        "Book on SevenRooms the moment your window opens; prime Fri/Sat and window/outdoor seats fill first.",
-        "Target Mon-Thu for easier slots; email the restaurant for the private townhouse rooms for groups of 4+."
-      ],
-      "signatureDish": "Lobster agnolotti",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "giulia",
-      "name": "Giulia",
-      "neighborhood": "Cambridge",
-      "cuisine": "Regional Italian / handmade pasta",
-      "coordinates": {
-        "lat": 42.3825203,
-        "lng": -71.1199871
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/giulia-restaurant",
-      "website": "https://www.giuliarestaurant.com",
-      "phoneNumber": "617.441.2800",
-      "releaseSchedule": "daily",
-      "releaseTime": "10:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "14 days",
-      "bookingWindowDays": 14,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": true,
       "walkIn": null,
       "tips": [
-        "Standard parties open 14 days out at 10:00 AM ET (changed from midnight effective Jan 2026); be online at 10 sharp.",
-        "Can't get a table? The 18-seat bar takes walk-ins with the full menu.",
-        "The large-party pasta table books up to ~6 months ahead."
+        "First New England outpost of the high-end NYC/Miami Greek seafood group; opened April 2026",
+        "Reservations available 30 days ahead via Resy or phone; bar is walk-in only",
+        "Big, splashy and newly open — prime tables go fast; VERIFY release time"
       ],
-      "signatureDish": "Handmade pastas (Monday Pasta Tasting nights)",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian (rooftop)",
-      "coordinates": {
-        "lat": 42.3528214,
-        "lng": -71.0714858
-      },
-      "difficulty": 5,
-      "priceRange": "$$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/boston-ma/venues/contessa",
-      "website": "https://contessaristorante.com/boston",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "10:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "VERIFY release time",
-        "Major Food Group rooftop at The Newbury; tables vanish minutes after the drop (reported 10:00 AM ET, 30 days out).",
-        "Set Resy Notify and refresh for cancellations 24-48 hrs out; weekday lunch, 5 PM, and 2-tops are far easier."
-      ],
-      "signatureDish": "Spicy lobster capellini",
+      "signatureDish": "Charcoal-grilled whole fish",
       "lastVerified": "2026-06-25",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -261,113 +328,20 @@
       }
     },
     {
-      "id": "bar-vlaha",
-      "name": "Bar Vlaha",
-      "neighborhood": "Brookline",
-      "cuisine": "Greek / Vlach open-fire",
+      "id": "comfort-kitchen",
+      "name": "Comfort Kitchen",
+      "neighborhood": "Upham's Corner (Dorchester)",
+      "cuisine": "Global African-diaspora comfort food",
       "coordinates": {
-        "lat": 42.3387211,
-        "lng": -71.13647310000002
+        "lat": 42.3174748,
+        "lng": -71.0640523
       },
       "difficulty": 4,
-      "priceRange": "$$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/r/bar-vlaha-brookline",
-      "website": "https://www.barvlaha.com",
-      "phoneNumber": "6179068556",
-      "releaseSchedule": "daily",
-      "releaseTime": "",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": true,
-      "walkIn": null,
-      "tips": [
-        "VERIFY release time",
-        "Called one of the toughest tables in town; book about a month out, especially for parties of 4+.",
-        "Walk in to the bar (singles/pairs) at 5 PM open; target early-week or brunch."
-      ],
-      "signatureDish": "Spit-roasted lamb leg (arni stin souvla)",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "saltie-girl",
-      "name": "Saltie Girl",
-      "neighborhood": "Back Bay",
-      "cuisine": "Seafood / raw bar",
-      "coordinates": {
-        "lat": 42.3512202,
-        "lng": -71.077589
-      },
-      "difficulty": 4,
-      "priceRange": "$$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/r/saltie-girl-back-bay-boston",
-      "website": "https://www.saltiegirl.com",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": true,
-      "walkIn": null,
-      "tips": [
-        "VERIFY release time",
-        "Official site routes only to OpenTable; ignore the stale Resy listing.",
-        "Indoor is reservation-only but the patio is first-come walk-in; target Mon-Wed dinner."
-      ],
-      "signatureDish": "Lobster rolls (warm and cold); the 'Secret' fried lobster roll",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "yvonnes",
-      "name": "Yvonne's",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "New American supper club",
-      "coordinates": {
-        "lat": 42.3554267,
-        "lng": -71.0613722
-      },
-      "difficulty": 4,
-      "priceRange": "$$$$",
-      "platform": "SevenRooms",
-      "platformUrl": "https://www.sevenrooms.com/reservations/yvonneboston",
-      "website": "https://www.yvonnesboston.com",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "VERIFY release time",
-        "Book via SevenRooms directly; the OpenTable listing is stale and not bookable.",
-        "Target Sun-Thu off-peak; card required for parties of 3+ Sun-Thu and all Fri/Sat. Try the bar for walk-up access."
-      ],
-      "signatureDish": "Mezze platter; lazy lobster dumplings",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "somaek",
-      "name": "Somaek",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Korean (soju & makgeolli)",
-      "coordinates": {
-        "lat": 42.3552282,
-        "lng": -71.0620613
-      },
-      "difficulty": 3,
       "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/boston-ma/venues/somaek",
-      "website": "https://www.somaek.com",
-      "phoneNumber": "",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/comfort-kitchen-boston",
+      "website": "https://www.comfortkitchenbos.com/",
+      "phoneNumber": "6173296910",
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
@@ -376,64 +350,47 @@
       "walkIns": true,
       "walkIn": null,
       "tips": [
-        "VERIFY release time",
-        "Jamie Bissonnette / Michelin Recommended; the bar turns over fast and is a solid walk-in fallback, easiest on weeknights.",
-        "Set Resy Notify for the Fri/Sat 6:30-8:30 PM prime band; closed Sundays."
+        "~30 seats; chef Sasha Coleman is a 2026 James Beard Best Chef Northeast nominee",
+        "Weekend brunch and Saturday dinner regularly sell out — set an OpenTable cancellation alert",
+        "Limited bar/patio walk-ins; cancel by 5 PM day-before or $25 pp fee",
+        "VERIFY release time/window"
       ],
-      "signatureDish": "Mandu (kimchi-pork-tofu dumplings)",
+      "signatureDish": "Jerk-roasted duck",
       "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-06-29",
-          "2026-06-30",
-          "2026-07-01"
-        ]
-      }
+      "availability": null
     },
     {
-      "id": "fallow-kin",
-      "name": "Fallow Kin",
-      "neighborhood": "Cambridge",
-      "cuisine": "New American, vegetable-forward",
-      "coordinates": {
-        "lat": 42.3634473,
-        "lng": -71.0987231
-      },
+      "id": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "coordinates": null,
       "difficulty": 4,
       "priceRange": "$$$$",
       "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/cambridge-ma/venues/fallow-kin",
-      "website": "https://www.fallowkin.com",
+      "platformUrl": "https://resy.com/cities/boston-ma/venues/contessa",
+      "website": "https://contessaristorante.com/boston",
       "phoneNumber": "",
       "releaseSchedule": "daily",
-      "releaseTime": "",
+      "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": true,
       "walkIn": null,
       "tips": [
-        "VERIFY release time",
-        "Buzzy Oct 2025 opening in the old Craigie on Main space; the 10-seat prepaid chef's counter is the scarce ticket, so book it far ahead.",
-        "Bar (opens 4 PM, full menu) is first-come walk-in; use Resy Notify for cancellations."
+        "Major Food Group rooftop atop The Newbury with Public Garden views",
+        "Reportedly 30-day rolling release at 10 AM ET — VERIFY (search-sourced, not official)",
+        "Even weeknight prime times go fast; limited bar walk-ins"
       ],
-      "signatureDish": "Wagyu bar burger; caramelized carrot with duck prosciutto",
+      "signatureDish": "Bistecca alla Fiorentina",
       "lastVerified": "2026-06-25",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 9,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -441,6 +398,282 @@
           "2026-06-27",
           "2026-06-28",
           "2026-06-29",
+          "2026-06-30"
+        ]
+      }
+    },
+    {
+      "id": "dalia",
+      "name": "Dalia",
+      "neighborhood": "South Boston",
+      "cuisine": "Wood-fired Spanish",
+      "coordinates": {
+        "lat": 42.3362671,
+        "lng": -71.0474628
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/dalia-boston",
+      "website": "https://www.daliaboston.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "High-profile April 2026 Southie debut; Globe says reservations 'are hard to come by'",
+        "Midnight release is search-sourced — VERIFY release time on OpenTable",
+        "Bar is first-come walk-in"
+      ],
+      "signatureDish": "Calamares 'Dan Dan'",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "giulia",
+      "name": "Giulia",
+      "neighborhood": "Cambridge (Mass Ave, Harvard/Porter)",
+      "cuisine": "Italian (handmade pasta)",
+      "coordinates": {
+        "lat": 42.3825203,
+        "lng": -71.1199871
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/giulia-restaurant",
+      "website": "https://www.giuliarestaurant.com/",
+      "phoneNumber": "617.441.2800",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "As of Jan 1, 2026 standard reservations open at 10:00 AM ET daily (was midnight), ~14 days out",
+        "Communal Pasta Table ($115 pp) booked by email up to 6 months ahead",
+        "Online booking is indoor-only; patio is phone-only; 18-seat bar takes walk-ins"
+      ],
+      "signatureDish": "Pappardelle with braised wild boar",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "krasi",
+      "name": "Krasi",
+      "neighborhood": "Back Bay",
+      "cuisine": "Greek meze and wine bar",
+      "coordinates": {
+        "lat": 42.3486647,
+        "lng": -71.0841093
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/krasi-boston",
+      "website": "https://www.krasiboston.com/",
+      "phoneNumber": "(617) 536-0230",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Largest Greek wine list in the US; can book out ~3 months ahead",
+        "Wednesday Symposium nights are especially tough",
+        "Limited bar walk-ins; VERIFY release time/window"
+      ],
+      "signatureDish": "Xtapodi (grilled octopus braised in mavrodaphne)",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "coordinates": {
+        "lat": 42.3483524,
+        "lng": -71.0751296
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/boston-ma/venues/la-padrona",
+      "website": "https://www.lapadronaboston.com/",
+      "phoneNumber": "+16178980010",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "From chef Jody Adams (A Street Hospitality) at Raffles Boston",
+        "Reservations release at 9:00 AM ET on a 14-day rolling basis",
+        "First-floor bar/lounge held for first-come walk-ins; parties of 14+ by email"
+      ],
+      "signatureDish": "Tagliatelle Emilia-Romagna",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30"
+        ]
+      }
+    },
+    {
+      "id": "mamma-maria",
+      "name": "Mamma Maria",
+      "neighborhood": "North End",
+      "cuisine": "Italian fine dining",
+      "coordinates": {
+        "lat": 42.3640694,
+        "lng": -71.0533173
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/mammamaria",
+      "website": "https://www.mammamaria.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "AAA Four Diamond; coveted window and outdoor tables book well ahead",
+        "Parties of 5+ need a credit card; $10 pp cancellation fee within 48h",
+        "Limited bar walk-ins; VERIFY release time/window on SevenRooms"
+      ],
+      "signatureDish": "Osso buco",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "mariel",
+      "name": "Mariel",
+      "neighborhood": "Financial District (Post Office Square)",
+      "cuisine": "Cuban",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/marielma",
+      "website": "https://www.marielofficial.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "High demand even on weekdays; group reservations capped at 12",
+        "Reservations resell on AppointmentTrader (~$183 avg), indicating real scarcity",
+        "Bar Mariel takes walk-ins; VERIFY release time/window"
+      ],
+      "signatureDish": "Fufu gnocchi",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "prima",
+      "name": "Prima",
+      "neighborhood": "Charlestown",
+      "cuisine": "Italian steakhouse",
+      "coordinates": {
+        "lat": 42.37228,
+        "lng": -71.06169
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/prima-boston",
+      "website": "https://www.primaboston.com/",
+      "phoneNumber": "617-804-7400",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Tables release once daily at 12:00 PM, 30 days out — concentrating demand",
+        "Online booking for parties up to 8; 8-14 by phone/email",
+        "Parties of 5+ need a card; $25 pp no-show fee; bar walk-ins first-come",
+        "VERIFY noon release is ET"
+      ],
+      "signatureDish": "Veal chop parm",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "sushi-temple-records",
+      "name": "Sushi @ Temple Records",
+      "neighborhood": "Downtown Crossing",
+      "cuisine": "Japanese sushi / omakase",
+      "coordinates": {
+        "lat": 42.3552282,
+        "lng": -71.0620613
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/boston-ma/venues/sushi-temple-records",
+      "website": "https://www.sushiattemplerecords.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "22-seat Hinoki-wood counter from Jamie Bissonnette's group",
+        "90-min window; table held 15 min; $50 pp no-show / late-cancel fee signals tight demand",
+        "VERIFY release schedule and time on Resy"
+      ],
+      "signatureDish": "Chef Kenta's nigiri omakase",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-29",
+          "2026-06-30",
           "2026-07-01"
         ]
       }
@@ -458,7 +691,7 @@
       "priceRange": "$$$$",
       "platform": "OpenTable",
       "platformUrl": "https://www.opentable.com/r/uni-boston",
-      "website": "https://uni-boston.com",
+      "website": "https://uni-boston.com/",
       "phoneNumber": "+16175367200",
       "releaseSchedule": "daily",
       "releaseTime": "",
@@ -468,44 +701,209 @@
       "walkIns": false,
       "walkIn": null,
       "tips": [
-        "VERIFY release time",
-        "Inside The Eliot Hotel; the 4-seat Thursday 'Take-Kase' omakase counter ($250pp) is the true hard ticket, so book it the moment a Thursday enters the window.",
-        "For a regular table, check OpenTable 1-2 days out for cancellations; call 617-536-7200 to confirm requests."
+        "Ken Oringer's acclaimed izakaya inside The Eliot Hotel since 2002",
+        "The intimate Thursday 'Take-Kase' omakase counter is the true hard ticket — book it the moment a Thursday enters the window",
+        "Check OpenTable 1-2 days out for cancellations; VERIFY release time/window"
       ],
       "signatureDish": "The Uni Spoon (sea urchin, quail yolk, osetra caviar)",
       "lastVerified": "2026-06-25",
       "availability": null
     },
     {
-      "id": "carmelinas",
-      "name": "Carmelina's",
-      "neighborhood": "North End",
-      "cuisine": "Italian / Sicilian seafood",
+      "id": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
       "coordinates": {
-        "lat": 42.3638736,
-        "lng": -71.0541614
+        "lat": 42.3799924,
+        "lng": -71.0945161
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.yelp.com/reservations/carmelinas-boston-2",
-      "website": "https://www.carmelinasboston.com",
-      "phoneNumber": "(617) 742-0020",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/boston-ma/venues/field-and-vine",
+      "website": "https://www.fieldandvinesomerville.com/",
+      "phoneNumber": "",
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "180 days",
-      "bookingWindowDays": 180,
+      "bookingWindow": "",
+      "bookingWindowDays": null,
       "walkIns": true,
       "walkIn": null,
       "tips": [
-        "VERIFY release time",
-        "PLATFORM NOTE: actually books via Yelp Reservations (not OpenTable/Resy) at the link shown; online-only, no phone bookings.",
-        "Booked weeks-to-months out; enable Yelp waitlist alerts and book the instant slots open. Max party 6, 90-min seatings; weekday lunch or ~5 PM offers occasional walk-up bar seats."
+        "~40-seat room with 7 counter seats reserved for walk-ins",
+        "Seats complete parties in 2-hour windows",
+        "VERIFY release schedule/time on Resy"
       ],
-      "signatureDish": "Lobster ravioli; Sunday macaroni",
+      "signatureDish": "Beef tartare / raw bar",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 3,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27"
+        ]
+      }
+    },
+    {
+      "id": "bar-volpe",
+      "name": "Bar Volpe",
+      "neighborhood": "South Boston",
+      "cuisine": "Southern Italian",
+      "coordinates": {
+        "lat": 42.3404121,
+        "lng": -71.0530365
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/bar-volpe-boston",
+      "website": "https://www.barvolpe.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Michelin Bib Gourmand (2025); chef Karen Akunowicz",
+        "Demand surged after Nov 2025 Michelin recognition; weekends fill fast",
+        "Always saves room for first-come bar walk-ins",
+        "VERIFY release time/window"
+      ],
+      "signatureDish": "Wood-fired seafood; house-made pastas",
       "lastVerified": "2026-06-25",
       "availability": null
+    },
+    {
+      "id": "cafe-sushi",
+      "name": "Cafe Sushi",
+      "neighborhood": "Harvard Square (Cambridge)",
+      "cuisine": "Japanese / sushi",
+      "coordinates": {
+        "lat": 42.370701,
+        "lng": -71.1133216
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/cambridge-ma/venues/cafe-sushi",
+      "website": "https://www.cafesushicambridge.com",
+      "phoneNumber": "617-492-0434",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Four-decade sushi institution; dine-in reopened Dec 2025 (now a la carte, omakase discontinued)",
+        "Narrow Wed-Sat 4:30-8:30 PM dinner window concentrates demand",
+        "Not on OpenTable network — book on Resy; VERIFY release schedule"
+      ],
+      "signatureDish": "Gindara misozuke (miso-glazed sablefish)",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-07-01"
+        ]
+      }
+    },
+    {
+      "id": "coppa-enoteca",
+      "name": "Coppa Enoteca",
+      "neighborhood": "South End",
+      "cuisine": "Italian enoteca",
+      "coordinates": {
+        "lat": 42.3434587,
+        "lng": -71.068688
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/coppa-reservations-boston",
+      "website": "https://www.coppaboston.com/",
+      "phoneNumber": "617-391-0902",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Tiny room from Ken Oringer / Jamie Bissonnette — reservations are a must",
+        "Patio and bar are first-come; dining room by reservation",
+        "VERIFY release schedule/time and window on OpenTable"
+      ],
+      "signatureDish": "Celery Caesar salad; wood-fired pizzas",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "darling",
+      "name": "Darling",
+      "neighborhood": "Central Square (Cambridge)",
+      "cuisine": "Dim sum and cocktails",
+      "coordinates": {
+        "lat": 42.3636932,
+        "lng": -71.101199
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/cambridge-ma/venues/darling-ma",
+      "website": "https://www.darlingcambridge.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Buzzy ~56-seat lounge honoring Mary Chung's legacy; on Resy's Boston hit list",
+        "Tables surface on resale marketplaces, indicating demand",
+        "VERIFY release time/window and walk-in policy on Resy"
+      ],
+      "signatureDish": "'Filet O' Fish' bao",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      }
     }
   ]
 }

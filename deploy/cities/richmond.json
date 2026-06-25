@@ -2,48 +2,16 @@
   "meta": {
     "source": "curate.py",
     "city": "Richmond, VA",
-    "count": 15,
+    "count": 25,
     "generated": "2026-06-25",
     "disclaimer": "Always confirm release times with the restaurant."
   },
   "spots": [
     {
-      "id": "restaurant-adarra",
-      "name": "Restaurant Adarra",
-      "neighborhood": "The Fan",
-      "cuisine": "Contemporary European / Basque-influenced fine dining",
-      "coordinates": {
-        "lat": 37.5390192,
-        "lng": -77.4502591
-      },
-      "difficulty": 5,
-      "priceRange": "$$$$",
-      "platform": "Tock",
-      "platformUrl": "https://www.exploretock.com/restaurant-adarra-richmond",
-      "website": "https://restaurantadarra.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Reservations release on a rolling 30-day basis, so check exactly 30 days out for your target date",
-        "Credit card hold required; $30-$50/person cancellation fee for same-day cancels or no-shows",
-        "Small dining room, books out fast on weekends",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "celladora",
+      "id": "celladora-wines",
       "name": "Celladora Wines",
       "neighborhood": "The Fan",
-      "cuisine": "Natural wine bar / seasonal small plates",
+      "cuisine": "Seasonal small plates / natural wine",
       "coordinates": {
         "lat": 37.5545579,
         "lng": -77.4557659
@@ -54,547 +22,19 @@
       "platformUrl": "https://www.celladorawines.com/",
       "website": "https://www.celladorawines.com/",
       "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
+      "releaseSchedule": "none",
+      "releaseTime": "",
       "releaseDay": "",
       "bookingWindow": "",
       "bookingWindowDays": null,
       "walkIns": false,
       "walkIn": null,
       "tips": [
-        "Tiny room (roughly 14 seats / 4 tables) — one of the hardest weekend tables in Richmond",
-        "Some sources report Celladora also takes reservations by phone/text — confirm current method before relying on Resy",
-        "Dinner served Wednesday–Saturday after 5pm",
-        "VERIFY platform (Resy vs phone/text)",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time",
+        "Tiny room, only a handful of tables",
+        "Reservations by text/phone/Instagram DM only - not a standard online platform",
+        "VERIFY release time",
+        "Confirm whether a Resy page is currently active or if it's text-only",
         "Not bookable on Resy — reserve via the website or by phone"
-      ],
-      "signatureDish": "",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "coordinates": {
-        "lat": 37.5686965,
-        "lng": -77.4694212
-      },
-      "difficulty": 5,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/the-brooklyn",
-      "website": "https://www.thebrooklynrva.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Opened November 2025 from the owners of Lost Letter and Lillian — currently the city's buzziest hard table",
-        "Open Wednesday–Sunday; late-night menu after 10pm Fri/Sat",
-        "Book the moment your weekend date is in the window",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "Wood-fired grilled ribeye; whole branzino",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 8,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-27",
-          "2026-06-28",
-          "2026-07-01",
-          "2026-07-02",
-          "2026-07-03"
-        ]
-      }
-    },
-    {
-      "id": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / oyster hall",
-      "coordinates": {
-        "lat": 37.566504,
-        "lng": -77.4703029
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/lillian",
-      "website": "https://www.lillianoysterhall.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": true,
-      "walkIn": null,
-      "tips": [
-        "Walk-ins welcome but weekend tables go fast — reserve ahead",
-        "Sister restaurant to The Brooklyn and Lost Letter",
-        "Closed Monday & Tuesday",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "Oysters; ceviche",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 8,
-        "open": true,
-        "dates": [
-          "2026-06-26",
-          "2026-06-27",
-          "2026-06-28",
-          "2026-07-01",
-          "2026-07-02",
-          "2026-07-03"
-        ]
-      }
-    },
-    {
-      "id": "lost-letter",
-      "name": "Lost Letter",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Northern Italian",
-      "coordinates": {
-        "lat": 37.5656145,
-        "lng": -77.4709856
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/lost-letter",
-      "website": "https://www.lostletterrva.com/",
-      "phoneNumber": "8043083497",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": true,
-      "walkIn": null,
-      "tips": [
-        "From the Longoven team; one of Richmond Magazine's top picks",
-        "Walk-ins welcome but reservations encouraged; $25/guest fee for cancels within 24 hours",
-        "Parties of 5–8 must email reservations@lostletterrva.com",
-        "Closed Monday & Tuesday",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 9,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-06-28",
-          "2026-07-01",
-          "2026-07-02"
-        ]
-      }
-    },
-    {
-      "id": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French / Lyonnais bouchon",
-      "coordinates": {
-        "lat": 37.5286862,
-        "lng": -77.4119696
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/grisette",
-      "website": "https://grisetterva.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Reservations open 30 days in advance (rolling)",
-        "Chef Donnie Glass; same team as Beaucoup and Jardin",
-        "Dinner Monday–Saturday from 5pm",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "Steak frites; charcuterie",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 9,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
-        ]
-      }
-    },
-    {
-      "id": "beaucoup",
-      "name": "Beaucoup",
-      "neighborhood": "The Fan",
-      "cuisine": "French bistro / raw bar",
-      "coordinates": {
-        "lat": 37.5522807,
-        "lng": -77.4727327
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/beaucoup",
-      "website": "https://www.beaucouprva.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Tight, loud room — small footprint makes weekend tables scarce",
-        "From the Grisette/Donnie Glass group",
-        "VERIFY booking window",
-        "VERIFY address",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "Daily oysters; chilled seafood salad",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 10,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-06-28",
-          "2026-06-30",
-          "2026-07-01"
-        ]
-      }
-    },
-    {
-      "id": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Coastal Mid-Atlantic seafood / oyster bar",
-      "coordinates": {
-        "lat": 37.5665326,
-        "lng": -77.4722633
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/slack-tide",
-      "website": "https://slacktiderva.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Opened June 2025 in the Ballast complex; newest entry on Richmond Magazine's best list",
-        "Open Tue–Fri 4–10pm, Sat from noon",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "Sustainable oysters",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 5,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-07-07",
-          "2026-07-08"
-        ]
-      }
-    },
-    {
-      "id": "shagbark",
-      "name": "Shagbark",
-      "neighborhood": "Libbie Mill / Near West End",
-      "cuisine": "Elevated Southern / farm-to-table",
-      "coordinates": {
-        "lat": 37.5907348,
-        "lng": -77.493889
-      },
-      "difficulty": 4,
-      "priceRange": "$$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/shagbark",
-      "website": "https://www.shagbarkrva.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "60 days",
-      "bookingWindowDays": 60,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Chef Walter Bundy; a top-tier special-occasion table in Richmond",
-        "Book on Resy, or call between 3–6pm on open days",
-        "Closed Sunday & Monday",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 5,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-07-07",
-          "2026-07-08"
-        ]
-      }
-    },
-    {
-      "id": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "Contemporary German",
-      "coordinates": {
-        "lat": 37.5370955,
-        "lng": -77.4161865
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery",
-      "website": "http://www.metzgerbarandbutchery.com/",
-      "phoneNumber": "General Inquiries 804.325.3147",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": true,
-      "walkIn": null,
-      "tips": [
-        "James Beard winner Brittanny Anderson; expect to book at least a few days ahead",
-        "Bar seating always held for walk-ins",
-        "Also listed on OpenTable, but Resy is the primary platform — confirm before booking",
-        "Closed Monday; Sunday brunch only",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 11,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-06-28",
-          "2026-06-30",
-          "2026-07-01"
-        ]
-      }
-    },
-    {
-      "id": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Mid-Atlantic / Chesapeake seafood",
-      "coordinates": {
-        "lat": 37.5288668,
-        "lng": -77.4116226
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Resy",
-      "platformUrl": "https://resy.com/cities/richmond-va/venues/alewife",
-      "website": "https://www.alewiferva.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Long-running Church Hill favorite; weekend dinner tables are competitive",
-        "Parties over 6 must call the restaurant",
-        "Sunday is brunch only (10:30am–1:30pm)",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "Szechuan peppercorn-dusted oysters; Wagyu beef tartare",
-      "lastVerified": "2026-06-25",
-      "availability": {
-        "checkedAt": "2026-06-25",
-        "source": "resy",
-        "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
-        "open": true,
-        "dates": [
-          "2026-06-25",
-          "2026-06-26",
-          "2026-06-27",
-          "2026-06-28",
-          "2026-06-29",
-          "2026-06-30"
-        ]
-      }
-    },
-    {
-      "id": "lopossum",
-      "name": "L'Opossum",
-      "neighborhood": "Oregon Hill",
-      "cuisine": "French / New American (haute-camp)",
-      "coordinates": {
-        "lat": 37.5379573,
-        "lng": -77.450359
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/lopossum",
-      "website": "https://www.lopossum.com/",
-      "phoneNumber": "(804) 918-6028",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "60 days",
-      "bookingWindowDays": 60,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Chef David Shannon; a perennial hard-to-book Richmond icon",
-        "Dinner Tuesday–Saturday; parties capped at 6",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "blue-atlas",
-      "name": "Blue Atlas",
-      "neighborhood": "Fulton Hill",
-      "cuisine": "Global small plates",
-      "coordinates": {
-        "lat": 37.5172579,
-        "lng": -77.404473
-      },
-      "difficulty": 3,
-      "priceRange": "$$$",
-      "platform": "Tock",
-      "platformUrl": "https://www.exploretock.com/blue-atlas-richmond",
-      "website": "https://www.blueatlasrva.com/",
-      "phoneNumber": "804-554-0258",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Dinner reservations (5pm+) via Tock require a credit card hold; parties over 6 must call",
-        "Breakfast/lunch is walk-in only, no reservations",
-        "Rotating menus and vegan takeovers drive demand",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
-      ],
-      "signatureDish": "",
-      "lastVerified": "2026-06-25",
-      "availability": null
-    },
-    {
-      "id": "stellas",
-      "name": "Stella's",
-      "neighborhood": "Near West End",
-      "cuisine": "Greek",
-      "coordinates": {
-        "lat": 37.5675597,
-        "lng": -77.4864175
-      },
-      "difficulty": 3,
-      "priceRange": "$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/stellas-restaurant-richmond",
-      "website": "https://stellasrichmond.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Family institution since 1983 with a cult of regulars; weekend prime time is tough",
-        "Try a 4–5pm seating or bar spot for better odds",
-        "VERIFY booking window",
-        "Release time assumed: platform opens new dates at midnight ET (rolling) — verify the exact time"
       ],
       "signatureDish": "",
       "lastVerified": "2026-06-25",
@@ -624,15 +64,880 @@
       "walkIn": null,
       "tips": [
         "Reservations release for the entire following month at midnight on the 1st of each month - book the moment they drop",
-        "Set OpenTable notifications to catch cancellation spots",
         "Richmond's hottest reservation - booked solid since its January 2026 opening",
         "Giavos family restaurant (Constantine Giavos); chef Bobo Catoe",
-        "Open Tue/Wed-Sun ~4:30/5-10pm; sources differ on exact days/hours - VERIFY current hours",
         "Release time confirmed midnight ET on the 1st per Axios Richmond"
       ],
       "signatureDish": "Buffalo octopus; bone-in veal Parmesan; Tavern burger with Cooper's Sharp White cheese",
       "lastVerified": "2026-06-25",
       "availability": null
+    },
+    {
+      "id": "restaurant-adarra",
+      "name": "Restaurant Adarra",
+      "neighborhood": "Oregon Hill",
+      "cuisine": "Basque-inspired / contemporary tasting",
+      "coordinates": {
+        "lat": 37.5390192,
+        "lng": -77.4502591
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/restaurant-adarra-richmond",
+      "website": "https://restaurantadarra.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations open on a rolling 30-day basis (rolling=daily)",
+        "Limited bar seating held for walk-ins",
+        "VERIFY release time",
+        "Confirm exact street address (some listings show 618 N 1st St)"
+      ],
+      "signatureDish": "Wood-fired seasonal Basque dishes",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "coordinates": {
+        "lat": 37.5686965,
+        "lng": -77.4694212
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/the-brooklyn",
+      "website": "https://www.thebrooklynrva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Opened November 2025 from the owners of Lost Letter and Lillian - currently among the city's buzziest hard tables",
+        "Book the moment your weekend date is in the window",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Wood-fired grilled ribeye; whole branzino",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-07-01"
+        ]
+      }
+    },
+    {
+      "id": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "coordinates": {
+        "lat": 37.5349323,
+        "lng": -77.4154461
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/the-roosevelt",
+      "website": "https://rooseveltrva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Online booking limited to parties of 6 or fewer",
+        "Call 3-7 PM for larger parties",
+        "VERIFY release time (assumed Resy midnight default)"
+      ],
+      "signatureDish": "Seasonal Appalachian-Southern small plates",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30"
+        ]
+      }
+    },
+    {
+      "id": "dinamo",
+      "name": "Dinamo",
+      "neighborhood": "The Fan",
+      "cuisine": "Jewish-Italian",
+      "coordinates": {
+        "lat": 37.5443944,
+        "lng": -77.4525768
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/dinamo-richmond",
+      "website": "https://dinamorichmond.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Historically walk-in heavy with text-waitlist; confirm whether OpenTable bookings are live",
+        "VERIFY release time",
+        "VERIFY current reservation policy (has fluctuated)"
+      ],
+      "signatureDish": "Seasonal pasta",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "coordinates": {
+        "lat": 37.5286862,
+        "lng": -77.4119696
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/grisette",
+      "website": "https://grisetterva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations available 30 days out, parties of 6 or fewer online",
+        "Sister spots Jardin & Beaucoup nearby for overflow",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Steak frites",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      }
+    },
+    {
+      "id": "l-opossum",
+      "name": "L'Opossum",
+      "neighborhood": "Oregon Hill",
+      "cuisine": "French haute / playful",
+      "coordinates": {
+        "lat": 37.5379573,
+        "lng": -77.450359
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/lopossum",
+      "website": "https://www.lopossum.com/",
+      "phoneNumber": "(804) 918-6028",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Primary booking is PHONE: call (804) 918-6028, 3-11 PM daily; OpenTable listing exists but phone is the real path",
+        "Same-day cancellation calls are the trick for tables",
+        "Reservations required for parties of 6+",
+        "Max party size 6; Tue-Sat dinner only",
+        "VERIFY whether OpenTable booking is actually live or listing-only",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Theatrical French tasting plates",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "coordinates": {
+        "lat": 37.566504,
+        "lng": -77.4703029
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/lillian",
+      "website": "https://www.lillianoysterhall.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations limited to a single banquette table; most seating is counter/walk-in",
+        "Patio first-come, first-served",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Buck-a-shuck oysters; raw bar towers",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 4,
+        "open": true,
+        "dates": [
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-07-01"
+        ]
+      }
+    },
+    {
+      "id": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "coordinates": {
+        "lat": 37.5370955,
+        "lng": -77.4161865
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/metzger-bar-and-butchery",
+      "website": "http://www.metzgerbarandbutchery.com/",
+      "phoneNumber": "General Inquiries 804.325.3147",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Bar seating reserved for walk-ins",
+        "Small dining room - book ahead",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Schnitzel; charcuterie",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 37.5416905,
+        "lng": -77.4416506
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric",
+      "website": "https://www.yelp.com/biz/nami-japanese-restaurant-richmond",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only a 6-seat omakase bar, upstairs and separate from main restaurant",
+        "~80-minute seatings",
+        "VERIFY release time and exact booking window"
+      ],
+      "signatureDish": "13-course seated omakase (~$85)",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      }
+    },
+    {
+      "id": "shagbark",
+      "name": "Shagbark",
+      "neighborhood": "Libbie Mill / Midtown",
+      "cuisine": "Hunter-fisher-waterman / refined Virginia",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/ric/shagbark",
+      "website": "https://www.shagbarkrva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Booked up to 60 days in advance via Resy",
+        "Also takes phone reservations after 3 PM on open days",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Virginia-sourced wild game & seafood",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "coordinates": {
+        "lat": 37.5665326,
+        "lng": -77.4722633
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/slack-tide",
+      "website": "https://slacktiderva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "New June-2025 opening; buzz may inflate near-term demand",
+        "Closed Sundays",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Mid-Atlantic seafood plates",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 3,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27"
+        ]
+      }
+    },
+    {
+      "id": "alewife",
+      "name": "Alewife",
+      "neighborhood": "Church Hill",
+      "cuisine": "Chesapeake / Mid-Atlantic seafood",
+      "coordinates": {
+        "lat": 37.5288668,
+        "lng": -77.4116226
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/alewife",
+      "website": "https://www.alewiferva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Parties over 6 must call",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Offbeat local catch; oysters",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30"
+        ]
+      }
+    },
+    {
+      "id": "birdies",
+      "name": "Birdie's",
+      "neighborhood": "Arts District / Broad St",
+      "cuisine": "Cafe / oyster bar / wine cellar",
+      "coordinates": {
+        "lat": 37.5471852,
+        "lng": -77.4449511
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/birdiesva",
+      "website": "https://www.birdiesva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Only ~28 seats",
+        "Parties of 6+ must call",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "East Coast oysters; seafood towers; lobster roll",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "blue-atlas",
+      "name": "Blue Atlas",
+      "neighborhood": "Fulton / East End",
+      "cuisine": "Global small plates / vegetable-forward",
+      "coordinates": {
+        "lat": 37.5172579,
+        "lng": -77.404473
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/blue-atlas-richmond",
+      "website": "https://www.blueatlasrva.com/",
+      "phoneNumber": "804-554-0258",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reservations Wed-Sat from 3 PM, Sun from 5 PM via Tock; breakfast/lunch walk-in only",
+        "Vegan takeover dinners book out",
+        "VERIFY release time and window"
+      ],
+      "signatureDish": "Rotating global small plates",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "coordinates": {
+        "lat": 37.5795946,
+        "lng": -77.5148823
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/conejo",
+      "website": "https://conejococina.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Some tables held for walk-ins",
+        "Reservations recommended per Richmond Mag",
+        "VERIFY release time"
+      ],
+      "signatureDish": "House-milled heirloom-corn tortillas; ceviche; frozen margaritas",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30"
+        ]
+      }
+    },
+    {
+      "id": "lehja",
+      "name": "Lehja",
+      "neighborhood": "Short Pump",
+      "cuisine": "Modern Punjabi / Indian",
+      "coordinates": {
+        "lat": 37.6561375,
+        "lng": -77.619876
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/lehja",
+      "website": "http://www.lehja.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Also listed on OpenTable - confirm primary platform",
+        "Larger room than Fan/Church Hill spots, so easier midweek",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Chaat; modern Indian tasting plates",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 7,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-06-29",
+          "2026-06-30"
+        ]
+      }
+    },
+    {
+      "id": "lemaire-at-the-jefferson-hotel",
+      "name": "Lemaire at The Jefferson Hotel",
+      "neighborhood": "Downtown / Franklin St",
+      "cuisine": "Refined New American / Virginia",
+      "coordinates": {
+        "lat": 37.5443216,
+        "lng": -77.4454662
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/lemaire-at-the-jefferson-hotel",
+      "website": "https://www.jeffersonhotel.com/dine/overview",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Bar, lounge, conservatory and patio are first-come, first-served (dining room only is reservable)",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Seasonal Virginia tasting plates; afternoon tea",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "lost-letter",
+      "name": "Lost Letter",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Northern Italian",
+      "coordinates": {
+        "lat": 37.5656145,
+        "lng": -77.4709856
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/lost-letter",
+      "website": "https://www.lostletterrva.com/",
+      "phoneNumber": "8043083497",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "From the Longoven team; took over Longoven's old space",
+        "Romantic, low-lit small room - date nights book first",
+        "VERIFY platform (confirm Resy vs in-house 'Reserve Table')",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Beef tartare; cavatelli",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 5,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-28",
+          "2026-07-01"
+        ]
+      }
+    },
+    {
+      "id": "ml-steak-modern-chophouse",
+      "name": "ML Steak Modern Chophouse",
+      "neighborhood": "Downtown",
+      "cuisine": "Modern steakhouse",
+      "coordinates": {
+        "lat": 37.5437174,
+        "lng": -77.4383346
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/mlsteak",
+      "website": "https://www.mlsteakrva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Parties of 8+ require $10/person deposit on Tock",
+        "Open Wed-Sat only - compressed week tightens prime slots",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Dry-aged steaks",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "mama-js-kitchen",
+      "name": "Mama J's Kitchen",
+      "neighborhood": "Jackson Ward",
+      "cuisine": "Southern / soul food",
+      "coordinates": {
+        "lat": 37.5464565,
+        "lng": -77.4395787
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/mama-js-kitchen",
+      "website": "https://www.facebook.com/MamaJsRVA/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Heavy walk-in / takeout volume; long waits common",
+        "Confirm whether OpenTable booking is live or phone-only (804-225-7449)",
+        "VERIFY release time and platform"
+      ],
+      "signatureDish": "Fried catfish; fried chicken",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "pennys-wine-shop",
+      "name": "Penny's Wine Shop",
+      "neighborhood": "Jackson Ward",
+      "cuisine": "Natural wine bar / small plates",
+      "coordinates": {
+        "lat": 37.5478564,
+        "lng": -77.4425281
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/pennyswineshop",
+      "website": "https://pennysrva.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Entire room (bar + communal table) is reservation-based via Tock",
+        "Full menu Wed-Sat from 5 PM",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Seasonal small plates; natural wine",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "stellas",
+      "name": "Stella's",
+      "neighborhood": "Museum District / Lafayette",
+      "cuisine": "Greek",
+      "coordinates": {
+        "lat": 37.5675597,
+        "lng": -77.4864175
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/stellas-restaurant-richmond",
+      "website": "https://stellasrichmond.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Very popular neighborhood spot - reservations highly recommended",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Greek meze; spanakopita",
+      "lastVerified": "2026-06-25",
+      "availability": null
+    },
+    {
+      "id": "acacia-midtown",
+      "name": "Acacia Midtown",
+      "neighborhood": "Libbie Mill / Midtown",
+      "cuisine": "Modern coastal seafood",
+      "coordinates": {
+        "lat": 37.59239609999999,
+        "lng": -77.4935189
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/acacia",
+      "website": "https://www.acaciarestaurant.com/",
+      "phoneNumber": "804-588-2650",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Walk-ins welcome; weekends recommended",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Fresh-catch seafood by Chef Dale Reitzer",
+      "lastVerified": "2026-06-25",
+      "availability": {
+        "checkedAt": "2026-06-25",
+        "source": "resy",
+        "partySize": 2,
+        "windowDays": 7,
+        "openDays": 6,
+        "open": true,
+        "dates": [
+          "2026-06-25",
+          "2026-06-26",
+          "2026-06-27",
+          "2026-06-29",
+          "2026-06-30",
+          "2026-07-01"
+        ]
+      }
     }
   ]
 }

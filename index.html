@@ -199,10 +199,10 @@
     </div>
     <div class="count-line wrap" id="countLine"></div>
     <div class="legend wrap">
-      <span class="k"><span class="sw" style="background:var(--good)"></span><b>Booking Available</b> — real open tables for 2 in the next 2 weeks</span>
+      <span class="k"><span class="sw" style="background:var(--good)"></span><b>Booking Available</b> — real open tables for 2 in the next 7 days (Resy)</span>
       <span class="k"><span class="sw" style="background:var(--accent)"></span><b>Countdown</b> — releases in batches; timer to the next drop</span>
-      <span class="k"><span class="sw" style="background:var(--faint)"></span><b>Booked solid / Check</b> — no openings found, or can't auto-check (non-Resy)</span>
-      <span class="k" style="color:var(--faint)">Availability is a snapshot from the last data refresh — always confirm on the platform.</span>
+      <span class="k"><span class="sw" style="background:var(--faint)"></span><b>Check next 7 days</b> — OpenTable/Tock/SevenRooms block auto-checks; tap to open the platform pre-filled (party of 2)</span>
+      <span class="k" style="color:var(--faint)">Resy availability is a snapshot from the last refresh — always confirm on the platform.</span>
     </div>
   </div>
 </header>
@@ -413,6 +413,25 @@ function fmtWhen(date){
 const PLAT_COLOR={Resy:'var(--resy)',Tock:'var(--tock)',OpenTable:'var(--opentable)',SevenRooms:'var(--sevenrooms)'};
 function platColor(p){ return PLAT_COLOR[p]||'var(--invite)'; }
 
+// Today's date (YYYY-MM-DD) in the active city's timezone — for prefilled links.
+function todayISO(){
+  return new Intl.DateTimeFormat('en-CA',{timeZone:cityTz,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+}
+// Deep-link that opens the booking platform pre-filled with today's date + party of 2,
+// so one click lands you on real availability (the source we can't auto-scrape).
+function prefillUrl(s){
+  const url=s.platformUrl;
+  if(!url) return '';
+  try{
+    const u=new URL(url), h=u.hostname;
+    if(h.includes('resy.com')){ u.searchParams.set('date',todayISO()); u.searchParams.set('seats','2'); }
+    else if(h.includes('opentable.com')){ u.searchParams.set('covers','2'); u.searchParams.set('dateTime',todayISO()+'T19:00'); }
+    else if(h.includes('exploretock.com')){ u.searchParams.set('date',todayISO()); u.searchParams.set('size','2'); }
+    else if(h.includes('sevenrooms.com')){ u.searchParams.set('party_size','2'); u.searchParams.set('date',todayISO()); }
+    return u.toString();
+  }catch(e){ return url; }
+}
+
 /* Each spot resolves to one of four states, in priority order:
    - 'open'      : a real availability check found open tables in the next 2 weeks
    - 'countdown' : releases in batches (monthly) — show the timer to the next drop
@@ -549,7 +568,9 @@ function buildCard(s,drop){
     ? ((s.releaseTime?s.releaseTime+' · ':'')+s.releaseSchedule+(s.bookingWindow?' · '+s.bookingWindow+' out':''))
     : 'Invitation only / varies';
   const open=state==='open';
+  const noBook = !s.platformUrl || /invitation/i.test(s.platform||'');
   const bookLabel = open ? '✓ Booking Available'
+    : state==='unknown' ? (noBook ? (s.platform==='Phone'?'Reserve by phone':'See options') : 'Check next 7 days')
     : state==='booked' ? 'Check '+esc(s.platform)
     : s.platform==='Website' ? 'Reserve on website'
     : s.platform==='Phone' ? 'Reserve'
@@ -579,7 +600,7 @@ function buildCard(s,drop){
     ${s.signatureDish?'<div class="dish">Signature: <b>'+esc(s.signatureDish)+'</b></div>':''}
     ${s.tips&&s.tips.length?`<details class="tips"><summary>${s.tips.length} booking tips</summary><ul>${s.tips.map(t=>'<li>'+esc(t)+'</li>').join('')}</ul></details>`:''}
     <div class="actions">
-      ${s.platformUrl?`<a class="btn book${open?' avail':''}" style="background:${open?'var(--good)':platColor(s.platform)}" href="${attr(s.platformUrl)}" target="_blank" rel="noopener">${bookLabel}</a>`:''}
+      ${s.platformUrl?`<a class="btn book${open?' avail':''}" style="background:${open?'var(--good)':platColor(s.platform)}" href="${attr(prefillUrl(s))}" target="_blank" rel="noopener">${bookLabel}</a>`:''}
       ${s.website&&s.platformUrl!==s.website?`<a class="btn ghost" href="${attr(s.website)}" target="_blank" rel="noopener">Site</a>`:''}
       ${s.walkIns&&!s.platformUrl?'<span class="btn ghost">Walk-in only</span>':''}
     </div>`;
@@ -600,7 +621,7 @@ function paintCard(c){
   if(c.state==='open'){
     c.dropEl.className='drop avail'; c.lblEl.textContent='Tables open';
     c.timeEl.innerHTML='✓ Booking Available';
-    c.whenEl.textContent=av.openDays+' day'+(av.openDays===1?'':'s')+' open · next 2 wks · party '+av.partySize+' · '+fmtAsOf(av);
+    c.whenEl.textContent=av.openDays+' day'+(av.openDays===1?'':'s')+' open · next 7 days · party '+av.partySize+' · '+fmtAsOf(av);
     return;
   }
   if(c.state==='countdown'){
@@ -615,14 +636,14 @@ function paintCard(c){
   if(c.state==='booked'){
     c.dropEl.className='drop booked'; c.lblEl.textContent='Availability';
     c.timeEl.innerHTML='Booked solid';
-    c.whenEl.textContent='No openings · next 2 wks · party '+av.partySize+' · '+fmtAsOf(av);
+    c.whenEl.textContent='No openings · next 7 days · party '+av.partySize+' · '+fmtAsOf(av);
     return;
   }
-  // unknown — couldn't check live availability
-  const invite=!s.releaseSchedule || s.releaseSchedule==='none';
-  c.dropEl.className='drop none'; c.lblEl.textContent=invite?'Booking':'Availability';
-  c.timeEl.textContent=invite?'Invite / varies':'Check availability';
-  c.whenEl.textContent=invite?c.schedLabel:('Not auto-checked · '+c.schedLabel);
+  // unknown — live auto-check is Resy-only; offer a one-click check on the platform
+  const noBook = !s.platformUrl || /invitation/i.test(s.platform||'');
+  c.dropEl.className='drop none'; c.lblEl.textContent=noBook?'Booking':'Availability';
+  c.timeEl.textContent=noBook?'Invite / varies':'Check next 7 days';
+  c.whenEl.textContent=noBook?c.schedLabel:('Live status is Resy-only — opens '+(s.platform||'the platform')+', party 2');
 }
 
 /* ---------- Live tick (1s) — only countdowns change ---------- */
@@ -667,12 +688,13 @@ function popupHtml(s){
   let statusLine;
   if(open) statusLine=`<div><span class="pop-time" style="color:var(--good)">✓ Booking Available</span> — ${av.openDays} day${av.openDays===1?'':'s'} open, party ${av.partySize}</div><div class="pop-sub">${fmtAsOf(av)}</div>`;
   else if(state==='countdown') statusLine=`<div>Drops in <span class="pop-time">${fmtCountdown(d-Date.now())}</span></div><div class="pop-sub">${fmtWhen(d)}</div>`;
-  else if(state==='booked') statusLine=`<div><span class="pop-time" style="color:var(--muted)">Booked solid</span> — no openings (2 wks)</div><div class="pop-sub">${fmtAsOf(av)}</div>`;
-  else statusLine=`<div><span class="pop-time" style="color:var(--muted)">${(!s.releaseSchedule||s.releaseSchedule==='none')?'Invite / varies':'Check availability'}</span></div>`;
+  else if(state==='booked') statusLine=`<div><span class="pop-time" style="color:var(--muted)">Booked solid</span> — no openings (7 days)</div><div class="pop-sub">${fmtAsOf(av)}</div>`;
+  else { const noBook=!s.platformUrl||/invitation/i.test(s.platform||''); statusLine=`<div><span class="pop-time" style="color:var(--muted)">${noBook?'Invite / varies':'Check next 7 days'}</span></div>`; }
+  const blabel = open?'✓ Booking Available' : state==='booked'?'Check '+esc(s.platform) : state==='unknown'?'Check next 7 days' : 'Book on '+esc(s.platform);
   return `<div class="pop-name">${esc(s.name)}</div>
     <div class="pop-sub">${esc(s.neighborhood)} · ${esc(s.cuisine)} · ${esc(s.priceRange)}</div>
     ${statusLine}
-    ${s.platformUrl?`<a class="btn book" style="display:block;margin-top:8px;background:${open?'var(--good)':platColor(s.platform)}" href="${attr(s.platformUrl)}" target="_blank" rel="noopener">${open?'✓ Booking Available':state==='booked'?'Check '+esc(s.platform):'Book on '+esc(s.platform)}</a>`:''}`;
+    ${s.platformUrl?`<a class="btn book" style="display:block;margin-top:8px;background:${open?'var(--good)':platColor(s.platform)}" href="${attr(prefillUrl(s))}" target="_blank" rel="noopener">${blabel}</a>`:''}`;
 }
 function updateMapTimes(){
   markers.eachLayer(mk=>{ if(mk.isPopupOpen&&mk.isPopupOpen()) mk.getPopup().setContent(popupHtml(mk._spot)); });

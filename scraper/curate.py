@@ -318,7 +318,7 @@ def main():
             geocode(spot, args.region or label, cache)   # coords first (Resy search needs them); no-ops if set
             time.sleep(0.15)                             # be gentle on the Resy API
             resy_verify.repair_spot(spot, log)            # validate/fix the Resy booking link
-            av = resy_verify.availability(spot, party_size=args.party, window_days=14, today=date.today())
+            av = resy_verify.availability(spot, party_size=args.party, window_days=7, today=date.today())
             if av is not None:
                 spot["availability"] = av
                 log(f"    Resy availability: {av['openDays']}/{av['windowDays']} days open (party {args.party})")

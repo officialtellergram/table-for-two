@@ -41,7 +41,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -112,7 +112,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -152,7 +152,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -193,7 +193,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -262,12 +262,10 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 1,
-        "open": true,
-        "dates": [
-          "2026-06-25"
-        ]
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
       }
     },
     {
@@ -304,14 +302,10 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 3,
-        "open": true,
-        "dates": [
-          "2026-07-06",
-          "2026-07-07",
-          "2026-07-08"
-        ]
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
       }
     },
     {
@@ -415,7 +409,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -452,7 +446,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 3,
         "open": true,
         "dates": [
@@ -559,7 +553,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -596,7 +590,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -730,8 +724,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -778,8 +772,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -826,8 +820,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -871,8 +865,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -919,8 +913,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 11,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -967,16 +961,15 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 10,
+        "windowDays": 7,
+        "openDays": 5,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-28",
           "2026-06-29",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -1012,8 +1005,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -1090,8 +1083,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -1138,16 +1131,16 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
+          "2026-06-27",
           "2026-06-28",
           "2026-06-29",
-          "2026-06-30",
-          "2026-07-01"
+          "2026-06-30"
         ]
       }
     },
@@ -1219,8 +1212,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -1267,8 +1260,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 11,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -1315,8 +1308,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -1363,8 +1356,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 11,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -1444,8 +1437,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -1526,7 +1519,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 0,
         "open": false,
         "dates": []
@@ -1695,10 +1688,12 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 0,
-        "open": false,
-        "dates": []
+        "windowDays": 7,
+        "openDays": 1,
+        "open": true,
+        "dates": [
+          "2026-06-25"
+        ]
       }
     },
     {
@@ -1766,16 +1761,14 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 8,
+        "windowDays": 7,
+        "openDays": 4,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
           "2026-06-27",
-          "2026-07-01",
-          "2026-07-02",
-          "2026-07-03"
+          "2026-07-01"
         ]
       }
     },
@@ -1847,16 +1840,13 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 8,
+        "windowDays": 7,
+        "openDays": 3,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02",
-          "2026-07-04",
-          "2026-07-05"
+          "2026-07-01"
         ]
       }
     },
@@ -1895,16 +1885,15 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
+        "windowDays": 7,
+        "openDays": 5,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
           "2026-06-29",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -1940,16 +1929,14 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 7,
+        "windowDays": 7,
+        "openDays": 4,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-29",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-03",
-          "2026-07-07"
+          "2026-07-01"
         ]
       }
     },
@@ -2015,16 +2002,15 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 10,
+        "windowDays": 7,
+        "openDays": 5,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
           "2026-06-27",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -2060,8 +2046,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2078,7 +2064,10 @@
       "name": "Laser Wolf",
       "neighborhood": "Williamsburg",
       "cuisine": "Israeli",
-      "coordinates": null,
+      "coordinates": {
+        "lat": 42.7135342,
+        "lng": -73.8137213
+      },
       "difficulty": 3,
       "priceRange": "$$$",
       "platform": "Resy",
@@ -2105,8 +2094,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2153,8 +2142,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2228,8 +2217,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 11,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2273,8 +2262,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2354,8 +2343,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2469,13 +2458,12 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 5,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
-          "2026-06-27",
           "2026-06-29",
           "2026-06-30",
           "2026-07-01"
@@ -2517,16 +2505,16 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
-          "2026-06-27",
           "2026-06-28",
           "2026-06-29",
-          "2026-06-30"
+          "2026-06-30",
+          "2026-07-01"
         ]
       }
     },
@@ -2565,16 +2553,15 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 8,
+        "windowDays": 7,
+        "openDays": 5,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
           "2026-06-27",
           "2026-06-28",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -2736,8 +2723,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-26",
@@ -2784,8 +2771,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2832,8 +2819,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2880,8 +2867,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -2928,8 +2915,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -3009,16 +2996,14 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 10,
+        "windowDays": 7,
+        "openDays": 4,
         "open": true,
         "dates": [
-          "2026-06-25",
           "2026-06-26",
           "2026-06-29",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -3057,8 +3042,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -3105,16 +3090,15 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
+        "windowDays": 7,
+        "openDays": 5,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
           "2026-06-29",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -3187,8 +3171,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 8,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -3205,7 +3189,10 @@
       "name": "Saga",
       "neighborhood": "Financial District",
       "cuisine": "New American Tasting",
-      "coordinates": null,
+      "coordinates": {
+        "lat": 42.9293563,
+        "lng": -78.7548407
+      },
       "difficulty": 4,
       "priceRange": "$$$$",
       "platform": "Resy",
@@ -3232,16 +3219,14 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 9,
+        "windowDays": 7,
+        "openDays": 4,
         "open": true,
         "dates": [
-          "2026-06-25",
           "2026-06-26",
           "2026-06-27",
           "2026-06-28",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -3310,7 +3295,7 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
+        "windowDays": 7,
         "openDays": 4,
         "open": true,
         "dates": [
@@ -3386,8 +3371,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -3467,16 +3452,16 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 12,
+        "windowDays": 7,
+        "openDays": 6,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-27",
+          "2026-06-28",
           "2026-06-29",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -3515,8 +3500,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 14,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -3563,8 +3548,8 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 13,
+        "windowDays": 7,
+        "openDays": 7,
         "open": true,
         "dates": [
           "2026-06-25",
@@ -3645,8 +3630,8 @@
       "neighborhood": "Midtown East",
       "cuisine": "American Chophouse",
       "coordinates": {
-        "lat": 40.7595293,
-        "lng": -73.9653575
+        "lat": 40.64285,
+        "lng": -73.783303
       },
       "difficulty": 3,
       "priceRange": "$$$$",
@@ -3674,16 +3659,15 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 10,
+        "windowDays": 7,
+        "openDays": 5,
         "open": true,
         "dates": [
           "2026-06-25",
           "2026-06-26",
           "2026-06-29",
           "2026-06-30",
-          "2026-07-01",
-          "2026-07-02"
+          "2026-07-01"
         ]
       }
     },
@@ -3817,13 +3801,10 @@
         "checkedAt": "2026-06-25",
         "source": "resy",
         "partySize": 2,
-        "windowDays": 14,
-        "openDays": 2,
-        "open": true,
-        "dates": [
-          "2026-07-02",
-          "2026-07-08"
-        ]
+        "windowDays": 7,
+        "openDays": 0,
+        "open": false,
+        "dates": []
       }
     },
     {
