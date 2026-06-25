@@ -56,9 +56,12 @@
   .wrap{max-width:1180px;margin:0 auto;padding:0 16px}
 
   /* Header */
-  header{position:sticky;top:0;z-index:500;background:var(--headbg);
-    backdrop-filter:blur(18px) saturate(1.05);border-bottom:1px solid var(--line)}
-  .topbar{display:flex;align-items:center;gap:12px;padding:18px 0;flex-wrap:wrap}
+  header{position:relative;z-index:400}
+  /* The whole header scrolls away with the page; only this slim bar pins up top. */
+  .topbar-bar{position:sticky;top:0;z-index:500;background:var(--headbg);
+    backdrop-filter:blur(18px) saturate(1.05);transition:box-shadow .25s ease}
+  .topbar-bar.stuck{box-shadow:0 1px 0 var(--line),0 12px 28px rgba(0,0,0,.16)}
+  .topbar{display:flex;align-items:center;gap:12px;padding-top:16px;padding-bottom:16px;flex-wrap:wrap}
   .brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);
     font-weight:500;font-size:17px;letter-spacing:3.5px;text-transform:uppercase}
   .brand .mark{font-size:18px;align-self:center;transform:rotate(-10deg);
@@ -130,18 +133,6 @@
   .legend .k{display:inline-flex;align-items:center;gap:7px}
   .legend .sw{width:7px;height:7px;border-radius:50%;flex:none}
 
-  /* Collapsible header: shrinks to a slim bar once you scroll down */
-  .topbar{transition:padding .28s ease}
-  .brand{transition:font-size .28s ease,letter-spacing .28s ease}
-  .controls,.count-line,.legend{overflow:hidden;max-height:70vh;
-    transition:max-height .3s ease,opacity .22s ease,margin .3s ease,padding .3s ease}
-  header.collapsed .controls,header.collapsed .count-line,header.collapsed .legend{
-    max-height:0;opacity:0;margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;pointer-events:none}
-  header.collapsed .topbar{padding:9px 0}
-  header.collapsed .brand{font-size:14px;letter-spacing:2.5px}
-  header.collapsed .brand .mark{font-size:15px}
-  header.collapsed{cursor:pointer}
-
   .meta-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
   .tag{font-size:11px;color:var(--muted);background:transparent;border:1px solid var(--line);
     border-radius:7px;padding:3px 8px;letter-spacing:.1px}
@@ -193,8 +184,8 @@
 </head>
 <body>
 <header>
-  <div class="wrap">
-    <div class="topbar">
+  <div class="topbar-bar" id="topbarBar">
+    <div class="wrap topbar">
       <div class="brand">
         <span class="mark">✌️</span>
         <span class="nm">Table for Two</span>
@@ -209,6 +200,8 @@
       <button class="iconbtn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme">☀</button>
       <button class="iconbtn" id="refresh" title="Refresh data">↻</button>
     </div>
+  </div>
+  <div class="wrap">
     <div class="controls" id="controls">
       <div class="search">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
@@ -229,8 +222,8 @@
       </select>
       <label class="chk"><input type="checkbox" id="fWalk" /> Walk-ins</label>
     </div>
-    <div class="count-line wrap" id="countLine"></div>
-    <div class="legend wrap">
+    <div class="count-line" id="countLine"></div>
+    <div class="legend">
       <span class="k"><span class="sw" style="background:var(--good)"></span><b>Booking Available</b> — real open tables for 2 in the next 7 days (Resy)</span>
       <span class="k"><span class="sw" style="background:var(--accent)"></span><b>Countdown</b> — releases in batches; timer to the next drop</span>
       <span class="k"><span class="sw" style="background:var(--faint)"></span><b>Check next 7 days</b> — OpenTable/Tock/SevenRooms block auto-checks; tap to open the platform pre-filled (party of 2)</span>
@@ -783,36 +776,15 @@ for(const id of ['q','sort','fCuisine','fHood','fDiff','fWalk']){
   $(id).addEventListener('input',()=>{ if(view==='list') render(); });
 }
 
-/* Collapse the header on scroll-down; expand only at the top or on tap.
-   The header is sticky, so when it shrinks it gives back height at the top of
-   the document and the content below would jump UP (hiding the first card).
-   While the height animates we counter-scroll by the exact change each frame,
-   so the content you're looking at stays put — only the slim bar shrinks. */
+/* The whole header scrolls away with the page (no pinning, no jump); the slim
+   toolbar row sticks to the top. Once it's pinned, add a shadow so it reads as
+   a floating bar. Scroll back to the top and the full header returns naturally. */
 (function(){
-  const hdr=document.querySelector('header');
+  const bar=document.getElementById('topbarBar');
   const se=document.scrollingElement||document.documentElement;
-  let collapsed=false;
-  function set(v,anchor){
-    if(v===collapsed) return;
-    collapsed=v;
-    let lastH=hdr.offsetHeight;
-    hdr.classList.toggle('collapsed',v);
-    if(!anchor) return;             // at the very top: let it expand naturally
-    let n=0;
-    (function step(){               // ride out the CSS height transition (~0.3s)
-      const h=hdr.offsetHeight, d=h-lastH;
-      if(d){ se.scrollTop=Math.max(0,se.scrollTop+d); lastH=h; }
-      if(n++<32) requestAnimationFrame(step);
-    })();
-  }
-  window.addEventListener('scroll',()=>{
-    const y=window.scrollY||se.scrollTop||0;
-    if(y<=8) set(false,false);      // fully back at the top → expand naturally
-    else if(y>90) set(true,true);   // scrolled down → collapse, anchored
-  },{passive:true});
-  hdr.addEventListener('click',e=>{ // tapping the slim bar (not a control) expands it
-    if(collapsed && !e.target.closest('select,button,a,input,label')) set(false,true);
-  });
+  function onScroll(){ bar.classList.toggle('stuck',(window.scrollY||se.scrollTop||0)>4); }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
 })();
 
 (async function boot(){
