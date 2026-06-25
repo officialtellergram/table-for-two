@@ -179,13 +179,11 @@
   @media(max-width:560px){
     .drop .time{font-size:21px}
     .grid{grid-template-columns:1fr}
-    /* Keep the pinned bar to a single slim row on phones */
-    .topbar{gap:8px;padding-top:11px;padding-bottom:11px;flex-wrap:nowrap}
-    .brand{font-size:14px;letter-spacing:2px;gap:8px;min-width:0}
-    .brand .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .brand small{display:none}
-    .seg button{padding:7px 11px}
-    .iconbtn{padding:7px 9px}
+    /* On phones the bar wraps to two rows (logo, then controls) so nothing
+       gets truncated — full wordmark and List/Map stay intact. */
+    .topbar{gap:10px 8px;padding-top:12px;padding-bottom:12px}
+    .brand small{display:none}            /* hide only the long "as of…" subtext */
+    .seg button{padding:8px 13px}
   }
 </style>
 </head>
