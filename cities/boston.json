@@ -44,7 +44,18 @@
         "openDays": 0,
         "open": false,
         "dates": []
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "tonino",
@@ -83,7 +94,17 @@
         "openDays": 0,
         "open": false,
         "dates": []
-      }
+      },
+      "vibe": [
+        "romantic",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "311-omakase",
@@ -113,7 +134,17 @@
       ],
       "signatureDish": "18-course nigiri progression",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "carmelinas",
@@ -145,7 +176,17 @@
       ],
       "signatureDish": "Lobster ravioli",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "grace-by-nia",
@@ -177,7 +218,16 @@
       ],
       "signatureDish": "Bourbon peach ribs; lobster mac",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "yoshida-omakase",
@@ -208,7 +258,17 @@
       ],
       "signatureDish": "Dry-aged (jukusei) fish; lobster and toro with osetra caviar",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "o-ya",
@@ -240,7 +300,18 @@
       ],
       "signatureDish": "Fried Kumamoto oyster nigiri with squid ink bubbles",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "kava-neo-taverna",
@@ -282,7 +353,16 @@
           "2026-06-25",
           "2026-06-26"
         ]
-      }
+      },
+      "vibe": [
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "avra-estiatorio",
@@ -326,7 +406,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "comfort-kitchen",
@@ -358,7 +448,18 @@
       ],
       "signatureDish": "Jerk-roasted duck",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "contessa",
@@ -402,7 +503,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "dalia",
@@ -433,7 +544,15 @@
       ],
       "signatureDish": "Calamares 'Dan Dan'",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two."
     },
     {
       "id": "giulia",
@@ -464,7 +583,17 @@
       ],
       "signatureDish": "Pappardelle with braised wild boar",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "krasi",
@@ -495,7 +624,17 @@
       ],
       "signatureDish": "Xtapodi (grilled octopus braised in mavrodaphne)",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "la-padrona",
@@ -542,7 +681,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "mamma-maria",
@@ -573,7 +722,17 @@
       ],
       "signatureDish": "Osso buco",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "mariel",
@@ -601,7 +760,15 @@
       ],
       "signatureDish": "Fufu gnocchi",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two."
     },
     {
       "id": "prima",
@@ -633,7 +800,17 @@
       ],
       "signatureDish": "Veal chop parm",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "sushi-temple-records",
@@ -679,7 +856,16 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "uni",
@@ -710,7 +896,17 @@
       ],
       "signatureDish": "The Uni Spoon (sea urchin, quail yolk, osetra caviar)",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "field-and-vine",
@@ -753,7 +949,15 @@
           "2026-06-26",
           "2026-06-27"
         ]
-      }
+      },
+      "vibe": [
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "bar-volpe",
@@ -785,7 +989,18 @@
       ],
       "signatureDish": "Wood-fired seafood; house-made pastas",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "cafe-sushi",
@@ -829,7 +1044,17 @@
           "2026-06-27",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "intimate",
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "coppa-enoteca",
@@ -860,7 +1085,17 @@
       ],
       "signatureDish": "Celery Caesar salad; wood-fired pizzas",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "darling",
@@ -906,7 +1141,14 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two."
     }
   ]
 }

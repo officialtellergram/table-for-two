@@ -50,6 +50,13 @@ def run_city(c):
     subprocess.run(cmd, check=True)
 
 
+def run_concierge():
+    """Re-apply the date-night vibe/occasion tags (curate rebuilds spots from the
+    seeds, which don't carry tags, so this has to run after every curate)."""
+    print("\n== concierge (date-night tags) ==")
+    subprocess.run([PY, str(SCR / "concierge.py"), "--no-deploy"], check=True)
+
+
 def sync_deploy():
     dep = ROOT / "deploy"
     dep.mkdir(exist_ok=True)
@@ -65,5 +72,6 @@ if __name__ == "__main__":
         fetch_nyc()
     for c in CITIES:
         run_city(c)
+    run_concierge()
     sync_deploy()
     print("done.")

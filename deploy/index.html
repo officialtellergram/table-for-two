@@ -140,8 +140,28 @@
     border-radius:7px;padding:3px 8px;letter-spacing:.1px}
   .tag.walk{color:var(--good);border-color:rgba(134,182,160,.28)}
   .tag.nowalk{color:var(--faint)}
+  .tag.vibe{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 32%,transparent);text-transform:capitalize}
   .dish{font-size:12px;color:var(--muted)}
   .dish b{color:var(--accent2);font-weight:500}
+  .datenote{font-family:var(--serif);font-style:italic;color:var(--accent2);font-size:13px;letter-spacing:.1px;margin:2px 0 2px}
+
+  /* Just Opened — the cancellation radar feed */
+  .just-opened{margin:2px 0 22px}
+  .jo-head{display:flex;align-items:baseline;gap:8px;font-size:11px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 11px}
+  .jo-head small{font-family:'Inter',sans-serif;letter-spacing:.2px;text-transform:none;color:var(--muted);font-size:11.5px}
+  .jo-row{display:flex;gap:11px;overflow-x:auto;padding:2px 2px 8px;scrollbar-width:thin}
+  .jo-card{flex:0 0 auto;width:212px;border:1px solid var(--line);border-radius:14px;
+    padding:13px 14px;background:var(--panel);position:relative}
+  .jo-card.new{border-color:color-mix(in srgb,var(--good) 55%,transparent);
+    box-shadow:0 0 0 1px color-mix(in srgb,var(--good) 22%,transparent)}
+  .jo-name{font-weight:600;font-size:14px;letter-spacing:.2px}
+  .jo-sub{color:var(--faint);font-size:11.5px;margin-top:2px}
+  .jo-when{color:var(--txt);font-size:13px;margin-top:8px;font-weight:500}
+  .jo-seen{color:var(--muted);font-size:11px;margin-top:5px}
+  .jo-card .btn{margin-top:11px;display:block}
+  .jo-badge{position:absolute;top:11px;right:11px;font-size:9px;letter-spacing:.12em;font-weight:700;
+    color:var(--onaccent);background:var(--good);border-radius:6px;padding:2px 6px}
 
   .actions{display:flex;gap:8px;margin-top:4px;flex-wrap:wrap}
   .btn{flex:1;text-align:center;text-decoration:none;border-radius:10px;padding:11px 10px;
@@ -232,6 +252,21 @@
         <option value="4">★ Very hard (4+)</option>
         <option value="3">★ Hard (3+)</option>
       </select>
+      <select class="filter-select" id="fVibe" aria-label="Vibe">
+        <option value="">Any vibe</option>
+        <option value="romantic">Romantic</option>
+        <option value="intimate">Intimate</option>
+        <option value="lively">Lively</option>
+        <option value="special-occasion">Special occasion</option>
+        <option value="cozy">Cozy</option>
+      </select>
+      <select class="filter-select" id="fOccasion" aria-label="Occasion">
+        <option value="">Any occasion</option>
+        <option value="first-date">First date</option>
+        <option value="anniversary">Anniversary</option>
+        <option value="celebration">Celebration</option>
+        <option value="impress">Impress someone</option>
+      </select>
       <label class="chk"><input type="checkbox" id="fWalk" /> Walk-ins</label>
     </div>
     <div class="count-line" id="countLine"></div>
@@ -245,6 +280,7 @@
 </header>
 
 <main class="wrap">
+  <div id="justOpened" class="just-opened" style="display:none"></div>
   <div id="grid" class="grid"></div>
   <div id="map"></div>
   <div id="state" class="state hide"></div>
@@ -506,6 +542,7 @@ const STATE_COLOR={open:'#63d6a4', countdown:'#e08a5b', unknown:'#6b5f72', booke
 /* ---------- App state ---------- */
 let RAW=[];            // normalized spots for current city
 let META=null;
+let SNIPER=null;       // cancellation-radar feed (cities/just-opened.json)
 let cityKey='nyc';
 let view='list';
 let map=null, markers=null, mapBuilt=false, tileLayer=null;
@@ -563,11 +600,14 @@ function fillSelect(sel,allLabel,vals){
 function currentList(){
   const q=$('q').value.trim().toLowerCase();
   const cu=$('fCuisine').value, ho=$('fHood').value, df=+$('fDiff').value, walk=$('fWalk').checked;
+  const vibe=$('fVibe').value, occ=$('fOccasion').value;
   const sort=$('sort').value;
   let list=RAW.filter(s=>{
     if(cu && s.cuisine!==cu) return false;
     if(ho && s.neighborhood!==ho) return false;
     if(df && s.difficulty<df) return false;
+    if(vibe && !(s.vibe||[]).includes(vibe)) return false;
+    if(occ && !(s.occasion||[]).includes(occ)) return false;
     if(walk && !s.walkIns) return false;
     if(q){
       const hay=(s.name+' '+s.cuisine+' '+s.neighborhood).toLowerCase();
@@ -589,8 +629,56 @@ function dcmp(a,b){ // nulls (no scheduled drop) last
   return a.getTime()-b.getTime();
 }
 
+/* ---------- Just Opened feed (cancellation radar) ---------- */
+async function loadSniper(){
+  try{
+    const r=await fetch(bust('cities/just-opened.json'),{cache:'no-store'});
+    if(r.ok) SNIPER=await r.json();
+  }catch(e){ SNIPER=null; }
+  renderJustOpened();
+}
+function fmtTime(hhmm){
+  if(!hhmm) return '';
+  let [h,m]=hhmm.split(':').map(Number);
+  const ap=h>=12?'PM':'AM'; h=h%12||12;
+  return h+':'+String(m).padStart(2,'0')+' '+ap;
+}
+function fmtAgo(iso){
+  const ms=Date.now()-Date.parse(iso);
+  if(!isFinite(ms)) return '';
+  const m=Math.max(0,Math.round(ms/60000));
+  if(m<1) return 'just now';
+  if(m<60) return m+'m ago';
+  const h=Math.round(m/60); if(h<24) return h+'h ago';
+  return Math.round(h/24)+'d ago';
+}
+function joWhen(it){
+  const d=new Date(it.date+'T'+(it.time||'00:00')+':00');
+  const day=isNaN(d)?it.date:d.toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric'});
+  return day+' · '+fmtTime(it.time)+(it.type?' · '+it.type:'')+' · party '+(it.party||2);
+}
+function renderJustOpened(){
+  const el=$('justOpened'); if(!el) return;
+  const items=((SNIPER&&SNIPER.items)||[]).filter(it=>it.city===cityKey).slice(0,24);
+  if(!items.length || view==='map'){ el.style.display='none'; el.innerHTML=''; return; }
+  const fresh=items.filter(it=>it.new).length;
+  el.style.display='block';
+  el.innerHTML='<div class="jo-head">✨ Just opened'+
+    '<small>'+(fresh?fresh+' fresh · ':'')+'real tables spotted in the last sweep — grab before they’re gone</small></div>'+
+    '<div class="jo-row">'+items.map(it=>`
+      <div class="jo-card${it.new?' new':''}">
+        ${it.new?'<span class="jo-badge">NEW</span>':''}
+        <div class="jo-name">${esc(it.name)}</div>
+        <div class="jo-sub">${esc(it.neighborhood||'')}</div>
+        <div class="jo-when">${esc(joWhen(it))}</div>
+        <div class="jo-seen">spotted ${esc(fmtAgo(it.firstSeen))}</div>
+        ${it.url?`<a class="btn book avail" style="--c:var(--good)" href="${attr(it.url)}" target="_blank" rel="noopener">Grab it →</a>`:''}
+      </div>`).join('')+'</div>';
+}
+
 /* ---------- Render (list) ---------- */
 function render(){
+  renderJustOpened();
   const list=currentList();
   const nextC=list.find(x=>x.state==='countdown'&&x.drop);
   $('countLine').innerHTML='Showing <b>'+list.length+'</b> of '+RAW.length+' spots'+
@@ -640,7 +728,10 @@ function buildCard(s,drop){
       <div class="time" data-time>—</div>
       <div class="when" data-when></div>
     </div>
-    <div class="meta-row">${walkTag}
+    ${s.dateNote?'<div class="datenote">'+esc(s.dateNote)+'</div>':''}
+    <div class="meta-row">
+      ${(s.vibe||[]).map(v=>'<span class="tag vibe">'+esc(v.replace(/-/g,' '))+'</span>').join('')}
+      ${walkTag}
       ${s.bookingWindowDays?'<span class="tag">'+s.bookingWindowDays+'-day window</span>':''}
       ${s.phoneNumber?'<span class="tag">☎ '+esc(s.phoneNumber)+'</span>':''}
     </div>
@@ -779,12 +870,13 @@ function setView(v){
   $('vList').classList.toggle('active',v==='list');
   $('vMap').classList.toggle('active',v==='map');
   if(v==='map') showMap(); else hideMap();
+  renderJustOpened();   // hide the feed in map view, restore it in list
 }
 $('vList').onclick=()=>setView('list');
 $('vMap').onclick=()=>setView('map');
 $('refresh').onclick=()=>loadCity();
 $('themeToggle').onclick=toggleTheme;
-for(const id of ['q','sort','fCuisine','fHood','fDiff','fWalk']){
+for(const id of ['q','sort','fCuisine','fHood','fDiff','fVibe','fOccasion','fWalk']){
   $(id).addEventListener('input',()=>{ if(view==='list') render(); });
 }
 
@@ -812,6 +904,7 @@ for(const id of ['q','sort','fCuisine','fHood','fDiff','fWalk']){
   await loadManifest();
   initCitySelect();
   await loadCity();
+  loadSniper();          // fetch the cancellation-radar feed (non-blocking)
   setInterval(tick,1000);
 })();
 </script>

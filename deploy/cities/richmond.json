@@ -38,7 +38,18 @@
       ],
       "signatureDish": "",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "lafayette-tavern",
@@ -70,7 +81,18 @@
       ],
       "signatureDish": "Buffalo octopus; bone-in veal Parmesan; Tavern burger with Cooper's Sharp White cheese",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "restaurant-adarra",
@@ -102,7 +124,17 @@
       ],
       "signatureDish": "Wood-fired seasonal Basque dishes",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "the-brooklyn",
@@ -146,7 +178,18 @@
           "2026-06-28",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "romantic",
+        "lively",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "the-roosevelt",
@@ -193,7 +236,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "dinamo",
@@ -224,7 +277,16 @@
       ],
       "signatureDish": "Seasonal pasta",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "grisette",
@@ -269,7 +331,16 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "l-opossum",
@@ -303,7 +374,16 @@
       ],
       "signatureDish": "Theatrical French tasting plates",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "lillian",
@@ -347,7 +427,16 @@
           "2026-06-28",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "lively",
+        "intimate"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two."
     },
     {
       "id": "metzger-bar-and-butchery",
@@ -378,7 +467,16 @@
       ],
       "signatureDish": "Schnitzel; charcuterie",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "omakase-at-nami",
@@ -424,7 +522,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "shagbark",
@@ -452,7 +560,16 @@
       ],
       "signatureDish": "Virginia-sourced wild game & seafood",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "slack-tide-fish-co",
@@ -495,7 +612,15 @@
           "2026-06-26",
           "2026-06-27"
         ]
-      }
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "alewife",
@@ -541,7 +666,14 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two."
     },
     {
       "id": "birdies",
@@ -572,7 +704,17 @@
       ],
       "signatureDish": "East Coast oysters; seafood towers; lobster roll",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "lively",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two."
     },
     {
       "id": "blue-atlas",
@@ -603,7 +745,14 @@
       ],
       "signatureDish": "Rotating global small plates",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "intimate"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "conejo",
@@ -650,7 +799,15 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "lehja",
@@ -697,7 +854,15 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "lemaire-at-the-jefferson-hotel",
@@ -727,7 +892,16 @@
       ],
       "signatureDish": "Seasonal Virginia tasting plates; afternoon tea",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "lost-letter",
@@ -773,7 +947,16 @@
           "2026-06-28",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "romantic",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "ml-steak-modern-chophouse",
@@ -804,7 +987,15 @@
       ],
       "signatureDish": "Dry-aged steaks",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "mama-js-kitchen",
@@ -835,7 +1026,14 @@
       ],
       "signatureDish": "Fried catfish; fried chicken",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried."
     },
     {
       "id": "pennys-wine-shop",
@@ -866,7 +1064,17 @@
       ],
       "signatureDish": "Seasonal small plates; natural wine",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "lively",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "stellas",
@@ -896,7 +1104,14 @@
       ],
       "signatureDish": "Greek meze; spanakopita",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried."
     },
     {
       "id": "acacia-midtown",
@@ -941,7 +1156,15 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     }
   ]
 }

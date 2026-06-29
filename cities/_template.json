@@ -1,37 +1,52 @@
 {
   "$comment": "TEMPLATE city dataset. Copy this to cities/<yourcity>.json, replace the spots, and reference it from cities/index.json with source {type:'json', url:'cities/<yourcity>.json'}. Either a bare array of spots OR this {meta,spots} wrapper works. Only `releaseSchedule` + `releaseTime` (+ `releaseDay` for weekly/monthly) drive the countdown — get those right and the timer just works.",
-  "meta": { "source": "your-source-name", "city": "Example City" },
+  "meta": {
+    "source": "your-source-name",
+    "city": "Example City"
+  },
   "spots": [
     {
       "id": "example-bistro",
       "name": "Example Bistro",
       "neighborhood": "Downtown",
       "cuisine": "French",
-      "coordinates": { "lat": 34.0505, "lng": -118.2551 },
+      "coordinates": {
+        "lat": 34.0505,
+        "lng": -118.2551
+      },
       "difficulty": 4,
       "priceRange": "$$$",
-
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/.../venues/example-bistro",
       "website": "https://example.com",
       "phoneNumber": "555-555-5555",
-
       "_HOW_COUNTDOWN_WORKS": "releaseSchedule is one of: 'daily' | 'weekly' | 'calendar-month' | 'monthly' | 'none'. releaseTime is parsed like '10:00 AM ET', '12:00 AM (Midnight) ET'. For 'weekly' the day comes from releaseDay (e.g. 'Saturday midnight'). For 'calendar-month'/'monthly' the drop is the 1st of the month at releaseTime. All times are interpreted as America/New_York unless you localize the engine.",
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
       "bookingWindow": "30 days",
       "bookingWindowDays": 30,
-
       "walkIns": true,
-      "walkIn": { "doors": "5:00 PM", "lineBy": "4:30 PM", "advice": "Bar seats are first-come, first-served." },
-
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "4:30 PM",
+        "advice": "Bar seats are first-come, first-served."
+      },
       "tips": [
         "Be logged in at 9:59 AM and refresh at exactly 10:00:00.",
         "Cancellations surface around 2 PM the day before."
       ],
       "signatureDish": "Steak frites",
-      "lastVerified": "2026-06-24"
+      "lastVerified": "2026-06-24",
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     }
   ]
 }

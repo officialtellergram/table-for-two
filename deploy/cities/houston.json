@@ -45,7 +45,17 @@
         "openDays": 0,
         "open": false,
         "dates": []
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "hidden-omakase",
@@ -88,7 +98,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "kata-robata-omakase",
@@ -133,7 +153,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "katami",
@@ -180,7 +210,18 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "march",
@@ -213,7 +254,17 @@
       ],
       "signatureDish": "Six- or nine-course Mediterranean tasting menu",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "tatemo",
@@ -242,7 +293,17 @@
       ],
       "signatureDish": "Heirloom-corn nixtamal tasting menu",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "theodore-rex",
@@ -288,7 +349,18 @@
           "2026-06-28",
           "2026-06-29"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "bcn-taste-tradition",
@@ -319,7 +391,16 @@
       ],
       "signatureDish": "Char-grilled octopus; Iberian suckling pig",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "bludorn",
@@ -351,7 +432,15 @@
       ],
       "signatureDish": "Seafood tower; Dover sole",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "kira",
@@ -395,7 +484,16 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "late-august",
@@ -427,7 +525,15 @@
       ],
       "signatureDish": "Surprise tasting (Afro-Mexican)",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "le-jardinier",
@@ -456,7 +562,16 @@
       ],
       "signatureDish": "Seasonal vegetable-forward French tasting",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "musaafer",
@@ -487,7 +602,15 @@
       ],
       "signatureDish": "Multi-course regional Indian tasting; Texas wagyu kofta",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "nobies",
@@ -519,7 +642,16 @@
       ],
       "signatureDish": "Texas tartare; ever-changing small plates",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "perseid",
@@ -551,7 +683,16 @@
       ],
       "signatureDish": "Gulf Coast-inflected bistro fare",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "marigold-club",
@@ -583,7 +724,16 @@
       ],
       "signatureDish": "Caviar service; fried chicken & champagne Sundays",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "uchi-houston",
@@ -628,7 +778,17 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "agnes-and-sherman",
@@ -661,7 +821,16 @@
       ],
       "signatureDish": "",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "annam",
@@ -704,7 +873,16 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "baso",
@@ -736,7 +914,14 @@
       ],
       "signatureDish": "Basque-style grilled fish; pintxos",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "intimate"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "camaraderie",
@@ -768,7 +953,16 @@
       ],
       "signatureDish": "Family-style market-driven menu",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "case-chocolates",
@@ -800,7 +994,17 @@
       ],
       "signatureDish": "Chocolate tasting experience",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef."
     },
     {
       "id": "credence",
@@ -833,7 +1037,16 @@
       ],
       "signatureDish": "",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait."
     },
     {
       "id": "hamsa",
@@ -865,7 +1078,15 @@
       ],
       "signatureDish": "Modern Israeli mezze",
       "lastVerified": "2026-06-25",
-      "availability": null
+      "availability": null,
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     },
     {
       "id": "josephines",
@@ -912,7 +1133,15 @@
           "2026-06-30",
           "2026-07-01"
         ]
-      }
+      },
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
     }
   ]
 }

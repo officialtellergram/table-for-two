@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+"""
+sniper.py — the cancellation radar.
+
+Polls slot-level Resy availability for the tracked venues over the next few
+days, diffs each run against the last, and writes cities/just-opened.json: the
+freshest openings with how-recently each slot first appeared. Run it on a short
+interval from a scheduler; the longer it runs, the more it catches the moment a
+table frees up (a cancellation) rather than just the standing availability.
+
+State lives in .sniper_state.json so a run can tell a brand-new opening from one
+it already knew about. Venue ids are cached there too (one extra lookup per new
+venue, not per run).
+
+Conservative by default — a small per-city venue cap, a short day window, and a
+polite sleep between calls so the public Resy key isn't hammered. In production
+you'd narrow this to a user's watchlist instead of every venue.
+
+  python sniper.py                       # all manifest cities, next 4 days, top 8 venues each
+  python sniper.py --cities nyc --limit 6 --days 3
+  python sniper.py --party 2 --sleep 0.5
+"""
+import argparse, json, time
+from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
+
+import resy_verify
+import resy_find
+
+SCR = Path(__file__).resolve().parent
+ROOT = SCR.parent
+CITIES_DIR = ROOT / "cities"
+DEPLOY_CITIES = ROOT / "deploy" / "cities"
+STATE_PATH = SCR / ".sniper_state.json"
+FEED_NAME = "just-opened.json"
+MAX_ITEMS = 120
+
+
+def now_iso():
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+
+
+def load_manifest_keys(only=None):
+    man = json.loads((CITIES_DIR / "index.json").read_text(encoding="utf-8"))
+    keys = [c["key"] for c in man.get("cities", []) if (c.get("source") or {}).get("type") == "json"]
+    if only:
+        want = {k.strip() for k in only.split(",") if k.strip()}
+        keys = [k for k in keys if k in want]
+    return keys
+
+
+def resy_ref(spot):
+    """(loc, slug) from a spot's Resy platformUrl, or None."""
+    m = resy_verify._SLUG_RE.search(spot.get("platformUrl") or "")
+    return (m.group(1), m.group(2)) if m else None
+
+
+def booking_url(spot, day, party):
+    base = spot.get("platformUrl") or ""
+    if not base:
+        return ""
+    sep = "&" if "?" in base else "?"
+    return f"{base}{sep}date={day}&seats={party}"
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Poll Resy for slot-level openings and write the Just-Opened feed.")
+    ap.add_argument("--cities", help="comma list of city keys (default: all json cities in the manifest)")
+    ap.add_argument("--days", type=int, default=4, help="day window to scan, starting today (default 4)")
+    ap.add_argument("--party", type=int, default=2, help="party size (default 2)")
+    ap.add_argument("--limit", type=int, default=8, help="max venues to poll per city (default 8)")
+    ap.add_argument("--sleep", type=float, default=0.4, help="seconds between API calls (default 0.4)")
+    ap.add_argument("--no-deploy", action="store_true", help="don't also write the deploy/ mirror")
+    args = ap.parse_args()
+
+    state = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
+    seen = state.get("slots", {})          # slotKey -> firstSeen ISO
+    venue_ids = state.get("venues", {})    # "loc/slug" -> resy venue id (cache)
+    polled = set(state.get("polled", []))  # venue keys we've scanned at least once
+    polled_now = set()
+
+    today = date.today()
+    days = [(today + timedelta(days=i)).isoformat() for i in range(max(1, args.days))]
+    now = now_iso()
+
+    try:
+        import requests
+        session = requests.Session()
+    except ImportError:
+        session = None
+
+    current = {}     # slotKey -> item dict
+    for key in load_manifest_keys(args.cities):
+        path = CITIES_DIR / f"{key}.json"
+        if not path.exists():
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        spots = [s for s in data.get("spots", []) if resy_ref(s)][: args.limit]
+        for spot in spots:
+            loc, slug = resy_ref(spot)
+            ck = f"{loc}/{slug}"
+            vid = venue_ids.get(ck)
+            if not vid:
+                info = resy_verify.venue_info(slug, loc, session)
+                vid = (info or {}).get("id")
+                if vid:
+                    venue_ids[ck] = vid
+                time.sleep(args.sleep)
+            if not vid:
+                continue
+            baseline = ck not in polled    # first time we've ever scanned this venue
+            polled_now.add(ck)
+            coord = spot.get("coordinates") or {}
+            for day in days:
+                for sl in resy_find.slots(vid, day, args.party,
+                                          coord.get("lat"), coord.get("lng"), session):
+                    slot_key = f"{vid}|{sl['date']}|{sl['time']}|{sl['type']}"
+                    first_seen = seen.get(slot_key, now)
+                    current[slot_key] = {
+                        "city": key, "spotId": spot.get("id"), "name": spot.get("name"),
+                        "neighborhood": spot.get("neighborhood"), "cuisine": spot.get("cuisine"),
+                        "date": sl["date"], "time": sl["time"], "type": sl["type"],
+                        "party": args.party, "url": booking_url(spot, sl["date"], args.party),
+                        "firstSeen": first_seen,
+                        # "new" = a slot that appeared since we last looked at THIS venue.
+                        # A venue's first-ever scan is a baseline, not a cancellation, so
+                        # nothing it shows that run is flagged new.
+                        "new": (slot_key not in seen) and not baseline,
+                    }
+                time.sleep(args.sleep)
+
+    items = sorted(current.values(), key=lambda it: it["firstSeen"], reverse=True)[:MAX_ITEMS]
+    new_count = sum(1 for it in items if it["new"])
+    feed = {"generated": now, "party": args.party, "windowDays": args.days,
+            "count": len(items), "new": new_count, "items": items}
+
+    (CITIES_DIR / FEED_NAME).write_text(json.dumps(feed, indent=2, ensure_ascii=False) + "\n",
+                                        encoding="utf-8")
+    if not args.no_deploy and DEPLOY_CITIES.exists():
+        (DEPLOY_CITIES / FEED_NAME).write_text(json.dumps(feed, indent=2, ensure_ascii=False) + "\n",
+                                               encoding="utf-8")
+
+    state = {"updated": now, "slots": {k: v["firstSeen"] for k, v in current.items()},
+             "venues": venue_ids, "polled": sorted(polled | polled_now)}
+    STATE_PATH.write_text(json.dumps(state, indent=2), encoding="utf-8")
+
+    n_baseline = len(polled_now - polled)
+    tag = f" ({n_baseline} venues scanned for the first time — baselined, not flagged)" if n_baseline else ""
+    print(f"polled {len(polled_now)} venues across {len(days)} days -> "
+          f"{len(items)} open slots, {new_count} newly opened{tag}")
+
+
+if __name__ == "__main__":
+    main()
