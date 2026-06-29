@@ -71,6 +71,8 @@ def main():
     ap.add_argument("--limit", type=int, default=8, help="max venues to poll per city (default 8)")
     ap.add_argument("--sleep", type=float, default=0.4, help="seconds between API calls (default 0.4)")
     ap.add_argument("--no-deploy", action="store_true", help="don't also write the deploy/ mirror")
+    ap.add_argument("--allow-empty", action="store_true",
+                    help="write an empty feed even if the previous one had slots (default: keep last good)")
     args = ap.parse_args()
 
     state = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
@@ -131,6 +133,23 @@ def main():
 
     items = sorted(current.values(), key=lambda it: it["firstSeen"], reverse=True)[:MAX_ITEMS]
     new_count = sum(1 for it in items if it["new"])
+
+    # Safety guard: if a sweep comes back empty but the last good feed had slots,
+    # something is wrong (Resy blocking this IP, an outage, a network hiccup) — do
+    # NOT overwrite the populated feed or the diff state with nothing. Bail clean.
+    if not items:
+        feed_path = CITIES_DIR / FEED_NAME
+        prev_count = 0
+        if feed_path.exists():
+            try:
+                prev_count = json.loads(feed_path.read_text(encoding="utf-8")).get("count", 0)
+            except Exception:
+                prev_count = 0
+        if prev_count > 0 and not args.allow_empty:
+            print(f"polled {len(polled_now)} venues -> 0 open slots, but the last feed had "
+                  f"{prev_count}; keeping it (likely IP-blocked/outage). Use --allow-empty to override.")
+            return
+
     feed = {"generated": now, "party": args.party, "windowDays": args.days,
             "count": len(items), "new": new_count, "items": items}
 
