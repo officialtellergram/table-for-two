@@ -1,8 +1,9 @@
 scraper/.geocache.json
+scraper/.radar.log
 **/__pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
 
-# Note: scraper/.sniper_state.json IS tracked on purpose — the hourly cloud
-# routine clones the repo fresh each run, so the diff state has to persist in git.
+# Note: scraper/.sniper_state.json IS tracked on purpose — so the diff state
+# persists run-to-run (the local scheduled task commits it each sweep).
