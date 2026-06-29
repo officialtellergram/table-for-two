@@ -2,6 +2,11 @@
 [build]
   publish = "deploy"      # the clean static site (index.html + cities/), no scraper
   command = ""            # nothing to build; it's plain static
+  # Skip the build (saving credits) for every push EXCEPT ones whose latest
+  # commit message contains "[deploy]". The ignore command returns 0 to cancel
+  # the build; a canceled build does not consume build minutes. To ship a
+  # deploy on purpose:  git commit -m "your message [deploy]"
+  ignore = "! git log -1 --pretty=%B | grep -qiF '[deploy]'"
 
 # Always serve fresh city data (availability snapshot) instead of a cached copy.
 [[headers]]
