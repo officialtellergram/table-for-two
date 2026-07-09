@@ -674,19 +674,28 @@ function joWhen(it){
 }
 function renderJustOpened(){
   const el=$('justOpened'); if(!el) return;
-  const items=((SNIPER&&SNIPER.items)||[]).filter(it=>it.city===cityKey).slice(0,24);
+  const today=todayISO();
+  // only current/future dates, sorted with genuinely-new (just-opened) slots first
+  let items=((SNIPER&&SNIPER.items)||[]).filter(it=>it.city===cityKey && it.date>=today);
+  items.sort((a,b)=>(b.new?1:0)-(a.new?1:0) || (a.date+a.time).localeCompare(b.date+b.time));
+  items=items.slice(0,24);
   if(!items.length || view==='map'){ el.style.display='none'; el.innerHTML=''; return; }
   const fresh=items.filter(it=>it.new).length;
+  const gen=SNIPER&&SNIPER.generated;
+  const ageMs=gen?Date.now()-Date.parse(gen):0;
+  const stale=gen && ageMs>6*3600000;                 // radar hasn't refreshed in 6h+
+  const sub=(fresh?'<b style="color:var(--good)">'+fresh+' just opened</b> · ':'')+
+    'open tables for two'+(gen?' · updated '+fmtAgo(gen):'')+
+    (stale?' <span style="color:var(--soon)">· radar paused, may be out of date</span>':'');
   el.style.display='block';
-  el.innerHTML='<div class="jo-head">✨ Just opened'+
-    '<small>'+(fresh?fresh+' fresh · ':'')+'real tables spotted in the last sweep — grab before they’re gone</small></div>'+
+  el.innerHTML='<div class="jo-head">✨ Open now<small>'+sub+'</small></div>'+
     '<div class="jo-row">'+items.map(it=>`
       <div class="jo-card${it.new?' new':''}">
-        ${it.new?'<span class="jo-badge">NEW</span>':''}
+        ${it.new?'<span class="jo-badge">JUST OPENED</span>':''}
         <div class="jo-name">${esc(it.name)}</div>
         <div class="jo-sub">${esc(it.neighborhood||'')}</div>
         <div class="jo-when">${esc(joWhen(it))}</div>
-        <div class="jo-seen">spotted ${esc(fmtAgo(it.firstSeen))}</div>
+        ${it.new?'<div class="jo-seen">spotted '+esc(fmtAgo(it.firstSeen))+'</div>':''}
         ${it.url?`<a class="btn book avail" style="--c:var(--good)" href="${attr(it.url)}" target="_blank" rel="noopener">Grab it →</a>`:''}
       </div>`).join('')+'</div>';
 }
