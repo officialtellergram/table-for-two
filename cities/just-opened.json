@@ -1,22 +1,64 @@
 {
-  "generated": "2026-07-09T02:28:03+00:00",
+  "generated": "2026-07-09T02:58:03+00:00",
   "party": 2,
   "windowDays": 4,
   "count": 120,
-  "new": 10,
+  "new": 4,
   "items": [
     {
       "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
       "date": "2026-07-10",
-      "time": "17:15",
-      "type": "Indoor",
+      "time": "10:30",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-10&seats=2",
-      "firstSeen": "2026-07-09T02:28:03+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-10&seats=2",
+      "firstSeen": "2026-07-09T02:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-09",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-09&seats=2",
+      "firstSeen": "2026-07-09T02:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-09",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-09&seats=2",
+      "firstSeen": "2026-07-09T02:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-09",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-09&seats=2",
+      "firstSeen": "2026-07-09T02:58:03+00:00",
       "new": true
     },
     {
@@ -31,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-09&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -45,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-09&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -59,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-09&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-09&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-10&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-10&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-10&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,20 +185,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-09T02:28:03+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-09",
-      "time": "17:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-09&seats=2",
-      "firstSeen": "2026-07-09T01:58:03+00:00",
       "new": false
     },
     {
@@ -166,7 +194,7 @@
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
       "date": "2026-07-09",
-      "time": "18:00",
+      "time": "17:15",
       "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-09&seats=2",
@@ -838,20 +866,6 @@
       "neighborhood": "Capitol Hill",
       "cuisine": "New American fine-dining prix-fixe",
       "date": "2026-07-09",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-09&seats=2",
-      "firstSeen": "2026-07-09T00:50:16+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "pineapple-and-pearls",
-      "name": "Pineapple and Pearls",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American fine-dining prix-fixe",
-      "date": "2026-07-09",
       "time": "18:15",
       "type": "Bar Full Dining",
       "party": 2,
@@ -1609,20 +1623,6 @@
       "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-07-10",
       "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-10&seats=2",
-      "firstSeen": "2026-07-09T00:50:16+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-07-10",
-      "time": "17:15",
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-10&seats=2",
