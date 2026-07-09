@@ -17,7 +17,7 @@ $Repo = 'C:\Users\Karen Plankton\Desktop\hardtobook-dashboard'
 $Py   = 'C:\Users\Karen Plankton\anaconda3\python.exe'
 $Git  = 'C:\Program Files\Git\cmd\git.exe'
 $Log  = Join-Path $Repo 'scraper\.radar.log'
-$Push = $false   # local-only while Netlify is out; set $true to deploy again
+$Push = $true    # push the fresh feed to GitHub Pages (origin) — free, auto-deploys
 
 function Log($m) { "{0}  {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $m | Out-File -FilePath $Log -Append -Encoding utf8 }
 
@@ -32,9 +32,8 @@ try {
         & $Git diff --cached --quiet
         if ($LASTEXITCODE -ne 0) {
             & $Git commit --quiet -m 'radar: refresh just-opened feed'
-            & $Git push --quiet origin main 2>&1 | Out-Null
-            & $Git push --quiet site   main 2>&1 | Out-Null
-            Log 'pushed update -> Netlify will redeploy'
+            & $Git push --quiet origin main 2>&1 | Out-Null   # GitHub Pages auto-redeploys (free)
+            Log 'pushed update -> GitHub Pages will redeploy'
         } else {
             Log 'no feed changes; nothing to push'
         }
