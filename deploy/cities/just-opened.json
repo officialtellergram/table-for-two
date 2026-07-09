@@ -1,10 +1,24 @@
 {
-  "generated": "2026-07-09T00:50:16+00:00",
+  "generated": "2026-07-09T00:58:04+00:00",
   "party": 2,
   "windowDays": 4,
   "count": 120,
-  "new": 0,
+  "new": 1,
   "items": [
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-07-11",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-09T00:58:04+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "torrisi",
@@ -16,20 +30,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/torrisi?date=2026-07-09&seats=2",
-      "firstSeen": "2026-07-09T00:50:16+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-09",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-09&seats=2",
       "firstSeen": "2026-07-09T00:50:16+00:00",
       "new": false
     },
