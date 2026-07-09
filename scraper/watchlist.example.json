@@ -1,0 +1,7 @@
+{
+  "_comment": "Copy to watchlist.json and edit. Each watch fires a Telegram alert when a NEW matching table opens. venues: 'all' or a list of spot ids (the 'id' field in cities/<city>.json). Times are 24h 'HH:MM'.",
+  "watches": [
+    { "city": "nyc", "venues": "all", "earliest": "17:30", "latest": "21:30" },
+    { "city": "nyc", "venues": ["carbone", "4-charles-prime-rib", "torrisi"], "earliest": "18:00", "latest": "21:00" }
+  ]
+}

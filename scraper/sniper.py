@@ -73,6 +73,8 @@ def main():
     ap.add_argument("--no-deploy", action="store_true", help="don't also write the deploy/ mirror")
     ap.add_argument("--allow-empty", action="store_true",
                     help="write an empty feed even if the previous one had slots (default: keep last good)")
+    ap.add_argument("--notify", action="store_true",
+                    help="send Telegram alerts for newly-opened slots matching watchlist.json")
     args = ap.parse_args()
 
     state = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
@@ -167,6 +169,15 @@ def main():
     tag = f" ({n_baseline} venues scanned for the first time — baselined, not flagged)" if n_baseline else ""
     print(f"polled {len(polled_now)} venues across {len(days)} days -> "
           f"{len(items)} open slots, {new_count} newly opened{tag}")
+
+    if args.notify:
+        try:
+            import notify
+            sent = notify.notify_new(items)
+            if sent:
+                print(f"sent {sent} Telegram alert(s) for newly-opened tables")
+        except Exception as e:
+            print(f"notify skipped: {e}")
 
 
 if __name__ == "__main__":

@@ -24,7 +24,7 @@ function Log($m) { "{0}  {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $m | 
 try {
     Set-Location $Repo
 
-    $out = & $Py 'scraper\sniper.py' '--days' '4' '--limit' '8' 2>&1
+    $out = & $Py 'scraper\sniper.py' '--days' '4' '--limit' '8' '--notify' 2>&1
     Log ($out -join ' | ')
 
     if ($Push) {
