@@ -9,7 +9,14 @@
 <meta http-equiv="Expires" content="0" />
 <script>(function(){try{var t=localStorage.getItem('t42-theme')||((window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <title>Table for Two ✌︎ — hard-to-book reservations</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>✌️</text></svg>" />
+<link rel="icon" type="image/png" href="icons/favicon.png" />
+<!-- PWA: installable to home screen (iOS on-ramp) -->
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Table for Two" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -66,7 +73,7 @@
   .subbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-top:16px}
   .brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);
     font-weight:500;font-size:17px;letter-spacing:3.5px;text-transform:uppercase}
-  .brand .mark{font-size:18px;align-self:center;transform:rotate(-10deg);
+  .brand .mark{width:22px;height:22px;object-fit:contain;align-self:center;transform:rotate(-10deg);
     filter:drop-shadow(0 2px 7px rgba(201,168,106,.5));animation:wave 3s ease-in-out infinite}
   @keyframes wave{0%,72%,100%{transform:rotate(-10deg)}82%{transform:rotate(5deg)}90%{transform:rotate(-4deg)}}
   .brand .nm{background:var(--nm);
@@ -215,7 +222,7 @@
 <div class="topbar-bar" id="topbarBar">
   <div class="wrap topbar">
     <div class="brand">
-      <span class="mark">✌️</span>
+      <img class="mark" src="icons/mark.png" alt="" width="22" height="22" />
       <span class="nm">Table for Two</span>
       <small id="srcMeta"></small>
     </div>
@@ -916,6 +923,11 @@ for(const id of ['q','sort','fCuisine','fHood','fDiff','fVibe','fOccasion','fWal
   setInterval(loadSniper,180000);   // re-poll the feed every 3 min; re-renders only on a new sweep
   setInterval(tick,1000);
 })();
+
+/* PWA: register the service worker (installable + offline shell). No-op on file://. */
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
+}
 </script>
 </body>
 </html>
