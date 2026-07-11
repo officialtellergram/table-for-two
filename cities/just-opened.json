@@ -1,10 +1,248 @@
 {
-  "generated": "2026-07-11T16:58:03+00:00",
+  "generated": "2026-07-11T17:28:03+00:00",
   "party": 2,
   "windowDays": 4,
   "count": 200,
-  "new": 25,
+  "new": 17,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-13",
+      "time": "21:15",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-13&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-11",
+      "time": "13:45",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-11",
+      "time": "14:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-11",
+      "time": "14:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-11",
+      "time": "14:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-11",
+      "time": "15:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-11",
+      "time": "15:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-11",
+      "time": "15:45",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "avra-estiatorio",
+      "name": "Avra Estiatorio",
+      "neighborhood": "Back Bay",
+      "cuisine": "Greek / Mediterranean seafood",
+      "date": "2026-07-11",
+      "time": "16:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-12",
+      "time": "18:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-12&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-12",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-12&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-12",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-12&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-11",
+      "time": "17:00",
+      "type": "Cocktail Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-11",
+      "time": "21:00",
+      "type": "Cocktail Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-11",
+      "time": "21:15",
+      "type": "Cocktail Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-11",
+      "time": "21:30",
+      "type": "Cocktail Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-11",
+      "time": "21:45",
+      "type": "Cocktail Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-11&seats=2",
+      "firstSeen": "2026-07-11T17:28:03+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,49 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-14",
-      "time": "17:30",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-14&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-11",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-11",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -157,49 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-11",
-      "time": "17:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-11",
-      "time": "17:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-11",
-      "time": "18:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -227,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -241,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -255,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -269,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -283,49 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-11",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-11",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-11",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -339,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -353,34 +465,6 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T16:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-11",
-      "time": "21:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:28:04+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-11",
-      "time": "17:15",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T16:28:04+00:00",
       "new": false
     },
     {
@@ -459,37 +543,9 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-07-12",
-      "time": "21:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-11T15:58:03+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
       "date": "2026-07-13",
       "time": "17:15",
       "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-13&seats=2",
-      "firstSeen": "2026-07-11T15:58:03+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-13",
-      "time": "18:00",
-      "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-11T15:58:03+00:00",
@@ -548,34 +604,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T15:58:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-11",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-11&seats=2",
-      "firstSeen": "2026-07-11T15:58:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-11",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-11&seats=2",
       "firstSeen": "2026-07-11T15:58:03+00:00",
       "new": false
     },
@@ -2771,34 +2799,6 @@
       "cuisine": "Global coastal seafood",
       "date": "2026-07-14",
       "time": "17:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-14&seats=2",
-      "firstSeen": "2026-07-11T14:55:36+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-07-14",
-      "time": "17:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-14&seats=2",
-      "firstSeen": "2026-07-11T14:55:36+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-07-14",
-      "time": "18:15",
       "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-14&seats=2",
