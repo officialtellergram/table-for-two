@@ -33,7 +33,7 @@ CITIES_DIR = ROOT / "cities"
 DEPLOY_CITIES = ROOT / "deploy" / "cities"
 STATE_PATH = SCR / ".sniper_state.json"
 FEED_NAME = "just-opened.json"
-MAX_ITEMS = 120
+MAX_ITEMS = 200   # roomier now that OpenTable venues feed in alongside Resy
 
 
 def now_iso():
@@ -53,6 +53,12 @@ def resy_ref(spot):
     """(loc, slug) from a spot's Resy platformUrl, or None."""
     m = resy_verify._SLUG_RE.search(spot.get("platformUrl") or "")
     return (m.group(1), m.group(2)) if m else None
+
+
+def opentable_ref(spot):
+    """The spot's OpenTable page URL, or None."""
+    u = spot.get("platformUrl") or ""
+    return u if "opentable.com" in u else None
 
 
 def booking_url(spot, day, party):
@@ -75,6 +81,9 @@ def main():
                     help="write an empty feed even if the previous one had slots (default: keep last good)")
     ap.add_argument("--notify", action="store_true",
                     help="send Telegram alerts for newly-opened slots matching watchlist.json")
+    ap.add_argument("--opentable", action="store_true",
+                    help="also scan OpenTable venues (drives a real off-screen Edge window "
+                         "via Playwright; ~16s per venue, one page load covers the whole window)")
     args = ap.parse_args()
 
     state = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
@@ -104,11 +113,16 @@ def main():
         session = None
 
     current = {}     # slotKey -> item dict
+    ot_queue = []    # (cityKey, spot) OpenTable venues, scanned after the Resy pass
+    cities_polled = set(load_manifest_keys(args.cities))
     for key in load_manifest_keys(args.cities):
         path = CITIES_DIR / f"{key}.json"
         if not path.exists():
             continue
         data = json.loads(path.read_text(encoding="utf-8"))
+        if args.opentable:
+            ot_queue += [(key, s) for s in data.get("spots", [])
+                         if opentable_ref(s)][: args.limit]
         spots = [s for s in data.get("spots", []) if resy_ref(s)][: args.limit]
         for spot in spots:
             loc, slug = resy_ref(spot)
@@ -143,7 +157,53 @@ def main():
                     }
                 time.sleep(args.sleep)
 
-    items = sorted(current.values(), key=lambda it: it["firstSeen"], reverse=True)[:MAX_ITEMS]
+    # OpenTable pass: one real (off-screen) browser reused across venues; a single
+    # page load returns the venue's whole window, so no per-day loop here.
+    if ot_queue:
+        want_days = set(days)
+        try:
+            from opentable_find import OTBrowser
+            with OTBrowser() as ot:
+                for key, spot in ot_queue:
+                    url = opentable_ref(spot)
+                    slug = url.rstrip("/").split("/")[-1].split("?")[0]
+                    ck = f"ot:{slug}"
+                    baseline = ck not in polled
+                    polled_now.add(ck)
+                    sep = "&" if "?" in url else "?"
+                    for sl in ot.slots(url, days[0], args.party):
+                        if sl["date"] not in want_days:
+                            continue
+                        slot_key = f"ot:{slug}|{sl['date']}|{sl['time']}|{sl['type']}"
+                        first_seen = seen.get(slot_key, now)
+                        current[slot_key] = {
+                            "city": key, "spotId": spot.get("id"), "name": spot.get("name"),
+                            "neighborhood": spot.get("neighborhood"), "cuisine": spot.get("cuisine"),
+                            "date": sl["date"], "time": sl["time"], "type": sl["type"],
+                            "party": args.party,
+                            "url": f"{url}{sep}covers={args.party}&dateTime={sl['date']}T{sl['time']}",
+                            "firstSeen": first_seen,
+                            "new": (slot_key not in seen) and not baseline and not stale,
+                        }
+        except Exception as e:
+            print(f"opentable scan skipped: {e}")
+
+    # A partial run (--cities) refreshes only its cities; carry the rest of the
+    # previous feed forward (future dates only, badges cleared) instead of
+    # silently dropping every other city from the site.
+    carry = []
+    feed_path = CITIES_DIR / FEED_NAME
+    if feed_path.exists():
+        try:
+            prev_items = json.loads(feed_path.read_text(encoding="utf-8")).get("items", [])
+            carry = [dict(it, new=False) for it in prev_items
+                     if it.get("city") not in cities_polled
+                     and (it.get("date") or "") >= today.isoformat()]
+        except Exception:
+            pass
+
+    items = sorted(carry + list(current.values()),
+                   key=lambda it: it["firstSeen"], reverse=True)[:MAX_ITEMS]
     new_count = sum(1 for it in items if it["new"])
 
     # Safety guard: if a sweep comes back empty but the last good feed had slots,
@@ -171,7 +231,18 @@ def main():
         (DEPLOY_CITIES / FEED_NAME).write_text(json.dumps(feed, indent=2, ensure_ascii=False) + "\n",
                                                encoding="utf-8")
 
-    state = {"updated": now, "slots": {k: v["firstSeen"] for k, v in current.items()},
+    # Merge, don't replace: a partial run (--cities, or Resy-only vs --opentable)
+    # must not wipe the diff memory of venues it didn't poll, or the next full
+    # sweep re-flags everything it forgot as "newly opened". Keep unpolled
+    # venues' future-dated slots; drop everything else (booked or past).
+    polled_ids = {ck if ck.startswith("ot:") else str(venue_ids.get(ck))
+                  for ck in polled_now}
+    today_iso = today.isoformat()
+    kept = {k: v for k, v in seen.items()
+            if k.split("|", 1)[0] not in polled_ids
+            and (k.split("|") + ["", ""])[1] >= today_iso}
+    state = {"updated": now,
+             "slots": {**kept, **{k: v["firstSeen"] for k, v in current.items()}},
              "venues": venue_ids, "polled": sorted(polled | polled_now)}
     STATE_PATH.write_text(json.dumps(state, indent=2), encoding="utf-8")
 
