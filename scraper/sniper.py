@@ -84,6 +84,9 @@ def main():
     ap.add_argument("--opentable", action="store_true",
                     help="also scan OpenTable venues (drives a real off-screen Edge window "
                          "via Playwright; ~16s per venue, one page load covers the whole window)")
+    ap.add_argument("--ot-per-sweep", type=int, default=8,
+                    help="OpenTable venues to scan per sweep; the cursor rotates through the "
+                         "full list across sweeps so nothing gets hammered (default 8)")
     args = ap.parse_args()
 
     state = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
@@ -91,6 +94,8 @@ def main():
     venue_ids = state.get("venues", {})    # "loc/slug" -> resy venue id (cache)
     polled = set(state.get("polled", []))  # venue keys we've scanned at least once
     polled_now = set()
+    polled_spots = set()                   # (city, spotId) actually scanned this run
+    ot_cursor = int(state.get("ot_cursor", 0))   # rotation position in the OT venue list
 
     # If the last sweep was hours ago (radar was off, PC asleep), the diff is
     # meaningless — everything looks "newly opened". Treat the run as a fresh
@@ -114,7 +119,6 @@ def main():
 
     current = {}     # slotKey -> item dict
     ot_queue = []    # (cityKey, spot) OpenTable venues, scanned after the Resy pass
-    cities_polled = set(load_manifest_keys(args.cities))
     for key in load_manifest_keys(args.cities):
         path = CITIES_DIR / f"{key}.json"
         if not path.exists():
@@ -138,6 +142,7 @@ def main():
                 continue
             baseline = ck not in polled    # first time we've ever scanned this venue
             polled_now.add(ck)
+            polled_spots.add((key, spot.get("id")))
             coord = spot.get("coordinates") or {}
             for day in days:
                 for sl in resy_find.slots(vid, day, args.party,
@@ -157,47 +162,65 @@ def main():
                     }
                 time.sleep(args.sleep)
 
-    # OpenTable pass: one real (off-screen) browser reused across venues; a single
-    # page load returns the venue's whole window, so no per-day loop here.
+    # OpenTable pass: one real (off-screen) browser with a persistent profile,
+    # reused across venues. A single page load returns a venue's whole window,
+    # so no per-day loop — and only a small rotating subset is scanned per sweep
+    # (Akamai flagged us the one time we hammered all venues back-to-back).
     if ot_queue:
         want_days = set(days)
+        n_take = min(max(1, args.ot_per_sweep), len(ot_queue))
+        take = [ot_queue[(ot_cursor + i) % len(ot_queue)] for i in range(n_take)]
+        results = []   # (cityKey, spot, slots)
         try:
             from opentable_find import OTBrowser
             with OTBrowser() as ot:
-                for key, spot in ot_queue:
-                    url = opentable_ref(spot)
-                    slug = url.rstrip("/").split("/")[-1].split("?")[0]
-                    ck = f"ot:{slug}"
-                    baseline = ck not in polled
-                    polled_now.add(ck)
-                    sep = "&" if "?" in url else "?"
-                    for sl in ot.slots(url, days[0], args.party):
-                        if sl["date"] not in want_days:
-                            continue
-                        slot_key = f"ot:{slug}|{sl['date']}|{sl['time']}|{sl['type']}"
-                        first_seen = seen.get(slot_key, now)
-                        current[slot_key] = {
-                            "city": key, "spotId": spot.get("id"), "name": spot.get("name"),
-                            "neighborhood": spot.get("neighborhood"), "cuisine": spot.get("cuisine"),
-                            "date": sl["date"], "time": sl["time"], "type": sl["type"],
-                            "party": args.party,
-                            "url": f"{url}{sep}covers={args.party}&dateTime={sl['date']}T{sl['time']}",
-                            "firstSeen": first_seen,
-                            "new": (slot_key not in seen) and not baseline and not stale,
-                        }
+                for key, spot in take:
+                    results.append((key, spot, ot.slots(opentable_ref(spot),
+                                                        days[0], args.party)))
         except Exception as e:
             print(f"opentable scan skipped: {e}")
+            results = []
+        # All-zero across the subset = blocked/challenged, not "everything booked".
+        # Keep previous OT state untouched and retry the same subset next sweep.
+        if results and not any(sls for _, _, sls in results):
+            print(f"opentable: 0 slots across all {len(results)} venues scanned — "
+                  "likely blocked; keeping previous OpenTable state")
+        elif results:
+            ot_cursor = (ot_cursor + n_take) % len(ot_queue)
+            for key, spot, sls in results:
+                url = opentable_ref(spot)
+                slug = url.rstrip("/").split("/")[-1].split("?")[0]
+                ck = f"ot:{slug}"
+                baseline = ck not in polled
+                polled_now.add(ck)
+                polled_spots.add((key, spot.get("id")))
+                sep = "&" if "?" in url else "?"
+                for sl in sls:
+                    if sl["date"] not in want_days:
+                        continue
+                    slot_key = f"ot:{slug}|{sl['date']}|{sl['time']}|{sl['type']}"
+                    first_seen = seen.get(slot_key, now)
+                    current[slot_key] = {
+                        "city": key, "spotId": spot.get("id"), "name": spot.get("name"),
+                        "neighborhood": spot.get("neighborhood"), "cuisine": spot.get("cuisine"),
+                        "date": sl["date"], "time": sl["time"], "type": sl["type"],
+                        "party": args.party,
+                        "url": f"{url}{sep}covers={args.party}&dateTime={sl['date']}T{sl['time']}",
+                        "firstSeen": first_seen,
+                        "new": (slot_key not in seen) and not baseline and not stale,
+                    }
 
-    # A partial run (--cities) refreshes only its cities; carry the rest of the
-    # previous feed forward (future dates only, badges cleared) instead of
-    # silently dropping every other city from the site.
+    # A run only refreshes the venues it actually scanned (--cities subsets, and
+    # the rotating OpenTable cursor). Carry every other venue's previous feed
+    # items forward (future dates only, badges cleared) instead of silently
+    # dropping them from the site.
     carry = []
     feed_path = CITIES_DIR / FEED_NAME
     if feed_path.exists():
         try:
             prev_items = json.loads(feed_path.read_text(encoding="utf-8")).get("items", [])
             carry = [dict(it, new=False) for it in prev_items
-                     if it.get("city") not in cities_polled
+                     if (it.get("city"), it.get("spotId")) not in polled_spots
                      and (it.get("date") or "") >= today.isoformat()]
         except Exception:
             pass
@@ -243,7 +266,8 @@ def main():
             and (k.split("|") + ["", ""])[1] >= today_iso}
     state = {"updated": now,
              "slots": {**kept, **{k: v["firstSeen"] for k, v in current.items()}},
-             "venues": venue_ids, "polled": sorted(polled | polled_now)}
+             "venues": venue_ids, "polled": sorted(polled | polled_now),
+             "ot_cursor": ot_cursor}
     STATE_PATH.write_text(json.dumps(state, indent=2), encoding="utf-8")
 
     n_baseline = len(polled_now - polled)

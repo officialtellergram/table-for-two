@@ -9,3 +9,4 @@ Thumbs.db
 
 # Note: scraper/.sniper_state.json IS tracked on purpose — so the diff state
 # persists run-to-run (the local scheduled task commits it each sweep).
+scraper/.ot_profile/
