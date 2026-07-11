@@ -567,7 +567,7 @@ function initCitySelect(){
     sel.appendChild(o);
   }
   sel.value=cityKey;
-  sel.onchange=()=>{ cityKey=sel.value; loadCity(); };
+  sel.onchange=()=>{ cityKey=sel.value; try{ localStorage.setItem('t42-city',cityKey); }catch(e){} loadCity(); };
 }
 
 async function loadCity(){
@@ -915,6 +915,36 @@ for(const id of ['q','sort','fCuisine','fHood','fDiff','fVibe','fOccasion','fWal
   onScroll();
 })();
 
+/* ---------- Default city: last manual pick, else nearest by geolocation ----------
+   A manual dropdown choice is remembered and always wins. Otherwise (first visit)
+   we ask the browser where we are and land on the closest live city — but only if
+   it's within 500 km; a visitor in Seattle gets the NYC default, not "Houston". */
+function kmBetween(a,b){
+  const R=6371, r=x=>x*Math.PI/180;
+  const h=Math.sin(r(b[0]-a[0])/2)**2 + Math.cos(r(a[0]))*Math.cos(r(b[0]))*Math.sin(r(b[1]-a[1])/2)**2;
+  return 2*R*Math.asin(Math.sqrt(h));
+}
+function nearestCity(lat,lng){
+  let best=null, bestKm=Infinity;
+  for(const [k,c] of Object.entries(DATA_SOURCES)){
+    if(!c.available||!c.center) continue;
+    const d=kmBetween([lat,lng],c.center);
+    if(d<bestKm){ best=k; bestKm=d; }
+  }
+  return bestKm<=500?best:null;
+}
+function geoCity(){
+  return new Promise(res=>{
+    if(!('geolocation' in navigator)) return res(null);
+    let done=false; const finish=v=>{ if(!done){ done=true; res(v); } };
+    setTimeout(()=>finish(null),6000);   // never stall boot on an ignored permission prompt
+    navigator.geolocation.getCurrentPosition(
+      p=>finish(nearestCity(p.coords.latitude,p.coords.longitude)),
+      ()=>finish(null),
+      {timeout:5000, maximumAge:600000});
+  });
+}
+
 (async function boot(){
   initTheme();
   if(location.protocol==='file:'){
@@ -926,6 +956,14 @@ for(const id of ['q','sort','fCuisine','fHood','fDiff','fVibe','fOccasion','fWal
   }
   showState('<div class="spin"></div><h2>Starting…</h2>');
   await loadManifest();
+  let saved=null; try{ saved=localStorage.getItem('t42-city'); }catch(e){}
+  if(saved && DATA_SOURCES[saved] && DATA_SOURCES[saved].available){
+    cityKey=saved;
+  }else{
+    showState('<div class="spin"></div><h2>Finding your nearest city…</h2>');
+    const near=await geoCity();
+    if(near) cityKey=near;
+  }
   initCitySelect();
   await loadCity();
   loadSniper();          // fetch the cancellation-radar feed (non-blocking)
