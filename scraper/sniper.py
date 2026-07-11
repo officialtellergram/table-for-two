@@ -83,6 +83,16 @@ def main():
     polled = set(state.get("polled", []))  # venue keys we've scanned at least once
     polled_now = set()
 
+    # If the last sweep was hours ago (radar was off, PC asleep), the diff is
+    # meaningless — everything looks "newly opened". Treat the run as a fresh
+    # baseline instead of spamming false cancellations.
+    stale = False
+    try:
+        prev = datetime.fromisoformat(state["updated"])
+        stale = datetime.now(timezone.utc) - prev > timedelta(hours=3)
+    except (KeyError, ValueError):
+        pass
+
     today = date.today()
     days = [(today + timedelta(days=i)).isoformat() for i in range(max(1, args.days))]
     now = now_iso()
@@ -128,8 +138,8 @@ def main():
                         "firstSeen": first_seen,
                         # "new" = a slot that appeared since we last looked at THIS venue.
                         # A venue's first-ever scan is a baseline, not a cancellation, so
-                        # nothing it shows that run is flagged new.
-                        "new": (slot_key not in seen) and not baseline,
+                        # nothing it shows that run is flagged new. Ditto a stale run.
+                        "new": (slot_key not in seen) and not baseline and not stale,
                     }
                 time.sleep(args.sleep)
 
@@ -167,6 +177,8 @@ def main():
 
     n_baseline = len(polled_now - polled)
     tag = f" ({n_baseline} venues scanned for the first time — baselined, not flagged)" if n_baseline else ""
+    if stale:
+        tag += " [state was >3h old — re-baselined, nothing flagged new]"
     print(f"polled {len(polled_now)} venues across {len(days)} days -> "
           f"{len(items)} open slots, {new_count} newly opened{tag}")
 
