@@ -1,24 +1,10 @@
 {
-  "generated": "2026-07-12T11:28:03+00:00",
+  "generated": "2026-07-12T11:58:03+00:00",
   "party": 2,
   "windowDays": 4,
   "count": 200,
-  "new": 2,
+  "new": 0,
   "items": [
-    {
-      "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
-      "cuisine": "Italian",
-      "date": "2026-07-12",
-      "time": "10:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-12T11:28:03+00:00",
-      "new": true
-    },
     {
       "city": "boston",
       "spotId": "contessa",
@@ -31,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-12&seats=2",
       "firstSeen": "2026-07-12T11:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2800,6 +2786,20 @@
       "date": "2026-07-15",
       "time": "18:30",
       "type": "Hightop",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-15",
+      "time": "18:30",
+      "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-15&seats=2",
       "firstSeen": "2026-07-12T04:28:04+00:00",
