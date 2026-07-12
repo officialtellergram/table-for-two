@@ -87,7 +87,12 @@ def main():
     ap.add_argument("--ot-per-sweep", type=int, default=8,
                     help="OpenTable venues to scan per sweep; the cursor rotates through the "
                          "full list across sweeps so nothing gets hammered (default 8)")
+    ap.add_argument("--only", choices=["resy", "opentable", "both"], default="both",
+                    help="scan only one platform (default both). 'opentable' implies --opentable "
+                         "and skips the Resy pass — for the slow OT-only schedule.")
     args = ap.parse_args()
+    if args.only == "opentable":
+        args.opentable = True
 
     state = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
     seen = state.get("slots", {})          # slotKey -> firstSeen ISO
@@ -127,7 +132,8 @@ def main():
         if args.opentable:
             ot_queue += [(key, s) for s in data.get("spots", [])
                          if opentable_ref(s)][: args.limit]
-        spots = [s for s in data.get("spots", []) if resy_ref(s)][: args.limit]
+        spots = [] if args.only == "opentable" else \
+            [s for s in data.get("spots", []) if resy_ref(s)][: args.limit]
         for spot in spots:
             loc, slug = resy_ref(spot)
             ck = f"{loc}/{slug}"
@@ -209,6 +215,13 @@ def main():
                         "firstSeen": first_seen,
                         "new": (slot_key not in seen) and not baseline and not stale,
                     }
+
+    # An OT-only run that scanned nothing (blocked) has no news and must not
+    # rewrite the feed/state — that would just churn the "generated" timestamp
+    # and push an empty diff. Bail before touching anything.
+    if args.only == "opentable" and not polled_spots:
+        print("opentable-only run polled 0 venues (blocked/empty) — leaving feed untouched")
+        return
 
     # A run only refreshes the venues it actually scanned (--cities subsets, and
     # the rotating OpenTable cursor). Carry every other venue's previous feed
