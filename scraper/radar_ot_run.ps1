@@ -45,6 +45,9 @@ try {
     } else {
         Log 'no OpenTable changes; nothing to push'
     }
+
+    # Stage 2 fan-out to public signups (no-op until INGEST_URL/INGEST_SECRET set).
+    & (Join-Path $Repo 'scraper\notify_web.ps1')
 } catch {
     Log ("ERROR: " + $_.Exception.Message)
     exit 1

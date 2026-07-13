@@ -50,6 +50,9 @@ try {
     } else {
         Log 'local-only: feed updated on disk (view at http://localhost:8080)'
     }
+
+    # Stage 2 fan-out to public signups (no-op until INGEST_URL/INGEST_SECRET set).
+    & (Join-Path $Repo 'scraper\notify_web.ps1')
 } catch {
     Log ("ERROR: " + $_.Exception.Message)
     exit 1
