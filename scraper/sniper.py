@@ -94,6 +94,7 @@ def main():
     if args.only == "opentable":
         args.opentable = True
 
+    resy_find.RATE_LIMITED = False         # fresh sweep, fresh verdict
     state = json.loads(STATE_PATH.read_text(encoding="utf-8")) if STATE_PATH.exists() else {}
     seen = state.get("slots", {})          # slotKey -> firstSeen ISO
     venue_ids = state.get("venues", {})    # "loc/slug" -> resy venue id (cache)
@@ -147,15 +148,20 @@ def main():
             if not vid:
                 continue
             baseline = ck not in polled    # first time we've ever scanned this venue
-            polled_now.add(ck)
-            polled_spots.add((key, spot.get("id")))
             coord = spot.get("coordinates") or {}
+            # Buffer the venue's slots and only commit if it finished clean — a venue
+            # cut short by a rate limit must not half-update the diff state (its
+            # missing slots would be re-flagged "new" on recovery).
+            venue_slots = {}
             for day in days:
-                for sl in resy_find.slots(vid, day, args.party,
-                                          coord.get("lat"), coord.get("lng"), session):
+                sls = resy_find.slots(vid, day, args.party,
+                                      coord.get("lat"), coord.get("lng"), session)
+                if resy_find.RATE_LIMITED:
+                    break
+                for sl in sls:
                     slot_key = f"{vid}|{sl['date']}|{sl['time']}|{sl['type']}"
                     first_seen = seen.get(slot_key, now)
-                    current[slot_key] = {
+                    venue_slots[slot_key] = {
                         "city": key, "spotId": spot.get("id"), "name": spot.get("name"),
                         "neighborhood": spot.get("neighborhood"), "cuisine": spot.get("cuisine"),
                         "date": sl["date"], "time": sl["time"], "type": sl["type"],
@@ -167,6 +173,15 @@ def main():
                         "new": (slot_key not in seen) and not baseline and not stale,
                     }
                 time.sleep(args.sleep)
+            if resy_find.RATE_LIMITED:
+                print("resy rate-limited (429) — stopping the Resy pass; "
+                      "unpolled venues carry over from the previous sweep")
+                break
+            current.update(venue_slots)
+            polled_now.add(ck)
+            polled_spots.add((key, spot.get("id")))
+        if resy_find.RATE_LIMITED:
+            break   # stop the whole Resy pass, not just this city
 
     # OpenTable pass: one real (off-screen) browser with a persistent profile,
     # reused across venues. A single page load returns a venue's whole window,
@@ -216,11 +231,11 @@ def main():
                         "new": (slot_key not in seen) and not baseline and not stale,
                     }
 
-    # An OT-only run that scanned nothing (blocked) has no news and must not
-    # rewrite the feed/state — that would just churn the "generated" timestamp
-    # and push an empty diff. Bail before touching anything.
-    if args.only == "opentable" and not polled_spots:
-        print("opentable-only run polled 0 venues (blocked/empty) — leaving feed untouched")
+    # A run that scanned NOTHING (rate-limited, blocked, outage) has no news and
+    # must not rewrite the feed/state — that would churn the "generated" timestamp
+    # and make stale data look fresh. Bail before touching anything.
+    if not polled_spots:
+        print("polled 0 venues (rate-limited/blocked) — leaving feed and state untouched")
         return
 
     # A run only refreshes the venues it actually scanned (--cities subsets, and

@@ -33,7 +33,10 @@ New-Item -ItemType File -Path $Lock -Force | Out-Null
 try {
     Set-Location $Repo
 
-    $out = & $Py 'scraper\sniper.py' '--only' 'resy' '--days' '4' '--limit' '8' '--notify' 2>&1
+    # 3-day window + 0.75s spacing: Resy rate-limits sustained 30-min sweeps (429,
+    # cools off over hours) — fewer, slower calls keep us under it. resy_find
+    # aborts the pass on a sustained 429 so a limited sweep costs ~2 calls.
+    $out = & $Py 'scraper\sniper.py' '--only' 'resy' '--days' '3' '--limit' '8' '--sleep' '0.75' '--notify' 2>&1
     Log ($out -join ' | ')
 
     if ($Push) {

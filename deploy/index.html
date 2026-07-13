@@ -301,9 +301,9 @@
     <div class="legend">
       <span class="k"><span class="sw" style="background:var(--good)"></span><b>Booking Available</b> — real open tables for 2 in the next 7 days (Resy)</span>
       <span class="k"><span class="sw" style="background:var(--accent)"></span><b>Countdown</b> — releases in batches; timer to the next drop</span>
-      <span class="k"><span class="sw" style="background:var(--faint)"></span><b>Check next 7 days</b> — OpenTable/Tock/SevenRooms block auto-checks; tap to open the platform pre-filled</span>
-      <span class="k"><span class="diff-scale" id="diffScale" aria-hidden="true"></span><b>Booking difficulty</b> — easy → near-impossible</span>
-      <span class="k" style="color:var(--faint)">Resy availability is a snapshot from the last refresh — always confirm on the platform.</span>
+      <span class="k"><span class="sw" style="background:var(--faint)"></span><b>Check next 7 days</b> — tap to open the platform pre-filled</span>
+      <span class="k"><span class="diff-scale" id="diffScale" aria-hidden="true"></span><b>Booking difficulty</b> — easy → difficult</span>
+      <span class="k" style="color:var(--faint)">Availability is a snapshot — always confirm on the platform.</span>
     </div>
   </div>
 </header>
@@ -584,7 +584,7 @@ const STATE_COLOR={open:'#63d6a4', countdown:'#e08a5b', unknown:'#6b5f72', booke
 /* Difficulty-to-color: 1 = easiest (green) … 5 = hardest (red). Color encodes the
    same level the 5-dot count does, so the scale reads at a glance. */
 const DIFF_COLORS={1:'#6bbf6b',2:'#a8c258',3:'#e0b13a',4:'#e0863a',5:'#d6555f'};
-const DIFF_WORDS={1:'Easy',2:'Doable',3:'Tough',4:'Very hard',5:'Near-impossible'};
+const DIFF_WORDS={1:'Easy',2:'Doable',3:'Tough',4:'Hard',5:'Very difficult'};
 function diffColor(n){ return DIFF_COLORS[Math.min(5,Math.max(1,Math.round(n)))||3]; }
 function diffWord(n){ return DIFF_WORDS[Math.min(5,Math.max(1,Math.round(n)))||3]; }
 
@@ -738,9 +738,9 @@ function renderJustOpened(){
   const gen=SNIPER&&SNIPER.generated;
   const ageMs=gen?Date.now()-Date.parse(gen):0;
   const stale=gen && ageMs>6*3600000;                 // radar hasn't refreshed in 6h+
+  // Stale feeds get a quiet nudge, not an alarm — "as of <ago>" says it honestly.
   const sub=(fresh?'<b style="color:var(--good)">'+fresh+' just opened</b> · ':'')+
-    'open tables for two'+(gen?' · updated '+fmtAgo(gen):'')+
-    (stale?' <span style="color:var(--soon)">· radar paused, may be out of date</span>':'');
+    'open tables for two'+(gen?' · '+(stale?'as of ':'updated ')+fmtAgo(gen):'');
   el.style.display='block';
   el.innerHTML='<div class="jo-head">✨ Open now<small>'+sub+'</small></div>'+
     '<div class="jo-row">'+items.map(it=>`
