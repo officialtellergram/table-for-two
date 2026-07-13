@@ -1,10 +1,52 @@
 {
-  "generated": "2026-07-13T00:58:03+00:00",
+  "generated": "2026-07-13T01:28:03+00:00",
   "party": 2,
   "windowDays": 4,
   "count": 200,
-  "new": 36,
+  "new": 3,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-13",
+      "time": "18:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-13&seats=2",
+      "firstSeen": "2026-07-13T01:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-14",
+      "time": "21:15",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-13T01:28:03+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-13",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-13&seats=2",
+      "firstSeen": "2026-07-13T01:28:03+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,35 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-15",
-      "time": "17:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-15&seats=2",
-      "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-15",
-      "time": "17:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-15&seats=2",
-      "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -59,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-15&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,63 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-12",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-12",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-12",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-12",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -157,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -171,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -185,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -199,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -213,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -227,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -241,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -255,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -269,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -283,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -297,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -311,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -325,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -339,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -353,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -367,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -381,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -395,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -409,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -423,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -437,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -451,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -465,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -479,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -493,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -507,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-13&seats=2",
       "firstSeen": "2026-07-13T00:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -936,48 +894,6 @@
       "neighborhood": "Montrose",
       "cuisine": "Japanese / Omakase",
       "date": "2026-07-12",
-      "time": "20:30",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-12",
-      "time": "20:30",
-      "type": "Sushi Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-12",
-      "time": "20:45",
-      "type": "Sushi Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-12&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-12",
       "time": "21:00",
       "type": "Sushi Bar",
       "party": 2,
@@ -1021,90 +937,6 @@
       "cuisine": "Japanese / Omakase",
       "date": "2026-07-13",
       "time": "17:45",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-13&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-13",
-      "time": "18:15",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-13&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-13",
-      "time": "18:30",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-13&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-13",
-      "time": "18:45",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-13&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-13",
-      "time": "19:15",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-13&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-13",
-      "time": "19:30",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-13&seats=2",
-      "firstSeen": "2026-07-13T00:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-13",
-      "time": "19:45",
       "type": "Main Dining",
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-13&seats=2",
@@ -2800,6 +2632,174 @@
       "date": "2026-07-15",
       "time": "16:00",
       "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "16:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "16:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "16:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "16:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "16:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "16:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "16:45",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "17:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "17:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "17:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "17:45",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-12T04:28:04+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-15",
+      "time": "18:15",
+      "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-15&seats=2",
       "firstSeen": "2026-07-12T04:28:04+00:00",
