@@ -1,10 +1,38 @@
 {
-  "generated": "2026-07-13T10:28:03+00:00",
+  "generated": "2026-07-13T10:58:03+00:00",
   "party": 2,
   "windowDays": 4,
   "count": 200,
-  "new": 1,
+  "new": 2,
   "items": [
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-14",
+      "time": "19:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-13T10:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-14",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-13T10:58:03+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-15&seats=2",
       "firstSeen": "2026-07-13T10:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -2772,34 +2800,6 @@
       "date": "2026-07-16",
       "time": "18:45",
       "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-13T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-16",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-13T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-16",
-      "time": "19:00",
-      "type": "Hightop",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-13T04:28:03+00:00",
