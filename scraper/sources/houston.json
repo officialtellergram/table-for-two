@@ -16,8 +16,27 @@
     "cuisine": "Japanese Omakase",
     "address": "2701 W Dallas St, Houston, TX 77019",
     "signatureDish": "20-course edomae omakase by Chef Manabu 'Hori' Horiuchi",
-    "tips": ["Only 6 seats, one seating per night Tue-Sat", "Prepaid via Resy; parties of 2, 4, or 6 only", "$300pp, ~20 courses; book the moment it opens", "VERIFY release time"],
-    "evidence": "Six-seat counter, single nightly seating Tue-Sat from Kata Robata/Katami's Chef Hori; prepaid Resy-only, opened Jan 2026 (CultureMap, Houston Food Finder)."
+    "tips": [
+      "Only 6 seats, one seating per night Tue-Sat",
+      "Prepaid via Resy; parties of 2, 4, or 6 only",
+      "$300pp, ~20 courses; book the moment it opens",
+      "VERIFY release time"
+    ],
+    "evidence": "Six-seat counter, single nightly seating Tue-Sat from Kata Robata/Katami's Chef Hori; prepaid Resy-only, opened Jan 2026 (CultureMap, Houston Food Finder).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Chef of the Year",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-houston-2026-winners/",
+        "note": "Manabu 'Hori' Horiuchi (Kata Robata, Katami, Sushi Horiuchi) named 2026 Chef of the Year"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "Top 10 New Restaurants 2025",
+        "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+        "note": "Six-seat omakase counter among Houstonia's top new openings of 2025"
+      }
+    ]
   },
   {
     "id": "tatemo",
@@ -36,8 +55,39 @@
     "cuisine": "Modern Mexican",
     "address": "4740 Dacoma St, Unit F, Houston, TX 77092",
     "signatureDish": "Heirloom-corn nixtamal tasting menu",
-    "tips": ["Reservations drop in the first week of the month for the following month", "16 seats, Wed-Sat only; tasting menu only, BYOB", "Sells out for months; check back at the next monthly drop", "VERIFY release time"],
-    "evidence": "Michelin one-star (2024/2025); 16-seat tasting-menu-only room that 'typically books solid for months in advance'; monthly Tock drops (Tock FAQ, Michelin Guide, Houstonia)."
+    "tips": [
+      "Reservations drop in the first week of the month for the following month",
+      "16 seats, Wed-Sat only; tasting menu only, BYOB",
+      "Sells out for months; check back at the next monthly drop",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin one-star (2024/2025); 16-seat tasting-menu-only room that 'typically books solid for months in advance'; monthly Tock drops (Tock FAQ, Michelin Guide, Houstonia).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+        "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Finalist 2025",
+        "url": "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees",
+        "note": "Emmanuel Chavez, Best Chef: Texas nominee (third consecutive nomination)"
+      },
+      {
+        "name": "Houston Chronicle",
+        "tier": "Top 100 (2025)",
+        "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+        "note": "Ranked No. 6 on the Chronicle's 2025 Top 100 restaurants list (No. 1 in 2024)"
+      },
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2025 — Chef of the Year",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/",
+        "note": "Emmanuel Chavez named 2025 Chef of the Year"
+      }
+    ]
   },
   {
     "id": "march",
@@ -56,8 +106,38 @@
     "cuisine": "Mediterranean tasting menu",
     "address": "1624 Westheimer Rd, Houston, TX 77006",
     "signatureDish": "Six- or nine-course Mediterranean tasting menu",
-    "tips": ["Rolling 60-day window; prime weekend slots vanish on release", "28-seat tasting-menu-only room; also listed on OpenTable/Sapphire Reserve", "Goodnight Hospitality; book exactly 60 days out", "VERIFY release time"],
-    "evidence": "Michelin one-star, cult tasting-menu room of 28 seats; reservations open 60 days out and 'disappear almost as soon as released' (Infatuation, Michelin Guide, Houston Food Finder)."
+    "tips": [
+      "Rolling 60-day window; prime weekend slots vanish on release",
+      "28-seat tasting-menu-only room; also listed on OpenTable/Sapphire Reserve",
+      "Goodnight Hospitality; book exactly 60 days out",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin one-star, cult tasting-menu room of 28 seats; reservations open 60 days out and 'disappear almost as soon as released' (Infatuation, Michelin Guide, Houston Food Finder).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+        "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Finalist 2026",
+        "url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+        "note": "June Rodil, Outstanding Professional in Beverage Service nominee 2026; MARCH also a 2025 finalist for Outstanding Wine and Other Beverages Program"
+      },
+      {
+        "name": "Houston Chronicle",
+        "tier": "Top 100 (2025)",
+        "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+        "note": "Ranked No. 5 on the Chronicle's 2025 Top 100 restaurants list"
+      },
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/"
+      }
+    ]
   },
   {
     "id": "kata-robata-omakase",
@@ -76,8 +156,21 @@
     "cuisine": "Japanese Omakase",
     "address": "3600 Kirby Dr, Suite H, Houston, TX 77098",
     "signatureDish": "Chef Hori omakase (fish flown from Japan multiple times weekly)",
-    "tips": ["Limited omakase seats nightly; closed Sun/Wed (Hori's days off)", "Note 'omakase' on the Resy booking or call (713) 526-8858", "Near-mythic scarcity; book far ahead", "VERIFY release time"],
-    "evidence": "Chef Manabu Horiuchi's omakase is repeatedly cited as one of Houston's toughest reservations with limited nightly seats and a near-mythic following (Modern Luxury, Houston Food Finder)."
+    "tips": [
+      "Limited omakase seats nightly; closed Sun/Wed (Hori's days off)",
+      "Note 'omakase' on the Resy booking or call (713) 526-8858",
+      "Near-mythic scarcity; book far ahead",
+      "VERIFY release time"
+    ],
+    "evidence": "Chef Manabu Horiuchi's omakase is repeatedly cited as one of Houston's toughest reservations with limited nightly seats and a near-mythic following (Modern Luxury, Houston Food Finder).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Chef of the Year",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-houston-2026-winners/",
+        "note": "Manabu 'Hori' Horiuchi (Kata Robata, Katami, Sushi Horiuchi) named 2026 Chef of the Year"
+      }
+    ]
   },
   {
     "id": "katami",
@@ -96,8 +189,32 @@
     "cuisine": "Japanese / Omakase",
     "address": "2701 W Dallas St, Houston, TX 77019",
     "signatureDish": "17-course omakase at the sushi bar",
-    "tips": ["Select 'Omakase' seating area on Resy for the counter experience", "Omakase counter seats are the scarce ones; à la carte easier", "VERIFY release time"],
-    "evidence": "Texas Monthly's #1 Best New Restaurant; Chef Hori's flagship with a tightly limited omakase counter (Katami site, Resy, Houston Food Finder)."
+    "tips": [
+      "Select 'Omakase' seating area on Resy for the counter experience",
+      "Omakase counter seats are the scarce ones; à la carte easier",
+      "VERIFY release time"
+    ],
+    "evidence": "Texas Monthly's #1 Best New Restaurant; Chef Hori's flagship with a tightly limited omakase counter (Katami site, Resy, Houston Food Finder).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/",
+        "note": "One of 11 nominees for 2026 Restaurant of the Year; chef Manabu Horiuchi won 2026 Chef of the Year"
+      },
+      {
+        "name": "Houston Chronicle",
+        "tier": "Top 100 (2025)",
+        "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+        "note": "Ranked No. 16 on the Chronicle's 2025 Top 100 restaurants list"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "50 Best Restaurants",
+        "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+        "note": "On Houstonia editors' 50 best Houston restaurants list"
+      }
+    ]
   },
   {
     "id": "theodore-rex",
@@ -116,8 +233,27 @@
     "cuisine": "New American",
     "address": "1302 Nance St, Houston, TX 77002",
     "signatureDish": "Tomato toast",
-    "tips": ["Reservations open on the 1st of the month for the following month", "Tiny 28-seat room; arrive early for walk-in bar seats", "James Beard-winning chef Justin Yu", "VERIFY release time"],
-    "evidence": "Justin Yu's 28-seat Bib Gourmand room; reservations open the 1st for next month and are 'hard to get' (Resy, Houston Press, Michelin Guide)."
+    "tips": [
+      "Reservations open on the 1st of the month for the following month",
+      "Tiny 28-seat room; arrive early for walk-in bar seats",
+      "James Beard-winning chef Justin Yu",
+      "VERIFY release time"
+    ],
+    "evidence": "Justin Yu's 28-seat Bib Gourmand room; reservations open the 1st for next month and are 'hard to get' (Resy, Houston Press, Michelin Guide).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "Bib Gourmand",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants/bib-gourmand",
+        "note": "Bib Gourmand in MICHELIN Guide Texas (awarded 2024, retained 2025)"
+      },
+      {
+        "name": "Houston Chronicle",
+        "tier": "Top 100 (2024)",
+        "url": "https://www.houstonchronicle.com/projects/2024/best-restaurants-houston/",
+        "note": "Ranked No. 5 on the Chronicle's 2024 Top 100 restaurants list"
+      }
+    ]
   },
   {
     "id": "hidden-omakase",
@@ -136,7 +272,12 @@
     "cuisine": "Japanese Omakase",
     "address": "5353 W Alabama St, Suite 110, Houston, TX 77056",
     "signatureDish": "Edomae omakase (~$225pp)",
-    "tips": ["Reservations release at midnight, 14 days in advance (rolling)", "Resy only; no phone/email bookings", "Seatings Tue-Sat 6:00pm & 8:30pm, Sun 5:00pm & 7:30pm", "Check Resy right at 12:00 AM CT for the day 14 days out"],
+    "tips": [
+      "Reservations release at midnight, 14 days in advance (rolling)",
+      "Resy only; no phone/email bookings",
+      "Seatings Tue-Sat 6:00pm & 8:30pm, Sun 5:00pm & 7:30pm",
+      "Check Resy right at 12:00 AM CT for the day 14 days out"
+    ],
     "evidence": "Michelin-recommended omakase; reservations 'released online two weeks in advance at midnight,' Resy-only (Resy blog, Yelp)."
   },
   {
@@ -156,8 +297,26 @@
     "cuisine": "Japanese (temaki tasting)",
     "address": "2800 Kirby Dr, Suite B144, Houston, TX 77098",
     "signatureDish": "7-course hand-roll (temaki) tasting",
-    "tips": ["Online reservations open 3 weeks in advance", "Single 15-seat counter; often only day-of 5pm/9pm slots remain", "VERIFY release time"],
-    "evidence": "Single 15-seat counter where seats 'fill up quickly,' typically leaving only day-of 5pm/9pm; bookings open 3 weeks out (Infatuation, Kira site)."
+    "tips": [
+      "Online reservations open 3 weeks in advance",
+      "Single 15-seat counter; often only day-of 5pm/9pm slots remain",
+      "VERIFY release time"
+    ],
+    "evidence": "Single 15-seat counter where seats 'fill up quickly,' typically leaving only day-of 5pm/9pm; bookings open 3 weeks out (Infatuation, Kira site).",
+    "sources": [
+      {
+        "name": "Texas Monthly",
+        "tier": "Best New Restaurants 2025 — No. 4",
+        "url": "https://www.texasmonthly.com/food/best-new-restaurants-2025/",
+        "note": "Ranked No. 4 on Texas Monthly's 10 best new Texas restaurants of 2025"
+      },
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/",
+        "note": "Also home to 2025 Tastemaker Bartender of the Year Aaron Lara"
+      }
+    ]
   },
   {
     "id": "perseid",
@@ -176,8 +335,25 @@
     "cuisine": "French / Gulf Coast bistro",
     "address": "1240 W Alabama St, Houston, TX 77006",
     "signatureDish": "Gulf Coast-inflected bistro fare",
-    "tips": ["Resy or contact the restaurant directly", "Hot opening at Hotel Saint Augustine from Aaron Bludorn", "VERIFY release time"],
-    "evidence": "Bon Appétit 2025 Best New Restaurants (sole Texas entry) and Michelin-recommended; Aaron Bludorn's buzzy hotel debut (Resy, Bon Appétit, Michelin Guide)."
+    "tips": [
+      "Resy or contact the restaurant directly",
+      "Hot opening at Hotel Saint Augustine from Aaron Bludorn",
+      "VERIFY release time"
+    ],
+    "evidence": "Bon Appétit 2025 Best New Restaurants (sole Texas entry) and Michelin-recommended; Aaron Bludorn's buzzy hotel debut (Resy, Bon Appétit, Michelin Guide).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "Top 10 New Restaurants 2025",
+        "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+        "note": "Aaron Bludorn's restaurant at Hotel Saint Augustine, among Houstonia's top new openings of 2025"
+      }
+    ]
   },
   {
     "id": "bludorn",
@@ -196,8 +372,25 @@
     "cuisine": "Contemporary American",
     "address": "807 Taft St, Houston, TX 77019",
     "signatureDish": "Seafood tower; Dover sole",
-    "tips": ["Online reservations open 3 weeks in advance", "Prime weekend slots fill immediately", "VERIFY release time"],
-    "evidence": "Michelin-recommended flagship from Aaron Bludorn; the Infatuation notes prime-time reservations open 3 weeks out and go fast (Infatuation, Resy)."
+    "tips": [
+      "Online reservations open 3 weeks in advance",
+      "Prime weekend slots fill immediately",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin-recommended flagship from Aaron Bludorn; the Infatuation notes prime-time reservations open 3 weeks out and go fast (Infatuation, Resy).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "50 Best Restaurants",
+        "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+        "note": "On Houstonia editors' 50 best Houston restaurants list"
+      }
+    ]
   },
   {
     "id": "uchi-houston",
@@ -216,8 +409,21 @@
     "cuisine": "Japanese",
     "address": "904 Westheimer Rd, Suite A, Houston, TX 77006",
     "signatureDish": "Hama chili; seasonal omakase",
-    "tips": ["Book 3-4 weeks ahead for weekend tables", "Walk-in bar seating available subject to wait", "Tue-Thu weeknights more available", "VERIFY release time"],
-    "evidence": "James Beard-winning Tyson Cole concept with a 10+ year cult following; books out 3-4 weeks for weekends (Infatuation, OpenTable, Resy)."
+    "tips": [
+      "Book 3-4 weeks ahead for weekend tables",
+      "Walk-in bar seating available subject to wait",
+      "Tue-Thu weeknights more available",
+      "VERIFY release time"
+    ],
+    "evidence": "James Beard-winning Tyson Cole concept with a 10+ year cult following; books out 3-4 weeks for weekends (Infatuation, OpenTable, Resy).",
+    "sources": [
+      {
+        "name": "Houstonia",
+        "tier": "50 Best Restaurants",
+        "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+        "note": "On Houstonia editors' 50 best list; cited for its 15-seat Oheya omakase experience"
+      }
+    ]
   },
   {
     "id": "bcn-taste-tradition",
@@ -236,8 +442,20 @@
     "cuisine": "Spanish / Catalan",
     "address": "4210 Roseland St, Houston, TX 77006",
     "signatureDish": "Char-grilled octopus; Iberian suckling pig",
-    "tips": ["Tables require advance planning; walk-in bar seating recommended", "Only Houston spot on OpenTable Top 100 (2025)", "VERIFY release time"],
-    "evidence": "Michelin one-star Spanish fine dining in a 1920s bungalow; table reservations 'require advance planning' (Infatuation, Michelin Guide, OpenTable)."
+    "tips": [
+      "Tables require advance planning; walk-in bar seating recommended",
+      "Only Houston spot on OpenTable Top 100 (2025)",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin one-star Spanish fine dining in a 1920s bungalow; table reservations 'require advance planning' (Infatuation, Michelin Guide, OpenTable).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+        "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+      }
+    ]
   },
   {
     "id": "le-jardinier",
@@ -256,8 +474,27 @@
     "cuisine": "French (vegetable-forward)",
     "address": "5500 Main St, Suite 122, Houston, TX 77004",
     "signatureDish": "Seasonal vegetable-forward French tasting",
-    "tips": ["Also bookable on Resy", "Smart-elegant dress code", "Book early for weekends and special occasions", "VERIFY release time"],
-    "evidence": "Michelin one-star inside the Museum of Fine Arts Houston from Chef Alain Verzeroli; fine-dining demand requires advance booking (Michelin Guide, OpenTable, PaperCity)."
+    "tips": [
+      "Also bookable on Resy",
+      "Smart-elegant dress code",
+      "Book early for weekends and special occasions",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin one-star inside the Museum of Fine Arts Houston from Chef Alain Verzeroli; fine-dining demand requires advance booking (Michelin Guide, OpenTable, PaperCity).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+        "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "50 Best Restaurants",
+        "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+        "note": "On Houstonia editors' 50 best Houston restaurants list"
+      }
+    ]
   },
   {
     "id": "musaafer",
@@ -276,8 +513,26 @@
     "cuisine": "Indian (regional tasting)",
     "address": "5115 Westheimer Rd, Houston, TX 77056",
     "signatureDish": "Multi-course regional Indian tasting; Texas wagyu kofta",
-    "tips": ["Call (713) 242-8087 for tasting-menu reservations", "Two-story Galleria space; book ahead for weekends", "VERIFY release time"],
-    "evidence": "Michelin one-star (since 2024) luxe regional-Indian destination at the Galleria (Michelin Guide, OpenTable)."
+    "tips": [
+      "Call (713) 242-8087 for tasting-menu reservations",
+      "Two-story Galleria space; book ahead for weekends",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin one-star (since 2024) luxe regional-Indian destination at the Galleria (Michelin Guide, OpenTable).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+        "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "50 Best Restaurants",
+        "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+        "note": "On Houstonia editors' 50 best Houston restaurants list"
+      }
+    ]
   },
   {
     "id": "nobies",
@@ -296,8 +551,21 @@
     "cuisine": "New American",
     "address": "2048 Colquitt St, Houston, TX 77098",
     "signatureDish": "Texas tartare; ever-changing small plates",
-    "tips": ["Reservations open 4 weeks in advance", "Bar/patio seating held for walk-ins at open", "Prime-time slots go fast", "VERIFY release time"],
-    "evidence": "Bib Gourmand 'tiny house' in Montrose; reservations open 4 weeks out and prime-time slots get snatched up immediately (Infatuation, Tock, Michelin Guide)."
+    "tips": [
+      "Reservations open 4 weeks in advance",
+      "Bar/patio seating held for walk-ins at open",
+      "Prime-time slots go fast",
+      "VERIFY release time"
+    ],
+    "evidence": "Bib Gourmand 'tiny house' in Montrose; reservations open 4 weeks out and prime-time slots get snatched up immediately (Infatuation, Tock, Michelin Guide).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "Bib Gourmand",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants/bib-gourmand",
+        "note": "Bib Gourmand in MICHELIN Guide Texas (awarded 2024, retained 2025)"
+      }
+    ]
   },
   {
     "id": "late-august",
@@ -316,8 +584,19 @@
     "cuisine": "Afro-Mexican",
     "address": "4201 Main St, Houston, TX 77002",
     "signatureDish": "Surprise tasting (Afro-Mexican)",
-    "tips": ["Option for à la carte or the 'surprise tasting'", "Confirm Resy availability or contact directly", "VERIFY release time"],
-    "evidence": "Michelin-recommended Afro-Mexican concept (chefs Chris Williams & Sergio Hidalgo) at The Ion, a frequent Resy Hit List pick (Michelin Guide, Resy blog)."
+    "tips": [
+      "Option for à la carte or the 'surprise tasting'",
+      "Confirm Resy availability or contact directly",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin-recommended Afro-Mexican concept (chefs Chris Williams & Sergio Hidalgo) at The Ion, a frequent Resy Hit List pick (Michelin Guide, Resy blog).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/"
+      }
+    ]
   },
   {
     "id": "marigold-club",
@@ -336,8 +615,19 @@
     "cuisine": "British / French supper club",
     "address": "2531 Kuester St, Houston, TX 77008",
     "signatureDish": "Caviar service; fried chicken & champagne Sundays",
-    "tips": ["Book well ahead for weekends, holidays, and piano nights", "Goodnight Hospitality; choose your section when booking", "VERIFY release time"],
-    "evidence": "Michelin-recommended (new 2025) glamorous supper club from Goodnight Hospitality; weekend/piano-night demand requires advance booking (Michelin Guide, Marigold site)."
+    "tips": [
+      "Book well ahead for weekends, holidays, and piano nights",
+      "Goodnight Hospitality; choose your section when booking",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin-recommended (new 2025) glamorous supper club from Goodnight Hospitality; weekend/piano-night demand requires advance booking (Michelin Guide, Marigold site).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/"
+      }
+    ]
   },
   {
     "id": "camaraderie",
@@ -356,8 +646,31 @@
     "cuisine": "Contemporary American (French technique)",
     "address": "608 W 11th St, Houston, TX 77008",
     "signatureDish": "Family-style market-driven menu",
-    "tips": ["Reservations on Resy; recommended for the dining room", "Hot 2025 opening from acclaimed chef Shawn Gawle", "VERIFY release time"],
-    "evidence": "High-buzz 2025 opening from award-winning pastry/fine-dining chef Shawn Gawle; named among Houston's best new restaurants of 2025 (Houstonia, Resy, CultureMap)."
+    "tips": [
+      "Reservations on Resy; recommended for the dining room",
+      "Hot 2025 opening from acclaimed chef Shawn Gawle",
+      "VERIFY release time"
+    ],
+    "evidence": "High-buzz 2025 opening from award-winning pastry/fine-dining chef Shawn Gawle; named among Houston's best new restaurants of 2025 (Houstonia, Resy, CultureMap).",
+    "sources": [
+      {
+        "name": "Houston Chronicle",
+        "tier": "Top 100 (2025)",
+        "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+        "note": "In the ranked Top 25 of the Chronicle's 2025 Top 100 restaurants list"
+      },
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "Top 10 New Restaurants 2025",
+        "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+        "note": "Shawn Gawle's fine-casual restaurant, among Houstonia's top new openings of 2025"
+      }
+    ]
   },
   {
     "id": "latuli",
@@ -376,7 +689,11 @@
     "cuisine": "Gulf Coast / American",
     "address": "8900 Gaylord Dr, Houston, TX 77024",
     "signatureDish": "Roasted grouper with corn pudding; wagyu barbacoa",
-    "tips": ["Reservations on Resy", "Buzzy May 2025 comeback from chef Bryan Caswell", "VERIFY release time"],
+    "tips": [
+      "Reservations on Resy",
+      "Buzzy May 2025 comeback from chef Bryan Caswell",
+      "VERIFY release time"
+    ],
     "evidence": "Named to multiple Houston best-new-2025 lists; high-profile return of Gulf Coast pioneer chef Bryan Caswell (Houstonia, CultureMap, Resy)."
   },
   {
@@ -396,7 +713,11 @@
     "cuisine": "Progressive Mexican",
     "address": "6119 Edloe St, Houston, TX 77005",
     "signatureDish": "Tacos Mar y Tierra (beef cheek confit & Gulf shrimp)",
-    "tips": ["Reservations on OpenTable, strongly recommended", "Chef Adrian Torres won James Beard Emerging Chef", "VERIFY release time"],
+    "tips": [
+      "Reservations on OpenTable, strongly recommended",
+      "Chef Adrian Torres won James Beard Emerging Chef",
+      "VERIFY release time"
+    ],
     "evidence": "New 2025 Michelin Bib Gourmand; chef Adrian Torres is a 2025 James Beard Emerging Chef winner, driving strong demand (Michelin Guide, Houston Food Finder, OpenTable)."
   },
   {
@@ -416,8 +737,20 @@
     "cuisine": "Modern Vietnamese",
     "address": "811 Buffalo Park Dr, Suite 120, Houston, TX 77019",
     "signatureDish": "Monthly Chef's Tasting menu",
-    "tips": ["General reservations on Resy; call (346) 571-7167 for the chef's tasting", "Chef's tasting offered Tue-Thu only", "VERIFY release time"],
-    "evidence": "New 2025 Michelin Bib Gourmand; upscale Vietnamese in Autry Park with a limited monthly chef's tasting (Michelin Guide, Resy, Annam site)."
+    "tips": [
+      "General reservations on Resy; call (346) 571-7167 for the chef's tasting",
+      "Chef's tasting offered Tue-Thu only",
+      "VERIFY release time"
+    ],
+    "evidence": "New 2025 Michelin Bib Gourmand; upscale Vietnamese in Autry Park with a limited monthly chef's tasting (Michelin Guide, Resy, Annam site).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "Bib Gourmand",
+        "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants/bib-gourmand",
+        "note": "New Bib Gourmand in MICHELIN Guide Texas 2025"
+      }
+    ]
   },
   {
     "id": "hamsa",
@@ -436,8 +769,20 @@
     "cuisine": "Modern Israeli",
     "address": "5555 Morningside Dr, Houston, TX 77005",
     "signatureDish": "Modern Israeli mezze",
-    "tips": ["Reservations on Resy", "Frequently cited among Houston's hardest tables", "VERIFY release time"],
-    "evidence": "Texas Monthly-acclaimed modern Israeli; repeatedly named among Houston's hardest reservations alongside Bludorn and Uchi (Texas Monthly, Modern Luxury, Resy)."
+    "tips": [
+      "Reservations on Resy",
+      "Frequently cited among Houston's hardest tables",
+      "VERIFY release time"
+    ],
+    "evidence": "Texas Monthly-acclaimed modern Israeli; repeatedly named among Houston's hardest reservations alongside Bludorn and Uchi (Texas Monthly, Modern Luxury, Resy).",
+    "sources": [
+      {
+        "name": "Texas Monthly",
+        "tier": "Best New Restaurants 2023 — No. 3",
+        "url": "https://www.texasmonthly.com/food/best-new-restaurants-texas-2023/",
+        "note": "Ranked No. 3 on Texas Monthly's best new Texas restaurants of 2023"
+      }
+    ]
   },
   {
     "id": "rosie-cannonball",
@@ -456,7 +801,11 @@
     "cuisine": "Mediterranean (wood-fired)",
     "address": "1620 Westheimer Rd, Houston, TX 77006",
     "signatureDish": "Wood-fired pizza; pasta",
-    "tips": ["Reservations on Resy; some walk-in availability", "Goodnight Hospitality sibling to March", "VERIFY release time"],
+    "tips": [
+      "Reservations on Resy; some walk-in availability",
+      "Goodnight Hospitality sibling to March",
+      "VERIFY release time"
+    ],
     "evidence": "Bib Gourmand from Goodnight Hospitality (March/Marigold team); a perennially busy Montrose Mediterranean destination (Michelin Guide, Resy)."
   },
   {
@@ -476,8 +825,26 @@
     "cuisine": "Basque",
     "address": "510 W 19th St, Houston, TX 77008",
     "signatureDish": "Basque-style grilled fish; pintxos",
-    "tips": ["Online reservations open ~1-2 weeks in advance", "Kitchen counter often available for walk-ins", "VERIFY release time"],
-    "evidence": "Michelin-recommended Basque concept; the Infatuation lists it among toughest tables with prime times requiring advance planning (Infatuation, Michelin Guide)."
+    "tips": [
+      "Online reservations open ~1-2 weeks in advance",
+      "Kitchen counter often available for walk-ins",
+      "VERIFY release time"
+    ],
+    "evidence": "Michelin-recommended Basque concept; the Infatuation lists it among toughest tables with prime times requiring advance planning (Infatuation, Michelin Guide).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2025 — Restaurant of the Year",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/",
+        "note": "2025 Restaurant of the Year; chefs Jacques Varon and Max Lappe also won Rising Star Chef of the Year"
+      },
+      {
+        "name": "Houston Chronicle",
+        "tier": "Top 100 (2024)",
+        "url": "https://www.houstonchronicle.com/projects/2024/best-restaurants-houston/",
+        "note": "Ranked No. 13 on the Chronicle's 2024 Top 100 restaurants list"
+      }
+    ]
   },
   {
     "id": "josephines",
@@ -496,8 +863,19 @@
     "cuisine": "Gulf Coast / Southern",
     "address": "722 Louisiana St, Houston, TX 77002",
     "signatureDish": "Mississippi hot catfish sandwich; grilled redfish",
-    "tips": ["Reservations on Resy", "Bib Gourmand from chef Lucas McKinney", "VERIFY release time"],
-    "evidence": "New Michelin Bib Gourmand and recurring Resy Hit List pick; Gulf Coast destination from chef Lucas McKinney (Michelin Guide, Resy blog)."
+    "tips": [
+      "Reservations on Resy",
+      "Bib Gourmand from chef Lucas McKinney",
+      "VERIFY release time"
+    ],
+    "evidence": "New Michelin Bib Gourmand and recurring Resy Hit List pick; Gulf Coast destination from chef Lucas McKinney (Michelin Guide, Resy blog).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2025 — Neighborhood Restaurant of the Year",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/"
+      }
+    ]
   },
   {
     "id": "nancys-hustle",
@@ -516,7 +894,11 @@
     "cuisine": "New American / bistro",
     "address": "2704 Polk St, Houston, TX 77003",
     "signatureDish": "Nancy cakes; seasonal small plates",
-    "tips": ["Reservations recommended for peak hours; accommodates walk-ins", "Small room books up on weekends", "VERIFY release time"],
+    "tips": [
+      "Reservations recommended for peak hours; accommodates walk-ins",
+      "Small room books up on weekends",
+      "VERIFY release time"
+    ],
     "evidence": "Bib Gourmand neighborhood bistro; small EaDo room where prime-time reservations are recommended (Infatuation, Michelin Guide)."
   },
   {
@@ -536,7 +918,12 @@
     "cuisine": "Thai",
     "address": "1801 N Sam Houston Pkwy E, Houston, TX (East End)",
     "signatureDish": "Authentic-spice Thai dishes",
-    "tips": ["Small space; reserve ahead", "Confirm current booking platform (also seen on OpenTable/Sapphire Reserve)", "VERIFY release time", "VERIFY exact address"],
+    "tips": [
+      "Small space; reserve ahead",
+      "Confirm current booking platform (also seen on OpenTable/Sapphire Reserve)",
+      "VERIFY release time",
+      "VERIFY exact address"
+    ],
     "evidence": "James Beard-nominated, Bib Gourmand Thai spot from chef Benchawan Jabthong Painter; tiny room requires advance reservations (Infatuation, Michelin Guide)."
   },
   {
@@ -556,8 +943,44 @@
     "cuisine": "American",
     "address": "Houston, TX (EaDo)",
     "signatureDish": "",
-    "tips": ["Reservations on Resy", "New 2025 Michelin-recommended addition", "VERIFY release time", "VERIFY exact address and platform"],
-    "evidence": "New 2025 Michelin-recommended restaurant, signaling a buzzy current opening (Michelin Guide, CultureMap)."
+    "tips": [
+      "Reservations on Resy",
+      "New 2025 Michelin-recommended addition",
+      "VERIFY release time",
+      "VERIFY exact address and platform"
+    ],
+    "evidence": "New 2025 Michelin-recommended restaurant, signaling a buzzy current opening (Michelin Guide, CultureMap).",
+    "sources": [
+      {
+        "name": "James Beard",
+        "tier": "Finalist 2026",
+        "url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+        "note": "Best New Restaurant nominee, 2026 James Beard Awards"
+      },
+      {
+        "name": "Texas Monthly",
+        "tier": "Restaurant of the Year 2026",
+        "url": "https://www.texasmonthly.com/food/best-new-restaurants-2026/",
+        "note": "Named Restaurant of the Year atop Texas Monthly's best new Texas restaurants of 2026"
+      },
+      {
+        "name": "Houston Chronicle",
+        "tier": "Top 100 (2025)",
+        "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+        "note": "In the ranked Top 25 of the Chronicle's 2025 Top 100 restaurants list"
+      },
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
+      },
+      {
+        "name": "Houstonia",
+        "tier": "Top 10 New Restaurants 2025",
+        "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+        "note": "Nick Wong and Lisa Lee's Asian American diner, among Houstonia's top new openings of 2025"
+      }
+    ]
   },
   {
     "id": "case-chocolates",
@@ -576,7 +999,12 @@
     "cuisine": "Dessert bar / chocolate",
     "address": "Houston, TX (East End)",
     "signatureDish": "Chocolate tasting experience",
-    "tips": ["Reservations open ~3 weeks out; weekday slots easier", "Intimate dessert/chocolate counter", "VERIFY release time", "VERIFY exact address and platform"],
+    "tips": [
+      "Reservations open ~3 weeks out; weekday slots easier",
+      "Intimate dessert/chocolate counter",
+      "VERIFY release time",
+      "VERIFY exact address and platform"
+    ],
     "evidence": "The Infatuation lists this intimate chocolate/dessert bar among Houston's toughest reservations, opening ~3 weeks out (Infatuation)."
   },
   {
@@ -596,7 +1024,11 @@
     "cuisine": "Asian fusion",
     "address": "Houston, TX (The Heights)",
     "signatureDish": "",
-    "tips": ["Highly sought; reserve ahead", "VERIFY release time", "VERIFY exact address and platform"],
+    "tips": [
+      "Highly sought; reserve ahead",
+      "VERIFY release time",
+      "VERIFY exact address and platform"
+    ],
     "evidence": "Named on the Infatuation's toughest-reservations guide as a highly sought-after Heights table (Infatuation)."
   },
   {
@@ -616,8 +1048,21 @@
     "cuisine": "Contemporary American",
     "address": "Houston, TX (Downtown)",
     "signatureDish": "",
-    "tips": ["Reservations on Resy", "New 2025 Michelin-recommended addition", "VERIFY release time", "VERIFY exact address and platform"],
-    "evidence": "New 2025 Michelin-recommended restaurant, indicating current critical buzz (Michelin Guide)."
+    "tips": [
+      "Reservations on Resy",
+      "New 2025 Michelin-recommended addition",
+      "VERIFY release time",
+      "VERIFY exact address and platform"
+    ],
+    "evidence": "New 2025 Michelin-recommended restaurant, indicating current critical buzz (Michelin Guide).",
+    "sources": [
+      {
+        "name": "CultureMap Houston",
+        "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+        "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/",
+        "note": "Also a 2025 Tastemaker Best New Restaurant nominee"
+      }
+    ]
   },
   {
     "id": "pappas-bros-steakhouse",
@@ -636,7 +1081,11 @@
     "cuisine": "Steakhouse",
     "address": "5839 Westheimer Rd, Houston, TX 77057",
     "signatureDish": "Dry-aged steaks; 6,000+ bottle wine list",
-    "tips": ["Reservations on OpenTable (also a downtown location)", "Book ahead for weekends and special occasions", "VERIFY release time"],
+    "tips": [
+      "Reservations on OpenTable (also a downtown location)",
+      "Book ahead for weekends and special occasions",
+      "VERIFY release time"
+    ],
     "evidence": "Michelin-recommended; Wine Spectator Grand Award since 2010 and Michelin Texas Sommelier of the Year — a special-occasion staple that books out on weekends (Michelin Guide, OpenTable)."
   }
 ]

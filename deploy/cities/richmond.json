@@ -49,7 +49,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef."
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025 (listed as Celladora)"
+        }
+      ]
     },
     {
       "id": "lafayette-tavern",
@@ -93,7 +101,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "Feature",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/lafayette-tavern-opening/",
+          "note": "'A Legacy Continued' — opening feature on the Giavos family (Stella's) tavern in Malvern Gardens"
+        }
+      ]
     },
     {
       "id": "restaurant-adarra",
@@ -135,7 +151,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "the-brooklyn",
@@ -190,7 +214,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "Feature",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/the-brooklyn/",
+          "note": "'United by Fire' — feature on the wood-fired Scott's Addition restaurant from the Longoven/Lost Letter/Lillian team"
+        },
+        {
+          "name": "Style Weekly",
+          "tier": "Review",
+          "url": "https://www.styleweekly.com/gold-rush-2/",
+          "note": "'Gold Rush' — review of The Brooklyn's wood-fired cooking"
+        }
+      ]
     },
     {
       "id": "the-roosevelt",
@@ -247,7 +285,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        },
+        {
+          "name": "James Beard",
+          "tier": "Semifinalist 2026",
+          "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "note": "Executive chef Leah Branch, Best Chef: Mid-Atlantic semifinalist 2026"
+        }
+      ]
     },
     {
       "id": "dinamo",
@@ -287,7 +339,15 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "grisette",
@@ -341,7 +401,15 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "l-opossum",
@@ -384,7 +452,27 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        },
+        {
+          "name": "James Beard",
+          "tier": "Semifinalist 2016",
+          "url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+          "note": "Chef David Shannon, Best Chef: Mid-Atlantic semifinalist 2016"
+        },
+        {
+          "name": "Style Weekly",
+          "tier": "Feature",
+          "url": "https://www.styleweekly.com/lopossums-david-shannon-named-as-semifinalist-in-the-james-beard-awards/",
+          "note": "Coverage of David Shannon's James Beard semifinalist recognition"
+        }
+      ]
     },
     {
       "id": "lillian",
@@ -437,7 +525,15 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "Buzzy and fun — a lively night out for two."
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "metzger-bar-and-butchery",
@@ -477,7 +573,15 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef."
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "omakase-at-nami",
@@ -533,7 +637,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "Feature",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/omakase-sushi-nami/",
+          "note": "'In Good Hands' — feature on chef-owner Tao Chen's omakase counter at Nami"
+        }
+      ]
     },
     {
       "id": "shagbark",
@@ -570,7 +682,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "slack-tide-fish-co",
@@ -621,7 +741,15 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "alewife",
@@ -674,7 +802,21 @@
       "occasion": [
         "first-date"
       ],
-      "dateNote": "Buzzy and fun — a lively night out for two."
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        },
+        {
+          "name": "Bon Appétit",
+          "tier": "Feature",
+          "url": "https://www.bonappetit.com/gallery/best-restaurants-in-richmond-virginia",
+          "note": "Named among Bon Appétit's best restaurants in Richmond, Virginia (2019)"
+        }
+      ]
     },
     {
       "id": "birdies",
@@ -715,7 +857,21 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Buzzy and fun — a lively night out for two."
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "Best Martini 2025",
+          "url": "https://richmondmagazine.com/best-of-richmond/best-and-worst/best-worst-2025-food-drink/",
+          "note": "Best & Worst 2025 winner, Best Martini"
+        },
+        {
+          "name": "Richmond Magazine",
+          "tier": "Feature",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/opening-soon-birdies-at-common-house/",
+          "note": "Feature on the Arts District cafe and oyster saloon at Common House"
+        }
+      ]
     },
     {
       "id": "blue-atlas",
@@ -753,7 +909,15 @@
       "occasion": [
         "first-date"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef."
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "conejo",
@@ -808,7 +972,15 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "lehja",
@@ -863,7 +1035,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        },
+        {
+          "name": "James Beard",
+          "tier": "Semifinalist 2020",
+          "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+          "note": "Chef-owner Sandeep 'Sunny' Baweja, Best Chef: Mid-Atlantic semifinalist 2020 (second consecutive nod)"
+        }
+      ]
     },
     {
       "id": "lemaire-at-the-jefferson-hotel",
@@ -902,7 +1088,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "Best Fine Dining 2025",
+          "url": "https://richmondmagazine.com/best-of-richmond/best-and-worst/best-worst-2025-food-drink/",
+          "note": "Best & Worst 2025 winner, Best Fine Dining"
+        }
+      ]
     },
     {
       "id": "lost-letter",
@@ -957,7 +1151,15 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "ml-steak-modern-chophouse",
@@ -996,7 +1198,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "Feature",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/spotlight-mike-lindsey/",
+          "note": "Chef spotlight on owner Mike Lindsey (Lindsey Food Group), covering ML Steak"
+        }
+      ]
     },
     {
       "id": "mama-js-kitchen",
@@ -1034,7 +1244,15 @@
       "occasion": [
         "first-date"
       ],
-      "dateNote": "Warm neighborhood charm — easy and unhurried."
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025 (listed as Mama J's)"
+        }
+      ]
     },
     {
       "id": "pennys-wine-shop",
@@ -1075,7 +1293,15 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025"
+        }
+      ]
     },
     {
       "id": "stellas",
@@ -1112,7 +1338,21 @@
       "occasion": [
         "first-date"
       ],
-      "dateNote": "Warm neighborhood charm — easy and unhurried."
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "The Restaurant List 2025",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
+          "note": "Named one of Richmond magazine's 25 top tables for 2025; also Best Restaurant, Best & Worst 2025"
+        },
+        {
+          "name": "The New York Times",
+          "tier": "Feature",
+          "url": "https://www.nytimes.com/interactive/2016/09/17/travel/what-to-do-36-hours-in-richmond-virginia.html",
+          "note": "Included in the NYT's '36 Hours in Richmond, Va.' (2016)"
+        }
+      ]
     },
     {
       "id": "acacia-midtown",
@@ -1165,7 +1405,21 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Richmond Magazine",
+          "tier": "Feature",
+          "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/the-third-time-around/",
+          "note": "'The Third Time Around' — on Acacia's revival at Libbie Mill by Dale and Aline Reitzer"
+        },
+        {
+          "name": "Style Weekly",
+          "tier": "Feature",
+          "url": "https://www.styleweekly.com/after-being-named-one-of-americas-best-new-chefs-by-food-wine-acacias-dale-reitzer-is-working-harder-than-ever/",
+          "note": "Profile of chef Dale Reitzer after Food & Wine named him one of America's Best New Chefs (1999)"
+        }
+      ]
     }
   ]
 }

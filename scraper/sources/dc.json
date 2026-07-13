@@ -16,8 +16,20 @@
     "cuisine": "Avant-garde modernist tasting menu",
     "address": "855 E St NW, Washington, DC 20004",
     "signatureDish": "",
-    "tips": ["Two seatings/night, only ~12 seats; max 4 per party", "Whole month drops at once on the 1st at noon ET", "Prepaid; have backups ready the second it opens"],
-    "evidence": "Two-Michelin-star, 12-seat counter; an entire month's seats release at noon ET on the 1st and sell out immediately (minibarbyjoseandres.com FAQ)."
+    "tips": [
+      "Two seatings/night, only ~12 seats; max 4 per party",
+      "Whole month drops at once on the 1st at noon ET",
+      "Prepaid; have backups ready the second it opens"
+    ],
+    "evidence": "Two-Michelin-star, 12-seat counter; an entire month's seats release at noon ET on the 1st and sell out immediately (minibarbyjoseandres.com FAQ).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "Two stars, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      }
+    ]
   },
   {
     "id": "pineapple-and-pearls",
@@ -36,8 +48,26 @@
     "cuisine": "New American fine-dining prix-fixe",
     "address": "715 8th St SE, Washington, DC 20003",
     "signatureDish": "",
-    "tips": ["Now on Resy (moved off Tock) — old Tock links 404", "$360+/head prepaid prix-fixe; sells out within minutes", "VERIFY release time"],
-    "evidence": "Two-Michelin-star single-room prix-fixe releasing one month ahead on the 1st; sells out fast (pineappleandpearls.com reservations FAQ)."
+    "tips": [
+      "Now on Resy (moved off Tock) — old Tock links 404",
+      "$360+/head prepaid prix-fixe; sells out within minutes",
+      "VERIFY release time"
+    ],
+    "evidence": "Two-Michelin-star single-room prix-fixe releasing one month ahead on the 1st; sells out fast (pineappleandpearls.com reservations FAQ).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/pineapple-pearls/",
+        "note": "#11 of 100 Very Best Restaurants 2026"
+      }
+    ]
   },
   {
     "id": "jont",
@@ -56,8 +86,26 @@
     "cuisine": "Ingredient-focused tasting menu (Japanese land & sea)",
     "address": "1904 14th St NW, Washington, DC 20009",
     "signatureDish": "",
-    "tips": ["Moved off Tock to OpenTable — use the OpenTable page", "~17-seat counter above Bresca; weekend slots vanish in minutes", "VERIFY release time and exact release day (1st-Friday is secondary-sourced)"],
-    "evidence": "Two-Michelin-star, ~17-seat chef's counter; monthly batch drop with weekend seats gone in minutes (jontdc.com reservations)."
+    "tips": [
+      "Moved off Tock to OpenTable — use the OpenTable page",
+      "~17-seat counter above Bresca; weekend slots vanish in minutes",
+      "VERIFY release time and exact release day (1st-Friday is secondary-sourced)"
+    ],
+    "evidence": "Two-Michelin-star, ~17-seat chef's counter; monthly batch drop with weekend seats gone in minutes (jontdc.com reservations).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "Two stars, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/",
+        "note": "#2 of 100 Very Best Restaurants 2026"
+      }
+    ]
   },
   {
     "id": "omakase-room-by-tadayoshi",
@@ -76,8 +124,20 @@
     "cuisine": "Japanese omakase (20-course, 12-seat counter)",
     "address": "699 14th St NW, Washington, DC 20005",
     "signatureDish": "",
-    "tips": ["12-seat counter, two seatings, Tue-Sat only", "Strict 24-hr 100%-charge cancellation", "Also listed on OpenTable; VERIFY release window and time"],
-    "evidence": "12-seat counter, two seatings nightly, reservation-only with full-charge cancellation policy (omakaseroom.com DC reservations)."
+    "tips": [
+      "12-seat counter, two seatings, Tue-Sat only",
+      "Strict 24-hr 100%-charge cancellation",
+      "Also listed on OpenTable; VERIFY release window and time"
+    ],
+    "evidence": "12-seat counter, two seatings nightly, reservation-only with full-charge cancellation policy (omakaseroom.com DC reservations).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/washington-dc/reviews/omakase-room-by-tadayoshi",
+        "note": "12-seat omakase counter downtown"
+      }
+    ]
   },
   {
     "id": "omakase-at-barracks-row",
@@ -96,8 +156,31 @@
     "cuisine": "Edomae sushi omakase",
     "address": "522 8th St SE, Floor 2, Washington, DC 20003",
     "signatureDish": "",
-    "tips": ["One Michelin star; counter-only, no walk-ins", "Single day of inventory drops 14 days out at 12:01 AM ET", "Be online at midnight exactly 14 days before target date"],
-    "evidence": "One-Michelin-star counter, two seatings, no walk-ins; one day of seats drops at 12:01 AM 14 days out (omakasedc.com FAQ)."
+    "tips": [
+      "One Michelin star; counter-only, no walk-ins",
+      "Single day of inventory drops 14 days out at 12:01 AM ET",
+      "Be online at midnight exactly 14 days before target date"
+    ],
+    "evidence": "One-Michelin-star counter, two seatings, no walk-ins; one day of seats drops at 12:01 AM 14 days out (omakasedc.com FAQ).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/omakase-barracks-row/",
+        "note": "#4 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/washington-dc/reviews/omakase-barracks-row"
+      }
+    ]
   },
   {
     "id": "sushi-taro-omakase-counter",
@@ -116,8 +199,20 @@
     "cuisine": "Japanese omakase / kaiseki",
     "address": "1503 17th St NW, Washington, DC 20036",
     "signatureDish": "",
-    "tips": ["Tiny back omakase counter; $100 non-refundable deposit", "Releases 30 days out at 9 AM ET; closed Sun/Mon", "Legendary midnight-scramble reputation persists"],
-    "evidence": "Michelin-listed back counter with non-refundable deposit, 30-day release at 9 AM; famously hard to grab (sushitaro.com omakase counter)."
+    "tips": [
+      "Tiny back omakase counter; $100 non-refundable deposit",
+      "Releases 30 days out at 9 AM ET; closed Sun/Mon",
+      "Legendary midnight-scramble reputation persists"
+    ],
+    "evidence": "Michelin-listed back counter with non-refundable deposit, 30-day release at 9 AM; famously hard to grab (sushitaro.com omakase counter).",
+    "sources": [
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/sushi-taro-3/",
+        "note": "#24 of 100 Very Best Restaurants 2026 (listed as Sushi Taro)"
+      }
+    ]
   },
   {
     "id": "roses-luxury",
@@ -136,8 +231,26 @@
     "cuisine": "New American, family-style",
     "address": "717 8th St SE, Washington, DC 20003",
     "signatureDish": "Pork & lychee salad",
-    "tips": ["Prime weekend slots release on the 1st and disappear within hours", "Nightly walk-in line is the realistic fallback", "VERIFY release time"],
-    "evidence": "One-Michelin-star; monthly weekend slots vanish within hours of the 1st, walk-in line otherwise (restaurantsforkings booking guide)."
+    "tips": [
+      "Prime weekend slots release on the 1st and disappear within hours",
+      "Nightly walk-in line is the realistic fallback",
+      "VERIFY release time"
+    ],
+    "evidence": "One-Michelin-star; monthly weekend slots vanish within hours of the 1st, walk-in line otherwise (restaurantsforkings booking guide).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/roses-luxury-2/",
+        "note": "#23 of 100 Very Best Restaurants 2026"
+      }
+    ]
   },
   {
     "id": "causa",
@@ -156,8 +269,38 @@
     "cuisine": "Contemporary Peruvian tasting menu",
     "address": "920 Blagden Alley NW, Washington, DC 20001",
     "signatureDish": "Coast-to-Andes Peruvian tasting menu",
-    "tips": ["Michelin-starred, tasting-only; whole month drops on the 1st at noon ET (~2 months out)", "Books separately from upstairs Amazonia", "Sells out fast"],
-    "evidence": "One-Michelin-star tasting-only room; a full month releases at noon ET on the 1st and sells out quickly (causadc.com)."
+    "tips": [
+      "Michelin-starred, tasting-only; whole month drops on the 1st at noon ET (~2 months out)",
+      "Books separately from upstairs Amazonia",
+      "Sells out fast"
+    ],
+    "evidence": "One-Michelin-star tasting-only room; a full month releases at noon ET on the 1st and sells out quickly (causadc.com).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/causa-3/",
+        "note": "#16 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "Eater DC",
+        "tier": "Essential 38",
+        "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
+        "note": "On Eater DC's 38 essential restaurants map (listed as Causa/Amazonia)"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Winner 2025",
+        "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-winners",
+        "note": "Best Chef: Mid-Atlantic — Carlos Delgado (Causa and Amazonia)"
+      }
+    ]
   },
   {
     "id": "little-pearl",
@@ -176,8 +319,20 @@
     "cuisine": "New American tasting menu",
     "address": "921 Pennsylvania Ave SE, Washington, DC 20003",
     "signatureDish": "",
-    "tips": ["Tiny tasting-menu room (Pineapple & Pearls sibling), Fri/Sat only, no walk-ins", "Also bookable on Tock for some experiences", "VERIFY release cadence, time, and window"],
-    "evidence": "One-Michelin-star tiny tasting room, no walk-ins, very limited slots fill 1-2 weeks out (littlepearldc.com FAQ)."
+    "tips": [
+      "Tiny tasting-menu room (Pineapple & Pearls sibling), Fri/Sat only, no walk-ins",
+      "Also bookable on Tock for some experiences",
+      "VERIFY release cadence, time, and window"
+    ],
+    "evidence": "One-Michelin-star tiny tasting room, no walk-ins, very limited slots fill 1-2 weeks out (littlepearldc.com FAQ).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      }
+    ]
   },
   {
     "id": "albi",
@@ -196,8 +351,44 @@
     "cuisine": "Palestinian / live-fire",
     "address": "1346 4th St SE, Washington, DC 20003",
     "signatureDish": "Sfeeha (spiced lamb pies)",
-    "tips": ["Calendar drop at midnight on the 1st of the preceding month", "James Beard chef; ranked top-tier on World's 50 Best NA 2026", "Bar held for walk-ins but weekend waits hit 4+ hrs"],
-    "evidence": "One-Michelin-star, James Beard; reservations drop two months at a time at midnight on the 1st, weekend bar waits 4+ hrs (blog.resy.com Albi)."
+    "tips": [
+      "Calendar drop at midnight on the 1st of the preceding month",
+      "James Beard chef; ranked top-tier on World's 50 Best NA 2026",
+      "Bar held for walk-ins but weekend waits hit 4+ hrs"
+    ],
+    "evidence": "One-Michelin-star, James Beard; reservations drop two months at a time at midnight on the 1st, weekend bar waits 4+ hrs (blog.resy.com Albi).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/albi-4/",
+        "note": "#1 of 100 Very Best Restaurants 2026, second year in a row"
+      },
+      {
+        "name": "Eater DC",
+        "tier": "Essential 38",
+        "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
+        "note": "On Eater DC's 38 essential restaurants map"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Winner 2024",
+        "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-award-winners",
+        "note": "Outstanding Chef — Michael Rafidi"
+      },
+      {
+        "name": "The Washington Post",
+        "tier": "Fall Dining Guide",
+        "url": "https://www.washingtonpost.com/food/interactive/2025/best-dc-restaurants/",
+        "note": "Restaurant of the Year in Tom Sietsema's final Fall Dining Guide (2025)"
+      }
+    ]
   },
   {
     "id": "dogon-by-kwame-onwuachi",
@@ -216,8 +407,26 @@
     "cuisine": "Afro-Caribbean / Pan-African",
     "address": "1330 Maryland Ave SW, Washington, DC 20024",
     "signatureDish": "Mom Dukes shrimp; braised Wagyu oxtails",
-    "tips": ["Kwame Onwuachi flagship; dining room tough weeks out", "Bar/lounge holds walk-ins as the realistic fallback", "VERIFY release time"],
-    "evidence": "Celebrity-chef destination (TIME World's Greatest Place 2025); dining room hard to secure, bar held for walk-ins (theinfatuation.com review)."
+    "tips": [
+      "Kwame Onwuachi flagship; dining room tough weeks out",
+      "Bar/lounge holds walk-ins as the realistic fallback",
+      "VERIFY release time"
+    ],
+    "evidence": "Celebrity-chef destination (TIME World's Greatest Place 2025); dining room hard to secure, bar held for walk-ins (theinfatuation.com review).",
+    "sources": [
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/dogon-2/",
+        "note": "#8 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "Eater DC",
+        "tier": "Essential 38",
+        "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
+        "note": "On Eater DC's 38 essential restaurants map"
+      }
+    ]
   },
   {
     "id": "maru-san",
@@ -236,8 +445,20 @@
     "cuisine": "Nikkei (Japanese-Peruvian) handroll counter",
     "address": "325 7th St SE, Washington, DC 20003",
     "signatureDish": "15-course chef's-choice handroll tasting ('The Experience')",
-    "tips": ["'The Experience' has only 4 tasting seats/night at a single 7pm seating", "Booked ~2+ months out; handroll counter draws lines", "VERIFY release time and whether it's monthly vs 60-day rolling"],
-    "evidence": "Buzzy Nikkei handroll bar; 'The Experience' offers only 4 seats/night and was booked months out (wtop.com March 2026)."
+    "tips": [
+      "'The Experience' has only 4 tasting seats/night at a single 7pm seating",
+      "Booked ~2+ months out; handroll counter draws lines",
+      "VERIFY release time and whether it's monthly vs 60-day rolling"
+    ],
+    "evidence": "Buzzy Nikkei handroll bar; 'The Experience' offers only 4 seats/night and was booked months out (wtop.com March 2026).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/washington-dc/reviews/maru-san",
+        "note": "Nikkei handroll counter from the chef behind Causa/Amazonia"
+      }
+    ]
   },
   {
     "id": "imperfecto",
@@ -256,8 +477,19 @@
     "cuisine": "Mediterranean-Latin (Michelin-starred)",
     "address": "1124 23rd St NW, Washington, DC 20037",
     "signatureDish": "10+ course communal Chef's Table tasting",
-    "tips": ["Enrique Limardo; Chef's Table communal tasting is the scarce ticket", "VERIFY release time and booking window"],
-    "evidence": "One-Michelin-star Latin-Mediterranean; communal Chef's Table tasting in high demand (opentable.com listing)."
+    "tips": [
+      "Enrique Limardo; Chef's Table communal tasting is the scarce ticket",
+      "VERIFY release time and booking window"
+    ],
+    "evidence": "One-Michelin-star Latin-Mediterranean; communal Chef's Table tasting in high demand (opentable.com listing).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star for Imperfecto: The Chef's Table, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      }
+    ]
   },
   {
     "id": "fiola-dc",
@@ -276,8 +508,32 @@
     "cuisine": "Italian (Michelin-starred)",
     "address": "601 Pennsylvania Ave NW, Entrance on Indiana Ave, Washington, DC 20004",
     "signatureDish": "Lobster ravioli",
-    "tips": ["Fabio Trabocchi flagship; 'Brumidi' multi-course experience is the toughest seating", "Phone reservations also accepted", "VERIFY release time and window"],
-    "evidence": "One-Michelin-star Italian flagship; tasting experiences book out, prime weekends scarce (fioladc.com reservations)."
+    "tips": [
+      "Fabio Trabocchi flagship; 'Brumidi' multi-course experience is the toughest seating",
+      "Phone reservations also accepted",
+      "VERIFY release time and window"
+    ],
+    "evidence": "One-Michelin-star Italian flagship; tasting experiences book out, prime weekends scarce (fioladc.com reservations).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/fiola-2/",
+        "note": "#64 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "The Washington Post",
+        "tier": "Hall of Fame",
+        "url": "https://www.washingtonpost.com/food/interactive/2025/best-dc-restaurants/",
+        "note": "Inducted into Tom Sietsema's Hall of Fame, 2025 Fall Dining Guide"
+      }
+    ]
   },
   {
     "id": "sushi-nakazawa-dc",
@@ -296,8 +552,31 @@
     "cuisine": "Japanese omakase",
     "address": "1100 Pennsylvania Ave NW, Washington, DC 20004",
     "signatureDish": "Japanese scallop with yuzu kosho",
-    "tips": ["One-Michelin-star omakase counter; limited seats on rolling 14-day window", "Confirmed open (Washingtonian 100 Very Best 2026)", "VERIFY release time (noon ET is from a 2023 source)"],
-    "evidence": "One-Michelin-star omakase, limited counter on rolling 14-day window; in Washingtonian 100 Very Best 2026 (washingtonian.com)."
+    "tips": [
+      "One-Michelin-star omakase counter; limited seats on rolling 14-day window",
+      "Confirmed open (Washingtonian 100 Very Best 2026)",
+      "VERIFY release time (noon ET is from a 2023 source)"
+    ],
+    "evidence": "One-Michelin-star omakase, limited counter on rolling 14-day window; in Washingtonian 100 Very Best 2026 (washingtonian.com).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/sushi-nakazawa-4/",
+        "note": "#48 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/washington-dc/reviews/sushi-nakazawa-dc"
+      }
+    ]
   },
   {
     "id": "oyster-oyster",
@@ -316,8 +595,38 @@
     "cuisine": "Vegetable-forward tasting menu (Green Star)",
     "address": "1440 8th St NW, Washington, DC 20001",
     "signatureDish": "",
-    "tips": ["~26 seats; nightly waitlists 30-80 (up to ~240 Fridays)", "Rolling 55-day window", "VERIFY release time (old '10am' figure is outdated)"],
-    "evidence": "One-Michelin-star + Green Star, ~26 seats with large nightly waitlists; rolling 55-day release (oysteroysterdc.com FAQ)."
+    "tips": [
+      "~26 seats; nightly waitlists 30-80 (up to ~240 Fridays)",
+      "Rolling 55-day window",
+      "VERIFY release time (old '10am' figure is outdated)"
+    ],
+    "evidence": "One-Michelin-star + Green Star, ~26 seats with large nightly waitlists; rolling 55-day release (oysteroysterdc.com FAQ).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star plus Green Star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/oyster-oyster-4/",
+        "note": "#62 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "Eater DC",
+        "tier": "Essential 38",
+        "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
+        "note": "On Eater DC's 38 essential restaurants map"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Winner 2023",
+        "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-award-winners",
+        "note": "Outstanding Chef — Rob Rubba"
+      }
+    ]
   },
   {
     "id": "mita",
@@ -336,8 +645,20 @@
     "cuisine": "Plant-based Latin American tasting menu",
     "address": "804 V St NW, Washington, DC 20001",
     "signatureDish": "Arepa basket with guasacaca and chontaduro butter",
-    "tips": ["One-Michelin-star plant-based tasting room; books weeks out", "Reserve button links to OpenTable, not Resy", "VERIFY release schedule and window (could not source)"],
-    "evidence": "One-Michelin-star plant-based tasting room booking weeks out; OpenTable is the live platform (opentable.com/r/mita)."
+    "tips": [
+      "One-Michelin-star plant-based tasting room; books weeks out",
+      "Reserve button links to OpenTable, not Resy",
+      "VERIFY release schedule and window (could not source)"
+    ],
+    "evidence": "One-Michelin-star plant-based tasting room booking weeks out; OpenTable is the live platform (opentable.com/r/mita).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      }
+    ]
   },
   {
     "id": "lutece",
@@ -356,8 +677,20 @@
     "cuisine": "Modern French neo-bistro",
     "address": "1522 Wisconsin Ave NW, Washington, DC 20007",
     "signatureDish": "Grilled octopus with 'nduja",
-    "tips": ["Only ~35 seats; Michelin-listed and NYT 50 Best", "Releases 30 days out at 11 AM ET; weekend slots and Chef's Table go first", "Limited walk-in space held"],
-    "evidence": "Michelin-listed, NYT 50 Best, ~35 seats; weekend slots and Chef's Table go fast on 30-day release (blog.resy.com Lutèce guide)."
+    "tips": [
+      "Only ~35 seats; Michelin-listed and NYT 50 Best",
+      "Releases 30 days out at 11 AM ET; weekend slots and Chef's Table go first",
+      "Limited walk-in space held"
+    ],
+    "evidence": "Michelin-listed, NYT 50 Best, ~35 seats; weekend slots and Chef's Table go fast on 30-day release (blog.resy.com Lutèce guide).",
+    "sources": [
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/lutece-4/",
+        "note": "#5 of 100 Very Best Restaurants 2026"
+      }
+    ]
   },
   {
     "id": "the-dabney",
@@ -376,8 +709,32 @@
     "cuisine": "Mid-Atlantic / wood hearth",
     "address": "122 Blagden Alley NW, Washington, DC 20001",
     "signatureDish": "",
-    "tips": ["Platform mid-transition: OpenTable through June 2026, Resy from July 1, 2026", "Rolling 30-day window at noon ET; weekend slots go in seconds", "Bar/courtyard are walk-in"],
-    "evidence": "One-Michelin-star; rolling 30-day window with weekend slots gone in seconds (thedabney.com). Note OpenTable to Resy transition mid-2026."
+    "tips": [
+      "Platform mid-transition: OpenTable through June 2026, Resy from July 1, 2026",
+      "Rolling 30-day window at noon ET; weekend slots go in seconds",
+      "Bar/courtyard are walk-in"
+    ],
+    "evidence": "One-Michelin-star; rolling 30-day window with weekend slots gone in seconds (thedabney.com). Note OpenTable to Resy transition mid-2026.",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/the-dabney-4/",
+        "note": "#15 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "Eater DC",
+        "tier": "Essential 38",
+        "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
+        "note": "On Eater DC's 38 essential restaurants map"
+      }
+    ]
   },
   {
     "id": "pascual",
@@ -396,8 +753,26 @@
     "cuisine": "Modern/live-fire Mexican",
     "address": "732 Maryland Ave NE, Washington, DC 20002",
     "signatureDish": "Smoked half chicken with mole amarillo",
-    "tips": ["James Beard-level acclaim; prime two-tops fill the full 30 days out", "Holds some walk-in seats", "VERIFY release time — site says 11 AM, a Resy GM interview said noon"],
-    "evidence": "Michelin-listed, James Beard buzz; rolling 30-day window, prime weekend slots fill out fully (blog.resy.com Pascual guide)."
+    "tips": [
+      "James Beard-level acclaim; prime two-tops fill the full 30 days out",
+      "Holds some walk-in seats",
+      "VERIFY release time — site says 11 AM, a Resy GM interview said noon"
+    ],
+    "evidence": "Michelin-listed, James Beard buzz; rolling 30-day window, prime weekend slots fill out fully (blog.resy.com Pascual guide).",
+    "sources": [
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/pascual-2/",
+        "note": "#13 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "Eater DC",
+        "tier": "Essential 38",
+        "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
+        "note": "On Eater DC's 38 essential restaurants map"
+      }
+    ]
   },
   {
     "id": "la-shukran",
@@ -416,8 +791,20 @@
     "cuisine": "Modern Arabic / Levantine",
     "address": "417 Morse St NE, 2nd Floor, Washington, DC 20002",
     "signatureDish": "Escargot hummus with arak butter",
-    "tips": ["From James Beard Outstanding Chef Michael Rafidi (Albi)", "Indoor books out the full 21-day window; rooftop is a separate 7-day window", "Walk-ins early evening or after 8pm"],
-    "evidence": "From 2024 James Beard Outstanding Chef Michael Rafidi; indoor books out across the 21-day window (lashukran.com FAQ)."
+    "tips": [
+      "From James Beard Outstanding Chef Michael Rafidi (Albi)",
+      "Indoor books out the full 21-day window; rooftop is a separate 7-day window",
+      "Walk-ins early evening or after 8pm"
+    ],
+    "evidence": "From 2024 James Beard Outstanding Chef Michael Rafidi; indoor books out across the 21-day window (lashukran.com FAQ).",
+    "sources": [
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/la-shukran-2/",
+        "note": "#9 of 100 Very Best Restaurants 2026"
+      }
+    ]
   },
   {
     "id": "maydan",
@@ -436,8 +823,25 @@
     "cuisine": "Eastern Mediterranean / live-fire",
     "address": "1346 Florida Ave NW, Washington, DC 20009",
     "signatureDish": "Hearth-cooked lamb shoulder",
-    "tips": ["James Beard winner; now on OpenTable (moved off Resy)", "Releases 21 days out at 10 AM ET and sells out almost instantly", "Walk-in waitlist available"],
-    "evidence": "James Beard winner; 21-day release at 10 AM sells out almost instantly, official site now routes to OpenTable (meetatmaydan.com)."
+    "tips": [
+      "James Beard winner; now on OpenTable (moved off Resy)",
+      "Releases 21 days out at 10 AM ET and sells out almost instantly",
+      "Walk-in waitlist available"
+    ],
+    "evidence": "James Beard winner; 21-day release at 10 AM sells out almost instantly, official site now routes to OpenTable (meetatmaydan.com).",
+    "sources": [
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/maydan-4/",
+        "note": "#17 of 100 Very Best Restaurants 2026"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/washington-dc/reviews/maydan"
+      }
+    ]
   },
   {
     "id": "rooster-and-owl",
@@ -456,8 +860,26 @@
     "cuisine": "New American prix-fixe",
     "address": "2436 14th St NW, Washington, DC 20009",
     "signatureDish": "Caviar & Champagne brown-butter steamed buns",
-    "tips": ["One-Michelin-star prix-fixe; small room, reservation-first", "Rolling ~4-week window", "VERIFY release time (28-day window is third-party-sourced)"],
-    "evidence": "One-Michelin-star prix-fixe, small room with limited tables on rolling ~4-week window (roosterowl.com FAQ)."
+    "tips": [
+      "One-Michelin-star prix-fixe; small room, reservation-first",
+      "Rolling ~4-week window",
+      "VERIFY release time (28-day window is third-party-sourced)"
+    ],
+    "evidence": "One-Michelin-star prix-fixe, small room with limited tables on rolling ~4-week window (roosterowl.com FAQ).",
+    "sources": [
+      {
+        "name": "Michelin",
+        "tier": "★",
+        "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
+        "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
+      },
+      {
+        "name": "Washingtonian",
+        "tier": "100 Very Best",
+        "url": "https://washingtonian.com/100-very-best-restaurants-2026/rooster-owl-2/",
+        "note": "#65 of 100 Very Best Restaurants 2026"
+      }
+    ]
   },
   {
     "id": "chang-chang",
@@ -476,8 +898,20 @@
     "cuisine": "Modern Chinese (Peter Chang)",
     "address": "1200 19th St NW, Washington, DC 20036",
     "signatureDish": "",
-    "tips": ["Michelin-listed Peter Chang concept; Tock-only with deposits for larger parties", "No walk-in seats held; tables released after 15-min hold", "VERIFY release time and window"],
-    "evidence": "Michelin-listed Peter Chang concept; Tock-only with deposits, no walk-ins held (changchangdc.com FAQ)."
+    "tips": [
+      "Michelin-listed Peter Chang concept; Tock-only with deposits for larger parties",
+      "No walk-in seats held; tables released after 15-min hold",
+      "VERIFY release time and window"
+    ],
+    "evidence": "Michelin-listed Peter Chang concept; Tock-only with deposits, no walk-ins held (changchangdc.com FAQ).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/washington-dc/reviews/chang-chang",
+        "note": "Peter Chang's Dupont Circle restaurant"
+      }
+    ]
   },
   {
     "id": "anju",
@@ -496,7 +930,11 @@
     "cuisine": "Modern Korean",
     "address": "1805 18th St NW, Washington, DC 20009",
     "signatureDish": "Korean fried chicken (gochujang glaze)",
-    "tips": ["~60 reservable upstairs seats; Resy Notify waitlist can hit ~700 names", "Opens 21 days out, rolling daily", "VERIFY release time (none published)"],
+    "tips": [
+      "~60 reservable upstairs seats; Resy Notify waitlist can hit ~700 names",
+      "Opens 21 days out, rolling daily",
+      "VERIFY release time (none published)"
+    ],
     "evidence": "Only ~60 reservable seats with Resy waitlists up to ~700; opens 21 days out (blog.resy.com Anju reservations)."
   },
   {
@@ -516,7 +954,11 @@
     "cuisine": "Italian",
     "address": "3276 M St NW, Washington, DC 20007",
     "signatureDish": "Mozzarella bar",
-    "tips": ["Nancy Silverton / Stephen Starr pedigree; buzzy 2026 opening", "Slots vanish within a day of the midnight 28-days-out release", "Holds some walk-in seats"],
+    "tips": [
+      "Nancy Silverton / Stephen Starr pedigree; buzzy 2026 opening",
+      "Slots vanish within a day of the midnight 28-days-out release",
+      "Holds some walk-in seats"
+    ],
     "evidence": "Silverton/Starr hot ticket; slots vanish within a day of the midnight 28-day release (blog.resy.com Osteria Mozza guide)."
   },
   {
@@ -536,7 +978,11 @@
     "cuisine": "Modern Indian",
     "address": "633 D St NW, Washington, DC 20004",
     "signatureDish": "Palak chaat (crispy fried spinach)",
-    "tips": ["Long-running DC institution; tables open ~90 days out and fill fast", "Bar/lounge walk-in seating as fallback", "VERIFY release time"],
+    "tips": [
+      "Long-running DC institution; tables open ~90 days out and fill fast",
+      "Bar/lounge walk-in seating as fallback",
+      "VERIFY release time"
+    ],
     "evidence": "Award-winning institution; Resy tables open ~90 days out and fill quickly (rasikarestaurant.com / Resy listing)."
   },
   {
@@ -556,7 +1002,11 @@
     "cuisine": "Japanese (izakaya / sushi)",
     "address": "1100 15th St NW, Washington, DC 20005",
     "signatureDish": "",
-    "tips": ["Arjun Waney (Zuma) concept; sushi counter is reservation-only", "Opens 30 days out at midnight with a $35 booking fee", "Notoriously hard before 9pm"],
+    "tips": [
+      "Arjun Waney (Zuma) concept; sushi counter is reservation-only",
+      "Opens 30 days out at midnight with a $35 booking fee",
+      "Notoriously hard before 9pm"
+    ],
     "evidence": "High-demand sushi/izakaya; Resy opens 30 days out at midnight with a booking fee, tough before 9pm (Resy venue page)."
   },
   {
@@ -576,7 +1026,11 @@
     "cuisine": "Italian",
     "address": "200 Massachusetts Ave NW, Washington, DC 20001",
     "signatureDish": "40-layer lasagna",
-    "tips": ["Michelin Bib Gourmand; Instagram-famous 40-layer lasagna", "Rolling 60-day window at midnight", "Weekend prime times go fast"],
+    "tips": [
+      "Michelin Bib Gourmand; Instagram-famous 40-layer lasagna",
+      "Rolling 60-day window at midnight",
+      "Weekend prime times go fast"
+    ],
     "evidence": "Bib Gourmand; tables release on rolling 60-day window at midnight and book up fast (lardente.com FAQ)."
   },
   {
@@ -596,7 +1050,11 @@
     "cuisine": "Modern Indian street food",
     "address": "1280 4th St NE, Washington, DC 20002",
     "signatureDish": "Vada pav; lotus root chaat",
-    "tips": ["2025 Eater DC Best New Restaurant; Resy 100 list", "Walk-ins welcomed at the bar", "VERIFY release time and window"],
+    "tips": [
+      "2025 Eater DC Best New Restaurant; Resy 100 list",
+      "Walk-ins welcomed at the bar",
+      "VERIFY release time and window"
+    ],
     "evidence": "2025 Eater DC Best New Restaurant and Resy 100; prime weekend slots in high demand (blog.resy.com Tapori)."
   },
   {
@@ -616,7 +1074,11 @@
     "cuisine": "Italian-American (red-sauce)",
     "address": "914 14th St SE, Washington, DC 20003",
     "signatureDish": "Chicken parmesan",
-    "tips": ["Very small room (parties up to 6) fills weeks out", "Walk-ins only get first-come bar seats", "VERIFY release time and window"],
+    "tips": [
+      "Very small room (parties up to 6) fills weeks out",
+      "Walk-ins only get first-come bar seats",
+      "VERIFY release time and window"
+    ],
     "evidence": "Tiny red-sauce room books weeks out (3+ weeks weekdays, ~1 month weekends); walk-ins limited to bar (carusosgrocery.com)."
   },
   {
@@ -636,7 +1098,25 @@
     "cuisine": "Peruvian/Amazonian small plates, pisco bar",
     "address": "920 Blagden Alley NW, Washington, DC 20001",
     "signatureDish": "Pisco Sour; ceviche; lomo saltado",
-    "tips": ["Upstairs from Michelin-starred Causa; books separately on its own OpenTable page", "~30 days out; bar/Sour Hour seating is walk-in", "VERIFY release time"],
-    "evidence": "Sister to Michelin-starred Causa; dining-room tables ~30 days out are the constrained slots, bar is walk-in (causadc.com/amazonia)."
+    "tips": [
+      "Upstairs from Michelin-starred Causa; books separately on its own OpenTable page",
+      "~30 days out; bar/Sour Hour seating is walk-in",
+      "VERIFY release time"
+    ],
+    "evidence": "Sister to Michelin-starred Causa; dining-room tables ~30 days out are the constrained slots, bar is walk-in (causadc.com/amazonia).",
+    "sources": [
+      {
+        "name": "Eater DC",
+        "tier": "Essential 38",
+        "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
+        "note": "On Eater DC's 38 essential restaurants map (listed as Causa/Amazonia)"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Winner 2025",
+        "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-winners",
+        "note": "Best Chef: Mid-Atlantic — Carlos Delgado (Causa and Amazonia)"
+      }
+    ]
   }
 ]

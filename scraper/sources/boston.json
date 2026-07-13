@@ -16,8 +16,33 @@
     "cuisine": "Japanese omakase",
     "address": "605 Tremont Street, Suite G, Boston, MA 02118",
     "signatureDish": "18-course nigiri progression",
-    "tips": ["Boston's only Michelin star (2025) — 10-seat counter, two seatings nightly", "Reservations drop monthly on the 15th at 12:00 PM ET, 75 days out", "Books out within minutes; set a reminder for the 15th", "Actual platform is Resos (311-boston.resos.com), not Tock/Resy — verify booking page", "Prepaid; no walk-ins"],
-    "evidence": "Boston's first and only Michelin star (2025); 10-seat counter with only two seatings nightly and a once-monthly reservation drop (WBUR; 311boston.com/reservations)."
+    "tips": [
+      "Boston's only Michelin star (2025) — 10-seat counter, two seatings nightly",
+      "Reservations drop monthly on the 15th at 12:00 PM ET, 75 days out",
+      "Books out within minutes; set a reminder for the 15th",
+      "Actual platform is Resos (311-boston.resos.com), not Tock/Resy — verify booking page",
+      "Prepaid; no walk-ins"
+    ],
+    "evidence": "Boston's first and only Michelin star (2025); 10-seat counter with only two seatings nightly and a once-monthly reservation drop (WBUR; 311boston.com/reservations).",
+    "sources": [
+      {
+        "name": "Eater Boston",
+        "tier": "Essential 38",
+        "url": "https://boston.eater.com/maps/best-restaurants-boston-38",
+        "note": "On the current Essential 38 map (July 2026)"
+      },
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/best-restaurants-eat-fine-dining/",
+        "note": "Fine dining: one of 13 splurge-worthy restaurants (June 2026)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/311-omakase"
+      }
+    ]
   },
   {
     "id": "o-ya",
@@ -36,8 +61,37 @@
     "cuisine": "Contemporary Japanese omakase",
     "address": "9 East Street, Boston, MA 02111",
     "signatureDish": "Fried Kumamoto oyster nigiri with squid ink bubbles",
-    "tips": ["Prepaid 20-course tasting (~$295+ pp before fees) via Tock", "Reservations release 90 days out, one day at a time, at noon ET", "Weekend dates sell out; book 6-8 weeks ahead", "Ignore stray OpenTable listings — official platform is Tock"],
-    "evidence": "Benchmark Boston omakase; limited prepaid seats released 90 days out one day at a time at noon ET, with weekends selling out (o-ya.restaurant reservations page)."
+    "tips": [
+      "Prepaid 20-course tasting (~$295+ pp before fees) via Tock",
+      "Reservations release 90 days out, one day at a time, at noon ET",
+      "Weekend dates sell out; book 6-8 weeks ahead",
+      "Ignore stray OpenTable listings — official platform is Tock"
+    ],
+    "evidence": "Benchmark Boston omakase; limited prepaid seats released 90 days out one day at a time at noon ET, with weekends selling out (o-ya.restaurant reservations page).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/best-sushi-seafood-finds/",
+        "note": "Best sushi & seafood winners (June 2026)"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Winner 2012",
+        "note": "Best Chef: Northeast — Tim Cushman"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/o-ya-boston"
+      },
+      {
+        "name": "The New York Times",
+        "tier": "25 Best Restaurants in Boston",
+        "url": "https://www.nytimes.com/article/best-restaurants-boston.html",
+        "note": "On the NYT Boston 25 list (April 2024 edition)"
+      }
+    ]
   },
   {
     "id": "yoshida-omakase",
@@ -56,8 +110,20 @@
     "cuisine": "Japanese omakase (Edomae)",
     "address": "51 Massachusetts Ave, Boston, MA 02115",
     "signatureDish": "Dry-aged (jukusei) fish; lobster and toro with osetra caviar",
-    "tips": ["24-seat counter, two fixed nightly seatings, ~$301 pp prepaid", "Short ~2-week rolling release on Tock; waitlist offered", "VERIFY release time (12:00 PM ET) and 14-day window on live Tock page"],
-    "evidence": "Buzzy 2025-opened Edomae counter; only 24 seats and two nightly seatings on a short rolling Tock release (Boston Globe; exploretock.com/yoshida-boston)."
+    "tips": [
+      "24-seat counter, two fixed nightly seatings, ~$301 pp prepaid",
+      "Short ~2-week rolling release on Tock; waitlist offered",
+      "VERIFY release time (12:00 PM ET) and 14-day window on live Tock page"
+    ],
+    "evidence": "Buzzy 2025-opened Edomae counter; only 24 seats and two nightly seatings on a short rolling Tock release (Boston Globe; exploretock.com/yoshida-boston).",
+    "sources": [
+      {
+        "name": "Boston Magazine",
+        "tier": "Best Omakase in Boston",
+        "url": "https://www.bostonmagazine.com/restaurants/best-omakase-restaurants-boston/",
+        "note": "Featured on Boston Magazine's guide to the best omakase tasting menus"
+      }
+    ]
   },
   {
     "id": "sarma",
@@ -76,8 +142,43 @@
     "cuisine": "Eastern Mediterranean meze",
     "address": "249 Pearl Street, Somerville, MA 02145",
     "signatureDish": "Sesame fried chicken with tahini remoulade",
-    "tips": ["New day opens each morning at 10:00 AM ET, 30 days out; prime slots vanish instantly", "20-seat bar and high-tops held for first-come walk-ins", "Parties of 7+ via private-events form; phone after 3 PM"],
-    "evidence": "Resy's own guide calls Sarma 'one of the hardest-to-get reservations in greater Boston'; ~26 seats with a daily 10 AM ET / 30-day release (sarmarestaurant.com; Resy)."
+    "tips": [
+      "New day opens each morning at 10:00 AM ET, 30 days out; prime slots vanish instantly",
+      "20-seat bar and high-tops held for first-come walk-ins",
+      "Parties of 7+ via private-events form; phone after 3 PM"
+    ],
+    "evidence": "Resy's own guide calls Sarma 'one of the hardest-to-get reservations in greater Boston'; ~26 seats with a daily 10 AM ET / 30-day release (sarmarestaurant.com; Resy).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/best-restaurants-eat-fine-dining/",
+        "note": "Fine dining: one of 13 splurge-worthy restaurants (June 2026)"
+      },
+      {
+        "name": "Boston Magazine",
+        "tier": "Best of Boston 2025",
+        "url": "https://www.bostonmagazine.com/best-of-boston-archive/2025/sarma-6/",
+        "note": "Best Restaurant, General Excellence"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Finalist 2025",
+        "url": "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees",
+        "note": "Outstanding Chef — Cassie Piuma"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/sarma"
+      },
+      {
+        "name": "The New York Times",
+        "tier": "25 Best Restaurants in Boston",
+        "url": "https://www.nytimes.com/article/best-restaurants-boston.html",
+        "note": "On the NYT Boston 25 list (April 2024 edition)"
+      }
+    ]
   },
   {
     "id": "grace-by-nia",
@@ -96,8 +197,26 @@
     "cuisine": "Southern American / soul food supper club",
     "address": "60 Seaport Blvd, 3rd Floor, Boston, MA 02210",
     "signatureDish": "Bourbon peach ribs; lobster mac",
-    "tips": ["Boston Seaport's first Black-woman-owned supper club with nightly live soul music", "Founder cites a 30-day waitlist; books out weeks ahead", "Wed/Thu and Sunday brunch via OpenTable/SevenRooms; Fri/Sat/Sun evenings via phone 617-405-5171 or reservations@bignight.com", "VERIFY release time"],
-    "evidence": "Reservations booked out weeks in advance with a founder-cited 30-day waitlist; coveted live-music supper club (gracebynia.com; sevenrooms.com)."
+    "tips": [
+      "Boston Seaport's first Black-woman-owned supper club with nightly live soul music",
+      "Founder cites a 30-day waitlist; books out weeks ahead",
+      "Wed/Thu and Sunday brunch via OpenTable/SevenRooms; Fri/Sat/Sun evenings via phone 617-405-5171 or reservations@bignight.com",
+      "VERIFY release time"
+    ],
+    "evidence": "Reservations booked out weeks in advance with a founder-cited 30-day waitlist; coveted live-music supper club (gracebynia.com; sevenrooms.com).",
+    "sources": [
+      {
+        "name": "Boston Magazine",
+        "tier": "Best of Boston 2025",
+        "url": "https://www.bostonmagazine.com/best-of-boston-archive/2025/grace-by-nia-3/",
+        "note": "Best Dinner and a Show"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/grace-by-nia"
+      }
+    ]
   },
   {
     "id": "carmelinas",
@@ -116,8 +235,26 @@
     "cuisine": "Sicilian Italian",
     "address": "307 Hanover Street, Boston, MA 02113",
     "signatureDish": "Lobster ravioli",
-    "tips": ["Online-only booking via Yelp Reservations (no phone); max party of 6", "Books weeks to months out; 90-minute table limit, 10-min grace", "Actual platform is Yelp Reservations, not OpenTable/Resy — book at yelp.com link", "VERIFY release time/window"],
-    "evidence": "Tasting Table ranks it among Boston's hardest reservations; tiny room with a 6-guest cap, Yelp-only booking, fills months ahead (carmelinasboston.com/reservations; Tasting Table)."
+    "tips": [
+      "Online-only booking via Yelp Reservations (no phone); max party of 6",
+      "Books weeks to months out; 90-minute table limit, 10-min grace",
+      "Actual platform is Yelp Reservations, not OpenTable/Resy — book at yelp.com link",
+      "VERIFY release time/window"
+    ],
+    "evidence": "Tasting Table ranks it among Boston's hardest reservations; tiny room with a 6-guest cap, Yelp-only booking, fills months ahead (carmelinasboston.com/reservations; Tasting Table).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/visit-best-italian-restaurants/",
+        "note": "One of the Globe's 11 best Italian restaurants (June 2026)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/carmelinas"
+      }
+    ]
   },
   {
     "id": "tonino",
@@ -136,8 +273,43 @@
     "cuisine": "Italian-American",
     "address": "669A Centre Street, Jamaica Plain, MA 02130",
     "signatureDish": "House-extruded pastas; fresh seafood",
-    "tips": ["11-table trattoria from JB semifinalist chef Luke Fetbroth", "Reservations open daily at noon, 30 days out; parties of 5 or fewer only", "Use the Resy Notify waitlist; try walking in for a chance"],
-    "evidence": "Cozy 11-table room from a James Beard semifinalist; one of Boston's hardest small-room bookings, daily noon / 30-day release (toninojp.com; Resy)."
+    "tips": [
+      "11-table trattoria from JB semifinalist chef Luke Fetbroth",
+      "Reservations open daily at noon, 30 days out; parties of 5 or fewer only",
+      "Use the Resy Notify waitlist; try walking in for a chance"
+    ],
+    "evidence": "Cozy 11-table room from a James Beard semifinalist; one of Boston's hardest small-room bookings, daily noon / 30-day release (toninojp.com; Resy).",
+    "sources": [
+      {
+        "name": "Eater Boston",
+        "tier": "Essential 38",
+        "url": "https://boston.eater.com/maps/best-restaurants-boston-38",
+        "note": "On the current Essential 38 map (July 2026)"
+      },
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/visit-best-italian-restaurants/",
+        "note": "One of the Globe's 11 best Italian restaurants (June 2026)"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Semifinalist 2026",
+        "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "note": "Best Chef: Northeast — Luke Fetbroth"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/tonino"
+      },
+      {
+        "name": "The New York Times",
+        "tier": "25 Best Restaurants in Boston",
+        "url": "https://www.nytimes.com/article/best-restaurants-boston.html",
+        "note": "On the NYT Boston 25 list (April 2024 edition)"
+      }
+    ]
   },
   {
     "id": "mamma-maria",
@@ -156,8 +328,25 @@
     "cuisine": "Italian fine dining",
     "address": "3 North Square, Boston, MA 02113",
     "signatureDish": "Osso buco",
-    "tips": ["AAA Four Diamond; coveted window and outdoor tables book well ahead", "Parties of 5+ need a credit card; $10 pp cancellation fee within 48h", "Limited bar walk-ins; VERIFY release time/window on SevenRooms"],
-    "evidence": "Named among Boston's hardest reservations by Tasting Table; prized window/skyline tables book far in advance (mammamaria.com; Tasting Table)."
+    "tips": [
+      "AAA Four Diamond; coveted window and outdoor tables book well ahead",
+      "Parties of 5+ need a credit card; $10 pp cancellation fee within 48h",
+      "Limited bar walk-ins; VERIFY release time/window on SevenRooms"
+    ],
+    "evidence": "Named among Boston's hardest reservations by Tasting Table; prized window/skyline tables book far in advance (mammamaria.com; Tasting Table).",
+    "sources": [
+      {
+        "name": "Boston Magazine",
+        "tier": "Best North End Restaurants",
+        "url": "https://www.bostonmagazine.com/restaurants/best-north-end-restaurants/",
+        "note": "Featured on Boston Magazine's 19 Best Restaurants in Boston's North End"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/mamma-maria"
+      }
+    ]
   },
   {
     "id": "contessa",
@@ -176,8 +365,25 @@
     "cuisine": "Northern Italian",
     "address": "Three Newbury Street, Boston, MA 02116",
     "signatureDish": "Bistecca alla Fiorentina",
-    "tips": ["Major Food Group rooftop atop The Newbury with Public Garden views", "Reportedly 30-day rolling release at 10 AM ET — VERIFY (search-sourced, not official)", "Even weeknight prime times go fast; limited bar walk-ins"],
-    "evidence": "Called one of the most difficult prime-time tables in Boston; glamorous MFG rooftop where tables sell out fast on a ~30-day window (Tasting Table; search-sourced release detail)."
+    "tips": [
+      "Major Food Group rooftop atop The Newbury with Public Garden views",
+      "Reportedly 30-day rolling release at 10 AM ET — VERIFY (search-sourced, not official)",
+      "Even weeknight prime times go fast; limited bar walk-ins"
+    ],
+    "evidence": "Called one of the most difficult prime-time tables in Boston; glamorous MFG rooftop where tables sell out fast on a ~30-day window (Tasting Table; search-sourced release detail).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/best-restaurants-eat-fine-dining/",
+        "note": "Fine dining: one of 13 splurge-worthy restaurants (June 2026)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/contessa"
+      }
+    ]
   },
   {
     "id": "krasi",
@@ -196,8 +402,25 @@
     "cuisine": "Greek meze and wine bar",
     "address": "48 Gloucester Street, Boston, MA 02115",
     "signatureDish": "Xtapodi (grilled octopus braised in mavrodaphne)",
-    "tips": ["Largest Greek wine list in the US; can book out ~3 months ahead", "Wednesday Symposium nights are especially tough", "Limited bar walk-ins; VERIFY release time/window"],
-    "evidence": "Tasting Table lists it among Boston's 10 hardest reservations, noting it 'sometimes books out three months in advance' (Tasting Table; krasiboston.com)."
+    "tips": [
+      "Largest Greek wine list in the US; can book out ~3 months ahead",
+      "Wednesday Symposium nights are especially tough",
+      "Limited bar walk-ins; VERIFY release time/window"
+    ],
+    "evidence": "Tasting Table lists it among Boston's 10 hardest reservations, noting it 'sometimes books out three months in advance' (Tasting Table; krasiboston.com).",
+    "sources": [
+      {
+        "name": "Boston Magazine",
+        "tier": "Top 50 Restaurants",
+        "url": "https://www.bostonmagazine.com/restaurants/best-restaurants-in-boston/",
+        "note": "On Boston Magazine's Top 50 Restaurants in Boston list"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/krasi"
+      }
+    ]
   },
   {
     "id": "comfort-kitchen",
@@ -216,8 +439,44 @@
     "cuisine": "Global African-diaspora comfort food",
     "address": "611 Columbia Road, Dorchester, MA 02125",
     "signatureDish": "Jerk-roasted duck",
-    "tips": ["~30 seats; chef Sasha Coleman is a 2026 James Beard Best Chef Northeast nominee", "Weekend brunch and Saturday dinner regularly sell out — set an OpenTable cancellation alert", "Limited bar/patio walk-ins; cancel by 5 PM day-before or $25 pp fee", "VERIFY release time/window"],
-    "evidence": "Boston Globe 2023 Restaurant of the Year and repeat James Beard nominee; ~30-seat room where weekend slots sell out (comfortkitchenbos.com; Boston.com)."
+    "tips": [
+      "~30 seats; chef Sasha Coleman is a 2026 James Beard Best Chef Northeast nominee",
+      "Weekend brunch and Saturday dinner regularly sell out — set an OpenTable cancellation alert",
+      "Limited bar/patio walk-ins; cancel by 5 PM day-before or $25 pp fee",
+      "VERIFY release time/window"
+    ],
+    "evidence": "Boston Globe 2023 Restaurant of the Year and repeat James Beard nominee; ~30-seat room where weekend slots sell out (comfortkitchenbos.com; Boston.com).",
+    "sources": [
+      {
+        "name": "Eater Boston",
+        "tier": "Essential 38",
+        "url": "https://boston.eater.com/maps/best-restaurants-boston-38",
+        "note": "On the current Essential 38 map (July 2026)"
+      },
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/the-neighborhood-best-restaurants/",
+        "note": "One of 18 neighborhood restaurants we can't live without (June 2026)"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Finalist 2024",
+        "url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+        "note": "Best New Restaurant; also Semifinalist 2026, Best Chef: Northeast (Sasha Coleman)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/comfort-kitchen-boston"
+      },
+      {
+        "name": "The New York Times",
+        "tier": "The Restaurant List 2023",
+        "url": "https://www.nytimes.com/interactive/2023/dining/best-restaurants-america.html",
+        "note": "One of NYT's 50 favorite restaurants in America 2023; also on NYT's Boston 25 list (2024)"
+      }
+    ]
   },
   {
     "id": "uni",
@@ -236,8 +495,37 @@
     "cuisine": "Contemporary Japanese izakaya / omakase",
     "address": "370A Commonwealth Avenue, Boston, MA 02215",
     "signatureDish": "The Uni Spoon (sea urchin, quail yolk, osetra caviar)",
-    "tips": ["Ken Oringer's acclaimed izakaya inside The Eliot Hotel since 2002", "The intimate Thursday 'Take-Kase' omakase counter is the true hard ticket — book it the moment a Thursday enters the window", "Check OpenTable 1-2 days out for cancellations; VERIFY release time/window"],
-    "evidence": "Long-acclaimed Ken Oringer Japanese izakaya; intimate room and a coveted Thursday omakase counter keep prime tables in high demand (uni-boston.com; OpenTable)."
+    "tips": [
+      "Ken Oringer's acclaimed izakaya inside The Eliot Hotel since 2002",
+      "The intimate Thursday 'Take-Kase' omakase counter is the true hard ticket — book it the moment a Thursday enters the window",
+      "Check OpenTable 1-2 days out for cancellations; VERIFY release time/window"
+    ],
+    "evidence": "Long-acclaimed Ken Oringer Japanese izakaya; intimate room and a coveted Thursday omakase counter keep prime tables in high demand (uni-boston.com; OpenTable).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/best-restaurants-eat-fine-dining/",
+        "note": "Fine dining: one of 13 splurge-worthy restaurants (June 2026)"
+      },
+      {
+        "name": "Boston Magazine",
+        "tier": "Best of Boston 2024",
+        "url": "https://www.bostonmagazine.com/best-of-boston-archive/2024/uni-10/",
+        "note": "Best Sushi Restaurant"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Winner 2019",
+        "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-winners",
+        "note": "Best Chef: Northeast — Tony Messina"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/uni-sashimi-bar"
+      }
+    ]
   },
   {
     "id": "sushi-temple-records",
@@ -256,8 +544,26 @@
     "cuisine": "Japanese sushi / omakase",
     "address": "17 Temple Place, Boston, MA 02111",
     "signatureDish": "Chef Kenta's nigiri omakase",
-    "tips": ["22-seat Hinoki-wood counter from Jamie Bissonnette's group", "90-min window; table held 15 min; $50 pp no-show / late-cancel fee signals tight demand", "VERIFY release schedule and time on Resy"],
-    "evidence": "Intimate 22-seat counter with a $50 pp no-show fee reflecting tight demand; reservation-driven omakase (sushiattemplerecords.com; Resy)."
+    "tips": [
+      "22-seat Hinoki-wood counter from Jamie Bissonnette's group",
+      "90-min window; table held 15 min; $50 pp no-show / late-cancel fee signals tight demand",
+      "VERIFY release schedule and time on Resy"
+    ],
+    "evidence": "Intimate 22-seat counter with a $50 pp no-show fee reflecting tight demand; reservation-driven omakase (sushiattemplerecords.com; Resy).",
+    "sources": [
+      {
+        "name": "Boston Magazine",
+        "tier": "Best Sushi in Boston",
+        "url": "https://www.bostonmagazine.com/restaurants/best-sushi-boston/",
+        "note": "Featured on Boston Magazine's 30 Best Sushi Restaurants around Boston"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/sushi-temple-records",
+        "note": "Also on The Infatuation's Top 25 Best Restaurants in Boston"
+      }
+    ]
   },
   {
     "id": "mariel",
@@ -276,8 +582,19 @@
     "cuisine": "Cuban",
     "address": "10 Post Office Square, Suite 120, Boston, MA 02109",
     "signatureDish": "Fufu gnocchi",
-    "tips": ["High demand even on weekdays; group reservations capped at 12", "Reservations resell on AppointmentTrader (~$183 avg), indicating real scarcity", "Bar Mariel takes walk-ins; VERIFY release time/window"],
-    "evidence": "Reservations resell on AppointmentTrader averaging ~$183, signaling genuine scarcity at this splashy COJE Cuban spot (appointmenttrader.com/mariel-boston; Tasting Table)."
+    "tips": [
+      "High demand even on weekdays; group reservations capped at 12",
+      "Reservations resell on AppointmentTrader (~$183 avg), indicating real scarcity",
+      "Bar Mariel takes walk-ins; VERIFY release time/window"
+    ],
+    "evidence": "Reservations resell on AppointmentTrader averaging ~$183, signaling genuine scarcity at this splashy COJE Cuban spot (appointmenttrader.com/mariel-boston; Tasting Table).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/mariel"
+      }
+    ]
   },
   {
     "id": "la-padrona",
@@ -296,8 +613,38 @@
     "cuisine": "Regional Italian",
     "address": "38 Trinity Place, Boston, MA 02116",
     "signatureDish": "Tagliatelle Emilia-Romagna",
-    "tips": ["From chef Jody Adams (A Street Hospitality) at Raffles Boston", "Reservations release at 9:00 AM ET on a 14-day rolling basis", "First-floor bar/lounge held for first-come walk-ins; parties of 14+ by email"],
-    "evidence": "Globe-headlined 'restaurant Boston needed'; high demand against a short 14-day window released daily at 9 AM ET (lapadronaboston.com; Boston Globe)."
+    "tips": [
+      "From chef Jody Adams (A Street Hospitality) at Raffles Boston",
+      "Reservations release at 9:00 AM ET on a 14-day rolling basis",
+      "First-floor bar/lounge held for first-come walk-ins; parties of 14+ by email"
+    ],
+    "evidence": "Globe-headlined 'restaurant Boston needed'; high demand against a short 14-day window released daily at 9 AM ET (lapadronaboston.com; Boston Globe).",
+    "sources": [
+      {
+        "name": "Eater Boston",
+        "tier": "Essential 38",
+        "url": "https://boston.eater.com/maps/best-restaurants-boston-38",
+        "note": "On the current Essential 38 map (July 2026)"
+      },
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/best-restaurants-eat-fine-dining/",
+        "note": "Fine dining: one of 13 splurge-worthy restaurants (June 2026)"
+      },
+      {
+        "name": "James Beard",
+        "tier": "Semifinalist 2026",
+        "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+        "note": "Best Chef: Northeast — Amarilys Colon"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/la-padrona",
+        "note": "Also on The Infatuation's Top 25 Best Restaurants in Boston"
+      }
+    ]
   },
   {
     "id": "prima",
@@ -316,8 +663,20 @@
     "cuisine": "Italian steakhouse",
     "address": "10 City Square, Boston, MA 02129",
     "signatureDish": "Veal chop parm",
-    "tips": ["Tables release once daily at 12:00 PM, 30 days out — concentrating demand", "Online booking for parties up to 8; 8-14 by phone/email", "Parties of 5+ need a card; $25 pp no-show fee; bar walk-ins first-come", "VERIFY noon release is ET"],
-    "evidence": "Hot Charlestown Italian steakhouse where tables release only once daily at noon on a 30-day window and walk-ins face 2+ hour waits (primaboston.com/reservations; Tasting Table)."
+    "tips": [
+      "Tables release once daily at 12:00 PM, 30 days out — concentrating demand",
+      "Online booking for parties up to 8; 8-14 by phone/email",
+      "Parties of 5+ need a card; $25 pp no-show fee; bar walk-ins first-come",
+      "VERIFY noon release is ET"
+    ],
+    "evidence": "Hot Charlestown Italian steakhouse where tables release only once daily at noon on a 30-day window and walk-ins face 2+ hour waits (primaboston.com/reservations; Tasting Table).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/prima-boston"
+      }
+    ]
   },
   {
     "id": "avra-estiatorio",
@@ -336,7 +695,11 @@
     "cuisine": "Greek / Mediterranean seafood",
     "address": "400 Newbury Street, 2nd Floor, Boston, MA 02115",
     "signatureDish": "Charcoal-grilled whole fish",
-    "tips": ["First New England outpost of the high-end NYC/Miami Greek seafood group; opened April 2026", "Reservations available 30 days ahead via Resy or phone; bar is walk-in only", "Big, splashy and newly open — prime tables go fast; VERIFY release time"],
+    "tips": [
+      "First New England outpost of the high-end NYC/Miami Greek seafood group; opened April 2026",
+      "Reservations available 30 days ahead via Resy or phone; bar is walk-in only",
+      "Big, splashy and newly open — prime tables go fast; VERIFY release time"
+    ],
     "evidence": "Splashy ~2-month-old first-in-New-England outpost of the marquee NYC/Miami Avra group, booking 30 days out on Resy (theavragroup.com; Hoodline; Boston Magazine)."
   },
   {
@@ -356,8 +719,19 @@
     "cuisine": "Wood-fired Spanish",
     "address": "429 West Broadway, South Boston, MA 02127",
     "signatureDish": "Calamares 'Dan Dan'",
-    "tips": ["High-profile April 2026 Southie debut; Globe says reservations 'are hard to come by'", "Midnight release is search-sourced — VERIFY release time on OpenTable", "Bar is first-come walk-in"],
-    "evidence": "Boston Globe review states reservations 'are hard to come by' at this high-profile April 2026 Spanish debut (bostonglobe.com; daliaboston.com)."
+    "tips": [
+      "High-profile April 2026 Southie debut; Globe says reservations 'are hard to come by'",
+      "Midnight release is search-sourced — VERIFY release time on OpenTable",
+      "Bar is first-come walk-in"
+    ],
+    "evidence": "Boston Globe review states reservations 'are hard to come by' at this high-profile April 2026 Spanish debut (bostonglobe.com; daliaboston.com).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/dalia"
+      }
+    ]
   },
   {
     "id": "giulia",
@@ -376,8 +750,32 @@
     "cuisine": "Italian (handmade pasta)",
     "address": "1682 Massachusetts Avenue, Cambridge, MA 02138",
     "signatureDish": "Pappardelle with braised wild boar",
-    "tips": ["As of Jan 1, 2026 standard reservations open at 10:00 AM ET daily (was midnight), ~14 days out", "Communal Pasta Table ($115 pp) booked by email up to 6 months ahead", "Online booking is indoor-only; patio is phone-only; 18-seat bar takes walk-ins"],
-    "evidence": "Small, beloved Cambridge pasta room; standard tables open only at 10 AM ET each day on a tight 2-week window (giuliarestaurant.com)."
+    "tips": [
+      "As of Jan 1, 2026 standard reservations open at 10:00 AM ET daily (was midnight), ~14 days out",
+      "Communal Pasta Table ($115 pp) booked by email up to 6 months ahead",
+      "Online booking is indoor-only; patio is phone-only; 18-seat bar takes walk-ins"
+    ],
+    "evidence": "Small, beloved Cambridge pasta room; standard tables open only at 10 AM ET each day on a tight 2-week window (giuliarestaurant.com).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/visit-best-italian-restaurants/",
+        "note": "One of the Globe's 11 best Italian restaurants (June 2026)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/giulia",
+        "note": "Also on The Infatuation's Top 25 Best Restaurants in Boston"
+      },
+      {
+        "name": "The New York Times",
+        "tier": "25 Best Restaurants in Boston",
+        "url": "https://www.nytimes.com/article/best-restaurants-boston.html",
+        "note": "On the NYT Boston 25 list (April 2024 edition)"
+      }
+    ]
   },
   {
     "id": "kava-neo-taverna",
@@ -396,8 +794,25 @@
     "cuisine": "Greek taverna",
     "address": "315 Shawmut Ave, Boston, MA 02118",
     "signatureDish": "Grilled octopus (oktapodi)",
-    "tips": ["Reservations open only ONE day in advance at 10:00 AM ET on Resy — book the morning before", "Tiny taverna; tables held only 15 minutes", "Holds some walk-in space daily"],
-    "evidence": "Tiny South End taverna where reservations open just one day ahead at 10 AM ET, making prime slots tough (kavaneotaverna.com/hours-and-location)."
+    "tips": [
+      "Reservations open only ONE day in advance at 10:00 AM ET on Resy — book the morning before",
+      "Tiny taverna; tables held only 15 minutes",
+      "Holds some walk-in space daily"
+    ],
+    "evidence": "Tiny South End taverna where reservations open just one day ahead at 10 AM ET, making prime slots tough (kavaneotaverna.com/hours-and-location).",
+    "sources": [
+      {
+        "name": "Boston Magazine",
+        "tier": "Best of Boston 2019",
+        "url": "https://www.bostonmagazine.com/best-of-boston-archive/2019/kava-neo-taverna-2/",
+        "note": "Best Greek Restaurant (also won 2018)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/kava-neo-taverna"
+      }
+    ]
   },
   {
     "id": "darling",
@@ -416,8 +831,20 @@
     "cuisine": "Dim sum and cocktails",
     "address": "464 Massachusetts Ave, Cambridge, MA 02139",
     "signatureDish": "'Filet O' Fish' bao",
-    "tips": ["Buzzy ~56-seat lounge honoring Mary Chung's legacy; on Resy's Boston hit list", "Tables surface on resale marketplaces, indicating demand", "VERIFY release time/window and walk-in policy on Resy"],
-    "evidence": "Buzzy Resy hit-list cocktail-and-dim-sum spot in a small ~56-seat room, with tables appearing on resale marketplaces (resy.com; Boston Magazine)."
+    "tips": [
+      "Buzzy ~56-seat lounge honoring Mary Chung's legacy; on Resy's Boston hit list",
+      "Tables surface on resale marketplaces, indicating demand",
+      "VERIFY release time/window and walk-in policy on Resy"
+    ],
+    "evidence": "Buzzy Resy hit-list cocktail-and-dim-sum spot in a small ~56-seat room, with tables appearing on resale marketplaces (resy.com; Boston Magazine).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/darling-cambridge",
+        "note": "Darling in Cambridge (Central Square)"
+      }
+    ]
   },
   {
     "id": "fallow-kin",
@@ -436,7 +863,11 @@
     "cuisine": "Vegetable-forward farm-to-table",
     "address": "853 Main Street, Cambridge, MA 02139",
     "signatureDish": "Twice-cooked sunchokes with broccoli pickles",
-    "tips": ["From the Talulla team; 10-seat chef's counter is prepaid and reservation-only", "Site advises booking 'well in advance'; bar seats first-come from 4 PM", "VERIFY release schedule/time on Resy"],
+    "tips": [
+      "From the Talulla team; 10-seat chef's counter is prepaid and reservation-only",
+      "Site advises booking 'well in advance'; bar seats first-come from 4 PM",
+      "VERIFY release schedule/time on Resy"
+    ],
     "evidence": "Acclaimed Talulla-team vegetable-forward room whose prepaid 10-seat chef's counter advises booking well in advance (fallowkin.com/reservations; Hoodline)."
   },
   {
@@ -456,8 +887,25 @@
     "cuisine": "Japanese / sushi",
     "address": "1105 Massachusetts Ave, Cambridge, MA 02138",
     "signatureDish": "Gindara misozuke (miso-glazed sablefish)",
-    "tips": ["Four-decade sushi institution; dine-in reopened Dec 2025 (now a la carte, omakase discontinued)", "Narrow Wed-Sat 4:30-8:30 PM dinner window concentrates demand", "Not on OpenTable network — book on Resy; VERIFY release schedule"],
-    "evidence": "Long-revered Cambridge sushi institution with a narrow Wed-Sat dinner window, freshly reopened for dine-in (Boston Globe; Boston Magazine)."
+    "tips": [
+      "Four-decade sushi institution; dine-in reopened Dec 2025 (now a la carte, omakase discontinued)",
+      "Narrow Wed-Sat 4:30-8:30 PM dinner window concentrates demand",
+      "Not on OpenTable network — book on Resy; VERIFY release schedule"
+    ],
+    "evidence": "Long-revered Cambridge sushi institution with a narrow Wed-Sat dinner window, freshly reopened for dine-in (Boston Globe; Boston Magazine).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/best-sushi-seafood-finds/",
+        "note": "Best sushi & seafood winners (June 2026)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/cafe-sushi"
+      }
+    ]
   },
   {
     "id": "field-and-vine",
@@ -476,8 +924,26 @@
     "cuisine": "New American farm-to-table",
     "address": "9 Sanborn Court, Somerville, MA 02143",
     "signatureDish": "Beef tartare / raw bar",
-    "tips": ["~40-seat room with 7 counter seats reserved for walk-ins", "Seats complete parties in 2-hour windows", "VERIFY release schedule/time on Resy"],
-    "evidence": "Small ~40-seat Union Square farm-to-table room with limited inventory and 2-hour seatings (fieldandvinesomerville.com/reservations)."
+    "tips": [
+      "~40-seat room with 7 counter seats reserved for walk-ins",
+      "Seats complete parties in 2-hour windows",
+      "VERIFY release schedule/time on Resy"
+    ],
+    "evidence": "Small ~40-seat Union Square farm-to-table room with limited inventory and 2-hour seatings (fieldandvinesomerville.com/reservations).",
+    "sources": [
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/field-and-vine",
+        "note": "Also on The Infatuation's Top 25 Best Restaurants in Boston"
+      },
+      {
+        "name": "The New York Times",
+        "tier": "25 Best Restaurants in Boston",
+        "url": "https://www.nytimes.com/article/best-restaurants-boston.html",
+        "note": "On the NYT Boston 25 list (April 2024 edition)"
+      }
+    ]
   },
   {
     "id": "mimis-chuka-diner",
@@ -496,7 +962,11 @@
     "cuisine": "Chuka (Japanese-Chinese) diner",
     "address": "14 Tyler Street, Suite 102, Somerville, MA 02143",
     "signatureDish": "Homemade dumplings",
-    "tips": ["Cozy 36-seat room inside Aeronaut Brewery; on Resy's Boston hit list", "Limited seats plus critical buzz make prime times tight", "VERIFY release schedule/time and walk-in policy on Resy"],
+    "tips": [
+      "Cozy 36-seat room inside Aeronaut Brewery; on Resy's Boston hit list",
+      "Limited seats plus critical buzz make prime times tight",
+      "VERIFY release schedule/time and walk-in policy on Resy"
+    ],
     "evidence": "Critically praised 36-seat room inside Aeronaut Brewery, featured on Resy's Top Restaurants in Boston (resy.com; Boston Magazine)."
   },
   {
@@ -516,7 +986,12 @@
     "cuisine": "Japanese-Spanish tapas",
     "address": "310 Massachusetts Ave, Cambridge, MA 02139",
     "signatureDish": "Pork-belly guabao; squid-ink bao",
-    "tips": ["Michelin Bib Gourmand (2025); Tracy Chang", "30-day rolling window with online party cap of 8; weekends fill 2-3 weeks out", "Bar/counter walk-ins in practice; parties of 8+ email/call", "VERIFY release time"],
+    "tips": [
+      "Michelin Bib Gourmand (2025); Tracy Chang",
+      "30-day rolling window with online party cap of 8; weekends fill 2-3 weeks out",
+      "Bar/counter walk-ins in practice; parties of 8+ email/call",
+      "VERIFY release time"
+    ],
     "evidence": "Michelin Bib Gourmand (2025) from Tracy Chang; short 30-day window with weekend slots filling weeks ahead (gopagu.com; Resy live calendar)."
   },
   {
@@ -536,7 +1011,11 @@
     "cuisine": "Thai",
     "address": "236 Washington St, Brookline, MA 02445",
     "signatureDish": "Yum Som O (pomelo salad)",
-    "tips": ["Michelin Bib Gourmand (2025) plus Michelin Northeast Exceptional Cocktails Award", "Demand spiked after dual 2025 Michelin honors; intimate room", "Walk-ins welcome; VERIFY 30-day window and release time on OpenTable"],
+    "tips": [
+      "Michelin Bib Gourmand (2025) plus Michelin Northeast Exceptional Cocktails Award",
+      "Demand spiked after dual 2025 Michelin honors; intimate room",
+      "Walk-ins welcome; VERIFY 30-day window and release time on OpenTable"
+    ],
     "evidence": "Only Boston-area spot with two 2025 Michelin distinctions (Bib Gourmand + Exceptional Cocktails); demand surged afterward (BU Bostonia; mahaniyomboston.com)."
   },
   {
@@ -556,7 +1035,12 @@
     "cuisine": "Italian",
     "address": "28 West Broadway, Boston, MA 02127",
     "signatureDish": "Gnocco fritto; stuffed focaccia with taleggio",
-    "tips": ["Michelin Bib Gourmand (2025); chef Karen Akunowicz", "Rolling 30-day window on OpenTable (switched from Resy); weekends tough", "Always saves room for first-come bar walk-ins", "VERIFY release time"],
+    "tips": [
+      "Michelin Bib Gourmand (2025); chef Karen Akunowicz",
+      "Rolling 30-day window on OpenTable (switched from Resy); weekends tough",
+      "Always saves room for first-come bar walk-ins",
+      "VERIFY release time"
+    ],
     "evidence": "Michelin Bib Gourmand (2025) from Karen Akunowicz; rolling 30-day window with weekends hard to land post-Michelin (foxandtheknife.com; WBUR)."
   },
   {
@@ -576,8 +1060,26 @@
     "cuisine": "Southern Italian",
     "address": "170 W Broadway, Boston, MA 02127",
     "signatureDish": "Wood-fired seafood; house-made pastas",
-    "tips": ["Michelin Bib Gourmand (2025); chef Karen Akunowicz", "Demand surged after Nov 2025 Michelin recognition; weekends fill fast", "Always saves room for first-come bar walk-ins", "VERIFY release time/window"],
-    "evidence": "Michelin Bib Gourmand (2025); a post-Michelin 'bump' filled prime weekend slots fast (barvolpe.com; WBUR; Boston Globe)."
+    "tips": [
+      "Michelin Bib Gourmand (2025); chef Karen Akunowicz",
+      "Demand surged after Nov 2025 Michelin recognition; weekends fill fast",
+      "Always saves room for first-come bar walk-ins",
+      "VERIFY release time/window"
+    ],
+    "evidence": "Michelin Bib Gourmand (2025); a post-Michelin 'bump' filled prime weekend slots fast (barvolpe.com; WBUR; Boston Globe).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/visit-best-italian-restaurants/",
+        "note": "One of the Globe's 11 best Italian restaurants (June 2026)"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/bar-volpe"
+      }
+    ]
   },
   {
     "id": "oleana",
@@ -596,7 +1098,11 @@
     "cuisine": "Eastern Mediterranean",
     "address": "134 Hampshire Street, Cambridge, MA 02139",
     "signatureDish": "Whipped feta with hot and sweet peppers; baked Alaska",
-    "tips": ["25-year Ana Sortun institution; indoor tables open 30 days out (90 for parties 7-14)", "Coveted patio and bar are walk-in only, concentrating demand on bookable indoor tables", "VERIFY release time"],
+    "tips": [
+      "25-year Ana Sortun institution; indoor tables open 30 days out (90 for parties 7-14)",
+      "Coveted patio and bar are walk-in only, concentrating demand on bookable indoor tables",
+      "VERIFY release time"
+    ],
     "evidence": "Beloved 25-year Ana Sortun institution; bookable indoor tables on a tight 30-day window while the prized patio/bar can't be reserved (oleanarestaurant.com/reservations)."
   },
   {
@@ -616,8 +1122,25 @@
     "cuisine": "Italian enoteca",
     "address": "253 Shawmut Avenue, Boston, MA 02118",
     "signatureDish": "Celery Caesar salad; wood-fired pizzas",
-    "tips": ["Tiny room from Ken Oringer / Jamie Bissonnette — reservations are a must", "Patio and bar are first-come; dining room by reservation", "VERIFY release schedule/time and window on OpenTable"],
-    "evidence": "Genuinely tiny Oringer/Bissonnette enoteca where 'reservations are a must, because the place is tiny' (BostonChefs; coppaboston.com)."
+    "tips": [
+      "Tiny room from Ken Oringer / Jamie Bissonnette — reservations are a must",
+      "Patio and bar are first-come; dining room by reservation",
+      "VERIFY release schedule/time and window on OpenTable"
+    ],
+    "evidence": "Genuinely tiny Oringer/Bissonnette enoteca where 'reservations are a must, because the place is tiny' (BostonChefs; coppaboston.com).",
+    "sources": [
+      {
+        "name": "The Boston Globe",
+        "tier": "Best of the Best 2026",
+        "url": "https://www.bostonglobe.com/2026/06/04/magazine/visit-best-italian-restaurants/",
+        "note": "One of the Globe's 11 best Italian restaurants (June 2026), listed as Coppa"
+      },
+      {
+        "name": "The Infatuation",
+        "tier": "review",
+        "url": "https://www.theinfatuation.com/boston/reviews/coppa"
+      }
+    ]
   },
   {
     "id": "sumiao-hunan-kitchen",
@@ -636,7 +1159,11 @@
     "cuisine": "Hunan Chinese",
     "address": "303 Third Street, Cambridge, MA 02142",
     "signatureDish": "Mao's braised pork belly",
-    "tips": ["Michelin Bib Gourmand (2025, held into 2026)", "Not on OpenTable network — book via Resy; call 617-945-0907 to extend hold time", "VERIFY release schedule/time and window on Resy; confirm exact street number"],
+    "tips": [
+      "Michelin Bib Gourmand (2025, held into 2026)",
+      "Not on OpenTable network — book via Resy; call 617-945-0907 to extend hold time",
+      "VERIFY release schedule/time and window on Resy; confirm exact street number"
+    ],
     "evidence": "Michelin Bib Gourmand (2025) Hunan restaurant in Kendall Square, popular with the tech crowd (guide.michelin.com; sumiaohunan.com)."
   }
 ]

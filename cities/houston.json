@@ -55,7 +55,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Chef of the Year",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-houston-2026-winners/",
+          "note": "Manabu 'Hori' Horiuchi (Kata Robata, Katami, Sushi Horiuchi) named 2026 Chef of the Year"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "Top 10 New Restaurants 2025",
+          "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+          "note": "Six-seat omakase counter among Houstonia's top new openings of 2025"
+        }
+      ]
     },
     {
       "id": "hidden-omakase",
@@ -163,7 +177,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Chef of the Year",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-houston-2026-winners/",
+          "note": "Manabu 'Hori' Horiuchi (Kata Robata, Katami, Sushi Horiuchi) named 2026 Chef of the Year"
+        }
+      ]
     },
     {
       "id": "katami",
@@ -221,7 +243,27 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/",
+          "note": "One of 11 nominees for 2026 Restaurant of the Year; chef Manabu Horiuchi won 2026 Chef of the Year"
+        },
+        {
+          "name": "Houston Chronicle",
+          "tier": "Top 100 (2025)",
+          "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+          "note": "Ranked No. 16 on the Chronicle's 2025 Top 100 restaurants list"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+          "note": "On Houstonia editors' 50 best Houston restaurants list"
+        }
+      ]
     },
     {
       "id": "march",
@@ -264,7 +306,32 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+          "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+        },
+        {
+          "name": "James Beard",
+          "tier": "Finalist 2026",
+          "url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "note": "June Rodil, Outstanding Professional in Beverage Service nominee 2026; MARCH also a 2025 finalist for Outstanding Wine and Other Beverages Program"
+        },
+        {
+          "name": "Houston Chronicle",
+          "tier": "Top 100 (2025)",
+          "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+          "note": "Ranked No. 5 on the Chronicle's 2025 Top 100 restaurants list"
+        },
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/"
+        }
+      ]
     },
     {
       "id": "tatemo",
@@ -303,7 +370,33 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+          "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+        },
+        {
+          "name": "James Beard",
+          "tier": "Finalist 2025",
+          "url": "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees",
+          "note": "Emmanuel Chavez, Best Chef: Texas nominee (third consecutive nomination)"
+        },
+        {
+          "name": "Houston Chronicle",
+          "tier": "Top 100 (2025)",
+          "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+          "note": "Ranked No. 6 on the Chronicle's 2025 Top 100 restaurants list (No. 1 in 2024)"
+        },
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2025 — Chef of the Year",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/",
+          "note": "Emmanuel Chavez named 2025 Chef of the Year"
+        }
+      ]
     },
     {
       "id": "theodore-rex",
@@ -360,7 +453,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants/bib-gourmand",
+          "note": "Bib Gourmand in MICHELIN Guide Texas (awarded 2024, retained 2025)"
+        },
+        {
+          "name": "Houston Chronicle",
+          "tier": "Top 100 (2024)",
+          "url": "https://www.houstonchronicle.com/projects/2024/best-restaurants-houston/",
+          "note": "Ranked No. 5 on the Chronicle's 2024 Top 100 restaurants list"
+        }
+      ]
     },
     {
       "id": "bcn-taste-tradition",
@@ -400,7 +507,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+          "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+        }
+      ]
     },
     {
       "id": "bludorn",
@@ -440,7 +555,20 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+          "note": "On Houstonia editors' 50 best Houston restaurants list"
+        }
+      ]
     },
     {
       "id": "kira",
@@ -493,7 +621,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Texas Monthly",
+          "tier": "Best New Restaurants 2025 — No. 4",
+          "url": "https://www.texasmonthly.com/food/best-new-restaurants-2025/",
+          "note": "Ranked No. 4 on Texas Monthly's 10 best new Texas restaurants of 2025"
+        },
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/",
+          "note": "Also home to 2025 Tastemaker Bartender of the Year Aaron Lara"
+        }
+      ]
     },
     {
       "id": "late-august",
@@ -533,7 +675,14 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/"
+        }
+      ]
     },
     {
       "id": "le-jardinier",
@@ -571,7 +720,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+          "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+          "note": "On Houstonia editors' 50 best Houston restaurants list"
+        }
+      ]
     },
     {
       "id": "musaafer",
@@ -610,7 +773,21 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
+          "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+          "note": "On Houstonia editors' 50 best Houston restaurants list"
+        }
+      ]
     },
     {
       "id": "nobies",
@@ -651,7 +828,15 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef."
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants/bib-gourmand",
+          "note": "Bib Gourmand in MICHELIN Guide Texas (awarded 2024, retained 2025)"
+        }
+      ]
     },
     {
       "id": "perseid",
@@ -692,7 +877,20 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "Top 10 New Restaurants 2025",
+          "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+          "note": "Aaron Bludorn's restaurant at Hotel Saint Augustine, among Houstonia's top new openings of 2025"
+        }
+      ]
     },
     {
       "id": "marigold-club",
@@ -733,7 +931,14 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/"
+        }
+      ]
     },
     {
       "id": "uchi-houston",
@@ -788,7 +993,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Houstonia",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
+          "note": "On Houstonia editors' 50 best list; cited for its 15-seat Oheya omakase experience"
+        }
+      ]
     },
     {
       "id": "agnes-and-sherman",
@@ -830,7 +1043,38 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "James Beard",
+          "tier": "Finalist 2026",
+          "url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+          "note": "Best New Restaurant nominee, 2026 James Beard Awards"
+        },
+        {
+          "name": "Texas Monthly",
+          "tier": "Restaurant of the Year 2026",
+          "url": "https://www.texasmonthly.com/food/best-new-restaurants-2026/",
+          "note": "Named Restaurant of the Year atop Texas Monthly's best new Texas restaurants of 2026"
+        },
+        {
+          "name": "Houston Chronicle",
+          "tier": "Top 100 (2025)",
+          "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+          "note": "In the ranked Top 25 of the Chronicle's 2025 Top 100 restaurants list"
+        },
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "Top 10 New Restaurants 2025",
+          "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+          "note": "Nick Wong and Lisa Lee's Asian American diner, among Houstonia's top new openings of 2025"
+        }
+      ]
     },
     {
       "id": "annam",
@@ -882,7 +1126,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants/bib-gourmand",
+          "note": "New Bib Gourmand in MICHELIN Guide Texas 2025"
+        }
+      ]
     },
     {
       "id": "baso",
@@ -921,7 +1173,21 @@
       "occasion": [
         "first-date"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef."
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2025 — Restaurant of the Year",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/",
+          "note": "2025 Restaurant of the Year; chefs Jacques Varon and Max Lappe also won Rising Star Chef of the Year"
+        },
+        {
+          "name": "Houston Chronicle",
+          "tier": "Top 100 (2024)",
+          "url": "https://www.houstonchronicle.com/projects/2024/best-restaurants-houston/",
+          "note": "Ranked No. 13 on the Chronicle's 2024 Top 100 restaurants list"
+        }
+      ]
     },
     {
       "id": "camaraderie",
@@ -962,7 +1228,26 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Houston Chronicle",
+          "tier": "Top 100 (2025)",
+          "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
+          "note": "In the ranked Top 25 of the Chronicle's 2025 Top 100 restaurants list"
+        },
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
+        },
+        {
+          "name": "Houstonia",
+          "tier": "Top 10 New Restaurants 2025",
+          "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
+          "note": "Shawn Gawle's fine-casual restaurant, among Houstonia's top new openings of 2025"
+        }
+      ]
     },
     {
       "id": "case-chocolates",
@@ -1046,7 +1331,15 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/",
+          "note": "Also a 2025 Tastemaker Best New Restaurant nominee"
+        }
+      ]
     },
     {
       "id": "hamsa",
@@ -1086,7 +1379,15 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Texas Monthly",
+          "tier": "Best New Restaurants 2023 — No. 3",
+          "url": "https://www.texasmonthly.com/food/best-new-restaurants-texas-2023/",
+          "note": "Ranked No. 3 on Texas Monthly's best new Texas restaurants of 2023"
+        }
+      ]
     },
     {
       "id": "josephines",
@@ -1141,7 +1442,14 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top."
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "CultureMap Houston",
+          "tier": "Tastemaker Awards 2025 — Neighborhood Restaurant of the Year",
+          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/"
+        }
+      ]
     }
   ]
 }
