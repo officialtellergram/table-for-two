@@ -82,14 +82,15 @@
     color:var(--muted);font-size:11px;-webkit-text-fill-color:var(--muted)}
   .spacer{flex:1}
   select,input,button{font:inherit;color:var(--txt);transition:border-color .15s,box-shadow .15s,background .15s}
-  .city-select,.sort-select,.filter-select{
+  .city-select,.sort-select,.filter-select,.party-select{
     background:transparent;border:1px solid var(--line);border-radius:10px;
     padding:8px 12px;appearance:none;cursor:pointer;color:var(--txt)}
   .city-select{font-weight:600;font-size:13px;letter-spacing:.3px}
+  .party-select{font-size:12.5px;letter-spacing:.2px;color:var(--muted)}
   /* native dropdown popup — force readable contrast in both themes */
   select option{background:var(--panel);color:var(--txt);font-weight:500}
   select option:disabled{color:var(--faint)}
-  .city-select:hover,.sort-select:hover,.filter-select:hover,.iconbtn:hover{border-color:var(--line2)}
+  .city-select:hover,.sort-select:hover,.filter-select:hover,.party-select:hover,.iconbtn:hover{border-color:var(--line2)}
   select:focus-visible,input:focus-visible{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(201,168,106,.16)}
   .iconbtn{background:transparent;border:1px solid var(--line);border-radius:10px;
     padding:8px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
@@ -148,6 +149,16 @@
   .tag.walk{color:var(--good);border-color:rgba(134,182,160,.28)}
   .tag.nowalk{color:var(--faint)}
   .tag.vibe{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 32%,transparent);text-transform:capitalize}
+  /* Provenance row: named critic/publication endorsements (the anti-slop trust signal) */
+  .vetted{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:2px 0 4px}
+  .vetted-lbl{font-size:10px;text-transform:uppercase;letter-spacing:1.2px;color:var(--faint);margin-right:1px}
+  .tag.src{color:var(--accent2);border-color:color-mix(in srgb,var(--accent2) 34%,transparent);
+    text-decoration:none;transition:border-color .15s,color .15s}
+  a.tag.src:hover{border-color:var(--accent2);color:var(--txt)}
+  .src-tier{opacity:.72;font-size:10px;letter-spacing:.2px}
+  /* Difficulty scale chip in the legend */
+  .diff-scale{display:inline-flex;gap:3px;align-items:center;vertical-align:middle}
+  .diff-scale i{width:7px;height:7px;border-radius:50%;display:inline-block}
   .dish{font-size:12px;color:var(--muted)}
   .dish b{color:var(--accent2);font-weight:500}
   .datenote{font-family:var(--serif);font-style:italic;color:var(--accent2);font-size:13px;letter-spacing:.1px;margin:2px 0 2px}
@@ -234,6 +245,16 @@
   <div class="wrap">
     <div class="subbar">
       <select class="city-select" id="city" aria-label="City"></select>
+      <select class="party-select" id="party" aria-label="Party size" title="Party size for booking links">
+        <option value="1">1 guest</option>
+        <option value="2" selected>Table for 2</option>
+        <option value="3">Party of 3</option>
+        <option value="4">Party of 4</option>
+        <option value="5">Party of 5</option>
+        <option value="6">Party of 6</option>
+        <option value="7">Party of 7</option>
+        <option value="8">Party of 8</option>
+      </select>
       <div class="seg" role="tablist">
         <button id="vList" class="active">List</button>
         <button id="vMap">Map</button>
@@ -280,7 +301,8 @@
     <div class="legend">
       <span class="k"><span class="sw" style="background:var(--good)"></span><b>Booking Available</b> — real open tables for 2 in the next 7 days (Resy)</span>
       <span class="k"><span class="sw" style="background:var(--accent)"></span><b>Countdown</b> — releases in batches; timer to the next drop</span>
-      <span class="k"><span class="sw" style="background:var(--faint)"></span><b>Check next 7 days</b> — OpenTable/Tock/SevenRooms block auto-checks; tap to open the platform pre-filled (party of 2)</span>
+      <span class="k"><span class="sw" style="background:var(--faint)"></span><b>Check next 7 days</b> — OpenTable/Tock/SevenRooms block auto-checks; tap to open the platform pre-filled</span>
+      <span class="k"><span class="diff-scale" id="diffScale" aria-hidden="true"></span><b>Booking difficulty</b> — easy → near-impossible</span>
       <span class="k" style="color:var(--faint)">Resy availability is a snapshot from the last refresh — always confirm on the platform.</span>
     </div>
   </div>
@@ -402,7 +424,10 @@ function normalizeSpot(s, city){
     bookingWindow:s.bookingWindow||'', bookingWindowDays:s.bookingWindowDays,
     walkIns:!!s.walkIns, walkIn:s.walkIn||null,
     tips:Array.isArray(s.tips)?s.tips:[], signatureDish:s.signatureDish||'',
-    lastVerified:s.lastVerified||''
+    lastVerified:s.lastVerified||'',
+    // Provenance: named critic/blog endorsements (the anti-slop trust signal) and
+    // the free-text note on why the table is hard to get.
+    sources:Array.isArray(s.sources)?s.sources:[], evidence:s.evidence||''
   };
 }
 
@@ -501,18 +526,28 @@ function platColor(p){ return PLAT_COLOR[p]||'var(--invite)'; }
 function todayISO(){
   return new Intl.DateTimeFormat('en-CA',{timeZone:cityTz,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 }
-// Deep-link that opens the booking platform pre-filled with today's date + party of 2,
-// so one click lands you on real availability (the source we can't auto-scrape).
+// Deep-link that opens the booking platform pre-filled with today's date + the
+// chosen party size, so one click lands you on real availability (the source we
+// can't auto-scrape). "Table for two" is the default; any size up to 8 works.
+function partyParam(url, n){
+  // Set each platform's own party-size query param on an already-built URL.
+  try{
+    const u=new URL(url), h=u.hostname, N=String(n);
+    if(h.includes('resy.com')) u.searchParams.set('seats',N);
+    else if(h.includes('opentable.com')) u.searchParams.set('covers',N);
+    else if(h.includes('exploretock.com')) u.searchParams.set('size',N);
+    else if(h.includes('sevenrooms.com')) u.searchParams.set('party_size',N);
+    return u.toString();
+  }catch(e){ return url; }
+}
 function prefillUrl(s){
   const url=s.platformUrl;
   if(!url) return '';
   try{
     const u=new URL(url), h=u.hostname;
-    if(h.includes('resy.com')){ u.searchParams.set('date',todayISO()); u.searchParams.set('seats','2'); }
-    else if(h.includes('opentable.com')){ u.searchParams.set('covers','2'); u.searchParams.set('dateTime',todayISO()+'T19:00'); }
-    else if(h.includes('exploretock.com')){ u.searchParams.set('date',todayISO()); u.searchParams.set('size','2'); }
-    else if(h.includes('sevenrooms.com')){ u.searchParams.set('party_size','2'); u.searchParams.set('date',todayISO()); }
-    return u.toString();
+    if(h.includes('opentable.com')) u.searchParams.set('dateTime',todayISO()+'T19:00');
+    else u.searchParams.set('date',todayISO());
+    return partyParam(u.toString(), party);
   }catch(e){ return url; }
 }
 
@@ -546,11 +581,19 @@ function spotState(s){
 const STATE_RANK={open:0, countdown:1, unknown:2, booked:3};
 const STATE_COLOR={open:'#63d6a4', countdown:'#e08a5b', unknown:'#6b5f72', booked:'#b85c6a'};
 
+/* Difficulty-to-color: 1 = easiest (green) … 5 = hardest (red). Color encodes the
+   same level the 5-dot count does, so the scale reads at a glance. */
+const DIFF_COLORS={1:'#6bbf6b',2:'#a8c258',3:'#e0b13a',4:'#e0863a',5:'#d6555f'};
+const DIFF_WORDS={1:'Easy',2:'Doable',3:'Tough',4:'Very hard',5:'Near-impossible'};
+function diffColor(n){ return DIFF_COLORS[Math.min(5,Math.max(1,Math.round(n)))||3]; }
+function diffWord(n){ return DIFF_WORDS[Math.min(5,Math.max(1,Math.round(n)))||3]; }
+
 /* ---------- App state ---------- */
 let RAW=[];            // normalized spots for current city
 let META=null;
 let SNIPER=null;       // cancellation-radar feed (cities/just-opened.json)
 let cityKey='nyc';
+let party=2;           // booking party size; "table for two" is the default, not a limit
 let view='list';
 let map=null, markers=null, mapBuilt=false, tileLayer=null;
 const cards=[];        // {spot, el, timeEl, whenEl, dropEl} for live ticking
@@ -568,6 +611,17 @@ function initCitySelect(){
   }
   sel.value=cityKey;
   sel.onchange=()=>{ cityKey=sel.value; try{ localStorage.setItem('t42-city',cityKey); }catch(e){} loadCity(); };
+}
+
+/* Party-size selector: remembered, and re-renders so every booking link and the
+   Just-Opened strip reflect the chosen size. Default stays 2. */
+function initPartySelect(){
+  const sel=$('party'); if(!sel) return;
+  let saved; try{ saved=localStorage.getItem('t42-party'); }catch(e){}
+  if(saved && +saved>=1 && +saved<=8) party=+saved;
+  sel.value=String(party);
+  sel.onchange=()=>{ party=+sel.value||2; try{ localStorage.setItem('t42-party',String(party)); }catch(e){}
+    render(); };   // grid booking links follow the chosen size; the feed stays party-2 (a real detected table)
 }
 
 async function loadCity(){
@@ -719,7 +773,9 @@ function render(){
 function buildCard(s,drop){
   const el=document.createElement('div'); el.className='card';
   const state=spotState(s);
-  const dots=Array.from({length:5},(_,i)=>'<i class="'+(i<s.difficulty?'on':'')+'"></i>').join('');
+  const dcol=diffColor(s.difficulty);
+  const dots=Array.from({length:5},(_,i)=>
+    '<i class="'+(i<s.difficulty?'on':'')+'"'+(i<s.difficulty?' style="background:'+dcol+'"':'')+'></i>').join('');
   const walkTag = s.walkIns
     ? '<span class="tag walk">✓ Walk-ins'+(s.walkIn&&s.walkIn.doors?' · '+s.walkIn.doors:'')+'</span>'
     : '<span class="tag nowalk">✕ No walk-ins</span>';
@@ -734,6 +790,17 @@ function buildCard(s,drop){
     : s.platform==='Website' ? 'Reserve on website'
     : s.platform==='Phone' ? 'Reserve'
     : 'Book on '+esc(s.platform);
+  // "Vetted by": named critic/publication endorsements, each a link out. This is
+  // the trust signal — real critics, not Yelp/Google slop.
+  const vetted = (s.sources||[]).length
+    ? '<div class="vetted"><span class="vetted-lbl">Vetted by</span>'+
+      s.sources.map(src=>{
+        const label=esc(src.name)+(src.tier?' <span class="src-tier">'+esc(src.tier)+'</span>':'');
+        return src.url
+          ? '<a class="tag src" href="'+attr(src.url)+'" target="_blank" rel="noopener" title="'+attr((src.name||'')+(src.note?' — '+src.note:''))+'">'+label+'</a>'
+          : '<span class="tag src" title="'+attr(src.note||'')+'">'+label+'</span>';
+      }).join('')+'</div>'
+    : '';
 
   el.innerHTML=`
     <div class="card-head">
@@ -743,10 +810,11 @@ function buildCard(s,drop){
       </div>
       <div>
         <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
-        <div class="diff" title="Difficulty ${s.difficulty}/5">${dots}</div>
+        <div class="diff" title="Booking difficulty ${s.difficulty}/5 — ${esc(diffWord(s.difficulty))}">${dots}</div>
         <div class="price">${esc(s.priceRange)}</div>
       </div>
     </div>
+    ${vetted}
     <div class="drop" data-drop>
       <div class="lbl" data-lbl>—</div>
       <div class="time" data-time>—</div>
@@ -965,6 +1033,8 @@ function geoCity(){
     if(near) cityKey=near;
   }
   initCitySelect();
+  initPartySelect();
+  const ds=$('diffScale'); if(ds) ds.innerHTML=[1,2,3,4,5].map(n=>'<i style="background:'+diffColor(n)+'"></i>').join('');
   await loadCity();
   loadSniper();          // fetch the cancellation-radar feed (non-blocking)
   setInterval(loadSniper,180000);   // re-poll the feed every 3 min; re-renders only on a new sweep

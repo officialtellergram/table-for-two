@@ -1,6 +1,6 @@
 scraper/.geocache.json
 scraper/.radar.log
-scraper/.notify.json
+scraper/.notify.json*
 scraper/watchlist.json
 **/__pycache__/
 *.pyc
@@ -11,3 +11,11 @@ Thumbs.db
 # persists run-to-run (the local scheduled task commits it each sweep).
 scraper/.ot_profile/
 scraper/.sniper.lock
+
+# Stage 2 / Supabase — secrets never get committed. The service_role key,
+# INGEST_SECRET, and RESEND_API_KEY live in Supabase function secrets + local
+# env, never on disk in the repo. These ignore the files the CLI can produce.
+supabase/.env
+supabase/.env.*
+supabase/.temp/
+supabase/.branches/

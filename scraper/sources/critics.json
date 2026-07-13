@@ -1,0 +1,48 @@
+{
+  "_comment": "The curated allowlist of trusted restaurant critics/publications. A spot's `sources` provenance is only allowed to cite an outlet named here — this is the anti-slop guarantee (no Yelp, no Google reviews, no SEO listicles). `trusted` = national/authoritative outlets accepted in every city; `cities` = additional respected local critics/blogs per city key. Matching is case-insensitive and substring-based, so 'Eater NY' clears the 'Eater' entry.",
+  "trusted": [
+    "Michelin",
+    "The New York Times",
+    "Eater",
+    "The Infatuation",
+    "Bon Appétit",
+    "Food & Wine",
+    "Resy",
+    "James Beard",
+    "The World's 50 Best",
+    "Condé Nast Traveler",
+    "GQ",
+    "Robb Report",
+    "Wine Spectator",
+    "La Liste"
+  ],
+  "cities": {
+    "nyc": [
+      "New York Magazine",
+      "Grub Street",
+      "The Village Voice",
+      "Pete Wells",
+      "TimeOut New York"
+    ],
+    "dc": [
+      "The Washington Post",
+      "Washingtonian",
+      "Tom Sietsema"
+    ],
+    "boston": [
+      "The Boston Globe",
+      "Boston Magazine"
+    ],
+    "richmond": [
+      "Richmond Times-Dispatch",
+      "Richmond Magazine",
+      "Style Weekly"
+    ],
+    "houston": [
+      "Houston Chronicle",
+      "Houstonia",
+      "Alison Cook",
+      "CultureMap Houston"
+    ]
+  }
+}

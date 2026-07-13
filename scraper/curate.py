@@ -40,7 +40,7 @@ SPOT_FIELDS = [
     "priceRange", "platform", "platformUrl", "website", "phoneNumber",
     "releaseSchedule", "releaseTime", "releaseDay", "bookingWindow",
     "bookingWindowDays", "walkIns", "walkIn", "tips", "signatureDish",
-    "lastVerified", "availability",
+    "lastVerified", "availability", "sources", "evidence",
 ]
 TRUTHY = {"1", "true", "yes", "y", "t"}
 
@@ -58,6 +58,62 @@ def _tips(val):
     if isinstance(val, list):
         return [str(t).strip() for t in val if str(t).strip()]
     return [t.strip() for t in str(val or "").split("|") if t.strip()]
+
+
+# The whole product premise is "vetted sources, not Yelp/Google slop", so a spot's
+# provenance is only allowed to cite an outlet on the curated allowlist. The list
+# lives in sources/critics.json (a base set plus optional per-city critics).
+_CRITICS_CACHE = None
+
+
+def load_critics():
+    global _CRITICS_CACHE
+    if _CRITICS_CACHE is None:
+        p = Path(__file__).resolve().parent / "sources" / "critics.json"
+        try:
+            _CRITICS_CACHE = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            _CRITICS_CACHE = {"trusted": [], "cities": {}}
+    return _CRITICS_CACHE
+
+
+def _trusted_names(city=None):
+    c = load_critics()
+    names = list(c.get("trusted", []))
+    if city:
+        names += c.get("cities", {}).get(city, [])
+    return {n.lower() for n in names}
+
+
+def _sources(val, city=None):
+    """Parse a spot's `sources` into a clean list of {name, tier, url, note},
+    dropping any outlet not on the curated allowlist (the anti-slop guarantee).
+    Accepts a JSON list of objects, or a pipe-separated 'Name|Name2' shorthand."""
+    if not val:
+        return []
+    raw = val if isinstance(val, list) else \
+        [{"name": n.strip()} for n in str(val).split("|") if n.strip()]
+    trusted = _trusted_names(city)
+    out = []
+    for item in raw:
+        if isinstance(item, str):
+            item = {"name": item.strip()}
+        name = str(item.get("name") or "").strip()
+        if not name:
+            continue
+        # allowlist gate: the outlet's name must contain (or be contained by) a
+        # trusted name — so "Eater NY" clears on a "Eater" allowlist entry.
+        base = name.lower()
+        if trusted and not any(t in base or base in t for t in trusted):
+            log(f"    ! dropping untrusted source '{name}' (not on critics allowlist)")
+            continue
+        entry = {"name": name}
+        for k in ("tier", "url", "note"):
+            v = str(item.get(k) or "").strip()
+            if v:
+                entry[k] = v
+        out.append(entry)
+    return out
 
 
 def hardness(spot):
@@ -94,7 +150,7 @@ def load_seed(path: Path):
     return out
 
 
-def row_to_spot(r):
+def row_to_spot(r, city=None):
     """Normalize one raw seed row into the dashboard spot shape."""
     name = (r.get("name") or "").strip()
     spot = {
@@ -120,6 +176,8 @@ def row_to_spot(r):
         "availability": r.get("availability"),  # filled by the Resy live check below
         "signatureDish": (r.get("signatureDish") or "").strip(),
         "lastVerified": (r.get("lastVerified") or "").strip(),
+        "sources": _sources(r.get("sources"), city),  # named critic/blog endorsements
+        "evidence": (r.get("evidence") or "").strip(),  # why it's hard to book
     }
     bwd = str(r.get("bookingWindowDays") or "").strip()
     if bwd.isdigit():
@@ -307,7 +365,7 @@ def main():
 
     spots = []
     for i, r in enumerate(rows, 1):
-        spot = row_to_spot(r)
+        spot = row_to_spot(r, args.city)
         if not spot["name"]:
             log(f"  [{i}] skipped: no name"); continue
         log(f"  [{i}] {spot['name']}")
