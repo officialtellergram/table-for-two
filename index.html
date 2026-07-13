@@ -91,6 +91,38 @@
   select option{background:var(--panel);color:var(--txt);font-weight:500}
   select option:disabled{color:var(--faint)}
   .city-select:hover,.sort-select:hover,.filter-select:hover,.party-select:hover,.iconbtn:hover{border-color:var(--line2)}
+  /* Stage 2: alerts entry + auth modal */
+  .alertbtn{background:var(--accent2);color:#1a1410;border:none;border-radius:10px;
+    padding:8px 14px;font-size:12.5px;font-weight:600;letter-spacing:.3px;cursor:pointer;
+    white-space:nowrap;transition:filter .15s}
+  .alertbtn:hover{filter:brightness(1.08)}
+  .alertbtn.in{background:transparent;color:var(--accent2);border:1px solid color-mix(in srgb,var(--accent2) 40%,transparent)}
+  .modal-scrim{position:fixed;inset:0;z-index:1000;background:rgba(10,7,5,.62);
+    backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:20px}
+  .modal-scrim[hidden]{display:none}
+  .modal{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    width:100%;max-width:400px;padding:26px 24px;box-shadow:0 24px 60px rgba(0,0,0,.4)}
+  .modal h2{font-family:var(--serif);font-size:22px;margin:0 0 6px}
+  .modal-sub{color:var(--muted);font-size:13px;line-height:1.5;margin:0 0 16px}
+  .modal-x{position:absolute;top:12px;right:12px;background:none;border:none;color:var(--faint);
+    font-size:15px;cursor:pointer;padding:4px 8px}
+  .modal-x:hover{color:var(--txt)}
+  #authForm{display:flex;flex-direction:column;gap:10px}
+  #authForm input,.watch-times input{background:var(--bg);border:1px solid var(--line);border-radius:9px;
+    padding:11px 13px;color:var(--txt);font-size:14px;font-family:inherit}
+  .modal-msg{margin-top:12px;font-size:13px;line-height:1.5;min-height:1px}
+  .modal-msg.ok{color:var(--good)} .modal-msg.err{color:var(--soon)}
+  .watch-add{border:1px solid var(--line);border-radius:11px;padding:13px;margin:4px 0 14px}
+  .watch-times{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .watch-times span{color:var(--faint);font-size:12px}
+  .watch-times input{flex:1;min-width:80px}
+  .watch-list{display:flex;flex-direction:column;gap:8px;margin-bottom:16px;max-height:230px;overflow:auto}
+  .watch-item{display:flex;align-items:center;justify-content:space-between;gap:8px;
+    border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:13px}
+  .watch-item .wdel{background:none;border:none;color:var(--faint);cursor:pointer;font-size:13px}
+  .watch-item .wdel:hover{color:var(--soon)}
+  .linkbtn{background:none;border:none;color:var(--muted);text-decoration:underline;cursor:pointer;font-size:12.5px;padding:0}
+  .linkbtn:hover{color:var(--txt)}
   select:focus-visible,input:focus-visible{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(201,168,106,.16)}
   .iconbtn{background:transparent;border:1px solid var(--line);border-radius:10px;
     padding:8px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
@@ -238,7 +270,37 @@
       <small id="srcMeta"></small>
     </div>
     <div class="spacer"></div>
+    <button class="alertbtn" id="alertBtn" title="Get alerted when a table opens" hidden>Get alerts</button>
     <button class="iconbtn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme">☀</button>
+  </div>
+</div>
+
+<!-- Sign-in / watchlist modal (Stage 2). Hidden until "Get alerts" is tapped. -->
+<div class="modal-scrim" id="authScrim" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+    <button class="modal-x" id="authClose" aria-label="Close">✕</button>
+    <div id="authView">
+      <h2 id="authTitle">Get alerts ✌︎</h2>
+      <p class="modal-sub">We'll email you the moment a table opens at a spot you're watching. No password — we send a magic link.</p>
+      <form id="authForm">
+        <input id="authEmail" type="email" required placeholder="you@email.com" autocomplete="email" />
+        <button class="btn book avail" type="submit" style="--c:var(--good)">Send magic link</button>
+      </form>
+      <div id="authMsg" class="modal-msg"></div>
+    </div>
+    <div id="acctView" hidden>
+      <h2 id="acctTitle">Your alerts ✌︎</h2>
+      <p class="modal-sub" id="acctWho"></p>
+      <div class="watch-add">
+        <div class="modal-sub" style="margin:0 0 6px">Watch <b id="watchCityLbl">this city</b> for openings between:</div>
+        <div class="watch-times">
+          <input id="watchEarliest" type="time" value="17:30" /> <span>to</span> <input id="watchLatest" type="time" value="21:30" />
+          <button class="btn book" id="watchAdd" style="--c:var(--accent2)">Add watch</button>
+        </div>
+      </div>
+      <div id="watchList" class="watch-list"></div>
+      <button class="linkbtn" id="signOut">Sign out</button>
+    </div>
   </div>
 </div>
 <header>
@@ -1045,6 +1107,108 @@ function geoCity(){
 if('serviceWorker' in navigator){
   window.addEventListener('load',function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
 }
+</script>
+
+<!-- Stage 2: sign-in + watchlists. Separate ES module so it doesn't touch the
+     classic script above; it reads the current city/party straight from the DOM. -->
+<script type="module">
+import { SUPABASE_URL, SUPABASE_ANON_KEY } from './web/config.js';
+import { initAuth, signInWithEmail, signOut, getSession, saveWatchlist, listWatchlists, deleteWatchlist }
+  from './web/auth.js';
+
+const $=id=>document.getElementById(id);
+const scrim=$('authScrim');
+let ready=false;
+try{ initAuth(SUPABASE_URL, SUPABASE_ANON_KEY); ready=true; }
+catch(e){ console.warn('auth init failed', e); }
+
+function open(){ scrim.hidden=false; refresh(); }
+function close(){ scrim.hidden=true; }
+$('alertBtn').onclick=open;
+$('authClose').onclick=close;
+scrim.addEventListener('click',e=>{ if(e.target===scrim) close(); });
+
+// Current city key + human label, read live from the toolbar select.
+function curCity(){ const s=$('city'); return {key:s.value, label:s.options[s.selectedIndex]?.textContent||s.value}; }
+function curParty(){ return +($('party')?.value)||2; }
+
+async function refresh(){
+  const session = ready ? await getSession().catch(()=>null) : null;
+  const authed = !!session;
+  $('alertBtn').textContent = authed ? 'My alerts ✌︎' : 'Get alerts';
+  $('alertBtn').classList.toggle('in', authed);
+  $('authView').hidden = authed;
+  $('acctView').hidden = !authed;
+  if(authed){
+    $('acctWho').textContent = 'Signed in as '+session.user.email;
+    const c=curCity(); $('watchCityLbl').textContent=c.label.replace(/ — .*/,'');
+    await loadWatches();
+  }
+}
+
+$('authForm').onsubmit=async e=>{
+  e.preventDefault();
+  const msg=$('authMsg'); msg.className='modal-msg'; msg.textContent='Sending…';
+  try{
+    await signInWithEmail($('authEmail').value.trim());
+    msg.className='modal-msg ok';
+    msg.textContent='Check your email for a magic link to finish signing in.';
+  }catch(err){
+    msg.className='modal-msg err';
+    msg.textContent='Could not send: '+(err.message||err);
+  }
+};
+
+async function loadWatches(){
+  const list=$('watchList'); list.innerHTML='<div class="modal-sub">Loading…</div>';
+  try{
+    const rows=await listWatchlists();
+    if(!rows.length){ list.innerHTML='<div class="modal-sub">No watches yet — add one above.</div>'; return; }
+    list.innerHTML='';
+    for(const w of rows){
+      const el=document.createElement('div'); el.className='watch-item';
+      const times=(w.earliest||'–')+'–'+(w.latest||'–');
+      el.innerHTML='<span><b>'+esc(w.city.toUpperCase())+'</b> · '+esc(times)+' · party '+(w.party||2)+'</span>'+
+        '<button class="wdel" title="Remove">✕</button>';
+      el.querySelector('.wdel').onclick=async()=>{ await deleteWatchlist(w.id).catch(()=>{}); loadWatches(); };
+      list.appendChild(el);
+    }
+  }catch(err){
+    // Tables not created yet (migration pending) or a transient error.
+    list.innerHTML='<div class="modal-sub">Watchlists aren\'t ready yet. '+esc(err.message||'')+'</div>';
+  }
+}
+function esc(x){ return String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+$('watchAdd').onclick=async()=>{
+  const c=curCity();
+  try{
+    await saveWatchlist({ city:c.key, venues:'all',
+      earliest:$('watchEarliest').value||null, latest:$('watchLatest').value||null,
+      dates:null, party:curParty() });
+    loadWatches();
+  }catch(err){ alert('Could not add watch: '+(err.message||err)); }
+};
+
+$('signOut').onclick=async()=>{ await signOut().catch(()=>{}); refresh(); };
+
+// Reveal "Get alerts" only once the backend is actually ready — i.e. the
+// watchlists table exists. Until the migration is run, the button stays hidden
+// so nobody hits a half-built feature; it appears automatically once tables land.
+async function backendReady(){
+  try{
+    const r=await fetch(SUPABASE_URL+'/rest/v1/watchlists?select=id&limit=1',
+      {headers:{apikey:SUPABASE_ANON_KEY}});
+    return r.ok;                 // 200 = table exists (RLS just returns empty for anon)
+  }catch(e){ return false; }
+}
+(async function initStage2(){
+  if(!ready) return;
+  if(await backendReady()){
+    $('alertBtn').hidden=false;
+    refresh();   // handles a magic-link redirect landing back with a fresh session
+  }
+})();
 </script>
 </body>
 </html>
