@@ -1,10 +1,94 @@
 {
-  "generated": "2026-07-14T11:28:03+00:00",
+  "generated": "2026-07-14T11:58:03+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 2,
+  "new": 6,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-07-14",
+      "time": "22:15",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-14T11:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-07-14",
+      "time": "22:30",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-14T11:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-07-14",
+      "time": "22:45",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-14T11:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-07-14",
+      "time": "23:00",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-14T11:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-07-14",
+      "time": "23:15",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-14T11:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-07-14",
+      "time": "23:30",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
+      "firstSeen": "2026-07-14T11:58:03+00:00",
+      "new": true
+    },
     {
       "city": "houston",
       "spotId": "kata-robata-omakase",
@@ -17,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-14T11:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -31,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-14T11:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -45,20 +129,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/albi?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-14T10:58:03+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-14",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-14&seats=2",
-      "firstSeen": "2026-07-14T05:28:03+00:00",
       "new": false
     },
     {
@@ -2732,76 +2802,6 @@
       "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-14T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-16",
-      "time": "16:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-14T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-16",
-      "time": "16:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-14T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-16",
-      "time": "16:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-14T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-16",
-      "time": "16:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-14T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-16",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-14T04:28:03+00:00",
       "new": false
     }
