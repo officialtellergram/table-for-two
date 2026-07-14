@@ -1,10 +1,24 @@
 {
-  "generated": "2026-07-14T11:58:03+00:00",
+  "generated": "2026-07-14T12:28:03+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 6,
+  "new": 1,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-15",
+      "time": "17:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-15&seats=2",
+      "firstSeen": "2026-07-14T12:28:03+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "carbone",
@@ -17,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T11:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T11:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T11:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -59,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T11:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -73,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T11:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -87,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T11:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -115,20 +129,6 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-14T11:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "albi",
-      "name": "Albi",
-      "neighborhood": "Navy Yard",
-      "cuisine": "Palestinian / live-fire",
-      "date": "2026-07-16",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/albi?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-14T10:58:03+00:00",
       "new": false
     },
     {
