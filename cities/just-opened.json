@@ -1,10 +1,38 @@
 {
-  "generated": "2026-07-14T05:28:03+00:00",
+  "generated": "2026-07-14T05:58:03+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
   "new": 2,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-07-16",
+      "time": "14:00",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-16&seats=2",
+      "firstSeen": "2026-07-14T05:58:03+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-07-16",
+      "time": "15:15",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-16&seats=2",
+      "firstSeen": "2026-07-14T05:58:03+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "cote",
@@ -17,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T05:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-14&seats=2",
       "firstSeen": "2026-07-14T05:28:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -2771,34 +2799,6 @@
       "cuisine": "Eastern Mediterranean meze",
       "date": "2026-07-14",
       "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-14&seats=2",
-      "firstSeen": "2026-07-14T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-07-14",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-14&seats=2",
-      "firstSeen": "2026-07-14T04:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-07-14",
-      "time": "19:15",
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-14&seats=2",
