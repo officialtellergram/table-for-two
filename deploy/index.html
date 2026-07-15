@@ -83,13 +83,14 @@
   .spacer{flex:1}
   select,input,button{font:inherit;color:var(--txt);transition:border-color .15s,box-shadow .15s,background .15s}
   /* Scroll story: fixed line-art scene behind everything */
-  :root{--sceneInk:#c9a86a}
-  [data-theme="light"]{--sceneInk:#8a6a3f}
+  :root{--sceneInk:#d6b078;--cardMix:88%;--cardBlur:6px}
+  [data-theme="light"]{--sceneInk:#84653c}
   #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
-    display:flex;align-items:flex-end;justify-content:center;opacity:.55}
-  [data-theme="light"] #tableScene{opacity:.42}
-  #tableScene svg{width:min(92vmin,720px);height:auto;margin-bottom:-3vh}
+    display:flex;align-items:center;justify-content:center;opacity:.68}
+  [data-theme="light"] #tableScene{opacity:.5}
+  #tableScene svg{width:min(92vmin,720px);height:auto;margin-top:6vh;stroke-width:1.9}
   #tableau{height:72vh}   /* open stage at the list's end where the story finishes */
+  .scene-window{grid-column:1/-1;height:200px;pointer-events:none}   /* clear band: story shows through */
   header,main{position:relative;z-index:1}
   body.mapview #tableScene, body.mapview #tableau{display:none}
   @media (prefers-reduced-motion: reduce){ #tableScene{display:none} #tableau{height:10vh} }
@@ -156,8 +157,12 @@
 
   /* Grid */
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding-bottom:52px}
+  /* Cards are slightly translucent so the scroll-story scene reads through them.
+     --cardMix = how much panel color (100% = opaque); --cardBlur = glass blur. */
   .card{position:relative;display:flex;flex-direction:column;gap:13px;padding:20px;
-    border-radius:var(--radius);border:1px solid var(--line);background:var(--panel);
+    border-radius:var(--radius);border:1px solid var(--line);
+    background:color-mix(in srgb, var(--panel) var(--cardMix,100%), transparent);
+    backdrop-filter:blur(var(--cardBlur,0px));-webkit-backdrop-filter:blur(var(--cardBlur,0px));
     transition:border-color .2s ease,background .2s ease}
   .card:hover{border-color:var(--line2);background:var(--hover)}
   .card.soon{border-color:rgba(205,167,102,.5)}
@@ -905,9 +910,18 @@ function render(){
     (nextC?' · next drop <b>'+fmtCountdown(nextC.drop-Date.now())+'</b> ('+esc(nextC.s.name)+')':'');
   const grid=$('grid'); grid.innerHTML=''; cards.length=0;
   if(!list.length){ showState('<h2>No matches</h2><p>Try clearing a filter.</p>'); return; }
+  // Scene windows: every couple of card-rows, a clear full-width band lets the
+  // scroll-story table show through unobstructed — glimpses of the story mid-list.
+  let sinceWindow=0;
   hideState();
   const frag=document.createDocumentFragment();
-  for(const {s,drop} of list) frag.appendChild(buildCard(s,drop));
+  for(const {s,drop} of list){
+    frag.appendChild(buildCard(s,drop));
+    if(++sinceWindow===9 && list.length>12){
+      const w=document.createElement('div'); w.className='scene-window'; frag.appendChild(w);
+      sinceWindow=0;
+    }
+  }
   grid.appendChild(frag);
   tick();
 }
@@ -1184,9 +1198,15 @@ function geoCity(){
   setInterval(tick,1000);
 })();
 
-/* PWA: register the service worker (installable + offline shell). No-op on file://. */
+/* PWA: register the service worker (installable + offline shell). No-op on file://.
+   When a NEW version activates on a repeat visit, reload once so the fresh shell
+   shows immediately instead of one-visit-late (the classic stale-PWA trap). */
 if('serviceWorker' in navigator){
   window.addEventListener('load',function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
+  var hadSW=!!navigator.serviceWorker.controller, reloaded=false;
+  navigator.serviceWorker.addEventListener('controllerchange',function(){
+    if(hadSW && !reloaded){ reloaded=true; location.reload(); }
+  });
 }
 </script>
 
