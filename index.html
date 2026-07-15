@@ -85,10 +85,10 @@
   /* Scroll story: fixed line-art scene behind everything */
   /* Liquid-glass cards: translucent so the scroll story reads through as soft
      moving light. --cardMix = tint opacity, --cardBlur = frost. */
-  :root{--sceneInk:#d8b47c;--cardMix:54%;--cardBlur:17px;
-    --cardBorder:rgba(255,255,255,.12);--cardSheen:rgba(255,255,255,.09);--cardShadow:rgba(0,0,0,.30)}
-  [data-theme="light"]{--sceneInk:#7e5f38;--cardMix:60%;
-    --cardBorder:rgba(255,255,255,.7);--cardSheen:rgba(255,255,255,.85);--cardShadow:rgba(80,60,35,.13)}
+  :root{--sceneInk:#d8b47c;--cardMix:40%;--cardBlur:19px;
+    --cardBorder:rgba(255,255,255,.13);--cardSheen:rgba(255,255,255,.10);--cardShadow:rgba(0,0,0,.32)}
+  [data-theme="light"]{--sceneInk:#7e5f38;--cardMix:48%;
+    --cardBorder:rgba(255,255,255,.75);--cardSheen:rgba(255,255,255,.9);--cardShadow:rgba(80,60,35,.14)}
   #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
     display:flex;align-items:center;justify-content:center;opacity:.8}
   [data-theme="light"] #tableScene{opacity:.62}
@@ -177,6 +177,63 @@
 
   /* Grid */
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding-bottom:52px}
+  /* ---------- First-visit landing overlay ---------- */
+  #landing{position:fixed;inset:0;z-index:2000;background:var(--bg);
+    display:flex;align-items:center;justify-content:center;padding:24px;
+    transition:opacity .6s ease;overflow:hidden}
+  #landing[hidden]{display:none}
+  #landing.leaving{opacity:0;pointer-events:none}
+  #landing::before{content:"";position:absolute;inset:0;pointer-events:none;
+    background:radial-gradient(52% 44% at 50% 46%,rgba(216,180,124,.18),transparent 72%)}
+  .lz-inner{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;max-width:640px;width:100%;text-align:center}
+  /* Brand greets first: logo + wordmark fade/rise in before the table draws */
+  .lz-brand{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:8px;
+    opacity:0;transform:translateY(-8px)}
+  .lz-logo{filter:drop-shadow(0 2px 10px rgba(216,180,124,.25))}
+  .lz-wordmark{font-family:var(--serif);font-size:clamp(26px,6vw,42px);font-weight:600;
+    letter-spacing:2px;text-transform:uppercase;color:var(--txt)}
+  .lz-wordmark::first-letter{color:var(--accent2)}
+  #landing.playing .lz-brand{animation:lzWord .9s cubic-bezier(.2,.7,.2,1) .15s forwards}
+  .lz-scene{width:min(74vmin,420px);height:auto;margin-bottom:6px}
+  /* draw-in: strokes start hidden, each group draws on its own delay */
+  #landing .lz-scene :is(path,ellipse):not(.lz-flame){stroke-dasharray:1000;stroke-dashoffset:1000}
+  .lz-glow,.lz-flame{opacity:0}
+  @keyframes lzDraw{to{stroke-dashoffset:0}}
+  @keyframes lzFade{to{opacity:1}}
+  @keyframes lzWord{to{opacity:1;transform:none}}
+  @keyframes lzGlowPulse{0%,100%{opacity:.75}50%{opacity:1}}
+  @keyframes lzFlick{to{transform:scaleY(.88) skewX(2.5deg)}}
+  #landing.playing .lz-floor path{animation:lzDraw .8s ease .8s forwards}
+  #landing.playing .lz-table :is(path,ellipse){animation:lzDraw 1s ease 1.15s forwards}
+  #landing.playing .lz-cloth path{animation:lzDraw .5s ease 1.85s forwards}
+  #landing.playing .lz-plate ellipse{animation:lzDraw .5s ease 2.05s forwards}
+  #landing.playing .lz-glass :is(path,ellipse){animation:lzDraw .6s ease 2.25s forwards}
+  #landing.playing .lz-chairs path{animation:lzDraw .9s ease 2.5s forwards}
+  #landing.playing .lz-candle :is(path,ellipse){animation:lzDraw .6s ease 2.8s forwards}
+  #landing.playing .lz-glow{animation:lzFade 1s ease 3.15s forwards, lzGlowPulse 3s ease-in-out 4.1s infinite}
+  #landing.playing .lz-flame{opacity:0;transform-box:fill-box;transform-origin:50% 100%;
+    animation:lzFade .6s ease 3.25s forwards, lzFlick .24s ease-in-out 3.8s infinite alternate}
+  .lz-tag{font-family:var(--serif);font-weight:500;font-size:clamp(23px,5.2vw,40px);line-height:1.25;
+    letter-spacing:.2px;margin:2px 0 22px;max-width:15ch}
+  .lz-tag span{display:inline-block;opacity:0;transform:translateY(15px)}
+  .lz-tag .hl{color:var(--accent2);font-style:italic}
+  #landing.playing .lz-tag span{animation:lzWord .6s cubic-bezier(.2,.7,.2,1) forwards}
+  #landing.playing .lz-tag span:nth-child(1){animation-delay:3.35s}
+  #landing.playing .lz-tag span:nth-child(2){animation-delay:3.45s}
+  #landing.playing .lz-tag span:nth-child(3){animation-delay:3.55s}
+  #landing.playing .lz-tag span:nth-child(4){animation-delay:3.65s}
+  #landing.playing .lz-tag span:nth-child(5){animation-delay:3.75s}
+  #landing.playing .lz-tag span:nth-child(6){animation-delay:3.9s}
+  #landing.playing .lz-tag span:nth-child(7){animation-delay:4.1s}
+  .lz-cta{display:flex;flex-direction:column;align-items:center;gap:12px;opacity:0}
+  #landing.playing .lz-cta{animation:lzFade .8s ease 4.35s forwards}
+  .lz-cta .btn{font-size:15px;padding:13px 26px}
+  .lz-msg{font-size:12.5px;color:var(--muted);min-height:1em}
+  @media (prefers-reduced-motion: reduce){
+    #landing .lz-scene :is(path,ellipse){stroke-dashoffset:0}
+    #landing .lz-glow,#landing .lz-flame,#landing .lz-tag span,#landing .lz-cta{opacity:1;transform:none}
+  }
+
   /* Liquid glass: translucent tint + heavy frost + specular edge + depth. The
      scroll-story scene behind blurs into soft moving gold light through them. */
   .card{position:relative;display:flex;flex-direction:column;gap:13px;padding:20px;
@@ -304,6 +361,58 @@
 </style>
 </head>
 <body>
+<!-- First-visit landing: the table sets itself, the tagline reads out, and we
+     ask for location before entering. CSS-driven (starts when .playing is added),
+     shown once (t42-entered). Removed from the DOM after the user enters. -->
+<div id="landing" hidden aria-label="Welcome to Table for Two">
+  <div class="lz-inner">
+    <div class="lz-brand">
+      <img class="lz-logo" src="icons/mark.png" alt="" width="46" height="46" />
+      <div class="lz-wordmark">Table for Two</div>
+    </div>
+    <svg class="lz-scene" viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <g class="lz-floor" stroke-opacity=".22">
+        <path d="M40,618 L350,330"/><path d="M760,618 L450,330"/>
+        <path d="M0,540 Q400,510 800,540"/><path d="M60,618 Q400,585 740,618"/>
+      </g>
+      <g class="lz-table">
+        <ellipse cx="400" cy="372" rx="200" ry="46"/>
+        <path d="M200,376 A200,46 0 0 0 600,376"/>
+        <path d="M392,418 Q388,480 386,540"/><path d="M408,418 Q412,480 414,540"/>
+        <ellipse cx="400" cy="548" rx="72" ry="15"/>
+      </g>
+      <g class="lz-cloth" stroke-opacity=".6">
+        <path d="M228,400 q-10,28 0,52"/><path d="M572,400 q10,28 0,52"/>
+      </g>
+      <g class="lz-plate"><ellipse cx="303" cy="368" rx="42" ry="11"/><ellipse cx="303" cy="368" rx="27" ry="7"/>
+        <ellipse cx="497" cy="368" rx="42" ry="11"/><ellipse cx="497" cy="368" rx="27" ry="7"/></g>
+      <g class="lz-glass">
+        <ellipse cx="252" cy="312" rx="13" ry="4"/><path d="M239,312 q2,20 13,24"/><path d="M265,312 q-2,20 -13,24"/><path d="M252,336 v18"/><path d="M240,356 a12,3.5 0 0 0 24,0"/>
+        <ellipse cx="548" cy="312" rx="13" ry="4"/><path d="M535,312 q2,20 13,24"/><path d="M561,312 q-2,20 -13,24"/><path d="M548,336 v18"/><path d="M536,356 a12,3.5 0 0 0 24,0"/>
+      </g>
+      <g class="lz-chairs">
+        <g class="lz-chairL">
+          <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/><path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/><path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/><path d="M140,474 q30,-9 62,-2"/>
+        </g>
+        <g class="lz-chairR" transform="translate(800,0) scale(-1,1)">
+          <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/><path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/><path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/><path d="M140,474 q30,-9 62,-2"/>
+        </g>
+      </g>
+      <g class="lz-candle"><path d="M393,330 v-32"/><path d="M407,330 v-32"/><ellipse cx="400" cy="297" rx="7" ry="2.6"/><ellipse cx="400" cy="333" rx="16" ry="4.6"/></g>
+      <circle class="lz-glow" cx="400" cy="280" r="60" fill="url(#glowGrad)" stroke="none"/>
+      <path class="lz-flame" d="M400,290 q7,-11 0,-21 q-7,10 0,21" stroke-width="1.4" fill="rgba(232,195,122,.3)"/>
+    </svg>
+    <h1 class="lz-tag">
+      <span>your</span> <span>portal</span> <span>to</span> <span>the</span> <span>city's</span> <span class="hl">best</span> <span>restaurants</span>
+    </h1>
+    <div class="lz-cta">
+      <button id="lzNear" class="btn book avail" style="--c:var(--good)">📍 Find restaurants near me</button>
+      <button id="lzBrowse" class="linkbtn">Browse all cities</button>
+      <div id="lzMsg" class="lz-msg" role="status"></div>
+    </div>
+  </div>
+</div>
+
 <!-- Sticky slim bar: lives OUTSIDE <header> so it stays pinned for the whole
      page scroll (a sticky element only sticks within its own parent's box). -->
 <!-- Scroll story: a gold line-art table for two sets itself as you scroll.
@@ -1210,6 +1319,31 @@ function geoCity(){
   });
 }
 
+/* First-visit landing: the table sets itself, the tagline reads out, then the
+   user chooses to share location or browse. Resolves to a cityKey (from
+   geolocation) or null (browse all). Shown once; returning visitors skip it. */
+function runLanding(){
+  return new Promise(res=>{
+    const el=$('landing'); if(!el){ res(null); return; }
+    el.hidden=false;
+    requestAnimationFrame(()=>el.classList.add('playing'));
+    let done=false;
+    const leave=(city)=>{
+      if(done) return; done=true;
+      el.classList.add('leaving');
+      setTimeout(()=>{ el.hidden=true; el.remove(); }, 650);
+      res(city);
+    };
+    $('lzNear').onclick=async()=>{
+      $('lzMsg').textContent='Finding your city…';
+      const near=await geoCity();
+      $('lzMsg').textContent = near ? '' : 'Couldn’t place you — showing our cities.';
+      leave(near);
+    };
+    $('lzBrowse').onclick=()=>leave(null);
+  });
+}
+
 (async function boot(){
   initTheme();
   if(location.protocol==='file:'){
@@ -1221,12 +1355,16 @@ function geoCity(){
   }
   showState('<div class="spin"></div><h2>Starting…</h2>');
   await loadManifest();
-  let saved=null; try{ saved=localStorage.getItem('t42-city'); }catch(e){}
+  let saved=null, entered=null;
+  try{ saved=localStorage.getItem('t42-city'); entered=localStorage.getItem('t42-entered'); }catch(e){}
   if(saved && DATA_SOURCES[saved] && DATA_SOURCES[saved].available){
-    cityKey=saved;
+    cityKey=saved;                                   // returning visitor with a pick
+  }else if(!entered){
+    const chosen=await runLanding();                 // first visit: the welcome portal
+    if(chosen && DATA_SOURCES[chosen]) cityKey=chosen;
+    try{ localStorage.setItem('t42-entered','1'); if(chosen) localStorage.setItem('t42-city',chosen); }catch(e){}
   }else{
-    showState('<div class="spin"></div><h2>Finding your nearest city…</h2>');
-    const near=await geoCity();
+    const near=await geoCity();                       // entered before, no saved pick
     if(near) cityKey=near;
   }
   initCitySelect();
