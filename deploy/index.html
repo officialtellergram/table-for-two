@@ -22,6 +22,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<!-- three.js for the 3D matte-gold "table & chairs coming together" assembly.
+     Single-file: pulled as an ES module from esm.sh via importmap (no build step). -->
+<script type="importmap">
+{ "imports": { "three": "https://esm.sh/three@0.160.0" } }
+</script>
+<!-- Capability gate (classic, runs synchronously so window.__t3d exists before
+     boot()/the scroll driver read it). Sets .capable = WebGL AND not reduced-motion.
+     The three.js module below fills in the real functions and resolves .ready. -->
+<script>
+window.__t3d = (function(){
+  var reduce = false;
+  try{ reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
+  var webgl = false;
+  try{
+    var c = document.createElement('canvas');
+    webgl = !!(window.WebGLRenderingContext && (c.getContext('webgl') || c.getContext('experimental-webgl')));
+  }catch(e){ webgl = false; }
+  var api = { capable: !!(webgl && !reduce), bgMounted:false, _resolve:null };
+  api.ready = new Promise(function(r){ api._resolve = r; });
+  // no-op placeholders until the module (if capable) overwrites them
+  api.playLanding = function(){}; api.teardownLanding = function(){};
+  api.mountBackground = function(){}; api.pauseBackground = function(){}; api.resumeBackground = function(){};
+  if(!api.capable){ api._resolve(false); }
+  return api;
+})();
+</script>
 <style>
   :root{
     --bg:#0a0a0b; --panel:#101011; --panel2:#161618; --line:#212124;
@@ -101,6 +127,9 @@
   [data-theme="light"] #tableScene::before{background:radial-gradient(56% 46% at 50% 48%, rgba(200,150,70,.14), transparent 70%)}
   @keyframes ambientPulse{0%,100%{opacity:.72}50%{opacity:1}}
   #tableScene svg{position:relative;z-index:1;width:min(92vmin,720px);height:auto;margin-top:6vh;stroke-width:2.1}
+  /* 3D background canvas fills the fixed layer; once it mounts we hide the SVG fallback. */
+  #tableScene canvas{position:absolute;inset:0;width:100%!important;height:100%!important;display:block;z-index:1}
+  #tableScene.t3d-on svg{display:none}
   #tableau{height:72vh}   /* open stage at the list's end where the story finishes */
   .scene-window{grid-column:1/-1;height:200px;pointer-events:none}   /* clear band: story shows through */
   header,main{position:relative;z-index:1}
@@ -201,6 +230,12 @@
   #landing.playing .lz-brand{animation:lzWord .9s cubic-bezier(.2,.7,.2,1) .15s forwards}
   /* Height-aware so the whole landing fits without clipping the logo on short windows */
   .lz-scene{width:min(72vw,44vh,420px);height:auto;margin-bottom:6px}
+  /* 3D landing assembly: square canvas box in place of the SVG line-art. Hidden
+     until three.js actually mounts (then the SVG fallback is hidden instead). */
+  .lz-3d{display:none;position:relative;width:min(74vw,46vh,440px);height:min(74vw,46vh,440px);margin-bottom:2px}
+  .lz-3d canvas{width:100%!important;height:100%!important;display:block}
+  #landing.lz-3d-on .lz-scene{display:none}
+  #landing.lz-3d-on .lz-3d{display:block}
   /* draw-in: strokes start hidden, each group draws on its own delay */
   #landing .lz-scene :is(path,ellipse):not(.lz-flame){stroke-dasharray:1000;stroke-dashoffset:1000}
   .lz-glow,.lz-flame{opacity:0}
@@ -434,6 +469,9 @@
       <circle class="lz-glow" cx="400" cy="280" r="60" fill="url(#glowGrad)" stroke="none"/>
       <path class="lz-flame" d="M400,290 q7,-11 0,-21 q-7,10 0,21" stroke-width="1.4" fill="rgba(232,195,122,.3)"/>
     </svg>
+    <!-- 3D matte-gold assembly mounts here (three.js). Falls back to the SVG above
+         when WebGL is unavailable or reduced-motion is set. -->
+    <div class="lz-3d" id="lz3d" aria-hidden="true"></div>
     <h1 class="lz-tag">
       <span>your</span> <span>portal</span> <span>to</span> <span>the</span> <span>city's</span> <span class="hl">best</span> <span>restaurants</span>
     </h1>
@@ -1291,6 +1329,8 @@ function setView(v){
   $('vList').classList.toggle('active',v==='list');
   $('vMap').classList.toggle('active',v==='map');
   document.body.classList.toggle('mapview',v==='map');   // hides the scroll scene
+  // Pause the 3D background render loop in map view (it's display:none anyway).
+  if(window.__t3d){ try{ v==='map' ? window.__t3d.pauseBackground() : window.__t3d.resumeBackground(); }catch(e){} }
   if(v==='map') showMap(); else hideMap();
   renderJustOpened();   // hide the feed in map view, restore it in list
 }
@@ -1354,17 +1394,33 @@ function geoCity(){
 /* First-visit landing: the table sets itself, the tagline reads out, then the
    user chooses to share location or browse. Resolves to a cityKey (from
    geolocation) or null (browse all). Shown once; returning visitors skip it. */
-function runLanding(){
-  return new Promise(res=>{
-    const el=$('landing'); if(!el){ res(null); return; }
-    el.hidden=false;
-    requestAnimationFrame(()=>el.classList.add('playing'));
+async function runLanding(){
+  const el=$('landing'); if(!el){ return null; }
+  el.hidden=false;
+  // Try the 3D assembly first. Wait (briefly) for three.js to be ready so we don't
+  // flash the SVG then swap. If it isn't ready/capable in time, the SVG line-art
+  // draws itself in via the .playing CSS (graceful fallback).
+  let used3d=false;
+  const t3d=window.__t3d;
+  if(t3d && t3d.capable){
+    const ready=await Promise.race([t3d.ready, new Promise(r=>setTimeout(()=>r(false),4000))]);
+    if(ready){
+      try{ t3d.playLanding($('lz3d')); el.classList.add('lz-3d-on'); used3d=true; }
+      catch(e){ console.warn('3D landing failed', e); }
+    }
+  }
+  requestAnimationFrame(()=>el.classList.add('playing'));   // tagline + CTA reveal on their CSS delays
+  return await new Promise(res=>{
     let done=false;
     const leave=(city)=>{
       if(done) return; done=true;
       el.classList.add('leaving');
-      setTimeout(()=>{ el.hidden=true; el.remove(); }, 650);
-      res(city);
+      setTimeout(()=>{
+        // Dispose the landing WebGL context BEFORE the background mounts (one at a time).
+        if(used3d){ try{ window.__t3d.teardownLanding(); }catch(e){} }
+        el.hidden=true; el.remove();
+        res(city);
+      }, 650);
     };
     $('lzNear').onclick=async()=>{
       $('lzMsg').textContent='Finding your city…';
@@ -1399,6 +1455,13 @@ function runLanding(){
     const near=await geoCity();                       // entered before, no saved pick
     if(near) cityKey=near;
   }
+  // Mount the 3D matte-gold background (behind the liquid-glass cards). Runs after
+  // any landing has torn down its context, so only one WebGL context is live at a time.
+  if(window.__t3d && window.__t3d.capable){
+    window.__t3d.ready.then(function(ok){
+      if(ok){ try{ window.__t3d.mountBackground(document.getElementById('tableScene')); }catch(e){ console.warn('3D bg failed',e); } }
+    });
+  }
   initCitySelect();
   initPartySelect();
   const ds=$('diffScale'); if(ds) ds.innerHTML=[1,2,3,4,5].map(n=>'<i style="background:'+diffColor(n)+'"></i>').join('');
@@ -1428,6 +1491,13 @@ if('serviceWorker' in navigator){
 window.addEventListener('load',function(){
   const scene=document.getElementById('tableScene');
   if(!scene || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  // If the 3D background is (or will be) live, it owns this layer — skip the SVG
+  // scrubber entirely. Only fall back to the SVG story if three.js failed to mount.
+  const t3d=window.__t3d;
+  if(t3d && t3d.capable){ t3d.ready.then(function(ok){ if(!ok) startSvgStory(); }); return; }
+  startSvgStory();
+
+  function startSvgStory(){
   if(!window.gsap || !window.ScrollTrigger){ return; }   // CDN missed: static full scene
   gsap.registerPlugin(ScrollTrigger);
 
@@ -1471,6 +1541,7 @@ window.addEventListener('load',function(){
   // City switches change page height; keep trigger measurements honest.
   new MutationObserver(()=>{ ScrollTrigger.refresh(); fit(); })
     .observe(document.getElementById('grid'),{childList:true});
+  }
 });
 </script>
 
@@ -1573,6 +1644,308 @@ async function backendReady(){
     $('alertBtn').hidden=false;
     refresh();   // handles a magic-link redirect landing back with a fresh session
   }
+})();
+</script>
+
+<!-- ============================================================
+     3D matte brushed-gold "table & chairs coming together" assembly (three.js).
+     Replaces the two 2D gold line-art scenes: the landing hero + the scroll bg.
+     Loaded as an ES module (importmap → esm.sh). Fills in window.__t3d, which the
+     classic boot()/runLanding()/scroll driver above already know how to call.
+     Skipped entirely when !capable (no WebGL or reduced-motion) → SVG fallback.
+     ============================================================ -->
+<script type="module">
+(async function(){
+  const t3d = window.__t3d;
+  if(!t3d || !t3d.capable) return;              // reduced-motion / no WebGL → keep the SVG line-art
+
+  let THREE;
+  try{ THREE = await import('three'); }
+  catch(e){ console.warn('three.js failed to load — using SVG fallback', e); t3d._resolve(false); return; }
+
+  // ---- small math helpers ----
+  const clamp01 = x => x<0?0:x>1?1:x;
+  const lerp = (a,b,t)=>a+(b-a)*t;
+  const smoother = t => { t=clamp01(t); return t*t*t*(t*(t*6-15)+10); };   // smootherstep
+  const sub = (p,a,b)=> smoother((p-a)/(b-a));                            // eased sub-range
+
+  const isLight = ()=> document.documentElement.getAttribute('data-theme')==='light';
+
+  // A soft warm-to-dark equirect gradient used as the environment map. Gives the
+  // matte metal something to reflect (without it, metalness reads flat/black) and
+  // keeps the look "soft studio", no external HDR needed.
+  function envTexture(){
+    const c=document.createElement('canvas'); c.width=16; c.height=64;
+    const g=c.getContext('2d');
+    const grad=g.createLinearGradient(0,0,0,64);
+    grad.addColorStop(0.00,'#5a4d30');   // warm sky
+    grad.addColorStop(0.35,'#2e2a22');
+    grad.addColorStop(0.62,'#171613');
+    grad.addColorStop(1.00,'#0a0a0b');   // dark floor
+    g.fillStyle=grad; g.fillRect(0,0,16,64);
+    const tex=new THREE.CanvasTexture(c);
+    tex.mapping=THREE.EquirectangularReflectionMapping;
+    tex.colorSpace=THREE.SRGBColorSpace;
+    return tex;
+  }
+
+  // A soft radial sprite (dark = contact shadow, warm = candlelight floor pool).
+  // Fades fully transparent well before the texture edge so the plane never reads
+  // as a rectangle.
+  function radialTexture(rgb, peak){
+    const s=256, c=document.createElement('canvas'); c.width=c.height=s;
+    const g=c.getContext('2d');
+    const grad=g.createRadialGradient(s/2,s/2,0,s/2,s/2,s/2);
+    grad.addColorStop(0.0,'rgba('+rgb+','+peak+')');
+    grad.addColorStop(0.45,'rgba('+rgb+','+(peak*0.35).toFixed(3)+')');
+    grad.addColorStop(0.7,'rgba('+rgb+',0)');
+    grad.addColorStop(1.0,'rgba('+rgb+',0)');
+    g.fillStyle=grad; g.fillRect(0,0,s,s);
+    const tex=new THREE.CanvasTexture(c); tex.colorSpace=THREE.SRGBColorSpace; return tex;
+  }
+
+  // ---- geometry: a round pedestal table + two elegant chairs + a candle ----
+  function buildSet(){
+    const parts = {};
+    const root = new THREE.Group();
+
+    const gold = new THREE.MeshStandardMaterial({ color:0xc9a86a, metalness:0.55, roughness:0.5, envMapIntensity:0.9 });
+    const goldSoft = gold.clone(); goldSoft.color.setHex(0xbe9c5e);
+    const cream = new THREE.MeshStandardMaterial({ color:0xf1e6ca, metalness:0.05, roughness:0.7 });
+    const flameMat = new THREE.MeshBasicMaterial({ color:0xffcf7a });
+    parts.materials = [gold, goldSoft, cream, flameMat];
+
+    // TABLE (round pedestal) ------------------------------------------------
+    const table = new THREE.Group();
+    const top  = new THREE.Mesh(new THREE.CylinderGeometry(0.92,0.92,0.055,64), gold); top.position.y=0.74;
+    const edge = new THREE.Mesh(new THREE.TorusGeometry(0.92,0.022,10,64), goldSoft); edge.rotation.x=Math.PI/2; edge.position.y=0.715;
+    const col  = new THREE.Mesh(new THREE.CylinderGeometry(0.06,0.085,0.62,28), goldSoft); col.position.y=0.37;
+    const knot = new THREE.Mesh(new THREE.SphereGeometry(0.10,24,16), gold); knot.position.y=0.5; knot.scale.y=0.7;
+    const foot = new THREE.Mesh(new THREE.CylinderGeometry(0.36,0.42,0.035,48), goldSoft); foot.position.y=0.02;
+    const footR= new THREE.Mesh(new THREE.TorusGeometry(0.40,0.02,10,48), gold); footR.rotation.x=Math.PI/2; footR.position.y=0.035;
+    table.add(top,edge,col,knot,foot,footR);
+    root.add(table); parts.table=table;
+
+    // CHAIR builder (two thin uprights + curved-look back rail + seat + 4 legs) --
+    function chair(){
+      const c=new THREE.Group();
+      const seatH=0.46;
+      const seat=new THREE.Mesh(new THREE.CylinderGeometry(0.26,0.26,0.045,40), gold); seat.position.y=seatH;
+      const seatR=new THREE.Mesh(new THREE.TorusGeometry(0.26,0.018,8,40), goldSoft); seatR.rotation.x=Math.PI/2; seatR.position.y=seatH-0.01;
+      // back: two uprights + three horizontal rails, sat at +z (away from the table)
+      const upGeo=new THREE.CylinderGeometry(0.02,0.02,0.62,14);
+      const upL=new THREE.Mesh(upGeo,gold); upL.position.set(-0.17,seatH+0.29,0.24);
+      const upR=new THREE.Mesh(upGeo,gold); upR.position.set( 0.17,seatH+0.29,0.24);
+      const railGeo=new THREE.CylinderGeometry(0.016,0.016,0.34,12);
+      const rails=[0.16,0.34,0.52].map(h=>{ const r=new THREE.Mesh(railGeo,goldSoft); r.rotation.z=Math.PI/2; r.position.set(0,seatH+h,0.245); return r; });
+      // legs
+      const legGeo=new THREE.CylinderGeometry(0.02,0.016,seatH,12);
+      const legs=[[0.19,0.19],[0.19,-0.19],[-0.19,0.19],[-0.19,-0.19]].map(([x,z])=>{
+        const l=new THREE.Mesh(legGeo,goldSoft); l.position.set(x,seatH/2,z); return l; });
+      c.add(seat,seatR,upL,upR,...rails,...legs);
+      return c;
+    }
+    const chairA=chair();                       // near side (+z), back faces +z, seat faces the table
+    const chairB=chair(); chairB.rotation.y=Math.PI;   // far side (-z)
+    root.add(chairA,chairB); parts.chairA=chairA; parts.chairB=chairB;
+
+    // CANDLE (on the table) -------------------------------------------------
+    const candle=new THREE.Group();
+    const holder=new THREE.Mesh(new THREE.CylinderGeometry(0.06,0.075,0.03,24), gold); holder.position.y=0.015;
+    const wax=new THREE.Mesh(new THREE.CylinderGeometry(0.035,0.038,0.14,24), cream); wax.position.y=0.10;
+    const flame=new THREE.Mesh(new THREE.SphereGeometry(0.02,12,12), flameMat); flame.position.y=0.20; flame.scale.y=1.9;
+    candle.add(holder,wax,flame);
+    candle.position.y=0.767;                    // sits on the tabletop
+    root.add(candle); parts.candle=candle; parts.flame=flame;
+
+    const candleLight=new THREE.PointLight(0xff9836, 0.0, 4.0, 2.2);
+    candleLight.position.set(0,0.95,0);
+    root.add(candleLight); parts.candleLight=candleLight;
+
+    // Ground: warm candlelight pool + soft contact shadow (so the set is grounded
+    // in both dark and light themes).
+    const pool=new THREE.Mesh(new THREE.PlaneGeometry(5.4,5.4),
+      new THREE.MeshBasicMaterial({ map:radialTexture('201,168,106',0.45), transparent:true, depthWrite:false }));
+    pool.rotation.x=-Math.PI/2; pool.position.y=0.002;
+    const shadow=new THREE.Mesh(new THREE.PlaneGeometry(3.4,3.4),
+      new THREE.MeshBasicMaterial({ map:radialTexture('0,0,0',0.55), transparent:true, depthWrite:false }));
+    shadow.rotation.x=-Math.PI/2; shadow.position.y=0.004; shadow.scale.set(1,0.62,1);
+    root.add(pool,shadow); parts.pool=pool; parts.shadow=shadow;
+
+    return { root, parts };
+  }
+
+  // The "coming together" mapping. p:0 = apart/exploded, p:1 = a set dining-for-two.
+  // Staggered eased sub-ranges make the parts settle in sequence.
+  // ex = how far "apart" the exploded state is (1 = full dramatic scatter for the
+  // landing; a smaller value keeps the background gently settling, no floaty debris).
+  function applyAssembly(parts, p, ex){
+    ex = (ex==null?1:ex);
+    const t = parts.table, a = parts.chairA, b = parts.chairB, cd = parts.candle;
+    const eT = sub(p,0.00,0.55);
+    t.position.y = lerp(-1.6*ex,0,eT);
+    t.scale.setScalar(lerp(1-0.45*ex,1,eT));
+    t.rotation.y = lerp(-0.7*ex,0,eT);
+
+    const eA = sub(p,0.22,0.85);
+    a.position.z = lerp(1.18+1.82*ex,1.18,eA);
+    a.position.y = lerp(0.25*ex,0,eA);
+    a.rotation.y = lerp(0.55*ex,0,eA);
+
+    const eB = sub(p,0.30,0.92);
+    b.position.z = lerp(-1.18-1.82*ex,-1.18,eB);
+    b.position.y = lerp(0.25*ex,0,eB);
+    b.rotation.y = lerp(Math.PI-0.55*ex,Math.PI,eB);
+
+    const eC = sub(p,0.62,1.0);
+    cd.position.y = lerp(0.767+0.783*ex,0.767,eC);
+    cd.scale.setScalar(lerp(1-0.8*ex,1,eC));
+    parts.flame.visible = eC>0.15;
+    parts._candleT = eC;                 // candle light target, applied w/ flicker in the loop
+  }
+
+  // ---- a self-contained stage (scene + camera + renderer + loop) ----
+  function createStage(mount, opts){
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
+
+    const renderer = new THREE.WebGLRenderer({ antialias:true, alpha:true, powerPreference:'high-performance' });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio||1, 2));
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = opts.exposure;
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    mount.appendChild(renderer.domElement);
+
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    const envSrc = envTexture();
+    const env = pmrem.fromEquirectangular(envSrc).texture;
+    scene.environment = env;
+    envSrc.dispose();
+
+    // Soft studio lighting: warm key + dim cool fill + warm rim so gold edges catch.
+    const key  = new THREE.DirectionalLight(0xfff0d4, 2.1); key.position.set(3.2,4.5,2.2);
+    const fill = new THREE.DirectionalLight(0x7d93c4, 0.45); fill.position.set(-3.5,1.6,-0.5);
+    const rim  = new THREE.DirectionalLight(0xffdca6, 1.35); rim.position.set(-2.2,3.0,-4.2);
+    const hemi = new THREE.HemisphereLight(0x3a3320, 0x0a0a0b, 0.35);
+    scene.add(key,fill,rim,hemi);
+
+    const { root, parts } = buildSet();
+    scene.add(root);
+    const explode = (opts.explode==null?1:opts.explode);   // scatter amount for this stage
+    applyAssembly(parts, 0, explode);
+
+    const camTarget = new THREE.Vector3(0,0.5,0);
+    let running=false, raf=0, t0=performance.now(), paused=false;
+    let curP = opts.scrub ? 0 : 0, targetP = 0;      // smoothed scrub progress (bg)
+    let introStart = 0;                              // landing autoplay clock
+
+    function sizeTo(){
+      const w = mount.clientWidth||1, h = mount.clientHeight||1;
+      renderer.setSize(w,h,false);
+      camera.aspect = w/h;
+      camera.fov = camera.aspect < 1 ? 42 : 32;      // widen on portrait so the set fits
+      camera.updateProjectionMatrix();
+    }
+    sizeTo();
+    const ro = new ResizeObserver(sizeTo); ro.observe(mount);
+
+    function render(now){
+      const t=(now-t0)/1000;
+
+      if(opts.autoplay){
+        const it = clamp01((now-introStart)/opts.introDur);
+        applyAssembly(parts, it, explode);           // 0→1 assemble once
+        var radius = lerp(opts.radiusFrom, opts.radiusTo, smoother(it));
+      }else{
+        curP += (targetP-curP)*0.09;                 // buttery scrub smoothing
+        applyAssembly(parts, curP, explode);
+        radius = opts.radiusTo;
+      }
+
+      // slow idle orbit for depth
+      const ang = opts.baseAngle + opts.idle*t;
+      camera.position.set(Math.sin(ang)*radius, opts.camHeight, Math.cos(ang)*radius);
+      camera.lookAt(camTarget);
+
+      // candle flicker on top of the assembly's candle-target
+      const flick = 0.8 + 0.14*Math.sin(t*10.7) + 0.06*Math.sin(t*24.3);
+      parts.candleLight.intensity = (parts._candleT||0) * opts.candleMax * flick;
+
+      renderer.render(scene,camera);
+      if(running) raf=requestAnimationFrame(render);
+    }
+
+    function start(){ if(running||paused) return; running=true; t0=performance.now(); raf=requestAnimationFrame(render); }
+    function stop(){ running=false; if(raf) cancelAnimationFrame(raf); raf=0; }
+
+    // Pause when the tab is hidden (RAF already throttles, this frees the GPU too).
+    const onVis = ()=>{ if(document.hidden) stop(); else if(!paused) start(); };
+    document.addEventListener('visibilitychange', onVis);
+
+    function dispose(){
+      stop();
+      document.removeEventListener('visibilitychange', onVis);
+      ro.disconnect();
+      scene.traverse(o=>{ if(o.geometry) o.geometry.dispose(); });
+      parts.materials.forEach(m=>{ if(m.map) m.map.dispose(); m.dispose(); });
+      parts.pool.material.map.dispose(); parts.pool.material.dispose();
+      parts.shadow.material.map.dispose(); parts.shadow.material.dispose();
+      env.dispose(); pmrem.dispose();
+      renderer.dispose();
+      if(renderer.domElement.parentNode) renderer.domElement.parentNode.removeChild(renderer.domElement);
+    }
+
+    return {
+      start, stop, dispose, parts,
+      setProgress(p){ targetP = clamp01(p); },
+      beginAutoplay(){ introStart = performance.now(); start(); },
+      setPaused(v){ paused=v; if(v) stop(); else if(!document.hidden) start(); },
+      resize: sizeTo
+    };
+  }
+
+  // ---- landing hero: assemble once (~3s) with a camera push-in, then idle ----
+  let landing=null, background=null;
+
+  t3d.playLanding = function(mount){
+    if(!mount || landing) return;
+    landing = createStage(mount, {
+      autoplay:true, introDur:3000, radiusFrom:6.6, radiusTo:4.6,
+      camHeight:1.85, baseAngle:0.55, idle:0.05, exposure:1.06, candleMax:1.7
+    });
+    landing.beginAutoplay();
+  };
+  t3d.teardownLanding = function(){
+    if(landing){ landing.dispose(); landing=null; }
+  };
+
+  // ---- scroll background: apart at top → together at bottom, + slow idle orbit ----
+  t3d.mountBackground = function(mount){
+    if(!mount || background) return;
+    background = createStage(mount, {
+      scrub:true, radiusTo:5.7, camHeight:2.0, baseAngle:0.7, idle:0.028,
+      exposure:0.98, candleMax:1.4, explode:0.42   // gentle settle for the bg (no floaty debris)
+    });
+    mount.classList.add('t3d-on');            // hide the SVG fallback under it
+    t3d.bgMounted = true;
+
+    const se = document.scrollingElement || document.documentElement;
+    function onScroll(){
+      const max = se.scrollHeight - window.innerHeight;
+      background.setProgress(max>40 ? se.scrollTop/max : 1);   // short pages: show the set
+    }
+    window.addEventListener('scroll', onScroll, {passive:true});
+    window.addEventListener('resize', onScroll);
+    onScroll();
+    // Page height changes as cities load; re-evaluate progress.
+    const grid=document.getElementById('grid');
+    if(grid) new MutationObserver(onScroll).observe(grid,{childList:true});
+    if(!document.body.classList.contains('mapview')) background.start();
+  };
+  t3d.pauseBackground = function(){ if(background) background.setPaused(true); };
+  t3d.resumeBackground = function(){ if(background) background.setPaused(false); };
+
+  t3d._resolve(true);
 })();
 </script>
 </body>
