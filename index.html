@@ -85,10 +85,10 @@
   /* Scroll story: fixed line-art scene behind everything */
   /* Liquid-glass cards: translucent so the scroll story reads through as soft
      moving light. --cardMix = tint opacity, --cardBlur = frost. */
-  :root{--sceneInk:#d8b47c;--cardMix:40%;--cardBlur:19px;
-    --cardBorder:rgba(255,255,255,.13);--cardSheen:rgba(255,255,255,.10);--cardShadow:rgba(0,0,0,.32)}
-  [data-theme="light"]{--sceneInk:#7e5f38;--cardMix:48%;
-    --cardBorder:rgba(255,255,255,.75);--cardSheen:rgba(255,255,255,.9);--cardShadow:rgba(80,60,35,.14)}
+  :root{--sceneInk:#d8b47c;--cardMix:28%;--cardBlur:22px;
+    --cardBorder:rgba(255,255,255,.14);--cardSheen:rgba(255,255,255,.11);--cardShadow:rgba(0,0,0,.34)}
+  [data-theme="light"]{--sceneInk:#7e5f38;--cardMix:36%;
+    --cardBorder:rgba(255,255,255,.8);--cardSheen:rgba(255,255,255,.92);--cardShadow:rgba(80,60,35,.15)}
   #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
     display:flex;align-items:center;justify-content:center;opacity:.8}
   [data-theme="light"] #tableScene{opacity:.62}
@@ -189,10 +189,13 @@
   /* Brand greets first: logo + wordmark fade/rise in before the table draws */
   .lz-brand{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:8px;
     opacity:0;transform:translateY(-8px)}
-  .lz-logo{filter:drop-shadow(0 2px 10px rgba(216,180,124,.25))}
-  .lz-wordmark{font-family:var(--serif);font-size:clamp(26px,6vw,42px);font-weight:600;
-    letter-spacing:2px;text-transform:uppercase;color:var(--txt)}
-  .lz-wordmark::first-letter{color:var(--accent2)}
+  /* Placeholder champagne-flute mark (swap for artist logo later). */
+  .lz-logo{display:block;width:66px;height:auto;color:var(--sceneInk);
+    filter:drop-shadow(0 2px 12px rgba(216,180,124,.3))}
+  /* Wordmark matches the header brand exactly: Inter, gold gradient, spaced caps. */
+  .lz-wordmark{font-family:var(--serif);font-size:clamp(27px,6.2vw,44px);font-weight:500;
+    letter-spacing:3.5px;text-transform:uppercase;
+    background:var(--nm);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   #landing.playing .lz-brand{animation:lzWord .9s cubic-bezier(.2,.7,.2,1) .15s forwards}
   .lz-scene{width:min(74vmin,420px);height:auto;margin-bottom:6px}
   /* draw-in: strokes start hidden, each group draws on its own delay */
@@ -311,8 +314,9 @@
   .jo-when{color:var(--txt);font-size:13px;margin-top:8px;font-weight:500}
   .jo-seen{color:var(--muted);font-size:11px;margin-top:5px}
   .jo-card .btn{margin-top:11px;display:block}
-  .jo-badge{position:absolute;top:11px;right:11px;font-size:9px;letter-spacing:.12em;font-weight:700;
-    color:var(--onaccent);background:var(--good);border-radius:6px;padding:2px 6px}
+  /* In normal flow, above the name — never overlaps long restaurant names. */
+  .jo-badge{display:inline-block;margin-bottom:7px;font-size:9px;letter-spacing:.12em;font-weight:700;
+    color:var(--onaccent);background:var(--good);border-radius:6px;padding:2px 6px;vertical-align:middle}
 
   .actions{display:flex;gap:8px;margin-top:4px;flex-wrap:wrap}
   .btn{flex:1;text-align:center;text-decoration:none;border-radius:10px;padding:11px 10px;
@@ -367,7 +371,22 @@
 <div id="landing" hidden aria-label="Welcome to Table for Two">
   <div class="lz-inner">
     <div class="lz-brand">
-      <img class="lz-logo" src="icons/mark.png" alt="" width="46" height="46" />
+      <!-- Placeholder brand mark: two champagne flutes clinking, gold line-art.
+           Swap this SVG for the refined artist logo when ready. -->
+      <svg class="lz-logo" viewBox="0 0 140 116" fill="none" stroke="currentColor"
+           stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <g id="lzFlute">
+          <ellipse cx="84" cy="31" rx="10.5" ry="3.1" transform="rotate(-13 84 31)"/>
+          <path d="M74.5,34.5 Q79,53 89,67"/>
+          <path d="M93.5,27.5 Q95.5,50 91,67"/>
+          <path d="M90,67 L86,89"/>
+          <path d="M76.5,91 q9.5,-4.5 19,0"/>
+        </g>
+        <use href="#lzFlute" transform="translate(140,0) scale(-1,1)"/>
+        <g stroke-width="1.9" stroke-opacity=".85">
+          <path d="M70,14 v-7"/><path d="M61,18 l-5.5,-3.5"/><path d="M79,18 l5.5,-3.5"/>
+        </g>
+      </svg>
       <div class="lz-wordmark">Table for Two</div>
     </div>
     <svg class="lz-scene" viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -406,7 +425,7 @@
       <span>your</span> <span>portal</span> <span>to</span> <span>the</span> <span>city's</span> <span class="hl">best</span> <span>restaurants</span>
     </h1>
     <div class="lz-cta">
-      <button id="lzNear" class="btn book avail" style="--c:var(--good)">📍 Find restaurants near me</button>
+      <button id="lzNear" class="btn book avail" style="--c:var(--good)">Find restaurants near me</button>
       <button id="lzBrowse" class="linkbtn">Browse all cities</button>
       <div id="lzMsg" class="lz-msg" role="status"></div>
     </div>
