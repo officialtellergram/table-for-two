@@ -67,30 +67,66 @@ function matches(it: FeedItem, w: Watchlist): boolean {
 // TODO(you): swap the body for whatever you end up using (Postmark, SES, etc.).
 // The rest of the function only knows this signature, so a provider change never
 // leaks past here. Default is Resend's REST API — no SDK, one fetch.
-async function sendEmail(to: string, subject: string, html: string): Promise<void> {
+async function sendEmail(to: string, subject: string, html: string, text: string): Promise<void> {
   const key = env("RESEND_API_KEY");
-  const from = env("ALERT_FROM"); // e.g. "Table for Two <alerts@yourdomain.com>"
+  const from = env("ALERT_FROM"); // e.g. "Table for Two <alerts@tablefortwo.city>"
   if (!key || !from) throw new Error("email not configured (RESEND_API_KEY / ALERT_FROM)");
 
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: { "Authorization": `Bearer ${key}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ from, to, subject, html }),
+    body: JSON.stringify({ from, to, subject, html, text }),
   });
   if (!res.ok) throw new Error(`resend ${res.status}: ${await res.text()}`);
 }
 
+// Escape user/venue-derived text before putting it in HTML (names can contain &, <, ').
+function esc(s: string): string {
+  return String(s ?? "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]!));
+}
+
+// Human date like "Thu, Jul 16 · 7:15 PM" from YYYY-MM-DD + HH:MM.
+function whenLabel(it: FeedItem): string {
+  const d = new Date(`${it.date}T${it.time || "00:00"}:00`);
+  const day = isNaN(+d) ? it.date
+    : d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+  let t = it.time || "";
+  const m = /^(\d{2}):(\d{2})$/.exec(it.time || "");
+  if (m) { let h = +m[1]; const ap = h >= 12 ? "PM" : "AM"; h = h % 12 || 12; t = `${h}:${m[2]} ${ap}`; }
+  return `${day} · ${t}`;
+}
+
+// Branded, email-client-safe (inline styles, table layout, dark card). Matches
+// the site: candlelit warm-dark, gold accents.
 function alertHtml(it: FeedItem): string {
-  const bits = [
-    it.type ? `· ${it.type}` : "",
-    it.neighborhood ? `· ${it.neighborhood}` : "",
-  ].join(" ");
-  const grab = it.url ? `<p><a href="${it.url}">Grab it →</a></p>` : "";
-  return `<div style="font-family:system-ui,sans-serif">
-    <p>✌️ <b>${it.name}</b> — a table for ${it.party ?? 2} just opened.</p>
-    <p>${it.date} at ${it.time} ${bits}</p>
-    ${grab}
-  </div>`;
+  const meta = [whenLabel(it), it.type, it.neighborhood].filter(Boolean).map(esc).join(" &middot; ");
+  const grab = it.url
+    ? `<tr><td style="padding-top:20px"><a href="${esc(it.url)}" style="display:inline-block;background:#c9a86a;color:#1a1410;text-decoration:none;font-weight:600;font-size:15px;padding:13px 30px;border-radius:10px">Grab it &rarr;</a></td></tr>`
+    : "";
+  return `<!doctype html><html><body style="margin:0;background:#0a0a0b;padding:28px 16px">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:460px;margin:0 auto">
+    <tr><td style="font:600 15px/1 -apple-system,Segoe UI,Inter,sans-serif;letter-spacing:2px;text-transform:uppercase;color:#c9a86a;padding-bottom:20px">Table for Two</td></tr>
+    <tr><td style="background:#141416;border:1px solid #26262a;border-radius:16px;padding:26px 24px">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr><td style="font:400 13px/1 -apple-system,Segoe UI,sans-serif;color:#8a8a92;padding-bottom:8px">A table just opened &#9996;</td></tr>
+        <tr><td style="font:600 22px/1.25 Georgia,serif;color:#f4f3ef;padding-bottom:6px">${esc(it.name)}</td></tr>
+        <tr><td style="font:400 14px/1.5 -apple-system,Segoe UI,sans-serif;color:#c8c8d0">${meta}</td></tr>
+        <tr><td style="font:400 13px/1.5 -apple-system,Segoe UI,sans-serif;color:#8a8a92;padding-top:6px">Party of ${Number(it.party) || 2}</td></tr>
+        ${grab}
+      </table>
+    </td></tr>
+    <tr><td style="font:400 11px/1.5 -apple-system,Segoe UI,sans-serif;color:#6b6b72;padding-top:18px">
+      You're getting this because you set a watch on Table for Two. Availability is real-time and goes fast &mdash; confirm on the booking platform.
+    </td></tr>
+  </table></body></html>`;
+}
+
+function alertText(it: FeedItem): string {
+  const meta = [whenLabel(it), it.type, it.neighborhood].filter(Boolean).join(" · ");
+  return `A table just opened at ${it.name}\n${meta} · party of ${Number(it.party) || 2}`
+    + (it.url ? `\n\nGrab it: ${it.url}` : "")
+    + `\n\n— Table for Two. Confirm on the booking platform; availability goes fast.`;
 }
 
 Deno.serve(async (req) => {
@@ -159,7 +195,7 @@ Deno.serve(async (req) => {
       if (!to) continue;
 
       try {
-        await sendEmail(to, `A table just opened: ${it.name}`, alertHtml(it));
+        await sendEmail(to, `A table just opened: ${it.name}`, alertHtml(it), alertText(it));
         sent++;
       } catch (e) {
         // Don't let one bad address / provider hiccup abort the batch. Roll back
