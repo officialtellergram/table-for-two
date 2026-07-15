@@ -60,7 +60,8 @@
   }
   ::selection{background:rgba(201,168,106,.25)}
   a{color:inherit}
-  .wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+  /* Fill the viewport on any monitor (fluid gutters), capping only on ultra-wide. */
+  .wrap{width:100%;max-width:2200px;margin:0 auto;padding:0 clamp(16px,3.5vw,72px)}
 
   /* Header */
   header{position:relative;z-index:400}
@@ -189,15 +190,17 @@
   /* Brand greets first: logo + wordmark fade/rise in before the table draws */
   .lz-brand{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:8px;
     opacity:0;transform:translateY(-8px)}
-  /* Placeholder champagne-flute mark (swap for artist logo later). */
-  .lz-logo{display:block;width:66px;height:auto;color:var(--sceneInk);
+  /* Placeholder champagne-flute mark (swap for artist logo later). Two flutes
+     that pivot from their bases and clink (SMIL animateTransform on the SVG). */
+  .lz-logo{display:block;width:51px;height:auto;color:var(--sceneInk);
     filter:drop-shadow(0 2px 12px rgba(216,180,124,.3))}
   /* Wordmark matches the header brand exactly: Inter, gold gradient, spaced caps. */
   .lz-wordmark{font-family:var(--serif);font-size:clamp(27px,6.2vw,44px);font-weight:500;
     letter-spacing:3.5px;text-transform:uppercase;
     background:var(--nm);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   #landing.playing .lz-brand{animation:lzWord .9s cubic-bezier(.2,.7,.2,1) .15s forwards}
-  .lz-scene{width:min(74vmin,420px);height:auto;margin-bottom:6px}
+  /* Height-aware so the whole landing fits without clipping the logo on short windows */
+  .lz-scene{width:min(72vw,44vh,420px);height:auto;margin-bottom:6px}
   /* draw-in: strokes start hidden, each group draws on its own delay */
   #landing .lz-scene :is(path,ellipse):not(.lz-flame){stroke-dasharray:1000;stroke-dashoffset:1000}
   .lz-glow,.lz-flame{opacity:0}
@@ -375,16 +378,26 @@
            Swap this SVG for the refined artist logo when ready. -->
       <svg class="lz-logo" viewBox="0 0 140 116" fill="none" stroke="currentColor"
            stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <g id="lzFlute">
-          <ellipse cx="84" cy="31" rx="10.5" ry="3.1" transform="rotate(-13 84 31)"/>
-          <path d="M74.5,34.5 Q79,53 89,67"/>
-          <path d="M93.5,27.5 Q95.5,50 91,67"/>
-          <path d="M90,67 L86,89"/>
-          <path d="M76.5,91 q9.5,-4.5 19,0"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" dur="4.5s" repeatCount="indefinite"
+            keyTimes="0;0.26;0.47;0.53;0.72;1" values="4 86 90;4 86 90;-2 86 90;-0.5 86 90;4 86 90;4 86 90"/>
+          <g id="lzFlute">
+            <ellipse cx="84" cy="31" rx="10.5" ry="3.1" transform="rotate(-13 84 31)"/>
+            <path d="M74.5,34.5 Q79,53 89,67"/>
+            <path d="M93.5,27.5 Q95.5,50 91,67"/>
+            <path d="M90,67 L86,89"/>
+            <path d="M76.5,91 q9.5,-4.5 19,0"/>
+          </g>
         </g>
-        <use href="#lzFlute" transform="translate(140,0) scale(-1,1)"/>
-        <g stroke-width="1.9" stroke-opacity=".85">
-          <path d="M70,14 v-7"/><path d="M61,18 l-5.5,-3.5"/><path d="M79,18 l5.5,-3.5"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" dur="4.5s" repeatCount="indefinite"
+            keyTimes="0;0.26;0.47;0.53;0.72;1" values="-4 54 90;-4 54 90;2 54 90;0.5 54 90;-4 54 90;-4 54 90"/>
+          <g transform="translate(140,0) scale(-1,1)"><use href="#lzFlute"/></g>
+        </g>
+        <g stroke-width="1.9" stroke-opacity=".9">
+          <animate attributeName="opacity" dur="4.5s" repeatCount="indefinite"
+            keyTimes="0;0.42;0.48;0.58;1" values="0;0;0.95;0;0"/>
+          <path d="M70,13 v-7"/><path d="M60,17 l-5.5,-3.5"/><path d="M80,17 l5.5,-3.5"/>
         </g>
       </svg>
       <div class="lz-wordmark">Table for Two</div>
