@@ -9,19 +9,19 @@
 <meta http-equiv="Expires" content="0" />
 <script>(function(){try{var t=localStorage.getItem('t42-theme')||((window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <title>Table for Two</title>
-<meta name="description" content="Vetted restaurants. Real-time tables. Your city's best, one tap away." />
+<meta name="description" content="Any city. Any craving. — vetted restaurants and real-time tables in your city." />
 <!-- Link-preview cards (iMessage, Slack, WhatsApp, X, Facebook…). Absolute URLs required. -->
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Table for Two" />
 <meta property="og:title" content="Table for Two" />
-<meta property="og:description" content="Vetted restaurants. Real-time tables. Your city's best, one tap away." />
+<meta property="og:description" content="Any city. Any craving. — vetted restaurants and real-time tables in your city." />
 <meta property="og:url" content="https://tablefortwo.city/" />
 <meta property="og:image" content="https://tablefortwo.city/icons/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Table for Two" />
-<meta name="twitter:description" content="Vetted restaurants. Real-time tables. Your city's best, one tap away." />
+<meta name="twitter:description" content="Any city. Any craving. — vetted restaurants and real-time tables in your city." />
 <meta name="twitter:image" content="https://tablefortwo.city/icons/og-image.png" />
 <link rel="canonical" href="https://tablefortwo.city/" />
 <link rel="icon" type="image/png" href="icons/favicon.png" />
@@ -89,9 +89,8 @@
   .subbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-top:16px}
   .brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);
     font-weight:500;font-size:17px;letter-spacing:3.5px;text-transform:uppercase}
-  .brand .mark{width:22px;height:22px;object-fit:contain;align-self:center;transform:rotate(-10deg);
-    filter:drop-shadow(0 2px 7px rgba(201,168,106,.5));animation:wave 3s ease-in-out infinite}
-  @keyframes wave{0%,72%,100%{transform:rotate(-10deg)}82%{transform:rotate(5deg)}90%{transform:rotate(-4deg)}}
+  .brand .mark{width:24px;height:24px;object-fit:contain;align-self:center;
+    filter:drop-shadow(0 1px 5px rgba(201,168,106,.45))}
   .brand .nm{background:var(--nm);
     -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .brand small{font-family:'Inter',sans-serif;font-weight:400;letter-spacing:.2px;text-transform:none;
@@ -209,14 +208,16 @@
   /* Brand greets first: logo + wordmark fade/rise in before the table draws */
   .lz-brand{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:8px;
     opacity:0;transform:translateY(-8px)}
-  /* Placeholder champagne-flute mark (swap for artist logo later). Two flutes
-     that pivot from their bases and clink (SMIL animateTransform on the SVG). */
-  .lz-logo{display:block;width:51px;height:auto;color:var(--sceneInk);
-    filter:drop-shadow(0 2px 12px rgba(216,180,124,.3))}
+  /* Brand insignia: gold circle + white table-T. */
+  .lz-logo{display:block;width:64px;height:auto;filter:drop-shadow(0 3px 14px rgba(216,180,124,.28))}
   /* Wordmark matches the header brand exactly: Inter, gold gradient, spaced caps. */
   .lz-wordmark{font-family:var(--serif);font-size:clamp(27px,6.2vw,44px);font-weight:500;
     letter-spacing:3.5px;text-transform:uppercase;
     background:var(--nm);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  /* Tagline lockup: "— Any city. Any craving. —" with dash flourishes, matching the mark. */
+  .lz-tagline{display:flex;align-items:center;gap:13px;color:var(--accent2);margin-top:3px;
+    font-size:clamp(11px,2.4vw,14px);letter-spacing:2.8px;text-transform:uppercase;font-weight:500;white-space:nowrap}
+  .lz-tagline::before,.lz-tagline::after{content:"";width:26px;height:1px;background:currentColor;opacity:.55}
   #landing.playing .lz-brand{animation:lzWord .9s cubic-bezier(.2,.7,.2,1) .15s forwards}
   /* Height-aware so the whole landing fits without clipping the logo on short windows */
   .lz-scene{width:min(72vw,44vh,420px);height:auto;margin-bottom:6px}
@@ -238,25 +239,14 @@
   #landing.playing .lz-glow{animation:lzFade 1s ease 3.15s forwards, lzGlowPulse 3s ease-in-out 4.1s infinite}
   #landing.playing .lz-flame{opacity:0;transform-box:fill-box;transform-origin:50% 100%;
     animation:lzFade .6s ease 3.25s forwards, lzFlick .24s ease-in-out 3.8s infinite alternate}
-  .lz-tag{font-family:var(--serif);font-weight:500;font-size:clamp(23px,5.2vw,40px);line-height:1.25;
-    letter-spacing:.2px;margin:2px 0 22px;max-width:15ch}
-  .lz-tag span{display:inline-block;opacity:0;transform:translateY(15px)}
-  .lz-tag .hl{color:var(--accent2);font-style:italic}
-  #landing.playing .lz-tag span{animation:lzWord .6s cubic-bezier(.2,.7,.2,1) forwards}
-  #landing.playing .lz-tag span:nth-child(1){animation-delay:3.35s}
-  #landing.playing .lz-tag span:nth-child(2){animation-delay:3.45s}
-  #landing.playing .lz-tag span:nth-child(3){animation-delay:3.55s}
-  #landing.playing .lz-tag span:nth-child(4){animation-delay:3.65s}
-  #landing.playing .lz-tag span:nth-child(5){animation-delay:3.75s}
-  #landing.playing .lz-tag span:nth-child(6){animation-delay:3.9s}
-  #landing.playing .lz-tag span:nth-child(7){animation-delay:4.1s}
-  .lz-cta{display:flex;flex-direction:column;align-items:center;gap:12px;opacity:0}
-  #landing.playing .lz-cta{animation:lzFade .8s ease 4.35s forwards}
+  .lz-scene{margin-top:14px}
+  .lz-cta{display:flex;flex-direction:column;align-items:center;gap:12px;opacity:0;margin-top:16px}
+  #landing.playing .lz-cta{animation:lzFade .8s ease 4.05s forwards}
   .lz-cta .btn{font-size:15px;padding:13px 26px}
   .lz-msg{font-size:12.5px;color:var(--muted);min-height:1em}
   @media (prefers-reduced-motion: reduce){
     #landing .lz-scene :is(path,ellipse){stroke-dashoffset:0}
-    #landing .lz-glow,#landing .lz-flame,#landing .lz-tag span,#landing .lz-cta{opacity:1;transform:none}
+    #landing .lz-glow,#landing .lz-flame,#landing .lz-cta{opacity:1;transform:none}
   }
 
   /* Liquid glass: translucent tint + heavy frost + specular edge + depth. The
@@ -393,33 +383,16 @@
 <div id="landing" hidden aria-label="Welcome to Table for Two">
   <div class="lz-inner">
     <div class="lz-brand">
-      <!-- Placeholder brand mark: two champagne flutes clinking, gold line-art.
-           Swap this SVG for the refined artist logo when ready. -->
-      <svg class="lz-logo" viewBox="0 0 140 116" fill="none" stroke="currentColor"
-           stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <g>
-          <animateTransform attributeName="transform" type="rotate" dur="4.5s" repeatCount="indefinite"
-            keyTimes="0;0.26;0.47;0.53;0.72;1" values="4 86 90;4 86 90;-2 86 90;-0.5 86 90;4 86 90;4 86 90"/>
-          <g id="lzFlute">
-            <ellipse cx="84" cy="31" rx="10.5" ry="3.1" transform="rotate(-13 84 31)"/>
-            <path d="M74.5,34.5 Q79,53 89,67"/>
-            <path d="M93.5,27.5 Q95.5,50 91,67"/>
-            <path d="M90,67 L86,89"/>
-            <path d="M76.5,91 q9.5,-4.5 19,0"/>
-          </g>
-        </g>
-        <g>
-          <animateTransform attributeName="transform" type="rotate" dur="4.5s" repeatCount="indefinite"
-            keyTimes="0;0.26;0.47;0.53;0.72;1" values="-4 54 90;-4 54 90;2 54 90;0.5 54 90;-4 54 90;-4 54 90"/>
-          <g transform="translate(140,0) scale(-1,1)"><use href="#lzFlute"/></g>
-        </g>
-        <g stroke-width="1.9" stroke-opacity=".9">
-          <animate attributeName="opacity" dur="4.5s" repeatCount="indefinite"
-            keyTimes="0;0.42;0.48;0.58;1" values="0;0;0.95;0;0"/>
-          <path d="M70,13 v-7"/><path d="M60,17 l-5.5,-3.5"/><path d="M80,17 l5.5,-3.5"/>
-        </g>
+      <!-- Brand insignia: gold circle + white table-shaped "T". -->
+      <svg class="lz-logo" viewBox="0 0 100 100" aria-hidden="true">
+        <defs><linearGradient id="tfgLz" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#dcc28c"/><stop offset="1" stop-color="#c39f5f"/></linearGradient></defs>
+        <circle cx="50" cy="50" r="50" fill="url(#tfgLz)"/>
+        <rect x="17.5" y="27" width="65" height="15" rx="7.5" fill="#fff"/>
+        <rect x="43.5" y="29" width="13" height="49" rx="4.5" fill="#fff"/>
       </svg>
       <div class="lz-wordmark">Table for Two</div>
+      <div class="lz-tagline">Any city. Any craving.</div>
     </div>
     <svg class="lz-scene" viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="2" stroke-linecap="round" aria-hidden="true">
       <g class="lz-floor" stroke-opacity=".22">
@@ -453,9 +426,6 @@
       <circle class="lz-glow" cx="400" cy="280" r="60" fill="url(#glowGrad)" stroke="none"/>
       <path class="lz-flame" d="M400,290 q7,-11 0,-21 q-7,10 0,21" stroke-width="1.4" fill="rgba(232,195,122,.3)"/>
     </svg>
-    <h1 class="lz-tag">
-      <span>your</span> <span>portal</span> <span>to</span> <span>the</span> <span>city's</span> <span class="hl">best</span> <span>restaurants</span>
-    </h1>
     <div class="lz-cta">
       <button id="lzNear" class="btn book avail" style="--c:var(--good)">Find restaurants near me</button>
       <button id="lzBrowse" class="linkbtn">Browse all cities</button>
