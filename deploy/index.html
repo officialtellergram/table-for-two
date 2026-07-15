@@ -83,12 +83,23 @@
   .spacer{flex:1}
   select,input,button{font:inherit;color:var(--txt);transition:border-color .15s,box-shadow .15s,background .15s}
   /* Scroll story: fixed line-art scene behind everything */
-  :root{--sceneInk:#d6b078;--cardMix:88%;--cardBlur:6px}
-  [data-theme="light"]{--sceneInk:#84653c}
+  /* Liquid-glass cards: translucent so the scroll story reads through as soft
+     moving light. --cardMix = tint opacity, --cardBlur = frost. */
+  :root{--sceneInk:#d8b47c;--cardMix:54%;--cardBlur:17px;
+    --cardBorder:rgba(255,255,255,.12);--cardSheen:rgba(255,255,255,.09);--cardShadow:rgba(0,0,0,.30)}
+  [data-theme="light"]{--sceneInk:#7e5f38;--cardMix:60%;
+    --cardBorder:rgba(255,255,255,.7);--cardSheen:rgba(255,255,255,.85);--cardShadow:rgba(80,60,35,.13)}
   #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
-    display:flex;align-items:center;justify-content:center;opacity:.68}
-  [data-theme="light"] #tableScene{opacity:.5}
-  #tableScene svg{width:min(92vmin,720px);height:auto;margin-top:6vh;stroke-width:1.9}
+    display:flex;align-items:center;justify-content:center;opacity:.8}
+  [data-theme="light"] #tableScene{opacity:.62}
+  /* Ambient candlelight wash behind the line art — gives the frosted glass warm
+     light to catch everywhere, not just where the table strokes are. */
+  #tableScene::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+    background:radial-gradient(56% 46% at 50% 48%, rgba(216,180,124,.16), transparent 70%);
+    animation:ambientPulse 5.5s ease-in-out infinite}
+  [data-theme="light"] #tableScene::before{background:radial-gradient(56% 46% at 50% 48%, rgba(200,150,70,.14), transparent 70%)}
+  @keyframes ambientPulse{0%,100%{opacity:.72}50%{opacity:1}}
+  #tableScene svg{position:relative;z-index:1;width:min(92vmin,720px);height:auto;margin-top:6vh;stroke-width:2.1}
   #tableau{height:72vh}   /* open stage at the list's end where the story finishes */
   .scene-window{grid-column:1/-1;height:200px;pointer-events:none}   /* clear band: story shows through */
   header,main{position:relative;z-index:1}
@@ -103,6 +114,15 @@
   select option{background:var(--panel);color:var(--txt);font-weight:500}
   select option:disabled{color:var(--faint)}
   .city-select:hover,.sort-select:hover,.filter-select:hover,.party-select:hover,.iconbtn:hover{border-color:var(--line2)}
+  /* Collapsible filters + legend — collapsed by default to free up the fold */
+  .filter-tog{display:inline-flex;align-items:center;gap:6px;background:transparent;
+    border:1px solid var(--line);border-radius:10px;padding:8px 11px;cursor:pointer;
+    color:var(--muted);font-size:12.5px;font-weight:600;letter-spacing:.2px}
+  .filter-tog:hover{border-color:var(--line2);color:var(--txt)}
+  .filter-tog .chev{font-style:normal;font-size:10px;transition:transform .2s ease}
+  .filter-tog[aria-expanded="true"]{color:var(--accent2);border-color:color-mix(in srgb,var(--accent2) 40%,transparent)}
+  .filter-tog[aria-expanded="true"] .chev{transform:rotate(180deg)}
+  header.filters-collapsed #controls,header.filters-collapsed .legend{display:none}
   /* Stage 2: alerts entry + auth modal */
   .alertbtn{background:var(--accent2);color:#1a1410;border:none;border-radius:10px;
     padding:8px 14px;font-size:12.5px;font-weight:600;letter-spacing:.3px;cursor:pointer;
@@ -157,15 +177,23 @@
 
   /* Grid */
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding-bottom:52px}
-  /* Cards are slightly translucent so the scroll-story scene reads through them.
-     --cardMix = how much panel color (100% = opaque); --cardBlur = glass blur. */
+  /* Liquid glass: translucent tint + heavy frost + specular edge + depth. The
+     scroll-story scene behind blurs into soft moving gold light through them. */
   .card{position:relative;display:flex;flex-direction:column;gap:13px;padding:20px;
-    border-radius:var(--radius);border:1px solid var(--line);
+    border-radius:var(--radius);border:1px solid var(--cardBorder);
     background:color-mix(in srgb, var(--panel) var(--cardMix,100%), transparent);
-    backdrop-filter:blur(var(--cardBlur,0px));-webkit-backdrop-filter:blur(var(--cardBlur,0px));
-    transition:border-color .2s ease,background .2s ease}
-  .card:hover{border-color:var(--line2);background:var(--hover)}
+    backdrop-filter:blur(var(--cardBlur,0px)) saturate(1.4);
+    -webkit-backdrop-filter:blur(var(--cardBlur,0px)) saturate(1.4);
+    box-shadow:0 8px 30px var(--cardShadow), inset 0 1px 0 var(--cardSheen);
+    transition:border-color .2s ease,box-shadow .25s ease,transform .25s ease}
+  /* diagonal specular sheen — the "liquid" light-catch across the glass */
+  .card::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+    background:linear-gradient(135deg,var(--cardSheen),transparent 44%);opacity:.7}
+  .card>*{position:relative}   /* keep content above the sheen */
+  .card:hover{border-color:var(--line2);transform:translateY(-2px);
+    box-shadow:0 14px 42px var(--cardShadow), inset 0 1px 0 var(--cardSheen)}
   .card.soon{border-color:rgba(205,167,102,.5)}
+  @media (max-width:640px){ :root{--cardBlur:13px} }   /* lighter frost on phones */
   .card-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
   .name{font-family:var(--serif);font-weight:600;font-size:17.5px;line-height:1.22;letter-spacing:-.3px}
   .sub{color:var(--muted);font-size:12px;margin-top:5px;letter-spacing:.1px}
@@ -384,7 +412,7 @@
     </div>
   </div>
 </div>
-<header>
+<header class="filters-collapsed">
   <div class="wrap">
     <div class="subbar">
       <select class="city-select" id="city" aria-label="City"></select>
@@ -403,6 +431,10 @@
         <button id="vMap">Map</button>
       </div>
       <div class="spacer"></div>
+      <button class="filter-tog" id="filtersToggle" aria-expanded="false" aria-controls="controls" title="Search, sort & filters">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 5h18M6 12h12M10 19h4"/></svg>
+        <span>Filters</span><i class="chev">▾</i>
+      </button>
       <button class="iconbtn" id="refresh" title="Refresh data">↻</button>
     </div>
     <div class="controls" id="controls">
@@ -1125,6 +1157,14 @@ $('vList').onclick=()=>setView('list');
 $('vMap').onclick=()=>setView('map');
 $('refresh').onclick=()=>loadCity();
 $('themeToggle').onclick=toggleTheme;
+/* Filters + legend collapse (collapsed by default; choice remembered). */
+(function(){
+  const hdr=document.querySelector('header'), tog=$('filtersToggle');
+  let open=false; try{ open=localStorage.getItem('t42-filters')==='open'; }catch(e){}
+  function apply(){ hdr.classList.toggle('filters-collapsed',!open); tog.setAttribute('aria-expanded',open?'true':'false'); }
+  apply();
+  tog.onclick=()=>{ open=!open; try{ localStorage.setItem('t42-filters',open?'open':'closed'); }catch(e){} apply(); };
+})();
 for(const id of ['q','sort','fCuisine','fHood','fDiff','fVibe','fOccasion','fWalk']){
   $(id).addEventListener('input',()=>{ if(view==='list') render(); });
 }
