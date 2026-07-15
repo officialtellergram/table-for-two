@@ -1,4 +1,4 @@
-﻿/* Table for Two â€” service worker.
+﻿/* Table for Two — service worker.
    App shell cached for offline/installability; city data always fetched fresh
    (falls back to cache only when offline) so the radar feed never goes stale. */
 const CACHE = 't42-v4';   // bump to invalidate the cached shell on deploy
