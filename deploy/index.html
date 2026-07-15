@@ -82,6 +82,17 @@
     color:var(--muted);font-size:11px;-webkit-text-fill-color:var(--muted)}
   .spacer{flex:1}
   select,input,button{font:inherit;color:var(--txt);transition:border-color .15s,box-shadow .15s,background .15s}
+  /* Scroll story: fixed line-art scene behind everything */
+  :root{--sceneInk:#c9a86a}
+  [data-theme="light"]{--sceneInk:#8a6a3f}
+  #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
+    display:flex;align-items:flex-end;justify-content:center;opacity:.55}
+  [data-theme="light"] #tableScene{opacity:.42}
+  #tableScene svg{width:min(92vmin,720px);height:auto;margin-bottom:-3vh}
+  #tableau{height:72vh}   /* open stage at the list's end where the story finishes */
+  header,main{position:relative;z-index:1}
+  body.mapview #tableScene, body.mapview #tableau{display:none}
+  @media (prefers-reduced-motion: reduce){ #tableScene{display:none} #tableau{height:10vh} }
   .city-select,.sort-select,.filter-select,.party-select{
     background:transparent;border:1px solid var(--line);border-radius:10px;
     padding:8px 12px;appearance:none;cursor:pointer;color:var(--txt)}
@@ -262,6 +273,71 @@
 <body>
 <!-- Sticky slim bar: lives OUTSIDE <header> so it stays pinned for the whole
      page scroll (a sticky element only sticks within its own parent's box). -->
+<!-- Scroll story: a gold line-art table for two sets itself as you scroll.
+     Fixed decorative layer behind everything; GSAP ScrollTrigger scrubs it.
+     Hidden for reduced-motion users and in map view. -->
+<div id="tableScene" aria-hidden="true">
+  <svg viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="1.6" stroke-linecap="round">
+    <defs>
+      <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#e8c37a" stop-opacity=".55"/>
+        <stop offset="60%" stop-color="#c9a86a" stop-opacity=".18"/>
+        <stop offset="100%" stop-color="#c9a86a" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <g id="scFloor" stroke-opacity=".22">
+      <path d="M40,618 L350,330"/><path d="M760,618 L450,330"/>
+      <path d="M0,540 Q400,510 800,540"/><path d="M60,618 Q400,585 740,618"/>
+    </g>
+    <g id="scTable">
+      <ellipse cx="400" cy="372" rx="200" ry="46"/>
+      <path d="M200,376 A200,46 0 0 0 600,376"/>
+      <path d="M392,418 Q388,480 386,540"/><path d="M408,418 Q412,480 414,540"/>
+      <ellipse cx="400" cy="548" rx="72" ry="15"/>
+    </g>
+    <g id="scCloth" stroke-opacity=".6">
+      <path d="M228,400 q-10,28 0,52"/><path d="M572,400 q10,28 0,52"/>
+      <path d="M310,412 q-4,22 2,38"/><path d="M490,412 q4,22 -2,38"/>
+    </g>
+    <g id="scPlateL"><ellipse cx="303" cy="368" rx="42" ry="11"/><ellipse cx="303" cy="368" rx="27" ry="7"/></g>
+    <g id="scPlateR"><ellipse cx="497" cy="368" rx="42" ry="11"/><ellipse cx="497" cy="368" rx="27" ry="7"/></g>
+    <g id="scGlassL">
+      <ellipse cx="252" cy="312" rx="13" ry="4"/>
+      <path d="M239,312 q2,20 13,24"/><path d="M265,312 q-2,20 -13,24"/>
+      <path d="M252,336 v18"/><path d="M240,356 a12,3.5 0 0 0 24,0"/>
+    </g>
+    <g id="scGlassR">
+      <ellipse cx="548" cy="312" rx="13" ry="4"/>
+      <path d="M535,312 q2,20 13,24"/><path d="M561,312 q-2,20 -13,24"/>
+      <path d="M548,336 v18"/><path d="M536,356 a12,3.5 0 0 0 24,0"/>
+    </g>
+    <g id="scChairL">
+      <g id="scChairLi">
+        <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/>
+        <path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/>
+        <path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/>
+        <path d="M140,474 q30,-9 62,-2"/>
+      </g>
+    </g>
+    <g id="scChairR" transform="translate(800,0) scale(-1,1)">
+      <g id="scChairRi">
+        <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/>
+        <path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/>
+        <path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/>
+        <path d="M140,474 q30,-9 62,-2"/>
+      </g>
+    </g>
+    <g id="scCandle">
+      <path d="M393,330 v-32"/><path d="M407,330 v-32"/>
+      <ellipse cx="400" cy="297" rx="7" ry="2.6"/>
+      <ellipse cx="400" cy="333" rx="16" ry="4.6"/>
+    </g>
+    <circle id="scGlow" cx="400" cy="280" r="46" fill="url(#glowGrad)" stroke="none"/>
+    <path id="scFlame" d="M400,290 q7,-11 0,-21 q-7,10 0,21" stroke-width="1.4" fill="rgba(232,195,122,.28)"/>
+    <text id="scCaption" x="400" y="212" text-anchor="middle" stroke="none" fill="var(--sceneInk)"
+      style="font-family:var(--serif),Georgia,serif;font-style:italic;font-size:27px;letter-spacing:1.5px">your table is ready ✌︎</text>
+  </svg>
+</div>
 <div class="topbar-bar" id="topbarBar">
   <div class="wrap topbar">
     <div class="brand">
@@ -375,6 +451,10 @@
   <div id="grid" class="grid"></div>
   <div id="map"></div>
   <div id="state" class="state hide"></div>
+  <!-- Closing tableau: open space at the end of the list where the scroll story
+       finishes — the set table, lit candle, and a word. Pure spacing; the art is
+       the fixed #tableScene behind it. -->
+  <div id="tableau" aria-hidden="true"></div>
   <footer>
     <span style="font-family:var(--serif);font-style:italic;color:var(--muted)">Table for Two ✌︎</span>
     · NYC data: <a href="https://www.hardtobook.xyz/?view=map" target="_blank" rel="noopener">hardtobook.xyz</a>
@@ -1023,6 +1103,7 @@ function setView(v){
   view=v;
   $('vList').classList.toggle('active',v==='list');
   $('vMap').classList.toggle('active',v==='map');
+  document.body.classList.toggle('mapview',v==='map');   // hides the scroll scene
   if(v==='map') showMap(); else hideMap();
   renderJustOpened();   // hide the feed in map view, restore it in list
 }
@@ -1107,6 +1188,60 @@ function geoCity(){
 if('serviceWorker' in navigator){
   window.addEventListener('load',function(){ navigator.serviceWorker.register('sw.js').catch(function(){}); });
 }
+</script>
+
+<!-- Scroll story driver: GSAP + ScrollTrigger scrub the table-for-two scene.
+     Loads from CDN; if it fails (offline PWA), the scene simply shows fully set. -->
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script defer>
+window.addEventListener('load',function(){
+  const scene=document.getElementById('tableScene');
+  if(!scene || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if(!window.gsap || !window.ScrollTrigger){ return; }   // CDN missed: static full scene
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Prime every stroke to draw itself in (free-plugin-less drawSVG).
+  const drawables=[];
+  scene.querySelectorAll('#scFloor, #scTable, #scCloth, #scPlateL, #scPlateR, #scGlassL, #scGlassR, #scCandle')
+    .forEach(g=>g.querySelectorAll('path,ellipse,circle,line').forEach(el=>{
+      let L=0; try{ L=el.getTotalLength(); }catch(e){ return; }
+      el.style.strokeDasharray=L; el.style.strokeDashoffset=L;
+      el.dataset.len=L; drawables.push(el);
+    }));
+  const draw=(sel,tl,pos,dur,stag)=>tl.to(sel,{strokeDashoffset:0,duration:dur,stagger:stag,ease:'none'},pos);
+
+  gsap.set(['#scChairLi','#scChairRi','#scFlame','#scGlow','#scCaption'],{autoAlpha:0});
+  gsap.set('#scFlame',{scaleY:.2,transformOrigin:'50% 100%'});
+
+  // One timeline scrubbed across the whole page; finishes as you reach the bottom.
+  const tl=gsap.timeline({defaults:{ease:'none'},
+    scrollTrigger:{trigger:document.body,start:'top top',end:'bottom bottom',scrub:.7,invalidateOnRefresh:true}});
+  draw('#scFloor *',tl,0,1.2,.12);
+  draw('#scTable *',tl,.9,1.9,.22);
+  draw('#scCloth *',tl,2.7,.8,.1);
+  draw('#scPlateL *',tl,3.4,.7,.15); draw('#scPlateR *',tl,3.7,.7,.15);
+  draw('#scGlassL *',tl,4.5,.9,.1);  draw('#scGlassR *',tl,4.8,.9,.1);
+  tl.fromTo('#scChairLi',{x:-70,autoAlpha:0},{x:0,autoAlpha:1,duration:1.2},5.8);
+  tl.fromTo('#scChairRi',{x:70,autoAlpha:0},{x:0,autoAlpha:1,duration:1.2},6.1);
+  draw('#scCandle *',tl,7.3,.9,.12);
+  tl.to('#scFlame',{autoAlpha:1,scaleY:1,duration:.7},8.3);
+  tl.to('#scGlow',{autoAlpha:1,duration:1.1},8.5);
+  tl.fromTo('#scCaption',{autoAlpha:0,y:10},{autoAlpha:1,y:0,duration:.9},9.0);
+  tl.to({},{duration:.4},9.6);   // breathing room at the end
+
+  // The flame lives: a gentle flicker + glow pulse, independent of scroll.
+  gsap.to('#scFlame',{scaleY:.9,skewX:2,duration:.22,repeat:-1,yoyo:true,ease:'sine.inOut',transformOrigin:'50% 100%'});
+  gsap.to('#scGlow',{scale:1.08,duration:1.6,repeat:-1,yoyo:true,ease:'sine.inOut',transformOrigin:'50% 50%'});
+
+  // Short pages (few cards) can't scroll far — show the finished scene instead.
+  function fit(){ const s=document.scrollingElement;
+    if(s.scrollHeight-innerHeight<800){ tl.progress(1); } }
+  fit();
+  // City switches change page height; keep trigger measurements honest.
+  new MutationObserver(()=>{ ScrollTrigger.refresh(); fit(); })
+    .observe(document.getElementById('grid'),{childList:true});
+});
 </script>
 
 <!-- Stage 2: sign-in + watchlists. Separate ES module so it doesn't touch the
