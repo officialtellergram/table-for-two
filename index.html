@@ -148,6 +148,10 @@
   .modal-scrim{position:fixed;inset:0;z-index:1000;background:rgba(10,7,5,.62);
     backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:20px}
   .modal-scrim[hidden]{display:none}
+  #reqScrim{z-index:2600}   /* above the landing (2000) so geo-miss can prompt there */
+  #reqForm input{background:var(--bg);border:1px solid var(--line);border-radius:9px;
+    padding:11px 13px;color:var(--txt);font-size:14px;font-family:inherit;width:100%;margin-bottom:10px}
+  #reqForm{display:flex;flex-direction:column}
   .modal{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:16px;
     width:100%;max-width:400px;padding:26px 24px;box-shadow:0 24px 60px rgba(0,0,0,.4)}
   .modal h2{font-family:var(--serif);font-size:22px;margin:0 0 6px}
@@ -568,6 +572,29 @@
     </div>
   </div>
 </div>
+
+<!-- Phase 1 demand capture: request a city we don't cover yet. Higher z so it
+     works over the landing too. -->
+<div class="modal-scrim" id="reqScrim" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-x" id="reqClose" aria-label="Close">✕</button>
+    <div id="reqForm1">
+      <h2>Bring Table for Two to your city</h2>
+      <p class="modal-sub">We're not there yet — tell us where and we'll email you the moment we launch.</p>
+      <form id="reqForm">
+        <input id="reqCity" type="text" required placeholder="Your city (e.g. Nashville)" autocomplete="address-level2" />
+        <input id="reqEmail" type="email" placeholder="you@email.com — optional, for a launch alert" autocomplete="email" />
+        <button class="btn book avail" type="submit" style="--c:var(--good)">Request my city</button>
+      </form>
+      <div id="reqMsg" class="modal-msg"></div>
+    </div>
+    <div id="reqDone" hidden>
+      <h2>Noted ✌︎</h2>
+      <p class="modal-sub" id="reqDoneSub"></p>
+      <button class="btn book" id="reqExplore" style="--c:var(--accent2)">Explore our current cities →</button>
+    </div>
+  </div>
+</div>
 <header class="filters-collapsed">
   <div class="wrap">
     <div class="subbar">
@@ -649,6 +676,7 @@
        the fixed #tableScene behind it. -->
   <div id="tableau" aria-hidden="true"></div>
   <footer>
+    <div style="margin-bottom:10px">Don't see your city? <a href="#" id="reqCityLink" style="color:var(--accent2)">Request it →</a></div>
     <span style="font-family:var(--serif);font-style:italic;color:var(--muted)">Table for Two ✌︎</span>
     · NYC data: <a href="https://www.hardtobook.xyz/?view=map" target="_blank" rel="noopener">hardtobook.xyz</a>
     · countdowns shown in each city's local time · always confirm with the restaurant.
@@ -1366,6 +1394,94 @@ function geoCity(){
   });
 }
 
+/* ---------- Phase 1: demand capture for cities we don't cover yet ----------
+   When a visitor is outside our coverage we name the nearest major metro and
+   log a request (Supabase city_requests) so we know where to expand. */
+const SB_URL='https://thrshcloruvcxrowfzui.supabase.co';
+const SB_ANON='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRocnNoY2xvcnV2Y3hyb3dmenVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM5NzMyMTYsImV4cCI6MjA5OTU0OTIxNn0.19DgFDy6ZMGXO3c1r9HosUZ_iVyUoAqkkv8-H8y8IVs';
+const IN_METRO=90;   // km — within this of a covered city = you're effectively in it
+// Major US food metros (NAME only, to label demand). Excludes the ones we cover.
+const MAJOR_CITIES=[
+  ['Los Angeles',34.05,-118.24],['San Francisco',37.77,-122.42],['Chicago',41.88,-87.63],
+  ['Philadelphia',39.95,-75.17],['Seattle',47.61,-122.33],['Miami',25.76,-80.19],
+  ['Atlanta',33.75,-84.39],['Austin',30.27,-97.74],['Dallas',32.78,-96.80],
+  ['Denver',39.74,-104.99],['Portland',45.52,-122.68],['San Diego',32.72,-117.16],
+  ['Las Vegas',36.17,-115.14],['New Orleans',29.95,-90.07],['Nashville',36.16,-86.78],
+  ['Minneapolis',44.98,-93.27],['Phoenix',33.45,-112.07],['Charlotte',35.23,-80.84],
+  ['Detroit',42.33,-83.05],['Baltimore',39.29,-76.61],['San Antonio',29.42,-98.49],
+  ['Pittsburgh',40.44,-79.99],['Charleston',32.78,-79.93],['Kansas City',39.10,-94.58],
+  ['St. Louis',38.63,-90.20],['Cleveland',41.50,-81.69],['Columbus',39.96,-83.00],
+  ['Indianapolis',39.77,-86.16],['Sacramento',38.58,-121.49],['Salt Lake City',40.76,-111.89],
+  ['Raleigh',35.78,-78.64],['Tampa',27.95,-82.46],['Orlando',28.54,-81.38],
+  ['Providence',41.82,-71.41],['Milwaukee',43.04,-87.91],['Louisville',38.25,-85.76],
+  ['Memphis',35.15,-90.05],['Portland (ME)',43.66,-70.26],['Savannah',32.08,-81.09]
+];
+function nearestMajor(lat,lng){
+  let best=null,bestKm=Infinity;
+  for(const [name,la,ln] of MAJOR_CITIES){ const d=kmBetween([lat,lng],[la,ln]); if(d<bestKm){best=name;bestKm=d;} }
+  return best?{name:best,km:bestKm}:null;
+}
+function nearestCovered(lat,lng){
+  let best=null,bestKm=Infinity;
+  for(const [k,c] of Object.entries(DATA_SOURCES)){
+    if(!c.available||!c.center) continue;
+    const d=kmBetween([lat,lng],c.center); if(d<bestKm){best=k;bestKm=d;}
+  }
+  return best?{key:best,km:bestKm}:null;
+}
+function geoLocate(){
+  return new Promise(res=>{
+    if(!('geolocation' in navigator)) return res(null);
+    let done=false,f=v=>{if(!done){done=true;res(v);}};
+    setTimeout(()=>f(null),6000);
+    navigator.geolocation.getCurrentPosition(
+      p=>f({lat:p.coords.latitude,lng:p.coords.longitude}),()=>f(null),
+      {timeout:5000,maximumAge:600000});
+  });
+}
+async function submitCityRequest(payload){
+  try{
+    const r=await fetch(SB_URL+'/rest/v1/city_requests',{method:'POST',
+      headers:{apikey:SB_ANON,'Content-Type':'application/json','Prefer':'return=minimal'},
+      body:JSON.stringify(payload)});
+    return r.ok;
+  }catch(e){ return false; }
+}
+
+/* The "request your city" modal — used both by the landing geo-miss (prefilled
+   with the nearest metro) and a standalone "request it" link (user types). */
+(function(){
+  const scrim=$('reqScrim'); if(!scrim) return;
+  let onCloseCb=null;
+  function open(prefill, coords, source, onClose){
+    onCloseCb=onClose||null;
+    $('reqCity').value=prefill||''; $('reqEmail').value=''; $('reqMsg').textContent='';
+    $('reqForm1').hidden=false; $('reqDone').hidden=true;
+    scrim._coords=coords||null; scrim._source=source||'manual';
+    scrim.hidden=false;
+    if(!prefill) setTimeout(()=>$('reqCity').focus(),60);
+  }
+  function close(){ scrim.hidden=true; const cb=onCloseCb; onCloseCb=null; if(cb) cb(); }
+  window.openCityRequest=open;
+  $('reqClose').onclick=close;
+  $('reqExplore').onclick=close;
+  scrim.addEventListener('click',e=>{ if(e.target===scrim) close(); });
+  const link=$('reqCityLink'); if(link) link.onclick=e=>{ e.preventDefault(); open('',null,'manual',null); };
+  $('reqForm').onsubmit=async e=>{
+    e.preventDefault();
+    const city=$('reqCity').value.trim(); if(!city) return;
+    const email=$('reqEmail').value.trim();
+    $('reqMsg').textContent='Sending…';
+    submitCityRequest({ city_guess:city, email:email||null,
+      lat:scrim._coords?scrim._coords.lat:null, lng:scrim._coords?scrim._coords.lng:null,
+      source:scrim._source });   // fire-and-forget; never block the user on a hiccup
+    $('reqDoneSub').textContent = email
+      ? 'Thanks — we\'ll email '+email+' the moment Table for Two launches in '+city+'.'
+      : 'Thanks — we\'ve noted the demand for '+city+'.';
+    $('reqForm1').hidden=true; $('reqDone').hidden=false;
+  };
+})();
+
 /* First-visit landing: the table sets itself, the tagline reads out, then the
    user chooses to share location or browse. Resolves to a cityKey (from
    geolocation) or null (browse all). Shown once; returning visitors skip it. */
@@ -1383,9 +1499,16 @@ function runLanding(){
     };
     $('lzNear').onclick=async()=>{
       $('lzMsg').textContent='Finding your city…';
-      const near=await geoCity();
-      $('lzMsg').textContent = near ? '' : 'Couldn’t place you — showing our cities.';
-      leave(near);
+      const loc=await geoLocate();
+      if(!loc){ $('lzMsg').textContent='Couldn’t place you — showing our cities.'; return leave(null); }
+      const cov=nearestCovered(loc.lat,loc.lng);
+      if(cov && cov.km<=IN_METRO){ return leave(cov.key); }   // you're in a covered metro
+      // outside coverage → capture the demand, then drop them into our flagship city
+      $('lzMsg').textContent='';
+      const maj=nearestMajor(loc.lat,loc.lng);
+      const cityName = maj && maj.km<170 ? maj.name : '';
+      if(window.openCityRequest) window.openCityRequest(cityName, loc, 'geo', ()=>leave(null));
+      else leave(null);
     };
     $('lzBrowse').onclick=()=>leave(null);
   });
