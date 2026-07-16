@@ -1,50 +1,36 @@
 {
-  "generated": "2026-07-16T14:58:03+00:00",
+  "generated": "2026-07-16T15:09:55+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 10,
+  "new": 2,
   "items": [
     {
       "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
       "date": "2026-07-16",
-      "time": "17:15",
-      "type": "Indoor",
+      "time": "14:00",
+      "type": "Outdoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-16T14:58:03+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-16&seats=2",
+      "firstSeen": "2026-07-16T15:09:55+00:00",
       "new": true
     },
     {
       "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
-      "date": "2026-07-17",
-      "time": "16:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
       "date": "2026-07-16",
-      "time": "23:00",
-      "type": "Dining Room",
+      "time": "15:15",
+      "type": "Outdoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-16&seats=2",
-      "firstSeen": "2026-07-16T14:58:03+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-16&seats=2",
+      "firstSeen": "2026-07-16T15:09:55+00:00",
       "new": true
     },
     {
@@ -59,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -143,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T14:58:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -152,25 +138,25 @@
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
       "date": "2026-07-17",
-      "time": "16:00",
-      "type": "Indoor",
+      "time": "16:15",
+      "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-16T14:28:03+00:00",
+      "firstSeen": "2026-07-16T14:58:03+00:00",
       "new": false
     },
     {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-18",
-      "time": "20:00",
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-16",
+      "time": "23:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-16T14:28:03+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-16&seats=2",
+      "firstSeen": "2026-07-16T14:58:03+00:00",
       "new": false
     },
     {
@@ -931,6 +917,62 @@
     },
     {
       "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-17",
+      "time": "16:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-16T14:28:03+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-16T14:28:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sushi-temple-records",
+      "name": "Sushi @ Temple Records",
+      "neighborhood": "Downtown Crossing",
+      "cuisine": "Japanese sushi / omakase",
+      "date": "2026-07-17",
+      "time": "19:00",
+      "type": "Sushi Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-16T13:28:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sushi-temple-records",
+      "name": "Sushi @ Temple Records",
+      "neighborhood": "Downtown Crossing",
+      "cuisine": "Japanese sushi / omakase",
+      "date": "2026-07-18",
+      "time": "19:00",
+      "type": "Sushi Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-16T13:28:03+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
       "spotId": "via-carota",
       "name": "Via Carota",
       "neighborhood": "West Village",
@@ -1035,34 +1077,6 @@
       "cuisine": "Ecuadorian-inspired raw bar / seafood",
       "date": "2026-07-17",
       "time": "18:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-16T13:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-17",
-      "time": "18:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-16T13:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-17",
-      "time": "19:00",
       "type": "Dining Counter",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-17&seats=2",
@@ -1388,34 +1402,6 @@
       "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-16T13:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-07-17",
-      "time": "19:00",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-16T13:28:03+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-07-18",
-      "time": "19:00",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-16T13:28:03+00:00",
       "new": false
     },
@@ -2803,6 +2789,20 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-16T06:19:13+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-18",
+      "time": "17:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-16T06:11:47+00:00",
       "new": false
     }
   ]
