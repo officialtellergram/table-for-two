@@ -1,10 +1,24 @@
 {
-  "generated": "2026-07-16T08:41:44+00:00",
+  "generated": "2026-07-16T11:00:50+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
   "new": 1,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-07-16",
+      "time": "13:45",
+      "type": "Lunch",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-16&seats=2",
+      "firstSeen": "2026-07-16T11:00:50+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "via-carota",
@@ -17,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-16&seats=2",
       "firstSeen": "2026-07-16T08:41:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -2786,20 +2800,6 @@
       "date": "2026-07-17",
       "time": "18:45",
       "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/annam-vietnamese-restaurant?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-16T06:19:13+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "annam",
-      "name": "Annam",
-      "neighborhood": "Autry Park",
-      "cuisine": "Modern Vietnamese",
-      "date": "2026-07-17",
-      "time": "18:45",
-      "type": "Dining Room- RESY",
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/annam-vietnamese-restaurant?date=2026-07-17&seats=2",
       "firstSeen": "2026-07-16T06:19:13+00:00",
