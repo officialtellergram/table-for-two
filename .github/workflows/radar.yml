@@ -15,7 +15,14 @@ name: radar
 on:
   schedule:
     - cron: '*/30 * * * *'   # every 30 min; GitHub queues these, so expect drift
-  workflow_dispatch:          # manual "Run workflow" button for testing
+  workflow_dispatch:          # manual "Run workflow" button, + knobs for tuning
+    inputs:
+      sleep:
+        description: 'Seconds between Resy calls (higher = gentler)'
+        default: '0.75'
+      limit:
+        description: 'Max venues polled per city'
+        default: '8'
 
 permissions:
   contents: write             # the sweep commits the refreshed feed + state
@@ -45,7 +52,10 @@ jobs:
       # No --notify: that's the Telegram path, which is sidelined.
       - name: Sweep Resy
         working-directory: scraper
-        run: python sniper.py --only resy --days 3 --limit 8 --sleep 0.75
+        env:
+          SLEEP: ${{ inputs.sleep || '0.75' }}
+          LIMIT: ${{ inputs.limit || '8' }}
+        run: python sniper.py --only resy --days 3 --limit "$LIMIT" --sleep "$SLEEP"
 
       # Rebase-and-retry: a manual push (or a local sweep) can land between our
       # checkout and our push, and a lost sweep means a lost opening.
