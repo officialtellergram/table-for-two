@@ -1,10 +1,15 @@
-# Table for Two — local cancellation-radar runner.
+# Table for Two — local cancellation-radar runner. SUPERSEDED for routine sweeps
+# by .github/workflows/radar.yml, which runs the same Resy pass on cron in the
+# cloud and needs no PC. Keep this for manual/offline sweeps and for debugging a
+# sweep against the local feed.
 #
-# Runs from this machine's RESIDENTIAL IP (Resy blocks datacenter IPs, so the
-# cloud can't poll). It refreshes the Just-Opened feed on disk; your localhost
-# server reads it directly, so you see updates locally with no deploy needed.
-# A Windows scheduled task runs it every 30 min while the PC is on. See
-# scraper/radar_task.md.
+# It refreshes the Just-Opened feed on disk; your localhost server reads it
+# directly, so you see updates locally with no deploy needed. The Windows
+# scheduled task is disabled — see scraper/radar_task.md.
+#
+# This used to say "Resy blocks datacenter IPs, so the cloud can't poll". That
+# was measured false on 2026-07-16: /4/find answers 200 from GitHub's Azure
+# runners. Don't reintroduce that assumption without re-testing it.
 #
 # $Push: while Netlify is paused we run LOCAL-ONLY (no commit/push, no git churn).
 # Flip $Push = $true to resume committing + pushing to both repos (Netlify deploy).
