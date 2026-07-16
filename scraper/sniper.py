@@ -123,8 +123,9 @@ def main():
     except ImportError:
         session = None
 
-    current = {}     # slotKey -> item dict
-    ot_queue = []    # (cityKey, spot) OpenTable venues, scanned after the Resy pass
+    current = {}       # slotKey -> item dict
+    failed_venues = []  # venues whose lookup errored — reported, never treated as empty
+    ot_queue = []      # (cityKey, spot) OpenTable venues, scanned after the Resy pass
     for key in load_manifest_keys(args.cities):
         path = CITIES_DIR / f"{key}.json"
         if not path.exists():
@@ -153,10 +154,17 @@ def main():
             # cut short by a rate limit must not half-update the diff state (its
             # missing slots would be re-flagged "new" on recovery).
             venue_slots = {}
+            lookup_failed = False
             for day in days:
                 sls = resy_find.slots(vid, day, args.party,
                                       coord.get("lat"), coord.get("lng"), session)
                 if resy_find.RATE_LIMITED:
+                    break
+                # None = the lookup failed, which is NOT "no tables". Take the
+                # venue's whole window as unknown and leave it unpolled, so its
+                # previous slots carry over instead of being re-flagged as new.
+                if sls is None:
+                    lookup_failed = True
                     break
                 for sl in sls:
                     slot_key = f"{vid}|{sl['date']}|{sl['time']}|{sl['type']}"
@@ -177,6 +185,9 @@ def main():
                 print("resy rate-limited (429) — stopping the Resy pass; "
                       "unpolled venues carry over from the previous sweep")
                 break
+            if lookup_failed:
+                failed_venues.append(ck)
+                continue   # unpolled on purpose: `kept` preserves its known slots
             current.update(venue_slots)
             polled_now.add(ck)
             polled_spots.add((key, spot.get("id")))
@@ -304,6 +315,13 @@ def main():
         tag += " [state was >3h old — re-baselined, nothing flagged new]"
     print(f"polled {len(polled_now)} venues across {len(days)} days -> "
           f"{len(items)} open slots, {new_count} newly opened{tag}")
+    if failed_venues:
+        # Loud on purpose: silent lookup failures are what caused a whole sweep
+        # to be re-flagged as "just opened". A quiet radar lying is worse than
+        # a noisy one admitting it missed venues.
+        print(f"{len(failed_venues)} venue lookup(s) FAILED and were carried "
+              f"forward (not counted as empty): {', '.join(failed_venues[:8])}"
+              f"{' …' if len(failed_venues) > 8 else ''}")
 
     if args.notify:
         try:
