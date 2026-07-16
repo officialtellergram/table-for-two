@@ -178,6 +178,9 @@
   .iconbtn{background:transparent;border:1px solid var(--line);border-radius:10px;
     padding:8px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
   .iconbtn.active{background:var(--accent);border-color:var(--accent);color:var(--onaccent)}
+  /* Theme toggle icon: a tint-able silhouette (sun in light mode, moon in dark). */
+  .ticon{display:inline-block;width:17px;height:17px;background:var(--accent2);
+    -webkit-mask:var(--ti,none) center/contain no-repeat;mask:var(--ti,none) center/contain no-repeat}
   .seg{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
   .seg button{background:transparent;border:0;padding:8px 15px;cursor:pointer;color:var(--muted);font-weight:500;letter-spacing:.3px}
   .seg button.active{background:var(--accent);color:var(--onaccent)}
@@ -504,7 +507,7 @@
     </div>
     <div class="spacer"></div>
     <button class="alertbtn" id="alertBtn" title="Get alerted when a table opens" hidden>Get alerts</button>
-    <button class="iconbtn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme">☀</button>
+    <button class="iconbtn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme"><span class="ticon" id="themeIcon"></span></button>
   </div>
 </div>
 
@@ -641,7 +644,7 @@
   <div id="tableau" aria-hidden="true"></div>
   <footer>
     <div style="margin-bottom:10px">Don't see your city? <a href="#" id="reqCityLink" style="color:var(--accent2)">Request it →</a></div>
-    <span style="font-family:var(--serif);font-style:italic;color:var(--muted)">Table for Two ✌︎</span>
+    <span style="font-family:var(--serif);font-style:italic;color:var(--muted)">Your table is ready…</span>
     · NYC data: <a href="https://www.hardtobook.xyz/?view=map" target="_blank" rel="noopener">hardtobook.xyz</a>
     · countdowns shown in each city's local time · always confirm with the restaurant.
     <br/>An unofficial dashboard. Reservation release times can change without notice.
@@ -1280,7 +1283,7 @@ function tileUrl(){
 }
 function applyTheme(t){
   document.documentElement.setAttribute('data-theme', t);
-  const tg=$('themeToggle'); if(tg) tg.textContent = t==='light' ? '☾' : '☀';
+  const ic=$('themeIcon'); if(ic) ic.style.setProperty('--ti', t==='light'?"url('icons/sun.png')":"url('icons/moon.png')");
   const mc=document.querySelector('meta[name=theme-color]'); if(mc) mc.setAttribute('content', t==='light'?'#f4f3ef':'#0a0a0b');
   try{ localStorage.setItem('t42-theme', t); }catch(e){}
   if(tileLayer) tileLayer.setUrl(tileUrl());
