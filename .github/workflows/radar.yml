@@ -1,0 +1,78 @@
+# Table for Two — the cancellation radar, in the cloud.
+#
+# Replaces the Windows scheduled task (TableForTwoRadar) so sweeps no longer
+# need the PC awake. A probe confirmed Resy answers 200 from GitHub's Azure
+# runners, so the old "Resy blocks datacenter IPs" constraint is gone.
+#
+# State lives in the repo (scraper/.sniper_state.json is tracked on purpose), so
+# each run reads the previous run's memory and commits its own — that's what
+# lets sniper.py tell a brand-new opening from one it already knew about.
+#
+# Resy only. The OpenTable half needs a headful browser + persistent profile and
+# stays on the local runner (radar_ot_run.ps1), still suspended.
+name: radar
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 min; GitHub queues these, so expect drift
+  workflow_dispatch:          # manual "Run workflow" button for testing
+
+permissions:
+  contents: write             # the sweep commits the refreshed feed + state
+
+# Never let two sweeps overlap — this is the cloud twin of the .sniper.lock the
+# local runners share. Queue rather than cancel: a half-finished sweep that got
+# killed mid-write would leave the diff state inconsistent.
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r scraper/requirements.txt
+
+      # 3-day window + 0.75s spacing: Resy rate-limits sustained sweeps (429,
+      # cools off over hours) — fewer, slower calls keep us under it. resy_find
+      # aborts the pass on a sustained 429 so a limited sweep costs ~2 calls.
+      # No --notify: that's the Telegram path, which is sidelined.
+      - name: Sweep Resy
+        working-directory: scraper
+        run: python sniper.py --only resy --days 3 --limit 8 --sleep 0.75
+
+      # Rebase-and-retry: a manual push (or a local sweep) can land between our
+      # checkout and our push, and a lost sweep means a lost opening.
+      - name: Commit the feed
+        run: |
+          git config user.name  'table-for-two radar'
+          git config user.email 'radar@users.noreply.github.com'
+          git add cities/just-opened.json deploy/cities/just-opened.json scraper/.sniper_state.json
+          if git diff --cached --quiet; then
+            echo 'no feed changes; nothing to push'
+            exit 0
+          fi
+          git commit -q -m 'radar: refresh just-opened feed [skip ci]'
+          for i in 1 2 3; do
+            if git push -q origin HEAD:main 2>/dev/null; then
+              echo 'pushed -> GitHub Pages will redeploy'
+              exit 0
+            fi
+            echo "push rejected (attempt $i); rebasing on origin/main"
+            git pull -q --rebase origin main
+          done
+          echo 'ERROR: could not push after 3 attempts'; exit 1
+
+      # Fan out this sweep's new slots to public signups. Fails soft: no secrets
+      # configured (or ingest down) must not fail the sweep or the feed push.
+      - name: Alert signups
+        env:
+          INGEST_URL: ${{ secrets.INGEST_URL }}
+          INGEST_SECRET: ${{ secrets.INGEST_SECRET }}
+        run: python scraper/notify_web.py
