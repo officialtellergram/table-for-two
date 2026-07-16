@@ -7,9 +7,14 @@
 # directly, so you see updates locally with no deploy needed. The Windows
 # scheduled task is disabled — see scraper/radar_task.md.
 #
-# This used to say "Resy blocks datacenter IPs, so the cloud can't poll". That
-# was measured false on 2026-07-16: /4/find answers 200 from GitHub's Azure
-# runners. Don't reintroduce that assumption without re-testing it.
+# On Resy vs datacenter IPs, measured 2026-07-16 — the nuance matters:
+#   * A few calls from a GitHub Azure runner DO answer 200. So it is not a hard
+#     IP block, and a small probe will tell you everything is fine. It isn't.
+#   * A full 40-venue sweep from that same runner had 22/40 lookups fail, while
+#     the identical sweep from this residential IP failed 0/40. Resy degrades
+#     sustained datacenter traffic rather than blocking it outright.
+# So this box still gives materially better Resy coverage than the cloud does.
+# If you re-test, use a FULL sweep — a 3-call probe measures nothing.
 #
 # $Push: while Netlify is paused we run LOCAL-ONLY (no commit/push, no git churn).
 # Flip $Push = $true to resume committing + pushing to both repos (Netlify deploy).
