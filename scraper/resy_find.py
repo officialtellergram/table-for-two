@@ -27,10 +27,19 @@ RATE_LIMITED = False
 
 def slots(venue_id, day, party_size=2, lat=0.0, lng=0.0, session=None):
     """Open time slots for one venue on one day.
-    Returns a list of {date, time, type, token}; empty on any miss."""
+
+    Returns a list of {date, time, type, token} — possibly empty, meaning the
+    venue genuinely has nothing open — or None if the lookup FAILED (blocked,
+    5xx, timeout, rate-limited).
+
+    The None/[] split matters: they used to both be []. A failed lookup then
+    read as "no availability", so sniper dropped that venue's slots from its
+    diff state and re-flagged every one of them as "just opened" on the next
+    sweep that worked. Callers must treat None as "no news", not "no tables".
+    """
     global RATE_LIMITED
     if not requests or not venue_id:
-        return []
+        return None
     s = session or requests
     params = {"venue_id": venue_id, "day": day, "party_size": party_size,
               "lat": lat or 0, "long": lng or 0}
@@ -41,12 +50,12 @@ def slots(venue_id, day, party_size=2, lat=0.0, lng=0.0, session=None):
             r = s.get(FIND_URL, params=params, headers=_H, timeout=20)
             if r.status_code == 429:
                 RATE_LIMITED = True
-                return []
+                return None
         if r.status_code != 200:
-            return []
+            return None
         data = r.json()
     except Exception:
-        return []
+        return None
     out = []
     for v in (data.get("results") or {}).get("venues") or []:
         for sl in v.get("slots") or []:
