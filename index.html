@@ -231,6 +231,8 @@
   @keyframes lzWord{to{opacity:1;transform:none}}
   @keyframes lzGlowPulse{0%,100%{opacity:.75}50%{opacity:1}}
   @keyframes lzFlick{to{transform:scaleY(.88) skewX(2.5deg)}}
+  /* furthest layer draws first, slow + gentle, so the city settles in behind */
+  #landing.playing .lz-skyline path{animation:lzDraw 1.3s ease .5s forwards}
   #landing.playing .lz-floor path{animation:lzDraw .8s ease .8s forwards}
   #landing.playing .lz-table :is(path,ellipse){animation:lzDraw 1s ease 1.15s forwards}
   #landing.playing .lz-cloth path{animation:lzDraw .5s ease 1.85s forwards}
@@ -391,6 +393,18 @@
       <div class="lz-tagline">Any city. Any craving.</div>
     </div>
     <svg class="lz-scene" viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <!-- A distant city skyline behind the table — the two-top reads as a
+           rooftop dinner with the whole city out past the candlelight. Faint +
+           thin so it sits back in space; drawn first so depth builds back→front. -->
+      <g class="lz-skyline" stroke-opacity=".17" stroke-width="1.3">
+        <!-- left + right silhouettes are intentionally different: setback towers,
+             a pitched roof, water towers, varied slab widths and heights. -->
+        <path d="M60,258 V238 H98 V214 H120 V196 H132 V174 H146 V160 H154 V174 H162 V196 H176 V210 H200 V150 H222 V176 H250 V228 H272 V206 H296 V190 H322 V216 H352 V202 H380 V258"/>
+        <path d="M418,258 V208 H440 V190 H458 V214 H478 V168 H500 V184 H524 V158 H536 V184 H548 V212 H572 L590,188 L610,212 V196 H634 V172 H660 V204 H686 V226 H710 V210 H730 V240 H745 V258"/>
+        <path d="M211,150 V132"/><path d="M530,158 V138"/>
+        <path d="M182,210 V202 H192 V210"/><path d="M666,204 V196 H676 V204"/>
+        <path class="lz-horizon" d="M44,262 Q400,257 756,262" stroke-opacity=".1"/>
+      </g>
       <g class="lz-floor" stroke-opacity=".22">
         <path d="M40,618 L350,330"/><path d="M760,618 L450,330"/>
         <path d="M0,540 Q400,510 800,540"/><path d="M60,618 Q400,585 740,618"/>
