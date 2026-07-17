@@ -116,8 +116,8 @@
     --cardBorder:rgba(255,255,255,.8);--cardSheen:rgba(255,255,255,.92);--cardShadow:rgba(80,60,35,.15)}
   /* WebGL ambient — warm candlelit haze drifting behind the frosted cards. Sits
      UNDER the line-art scene (earlier in the DOM); both read through the glass. */
-  #vanta-bg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.58}
-  [data-theme="light"] #vanta-bg{opacity:.7}
+  #vanta-bg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.46}
+  [data-theme="light"] #vanta-bg{opacity:.62}
   #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
     display:flex;align-items:center;justify-content:center;opacity:.8}
   [data-theme="light"] #tableScene{opacity:.62}
@@ -1730,15 +1730,15 @@ window.addEventListener('load', function(){
   }catch(e){ return; }
   // Warm candlelit palettes — gold highlight, bronze midtone, deep-warm shadow.
   var PAL = {
-    dark:  { baseColor:0x0a0a0b, lowlightColor:0x120b04, midtoneColor:0x4d3313, highlightColor:0xa9814a },
-    light: { baseColor:0xf4f3ef, lowlightColor:0xece0c8, midtoneColor:0xcbb489, highlightColor:0xe6c489 }
+    dark:  { baseColor:0x0a0a0b, lowlightColor:0x100a03, midtoneColor:0x3a2810, highlightColor:0x8a6636 },
+    light: { baseColor:0xf4f3ef, lowlightColor:0xeaddc4, midtoneColor:0xc4ab7e, highlightColor:0xdcb877 }
   };
   var theme = function(){ return document.documentElement.getAttribute('data-theme')==='light' ? 'light' : 'dark'; };
   var v;
   try{
     v = VANTA.FOG(Object.assign({
       el:'#vanta-bg', mouseControls:false, touchControls:false, gyroControls:false,
-      blurFactor:0.82, speed:0.7, zoom:1.0, scaleMobile:1
+      blurFactor:0.66, speed:2.6, zoom:1.0, scaleMobile:1
     }, PAL[theme()]));
     window.__vanta = v;
   }catch(e){ return; }
