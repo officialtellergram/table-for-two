@@ -31,6 +31,17 @@
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <meta name="apple-mobile-web-app-title" content="Table for Two" />
+<!-- Motion guard: arm scroll-reveal before first paint so cards never flash in,
+     but stay OFF under reduced-motion. Self-healing — if the reveal script never
+     runs (CDN/JS failure), un-hide after 4s so the grid is never left blank. -->
+<script>
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.documentElement.classList.add('fx');
+    addEventListener('load',function(){ setTimeout(function(){
+      if(!window.__fxReady) document.documentElement.classList.remove('fx');
+    },4000); });
+  }
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -103,6 +114,10 @@
     --cardBorder:rgba(255,255,255,.14);--cardSheen:rgba(255,255,255,.11);--cardShadow:rgba(0,0,0,.34)}
   [data-theme="light"]{--sceneInk:#7e5f38;--cardMix:36%;
     --cardBorder:rgba(255,255,255,.8);--cardSheen:rgba(255,255,255,.92);--cardShadow:rgba(80,60,35,.15)}
+  /* WebGL ambient — warm candlelit haze drifting behind the frosted cards. Sits
+     UNDER the line-art scene (earlier in the DOM); both read through the glass. */
+  #vanta-bg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.58}
+  [data-theme="light"] #vanta-bg{opacity:.7}
   #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
     display:flex;align-items:center;justify-content:center;opacity:.8}
   [data-theme="light"] #tableScene{opacity:.62}
@@ -449,6 +464,7 @@
 <!-- Scroll story: a gold line-art table for two sets itself as you scroll.
      Fixed decorative layer behind everything; GSAP ScrollTrigger scrubs it.
      Hidden for reduced-motion users and in map view. -->
+<div id="vanta-bg" aria-hidden="true"></div>
 <div id="tableScene" aria-hidden="true">
   <svg viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="1.6" stroke-linecap="round">
     <defs>
@@ -649,7 +665,7 @@
 <main class="wrap">
   <div id="justOpened" class="just-opened" style="display:none"></div>
   <div id="grid" class="grid"></div>
-  <div id="map"></div>
+  <div id="map" data-lenis-prevent></div>
   <div id="state" class="state hide"></div>
   <!-- Closing tableau: open space at the end of the list where the scroll story
        finishes — the set table, lit candle, and a word. Pure spacing; the art is
@@ -1474,6 +1490,7 @@ function runLanding(){
     const leave=(city)=>{
       if(done) return; done=true;
       el.classList.add('leaving');
+      try{ window.__lenis && window.__lenis.start(); }catch(e){}   // release scroll lock
       setTimeout(()=>{ el.hidden=true; el.remove(); }, 650);
       res(city);
     };
@@ -1589,6 +1606,144 @@ window.addEventListener('load',function(){
   // City switches change page height; keep trigger measurements honest.
   new MutationObserver(()=>{ ScrollTrigger.refresh(); fit(); })
     .observe(document.getElementById('grid'),{childList:true});
+});
+</script>
+
+<!-- ── Motion layer ─────────────────────────────────────────────────────────
+     Lenis smooth scroll + lightweight scroll-reveal + tactile micro-interactions.
+     Vanilla, CDN-loaded with graceful fallback (offline PWA / app webview → native
+     scroll, cards visible). Kept deliberately light for the eventual app wrap:
+     smooth WHEEL only, NATIVE touch, no WebGL. -->
+<style>
+  /* Lenis recommended base */
+  html.lenis,html.lenis body{height:auto}
+  .lenis.lenis-smooth{scroll-behavior:auto!important}
+  .lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
+  .lenis.lenis-stopped{overflow:hidden}
+
+  /* Scroll-reveal: uses the `translate` property (separate from the card's hover
+     `transform`, so they never fight). Hidden only while <html class="fx">. */
+  html.fx #grid .card{opacity:0;translate:0 24px;
+    transition:opacity .7s cubic-bezier(.2,.72,.2,1),translate .7s cubic-bezier(.2,.72,.2,1),
+      border-color .2s ease,box-shadow .25s ease,transform .2s ease}
+  html.fx #grid .card.fx-in{opacity:1;translate:0 0}
+  @media (prefers-reduced-motion: reduce){ html.fx #grid .card{opacity:1;translate:none} }
+
+  /* Snappier, more tactile feedback */
+  .card:hover{transform:translateY(-3px)}
+  .btn{transition:transform .18s cubic-bezier(.2,.7,.2,1),translate .18s cubic-bezier(.2,.7,.2,1),filter .2s ease,background .2s ease,border-color .2s ease}
+  .btn:hover{filter:brightness(1.06)}
+  .btn:active{transform:translateY(1px) scale(.99)}
+  /* Gold sheen sweep across the wordmark on hover */
+  .lz-wordmark{background-size:220% 100%;background-position:left center;
+    transition:background-position 1.1s cubic-bezier(.3,.7,.2,1)}
+  .lz-wordmark:hover{background-position:right center}
+</style>
+<script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script defer>
+(function(){
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* 1 ─ Smooth scroll, wired into the existing scrubbed candle scene. */
+  window.addEventListener('load', function(){
+    if(reduce || !window.Lenis) return;                 // native scroll fallback
+    try{
+      var lenis = new Lenis({
+        duration: 1.05,
+        easing: function(t){ return Math.min(1, 1.001 - Math.pow(2, -10*t)); },
+        smoothWheel: true, syncTouch: false,            // native touch = app-correct + lighter
+        prevent: function(n){ return !!(n.closest && n.closest('#map,.leaflet-container,[data-lenis-prevent]')); }
+      });
+      window.__lenis = lenis;
+      var lz = document.getElementById('landing');
+      if(lz && !lz.hidden) lenis.stop();                // hold while the welcome overlay is up
+      if(window.gsap && window.ScrollTrigger){          // keep the scrub scene aligned to Lenis
+        lenis.on('scroll', ScrollTrigger.update);
+        gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+        gsap.ticker.lagSmoothing(0);
+      }else{
+        (function raf(t){ lenis.raf(t); requestAnimationFrame(raf); })();
+      }
+    }catch(e){ /* any failure → native scroll */ }
+  });
+
+  /* 2 ─ Scroll-reveal for cards (CSS hides via html.fx; we add .fx-in in view). */
+  if(!reduce){
+    try{
+      window.addEventListener('load', function(){
+        var grid = document.getElementById('grid');
+        if(!grid){ document.documentElement.classList.remove('fx'); return; }
+        window.__fxReady = 1;                            // tells the head failsafe reveal is armed
+        var io = new IntersectionObserver(function(entries){
+          var i = 0;
+          entries.forEach(function(e){
+            if(!e.isIntersecting) return;
+            var c = e.target;
+            c.style.transitionDelay = (i++ * 55) + 'ms'; // gentle stagger within a batch
+            c.classList.add('fx-in');
+            io.unobserve(c);
+            setTimeout(function(){ c.style.transitionDelay=''; }, 900);
+          });
+        }, {rootMargin:'0px 0px -6% 0px', threshold:0.06});
+        function watch(c){ if(c.__fx) return; c.__fx=1; io.observe(c); }
+        Array.prototype.forEach.call(grid.querySelectorAll('.card'), watch);
+        new MutationObserver(function(muts){
+          muts.forEach(function(m){ Array.prototype.forEach.call(m.addedNodes, function(n){
+            if(n.nodeType===1 && n.classList && n.classList.contains('card')) watch(n);
+          }); });
+        }).observe(grid, {childList:true});
+        setTimeout(function(){                            // belt-and-suspenders: never stay hidden
+          Array.prototype.forEach.call(grid.querySelectorAll('.card:not(.fx-in)'), function(c){ c.classList.add('fx-in'); });
+        }, 3500);
+      });
+    }catch(e){ document.documentElement.classList.remove('fx'); }
+  }
+
+  /* 3 ─ Magnetic pull on the big CTAs (fine pointers only — off on touch). */
+  window.addEventListener('load', function(){
+    if(reduce || !matchMedia('(pointer:fine)').matches) return;
+    Array.prototype.forEach.call(document.querySelectorAll('.lz-cta .btn, #alertBtn'), function(btn){
+      var R = 7;
+      btn.addEventListener('pointermove', function(ev){
+        var r = btn.getBoundingClientRect();
+        var dx = (ev.clientX - (r.left + r.width/2)) / (r.width/2);
+        var dy = (ev.clientY - (r.top + r.height/2)) / (r.height/2);
+        btn.style.translate = (dx*R).toFixed(1)+'px '+(dy*R).toFixed(1)+'px';
+      });
+      btn.addEventListener('pointerleave', function(){ btn.style.translate=''; });
+    });
+  });
+})();
+</script>
+
+<!-- WebGL ambient candlelight (Vanta FOG). Heavier (pulls three.js) — an
+     EXPERIMENT: gated on reduced-motion + WebGL support, theme-aware, and cheap
+     to kill. Before an app ship we'd gate it to desktop / high-power only. -->
+<script defer src="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.fog.min.js"></script>
+<script defer>
+window.addEventListener('load', function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if(!window.VANTA || !VANTA.FOG) return;
+  try{ var t=document.createElement('canvas');           // bail if no WebGL
+    if(!(t.getContext('webgl')||t.getContext('experimental-webgl'))) return;
+  }catch(e){ return; }
+  // Warm candlelit palettes — gold highlight, bronze midtone, deep-warm shadow.
+  var PAL = {
+    dark:  { baseColor:0x0a0a0b, lowlightColor:0x120b04, midtoneColor:0x4d3313, highlightColor:0xa9814a },
+    light: { baseColor:0xf4f3ef, lowlightColor:0xece0c8, midtoneColor:0xcbb489, highlightColor:0xe6c489 }
+  };
+  var theme = function(){ return document.documentElement.getAttribute('data-theme')==='light' ? 'light' : 'dark'; };
+  var v;
+  try{
+    v = VANTA.FOG(Object.assign({
+      el:'#vanta-bg', mouseControls:false, touchControls:false, gyroControls:false,
+      blurFactor:0.82, speed:0.7, zoom:1.0, scaleMobile:1
+    }, PAL[theme()]));
+    window.__vanta = v;
+  }catch(e){ return; }
+  new MutationObserver(function(){ try{ v.setOptions(PAL[theme()]); }catch(e){} })
+    .observe(document.documentElement, {attributes:true, attributeFilter:['data-theme']});
 });
 </script>
 
