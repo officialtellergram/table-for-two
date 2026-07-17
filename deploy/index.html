@@ -688,6 +688,10 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<!-- Lenis' CDN build also registers itself as window.L, clobbering Leaflet's L
+     (which breaks the map). Snapshot the real Leaflet L here, restore it after
+     Lenis loads below. We drive Lenis via window.Lenis, so L stays Leaflet's. -->
+<script>window.__leafletL = window.L;</script>
 <script>
 /* ============================================================
    Drop Watch — single-file hard-to-book reservation dashboard
@@ -1258,6 +1262,7 @@ function tick(){
 
 /* ---------- Map view ---------- */
 function showMap(){
+  if(window.__leafletL) window.L = window.__leafletL;   // guard: Lenis clobbers L
   $('grid').classList.add('hide'); $('map').style.display='block';
   if(!map){
     map=L.map('map',{zoomControl:true});
@@ -1646,6 +1651,11 @@ window.addEventListener('load',function(){
   .lz-wordmark:hover{background-position:right center}
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<!-- Restore Leaflet's L, which the Lenis build above just clobbered. MUST run on
+     DOMContentLoaded, not inline-"defer" (defer is ignored on inline scripts, so
+     it would run at parse time BEFORE the deferred Lenis executes). DCL fires
+     after deferred scripts, so L is Leaflet's again by the time anything needs it. -->
+<script>document.addEventListener('DOMContentLoaded',function(){try{ if(window.__leafletL) window.L = window.__leafletL; }catch(e){}});</script>
 <script defer>
 (function(){
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
