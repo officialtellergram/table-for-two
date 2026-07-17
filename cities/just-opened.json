@@ -1,10 +1,780 @@
 {
-  "generated": "2026-07-17T22:22:15+00:00",
+  "generated": "2026-07-17T23:24:14+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 95,
+  "new": 55,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-18",
+      "time": "23:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-18",
+      "time": "23:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-18",
+      "time": "23:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-17",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-18",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-18",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-18",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-18",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-18",
+      "time": "18:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "type": "Hightop",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "conejo",
+      "name": "Conejo",
+      "neighborhood": "Far West End / Patterson",
+      "cuisine": "Modern Mexican",
+      "date": "2026-07-18",
+      "time": "20:15",
+      "type": "Hightop",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-17",
+      "time": "21:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-17",
+      "time": "21:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-07-17",
+      "time": "21:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-07-18",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-07-18",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-07-18",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-07-18",
+      "time": "17:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-07-18",
+      "time": "20:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-07-18",
+      "time": "21:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-07-18",
+      "time": "21:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-07-18",
+      "time": "17:00",
+      "type": "DINING ROOM",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-07-18",
+      "time": "17:15",
+      "type": "DINING ROOM",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-18",
+      "time": "12:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-07-18",
+      "time": "12:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-19",
+      "time": "19:30",
+      "type": "Cocktail Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-19&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-19",
+      "time": "19:30",
+      "type": "Omakase",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-19&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-19",
+      "time": "19:30",
+      "type": "Sun Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-19&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-07-19",
+      "time": "19:30",
+      "type": "Sushi Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-19&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "19:30",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "19:45",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "20:00",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "20:15",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "20:45",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "21:00",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "21:15",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "21:30",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-17",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-17&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-18",
+      "time": "19:30",
+      "type": "Kitchen Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "theodore-rex",
+      "name": "Theodore Rex",
+      "neighborhood": "Warehouse District / EaDo",
+      "cuisine": "New American",
+      "date": "2026-07-19",
+      "time": "19:30",
+      "type": "Dining room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-07-19&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "17:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "18:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "18:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "19:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "19:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "19:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "19:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "20:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-07-18",
+      "time": "20:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "cote",
@@ -17,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -31,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -45,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -59,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -185,7 +955,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -199,7 +969,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -213,7 +983,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -227,7 +997,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -241,7 +1011,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -255,7 +1025,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -269,7 +1039,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -283,7 +1053,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -297,7 +1067,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -311,7 +1081,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -325,7 +1095,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -339,7 +1109,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-17&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -353,7 +1123,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-17&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -367,7 +1137,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +1151,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -395,7 +1165,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -409,7 +1179,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -423,7 +1193,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -437,7 +1207,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -451,7 +1221,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -465,7 +1235,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -479,7 +1249,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -493,7 +1263,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -507,7 +1277,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -521,7 +1291,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -535,7 +1305,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -549,7 +1319,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -563,7 +1333,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -577,7 +1347,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -591,7 +1361,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -605,7 +1375,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -619,7 +1389,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -633,7 +1403,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -647,7 +1417,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -661,7 +1431,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -675,7 +1445,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -689,7 +1459,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -703,7 +1473,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -717,7 +1487,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -731,7 +1501,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -745,7 +1515,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -759,7 +1529,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -773,7 +1543,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -787,7 +1557,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -801,7 +1571,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -815,7 +1585,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -829,7 +1599,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -843,7 +1613,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -857,7 +1627,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -871,7 +1641,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -885,7 +1655,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -899,7 +1669,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -913,7 +1683,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -927,7 +1697,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -941,21 +1711,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "16:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -969,21 +1725,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -997,105 +1739,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "19:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "19:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-07-18",
-      "time": "19:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1109,7 +1753,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1123,7 +1767,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1137,7 +1781,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1151,7 +1795,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1165,7 +1809,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1179,49 +1823,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-17",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-17",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-17",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1235,49 +1837,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-17&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-17",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-07-18",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-18",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1291,7 +1851,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1305,7 +1865,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1319,7 +1879,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1333,7 +1893,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T22:22:15+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -1412,20 +1972,6 @@
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-07-18",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T21:23:20+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-07-18",
       "time": "21:30",
       "type": "Dining Room",
       "party": 2,
@@ -1445,48 +1991,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T21:23:20+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-17",
-      "time": "19:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T19:10:06+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-17",
-      "time": "19:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T19:10:06+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-17",
-      "time": "19:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T19:10:06+00:00",
       "new": false
     },
     {
@@ -1543,76 +2047,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T19:10:06+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "hidden-omakase",
-      "name": "Hidden Omakase",
-      "neighborhood": "Galleria / Uptown",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-17",
-      "time": "18:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/hidden-omakase?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T16:16:14+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-07-17",
-      "time": "14:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T16:16:14+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-07-17",
-      "time": "20:00",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T11:07:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-07-17",
-      "time": "20:15",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T11:07:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-07-17",
-      "time": "20:45",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T11:07:07+00:00",
       "new": false
     },
     {
@@ -1696,62 +2130,6 @@
       "type": "High Top",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T11:07:07+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-17",
-      "time": "17:00",
-      "type": "Sushi Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T11:07:07+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-17",
-      "time": "17:15",
-      "type": "Sushi Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T11:07:07+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-17",
-      "time": "17:30",
-      "type": "Sushi Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-17&seats=2",
-      "firstSeen": "2026-07-17T11:07:07+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-07-18",
-      "time": "17:15",
-      "type": "Cocktail Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T11:07:07+00:00",
       "new": false
     },
@@ -2421,384 +2799,6 @@
       "cuisine": "Modern Mexican",
       "date": "2026-07-19",
       "time": "11:15",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "11:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "11:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "11:30",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "11:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "11:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "11:45",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "11:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:00",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:15",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:30",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:45",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "12:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:00",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:15",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-19",
-      "time": "13:30",
       "type": "Hightop",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-19&seats=2",
