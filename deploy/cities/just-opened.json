@@ -1,10 +1,24 @@
 {
-  "generated": "2026-07-18T09:56:43+00:00",
+  "generated": "2026-07-18T11:07:57+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 0,
+  "new": 1,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-07-20",
+      "time": "12:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-20&seats=2",
+      "firstSeen": "2026-07-18T11:07:57+00:00",
+      "new": true
+    },
     {
       "city": "richmond",
       "spotId": "the-brooklyn",
@@ -857,20 +871,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T09:56:43+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
-      "cuisine": "Italian",
-      "date": "2026-07-18",
-      "time": "11:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-18T03:56:11+00:00",
       "new": false
     },
     {
