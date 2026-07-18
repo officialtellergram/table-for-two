@@ -1,51 +1,65 @@
 {
-  "generated": "2026-07-18T00:55:45+00:00",
+  "generated": "2026-07-18T03:56:11+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 69,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
       "date": "2026-07-18",
-      "time": "16:00",
-      "type": "Patio",
+      "time": "11:00",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-18T03:56:11+00:00",
+      "new": false
     },
     {
       "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
       "date": "2026-07-20",
-      "time": "17:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-20&seats=2",
-      "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-19",
       "time": "22:30",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-20&seats=2",
+      "firstSeen": "2026-07-18T03:56:11+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-19",
+      "time": "17:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-19&seats=2",
+      "firstSeen": "2026-07-18T03:56:11+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-20",
+      "time": "21:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-20&seats=2",
+      "firstSeen": "2026-07-18T03:56:11+00:00",
+      "new": false
     },
     {
       "city": "boston",
@@ -59,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -157,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -171,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -185,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -199,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -227,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -241,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -255,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -269,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -283,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -297,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -311,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -325,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -339,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -353,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -367,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -395,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -409,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -423,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -437,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -451,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -465,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -479,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -493,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -507,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -521,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -535,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -549,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -563,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -577,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -591,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -605,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -619,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -633,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -647,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -661,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -675,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -689,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -703,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -717,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -731,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -745,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -759,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -773,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -787,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -801,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -815,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -829,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -843,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -857,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -871,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -885,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -899,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -913,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -927,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -941,7 +955,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -955,7 +969,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -969,7 +983,35 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-18",
+      "time": "16:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-18T00:55:45+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-20",
+      "time": "17:00",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-20&seats=2",
+      "firstSeen": "2026-07-18T00:55:45+00:00",
+      "new": false
     },
     {
       "city": "richmond",
@@ -1336,48 +1378,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-18",
-      "time": "23:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T23:24:14+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-18",
-      "time": "23:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T23:24:14+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-18",
-      "time": "23:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T23:24:14+00:00",
-      "new": false
-    },
-    {
       "city": "boston",
       "spotId": "la-padrona",
       "name": "La Padrona",
@@ -1500,6 +1500,34 @@
       "type": "DINING ROOM",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-18",
+      "time": "23:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-17T23:24:14+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-18",
+      "time": "23:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T23:24:14+00:00",
       "new": false
     },
@@ -2775,34 +2803,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T11:07:07+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-19",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-19",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
-      "firstSeen": "2026-07-17T01:02:17+00:00",
       "new": false
     }
   ]
