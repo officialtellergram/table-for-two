@@ -1,23 +1,51 @@
 {
-  "generated": "2026-07-18T21:23:40+00:00",
+  "generated": "2026-07-18T22:23:29+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 24,
+  "new": 1,
   "items": [
     {
       "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
       "cuisine": "Italian",
-      "date": "2026-07-20",
-      "time": "21:00",
-      "type": "Bar",
+      "date": "2026-07-19",
+      "time": "13:30",
+      "type": "Lunch",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-20&seats=2",
-      "firstSeen": "2026-07-18T21:23:40+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-07-19&seats=2",
+      "firstSeen": "2026-07-18T22:23:29+00:00",
       "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-18",
+      "time": "19:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-18T21:23:40+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-18",
+      "time": "19:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-18T21:23:40+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,35 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-18",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-18",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -185,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -199,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -213,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -227,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -241,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -255,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -269,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -283,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -297,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -311,35 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-19&seats=2",
       "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-18",
-      "time": "19:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-18",
-      "time": "19:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-18T21:23:40+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2803,6 +2775,34 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-07-20&seats=2",
       "firstSeen": "2026-07-18T12:13:01+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-20",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-20&seats=2",
+      "firstSeen": "2026-07-18T09:56:43+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-20",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-20&seats=2",
+      "firstSeen": "2026-07-18T09:56:43+00:00",
       "new": false
     }
   ]
