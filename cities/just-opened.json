@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T03:56:11+00:00",
+  "generated": "2026-07-18T06:07:28+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
@@ -986,34 +986,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-18",
-      "time": "16:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-20",
-      "time": "17:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-20&seats=2",
-      "firstSeen": "2026-07-18T00:55:45+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "the-brooklyn",
       "name": "The Brooklyn",
@@ -1500,20 +1472,6 @@
       "type": "DINING ROOM",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-07-18&seats=2",
-      "firstSeen": "2026-07-17T23:24:14+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-18",
-      "time": "23:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T23:24:14+00:00",
       "new": false
     },
@@ -2803,6 +2761,48 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-18&seats=2",
       "firstSeen": "2026-07-17T11:07:07+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "pineapple-and-pearls",
+      "name": "Pineapple and Pearls",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American fine-dining prix-fixe",
+      "date": "2026-07-18",
+      "time": "17:45",
+      "type": "Bar Full Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-16T20:59:13+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-07-18",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-16T16:49:13+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-07-18",
+      "time": "17:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-18&seats=2",
+      "firstSeen": "2026-07-16T04:09:50+00:00",
       "new": false
     }
   ]
