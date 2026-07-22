@@ -1,23 +1,373 @@
 {
-  "generated": "2026-07-22T01:00:08+00:00",
+  "generated": "2026-07-22T04:26:00+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 200,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
       "cuisine": "Italian",
       "date": "2026-07-22",
-      "time": "11:30",
+      "time": "21:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-24",
+      "time": "23:30",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-22&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-07-24",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-07-24",
+      "time": "18:00",
+      "type": "Upstairs Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-07-24",
+      "time": "19:45",
+      "type": "Downstairs Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-07-24",
+      "time": "16:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "18:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "18:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "18:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "18:45",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "19:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "19:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "19:45",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "20:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "20:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-07-24",
+      "time": "20:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "19:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "19:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-07-22",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-07-22&seats=2",
+      "firstSeen": "2026-07-22T04:26:00+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -45,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -59,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -73,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -101,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -115,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -129,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -143,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -157,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -171,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -185,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -199,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -213,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -227,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -241,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -255,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -269,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -283,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -297,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -311,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -325,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -339,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -353,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -367,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -381,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -395,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -409,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -423,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -437,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -451,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -465,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -479,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -493,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -507,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -521,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -535,21 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-07-24",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -563,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -577,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -591,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -605,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -619,7 +955,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -633,7 +969,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -647,7 +983,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -661,7 +997,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -675,7 +1011,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -689,7 +1025,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -703,7 +1039,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -717,7 +1053,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -731,7 +1067,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -745,7 +1081,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -759,7 +1095,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -773,7 +1109,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -787,7 +1123,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -801,35 +1137,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-07-23",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-23&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-07-23",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-23&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -843,7 +1151,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -857,7 +1165,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -871,7 +1179,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -885,7 +1193,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -899,7 +1207,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -913,7 +1221,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -927,7 +1235,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -941,7 +1249,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -955,7 +1263,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -969,7 +1277,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -983,7 +1291,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -997,7 +1305,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1011,7 +1319,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1025,7 +1333,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1039,7 +1347,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1053,7 +1361,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1067,7 +1375,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1081,7 +1389,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1095,7 +1403,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1109,7 +1417,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1123,7 +1431,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1137,7 +1445,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1151,7 +1459,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1165,7 +1473,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1179,7 +1487,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1193,7 +1501,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1207,7 +1515,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1221,7 +1529,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1235,7 +1543,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1249,7 +1557,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1263,7 +1571,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1277,7 +1585,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1291,7 +1599,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1305,7 +1613,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1319,7 +1627,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1333,7 +1641,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1347,7 +1655,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1361,7 +1669,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1375,7 +1683,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1389,21 +1697,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-07-24",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1417,35 +1711,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-07-24",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-07-24",
-      "time": "18:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1459,7 +1725,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1473,7 +1739,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1487,7 +1753,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1501,7 +1767,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1515,7 +1781,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1529,7 +1795,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1543,7 +1809,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1557,7 +1823,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1571,7 +1837,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1585,7 +1851,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1599,7 +1865,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1613,7 +1879,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1627,7 +1893,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1641,7 +1907,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1655,7 +1921,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1669,7 +1935,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1683,49 +1949,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-07-24",
-      "time": "18:15",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-07-24",
-      "time": "18:30",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-07-24",
-      "time": "18:45",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1739,7 +1963,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1753,7 +1977,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1767,7 +1991,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1781,7 +2005,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1795,7 +2019,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1809,7 +2033,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1823,7 +2047,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1837,7 +2061,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1851,7 +2075,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1865,7 +2089,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1879,7 +2103,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1893,7 +2117,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1907,7 +2131,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1921,7 +2145,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1935,7 +2159,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1949,7 +2173,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1963,7 +2187,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1977,7 +2201,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1991,7 +2215,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2005,7 +2229,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2019,7 +2243,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2033,7 +2257,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2047,7 +2271,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2061,7 +2285,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2075,7 +2299,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2089,7 +2313,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2103,7 +2327,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2117,7 +2341,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2131,7 +2355,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2145,7 +2369,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2159,7 +2383,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2173,7 +2397,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2187,7 +2411,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2201,7 +2425,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2215,7 +2439,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2229,7 +2453,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2243,7 +2467,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2257,7 +2481,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2271,7 +2495,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2285,7 +2509,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2299,7 +2523,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2313,7 +2537,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2327,7 +2551,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2341,7 +2565,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2355,7 +2579,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2369,7 +2593,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2383,7 +2607,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2397,7 +2621,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2411,7 +2635,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2425,7 +2649,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2439,7 +2663,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2453,7 +2677,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2467,7 +2691,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2481,7 +2705,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2495,7 +2719,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2509,7 +2733,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2523,7 +2747,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2537,7 +2761,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2551,7 +2775,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2565,7 +2789,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2579,231 +2803,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "17:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "17:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:45",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "18:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "19:00",
-      "type": "Hightop",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-24",
-      "time": "19:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-22T01:00:08+00:00",
-      "new": true
+      "new": false
     }
   ]
 }
