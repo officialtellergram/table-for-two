@@ -1,0 +1,65 @@
+# Deterministic drop-detection pre-pass. Reads each Resy venue's live calendar to
+# keep bookingWindowDays authoritative and to accumulate the time series that
+# pins releaseTime + a bounded difficulty nudge (.detect_state.json). Runs BEFORE
+# the LLM freshness auditor so that agent only does what needs an LLM (closures,
+# endorsements) on already-accurate booking data.
+#
+# Every 4h => intraday resolution for the release-time brackets. From a datacenter
+# runner Resy throttles some calls (same as the radar); coverage accumulates over
+# runs, and fully resolves once RESY_PROXY (a residential proxy) is set as a repo
+# secret — that's the piece this is built to plug into.
+name: detect
+
+on:
+  schedule:
+    - cron: '15 */4 * * *'   # 4x/day, offset from the radar's :00/:30
+  workflow_dispatch:
+    inputs:
+      city:
+        description: 'Single city key (blank = all)'
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: detect
+  cancel-in-progress: false
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r scraper/requirements.txt
+
+      - name: Detect booking mechanics
+        working-directory: scraper
+        env:
+          # When a residential proxy is provisioned, set RESY_PROXY as a repo
+          # secret (http(s)://user:pass@host:port); requests picks it up here.
+          HTTP_PROXY: ${{ secrets.RESY_PROXY }}
+          HTTPS_PROXY: ${{ secrets.RESY_PROXY }}
+        run: |
+          CITY='${{ inputs.city }}'
+          if [ -n "$CITY" ]; then python enrich_windows.py "$CITY"; else python enrich_windows.py --all; fi
+
+      - name: Commit corrections + state
+        run: |
+          git config user.name  'table-for-two detect'
+          git config user.email 'detect@users.noreply.github.com'
+          git add cities/*.json scraper/.detect_state.json
+          if git diff --cached --quiet; then
+            echo 'no detection changes'; exit 0
+          fi
+          git commit -q -m 'detect: refresh booking windows + release-time series [skip ci]'
+          for i in 1 2 3; do
+            if git push -q origin HEAD:main 2>/dev/null; then echo pushed; exit 0; fi
+            git pull -q --rebase origin main
+          done
+          echo 'could not push after 3 tries'; exit 1

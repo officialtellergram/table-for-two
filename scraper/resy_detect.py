@@ -119,38 +119,108 @@ def detect(spot_or_url, party_size=2, scan_days=95, today=None, session=None):
     }
 
 
-# ---- time-series refinement (release schedule + release time) -------------------
-# One fetch gives the window and difficulty. The release TIME and SCHEDULE need
-# observation over time: the horizon (furthest bookable date) jumps forward by one
-# day at exactly the daily release time. Accumulate detect() results in a small
-# per-venue history and derive:
-#   releaseSchedule: horizon advances ~1/day => 'daily'; jumps ~30 at a month
-#     boundary and is otherwise static => 'calendar-month'/'monthly'; +7 on a
-#     fixed weekday => 'weekly'.
-#   releaseTime: the UTC (->local) timestamp at which horizonRaw increments.
-# The radar already polls these venues; folding detect() into that sweep and
-# appending {observedAt, horizonRaw} per venue is all the history this needs.
+# ---- time-series refinement: release TIME + SCHEDULE -----------------------------
+# One fetch gives window + scarcity. The release time/schedule need observation
+# over time: the horizon (furthest bookable date) jumps forward by a day at the
+# daily release time. Accumulate {observedAt, horizonRaw} per venue (see
+# .detect_state.json in enrich_windows) and derive them here.
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    ZoneInfo = None
 
-def infer_release_time(history):
-    """Given [{observedAt, horizonRaw}, ...] for one venue (chronological), return
-    the local release time if a daily horizon-advance boundary is visible, else None.
-    history entries must be dicts with ISO 'observedAt' and int 'horizonRaw'."""
-    prev = None
-    flips = []
-    for h in sorted(history, key=lambda x: x["observedAt"]):
-        hr = h.get("horizonRaw")
-        if hr is None:
-            continue
-        if prev is not None and hr > prev["hr"]:
-            # horizon jumped between prev.observedAt and this.observedAt — release happened in that gap
-            flips.append((prev["at"], h["observedAt"]))
-        prev = {"hr": hr, "at": h["observedAt"]}
-    if not flips:
+# Resy release times cluster hard at a few clock values (from hardtobook's NYC
+# distribution). So we don't need minute-precise polling: bracket a horizon flip
+# coarsely (~4h), then SNAP to the common release time inside that bracket. Same
+# trick as _snap for windows. Minutes-of-day (local) -> label.
+# minutes-of-day (local) -> (label, PRIOR). Priors are hardtobook's observed NYC
+# release-time frequencies — a ~4h poll bracket usually spans several candidates,
+# so we disambiguate by which release clock is a-priori most likely.
+COMMON_RELEASE = {
+    0:  ("12:00 AM (Midnight)", 27), 540: ("9:00 AM", 20), 600: ("10:00 AM", 28),
+    630: ("10:30 AM", 2), 660: ("11:00 AM", 4), 720: ("12:00 PM (Noon)", 11),
+    780: ("1:00 PM", 2), 840: ("2:00 PM", 2), 900: ("3:00 PM", 3),
+    1020: ("5:00 PM", 2), 1080: ("6:00 PM", 2),
+}
+_TZ_LABEL = {"America/New_York": "ET", "America/Chicago": "CT", "America/Denver": "MT",
+             "America/Los_Angeles": "PT", "Pacific/Honolulu": "HST", "America/Phoenix": "MST"}
+
+
+def _local_minutes(iso_utc, tz):
+    """Minutes-of-day (0-1439) of a UTC ISO timestamp in the given IANA tz."""
+    dt = datetime.fromisoformat(iso_utc)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    if ZoneInfo:
+        dt = dt.astimezone(ZoneInfo(tz))
+    return dt.hour * 60 + dt.minute, dt
+
+
+def infer_release_local(history, tz):
+    """From [{observedAt, horizonRaw}, ...] (one venue), return (label, tzlabel,
+    confidence) for the daily release time, snapped to a common clock value — or
+    None. `tz` is the venue city's IANA zone. Confidence = how many flips agreed."""
+    if not ZoneInfo:
         return None
-    # tightest bracket around a flip = best release-time estimate (midpoint)
-    a, b = min(flips, key=lambda f: (datetime.fromisoformat(f[1]) - datetime.fromisoformat(f[0])))
-    mid = datetime.fromisoformat(a) + (datetime.fromisoformat(b) - datetime.fromisoformat(a)) / 2
-    return mid.isoformat()
+    hist = sorted((h for h in history if h.get("horizonRaw") is not None),
+                  key=lambda x: x["observedAt"])
+    weight = {}   # label -> prior-weighted vote total
+    flips = {}    # label -> count of distinct flip brackets it fell in
+    prev = None
+    for h in hist:
+        if prev is not None and h["horizonRaw"] > prev["horizonRaw"]:
+            # release happened in the (prev, h) UTC bracket — every common time in it
+            # is a candidate, weighted by its a-priori likelihood.
+            m0, _ = _local_minutes(prev["observedAt"], tz)
+            m1, _ = _local_minutes(h["observedAt"], tz)
+            for mins, (label, prior) in COMMON_RELEASE.items():
+                inside = (m0 <= mins <= m1) if m0 <= m1 else (mins >= m0 or mins <= m1)  # day wrap
+                if inside:
+                    weight[label] = weight.get(label, 0) + prior
+                    flips[label] = flips.get(label, 0) + 1
+        prev = h
+    if not weight:
+        return None
+    label = max(weight, key=weight.get)
+    conf = flips[label]                       # how many flips this clock was consistent with
+    # need at least 2 corroborating flips before we commit a release time
+    if conf < 2:
+        return None
+    return (label, _TZ_LABEL.get(tz, "local"), conf)
+
+
+def infer_schedule(history):
+    """'daily' if the horizon advances ~1/day across the series; 'irregular' if it
+    sits static for long stretches then jumps (monthly/weekly — needs the LLM/site
+    to name which). None if too little history."""
+    hist = sorted((h for h in history if h.get("horizonRaw") is not None),
+                  key=lambda x: x["observedAt"])
+    if len(hist) < 4:
+        return None
+    diffs = [b["horizonRaw"] - a["horizonRaw"] for a, b in zip(hist, hist[1:])]
+    advances = sum(1 for d in diffs if d > 0)
+    jumps = sum(1 for d in diffs if d >= 7)
+    if jumps and advances <= jumps + 1:
+        return "irregular"          # big sporadic jumps => monthly/weekly-ish
+    if advances >= max(1, len(diffs) // 3):
+        return "daily"
+    return None
+
+
+def difficulty_from_history(obs, curated):
+    """Nudge curated difficulty by AT MOST 1 step toward what repeated live scarcity
+    implies — never clobber on a single snapshot. Needs >=4 obs across >=2 days that
+    consistently disagree by >=2. Returns the (possibly unchanged) difficulty."""
+    scars = [o["scarcity"] for o in obs if o.get("scarcity") is not None]
+    days = {o["observedAt"][:10] for o in obs if o.get("scarcity") is not None}
+    if len(scars) < 4 or len(days) < 2 or not curated:
+        return curated
+    scars_sorted = sorted(scars)
+    med = scars_sorted[len(scars_sorted) // 2]
+    implied = _difficulty(int(med * 100), 100)   # reuse the same bucketing
+    if implied is None or abs(implied - curated) < 2:
+        return curated
+    return curated + (1 if implied > curated else -1)   # one step only, bounded by caller
 
 
 if __name__ == "__main__":
