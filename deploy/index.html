@@ -356,6 +356,14 @@
     color:var(--onaccent);background:var(--good);border-radius:6px;padding:2px 6px;vertical-align:middle}
 
   .actions{display:flex;gap:8px;margin-top:4px;flex-wrap:wrap}
+  /* Per-card alert bell — the wedge's conversion moment. Gold when idle, green
+     when armed. Only rendered on radar-visible platforms (Resy/OpenTable). */
+  .btn.watchb{color:var(--accent2);border-color:color-mix(in srgb,var(--accent2) 32%,transparent);
+    display:inline-flex;align-items:center;gap:6px}
+  .btn.watchb svg{width:13px;height:13px;flex:none}
+  .btn.watchb:hover{border-color:var(--accent2)}
+  .btn.watchb.on{color:var(--good);border-color:color-mix(in srgb,var(--good) 45%,transparent);
+    background:color-mix(in srgb,var(--good) 10%,transparent)}
   .btn{flex:1;text-align:center;text-decoration:none;border-radius:10px;padding:11px 10px;
     font-weight:600;font-size:12.5px;letter-spacing:.4px;border:1px solid var(--line);background:transparent;color:var(--muted);
     transition:border-color .15s ease,background .15s ease,color .15s ease}
@@ -551,8 +559,9 @@
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
     <button class="modal-x" id="authClose" aria-label="Close">✕</button>
     <div id="authView">
-      <h2 id="authTitle">Get alerts ✌︎</h2>
-      <p class="modal-sub">We'll email you the moment a table opens at a spot you're watching. No password — we send a magic link.</p>
+      <h2 id="authTitle">The table you can't get? We watch it.</h2>
+      <p class="modal-sub">Pick the spots everyone fights over — the instant a reservation frees up (a cancellation, a fresh drop), we alert you. No password; we send a magic link.</p>
+      <p id="authCtx" class="modal-sub" style="color:var(--accent2)" hidden></p>
       <form id="authForm">
         <input id="authEmail" type="email" required placeholder="you@email.com" autocomplete="email" />
         <button class="btn book avail" type="submit" style="--c:var(--good)">Send magic link</button>
@@ -560,7 +569,7 @@
       <div id="authMsg" class="modal-msg"></div>
     </div>
     <div id="acctView" hidden>
-      <h2 id="acctTitle">Your alerts ✌︎</h2>
+      <h2 id="acctTitle">Your alerts</h2>
       <p class="modal-sub" id="acctWho"></p>
       <div class="watch-add">
         <div class="modal-sub" style="margin:0 0 6px">Watch <b id="watchCityLbl">this city</b> for openings between:</div>
@@ -1234,9 +1243,15 @@ function buildCard(s,drop){
     ${s.tips&&s.tips.length?`<details class="tips"><summary>${s.tips.length} booking tips</summary><ul>${s.tips.map(t=>'<li>'+esc(t)+'</li>').join('')}</ul></details>`:''}
     <div class="actions">
       ${s.platformUrl?`<a class="btn book${open?' avail':''}" style="--c:${open?'var(--good)':platColor(s.platform)}" href="${attr(prefillUrl(s))}" target="_blank" rel="noopener">${bookLabel}</a>`:''}
+      ${watchable(s)?`<button class="btn watchb" data-watch="${attr(s.id)}" title="Alert me the moment a table for two opens up here">${BELL}<span>Alert me</span></button>`:''}
       ${s.website&&s.platformUrl!==s.website?`<a class="btn ghost" href="${attr(s.website)}" target="_blank" rel="noopener">Site</a>`:''}
       ${s.walkIns&&!s.platformUrl?'<span class="btn ghost">Walk-in only</span>':''}
     </div>`;
+  const wb=el.querySelector('[data-watch]');
+  if(wb){
+    if(window.t42Watched && window.t42Watched(s.id)) markWatchBtn(wb,true);
+    wb.onclick=()=>{ if(window.t42Watch) window.t42Watch(s,wb); else $('alertBtn').click(); };
+  }
   const c={spot:s, el, state, schedLabel,
     lblEl:el.querySelector('[data-lbl]'), timeEl:el.querySelector('[data-time]'),
     whenEl:el.querySelector('[data-when]'), dropEl:el.querySelector('[data-drop]')};
@@ -1244,6 +1259,23 @@ function buildCard(s,drop){
   paintCard(c);
   return el;
 }
+
+/* Alert-me support: radar sees Resy/OpenTable, so only those platforms can
+   honestly promise an alert. Line-art bell, no emoji. */
+function watchable(s){ return !!s.platformUrl && /^(resy|opentable)$/i.test(s.platform||''); }
+const BELL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>';
+function markWatchBtn(btn,on){
+  if(!btn) return;
+  btn.classList.toggle('on',!!on);
+  btn.innerHTML = on ? BELL+'<span>Watching ✓</span>' : BELL+'<span>Alert me</span>';
+}
+/* The auth module announces the signed-in user's watches; re-mark rendered cards. */
+document.addEventListener('t42-watches',e=>{
+  const set=new Set(e.detail||[]);
+  document.querySelectorAll('[data-watch]').forEach(b=>{
+    markWatchBtn(b, set.has(cityKey+'|'+b.getAttribute('data-watch')));
+  });
+});
 
 function fmtAsOf(av){ return av&&av.checkedAt ? 'as of '+av.checkedAt+(av&&av.stale?' · re-check':'') : ''; }
 
@@ -1852,7 +1884,7 @@ catch(e){ console.warn('auth init failed', e); }
 
 function open(){ scrim.hidden=false; refresh(); }
 function close(){ scrim.hidden=true; }
-$('alertBtn').onclick=open;
+$('alertBtn').onclick=()=>{ const ctx=$('authCtx'); if(ctx) ctx.hidden=true; open(); };
 $('authClose').onclick=close;
 scrim.addEventListener('click',e=>{ if(e.target===scrim) close(); });
 
@@ -1860,16 +1892,70 @@ scrim.addEventListener('click',e=>{ if(e.target===scrim) close(); });
 function curCity(){ const s=$('city'); return {key:s.value, label:s.options[s.selectedIndex]?.textContent||s.value}; }
 function curParty(){ return +($('party')?.value)||2; }
 
+/* ---- Per-card "Alert me" (the wedge's conversion moment) ----
+   watched = "cityKey|spotId" for every venue the signed-in user watches.
+   The classic script renders the bells; we own state + persistence. A watch
+   tapped while signed out is stashed in sessionStorage and armed automatically
+   after the magic-link redirect lands back here. */
+const watched = new Set();
+async function hydrateWatched(){
+  try{
+    const rows = await listWatchlists();
+    watched.clear();
+    for(const w of rows){
+      if(Array.isArray(w.venues)) for(const v of w.venues) watched.add(w.city+'|'+v);
+    }
+    document.dispatchEvent(new CustomEvent('t42-watches',{detail:[...watched]}));
+  }catch(e){ /* tables not ready — bells just stay idle */ }
+}
+window.t42Watched = id => watched.has(curCity().key+'|'+id);
+window.t42Watch = async (spot, btn) => {
+  const session = ready ? await getSession().catch(()=>null) : null;
+  const c = curCity();
+  if(!session){
+    try{ sessionStorage.setItem('t42-pending-watch',
+      JSON.stringify({city:c.key, id:spot.id, name:spot.name, party:curParty()})); }catch(e){}
+    const ctx=$('authCtx');
+    if(ctx){ ctx.textContent='We’ll arm your alert for '+spot.name+' the moment you’re signed in.'; ctx.hidden=false; }
+    open(); return;
+  }
+  const key = c.key+'|'+spot.id;
+  if(watched.has(key)){ markBtn(btn,true); return; }
+  try{
+    await saveWatchlist({ city:c.key, venues:[spot.id], earliest:null, latest:null,
+      dates:null, party:curParty() });
+    watched.add(key); markBtn(btn,true);
+  }catch(err){ alert('Could not save the alert: '+(err.message||err)); }
+};
+function markBtn(btn,on){ if(btn&&window.markWatchBtn) window.markWatchBtn(btn,on); }
+
+/* Complete a watch that was tapped before sign-in (survives the magic-link trip). */
+async function completePendingWatch(){
+  let p=null;
+  try{ p=JSON.parse(sessionStorage.getItem('t42-pending-watch')||'null'); }catch(e){}
+  if(!p) return;
+  try{
+    await saveWatchlist({ city:p.city, venues:[p.id], earliest:null, latest:null,
+      dates:null, party:p.party||2 });
+    watched.add(p.city+'|'+p.id);
+    const msg=$('authMsg');
+    if(msg){ msg.className='modal-msg ok'; msg.textContent='Alert armed for '+p.name+' — we’ll email the moment a table opens.'; }
+  }catch(e){ /* duplicate or transient — hydration below settles the truth */ }
+  try{ sessionStorage.removeItem('t42-pending-watch'); }catch(e){}
+}
+
 async function refresh(){
   const session = ready ? await getSession().catch(()=>null) : null;
   const authed = !!session;
-  $('alertBtn').textContent = authed ? 'My alerts ✌︎' : 'Get alerts';
+  $('alertBtn').textContent = authed ? 'My alerts' : 'Get alerts';
   $('alertBtn').classList.toggle('in', authed);
   $('authView').hidden = authed;
   $('acctView').hidden = !authed;
   if(authed){
     $('acctWho').textContent = 'Signed in as '+session.user.email;
     const c=curCity(); $('watchCityLbl').textContent=c.label.replace(/ — .*/,'');
+    await completePendingWatch();
+    await hydrateWatched();
     await loadWatches();
   }
 }
