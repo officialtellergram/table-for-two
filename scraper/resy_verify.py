@@ -111,10 +111,14 @@ def search_slug(name, lat, lng, session=None):
     if not requests or lat is None or lng is None:
         return None
     s = session or requests
-    body = {"query": name, "geo": {"latitude": lat, "longitude": lng}, "types": ["venue"]}
+    # Resy's search changed contract (2026): it now wants a form-encoded POST with
+    # a single stringified `struct_data` holding query+geo+types. A JSON body 400s
+    # ("missing struct_data parameter"). Verified working 2026-07-24.
+    struct = {"query": name, "geo": {"latitude": lat, "longitude": lng}, "types": ["venue"]}
     try:
         r = s.post("https://api.resy.com/3/venuesearch/search",
-                   headers=_H, data=json.dumps(body), timeout=20)
+                   headers={**_H, "Content-Type": "application/x-www-form-urlencoded"},
+                   data={"struct_data": json.dumps(struct)}, timeout=20)
         if r.status_code != 200:
             return None
         hits = (r.json().get("search") or {}).get("hits", [])
