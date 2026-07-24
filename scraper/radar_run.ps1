@@ -46,7 +46,9 @@ try {
     # 3-day window + 0.75s spacing: Resy rate-limits sustained 30-min sweeps (429,
     # cools off over hours) — fewer, slower calls keep us under it. resy_find
     # aborts the pass on a sustained 429 so a limited sweep costs ~2 calls.
-    $out = & $Py 'scraper\sniper.py' '--only' 'resy' '--days' '3' '--limit' '8' '--sleep' '0.75' '--notify' 2>&1
+    # --cities pinned to the legacy radar set — the manifest now carries 20+
+    # agent-curated cities; sweeping them all would blow Resy's rate limits.
+    $out = & $Py 'scraper\sniper.py' '--only' 'resy' '--cities' 'nyc,dc,richmond,boston,houston' '--days' '3' '--limit' '8' '--sleep' '0.75' '--notify' 2>&1
     Log ($out -join ' | ')
 
     if ($Push) {

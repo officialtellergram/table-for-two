@@ -582,7 +582,7 @@
     <button class="modal-x" id="reqClose" aria-label="Close">✕</button>
     <div id="reqForm1">
       <h2>Bring Table for Two to your city</h2>
-      <p class="modal-sub">We're not there yet — tell us where and we'll email you the moment we launch.</p>
+      <p class="modal-sub">We're not there yet — but every request queues a curation agent that researches your city's hardest tables, vetted by real critics. Leave an email and we'll tell you the moment it's live.</p>
       <form id="reqForm">
         <input id="reqCity" type="text" required placeholder="Your city (e.g. Nashville)" autocomplete="address-level2" />
         <input id="reqEmail" type="email" placeholder="you@email.com — optional, for a launch alert" autocomplete="email" />
@@ -591,9 +591,33 @@
       <div id="reqMsg" class="modal-msg"></div>
     </div>
     <div id="reqDone" hidden>
-      <h2>Noted ✌︎</h2>
+      <h2>Our agent is on it</h2>
       <p class="modal-sub" id="reqDoneSub"></p>
       <button class="btn book" id="reqExplore" style="--c:var(--accent2)">Explore our current cities →</button>
+    </div>
+  </div>
+</div>
+<!-- "Nominate a restaurant" modal: visitors pitch a specific spot for a covered
+     city. Lands as 'pending' in Supabase; once approved, the concierge agent
+     vets it under the covenant and only then does it join the list. -->
+<div class="modal-scrim" id="rrScrim" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-x" id="rrClose" aria-label="Close">✕</button>
+    <div id="rrForm1">
+      <h2>Nominate a restaurant</h2>
+      <p class="modal-sub">Know a table that belongs here? Every nomination is reviewed, then a curation agent vets it against real critics before it joins the list — no slop, ever.</p>
+      <form id="rrForm">
+        <input id="rrName" type="text" required maxlength="120" placeholder="Restaurant name" />
+        <input id="rrNote" type="text" maxlength="200" placeholder="Why it belongs (optional)" />
+        <input id="rrEmail" type="email" placeholder="you@email.com — optional, hear back if it makes the cut" autocomplete="email" />
+        <button class="btn book avail" type="submit" style="--c:var(--good)">Nominate for <span id="rrCityName">this city</span></button>
+      </form>
+      <div id="rrMsg" class="modal-msg"></div>
+    </div>
+    <div id="rrDone" hidden>
+      <h2>In the queue</h2>
+      <p class="modal-sub" id="rrDoneSub"></p>
+      <button class="btn book" id="rrBack" style="--c:var(--accent2)">Back to the list →</button>
     </div>
   </div>
 </div>
@@ -678,7 +702,8 @@
        the fixed #tableScene behind it. -->
   <div id="tableau" aria-hidden="true"></div>
   <footer>
-    <div style="margin-bottom:10px">Don't see your city? <a href="#" id="reqCityLink" style="color:var(--accent2)">Request it →</a></div>
+    <div style="margin-bottom:10px">Don't see your city? <a href="#" id="reqCityLink" style="color:var(--accent2)">Request it →</a>
+      &nbsp;·&nbsp; Missing a great spot? <a href="#" id="reqSpotLink" style="color:var(--accent2)">Nominate it →</a></div>
     <span style="font-family:var(--serif);font-style:italic;color:var(--muted)">Your table is ready…</span>
     · NYC data: <a href="https://www.hardtobook.xyz/?view=map" target="_blank" rel="noopener">hardtobook.xyz</a>
     · countdowns shown in each city's local time · always confirm with the restaurant.
@@ -1474,6 +1499,39 @@ async function submitCityRequest(payload){
   $('reqExplore').onclick=close;
   scrim.addEventListener('click',e=>{ if(e.target===scrim) close(); });
   const link=$('reqCityLink'); if(link) link.onclick=e=>{ e.preventDefault(); open('',null,'manual',null); };
+
+  /* "Nominate a restaurant" — same fire-and-forget pattern as city requests.
+     Lands as status:'pending'; approval + agent vetting happen downstream. */
+  const rr=$('rrScrim');
+  if(rr){
+    const openRR=()=>{
+      $('rrName').value=''; $('rrNote').value=''; $('rrEmail').value=''; $('rrMsg').textContent='';
+      $('rrForm1').hidden=false; $('rrDone').hidden=true;
+      const c=DATA_SOURCES[cityKey];
+      $('rrCityName').textContent = c ? c.label : 'this city';
+      rr.hidden=false; setTimeout(()=>$('rrName').focus(),60);
+    };
+    const closeRR=()=>{ rr.hidden=true; };
+    const slink=$('reqSpotLink'); if(slink) slink.onclick=e=>{ e.preventDefault(); openRR(); };
+    $('rrClose').onclick=closeRR; $('rrBack').onclick=closeRR;
+    rr.addEventListener('click',e=>{ if(e.target===rr) closeRR(); });
+    $('rrForm').onsubmit=e=>{
+      e.preventDefault();
+      const name=$('rrName').value.trim(); if(!name) return;
+      $('rrMsg').textContent='Sending…';
+      fetch(SB_URL+'/rest/v1/restaurant_requests',{
+        method:'POST',
+        headers:{apikey:SB_ANON,'Authorization':'Bearer '+SB_ANON,
+                 'Content-Type':'application/json','Prefer':'return=minimal'},
+        body:JSON.stringify({ city_key:cityKey, restaurant_name:name,
+          note:$('rrNote').value.trim()||null, email:$('rrEmail').value.trim()||null })
+      }).catch(()=>{});   // fire-and-forget; never block the user on a hiccup
+      const c=DATA_SOURCES[cityKey];
+      $('rrDoneSub').textContent='Thanks — '+name+' is in the review queue for '
+        +(c?c.label:'this city')+'. If it clears vetting, it joins the list.';
+      $('rrForm1').hidden=true; $('rrDone').hidden=false;
+    };
+  }
   $('reqForm').onsubmit=async e=>{
     e.preventDefault();
     const city=$('reqCity').value.trim(); if(!city) return;
@@ -1511,12 +1569,14 @@ function runLanding(){
       if(!loc){ $('lzMsg').textContent='Couldn’t place you — showing our cities.'; return leave(null); }
       const cov=nearestCovered(loc.lat,loc.lng);
       if(cov && cov.km<=IN_METRO){ return leave(cov.key); }   // you're in a covered metro
-      // outside coverage → capture the demand, then drop them into our flagship city
+      // outside coverage → capture the demand, then land them in the nearest
+      // covered city within road-trip range (never a silent flagship dump)
       $('lzMsg').textContent='';
       const maj=nearestMajor(loc.lat,loc.lng);
       const cityName = maj && maj.km<170 ? maj.name : '';
-      if(window.openCityRequest) window.openCityRequest(cityName, loc, 'geo', ()=>leave(null));
-      else leave(null);
+      const fallback = cov && cov.km<=500 ? cov.key : null;
+      if(window.openCityRequest) window.openCityRequest(cityName, loc, 'geo', ()=>leave(fallback));
+      else leave(fallback);
     };
     $('lzBrowse').onclick=()=>leave(null);
   });
@@ -1542,8 +1602,22 @@ function runLanding(){
     if(chosen && DATA_SOURCES[chosen]) cityKey=chosen;
     try{ localStorage.setItem('t42-entered','1'); if(chosen) localStorage.setItem('t42-city',chosen); }catch(e){}
   }else{
-    const near=await geoCity();                       // entered before, no saved pick
-    if(near) cityKey=near;
+    // Entered before, no saved pick: locate once. Never silently dump a far-away
+    // visitor into the flagship city — that reads as "we don't know you exist".
+    const loc=await geoLocate();
+    if(loc){
+      const cov=nearestCovered(loc.lat,loc.lng);
+      if(cov && cov.km<=500){ cityKey=cov.key; }   // in-metro or regional neighbor
+      else{
+        // Truly uncovered: log the demand honestly (once), keep them on browse-all.
+        let asked=null; try{ asked=localStorage.getItem('t42-req-asked'); }catch(e){}
+        if(!asked && window.openCityRequest){
+          const maj=nearestMajor(loc.lat,loc.lng);
+          openCityRequest(maj && maj.km<170 ? maj.name : '', loc, 'geo-return', null);
+          try{ localStorage.setItem('t42-req-asked','1'); }catch(e){}
+        }
+      }
+    }
   }
   initCitySelect();
   initPartySelect();

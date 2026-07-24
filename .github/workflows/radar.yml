@@ -50,12 +50,47 @@ jobs:
       # cools off over hours) — fewer, slower calls keep us under it. resy_find
       # aborts the pass on a sustained 429 so a limited sweep costs ~2 calls.
       # No --notify: that's the Telegram path, which is sidelined.
+      # --cities PINNED to the legacy radar set: the manifest now carries 20+
+      # agent-curated cities, and sweeping them all (~170 venues) would blow
+      # straight through Resy's rate limits and poison the whole radar. Expand
+      # this list deliberately (with pacing math), never by default.
       - name: Sweep Resy
         working-directory: scraper
         env:
           SLEEP: ${{ inputs.sleep || '0.75' }}
           LIMIT: ${{ inputs.limit || '8' }}
-        run: python sniper.py --only resy --days 3 --limit "$LIMIT" --sleep "$SLEEP"
+        run: python sniper.py --only resy --cities nyc,dc,richmond,boston,houston --days 3 --limit "$LIMIT" --sleep "$SLEEP"
+
+      # Bridge city-request demand into the repo. The city-concierge cloud agent
+      # can't reach Supabase (its egress proxy 403s the host), but it CAN read
+      # this repo — so this runner (open egress) syncs the aggregated demand RPC
+      # into cities/demand.json for it. Anon key is public (ships in web/config.js).
+      - name: Sync demand + restaurant queue
+        run: |
+          ANON=$(grep -o 'eyJ[A-Za-z0-9_.-]*' web/config.js | head -1)
+          sync_rpc () {   # $1 rpc name, $2 output file, $3 payload key
+            BODY=$(curl -sf -m 30 -X POST \
+              "https://thrshcloruvcxrowfzui.supabase.co/rest/v1/rpc/$1" \
+              -H "apikey: $ANON" -H "Authorization: Bearer $ANON" \
+              -H "Content-Type: application/json" -d '{}') || { echo "$1 fetch failed; keeping previous"; return 0; }
+            python3 - "$BODY" "$2" "$3" <<'EOF'
+          import json, sys, datetime, pathlib
+          data, path, key = json.loads(sys.argv[1]), pathlib.Path(sys.argv[2]), sys.argv[3]
+          out = {"synced_at": datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0).isoformat(),
+                 key: data}
+          # only rewrite when the payload changed — synced_at alone must not churn commits
+          if path.exists():
+              try:
+                  if json.loads(path.read_text())[key] == data:
+                      print(f'{path.name}: unchanged'); sys.exit(0)
+              except Exception:
+                  pass
+          path.write_text(json.dumps(out, indent=2) + "\n")
+          print(f'{path.name}: updated ({len(data)} rows)')
+          EOF
+          }
+          sync_rpc city_demand cities/demand.json demand
+          sync_rpc restaurant_queue cities/restaurant-queue.json queue
 
       # Rebase-and-retry: a manual push (or a local sweep) can land between our
       # checkout and our push, and a lost sweep means a lost opening.
@@ -64,6 +99,7 @@ jobs:
           git config user.name  'table-for-two radar'
           git config user.email 'radar@users.noreply.github.com'
           git add cities/just-opened.json deploy/cities/just-opened.json scraper/.sniper_state.json
+          git add cities/demand.json cities/restaurant-queue.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo 'no feed changes; nothing to push'
             exit 0
