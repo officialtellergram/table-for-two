@@ -1,10 +1,80 @@
 {
-  "generated": "2026-07-24T15:26:05+00:00",
+  "generated": "2026-07-24T17:06:14+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 74,
+  "new": 5,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-24",
+      "time": "16:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-24T17:06:14+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-24",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-24T17:06:14+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-24",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-24T17:06:14+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-24",
+      "time": "23:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-24T17:06:14+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-07-24",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-24&seats=2",
+      "firstSeen": "2026-07-24T17:06:14+00:00",
+      "new": true
+    },
     {
       "city": "richmond",
       "spotId": "grisette",
@@ -17,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -31,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -45,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -59,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -157,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -171,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -185,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -199,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -227,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -241,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -255,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -269,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -283,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -297,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -311,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -325,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -339,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -353,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -367,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -395,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -409,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -423,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -437,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -451,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -465,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -479,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -493,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -507,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -521,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -535,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -549,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -563,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -577,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -591,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -605,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -619,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -633,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -647,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -661,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -675,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -689,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -703,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -717,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -731,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -745,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -759,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -773,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -787,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -801,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -815,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -829,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -843,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -857,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -871,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -885,7 +955,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -899,7 +969,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -913,7 +983,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -927,7 +997,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -941,7 +1011,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -955,7 +1025,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -969,7 +1039,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -983,7 +1053,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -997,7 +1067,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1011,7 +1081,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1025,7 +1095,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1039,20 +1109,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-07-24&seats=2",
       "firstSeen": "2026-07-24T15:26:05+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-24",
-      "time": "23:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-24&seats=2",
-      "firstSeen": "2026-07-24T13:46:30+00:00",
       "new": false
     },
     {
@@ -1346,34 +1402,6 @@
       "type": "Bar Seat",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-24T00:59:38+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-26",
-      "time": "21:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-24T00:59:38+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-26",
-      "time": "21:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-26&seats=2",
       "firstSeen": "2026-07-24T00:59:38+00:00",
       "new": false
     },
@@ -2772,34 +2800,6 @@
       "date": "2026-07-26",
       "time": "17:00",
       "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-24T00:59:38+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-26",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-24T00:59:38+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-07-26",
-      "time": "17:15",
-      "type": "Hightop",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-07-26&seats=2",
       "firstSeen": "2026-07-24T00:59:38+00:00",
