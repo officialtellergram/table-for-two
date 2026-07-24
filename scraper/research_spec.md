@@ -9,7 +9,23 @@ A restaurant is eligible if it:
 - is a real sit-down restaurant (no food halls, pop-ups under ~3 months old unless major),
 - is in the target city or its immediate close-in neighborhoods.
 
-## How we rank "hardest to book" (top 25 per city)
+## List size & tiers (protocol v2, 2026-07)
+Each city ships up to **50 spots**, researched as two independent tiers and
+merged hardest-first:
+
+- **Tier A — impossible tables** (difficulty 4–5): the reservations people
+  scheme over. Instant sellouts, ticketed/monthly drops, tiny counters. ~22–28
+  candidates researched.
+- **Tier B — beloved & bookable** (difficulty 2–3, honestly rated): critic-vetted
+  favorites you can actually get — the "Any craving" discovery layer. Same
+  provenance covenant, booking mechanics still required (walk-in strategy is
+  first-class data here). ~26–34 candidates researched.
+
+Tiers are verified separately, deduped (same venue in both tiers keeps the
+higher-difficulty entry), capped at 50. Small markets ship honestly fewer —
+minimum 8 verified spots or the city doesn't ship at all. Never pad.
+
+## How we rank "hardest to book"
 Ranked on a composite, highest signal first:
 
 1. **Reservation scarcity (objective).** Measured live via Resy's calendar for a
