@@ -24,6 +24,7 @@
 <meta name="twitter:image" content="https://tablefortwo.city/icons/og-square.png" />
 <link rel="canonical" href="https://tablefortwo.city/" />
 <link rel="icon" type="image/png" href="icons/favicon.png" />
+<link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 <!-- PWA: installable to home screen (iOS on-ramp) -->
 <link rel="manifest" href="manifest.webmanifest" />
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
@@ -717,6 +718,7 @@
     · NYC data: <a href="https://www.hardtobook.xyz/?view=map" target="_blank" rel="noopener">hardtobook.xyz</a>
     · countdowns shown in each city's local time · always confirm with the restaurant.
     <br/>An unofficial dashboard. Reservation release times can change without notice.
+    <br/><a href="/privacy/" style="color:var(--muted)">Privacy</a> · <a href="/terms/" style="color:var(--muted)">Terms</a> · <a href="mailto:support@tablefortwo.city" style="color:var(--muted)">support@tablefortwo.city</a>
   </footer>
 </main>
 
@@ -1627,7 +1629,14 @@ function runLanding(){
   await loadManifest();
   let saved=null, entered=null;
   try{ saved=localStorage.getItem('t42-city'); entered=localStorage.getItem('t42-entered'); }catch(e){}
-  if(saved && DATA_SOURCES[saved] && DATA_SOURCES[saved].available){
+  // Deep link from an SEO city page (/?city=<key>) wins over everything: someone
+  // arriving on "hardest tables in Chicago" must land in Chicago, entered or not.
+  let param=null;
+  try{ param=new URLSearchParams(location.search).get('city'); }catch(e){}
+  if(param && DATA_SOURCES[param] && DATA_SOURCES[param].available){
+    cityKey=param;
+    try{ localStorage.setItem('t42-entered','1'); localStorage.setItem('t42-city',param); }catch(e){}
+  }else if(saved && DATA_SOURCES[saved] && DATA_SOURCES[saved].available){
     cityKey=saved;                                   // returning visitor with a pick
   }else if(!entered){
     const chosen=await runLanding();                 // first visit: the welcome portal
