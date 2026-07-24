@@ -1,0 +1,45 @@
+# Regenerate static SEO city pages whenever city data changes, so every new city
+# the concierge/fleet ships gets a crawlable /<city>/ landing page automatically.
+# Output lives at repo root (/<key>/index.html, sitemap.xml, robots.txt) — NOT
+# under cities/ — so the Action's own commit can't retrigger it.
+name: seo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cities/**'
+      - 'scripts/build_seo.py'
+      - '.github/workflows/seo.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/build_seo.py
+      - name: Commit regenerated pages
+        run: |
+          git config user.name  'table-for-two seo'
+          git config user.email 'seo@users.noreply.github.com'
+          git add -A ':(glob)*/index.html' sitemap.xml robots.txt
+          if git diff --cached --quiet; then
+            echo 'SEO pages unchanged; nothing to commit'; exit 0
+          fi
+          git commit -q -m 'seo: regenerate city pages + sitemap [skip ci]'
+          for i in 1 2 3; do
+            if git push -q origin HEAD:main 2>/dev/null; then echo pushed; exit 0; fi
+            git pull -q --rebase origin main
+          done
+          echo 'could not push after 3 tries'; exit 1
