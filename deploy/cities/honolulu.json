@@ -1,0 +1,2319 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Honolulu",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "sushi-sho",
+      "name": "Sushi Sho",
+      "neighborhood": "Waikiki",
+      "cuisine": "Edomae omakase sushi",
+      "coordinates": {
+        "lat": 21.2846,
+        "lng": -157.8269
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.marriott.com/en-us/dining/restaurant-bar/hnlrr-the-ritz-carlton-residences-waikiki-beach/5921658-sushi-sho.mi",
+      "website": "https://www.exploretock.com/sushisho/",
+      "phoneNumber": "808-729-9717",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations by phone only (808-729-9717), taken daily ~2:00-10:30 PM HST; the Tock page is for bento takeout, not the counter",
+        "Credit card required; ~50% same-day cancellation fee",
+        "VERIFY current tasting price and exact seat count (sources cite 10-16 seats, ~$400)",
+        "Average lead time cited at ~6 months - call the moment you have travel dates"
+      ],
+      "signatureDish": "30+ course edomae omakase; Maui bonito with Hawaiian mustard and onions, baby red snapper nigiri dusted with egg yolk and yuzu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Counter-only temple",
+        "Hushed, reverent",
+        "World-class edomae"
+      ],
+      "occasion": [
+        "Bucket-list splurge",
+        "Milestone anniversary",
+        "Sushi pilgrimage"
+      ],
+      "dateNote": "The most coveted counter in the Pacific - book six months out and make the whole trip revolve around it.",
+      "sources": [
+        {
+          "name": "The World's 50 Best",
+          "tier": "50 Best Discovery",
+          "url": "https://www.theworlds50best.com/discovery/Establishments/US/Honolulu/Sushi-Sho.html",
+          "note": "Profiles Sushi Sho as a 16-seat counter by chef Keiji Nakazawa serving 30+ course edomae omakase; calls him one of the best sushi chefs in the US and Japan; tasting from $400"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Restaurant feature",
+          "url": "https://www.honolulumagazine.com/now-at-the-ritz-carlton-sushi-sho/",
+          "note": "Local feature on Nakazawa's Sushi Sho arriving at the Ritz-Carlton Residences Waikiki"
+        }
+      ],
+      "evidence": "Chef Keiji Nakazawa's ~10-16 seat counter routinely waitlists ~6 months out; tasting from ~$400; travelers plan resort stays around securing a seat."
+    },
+    {
+      "id": "22-kailua",
+      "name": "22 Kailua",
+      "neighborhood": "Kailua (Windward Oahu)",
+      "cuisine": "Omakase sushi (speakeasy)",
+      "coordinates": {
+        "lat": 21.3958,
+        "lng": -157.7402
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.instagram.com/22kailua/",
+      "website": "https://www.instagram.com/22kailua/",
+      "phoneNumber": "808-561-6060",
+      "releaseSchedule": "monthly",
+      "releaseTime": "",
+      "releaseDay": "Mid-month (watch Instagram for next month's opening)",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "To book: follow @22kailua, watch for the mid-month post opening the next month, then text 808-561-6060 immediately - replies go in the order texts arrive",
+        "Alternatively visit the coffee storefront at 22 Oneawa St, order a coffee, and ask Kijima about omakase - he'll trade numbers and text you",
+        "Seatings around 5:00, 6:30 and 8:00 PM",
+        "VERIFY current omakase price (older coverage cites $75/14 courses; the omakase survey lists $100/$150/$200 tiers)"
+      ],
+      "signatureDish": "14-course 'Hana-Lei' omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Six-seat speakeasy",
+        "Hidden behind a coffee shop",
+        "Word-of-mouth only"
+      ],
+      "occasion": [
+        "In-the-know date",
+        "Sushi obsessive's coup",
+        "Small celebration"
+      ],
+      "dateNote": "Land two of the six seats and you'll be the couple everyone asks how you got in.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Feature",
+          "url": "https://www.honolulumagazine.com/try-to-grab-one-of-the-six-seats-at-this-sushi-speakeasy-in-kailua/",
+          "note": "Details the six seats, chef Taka Kijima, the coffee-shop speakeasy format and text-message-only reservations ('Kijima will become a new texting buddy'); $75 14-course Hana-Lei omakase"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists 22 Kailua among Honolulu's omakase-only counters"
+        }
+      ],
+      "evidence": "Hidden 6-seat counter run by Taka Kijima behind a Kailua coffee shop; no website or standard booking - reservations open monthly and go by text in the order received."
+    },
+    {
+      "id": "tonkatsu-tamafuji",
+      "name": "Tonkatsu Tamafuji",
+      "neighborhood": "Kapahulu",
+      "cuisine": "Japanese tonkatsu",
+      "coordinates": {
+        "lat": 21.2822,
+        "lng": -157.8157
+      },
+      "difficulty": 5,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.tablecheck.com/en/shops/tamafuji-us-kapahulu/reserve",
+      "website": "https://tamafuji-us.com/",
+      "phoneNumber": "808-922-1212",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Sign the walk-in list when doors open - 4:00 PM Mon/Wed-Fri, 11:00 AM Sat/Sun",
+        "lineBy": "Arrive ~1 hour before opening",
+        "advice": "Only a limited number of seats are held for walk-ins; expect a 1hr+ wait. The 2026 move to a larger street-level space added both reservation and walk-in capacity."
+      },
+      "tips": [
+        "Book online via TableCheck (tablecheck.com/en/shops/tamafuji-us-kapahulu/reserve); reservations vanish fast",
+        "New expanded ground-floor space at Hee Hing Plaza, 449 Kapahulu Ave, opened ~April 2026 with an L/U-shaped counter plus tables",
+        "Closed Tuesdays; hours ~4:00-9:30 PM weekdays, 11:00 AM-2:00 PM & 5:00-9:30 PM weekends",
+        "VERIFY exact reservation release window on TableCheck"
+      ],
+      "signatureDish": "Tonkatsu from pork cold-aged ~18 days, fried in copper pots with housemade panko; fried oysters",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Cult katsu counter",
+        "Copper-pot frying",
+        "Utilitarian and beloved"
+      ],
+      "occasion": [
+        "Casual food-nerd date",
+        "Lunch worth the wait",
+        "Comfort splurge"
+      ],
+      "dateNote": "No candlelight - just the best tonkatsu in town and a shared victory over the reservation list.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Feature",
+          "url": "https://www.honolulumagazine.com/tonkatsu-tamafuji-expand/",
+          "note": "Calls it 'Honolulu's most difficult restaurant reservation' with a three-month wait, 18-day cold-aged pork fried in copper pots, expanding to about twice its size"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "The 23 Best Restaurants In Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "'One of the hardest reservations to get on Oahu... almost impossible to get into, with reservations booked five months out'; praises the housemade-panko tonkatsu and fried oysters"
+        }
+      ],
+      "evidence": "Long regarded as Honolulu's single hardest reservation with a ~3-month wait for the counter; even after the 2026 expansion demand far outstrips seats."
+    },
+    {
+      "id": "senia",
+      "name": "Senia",
+      "neighborhood": "Chinatown / Downtown",
+      "cuisine": "Contemporary tasting / New American",
+      "coordinates": {
+        "lat": 21.3135,
+        "lng": -157.8606
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/senia-honolulu",
+      "website": "https://restaurantsenia.com/reservations",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Main dining room welcomes walk-ins when space allows",
+        "lineBy": "",
+        "advice": "The a-la-carte dining room takes walk-ins when possible; the Chef's Counter tasting (Fri/Sat 6:30 PM) is the scarce, reservation-only seat."
+      },
+      "tips": [
+        "Reservations open 60 days out on OpenTable; a Resy waitlist also exists and cancellations move quickly",
+        "Tasting Menu is at the Chef's Counter Fri & Sat 6:30 PM; a-la-carte counter Mon-Thu; dining room a-la-carte always",
+        "VERIFY the exact daily release time (OpenTable typically opens the new day at midnight local)"
+      ],
+      "signatureDish": "Ever-changing multi-course Chef's Counter tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Open-kitchen fine dining",
+        "Per Se pedigree",
+        "Refined but unstuffy"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Big celebration",
+        "Chef's-counter splurge"
+      ],
+      "dateNote": "Snag the Chef's Counter on a Friday and watch Kajioka and Rush cook your tasting an arm's length away.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Oahu review directory",
+          "url": "https://www.theinfatuation.com/oahu/reviews/senia",
+          "note": "The Infatuation's Oahu directory lists Senia (Chris Kajioka & Anthony Rush's Per Se-alum restaurant) as a spot to know in Honolulu"
+        }
+      ],
+      "evidence": "Chris Kajioka & Anthony Rush's (Per Se alumni) flagship; the Chef's Counter tasting runs only Fri/Sat and opens on a rolling 60-day OpenTable window that fills fast, with a busy standby waitlist."
+    },
+    {
+      "id": "sushi-ginza-onodera-hawaii",
+      "name": "Sushi Ginza Onodera",
+      "neighborhood": "Kapahulu",
+      "cuisine": "Edomae omakase sushi",
+      "coordinates": {
+        "lat": 21.2861,
+        "lng": -157.8155
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/sushi-ginza-onodera",
+      "website": "https://www.sushionodera.com/sushi-ginza-onodera-hawaii",
+      "phoneNumber": "808-735-2375",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations online only ('we do not accept reservations by phone'); same-day only, call 808-735-2375",
+        "Dinner 5:00 & 7:30 PM Mon-Fri; lunch 11:00 AM & 1:00 PM Sat-Sun; ~2-hour seating",
+        "$250/person cancellation fee within 24 hours of a dinner booking",
+        "VERIFY which platform the on-site 'reserve' button uses (OpenTable listing exists)"
+      ],
+      "signatureDish": "Omakase-only edomae course (ARATA dinner; SORA lunch)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Formal omakase",
+        "International Ginza pedigree",
+        "Two seatings a night"
+      ],
+      "occasion": [
+        "Special-occasion sushi",
+        "Refined date",
+        "Business splurge"
+      ],
+      "dateNote": "A precise, ceremonial omakase - dress up and settle in for two quiet hours at the counter.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists Sushi Ginza Onodera among Honolulu's omakase-only counters ($150-$200 lunch, $300 dinner)"
+        }
+      ],
+      "evidence": "Omakase-only outpost of the global Ginza Onodera group; online-only booking, just two nightly seatings (5:00 & 7:30 PM), $300-$350 dinner - a small counter that books solid on weekends."
+    },
+    {
+      "id": "hihimanu-sushi",
+      "name": "Hihimanu Sushi",
+      "neighborhood": "Kaimuki",
+      "cuisine": "Omakase sushi",
+      "coordinates": {
+        "lat": 21.2833,
+        "lng": -157.8012
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://hihimanusushi.com/",
+      "website": "https://hihimanusushi.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book via the OpenTable link on hihimanusushi.com; reservations required, no walk-ins",
+        "Three seatings daily; cancellation fees $75-$100/person within 48 hours, full price for no-shows",
+        "Omakase ~$185 or $245 per person (VERIFY current pricing)"
+      ],
+      "signatureDish": "Omakase at the 10-seat counter (chef Ray Howard)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Intimate 10-seat bar",
+        "By-appointment only",
+        "Okinawa-trained chef"
+      ],
+      "occasion": [
+        "Date-night omakase",
+        "Sushi splurge",
+        "Quiet celebration"
+      ],
+      "dateNote": "Ten seats, three seatings, one chef - an easy counter to fall for if you can grab the slot.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists Hihimanu Sushi among Honolulu's omakase counters ($175 lunch, $245 dinner)"
+        }
+      ],
+      "evidence": "Ten-seat, appointment-only omakase bar with just three seatings a day and a stiff cancellation policy; among the most sought-after sushi counters in Kaimuki."
+    },
+    {
+      "id": "sushi-izakaya-gaku",
+      "name": "Sushi Izakaya Gaku",
+      "neighborhood": "Makiki",
+      "cuisine": "Japanese izakaya / sushi",
+      "coordinates": {
+        "lat": 21.2975,
+        "lng": -157.8447
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.theinfatuation.com/oahu/reviews/izakaya-gaku",
+      "website": "",
+      "phoneNumber": "808-589-1329",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Not on any online booking network - call 808-589-1329 around 3:00 PM (it's hard to get through during service)",
+        "Reservation windows roughly 5:00-7:00 PM",
+        "VERIFY current reservation lead time"
+      ],
+      "signatureDish": "Dashimaki tamago; homemade tofu with ikura and shoyu jelly",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Buzzy Japanese izakaya",
+        "Local institution",
+        "Sushi + small plates"
+      ],
+      "occasion": [
+        "Group dinner",
+        "Special-occasion izakaya",
+        "Date night"
+      ],
+      "dateNote": "A 20-year local favorite where the phone is the only door - worth the effort of getting through.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "The 23 Best Restaurants In Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "'You could easily go to a different izakaya every day of the week in Honolulu, but you need to prioritize Gaku'; opened almost 20 years ago; reservations required; praises the dashimaki tamago and homemade tofu with ikura"
+        }
+      ],
+      "evidence": "Nearly-20-year Makiki institution that the Infatuation says you must prioritize; phone-only reservations that book out and are hard to reach during service."
+    },
+    {
+      "id": "yohei-sushi-kahala",
+      "name": "Yohei Sushi Kahala",
+      "neighborhood": "Kahala",
+      "cuisine": "Omakase sushi",
+      "coordinates": {
+        "lat": 21.276,
+        "lng": -157.7885
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://yoheisushi.com/kahala/",
+      "website": "https://yoheisushi.com/kahala/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve via yoheisushi.com/kahala; small 10-seat counter",
+        "Three menu tiers: $220 / $280 / $350 dinner only",
+        "VERIFY exact street address and reservation platform/release for the Kahala location"
+      ],
+      "signatureDish": "10-seat counter omakase (tiered $220 / $280 / $350)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Ten-seat luxury counter",
+        "High-end omakase",
+        "Kahala serenity"
+      ],
+      "occasion": [
+        "Top-tier splurge",
+        "Milestone date",
+        "Sushi connoisseur"
+      ],
+      "dateNote": "One of the island's priciest, quietest counters - a true occasion for two.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists Yohei Sushi Kahala with a 10-seat counter and $220/$280/$350 dinner omakase"
+        }
+      ],
+      "evidence": "Ten-seat Kahala omakase counter with tiered menus up to $350; tiny capacity and high demand make weekend seats scarce."
+    },
+    {
+      "id": "sushi-gyoshin",
+      "name": "Sushi Gyoshin",
+      "neighborhood": "Ala Moana / Piikoi",
+      "cuisine": "Omakase sushi (BYOB)",
+      "coordinates": {
+        "lat": 21.2963,
+        "lng": -157.8476
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.sushigyoshin.com/reservation-ot",
+      "website": "https://sushigyoshin.com/",
+      "phoneNumber": "808-853-7097",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve online at sushigyoshin.com/reservation-ot; BYOB",
+        "Two seatings ~5:00-7:00 and 8:00-10:00 PM; closed Sun & Mon; $150 dinner",
+        "Located 436 Piikoi St Suite A; VERIFY exact reservation platform behind the '-ot' link"
+      ],
+      "signatureDish": "Eight-seat omakase; BYOB",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Eight-seat cypress counter",
+        "BYOB omakase",
+        "Personal and small"
+      ],
+      "occasion": [
+        "BYOB date",
+        "Sushi celebration",
+        "Intimate dinner"
+      ],
+      "dateNote": "Bring a special bottle - only eight seats and the chef curates the whole evening.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists Sushi Gyoshin at 8 seats, $150 dinner, noting seven of eight seats filled at the first seating"
+        }
+      ],
+      "evidence": "Eight-seat cypress-wood counter that fills its first seating nightly; tiny capacity and two seatings make it a tough weekend grab."
+    },
+    {
+      "id": "sushi-sasabune-honolulu",
+      "name": "Sushi Sasabune",
+      "neighborhood": "McCully / Moiliili",
+      "cuisine": "Omakase sushi",
+      "coordinates": {
+        "lat": 21.2973,
+        "lng": -157.8455
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.sasabuneh.com/",
+      "website": "https://www.sasabuneh.com/",
+      "phoneNumber": "808-947-3800",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Call 808-947-3800 to reserve; no online booking",
+        "Dinner 5:30-10:00 PM (last seating 8:00 PM), Tue-Sat; closed Sun & Mon; ~$200",
+        "House style: eat each piece as served, don't ask for extra shoyu"
+      ],
+      "signatureDish": "'Trust me' omakase served piece-by-piece (eat as directed, no extra soy sauce)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Strict 'trust me' omakase",
+        "Old-guard sushi",
+        "No-frills counter"
+      ],
+      "occasion": [
+        "Purist sushi date",
+        "Special dinner",
+        "Sushi tradition"
+      ],
+      "dateNote": "Surrender to the chef's rules and the rhythm - a classic, exacting Honolulu omakase.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists Sushi Sasabune among Honolulu's omakase counters ($200 dinner)"
+        }
+      ],
+      "evidence": "Long-running, strict 'trust me' omakase house; phone-only booking with limited nightly seatings keeps prime tables scarce."
+    },
+    {
+      "id": "atsushi-sushi-honolulu",
+      "name": "@Sushi (Atsushi)",
+      "neighborhood": "Kakaako / Waterfront Plaza",
+      "cuisine": "Omakase sushi",
+      "coordinates": {
+        "lat": 21.2958,
+        "lng": -157.8585
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://atsushihonolulu.com/",
+      "website": "https://atsushihonolulu.com/",
+      "phoneNumber": "808-358-4593",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Call 808-358-4593 to reserve; located 500 Ala Moana Blvd Suite 2E (Waterfront Plaza)",
+        "Open Wed-Sat 5:30-10:30 PM; $150 omakase",
+        "VERIFY whether an online reservation option exists"
+      ],
+      "signatureDish": "Chef Atsushi Kumagai's omakase sushi course",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Tiny chef-driven counter",
+        "Four nights a week",
+        "Personal omakase"
+      ],
+      "occasion": [
+        "Intimate date",
+        "Sushi discovery",
+        "Small celebration"
+      ],
+      "dateNote": "A pint-sized counter with the chef's full attention - book ahead and go slow.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists @Sushi (Atsushi) at Waterfront Plaza, $150 dinner omakase"
+        }
+      ],
+      "evidence": "Small chef-driven omakase counter (chef Atsushi Kumagai) open only Wed-Sat; limited seats and days make it a tight booking."
+    },
+    {
+      "id": "amaterasu-honolulu",
+      "name": "Amaterasu",
+      "neighborhood": "Ala Moana",
+      "cuisine": "Omakase sushi",
+      "coordinates": {
+        "lat": 21.2915,
+        "lng": -157.8434
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.instagram.com/amaterasushi808/",
+      "website": "https://www.instagram.com/amaterasushi808/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations via Instagram @amaterasushi808 (DM) - the primary contact channel",
+        "$98 lunch / $150 dinner omakase",
+        "VERIFY exact suite/location within Ala Moana Center and any phone booking option"
+      ],
+      "signatureDish": "Lunch and dinner omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Ala Moana Center counter",
+        "Growing following",
+        "Approachable omakase"
+      ],
+      "occasion": [
+        "Mall-adjacent date",
+        "Lunch omakase",
+        "Casual celebration"
+      ],
+      "dateNote": "A rising omakase counter tucked in Ala Moana Center - lunch is the sleeper move.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists Amaterasu ($98 lunch, $150 dinner), noting it moved from Ohana Hale Marketplace to Ala Moana Center"
+        }
+      ],
+      "evidence": "Popular omakase counter that outgrew its Ohana Hale Marketplace stall and reopened in Ala Moana Center; small capacity and a devoted following keep seats tight."
+    },
+    {
+      "id": "sushi-tokiwa-suntory",
+      "name": "Sushi Tokiwa at Restaurant Suntory",
+      "neighborhood": "Waikiki",
+      "cuisine": "Omakase sushi",
+      "coordinates": {
+        "lat": 21.277,
+        "lng": -157.828
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.suntorywaikiki.com/",
+      "website": "https://www.suntorywaikiki.com/",
+      "phoneNumber": "808-922-5511",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Ask specifically for the Sushi Tokiwa omakase counter when booking Restaurant Suntory",
+        "$100 lunch / $280 dinner omakase",
+        "VERIFY exact phone/booking method and counter seat count (Suntory is in Royal Hawaiian Center, 2233 Kalakaua Ave)"
+      ],
+      "signatureDish": "Omakase counter within Restaurant Suntory ($100 lunch / $280 dinner)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Sushi counter inside a Waikiki institution",
+        "Refined",
+        "High-end omakase"
+      ],
+      "occasion": [
+        "Special-occasion sushi",
+        "Waikiki splurge",
+        "Anniversary"
+      ],
+      "dateNote": "The intimate sushi counter hidden inside a longtime Waikiki favorite - reserve the omakase seats specifically.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Omakase Obsession",
+          "url": "https://www.honolulumagazine.com/omakase-obsession/",
+          "note": "Lists Sushi Tokiwa at Restaurant Suntory, $100 lunch / $280 dinner omakase"
+        }
+      ],
+      "evidence": "The dedicated omakase counter inside Restaurant Suntory (Royal Hawaiian Center); few counter seats and $280 dinner omakase make the sushi bar a scarce reservation."
+    },
+    {
+      "id": "the-pig-and-the-lady",
+      "name": "The Pig and the Lady",
+      "neighborhood": "Kaimuki",
+      "cuisine": "Modern Vietnamese",
+      "coordinates": {
+        "lat": 21.2818,
+        "lng": -157.7952
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/thepigandthelady",
+      "website": "https://www.exploretock.com/thepigandthelady",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book on Tock (exploretock.com/thepigandthelady); 15-minute grace period, ~60-minute table window",
+        "Phо french dip is lunch-only",
+        "Recently relocated to Kaimuki - VERIFY exact current street address and Tock release window"
+      ],
+      "signatureDish": "Phо french dip (lunch); baked escargot; soft serve with rotating flavors",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Lively industrial dining room",
+        "Beard-recognized",
+        "Family-run energy"
+      ],
+      "occasion": [
+        "Group dinner",
+        "Fun date",
+        "Vietnamese feast"
+      ],
+      "dateNote": "Loud, joyful and delicious - grab a Tock slot and share the whole table.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "The 23 Best Restaurants In Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "Reviews The Pig and the Lady (Kaimuki), highlighting the 'iconic phо french dip,' baked escargot and rotating soft serve; a favorite group-dinner spot"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Best New Restaurant",
+          "url": "https://www.honolulumagazine.com/the-pig-and-the-lady-honolulus-best-new-restaurant/",
+          "note": "Named The Pig and the Lady one of Honolulu's best new restaurants; chef Andrew Le, two-time James Beard semifinalist"
+        }
+      ],
+      "evidence": "James Beard-semifinalist chef Andrew Le's beloved Vietnamese flagship; a marquee group-dinner spot whose Tock slots go quickly, especially after its Kaimuki relocation."
+    },
+    {
+      "id": "fete-honolulu",
+      "name": "Fete",
+      "neighborhood": "Chinatown",
+      "cuisine": "New American / bistro",
+      "coordinates": {
+        "lat": 21.3128,
+        "lng": -157.862
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/fete-reservations-honolulu?restref=213526",
+      "website": "https://www.fetehawaii.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar and counter seats are often available for walk-ins",
+        "lineBy": "",
+        "advice": "Bar seats frequently open for walk-ins - go early, especially on weeknights."
+      },
+      "tips": [
+        "Book parties of 8 or fewer on OpenTable (link on fetehawaii.com)",
+        "Open lunch through dinner Mon-Sat; Sun from 4:00 PM; last seating ~9:00 PM",
+        "Address 2 N Hotel St, Chinatown; free metered street parking after 6:00 PM"
+      ],
+      "signatureDish": "Carbonara with Portuguese sausage; Korean fried chicken sandwich; housemade Rocky Road",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Brooklyn-meets-Hawaii bistro",
+        "James Beard-winning kitchen",
+        "Chinatown warmth"
+      ],
+      "occasion": [
+        "Date night",
+        "Celebration dinner",
+        "Lunch-through-dinner"
+      ],
+      "dateNote": "A James Beard-winning bistro that's excellent morning to night - one of Chinatown's best date tables.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "The 23 Best Restaurants In Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "Calls Fete truly excellent for all meals; a small Brooklyn-meets-Hawaii-meets-French bistro for date nights; carbonara with Portuguese sausage, Korean fried chicken sandwich"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Feature",
+          "url": "https://www.honolulumagazine.com/these-are-the-best-bites-at-fete-in-chinatown/",
+          "note": "Best bites at Fete in Chinatown; chef-owner Robynne Maii, 2022 James Beard Award winner (Best Chef: Northwest & Pacific)"
+        }
+      ],
+      "evidence": "Robynne Maii's Fete won the 2022 James Beard Award for Best Chef: Northwest & Pacific; the small Chinatown bistro is a top date-night reservation that books up on weekends."
+    },
+    {
+      "id": "mud-hen-water",
+      "name": "Mud Hen Water",
+      "neighborhood": "Kaimuki",
+      "cuisine": "Modern Hawaiian",
+      "coordinates": {
+        "lat": 21.2822,
+        "lng": -157.7982
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mud-hen-water-honolulu",
+      "website": "https://www.mudhenwater.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Walk-ins possible, especially weekday brunch",
+        "lineBy": "",
+        "advice": "Weekday brunch walk-ins are doable; weekend brunch draws a wait, so reserve."
+      },
+      "tips": [
+        "Reserve on OpenTable; brunch is the standout service and weekend slots go first",
+        "VERIFY the exact OpenTable listing slug and any release window",
+        "Address ~3452 Waialae Ave, Kaimuki"
+      ],
+      "signatureDish": "Sourdough banana pancakes (brunch); pork sisig; fresh fish and luau",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Ed Kenney modern-Hawaiian",
+        "Light-filled murals",
+        "Brunch star"
+      ],
+      "occasion": [
+        "Weekend brunch date",
+        "Casual celebration",
+        "Local-food dinner"
+      ],
+      "dateNote": "Ed Kenney's sunny Kaimuki room where brunch really shines - grab the sourdough banana pancakes.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "The 23 Best Restaurants In Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "Reviews Mud Hen Water (Kaimuki), noting 'brunch is where it really shines' - sourdough banana pancakes, pork sisig, fresh fish and luau"
+        }
+      ],
+      "evidence": "Ed Kenney's modern-Hawaiian Kaimuki restaurant; a weekend-brunch destination whose sought-after tables book up, especially Saturday and Sunday mornings."
+    },
+    {
+      "id": "la-vie-waikiki",
+      "name": "La Vie",
+      "neighborhood": "Waikiki",
+      "cuisine": "Modern French tasting",
+      "coordinates": {
+        "lat": 21.2846,
+        "lng": -157.8272
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.laviewaikiki.com/reservations",
+      "website": "https://www.laviewaikiki.com/",
+      "phoneNumber": "808-729-9729",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book at laviewaikiki.com/reservations (also bookable via OpenTable) or call 808-729-9729",
+        "Dinner Tue-Sat 5:30-9:00 PM; live piano 6:30-9:30 PM; 3-course ~$79 / 5-course ~$119 (choose any dishes)",
+        "Same Ritz-Carlton Residences tower as Sushi Sho, 383 Kalaimoku St; VERIFY current tasting pricing"
+      ],
+      "signatureDish": "Pick-your-own 3- or 5-course modern French menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "8th-floor ocean views",
+        "Modern French",
+        "Piano and skyline"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Romantic dinner",
+        "Sunset celebration"
+      ],
+      "dateNote": "Panoramic Waikiki views, live piano and a build-your-own tasting - a classic special-occasion table for two.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Feature",
+          "url": "https://www.honolulumagazine.com/going-to-la-vie-heres-what-you-should-order/",
+          "note": "Local dining feature on La Vie, the Ritz-Carlton Residences Waikiki's modern French restaurant, with what to order"
+        }
+      ],
+      "evidence": "The Ritz-Carlton Residences' 8th-floor modern-French flagship with panoramic ocean views and live piano; a limited-seating destination whose prime sunset tables sell out."
+    },
+    {
+      "id": "the-pig-and-the-lady",
+      "name": "The Pig & The Lady",
+      "neighborhood": "Kaimuki",
+      "cuisine": "Vietnamese",
+      "coordinates": {
+        "lat": 21.2836,
+        "lng": -157.7975
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/the-pig-and-the-lady",
+      "website": "https://thepigandthelady.com/",
+      "phoneNumber": "(808) 585-8255",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins seated at the bar when available; weekends fill, so reserve."
+      },
+      "tips": [
+        "Now in Kaimuki at 3650 Waialae Ave (moved from Chinatown) — confirm location when booking",
+        "Lunch Wed-Sun, dinner Tue-Sat; reserve on OpenTable or call (808) 585-8255",
+        "VERIFY exact OpenTable booking window (typically ~30 days rolling)"
+      ],
+      "signatureDish": "Pho French Dip; Laotian fried chicken",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "chef-driven",
+        "neighborhood"
+      ],
+      "occasion": [
+        "date",
+        "friends",
+        "celebration"
+      ],
+      "dateNote": "Buzzy, warm, and shareable — the Le family's Vietnamese cooking is a joyful table for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "23 Best Restaurants in Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "Named for its iconic pho french dip and free-wheeling dinner menu; accepts reservations"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 James Beard Awards — Best Chef: Northwest & Pacific semifinalist",
+          "url": "https://www.honolulumagazine.com/hawaii-2026-james-beard-awards-semifinalists/",
+          "note": "Andrew Le of The Pig & the Lady (Kaimuki) named a 2026 James Beard semifinalist"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Gold, Best Vietnamese",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Gold winner for Best Vietnamese in the 2025 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "Andrew Le is a 2026 James Beard Best Chef: Northwest & Pacific semifinalist and the room won Hale 'Aina Gold for Vietnamese; relocated to Kaimuki and takes OpenTable reservations — book a few days ahead for weekend dinner."
+    },
+    {
+      "id": "fete",
+      "name": "Fête",
+      "neighborhood": "Chinatown",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 21.3131,
+        "lng": -157.8619
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/fete-reservations-honolulu",
+      "website": "https://www.fetehawaii.com/",
+      "phoneNumber": "(808) 369-1390",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve on OpenTable for 8 or fewer; call (808) 369-1390 for larger/private",
+        "Closed some days — confirm hours",
+        "VERIFY exact OpenTable booking window"
+      ],
+      "signatureDish": "Bavette steak; housemade pastas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "chef-driven",
+        "warm",
+        "downtown"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "impress"
+      ],
+      "dateNote": "James Beard-winning chef Robynne Maii cooks a brick-walled Chinatown room made for an unhurried date.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "James Beard Award winner (2022, Best Chef: Northwest)",
+          "url": "https://www.honolulumagazine.com/foodflash-fetes-robynne-maii-wins-hawaiis-first-james-beard-award-in-19-years/",
+          "note": "Robynne Maii of Fête won Hawai'i's first James Beard Award in 19 years — first woman of Hawaiian ancestry to win"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "23 Best Restaurants in Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "Called 'truly excellent for all meals' with specials highlighting local ingredients"
+        }
+      ],
+      "evidence": "Robynne Maii won Hawai'i's first James Beard Award in 19 years (Best Chef: Northwest, 2022); an approachable reservation via OpenTable for parties of 8 or fewer."
+    },
+    {
+      "id": "giovedi",
+      "name": "Giovedì",
+      "neighborhood": "Chinatown",
+      "cuisine": "Italian / Pan-Asian",
+      "coordinates": {
+        "lat": 21.313,
+        "lng": -157.8621
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/giovedi-honolulu",
+      "website": "https://resy.com/cities/honolulu-hi/venues/giovedi",
+      "phoneNumber": "(808) 723-9049",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Next to Fête at 10 N Hotel St; book on OpenTable or Resy, or call (808) 723-9049",
+        "Hot table — weekend prime times go early; try weeknights",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Vietnam-atriciana pasta; gnocchi with mapo tofu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "chef-driven",
+        "patio"
+      ],
+      "occasion": [
+        "date",
+        "friends",
+        "celebration"
+      ],
+      "dateNote": "A charming Chinatown patio and playful Italian-Asian mashups — one of the island's hottest tables but still gettable midweek.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Best O'ahu Restaurant",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Named Best O'ahu in the 2026 Hale 'Aina Awards"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Best New Restaurant",
+          "url": "https://www.honolulumagazine.com/hale-aina-2025-best-new-restaurant-giovedi/",
+          "note": "Giovedì named 2025 Hale 'Aina Best New Restaurant; profile of owners Jennifer Akiyoshi and chef Bao Tran"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 James Beard Awards — Emerging Chef semifinalist",
+          "url": "https://www.honolulumagazine.com/hawaii-2026-james-beard-awards-semifinalists/",
+          "note": "Bao Tran of Giovedì named a 2026 James Beard Emerging Chef semifinalist"
+        }
+      ],
+      "evidence": "Hale 'Aina 2025 Best New Restaurant and 2026 Best O'ahu; chef Bao Tran is a 2026 James Beard Emerging Chef semifinalist. Books on OpenTable and Resy — plan ahead for weekends."
+    },
+    {
+      "id": "mw-restaurant",
+      "name": "MW Restaurant",
+      "neighborhood": "Kaka'ako",
+      "cuisine": "New American / Hawai'i Regional",
+      "coordinates": {
+        "lat": 21.2967,
+        "lng": -157.8547
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mw-restaurant-honolulu",
+      "website": "https://mwrestaurant.com/",
+      "phoneNumber": "(808) 955-6505",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "2nd floor, Velocity building, 888 Kapiolani Blvd Ste 201; valet available",
+        "Dinner Mon-Sat; save room for the pastry program",
+        "VERIFY exact OpenTable booking window"
+      ],
+      "signatureDish": "Mochi-crusted kampachi; MW bread-pudding 'Bananas Foster'",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "refined",
+        "chef-driven",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "impress"
+      ],
+      "dateNote": "Wade Ueoka and Michelle Karr-Ueoka's polished Hawai'i-Regional room — dinner then their legendary desserts.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Dessert",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "MW Restaurant won Gold for Dessert in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "Won 2026 Hale 'Aina Gold for Dessert; a chef-driven fine-dining room that reliably books on OpenTable a week or two out."
+    },
+    {
+      "id": "hys-steak-house",
+      "name": "Hy's Steak House",
+      "neighborhood": "Waikiki",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 21.277,
+        "lng": -157.8236
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/hys-steak-house-waikiki",
+      "website": "https://hyswaikiki.com/",
+      "phoneNumber": "(808) 922-5555",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "2440 Kuhio Ave, Waikiki; complimentary valet; live music Wed-Sun",
+        "Reserve on OpenTable or call (808) 922-5555",
+        "VERIFY exact OpenTable booking window"
+      ],
+      "signatureDish": "Kiawe-broiled USDA Prime steaks; tableside Caesar; Beef Wellington",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "classic",
+        "clubby",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "date",
+        "impress"
+      ],
+      "dateNote": "Old-school romance since 1976 — dark wood, tableside flambé, live music. A dressy date-night institution.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Steak",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Hy's Steak House won Gold for Steak in the 2026 Hale 'Aina Awards"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Gold, Steak",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Also Gold for Best Steak in 2025"
+        }
+      ],
+      "evidence": "Reigning 2025 and 2026 Hale 'Aina Gold for Steak; a fine-dining classic that reserves on OpenTable, though weekend prime times need a few days' lead."
+    },
+    {
+      "id": "koko-head-cafe",
+      "name": "Koko Head Cafe",
+      "neighborhood": "Kaimuki",
+      "cuisine": "Brunch / Island-Asian",
+      "coordinates": {
+        "lat": 21.2831,
+        "lng": -157.8009
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/koko-head-cafe-honolulu",
+      "website": "https://www.kokoheadcafe.com/",
+      "phoneNumber": "(808) 732-8920",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Brunch Mon-Thu 8 AM–2 PM, Fri-Sun 7 AM–2 PM",
+        "lineBy": "Arrive by opening on weekends; the brunch line builds fast",
+        "advice": "Brunch is walk-in only — put your name down and stroll 12th Ave. Book OpenTable for dinner (Fri-Mon 5–9 PM)."
+      },
+      "tips": [
+        "1120 12th Ave, Kaimuki; call (808) 732-8920",
+        "Brunch = walk-in; dinner = OpenTable reservation",
+        "Signature Cornflake French Toast is the move"
+      ],
+      "signatureDish": "Cornflake French Toast; Breakfast Bibimbap",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "brunch",
+        "playful",
+        "neighborhood"
+      ],
+      "occasion": [
+        "brunch",
+        "date",
+        "friends"
+      ],
+      "dateNote": "Lee Anne Wong's island brunch icon — dumpling-happy mornings, and now a laid-back dinner Fri-Mon.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "Feature — Koko Head Café debuts dinner",
+          "url": "https://www.honolulumagazine.com/koko-head-cafe-dinner/",
+          "note": "After 11 years as a beloved brunch spot, Lee Anne Wong's Koko Head Café launched a dinner service"
+        }
+      ],
+      "evidence": "A celebrated Kaimuki brunch institution (Top Chef alum Lee Anne Wong) that added dinner; brunch is first-come walk-in, dinner takes OpenTable reservations."
+    },
+    {
+      "id": "helenas-hawaiian-food",
+      "name": "Helena's Hawaiian Food",
+      "neighborhood": "Kalihi",
+      "cuisine": "Hawaiian",
+      "coordinates": {
+        "lat": 21.3305,
+        "lng": -157.8698
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://helenashawaiianfood.com/",
+      "website": "https://helenashawaiianfood.com/",
+      "phoneNumber": "(808) 845-8044",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Tue-Fri 10 AM–7:30 PM (closed Sat-Mon)",
+        "lineBy": "Go before 11 AM or mid-afternoon to dodge the lunch rush",
+        "advice": "Walk-in only, cash-friendly, weekdays only — arrive early or off-peak; closes for holiday stretches, so verify before driving out."
+      },
+      "tips": [
+        "1240 N School St, Kalihi; call (808) 845-8044 to confirm hours",
+        "Walk-in only, Tue-Fri; closes for extended holiday breaks",
+        "Order the pipikaula short ribs"
+      ],
+      "signatureDish": "Pipikaula short ribs; kalua pig; laulau",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "old-school",
+        "local-institution",
+        "casual"
+      ],
+      "occasion": [
+        "local-classic",
+        "family",
+        "lunch"
+      ],
+      "dateNote": "A James Beard America's Classic since 1946 — the most authentic Hawaiian plate on the island, shared family-style.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Hawaiian",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Helena's Hawaiian Food won Gold for Best Hawaiian in the 2026 Hale 'Aina Awards"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "23 Best Restaurants in Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "'Our favorite spot on the island for Hawaiian food'; limited hours and usually busy"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for Hawaiian and a James Beard America's Classics honoree (2000); walk-in only with limited weekday hours, so timing is the whole game."
+    },
+    {
+      "id": "53-by-the-sea",
+      "name": "53 By The Sea",
+      "neighborhood": "Kaka'ako",
+      "cuisine": "Fine Dining Seafood",
+      "coordinates": {
+        "lat": 21.2936,
+        "lng": -157.8608
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.53bythesea.com/",
+      "website": "https://www.53bythesea.com/",
+      "phoneNumber": "(808) 536-5353",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "53 Ahui St, Kaka'ako; book via OpenTable on their site or call (808) 536-5353",
+        "Request a window table for sunset",
+        "Dinner Wed-Sun; weekend lunch Sat-Sun"
+      ],
+      "signatureDish": "Fresh island fish; oceanfront tasting plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "oceanfront",
+        "romantic",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "proposal",
+        "impress"
+      ],
+      "dateNote": "Voted Honolulu's Most Romantic — floor-to-ceiling views of Waikiki and Diamond Head from a glass pavilion on the water.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Most Romantic",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "53 By The Sea won Gold for Most Romantic in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for Most Romantic; books via OpenTable on its site — a splashy but attainable special-occasion table."
+    },
+    {
+      "id": "azure-waikiki",
+      "name": "Azure Restaurant",
+      "neighborhood": "Waikiki",
+      "cuisine": "Seafood / Fine Dining",
+      "coordinates": {
+        "lat": 21.276,
+        "lng": -157.8288
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://azurewaikiki.com/",
+      "website": "https://azurewaikiki.com/",
+      "phoneNumber": "(808) 921-4600",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "At The Royal Hawaiian, 2259 Kalakaua Ave; call (808) 921-4600",
+        "Book via OpenTable on their site",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Fresh island fish sourced from the Honolulu fish auction",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "oceanfront",
+        "refined",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "date",
+        "impress"
+      ],
+      "dateNote": "Beachfront fine dining at The Royal Hawaiian — pink-hotel glamour and auction-fresh fish for a milestone night.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Seafood",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Azure Restaurant won Gold for Best Seafood in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for Seafood; a hotel fine-dining room bookable via its website/OpenTable, best reserved a few days ahead."
+    },
+    {
+      "id": "arden-waikiki",
+      "name": "Arden",
+      "neighborhood": "Waikiki",
+      "cuisine": "Modern Hawai'i / Shared Plates",
+      "coordinates": {
+        "lat": 21.2652,
+        "lng": -157.8218
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.ardenwaikiki.com/",
+      "website": "https://www.ardenwaikiki.com/",
+      "phoneNumber": "(808) 791-5151",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "2885 Kalakaua Ave, 2nd floor (Lotus Honolulu); call (808) 791-5151",
+        "Book via OpenTable on their site; dinner Wed-Sun 5–9 PM",
+        "Après Surf happy hour before dinner"
+      ],
+      "signatureDish": "Locally sourced, field-to-fork shared plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "stylish",
+        "chef-driven",
+        "date-night"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "impress"
+      ],
+      "dateNote": "A stylish new second-floor room of bold, locally sourced shared plates at the Diamond Head end of Waikiki.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Service & Gold, Ambiance",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Arden Waikīkī won Gold for both Service and Ambiance in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for both Service and Ambiance; a buzzy newcomer that books via OpenTable on its site — reserve ahead for weekends."
+    },
+    {
+      "id": "chao-hawaii",
+      "name": "Chao Hawaii",
+      "neighborhood": "Nuuanu / Chinatown",
+      "cuisine": "Contemporary Vietnamese",
+      "coordinates": {
+        "lat": 21.317,
+        "lng": -157.86
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.chaohawaii.com/",
+      "website": "https://www.chaohawaii.com/",
+      "phoneNumber": "(808) 888-0166",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Dinner hours — check site",
+        "lineBy": "Reserve for weekend prime times",
+        "advice": "Reservations via Toast on their site; walk-ins seated when available."
+      },
+      "tips": [
+        "1613 Nuuanu Ave #A12; call (808) 888-0166",
+        "Reserve via Toast on their site",
+        "New and getting popular — book weekends ahead"
+      ],
+      "signatureDish": "Contemporary pho and Vietnamese plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "contemporary",
+        "warm",
+        "neighborhood"
+      ],
+      "occasion": [
+        "date",
+        "friends",
+        "dinner"
+      ],
+      "dateNote": "A fresh contemporary-Vietnamese room near downtown that swept two 2026 awards — a rising favorite for two.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Best New Restaurant (Editors' Pick) & Gold, Vietnamese",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Chao Hawai'i named Best New Restaurant (Editors' Pick) and Gold for Best Vietnamese in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Best New Restaurant (editors' pick) and Gold for Vietnamese; books via Toast on its site and takes walk-ins."
+    },
+    {
+      "id": "hau-tree",
+      "name": "Hau Tree",
+      "neighborhood": "Kaimana / Waikiki",
+      "cuisine": "Island Coastal",
+      "coordinates": {
+        "lat": 21.2645,
+        "lng": -157.8228
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.kaimana.com/dine",
+      "website": "https://www.kaimana.com/dine",
+      "phoneNumber": "(808) 923-1555",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Kaimana Beach Hotel, 2863 Kalakaua Ave; call (808) 923-1555",
+        "Book via OpenTable on the hotel site; weekend brunch is the star",
+        "Non-hotel guests welcome"
+      ],
+      "signatureDish": "Weekend brunch under the hau tree; eggs Benedict",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "oceanfront",
+        "under-the-tree",
+        "romantic"
+      ],
+      "occasion": [
+        "brunch",
+        "date",
+        "celebration"
+      ],
+      "dateNote": "Dining literally under a sprawling hau tree at the water's edge on Kaimana Beach — Honolulu's dreamiest brunch.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Outdoor Dining",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Hau Tree won Gold for Outdoor Dining in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for Outdoor Dining; the Kaimana Beach Hotel's signature restaurant, open to the public and booking via OpenTable — reserve weekend brunch ahead."
+    },
+    {
+      "id": "merrimans-honolulu",
+      "name": "Merriman's Honolulu",
+      "neighborhood": "Ward / Kaka'ako",
+      "cuisine": "Hawai'i Regional",
+      "coordinates": {
+        "lat": 21.2946,
+        "lng": -157.8535
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/merrimans-honolulu",
+      "website": "https://www.merrimanshawaii.com/location/honolulu/",
+      "phoneNumber": "(808) 215-0022",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Open daily 11 AM–9 PM",
+        "lineBy": "Walk-ins seated when available; arrive off-peak",
+        "advice": "They hold tables for walk-ins daily — arrive on time and don't be more than 15 minutes late for a reservation."
+      },
+      "tips": [
+        "1108 Auahi St Ste 170; reserve on OpenTable or call (808) 215-0022",
+        "Open all day — easier than most for a spontaneous meal",
+        "Groups over 10 email EventsHonolulu@merrimanshawaii.com"
+      ],
+      "signatureDish": "Wok-charred ahi; farm-to-table Hawai'i Regional plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "farm-to-table",
+        "lively",
+        "urbane"
+      ],
+      "occasion": [
+        "date",
+        "family",
+        "celebration"
+      ],
+      "dateNote": "A pioneer of Hawai'i Regional Cuisine in Ward Village — bistro-warm and easy to book for two.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 James Beard Awards — Outstanding Restaurateur semifinalist",
+          "url": "https://www.honolulumagazine.com/hawaii-2026-james-beard-awards-semifinalists/",
+          "note": "Peter Merriman (Merriman's) named a 2026 James Beard Outstanding Restaurateur semifinalist"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Business Lunch",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Merriman's won 2026 Hale 'Aina Gold for Business Lunch (and Local Chain)"
+        }
+      ],
+      "evidence": "Peter Merriman is a 2026 James Beard Outstanding Restaurateur semifinalist and the Honolulu room took 2026 Hale 'Aina Gold for Business Lunch; open all day, reservations on OpenTable, and they save tables for walk-ins."
+    },
+    {
+      "id": "highway-inn",
+      "name": "Highway Inn",
+      "neighborhood": "Kaka'ako",
+      "cuisine": "Hawaiian",
+      "coordinates": {
+        "lat": 21.2952,
+        "lng": -157.8586
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.myhighwayinn.com/",
+      "website": "https://www.myhighwayinn.com/",
+      "phoneNumber": "(808) 954-4955",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Open daytime into evening; Pau Hana specials 3–6 PM weekdays",
+        "lineBy": "Walk in anytime; peak lunch can back up",
+        "advice": "Walk-in for parties under 6; reservations accepted only for 6 or more. Thursday live music at Kaka'ako."
+      },
+      "tips": [
+        "Kaka'ako at 680 Ala Moana Blvd #105; call (808) 954-4955",
+        "Reservations only for 6+; otherwise walk in",
+        "Try the kalua pig with poi"
+      ],
+      "signatureDish": "Kalua pig; laulau; poi and pipikaula",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "local-institution",
+        "casual",
+        "family"
+      ],
+      "occasion": [
+        "local-classic",
+        "family",
+        "lunch"
+      ],
+      "dateNote": "Hawaiian comfort food since 1947 — an easy, unpretentious intro to laulau and poi for two.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Silver, Hawaiian",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Highway Inn won Silver for Best Hawaiian in the 2025 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2025 Hale 'Aina Silver for Hawaiian; a beloved plantation-era classic that's essentially walk-in (reservations only for parties of 6+)."
+    },
+    {
+      "id": "nicos-pier-38",
+      "name": "Nico's Pier 38",
+      "neighborhood": "Iwilei / Nimitz",
+      "cuisine": "Seafood",
+      "coordinates": {
+        "lat": 21.3086,
+        "lng": -157.8734
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://nicospier38.com/",
+      "website": "https://nicospier38.com/",
+      "phoneNumber": "(808) 540-1377",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Mon-Sat 6:30 AM–9 PM; Sun 10 AM–9 PM",
+        "lineBy": "Walk in; order-counter by day, table service at dinner",
+        "advice": "Daytime is counter-order poke/plates; dinner adds table service and live music. Call (808) 540-1377 to book a dinner table."
+      },
+      "tips": [
+        "1129 N Nimitz Hwy, next to the fish auction",
+        "Walk-ins welcome; call for dinner reservations",
+        "Furikake ahi is the signature"
+      ],
+      "signatureDish": "Furikake pan-seared ahi; fresh poke off the auction",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "waterfront",
+        "casual",
+        "local-favorite"
+      ],
+      "occasion": [
+        "lunch",
+        "friends",
+        "casual-date"
+      ],
+      "dateNote": "Pierside next to the fish auction — as fresh as island seafood gets, with live music at dinner.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Silver, Seafood",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Nico's Pier 38 won Silver for Best Seafood in the 2025 Hale 'Aina Awards"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "23 Best Restaurants in Honolulu (as Nico's Fish Market)",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "Fresh sashimi, poke and smoked fish by day; dinner with live music; walk-ins welcome"
+        }
+      ],
+      "evidence": "2025 Hale 'Aina Silver for Seafood and an Infatuation pick; a walk-in-friendly waterfront spot beside the Honolulu fish auction."
+    },
+    {
+      "id": "arancino-di-mare",
+      "name": "Arancino di Mare",
+      "neighborhood": "Waikiki",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 21.2717,
+        "lng": -157.8215
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.arancino.com/",
+      "website": "https://www.arancino.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Arancino has three Honolulu locations — di Mare (2552 Kalakaua Ave), on Beachwalk, and at The Kahala",
+        "VERIFY which Arancino location and its booking link via arancino.com",
+        "VERIFY reservation phone/platform for di Mare"
+      ],
+      "signatureDish": "Uni (sea urchin) spaghettini; risotto",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "cozy",
+        "italian"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "dinner"
+      ],
+      "dateNote": "Island-Italian charm — the uni spaghettini and warm service make an easy, romantic Waikiki two-top.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Italian",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Arancino won Gold for Best Italian in the 2026 Hale 'Aina Awards"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Gold, Italian",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Also Gold for Best Italian in 2025"
+        }
+      ],
+      "evidence": "Arancino won 2025 and 2026 Hale 'Aina Gold for Italian; the di Mare location on Kalakaua is the most reservation-friendly of the three Honolulu rooms."
+    },
+    {
+      "id": "maguro-brothers",
+      "name": "Maguro Brothers",
+      "neighborhood": "Chinatown",
+      "cuisine": "Poke / Sashimi",
+      "coordinates": {
+        "lat": 21.3122,
+        "lng": -157.8635
+      },
+      "difficulty": 2,
+      "priceRange": "$",
+      "platform": "Website",
+      "platformUrl": "https://magurobrothershawaii.com/",
+      "website": "https://magurobrothershawaii.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Chinatown 9 AM–2 PM (closed Sun); Waikiki location 5–8 PM",
+        "lineBy": "Walk in at lunch; sells out of favorites",
+        "advice": "Walk-in counter inside Kekaulike Market; pre-order sashimi platters online (allow ~1 hour)."
+      },
+      "tips": [
+        "Chinatown at 1120 Maunakea St; a second location in Waikiki",
+        "Walk-in only; pre-order large platters online",
+        "Cash-friendly, lunch hours"
+      ],
+      "signatureDish": "Fresh ahi poke bowl; sashimi platter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "counter",
+        "casual",
+        "fresh-fish"
+      ],
+      "occasion": [
+        "lunch",
+        "quick-bite",
+        "local-classic"
+      ],
+      "dateNote": "A tiny Chinatown counter turning out some of the island's freshest tossed-to-order poke.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "23 Best Restaurants in Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "Highlights fresh fish tossed to order with minimal seasonings; Chinatown location less busy than Waikiki"
+        }
+      ],
+      "evidence": "An Infatuation pick for fish 'tossed to order with minimal seasonings'; a walk-in market counter — go at lunch."
+    },
+    {
+      "id": "onoya-ramen",
+      "name": "Onoya Ramen",
+      "neighborhood": "McCully",
+      "cuisine": "Ramen",
+      "coordinates": {
+        "lat": 21.2967,
+        "lng": -157.8324
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.onoyaramen.com/",
+      "website": "https://www.onoyaramen.com/",
+      "phoneNumber": "(808) 888-0607",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "King St: weekdays 11 AM–2 PM & 5–10 PM; weekends 11 AM–10 PM",
+        "lineBy": "Walk in; short waits at peak",
+        "advice": "Walk-in only — go slightly off-peak to skip the line."
+      },
+      "tips": [
+        "Two locations: 1785 S King St and 611 Kapahulu Ave",
+        "Walk-in; no reservations",
+        "Order the tonkotsu"
+      ],
+      "signatureDish": "Tonkotsu ramen",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "casual",
+        "cozy",
+        "late-ish"
+      ],
+      "occasion": [
+        "casual-date",
+        "friends",
+        "quick-bite"
+      ],
+      "dateNote": "A steaming bowl of the island's reigning Gold-medal ramen — unfussy and satisfying for two.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Ramen",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Onoya Ramen won Gold for Best Ramen in the 2026 Hale 'Aina Awards"
+        },
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Gold, Ramen",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Also Gold for Best Ramen in 2025"
+        }
+      ],
+      "evidence": "Back-to-back 2025 and 2026 Hale 'Aina Gold for Ramen; a walk-in ramen-ya with two locations, no reservations needed."
+    },
+    {
+      "id": "aiea-bowl",
+      "name": "Aiea Bowl (The Alley Restaurant)",
+      "neighborhood": "Aiea",
+      "cuisine": "Local / Comfort",
+      "coordinates": {
+        "lat": 21.383,
+        "lng": -157.931
+      },
+      "difficulty": 2,
+      "priceRange": "$",
+      "platform": "Website",
+      "platformUrl": "https://www.aieabowl.com/",
+      "website": "https://www.aieabowl.com/",
+      "phoneNumber": "(808) 488-6854",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Open daily; kitchen hours vary",
+        "lineBy": "Walk in; peak dinner can wait",
+        "advice": "Walk-in restaurant inside the bowling alley — go for the oxtail soup."
+      },
+      "tips": [
+        "99-115 Aiea Heights Dr, Aiea; call (808) 488-6854",
+        "Walk-in; good for groups",
+        "The oxtail soup is the order"
+      ],
+      "signatureDish": "Oxtail soup; Crispy Chicken",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "only-in-Hawaii",
+        "casual",
+        "family"
+      ],
+      "occasion": [
+        "family",
+        "friends",
+        "local-classic"
+      ],
+      "dateNote": "Fantastic oxtail soup served inside a bowling alley — pure local charm, no pretense.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "23 Best Restaurants in Honolulu",
+          "url": "https://www.theinfatuation.com/oahu/guides/best-restaurants-oahu-honolulu-waikiki-hawaii",
+          "note": "'Fantastic oxtail soup and fried chicken served in a bowling alley'; walk-ins welcome"
+        }
+      ],
+      "evidence": "An Infatuation pick for its oxtail soup and fried chicken 'served in a bowling alley'; walk-in, group- and family-friendly."
+    },
+    {
+      "id": "noi-thai-cuisine",
+      "name": "Noi Thai Cuisine",
+      "neighborhood": "Waikiki",
+      "cuisine": "Thai",
+      "coordinates": {
+        "lat": 21.2789,
+        "lng": -157.8268
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.honolulu.noithaicuisine.com/",
+      "website": "https://noithaicuisine.com/",
+      "phoneNumber": "(808) 664-4039",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Royal Hawaiian Center, 2301 Kalakaua Ave, Waikiki",
+        "Book on their Honolulu site; call (808) 664-4039",
+        "VERIFY reservation platform/window"
+      ],
+      "signatureDish": "Massaman curry; tom yum",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "upscale-casual",
+        "elegant",
+        "waikiki"
+      ],
+      "occasion": [
+        "date",
+        "dinner",
+        "friends"
+      ],
+      "dateNote": "Polished Thai in the Royal Hawaiian Center — pretty room, generous curries, easy to book for two.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Gold, Thai",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Noi Thai Cuisine won Gold for Best Thai in the 2025 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2025 Hale 'Aina Gold for Thai; an upscale-casual Waikiki dining room that reserves via its site."
+    },
+    {
+      "id": "yanagi-sushi",
+      "name": "Yanagi Sushi",
+      "neighborhood": "Kaka'ako",
+      "cuisine": "Sushi / Japanese",
+      "coordinates": {
+        "lat": 21.296,
+        "lng": -157.8555
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.yanagisushi-hawaii.com/",
+      "website": "https://www.yanagisushi-hawaii.com/",
+      "phoneNumber": "(808) 597-1525",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Mon-Sat lunch 11 AM–2 PM, dinner 5:30 PM–1 AM (closed Sun)",
+        "lineBy": "Walk in; late hours ease the crunch",
+        "advice": "Open till 1 AM — a rare late-night sit-down sushi option. Call (808) 597-1525 to reserve."
+      },
+      "tips": [
+        "762 Kapiolani Blvd; call (808) 597-1525 (they answer from 10:30 AM)",
+        "Open late — dinner to 1 AM Mon-Sat",
+        "Closed Sundays"
+      ],
+      "signatureDish": "Nigiri and sashimi; late-night sushi",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "classic",
+        "late-night",
+        "comfortable"
+      ],
+      "occasion": [
+        "date",
+        "late-night",
+        "friends"
+      ],
+      "dateNote": "Dependable full-service sushi open until 1 AM — the island's go-to for a late, unhurried Japanese meal.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Gold, Sushi",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Yanagi Sushi won Gold for Best Sushi in the 2025 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2025 Hale 'Aina Gold for Sushi; a long-running room open to 1 AM (Mon-Sat) that takes phone reservations and walk-ins."
+    },
+    {
+      "id": "peace-cafe",
+      "name": "Peace Cafe",
+      "neighborhood": "Moiliili",
+      "cuisine": "Vegan",
+      "coordinates": {
+        "lat": 21.2939,
+        "lng": -157.8265
+      },
+      "difficulty": 2,
+      "priceRange": "$",
+      "platform": "Website",
+      "platformUrl": "https://www.peacecafehawaii.com/",
+      "website": "https://www.peacecafehawaii.com/",
+      "phoneNumber": "(808) 951-7555",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daytime through early evening",
+        "lineBy": "Walk in; order at the counter",
+        "advice": "Walk-in, counter-order cafe — easy anytime."
+      },
+      "tips": [
+        "2239 S King St, Moiliili; call (808) 951-7555",
+        "Walk-in; 100% vegan",
+        "Order the mochiko plate"
+      ],
+      "signatureDish": "Vegan plate lunch; mochiko 'chicken'",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "casual",
+        "wholesome",
+        "neighborhood"
+      ],
+      "occasion": [
+        "lunch",
+        "casual",
+        "friends"
+      ],
+      "dateNote": "Wholesome 100% plant-based plates in Moiliili — the island's Gold-medal vegetarian go-to.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Vegetarian",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Peace Café won Gold for Best Vegetarian in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for Vegetarian; a casual walk-in vegan cafe, no reservations required."
+    },
+    {
+      "id": "da-seafood-cartel",
+      "name": "Da Seafood Cartel",
+      "neighborhood": "Aiea",
+      "cuisine": "Mexican Seafood",
+      "coordinates": {
+        "lat": 21.3835,
+        "lng": -157.933
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.daseafoodcartel.com/",
+      "website": "https://www.daseafoodcartel.com/",
+      "phoneNumber": "(808) 762-0044",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daily 11 AM–7 PM",
+        "lineBy": "Walk in; outdoor seating",
+        "advice": "Walk-in with patio seating; call (808) 762-0044 to reserve."
+      },
+      "tips": [
+        "Aiea location at 98-380 Kamehameha Hwy (a second is in Haleiwa/North Shore)",
+        "Walk-in or call to reserve",
+        "Authentic Sonoran-Mexican seafood"
+      ],
+      "signatureDish": "Sonoran-style ceviche; seafood cocktails; birria",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "casual",
+        "family-recipe",
+        "outdoor-seating"
+      ],
+      "occasion": [
+        "lunch",
+        "friends",
+        "casual"
+      ],
+      "dateNote": "Authentic Sonoran Mexican seafood — ceviche and aguachiles on a breezy patio.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Mexican",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Da Seafood Cartel won Gold for Best Mexican in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for Mexican (Silver 2025); a walk-in, family-recipe spot with outdoor seating that also takes phone reservations."
+    },
+    {
+      "id": "plumeria-beach-house",
+      "name": "Plumeria Beach House",
+      "neighborhood": "Kahala",
+      "cuisine": "Buffet / Island Brunch",
+      "coordinates": {
+        "lat": 21.2725,
+        "lng": -157.773
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.kahalaresort.com/dining/plumeria-beach-house",
+      "website": "https://www.kahalaresort.com/dining/plumeria-beach-house",
+      "phoneNumber": "(808) 739-8760",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The Kahala Hotel, 5000 Kahala Ave; call (808) 739-8760",
+        "Signature Sunday Brunch 9 AM–1:30 PM; seafood dinner buffet Fri-Sat",
+        "Book via OpenTable on the resort site"
+      ],
+      "signatureDish": "Signature Sunday Brunch; Friday/Saturday seafood dinner buffet",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "oceanfront",
+        "relaxed",
+        "resort"
+      ],
+      "occasion": [
+        "brunch",
+        "family",
+        "celebration"
+      ],
+      "dateNote": "Beachside at The Kahala — a lavish Sunday brunch with your toes near the sand.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2026 Hale 'Aina Awards — Gold, Hotel Brunch & Gold, Buffet",
+          "url": "https://www.honolulumagazine.com/hale-aina-award-winners-the-best-restaurants-in-hawaii/",
+          "note": "Plumeria Beach House won Gold for Hotel Brunch and Buffet in the 2026 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2026 Hale 'Aina Gold for both Hotel Brunch and Buffet; reserves via OpenTable/phone — book the Sunday brunch ahead."
+    },
+    {
+      "id": "herringbone-waikiki",
+      "name": "Herringbone Waikiki",
+      "neighborhood": "Waikiki",
+      "cuisine": "Seafood",
+      "coordinates": {
+        "lat": 21.282,
+        "lng": -157.827
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://taogroup.com/venues/herringbone-waikiki/",
+      "website": "https://taogroup.com/venues/herringbone-waikiki/",
+      "phoneNumber": "(808) 797-2435",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "International Market Place, 2330 Kalakaua Ave, Waikiki",
+        "Book via OpenTable on the venue site",
+        "VERIFY reservation phone/window"
+      ],
+      "signatureDish": "Whole grilled fish; raw bar",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "breezy",
+        "coastal",
+        "see-and-be-seen"
+      ],
+      "occasion": [
+        "date",
+        "friends",
+        "dinner"
+      ],
+      "dateNote": "A breezy 'fish meets field' room at International Market Place — coastal-cool and easy to book.",
+      "sources": [
+        {
+          "name": "Honolulu Magazine",
+          "tier": "2025 Hale 'Aina Awards — Gold, Seafood",
+          "url": "https://www.honolulumagazine.com/2025-hale-aina-award-winners/",
+          "note": "Herringbone Waikīkī won Gold for Best Seafood in the 2025 Hale 'Aina Awards"
+        }
+      ],
+      "evidence": "2025 Hale 'Aina Gold for Seafood; a Tao Group coastal restaurant at International Market Place that reserves via its site."
+    }
+  ]
+}

@@ -26,8 +26,10 @@
       ],
       "zoom": 11,
       "source": {
-        "type": "soon"
-      }
+        "type": "json",
+        "url": "cities/la.json"
+      },
+      "timezone": "America/Los_Angeles"
     },
     {
       "key": "sf",
@@ -39,8 +41,10 @@
       ],
       "zoom": 12,
       "source": {
-        "type": "soon"
-      }
+        "type": "json",
+        "url": "cities/sf.json"
+      },
+      "timezone": "America/Los_Angeles"
     },
     {
       "key": "chi",
@@ -52,8 +56,10 @@
       ],
       "zoom": 12,
       "source": {
-        "type": "soon"
-      }
+        "type": "json",
+        "url": "cities/chi.json"
+      },
+      "timezone": "America/Chicago"
     },
     {
       "key": "dc",
@@ -113,6 +119,141 @@
       "source": {
         "type": "json",
         "url": "cities/houston.json"
+      }
+    },
+    {
+      "key": "atlanta",
+      "label": "Atlanta",
+      "short": "ATL",
+      "center": [
+        33.749,
+        -84.388
+      ],
+      "zoom": 12,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/atlanta.json"
+      }
+    },
+    {
+      "key": "austin",
+      "label": "Austin",
+      "short": "ATX",
+      "center": [
+        30.2672,
+        -97.7431
+      ],
+      "zoom": 12,
+      "timezone": "America/Chicago",
+      "source": {
+        "type": "json",
+        "url": "cities/austin.json"
+      }
+    },
+    {
+      "key": "denver",
+      "label": "Denver",
+      "short": "DEN",
+      "center": [
+        39.7392,
+        -104.9903
+      ],
+      "zoom": 12,
+      "timezone": "America/Denver",
+      "source": {
+        "type": "json",
+        "url": "cities/denver.json"
+      }
+    },
+    {
+      "key": "honolulu",
+      "label": "Honolulu",
+      "short": "HNL",
+      "center": [
+        21.3069,
+        -157.8583
+      ],
+      "zoom": 12,
+      "timezone": "Pacific/Honolulu",
+      "source": {
+        "type": "json",
+        "url": "cities/honolulu.json"
+      }
+    },
+    {
+      "key": "miami",
+      "label": "Miami",
+      "short": "MIA",
+      "center": [
+        25.7743,
+        -80.1937
+      ],
+      "zoom": 12,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/miami.json"
+      }
+    },
+    {
+      "key": "new-orleans",
+      "label": "New Orleans",
+      "short": "NOLA",
+      "center": [
+        29.9538,
+        -90.0715
+      ],
+      "zoom": 13,
+      "timezone": "America/Chicago",
+      "source": {
+        "type": "json",
+        "url": "cities/new-orleans.json"
+      }
+    },
+    {
+      "key": "philly",
+      "label": "Philadelphia",
+      "short": "PHL",
+      "center": [
+        39.9526,
+        -75.1652
+      ],
+      "zoom": 12,
+      "timezone": "America/New_York",
+      "source": {
+        "type": "json",
+        "url": "cities/philly.json"
+      }
+    },
+    {
+      "key": "seattle",
+      "label": "Seattle",
+      "short": "SEA",
+      "center": [
+        47.6062,
+        -122.3321
+      ],
+      "zoom": 12,
+      "timezone": "America/Los_Angeles",
+      "source": {
+        "type": "json",
+        "url": "cities/seattle.json"
+      }
+    },
+    {
+      "key": "vegas",
+      "label": "Las Vegas",
+      "short": "LV",
+      "center": [
+        36.1147,
+        -115.1728
+      ],
+      "zoom": 12,
+      "timezone": "America/Los_Angeles",
+      "source": {
+        "type": "json",
+        "url": "cities/vegas.json"
       }
     }
   ]

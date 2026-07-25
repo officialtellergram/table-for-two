@@ -1,0 +1,1392 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Atlanta",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "mujo",
+      "name": "Mujō",
+      "neighborhood": "West Midtown",
+      "cuisine": "Japanese omakase (Edomae sushi)",
+      "coordinates": {
+        "lat": 33.7871,
+        "lng": -84.4048
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mujo-atlanta",
+      "website": "https://www.mujoatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "Next month's dates open on the 1st",
+      "bookingWindowDays": 31,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open on the 1st of every month at 10:00 AM ET for the following month via OpenTable - set an alarm and book the instant it drops",
+        "Only ~15 seats at the sushi bar; the Koshitsu private room and the bar book separately",
+        "Cancellations/party changes must be made 72 hours out or they're non-refundable",
+        "The Infatuation: 'the city's hardest-to-book enigma' - keep stalking OpenTable for cancellations"
+      ],
+      "signatureDish": "Seasonal ~16-course Edomae omakase; fish flown from Japan; optional hairy crab supplement",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Hidden entrance",
+        "Pitch-dark counter",
+        "Serious sushi theater"
+      ],
+      "occasion": [
+        "Big night out",
+        "Anniversary",
+        "Splurge"
+      ],
+      "dateNote": "A dramatically lit 15-seat counter behind a discreet door next to Cooks & Soldiers - book it and let the chefs run the night.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-bib-gourmands-atlanta-restaurants-2025",
+          "note": "Listed among Atlanta's one-star restaurants that retained a Michelin star in the 2025 American South selection."
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/atlanta/reviews/mujo",
+          "note": "'Mujo is an exclusive omakase counter worth the reservation battle'; describes the hidden entrance, 15-seat dark counter and 16-course dinner (~$225-255)."
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Best Omakase in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-omakase-atlanta",
+          "note": "Named among the 5 best sushi omakase spots; 'hidden entrance' and 'dramatically lit 15-seat table.'"
+        }
+      ],
+      "evidence": "Michelin one-star, 15-seat omakase counter; whole next month drops on OpenTable the 1st at 10 AM and sells out fast - Atlanta's consensus hardest table."
+    },
+    {
+      "id": "hayakawa",
+      "name": "Hayakawa",
+      "neighborhood": "West Midtown",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 33.7846,
+        "lng": -84.4139
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/hayakawa",
+      "website": "https://www.hayakawaatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 8 seats; two seatings (about 6:00 PM and 8:30 PM), Wednesday-Saturday only, via Resy",
+        "One of the priciest prix fixe menus in the city (reported ~$315-375/person) - VERIFY current price and sake-flight add-on",
+        "VERIFY exact Resy release time and window",
+        "VERIFY current street address inside the Star Metals district"
+      ],
+      "signatureDish": "14-16 course omakase; fish sourced from Tokyo's Toyosu market",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Eight seats only",
+        "Minimalist",
+        "Chef narrates in a headset"
+      ],
+      "occasion": [
+        "Big night out",
+        "Anniversary",
+        "Splurge"
+      ],
+      "dateNote": "Just eight seats in the Star Metals building and a chef who cracks jokes about Hokkaido between courses - as intimate as omakase gets in Atlanta.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-bib-gourmands-atlanta-restaurants-2025",
+          "note": "Listed among Atlanta's retained one-star restaurants in the 2025 selection."
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Best Omakase in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-omakase-atlanta",
+          "note": "'Intimate eight-seat counter and a chef who throws around jokes'; among the 5 best omakase in Atlanta."
+        }
+      ],
+      "evidence": "Michelin one-star, 8-seat counter with only two seatings four nights a week - structural scarcity makes prime dates near-impossible."
+    },
+    {
+      "id": "m-at-umi",
+      "name": "M @ Umi",
+      "neighborhood": "Buckhead",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 33.8399,
+        "lng": -84.3803
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://umimodern.com/",
+      "website": "https://umimodern.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The counter seats only 8, with as few as one or two seatings a night, a handful of nights per week - book well ahead",
+        "Booking platform not confirmed - reserve through Umi directly (umimodern.com); VERIFY whether it's Resy, Tock, or phone",
+        "VERIFY current chef and course count (reported 16-19 courses)",
+        "Located inside Umi Modern Japanese in Buckhead"
+      ],
+      "signatureDish": "16-19 course omakase; otoro, A5 wagyu, cod-milt custard",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Eight-seat counter",
+        "One seating a night",
+        "Hushed and formal"
+      ],
+      "occasion": [
+        "Big night out",
+        "Anniversary",
+        "Splurge"
+      ],
+      "dateNote": "The eight-seat omakase counter tucked inside Buckhead's Umi - one small seating an evening, so it feels like a private chef's table for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: 'M @ Umi' in Buckhead, 8 guests, one seating per evening, 19-course omakase with optional sake pairings."
+        },
+        {
+          "name": "Resy",
+          "tier": "Where To Find Omakase in Atlanta",
+          "url": "https://blog.resy.com/2024/04/sushi-omakase-atlanta/",
+          "note": "Describes M @ Umi as 'limited to two seatings of eight thrice weekly, offering 16 or 17 courses.'"
+        }
+      ],
+      "evidence": "Eight-seat omakase counter inside Umi with a single small seating most nights - one of the tiniest, most exclusive counters in the city."
+    },
+    {
+      "id": "georgia-boy",
+      "name": "Georgia Boy",
+      "neighborhood": "Poncey-Highland",
+      "cuisine": "Modern Southern tasting menu",
+      "coordinates": {
+        "lat": 33.7737,
+        "lng": -84.3557
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/georgia-boy",
+      "website": "https://www.georgiaboyatl.com/",
+      "phoneNumber": "404-698-3961",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open 28 days in advance on Resy; a $100 deposit at booking applies to the total",
+        "Only four seatings of 8 guests per night; hidden in the back of Southern Belle",
+        "$275/person Wed-Thu, $295/person Fri-Sat; it's a blind tasting - no menu in advance",
+        "VERIFY exact Resy release time"
+      ],
+      "signatureDish": "Blind multi-course Southern tasting (no menu released in advance)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Hidden chef's counter",
+        "Blind tasting",
+        "Playful and whimsical"
+      ],
+      "occasion": [
+        "Special occasion",
+        "Anniversary",
+        "Foodie pilgrimage"
+      ],
+      "dateNote": "A hidden eight-seat chef's counter behind Southern Belle where chef Joey Ward sends out a surprise Southern tasting - pure sit-back-and-trust-us romance.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/atlanta/reviews/georgia-boy",
+          "note": "'Georgia Boy's lavish tasting menu is full of fun surprises' - intimate chef's counter, whimsically plated multi-course Southern meal."
+        },
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: chef Joey Ward, 8 guests per seating, whimsically plated multi-course Southern-inspired tasting."
+        }
+      ],
+      "evidence": "Hidden 8-seat blind-tasting counter from James Beard-nominated chef Joey Ward; four small seatings a night on a 28-day Resy window - fills immediately."
+    },
+    {
+      "id": "omakase-table",
+      "name": "Omakase Table",
+      "neighborhood": "Buckhead",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 33.8407,
+        "lng": -84.3737
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/omakase-table",
+      "website": "https://www.omakasetableatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "37 days",
+      "bookingWindowDays": 37,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Wed-Sun with seatings around 5:00, 5:30, 8:00 and 8:30 PM; reservations required via Resy, no walk-ins",
+        "Moved to Buckhead (3330 Piedmont Rd NE) in March 2025",
+        "VERIFY exact Resy release time",
+        "A second Resy listing ('788 - Omakase Table') may appear - confirm you're booking the current venue"
+      ],
+      "signatureDish": "20-course omakase; otoro, A5 wagyu, cod-milt egg custard",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Counter seating",
+        "Rare catches",
+        "Chef Leonard Yu"
+      ],
+      "occasion": [
+        "Big night out",
+        "Anniversary",
+        "Splurge"
+      ],
+      "dateNote": "Chef Leonard Yu's 20-course counter in Buckhead Landing - a flawless procession of otoro and wagyu, no walk-ins, reservations only.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-bib-gourmands-atlanta-restaurants-2025",
+          "note": "Listed among Atlanta's retained one-star restaurants in the 2025 selection."
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Best Omakase in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-omakase-atlanta",
+          "note": "20-course experience, ~$295/person, Buckhead; among the 5 best omakase in Atlanta."
+        }
+      ],
+      "evidence": "Michelin one-star, ~$295 20-course counter from chef Leonard Yu; reservation-only with no walk-ins and few seatings per night."
+    },
+    {
+      "id": "ryokou",
+      "name": "Ryokou",
+      "neighborhood": "Adair Park",
+      "cuisine": "Japanese omakase / kaiseki",
+      "coordinates": {
+        "lat": 33.7307,
+        "lng": -84.413
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/ryokou",
+      "website": "https://www.ryokouatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "37 days",
+      "bookingWindowDays": 37,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 10 seats; more cooked-food-focused than the team's Omakase Table",
+        "Michelin Bib Gourmand (2025)",
+        "VERIFY exact Resy release time and Adair Park street address"
+      ],
+      "signatureDish": "Progressive tasting touring Japanese cities/prefectures; 'tiny zen garden' course",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Ten seats",
+        "Omakase-meets-kaiseki",
+        "Contemporary"
+      ],
+      "occasion": [
+        "Big night out",
+        "Anniversary",
+        "Foodie pilgrimage"
+      ],
+      "dateNote": "Chef Leonard Yu's more intimate 10-seat sibling to Omakase Table, cooking a journey across Japan - you even get your own little zen garden and rake.",
+      "sources": [
+        {
+          "name": "Rough Draft Atlanta",
+          "tier": "2025 Michelin (Bib Gourmand)",
+          "url": "https://roughdraftatlanta.com/2025/11/03/2025-michelin-guide-american-south-atlanta-restaurants-winners/",
+          "note": "Lists Ryokou among the new 2025 Michelin Bib Gourmand restaurants in the Atlanta area."
+        },
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: 10-seat counter, refined omakase 'taking diners on a tour through Japan,' sake pairings available."
+        }
+      ],
+      "evidence": "Ten-seat omakase from Michelin-starred chef Leonard Yu; 2025 Michelin Bib Gourmand and tiny capacity make it a genuine reservation scramble."
+    },
+    {
+      "id": "little-bear",
+      "name": "Little Bear",
+      "neighborhood": "Summerhill",
+      "cuisine": "Contemporary / eclectic tasting",
+      "coordinates": {
+        "lat": 33.7398,
+        "lng": -84.3877
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/little-bear",
+      "website": "https://littlebearatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling ~30-day window",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Very small room; open nightly 5-10 PM, reservations via Resy",
+        "Menu changes constantly - go with what the kitchen is excited about",
+        "VERIFY exact Resy release time and whether any counter/walk-in seats are held"
+      ],
+      "signatureDish": "Frequently changing, hyper-seasonal small plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Tiny open kitchen",
+        "Ever-changing menu",
+        "Chef-driven"
+      ],
+      "occasion": [
+        "Date night",
+        "Foodie pilgrimage"
+      ],
+      "dateNote": "Chef Jarrett Stieber cooks a constantly changing menu from a tiny open kitchen in Summerhill - a handful of tables you'll want to grab the moment they open.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Named to the 25 Best Restaurants in Atlanta; Summerhill, chef Jarrett Stieber, reservation via Resy."
+        }
+      ],
+      "evidence": "Chef Jarrett Stieber's tiny Summerhill room with an ever-changing menu; scarce tables and a devoted following make weekend seats vanish."
+    },
+    {
+      "id": "tiger-sun",
+      "name": "Tiger Sun",
+      "neighborhood": "Reynoldstown",
+      "cuisine": "Cocktail omakase",
+      "coordinates": {
+        "lat": 33.7479,
+        "lng": -84.3556
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/tiger-sun",
+      "website": "https://www.tigersunatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "weekly",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "Tuesday (every other week)",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop every other Tuesday at 10:00 AM ET in two-week blocks — set an alarm",
+        "If your date is gone, join the Resy Notify list for cancellations",
+        "18 seats, two seatings Wed–Sun; ~$95pp base with paid upgrades",
+        "Behind Muchacho at 904 Memorial Dr SE"
+      ],
+      "signatureDish": "Four story-driven cocktails (film-themed menus) with culinary enhancements, ~90 minutes",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "hidden vintage bus",
+        "immersive",
+        "theatrical"
+      ],
+      "occasion": [
+        "date night",
+        "cocktail adventure",
+        "celebration"
+      ],
+      "dateNote": "Two of you tucked into a restored tour bus for a four-round cocktail story — pure novelty and romance.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Feature — Top Atlanta Restaurants 2025",
+          "url": "https://blog.resy.com/2025/12/atlanta-restaurants-2025/",
+          "note": "Cocktail-omakase concept in a restored vintage tour bus in Reynoldstown; film-themed pre-set rounds, called a movement-starter"
+        },
+        {
+          "name": "Atlanta Magazine",
+          "tier": "Review",
+          "url": "https://www.atlantamagazine.com/reviews/review-tiger-sun-pushes-the-boundaries-of-an-immersive-cocktail-and-dining-experience/",
+          "note": "Reviews Tiger Sun as an immersive cocktail-and-dining experience aboard the bus"
+        }
+      ],
+      "evidence": "18-seat reservation-only cocktail 'dojo' aboard a vintage tour bus behind Muchacho; seats drop in biweekly blocks every other Tuesday at 10am and sell out almost instantly."
+    },
+    {
+      "id": "bacchanalia",
+      "name": "Bacchanalia",
+      "neighborhood": "Westside",
+      "cuisine": "Contemporary American tasting menu",
+      "coordinates": {
+        "lat": 33.8009,
+        "lng": -84.4189
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/bacchanalia",
+      "website": "https://www.starprovisions.com/bacchanalia",
+      "phoneNumber": "404-365-0410",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations via Resy up to ~3 months in advance; weekends and larger parties go first",
+        "Call 404-365-0410 ext. 2 if you don't see an online slot",
+        "VERIFY exact Resy release time"
+      ],
+      "signatureDish": "Multi-course prix fixe tasting menu (Star Provisions)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Atlanta fine-dining institution",
+        "Special occasion",
+        "Polished"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Special occasion",
+        "Celebration"
+      ],
+      "dateNote": "The city's benchmark special-occasion tasting menu - decades-deep, Michelin-starred, and still the table you book weeks ahead for a milestone.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-bib-gourmands-atlanta-restaurants-2025",
+          "note": "Listed among Atlanta's retained one-star restaurants in the 2025 selection."
+        }
+      ],
+      "evidence": "Michelin one-star, Atlanta's flagship fine-dining tasting menu; a ~90-day Resy window with weekends booking out well ahead."
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "neighborhood": "Buckhead",
+      "cuisine": "Upscale New American",
+      "coordinates": {
+        "lat": 33.8428,
+        "lng": -84.3833
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/atlas",
+      "website": "https://atlasrestaurant.com/",
+      "phoneNumber": "404-600-6471",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling window",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Inside The St. Regis Atlanta; smart dress code (jackets/blazers encouraged, no ripped jeans, ballcaps or athletic wear)",
+        "Book via OpenTable or call 404-600-6471; valet at the St. Regis",
+        "VERIFY exact OpenTable release time"
+      ],
+      "signatureDish": "Refined seasonal New American; blue-chip art on the walls",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Museum-worthy art collection",
+        "Jacket-preferred",
+        "St. Regis luxe"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Special occasion",
+        "Impress someone"
+      ],
+      "dateNote": "Dinner surrounded by a museum-grade art collection inside the St. Regis - Buckhead's dressed-up, Michelin-starred grande occasion.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-bib-gourmands-atlanta-restaurants-2025",
+          "note": "Listed among Atlanta's retained one-star restaurants in the 2025 selection."
+        }
+      ],
+      "evidence": "Michelin one-star inside the St. Regis; a small formal dining room and special-occasion demand keep prime weekend tables tight."
+    },
+    {
+      "id": "lazy-betty",
+      "name": "Lazy Betty",
+      "neighborhood": "Midtown",
+      "cuisine": "Experimental tasting menu",
+      "coordinates": {
+        "lat": 33.7817,
+        "lng": -84.3833
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/lazy-betty-atlanta",
+      "website": "https://www.lazybettyatl.com/",
+      "phoneNumber": "470-851-1199",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling window",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The Bar & Lounge four-course tasting is available without a reservation - walk in and sit in the bar/lounge if the dining room is booked."
+      },
+      "tips": [
+        "Dining-room tasting menus (~$285 six-course, optional ~$205 wine pairing) require a reservation via OpenTable",
+        "The Bar & Lounge four-course tasting is walk-in only, no reservation needed",
+        "Allow 2-3 hours; vegetarian menu on request",
+        "VERIFY exact OpenTable release time"
+      ],
+      "signatureDish": "Six-course chef's tasting (optional wine pairing)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Modern tasting menu",
+        "Ambitious",
+        "Refined"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Special occasion",
+        "Foodie date"
+      ],
+      "dateNote": "A Michelin-starred six-course tasting in Midtown - and if the dining room's full, the walk-in bar tasting is the sleeper move for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-bib-gourmands-atlanta-restaurants-2025",
+          "note": "Listed among Atlanta's retained one-star restaurants in the 2025 selection."
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Ranked #1 on the 25 Best Restaurants in Atlanta; experimental tasting menu in Midtown."
+        }
+      ],
+      "evidence": "Michelin one-star tasting-menu destination in Midtown; dining-room seatings book out, though a walk-in bar tasting offers a back door."
+    },
+    {
+      "id": "spring",
+      "name": "Spring",
+      "neighborhood": "Marietta",
+      "cuisine": "Contemporary American",
+      "coordinates": {
+        "lat": 33.9539,
+        "lng": -84.5497
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.springmarietta.com/",
+      "website": "https://www.springmarietta.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "36 Mill St, just off Marietta Square; the first Cobb County / OTP Michelin star",
+        "Book via springmarietta.com - VERIFY the booking platform (Resy/Tock/OpenTable) and release time",
+        "Co-owner/sommelier Daniel Crawford won the 2024 Michelin Atlanta Outstanding Service Award"
+      ],
+      "signatureDish": "Tightly edited seasonal contemporary American plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Just off Marietta Square",
+        "Seasonal",
+        "Understated"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Special occasion",
+        "Suburban splurge"
+      ],
+      "dateNote": "The only Michelin star outside the perimeter - chef Brian So's serene, seasonal room just off Marietta Square is worth the drive for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-bib-gourmands-atlanta-restaurants-2025",
+          "note": "Listed among Atlanta's retained one-star restaurants (Spring, Marietta) in the 2025 selection."
+        },
+        {
+          "name": "Marietta Daily Journal / Cobb Life",
+          "tier": "News",
+          "url": "https://www.mdjonline.com/dining/marietta-restaurant-awarded-michelin-star/article_8cfce482-95f6-11ef-9037-4ffbf290efbc.html",
+          "note": "Reports Spring as the first restaurant in Cobb County and first outside the Atlanta perimeter to earn a Michelin star; chef/owner Brian So."
+        }
+      ],
+      "evidence": "Michelin one-star and the only starred restaurant outside the Atlanta perimeter; a small Marietta Square room with limited seatings."
+    },
+    {
+      "id": "talat-market",
+      "name": "Talat Market",
+      "neighborhood": "Summerhill",
+      "cuisine": "Thai",
+      "coordinates": {
+        "lat": 33.7318,
+        "lng": -84.384
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.talatmarketatl.com/",
+      "website": "https://www.talatmarketatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM (Wed-Sun)",
+        "lineBy": "Arrive right at open or expect a wait",
+        "advice": "No reservations - it's walk-in only. Come at 5 PM opening or be ready to wait, especially Fri-Sun."
+      },
+      "tips": [
+        "No reservations - walk-in only; the Resy listing does not take bookings",
+        "Closed Mon-Tue; Wed-Sat 5-10 PM, Sun 5-9 PM",
+        "Chefs Parnass Savang & Rod Lassiter were 2025 James Beard semifinalists (Best Chef: Southeast)"
+      ],
+      "signatureDish": "Crispy rice salad; som tum; gaeng kiew wan crab-and-pork curry with house-pressed coconut milk",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Walk-in only",
+        "Industrial-vintage",
+        "James Beard-caliber Thai"
+      ],
+      "occasion": [
+        "Casual date",
+        "Foodie pilgrimage"
+      ],
+      "dateNote": "A no-reservations Thai gem in Summerhill from two James Beard semifinalists - grab a seat at opening and settle in over curries pressed from fresh coconut.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Named to the 25 Best Restaurants in Atlanta; Summerhill Thai, reservation via Resy noted (venue is otherwise walk-in heavy)."
+        }
+      ],
+      "evidence": "Michelin-recognized, walk-in-only Thai from two-time James Beard semifinalists; tiny Summerhill room and no reservations mean real lines on weekends."
+    },
+    {
+      "id": "delbar",
+      "name": "Delbar",
+      "neighborhood": "Inman Park",
+      "cuisine": "Persian / Middle Eastern",
+      "coordinates": {
+        "lat": 33.7726,
+        "lng": -84.3527
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/delbar-middle-eastern-buckhead",
+      "website": "https://www.delbaratlanta.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Some bar/first-come seating is often available - worth trying if the dining room is booked."
+      },
+      "tips": [
+        "Reservations via Resy; weekend prime times book out - grab tables early in the window",
+        "Very popular; from the team behind Aziza",
+        "VERIFY exact Resy URL/slug and release time"
+      ],
+      "signatureDish": "Wood-grilled kebabs; Middle Eastern mezze and stews",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Warm and buzzy",
+        "Middle Eastern hospitality",
+        "Inman Park favorite"
+      ],
+      "occasion": [
+        "Date night",
+        "Group dinner"
+      ],
+      "dateNote": "Warm, spice-scented Persian hospitality in a candlelit Inman Park room - one of the city's most beloved date-night tables.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Named to the 25 Best Restaurants in Atlanta; Inman Park Persian, reservation via Resy."
+        }
+      ],
+      "evidence": "One of Atlanta's most in-demand neighborhood tables; Infatuation 25 Best, small Inman Park room and heavy weekend demand."
+    },
+    {
+      "id": "marcel",
+      "name": "Marcel",
+      "neighborhood": "West Midtown",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 33.7887,
+        "lng": -84.4133
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/marcel-atlanta",
+      "website": "https://marcelatl.com/",
+      "phoneNumber": "404-665-4555",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling window",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Try the bar for walk-in steaks and cocktails when the dining room is full."
+      },
+      "tips": [
+        "In Westside Provisions District; Michelin-recommended, award-winning wine list",
+        "Book via OpenTable or call 404-665-4555; weekend prime times go early",
+        "VERIFY exact OpenTable release time"
+      ],
+      "signatureDish": "Beef Wellington; dry-aged steaks; baked Alaska",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Ford Fry glamour",
+        "Parisian steakhouse",
+        "See-and-be-seen"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Special occasion",
+        "Impress someone"
+      ],
+      "dateNote": "Ford Fry's glamorous French-leaning chophouse in Westside Provisions - all tuxedoed service, Beef Wellington and a knockout wine list for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Ranked #2 on the 25 Best Restaurants in Atlanta; West Midtown steakhouse."
+        }
+      ],
+      "evidence": "Ford Fry's glossy, Michelin-recommended steakhouse; a marquee special-occasion room where weekend prime times book out."
+    },
+    {
+      "id": "lyla-lila",
+      "name": "Lyla Lila",
+      "neighborhood": "Midtown",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 33.7716,
+        "lng": -84.3849
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/lyla-lila",
+      "website": "https://www.lylalila.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations via Resy; intimate room means weekend tables book quickly",
+        "VERIFY exact Resy URL/slug and release time"
+      ],
+      "signatureDish": "House-made pastas; artfully plated Italian small plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Understated glamour",
+        "Soft blues and greens",
+        "Peachtree views"
+      ],
+      "occasion": [
+        "Date night",
+        "Anniversary"
+      ],
+      "dateNote": "Soft blues, glossy pastas and plates that look like art, overlooking Peachtree Street - one of Midtown's most romantic Italian rooms.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: Midtown Italian, house-made pastas, 'understated glamour' overlooking Peachtree Street."
+        }
+      ],
+      "evidence": "Buzzy, elegant Midtown Italian featured by Resy editorial; a small glamorous room keeps prime dates competitive."
+    },
+    {
+      "id": "boccalupo",
+      "name": "BoccaLupo",
+      "neighborhood": "Inman Park",
+      "cuisine": "Italian-American",
+      "coordinates": {
+        "lat": 33.7548,
+        "lng": -84.3627
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/boccalupo",
+      "website": "https://boccalupoatl.com/",
+      "phoneNumber": "404-577-2332",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "56 days",
+      "bookingWindowDays": 56,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:30 PM (Wed-Sat)",
+        "lineBy": "",
+        "advice": "The small bar is first-come, first-served - perfect for a solo/duo aperitivo and a plate of pasta when tables are gone."
+      },
+      "tips": [
+        "Small room (~40 seats inside, 18 on the patio); open Wed-Sat 5:30-9:15 PM",
+        "Bar seating is first-come walk-in; reservations via Resy for tables",
+        "Order a la carte or the four-course tasting",
+        "VERIFY exact Resy release time"
+      ],
+      "signatureDish": "Hand-cut and extruded pastas; four-course tasting option",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Tiny neighborhood room",
+        "Chef-driven pasta",
+        "Aperitivo bar"
+      ],
+      "occasion": [
+        "Date night",
+        "Casual splurge"
+      ],
+      "dateNote": "Chef Bruce Logue's silky pastas in a snug Inman Park room - snag a Resy or perch at the little bar for pasta and a spritz.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Named to the 25 Best Restaurants in Atlanta; Inman Park Italian from chef Bruce Logue."
+        }
+      ],
+      "evidence": "Cult Inman Park pasta destination with a tiny room; Infatuation 25 Best and limited seating make weekend tables tough."
+    },
+    {
+      "id": "gunshow",
+      "name": "Gunshow",
+      "neighborhood": "Glenwood Park",
+      "cuisine": "American (interactive/dim-sum-style service)",
+      "coordinates": {
+        "lat": 33.7418,
+        "lng": -84.3488
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/gunshow",
+      "website": "https://www.gunshowatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations via Resy; the interactive, cart-style format is a cult favorite",
+        "VERIFY current operating status and exact Resy release time before planning"
+      ],
+      "signatureDish": "Chef-driven dishes offered dim-sum/cart-style tableside",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Chefs pitch dishes tableside",
+        "Loud and fun",
+        "Kevin Gillespie"
+      ],
+      "occasion": [
+        "Fun date night",
+        "Group dinner",
+        "Foodie pilgrimage"
+      ],
+      "dateNote": "Kevin Gillespie's rowdy dining-as-theater room where chefs wheel dishes to your table and you pick as you go - a genuinely fun night out for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: chef Kevin Gillespie, 'bright, calamitous atmosphere' where diners order dim-sum-style from chefs presenting seasonal dishes."
+        }
+      ],
+      "evidence": "Kevin Gillespie's long-running, cult interactive-dining room in Glenwood Park; Resy editorial still lists it as a splurge-worthy, hard-to-get table."
+    },
+    {
+      "id": "miller-union",
+      "name": "Miller Union",
+      "neighborhood": "West Midtown",
+      "cuisine": "Southern / farm-to-table",
+      "coordinates": {
+        "lat": 33.7877,
+        "lng": -84.4157
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/miller-union",
+      "website": "https://www.millerunion.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seats are often available for walk-ins when the dining room is booked."
+      },
+      "tips": [
+        "Reservations via Resy; a longtime James Beard-recognized favorite, so weekends book out",
+        "Chef Steven Satterfield is a James Beard Award winner",
+        "VERIFY exact Resy URL/slug and release time"
+      ],
+      "signatureDish": "Farm egg baked in celery cream; seasonal vegetable-forward Southern plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Farm-to-table",
+        "Airy and refined",
+        "Vegetable-driven"
+      ],
+      "occasion": [
+        "Date night",
+        "Anniversary",
+        "Special occasion"
+      ],
+      "dateNote": "James Beard-winning chef Steven Satterfield's serene, vegetable-loving Southern room in West Midtown - a perennial, gracious date-night pick.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Named to the 25 Best Restaurants in Atlanta; West Midtown American, reservation recommended."
+        },
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: chef Steven Satterfield, award-winning farm-to-table with seasonal vegetables and an interesting wine list."
+        }
+      ],
+      "evidence": "James Beard-winning, nationally acclaimed farm-to-table stalwart; enduring demand keeps prime West Midtown weekend tables competitive."
+    },
+    {
+      "id": "the-deer-and-the-dove",
+      "name": "The Deer and the Dove",
+      "neighborhood": "Decatur",
+      "cuisine": "New American / wood-fired",
+      "coordinates": {
+        "lat": 33.7745,
+        "lng": -84.2946
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/the-deer-and-dove",
+      "website": "https://www.thedeerandthedove.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations via Resy; a Decatur destination from a James Beard Award-winning chef",
+        "VERIFY exact Resy URL/slug and release time"
+      ],
+      "signatureDish": "Wood-fired, hunting-and-gathering-inspired Southern plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Wood fire",
+        "Decatur destination",
+        "Chef-driven"
+      ],
+      "occasion": [
+        "Date night",
+        "Special occasion",
+        "Foodie pilgrimage"
+      ],
+      "dateNote": "James Beard-winning chef Terry Koval's wood-fired, whole-animal Southern cooking in Decatur - earthy, romantic, and worth the reservation hustle.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Ranked #3 on the 25 Best Restaurants in Atlanta; Decatur American, reservation via Resy."
+        }
+      ],
+      "evidence": "James Beard-winning chef Terry Koval's acclaimed Decatur room; Infatuation 25 Best and steady demand make weekend tables scarce."
+    },
+    {
+      "id": "banshee",
+      "name": "Banshee",
+      "neighborhood": "East Atlanta Village",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 33.7402,
+        "lng": -84.3413
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/banshee",
+      "website": "https://www.bansheeatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "56 days",
+      "bookingWindowDays": 56,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar/counter seats are often walk-in - worth a shot on a weeknight."
+      },
+      "tips": [
+        "Reservations via Resy; small, popular EAV room",
+        "VERIFY exact Resy URL/slug and release time"
+      ],
+      "signatureDish": "Fry bread; clam linguine; concise, shareable New American menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Jewel-toned and moody",
+        "Neighborhood cool",
+        "Great cocktails"
+      ],
+      "occasion": [
+        "Date night",
+        "Casual splurge"
+      ],
+      "dateNote": "A jewel-box East Atlanta room with a tight, shareable menu and killer cocktails - the kind of cool neighborhood date spot that fills fast.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Named to the 25 Best Restaurants in Atlanta; East Atlanta Village American, reservation via Resy."
+        },
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: jewel-toned New American with a 'concise but shareable' menu including fry bread and clam linguine."
+        }
+      ],
+      "evidence": "Buzzy East Atlanta Village favorite on the Infatuation 25 Best and Resy editorial; a small room keeps weekend prime times tight."
+    },
+    {
+      "id": "il-premio",
+      "name": "Il Premio",
+      "neighborhood": "Old Fourth Ward",
+      "cuisine": "Italian steakhouse",
+      "coordinates": {
+        "lat": 33.7625,
+        "lng": -84.3665
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/il-premio",
+      "website": "https://www.ilpremioatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "38 days",
+      "bookingWindowDays": 38,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations via Resy; a buzzy, moody Italian steakhouse with an extensive wine list",
+        "VERIFY exact Resy URL/slug, release time, and Old Fourth Ward street address"
+      ],
+      "signatureDish": "Burrata; tuna tartare; dry-aged steaks",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Dark and moody",
+        "Italian steakhouse",
+        "Deep wine list"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Special occasion",
+        "Impress someone"
+      ],
+      "dateNote": "A dark, moody Italian steakhouse in the Old Fourth Ward with dry-aged steaks and a serious wine cellar - a sultry big-night table for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Splurge-Worthy Dining in Atlanta",
+          "url": "https://blog.resy.com/2025/10/tasting-menu-atlanta-2/",
+          "note": "Resy editorial: 'dark and moody' Old Fourth Ward Italian steakhouse with burrata, tuna tartare, dry-aged steaks and an impressive wine collection."
+        }
+      ],
+      "evidence": "Buzzy Old Fourth Ward Italian steakhouse featured by Resy editorial; a moody special-occasion room where prime weekend tables book out."
+    },
+    {
+      "id": "the-chastain",
+      "name": "The Chastain",
+      "neighborhood": "Buckhead (Chastain Park)",
+      "cuisine": "New American (garden-driven)",
+      "coordinates": {
+        "lat": 33.8879,
+        "lng": -84.4001
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/the-chastain-atlanta",
+      "website": "https://thechastainatl.com/reservations/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations via OpenTable/their site; weekends and the garden tasting book up",
+        "6-course Garden Tasting sourced from the on-site garden",
+        "VERIFY exact reservation release window"
+      ],
+      "signatureDish": "6-course Garden Tasting from the on-site culinary garden; English pea agnolotti with morels",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "garden bistro",
+        "sustainable",
+        "French Laundry pedigree"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion",
+        "weekend brunch"
+      ],
+      "dateNote": "A greenery-wrapped bistro by Chastain Park where much of your plate came from the garden out back.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Green Star",
+          "url": "https://guide.michelin.com/us/en/article/sustainable-gastronomy/michelin-guide-green-star-the-chastain-atlanta-georgia-sustainability",
+          "note": "MICHELIN Green Star spotlight: The Chastain's on-site garden and sustainability program; Chef Christopher Grossman"
+        },
+        {
+          "name": "Rough Draft Atlanta",
+          "tier": "Green Star (2025 Guide)",
+          "url": "https://roughdraftatlanta.com/2025/11/03/2025-michelin-guide-american-south-atlanta-restaurants-winners/",
+          "note": "Lists The Chastain among Atlanta's MICHELIN Green Star restaurants for 2025"
+        }
+      ],
+      "evidence": "MICHELIN Green Star for sustainability; Chef Christopher Grossman (French Laundry alum) with an on-site culinary garden and a 6-course garden tasting — reservations strongly recommended."
+    },
+    {
+      "id": "madeira-park",
+      "name": "Madeira Park",
+      "neighborhood": "Poncey-Highland",
+      "cuisine": "Wine bar / New American",
+      "coordinates": {
+        "lat": 33.7728,
+        "lng": -84.3505
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/atlanta-ga/venues/madeira-park",
+      "website": "https://www.madeiraparkatl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Reserve on Resy for prime evenings; some walk-in bar seating",
+        "Steven Satterfield's wine bar with a strong by-the-glass program",
+        "VERIFY exact reservation release window"
+      ],
+      "signatureDish": "Seasonal gnocchi (already 'iconic'); 20+ wines by the glass",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy wine bar",
+        "cozy",
+        "of-the-moment"
+      ],
+      "occasion": [
+        "date night",
+        "wine night",
+        "casual celebration"
+      ],
+      "dateNote": "A wine-forward room from Steven Satterfield where the gnocchi and a by-the-glass flight make an easy, warm night for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "The Hit List — Atlanta (Feb 2026)",
+          "url": "https://blog.resy.com/the-hit-list/atlanta-restaurants-feb-2026/",
+          "note": "Named one of 'America's most defining restaurants of 2025'; iconic seasonal gnocchi, deep by-the-glass list"
+        },
+        {
+          "name": "Rough Draft Atlanta",
+          "tier": "MICHELIN Recommended (2025 Guide)",
+          "url": "https://roughdraftatlanta.com/2025/11/03/2025-michelin-guide-american-south-atlanta-restaurants-winners/",
+          "note": "Madeira Park among Atlanta's new 2025 MICHELIN 'Recommended' restaurants"
+        }
+      ],
+      "evidence": "One of the hottest tables in Atlanta — a Resy Hit List staple named among 'America's most defining restaurants of 2025' and MICHELIN-recommended; small room, prime slots go fast."
+    },
+    {
+      "id": "so-so-fed",
+      "name": "So So Fed",
+      "neighborhood": "East Atlanta Village",
+      "cuisine": "Lao",
+      "coordinates": {
+        "lat": 33.7402,
+        "lng": -84.349
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.sosofed.com/",
+      "website": "https://www.sosofed.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Open limited days (Sun–Mon) — plan around the schedule",
+        "Small room, limited seats",
+        "VERIFY current booking platform, hours, and reservation mechanics"
+      ],
+      "signatureDish": "Chef-driven Lao dishes (limited menu)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny",
+        "limited-days",
+        "personal"
+      ],
+      "occasion": [
+        "date night",
+        "adventurous dinner"
+      ],
+      "dateNote": "Open only a couple of nights a week — a rare, personal Lao dinner worth planning your week around.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Atlanta",
+          "url": "https://www.theinfatuation.com/atlanta/guides/best-restaurants-atlanta",
+          "note": "Listed among Atlanta's best restaurants; notes limited hours (Sun–Mon only)"
+        }
+      ],
+      "evidence": "A small Lao concept open only Sunday–Monday; extremely limited service days make seats scarce."
+    }
+  ]
+}

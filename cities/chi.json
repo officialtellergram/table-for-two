@@ -1,0 +1,2518 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Chicago",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "alinea",
+      "name": "Alinea",
+      "neighborhood": "Lincoln Park",
+      "cuisine": "New American / Avant-garde tasting",
+      "coordinates": {
+        "lat": 41.9137,
+        "lng": -87.6485
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/alinea",
+      "website": "https://www.alinearestaurant.com",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "11:00 AM CT",
+      "releaseDay": "~15th of the month (VERIFY — some reports say the 1st)",
+      "bookingWindow": "~2 months",
+      "bookingWindowDays": 60,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "No walk-ins and no phone reservations — Tock tickets only."
+      },
+      "tips": [
+        "Prepaid Tock 'tickets' (you buy a table, not seats); non-refundable but transferable/resellable on Tock up to service day.",
+        "Prime weekend tickets have vanished in ~60 seconds — be logged into Tock and ready at the release minute.",
+        "Odd-numbered parties generally not accepted.",
+        "VERIFY exact monthly release day/time on Tock before the drop — reports vary between the 1st and the 15th."
+      ],
+      "signatureDish": "Black Truffle Explosion",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "theatrical",
+        "bucket-list"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "The most theatrical splurge in the city — a once-in-a-lifetime table for two worth every second of the Tock scramble.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection: Alinea holds two Michelin stars (dropped from three in the Nov 2025 guide), Grant Achatz's flagship."
+        },
+        {
+          "name": "NBC Chicago",
+          "tier": "local",
+          "url": "https://www.nbcchicago.com/news/local/reservations-to-chicagos-alinea-are-some-of-the-hardest-to-get-in-the-city-heres-how-to-make-one/2917225/",
+          "note": "Explainer names Alinea among the city's hardest reservations; tickets sell out fast and are released on Tock roughly two months out."
+        },
+        {
+          "name": "Time Out Chicago",
+          "tier": "local",
+          "url": "https://www.timeout.com/chicago/restaurants/the-hardest-reservations-in-chicago",
+          "note": "Lists Alinea in its hardest-reservations guide; books on Tock, opens around the 15th of each month ~2 months ahead, kitchen table and gallery sell out first."
+        }
+      ],
+      "evidence": "Chicago's marquee tasting; prepaid Tock tickets for prime weekends vanish within ~60 seconds, no walk-ins or phone."
+    },
+    {
+      "id": "smyth",
+      "name": "Smyth",
+      "neighborhood": "West Loop",
+      "cuisine": "New American tasting",
+      "coordinates": {
+        "lat": 41.8858,
+        "lng": -87.6565
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/smyth",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Chicago's only three-Michelin-star restaurant (chefs John Shields & Karen Urie-Shields) — the smallest, most-coveted seat count in town.",
+        "Books on Tock with a per-person deposit (~$100); the menu runs ~$420/person before beverage, tax and gratuity.",
+        "VERIFY the exact release cadence on Tock — seats open on a rolling basis and go quickly for weekends."
+      ],
+      "signatureDish": "Ever-evolving tasting built on the Shields' Door County farm produce",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "refined",
+        "destination"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "The city's lone three-star room — hushed, precise, and unforgettable for a milestone night.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection: Smyth is the city's sole three-Michelin-star restaurant."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 roundup lists Smyth at three stars, the top of Chicago's Michelin hierarchy."
+        }
+      ],
+      "evidence": "Chicago's only three-Michelin-star restaurant; a handful of nightly seats on Tock with a per-person deposit."
+    },
+    {
+      "id": "next",
+      "name": "Next",
+      "neighborhood": "Fulton Market",
+      "cuisine": "Themed tasting menu",
+      "coordinates": {
+        "lat": 41.8866,
+        "lng": -87.6516
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/next",
+      "website": "https://www.nextrestaurant.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The original ticketed restaurant (Nick Kokonas / Alinea Group) — the menu fully reinvents itself by theme every few months.",
+        "Buy 'Season Tickets' or individual dated tickets on Tock; batches sell out on release, especially weekends.",
+        "Prices float by date and menu, concert-style; VERIFY the current release date for the season you want on Tock."
+      ],
+      "signatureDish": "Themed tasting menu (reinvented each season)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "novel",
+        "destination"
+      ],
+      "occasion": [
+        "impress",
+        "celebration",
+        "date"
+      ],
+      "dateNote": "Never the same restaurant twice — book a season you'll both remember and go all in.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection lists Next as a one-Michelin-star restaurant."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 one-star list includes Next; the ticketed, theme-changing Alinea Group restaurant."
+        }
+      ],
+      "evidence": "Ticketed like a concert; season tickets and dated Tock tickets for the ever-changing themed menu sell out on release."
+    },
+    {
+      "id": "kyoten",
+      "name": "Kyōten",
+      "neighborhood": "Logan Square",
+      "cuisine": "Edomae sushi omakase",
+      "coordinates": {
+        "lat": 41.9174,
+        "lng": -87.6911
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/kyoten-chicago",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Just 8 seats and one seating a night; Chef Otto Phan's omakase runs ~$440 weekdays and ~$490 Fri/Sat, prepaid on Tock.",
+        "Weekend seats are gone weeks in advance; weekdays occasionally open up — watch Tock for returns.",
+        "VERIFY release timing on Tock; the sibling 'Kyōten Next Door' in Logan Square is a more affordable 10-seat alternative."
+      ],
+      "signatureDish": "Edomae sushi omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "refined",
+        "counter"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "date"
+      ],
+      "dateNote": "Eight seats, one chef, total focus — an intense, elbow-to-elbow omakase for a serious sushi date.",
+      "sources": [
+        {
+          "name": "Time Out Chicago",
+          "tier": "local",
+          "url": "https://www.timeout.com/chicago/restaurants/the-hardest-reservations-in-chicago",
+          "note": "Lists Kyōten among Chicago's hardest reservations: only 8 seats, one seating nightly, $440–$490 premium omakase on Tock, weekends require weeks of lead time."
+        }
+      ],
+      "evidence": "Eight seats, one seating a night, ~$490 omakase; weekend Tock slots gone weeks ahead."
+    },
+    {
+      "id": "oriole",
+      "name": "Oriole",
+      "neighborhood": "Fulton Market",
+      "cuisine": "Contemporary American tasting",
+      "coordinates": {
+        "lat": 41.8869,
+        "lng": -87.6462
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/oriolechicago",
+      "website": "https://www.oriolechicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Two Michelin stars; hidden down a freight-elevator entrance in Fulton Market.",
+        "Prepaid Tock reservations (~$325/person) release on a rolling 90-day calendar — book the day your target date opens.",
+        "VERIFY the exact daily release time on Tock; weekends fill first."
+      ],
+      "signatureDish": "Contemporary tasting menu with a signature caviar course",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "refined",
+        "hidden"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A luxe, tucked-away two-star — pure occasion dining for a big night out.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection: Oriole holds two Michelin stars."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 roundup lists Oriole among the city's four two-star restaurants."
+        }
+      ],
+      "evidence": "Two Michelin stars; prepaid Tock tables on a 90-day rolling calendar that weekend-seekers pounce on."
+    },
+    {
+      "id": "ever",
+      "name": "Ever",
+      "neighborhood": "Fulton Market",
+      "cuisine": "Contemporary tasting menu",
+      "coordinates": {
+        "lat": 41.8865,
+        "lng": -87.6614
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/ever-chicago",
+      "website": "https://www.ever-restaurant.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Two Michelin stars from chef Curtis Duffy and Michael Muser; an 8–10 course tasting full of surprises.",
+        "Now books through OpenTable (moved off Tock) at 1340 W Fulton St — limited nightly seats go far in advance.",
+        "VERIFY current release timing directly with Ever; the platform changed, so older 'first-Tuesday monthly on Tock' guidance is outdated."
+      ],
+      "signatureDish": "8–10 course contemporary tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "refined",
+        "destination"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Polished, gracious two-star service — a classic choice to mark something big together.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection: Ever holds two Michelin stars."
+        },
+        {
+          "name": "Time Out Chicago",
+          "tier": "local",
+          "url": "https://www.timeout.com/chicago/restaurants/the-hardest-reservations-in-chicago",
+          "note": "Lists Ever among the hardest reservations; two Michelin stars, 8–10 course tasting, books out well ahead (platform since moved to OpenTable)."
+        }
+      ],
+      "evidence": "Two Michelin stars from Curtis Duffy; limited nightly seats book out far in advance."
+    },
+    {
+      "id": "schwa",
+      "name": "Schwa",
+      "neighborhood": "Wicker Park",
+      "cuisine": "New American tasting (BYOB)",
+      "coordinates": {
+        "lat": 41.9083,
+        "lng": -87.6677
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.schwarestaurant.com/visit",
+      "website": "https://www.schwarestaurant.com",
+      "phoneNumber": "(773) 252-1466",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star, tiny BYOB room with no front-of-house — the chefs cook and serve you.",
+        "Legendarily hard to reach by phone; keep calling (773) 252-1466 and leave a message.",
+        "VERIFY current booking method — some seats have been released via Tock on a rotating basis in addition to phone.",
+        "No corkage — bring whatever you want to drink."
+      ],
+      "signatureDish": "Quail Egg Ravioli",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "cult-favorite",
+        "unconventional"
+      ],
+      "occasion": [
+        "impress",
+        "date",
+        "celebration"
+      ],
+      "dateNote": "Cramped, loud, brilliant and BYOB — a cult two-top for the adventurous couple who love a good story.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/schwa",
+          "note": "MICHELIN lists Schwa as a one-star Chicago restaurant, an unconventional BYOB tasting where the chefs serve."
+        },
+        {
+          "name": "Time Out Chicago",
+          "tier": "local",
+          "url": "https://www.timeout.com/chicago/restaurants/the-hardest-reservations-in-chicago",
+          "note": "Cites Schwa's notoriously difficult phone-based booking and BYOB, no-corkage format."
+        }
+      ],
+      "evidence": "One Michelin star, no front-of-house; legendarily hard-to-reach phone booking and a tiny BYOB room."
+    },
+    {
+      "id": "feld",
+      "name": "Feld",
+      "neighborhood": "West Town",
+      "cuisine": "New American tasting",
+      "coordinates": {
+        "lat": 41.8958,
+        "lng": -87.6786
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/feldrestaurant",
+      "website": "https://www.feldrestaurant.com",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "5:00 PM CT",
+      "releaseDay": "1st of the month (VERIFY)",
+      "bookingWindow": "~2 months",
+      "bookingWindowDays": 60,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Brand-new one Michelin star plus a Green Star (2025), earned ~16 months after opening — one of the hottest tables in the city.",
+        "Very small room; the ~$225 'relationship-to-table' tasting books on Tock and monthly drops go fast.",
+        "VERIFY the exact release day/time on Feld's Tock page — batches have opened around the 1st at 5:00 PM local."
+      ],
+      "signatureDish": "Seasonal 'relationship-to-table' tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "of-the-moment",
+        "intimate",
+        "refined"
+      ],
+      "occasion": [
+        "impress",
+        "date",
+        "celebration"
+      ],
+      "dateNote": "The city's buzziest new star — an intimate, farm-driven tasting for a couple who like to be first.",
+      "sources": [
+        {
+          "name": "Block Club Chicago",
+          "tier": "local",
+          "url": "https://blockclubchicago.org/2025/11/19/chicagos-2025-michelin-stars-include-feld-a-ukrainian-village-newcomer/",
+          "note": "Reports Feld earning its first Michelin star (and Green Star) in 2025, ~16 months after opening in West Town/Ukrainian Village."
+        },
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/feld",
+          "note": "MICHELIN lists Feld, a seasonal 'relationship-to-table' tasting-menu restaurant in Chicago's West Town."
+        }
+      ],
+      "evidence": "Brand-new one-star (plus Green Star), ~16 seats; monthly Tock drops for the $225 tasting sell through fast."
+    },
+    {
+      "id": "carino",
+      "name": "Cariño",
+      "neighborhood": "Uptown",
+      "cuisine": "Latin-inspired tasting / taco omakase",
+      "coordinates": {
+        "lat": 41.9663,
+        "lng": -87.6577
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/carino-chicago",
+      "website": "https://www.carinochicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star; a 7-seat chef's counter plus ~6 tables makes for very few seats a night.",
+        "Chef Norman Fenton's 12–16 course Latin-inspired tasting and taco omakase book on Tock — the chef's counter goes first.",
+        "VERIFY release timing on Tock; the counter experience is the coveted one."
+      ],
+      "signatureDish": "Taco omakase / Latin-inspired tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "counter",
+        "of-the-moment"
+      ],
+      "occasion": [
+        "date",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "Bold, playful and personal at a seven-seat counter — a lively date for couples who love a chef's-hands experience.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/carino",
+          "note": "MICHELIN lists Cariño (Uptown) as a one-star Latin-inspired tasting-menu restaurant with a chef's counter."
+        },
+        {
+          "name": "CBS Chicago",
+          "tier": "local",
+          "url": "https://www.cbsnews.com/chicago/news/carino-chicago-uptown-michelin-star/",
+          "note": "Reports Cariño in Uptown receiving a Michelin star; Chef Norman Fenton's immersive Latin tasting and taco omakase."
+        }
+      ],
+      "evidence": "One Michelin star; a 7-seat chef's counter and tiny room make the Latin tasting/taco omakase a scramble on Tock."
+    },
+    {
+      "id": "warlord",
+      "name": "Warlord",
+      "neighborhood": "Avondale",
+      "cuisine": "Live-fire American",
+      "coordinates": {
+        "lat": 41.9382,
+        "lng": -87.7156
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/warlord",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Fri–Mon, opens 6pm (kitchen runs to ~2am)",
+        "lineBy": "Arrive 30–60 minutes before the 6pm open",
+        "advice": "Primarily walk-in and first-come, first-served — a line forms before opening. They take your number so you can wait nearby; the live-fire chef's counter is the trophy seat."
+      },
+      "tips": [
+        "Avondale's cult live-fire spot (chefs Emily Kraszyk, John Lupton, Trevor Fleming) cooking over an open hearth.",
+        "Only open Friday–Monday from 6pm; effectively no advance reservations for most seats — get there early.",
+        "VERIFY whether any chef's-counter seats are releasing via Tock vs. pure walk-in before you go."
+      ],
+      "signatureDish": "Wood-fired, live-fire grilled meats",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "counter",
+        "cult-favorite"
+      ],
+      "occasion": [
+        "date",
+        "casual-cool"
+      ],
+      "dateNote": "Smoke, fire and a great counter — an unfussy, thrilling date if you're willing to queue.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/warlord",
+          "note": "MICHELIN Guide lists Warlord, an Avondale live-fire restaurant where chefs cook over an open kitchen; the chef's counter is the most desirable seat."
+        }
+      ],
+      "evidence": "No reservations for most seats — a walk-in line forms before the 6pm open; chef's-counter seats are the trophy."
+    },
+    {
+      "id": "esme",
+      "name": "Esmé",
+      "neighborhood": "Lincoln Park",
+      "cuisine": "New American tasting (art-driven)",
+      "coordinates": {
+        "lat": 41.9224,
+        "lng": -87.6396
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/esme-chicago",
+      "website": "https://www.esmechicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star; chef Jenner Tomaska's gallery-like room pairs a 12–15 course tasting with rotating local artists.",
+        "The menu resets roughly every 12 weeks — each new collaboration's Tock dates go quickly.",
+        "VERIFY the release timing for the current menu on Tock."
+      ],
+      "signatureDish": "Art-inspired multi-course tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "artful",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "date"
+      ],
+      "dateNote": "Dinner as an art exhibit — a creative, romantic tasting for a couple who love a concept.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection lists Esmé as a one-Michelin-star restaurant in Lincoln Park."
+        },
+        {
+          "name": "Block Club Chicago",
+          "tier": "local",
+          "url": "https://blockclubchicago.org/2025/04/01/esmes-table-for-six-tasting-menu-brings-local-artists-and-chefs-together/",
+          "note": "Feature on Esmé's art-forward tasting-menu collaborations; the Michelin-starred Lincoln Park room evolves its menu with local artists."
+        }
+      ],
+      "evidence": "One Michelin star; the art-driven tasting resets quarterly and each new menu's Tock dates go quickly."
+    },
+    {
+      "id": "el-ideas",
+      "name": "EL Ideas",
+      "neighborhood": "Douglas Park",
+      "cuisine": "New American tasting (BYOB, communal)",
+      "coordinates": {
+        "lat": 41.8622,
+        "lng": -87.6862
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/el-ideas",
+      "website": "https://www.elideas.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star run like a BYOB dinner party — open kitchen, communal energy, ~$195/person plus tax and service.",
+        "Very few seats per night; book the dated dinners on OpenTable and email reservations@elideas.com for larger parties.",
+        "VERIFY current release timing — seatings are limited and go early."
+      ],
+      "signatureDish": "Communal, BYOB multi-course tasting",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "unconventional",
+        "cult-favorite"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "impress"
+      ],
+      "dateNote": "A come-into-the-kitchen dinner party with Michelin cooking — bring a great bottle and settle in together.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection lists EL Ideas as a one-Michelin-star restaurant."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 one-star list includes EL Ideas, the intimate BYOB tasting-menu spot."
+        }
+      ],
+      "evidence": "One Michelin star in a communal, BYOB dinner-party format with very few nightly seats."
+    },
+    {
+      "id": "mako",
+      "name": "Mako",
+      "neighborhood": "West Loop",
+      "cuisine": "Sushi omakase",
+      "coordinates": {
+        "lat": 41.8856,
+        "lng": -87.6469
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/mako",
+      "website": "https://www.makochicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star; chef B.K. Park's contemporary sushi omakase on Lake St.",
+        "Short nightly seatings (Wed–Fri 6 & 8:30pm; Sat–Sun 4, 6 & 8:30pm) booked on Tock — counter seats go first.",
+        "VERIFY the release window on Tock; weekend seatings fill quickly."
+      ],
+      "signatureDish": "Chef's sushi omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "counter",
+        "refined"
+      ],
+      "occasion": [
+        "date",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "A calm, luxe sushi counter — an elegant, quiet date over pristine fish.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/mako",
+          "note": "MICHELIN lists Mako as a one-star modern Japanese/sushi omakase in the West Loop, Chef B.K. Park."
+        }
+      ],
+      "evidence": "One Michelin star sushi omakase from B.K. Park; short nightly seatings booked on Tock."
+    },
+    {
+      "id": "indienne",
+      "name": "Indienne",
+      "neighborhood": "River North",
+      "cuisine": "Progressive Indian tasting",
+      "coordinates": {
+        "lat": 41.8949,
+        "lng": -87.6339
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/indienne-chicago",
+      "website": "https://www.indiennechicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "30–45 days",
+      "bookingWindowDays": 45,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins are taken at the bar for an à la carte small-plates menu; the seated tasting is reservation-only."
+      },
+      "tips": [
+        "Chicago's first one-Michelin-star Indian restaurant; chef Sujan Sarkar's progressive tasting (~$135–$155, vegetarian/vegan/pescatarian options).",
+        "Tasting books ~30–45 days out (Tock primary; also email info@indiennechicago.com) — weekend seatings go first.",
+        "VERIFY the exact release time on Tock."
+      ],
+      "signatureDish": "Progressive Indian tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "refined",
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "date",
+        "celebration"
+      ],
+      "dateNote": "Elegant, modern Indian in a jewel-box River North room — a memorable date beyond the usual tasting-menu suspects.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/features/first-one-michelin-star-indian-restaurant-in-chicago-indienne-michelin-guide",
+          "note": "MICHELIN feature: Indienne is Chicago's first one-Michelin-star Indian restaurant, chef Sujan Sarkar's progressive Indian cuisine."
+        },
+        {
+          "name": "Resy",
+          "tier": "national",
+          "url": "https://blog.resy.com/2026/06/indienne-chicago/",
+          "note": "Resy editorial profiles Indienne as one of Chicago's most ambitious restaurants under chef Sujan Sarkar."
+        }
+      ],
+      "evidence": "First one-Michelin-star Indian restaurant in Chicago; tasting seats book 30–45 days out with weekends first to go."
+    },
+    {
+      "id": "galit",
+      "name": "Galit",
+      "neighborhood": "Lincoln Park",
+      "cuisine": "Middle Eastern",
+      "coordinates": {
+        "lat": 41.9256,
+        "lng": -87.6533
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/chicago-il/venues/galit",
+      "website": "https://www.galitrestaurant.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "56 days",
+      "bookingWindowDays": 56,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star; James Beard Award-winning chef Zachary Engel's neo-Israeli cooking, famed for its hummus and wood-fired laffa.",
+        "Books on Resy at 2429 N Lincoln Ave — use Resy Notify for cancellations; prime weekend tables move fast.",
+        "VERIFY the daily Resy release time."
+      ],
+      "signatureDish": "Hummus with wood-fired laffa",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "warm",
+        "lively",
+        "of-the-moment"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "casual-cool"
+      ],
+      "dateNote": "Generous, spice-forward and joyful — a relaxed but special date built around the best hummus in town.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/galit",
+          "note": "MICHELIN lists Galit as a one-star Middle Eastern restaurant in Lincoln Park, chef Zachary Engel."
+        },
+        {
+          "name": "Resy",
+          "tier": "national",
+          "url": "https://blog.resy.com/2023/05/galit/",
+          "note": "Resy editorial guide to getting into Galit; recommends Resy Notify because demand outpaces availability."
+        }
+      ],
+      "evidence": "One Michelin star from James Beard-winner Zachary Engel; Resy tables move fast."
+    },
+    {
+      "id": "kumiko",
+      "name": "Kumiko",
+      "neighborhood": "West Loop",
+      "cuisine": "Japanese dining bar / cocktails & kaiseki",
+      "coordinates": {
+        "lat": 41.8857,
+        "lng": -87.6455
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://www.barkumiko.com/visitus",
+      "website": "https://www.barkumiko.com",
+      "phoneNumber": "312-852-9112",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The bar/à la carte side takes some walk-ins; the seasonal tasting counter is best reserved."
+      },
+      "tips": [
+        "Julia Momose's acclaimed Japanese dining bar (sibling to Oriole) — refined à la carte plus a seasonal tasting with cocktail, spiritfree, or sake pairings.",
+        "Reservations available on Resy per Michelin; the intimate omakase bar is the tough get.",
+        "VERIFY the exact Resy booking link and release timing via barkumiko.com/visitus."
+      ],
+      "signatureDish": "Seasonal tasting with cocktail pairings",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "refined",
+        "cocktail-forward"
+      ],
+      "occasion": [
+        "date",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "A hushed, grown-up cocktail-and-kaiseki bar — one of the most romantic seats in the West Loop.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/dining-out/bar-kumiko-opening-chicago-oriole-julia-momose-noah-sandoval",
+          "note": "MICHELIN feature on Kumiko's opening: Julia Momose's Japanese dining bar with an intimate room and omakase bar, sibling to two-star Oriole; reservations on Resy."
+        }
+      ],
+      "evidence": "Julia Momose's Michelin-recognized cocktail-and-kaiseki bar; the seasonal counter tasting is a tough get."
+    },
+    {
+      "id": "elske",
+      "name": "Elske",
+      "neighborhood": "West Loop",
+      "cuisine": "Contemporary American",
+      "coordinates": {
+        "lat": 41.8846,
+        "lng": -87.6614
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/elske-reservations-chicago",
+      "website": "https://www.elskerestaurant.com",
+      "phoneNumber": "(312) 733-1314",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star at 1350 W Randolph; choose the set tasting or à la carte, with a lovely fire-pit patio.",
+        "Books on OpenTable — prime tasting nights sell out early.",
+        "VERIFY the release window; weekend tasting seats are the first to go."
+      ],
+      "signatureDish": "Seasonal tasting menu (wood-fired plates)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "romantic",
+        "refined"
+      ],
+      "occasion": [
+        "date",
+        "anniversary",
+        "impress"
+      ],
+      "dateNote": "Warm, Nordic-inflected and genuinely romantic — grab the patio fire pit in season.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection lists Elske as a one-Michelin-star restaurant on Randolph St."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 one-star list includes Elske, the contemporary-American West Loop tasting/à la carte spot."
+        }
+      ],
+      "evidence": "One Michelin star; a small West Loop room where prime tasting nights sell out early."
+    },
+    {
+      "id": "moody-tongue",
+      "name": "Moody Tongue",
+      "neighborhood": "South Loop",
+      "cuisine": "New American tasting / brewery",
+      "coordinates": {
+        "lat": 41.8467,
+        "lng": -87.6259
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.moodytongue.com/reservations",
+      "website": "https://www.moodytongue.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Michelin-starred tasting inside a serious brewery (previously two stars; one star in 2025) — beer-paired multi-course menu.",
+        "Limited seatings for the tasting-room experience; book via the reservations page on moodytongue.com.",
+        "VERIFY the booking platform/timing directly — the tasting is separate from the casual bar."
+      ],
+      "signatureDish": "12-Layer Chocolate Cake",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "refined",
+        "novel",
+        "special-occasion"
+      ],
+      "occasion": [
+        "date",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "Beer as fine dining, plus that famous 12-layer cake — a fun, unexpected splurge for two.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection lists Moody Tongue with one Michelin star (down from two)."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 one-star list includes Moody Tongue, the South Loop brewery with a Michelin-starred tasting menu."
+        }
+      ],
+      "evidence": "Michelin-starred brewery tasting; limited seatings for the beer-paired menu."
+    },
+    {
+      "id": "topolobampo",
+      "name": "Topolobampo",
+      "neighborhood": "River North",
+      "cuisine": "Fine-dining Mexican",
+      "coordinates": {
+        "lat": 41.8905,
+        "lng": -87.6309
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/topolobampo",
+      "website": "https://www.rickbayless.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Rick Bayless's Michelin-starred fine-dining Mexican and a James Beard Outstanding Restaurant winner.",
+        "Books on OpenTable; prime dinner times go about a month out — set alerts for cancellations.",
+        "VERIFY the release window; the tasting menu and à la carte have different availability."
+      ],
+      "signatureDish": "Mole Negro",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "refined",
+        "classic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "The gold standard of fine Mexican dining in America — a celebratory table with legendary moles.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/topolobampo",
+          "note": "MICHELIN lists Topolobampo as a one-star fine-dining Mexican restaurant from Rick Bayless in River North."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 one-star list includes Topolobampo, Rick Bayless's River North flagship."
+        }
+      ],
+      "evidence": "Rick Bayless's one-star, James Beard Outstanding Restaurant; prime OpenTable times gone a month out."
+    },
+    {
+      "id": "monteverde",
+      "name": "Monteverde Restaurant & Pastificio",
+      "neighborhood": "West Loop",
+      "cuisine": "Italian / handmade pasta",
+      "coordinates": {
+        "lat": 41.8817,
+        "lng": -87.6533
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/chicago-il/venues/monteverde-restaurant-and-pastificio",
+      "website": "https://monteverdechicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins welcome at the bar for spontaneous diners; the dining room is best reserved."
+      },
+      "tips": [
+        "James Beard Award-winning chef Sarah Grueneberg's pasta powerhouse — packed since 2015.",
+        "Books on Resy about 30 days out; weekend tables vanish, so set Resy Notify.",
+        "Sit at the pasta laboratory counter if you can; VERIFY the daily Resy release time."
+      ],
+      "signatureDish": "Cacio Whey Pepe (tableside cacio e pepe)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "warm",
+        "crowd-pleaser"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "casual-cool"
+      ],
+      "dateNote": "Handmade pasta and buzzy energy — a joyful, unpretentious date that's still genuinely hard to book.",
+      "sources": [
+        {
+          "name": "Time Out Chicago",
+          "tier": "local",
+          "url": "https://www.timeout.com/chicago/restaurants/the-hardest-reservations-in-chicago",
+          "note": "Lists Monteverde among the hardest reservations; James Beard Award winner, popular since 2015, books about a month out on Resy with bar walk-ins."
+        }
+      ],
+      "evidence": "James Beard-winning Sarah Grueneberg's pasta temple; Resy books a month out and weekends vanish."
+    },
+    {
+      "id": "boka",
+      "name": "Boka",
+      "neighborhood": "Lincoln Park",
+      "cuisine": "Contemporary American",
+      "coordinates": {
+        "lat": 41.9142,
+        "lng": -87.6485
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.bokachicago.com/reservations",
+      "website": "https://www.bokachicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star and the flagship of the Boka Restaurant Group; a polished, garden-like Lincoln Park room by the theater district.",
+        "Book via the reservations page on bokachicago.com; consistently booked solid, especially pre-theater and weekends.",
+        "VERIFY the booking platform/window — confirm the exact release timing directly."
+      ],
+      "signatureDish": "Seasonal contemporary-American tasting & à la carte",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "refined",
+        "special-occasion",
+        "polished"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "date"
+      ],
+      "dateNote": "Grown-up, gracious and reliably excellent — an easy 'yes' for a dressed-up date near the theaters.",
+      "sources": [
+        {
+          "name": "MICHELIN Guide",
+          "tier": "national",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-in-the-michelin-guide-chicago-2025",
+          "note": "2025 Chicago selection lists Boka as a one-Michelin-star restaurant in Lincoln Park."
+        },
+        {
+          "name": "Modern Luxury (Michigan Avenue)",
+          "tier": "local",
+          "url": "https://www.modernluxury.com/michelin-starred-restaurants-chicago-2025/",
+          "note": "2025 one-star list includes Boka, the Boka Restaurant Group flagship."
+        }
+      ],
+      "evidence": "One Michelin star, Boka Group flagship; a consistently booked-solid Lincoln Park mainstay."
+    },
+    {
+      "id": "rose-mary",
+      "name": "Rose Mary",
+      "neighborhood": "Fulton Market",
+      "cuisine": "Adriatic / Croatian-Italian",
+      "coordinates": {
+        "lat": 41.8866,
+        "lng": -87.651
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.rosemarychicago.com",
+      "website": "https://www.rosemarychicago.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins accepted at the bar; the dining room is best reserved."
+      },
+      "tips": [
+        "Top Chef winner Joe Flamm's buzzy Fulton Market debut — 'Adriatic drinking food,' pastas and wood-fired mains.",
+        "Books through SevenRooms via the Reservations button on rosemarychicago.com; prime tables go weeks out.",
+        "VERIFY the exact SevenRooms release window and timing on their site."
+      ],
+      "signatureDish": "Adriatic-inspired handmade pastas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "warm",
+        "of-the-moment"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "casual-cool"
+      ],
+      "dateNote": "Fun, flavorful and social — a lively Fulton Market date that still takes some planning to land.",
+      "sources": [
+        {
+          "name": "Time Out Chicago",
+          "tier": "local",
+          "url": "https://www.timeout.com/chicago/restaurants/the-hardest-reservations-in-chicago",
+          "note": "Lists Rose Mary among Chicago's hardest reservations; Top Chef winner Joe Flamm's debut, book a month ahead for preferred times with bar walk-ins."
+        }
+      ],
+      "evidence": "Top Chef winner Joe Flamm's Fulton Market hit; prime tables go weeks out."
+    },
+    {
+      "id": "au-cheval",
+      "name": "Au Cheval",
+      "neighborhood": "West Loop",
+      "cuisine": "American diner / burgers",
+      "coordinates": {
+        "lat": 41.8844,
+        "lng": -87.6474
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.auchevaldiner.com/chicago/home",
+      "website": "https://www.auchevaldiner.com/chicago/home",
+      "phoneNumber": "(312) 929-4580",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Right at 11am open, weekdays",
+        "lineBy": "Before 5pm for dinner",
+        "advice": "Put your name in and get a text with your place in line. Shortest wait is a weekday right at 11am open at the bar; for dinner, add your name before 5pm and roam the West Loop."
+      },
+      "tips": [
+        "Reopened after a 2025 refresh; now taking limited reservations plus walk-ins",
+        "Waits can hit hours on weekends — weekday lunch is easiest",
+        "Gilt Bar (same group) serves the near-identical burger if the wait is brutal"
+      ],
+      "signatureDish": "Au Cheval cheeseburger with thick-cut bacon and egg",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "dim",
+        "clubby",
+        "cult classic"
+      ],
+      "occasion": [
+        "friends",
+        "date night",
+        "solo"
+      ],
+      "dateNote": "That griddled double cheeseburger with a runny egg is a shared rite of passage — worth the wait for two who like a scene.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Guide",
+          "url": "https://www.theinfatuation.com/chicago/guides/where-to-go-when-the-wait-at-au-cheval-is-three-hours-long",
+          "note": "Documents the legendary burger and multi-hour waits; strategies for beating the line"
+        }
+      ],
+      "evidence": "Chicago's most famous burger; reopened in 2025 after a refresh and back to walk-ins plus limited reservations, with legendary lines."
+    },
+    {
+      "id": "frontera-grill",
+      "name": "Frontera Grill",
+      "neighborhood": "River North",
+      "cuisine": "Regional Mexican",
+      "coordinates": {
+        "lat": 41.8905,
+        "lng": -87.6309
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/frontera-grill",
+      "website": "https://www.rickbayless.com/restaurant/fronterachicago/",
+      "phoneNumber": "(312) 661-1434",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "At open; bar/lounge held for walk-ins",
+        "lineBy": "",
+        "advice": "A large share of tables is reserved for walk-ins — the bar and lounge are first-come; arrive early for dinner or come for lunch."
+      },
+      "tips": [
+        "Reservations on OpenTable; a chunk of tables always kept for walk-ins",
+        "Lunch Tue-Sat 11:30am-2:30pm is far easier than dinner",
+        "Margaritas are shaken tableside"
+      ],
+      "signatureDish": "Tortilla soup; seasonal moles; carne asada",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "colorful",
+        "festive",
+        "iconic"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "celebration"
+      ],
+      "dateNote": "Rick Bayless's margarita-fueled classic — moles, tableside-shaken margs and folk-art walls make a warm, festive two-top.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/article/dining-out/bib-gourmand-frontera-grill-chicago-michelin-guide",
+          "note": "MICHELIN Bib Gourmand; Rick Bayless's regional-Mexican institution, a James Beard Outstanding Restaurant"
+        }
+      ],
+      "evidence": "Rick and Deann Bayless's James Beard Outstanding Restaurant and a current Michelin Bib Gourmand; part reservations, part walk-in since 1987."
+    },
+    {
+      "id": "bavettes-bar-and-boeuf",
+      "name": "Bavette's Bar & Boeuf",
+      "neighborhood": "River North",
+      "cuisine": "French-American steakhouse",
+      "coordinates": {
+        "lat": 41.8892,
+        "lng": -87.6339
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/chicago-il/venues/bavettes-bar-and-boeuf",
+      "website": "https://www.bavettessteakhouse.com/chicago/home",
+      "phoneNumber": "(312) 624-8154",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM CT",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "At open for the bar",
+        "lineBy": "",
+        "advice": "Reservations vanish in ~2 minutes, but the bar takes walk-ins and serves the full menu — arrive right at open for a stool."
+      },
+      "tips": [
+        "New dates open 21 days out at 9am on Resy and go in ~2 minutes",
+        "The bar seats walk-ins with the full menu",
+        "One of the toughest tables in town — the bar is your realistic path"
+      ],
+      "signatureDish": "Dry-aged ribeye; roasted bone marrow",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "speakeasy",
+        "moody",
+        "romantic"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion",
+        "celebration"
+      ],
+      "dateNote": "Low chandeliers, velvet and a great martini — the walk-in bar seats are the insider move for a candlelit two-top.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2024/07/bavettes-chicago-reservations/",
+          "note": "'How to Get a Reservation at Bavette's' — 21 days out at 9am, disappears in ~2 minutes, walk-in bar serves full menu"
+        }
+      ],
+      "evidence": "A moody, French-ish River North steakhouse and one of Chicago's hardest tables; 21-day Resy drops plus a full-menu walk-in bar."
+    },
+    {
+      "id": "daisies",
+      "name": "Daisies",
+      "neighborhood": "Logan Square",
+      "cuisine": "Midwest Italian / pasta",
+      "coordinates": {
+        "lat": 41.9236,
+        "lng": -87.6979
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/daisies-chicago",
+      "website": "https://www.daisieschicago.com/",
+      "phoneNumber": "(773) 661-1671",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Cafe/lunch first-come",
+        "lineBy": "",
+        "advice": "Dinner takes reservations Tue-Sun; the daytime cafe and lunch are first-come, first-served."
+      },
+      "tips": [
+        "Dinner reservations Tue-Sun via OpenTable; cafe/lunch walk-in only",
+        "Earned a Michelin Green Star for sustainability",
+        "Bakery and cafe by day from chef Leigh Omilinsky"
+      ],
+      "signatureDish": "Seasonal house-made pastas; vegetable-forward plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "sunny",
+        "veg-forward",
+        "neighborhood"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "brunch"
+      ],
+      "dateNote": "House-made pasta and a vegetable-loving menu in a bright, plant-filled room — a wholesome, feel-good date.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Green Star",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/daisies",
+          "note": "MICHELIN Guide listing with a Green Star for sustainability; house-made pasta from chef Leigh Omilinsky"
+        }
+      ],
+      "evidence": "Chef Leigh Omilinsky's Midwest-Italian pasta destination with a bakery-cafe; recognized with a MICHELIN Green Star for sustainability."
+    },
+    {
+      "id": "giant",
+      "name": "Giant",
+      "neighborhood": "Logan Square",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 41.9174,
+        "lng": -87.7085
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.giantrestaurant.com/",
+      "website": "https://www.giantrestaurant.com/",
+      "phoneNumber": "(773) 252-0997",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Very small room — reserve early via the website",
+        "Michelin Bib Gourmand; opens at 5 daily",
+        "VERIFY reservation platform and release window"
+      ],
+      "signatureDish": "Ever-changing market menu; famed fried chicken and pastas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "cozy",
+        "chef-driven"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion"
+      ],
+      "dateNote": "A tiny, big-hearted room where chef Jason Vincent cooks with a wink — book early and settle in for one of Logan Square's warmest dinners.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (Logan Square)"
+        }
+      ],
+      "evidence": "Chef Jason Vincent's intimate, playful Logan Square favorite and a Michelin Bib Gourmand; the small room means booking ahead pays off."
+    },
+    {
+      "id": "haisous",
+      "name": "HaiSous Vietnamese Kitchen",
+      "neighborhood": "Pilsen",
+      "cuisine": "Vietnamese",
+      "coordinates": {
+        "lat": 41.8577,
+        "lng": -87.6528
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/haisousvietnamesekitchen",
+      "website": "https://www.haisous.com/",
+      "phoneNumber": "(312) 702-1303",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations on Tock (also reservations@haisous.com)",
+        "Michelin Bib Gourmand every year since opening in 2017",
+        "Beautiful patio in warm months"
+      ],
+      "signatureDish": "Caramelized fish-sauce chicken wings; whole fried fluke",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "elegant",
+        "warm",
+        "family-run"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "celebration"
+      ],
+      "dateNote": "Thai and Danielle Dang's gracious Pilsen room — caramelized fish-sauce wings, a great cocktail and a patio made for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/haisous",
+          "note": "MICHELIN Guide listing; Bib Gourmand Vietnamese in Pilsen from chef Thai Dang"
+        },
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2026/06/haisous/",
+          "note": "'HaiSous Continues to Deliver Joyfully Delicious Vietnamese Cuisine in Pilsen'"
+        }
+      ],
+      "evidence": "Chef Thai Dang's acclaimed Pilsen Vietnamese kitchen; a Michelin Bib Gourmand every year since 2017 and a repeat James Beard nominee."
+    },
+    {
+      "id": "virtue",
+      "name": "Virtue Restaurant & Bar",
+      "neighborhood": "Hyde Park",
+      "cuisine": "Southern American",
+      "coordinates": {
+        "lat": 41.7996,
+        "lng": -87.5899
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/virtue-chicago",
+      "website": "https://www.virtuerestaurant.com/",
+      "phoneNumber": "(773) 947-8831",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations on OpenTable; opens Tue-Sun at 4pm",
+        "Chef Erick Williams won James Beard Best Chef: Great Lakes (2022)",
+        "One of the South Side's marquee dining rooms"
+      ],
+      "signatureDish": "Shrimp & grits; Gulf shrimp; smothered pork chop",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "gracious",
+        "soulful",
+        "elegant"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion",
+        "celebration"
+      ],
+      "dateNote": "Erick Williams's Southern cooking with real hospitality-first warmth — a gracious, special Hyde Park dinner for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "MICHELIN Guide",
+          "url": "https://guide.michelin.com/us/en/illinois/chicago/restaurant/virtue",
+          "note": "MICHELIN Guide listing; Southern cooking from James Beard winner Erick Williams in Hyde Park"
+        }
+      ],
+      "evidence": "James Beard Award-winning chef Erick Williams's Southern flagship in Hyde Park; nationally acclaimed and reliably bookable with some planning."
+    },
+    {
+      "id": "ciccio-mio",
+      "name": "Ciccio Mio",
+      "neighborhood": "River North",
+      "cuisine": "Italian-American",
+      "coordinates": {
+        "lat": 41.8892,
+        "lng": -87.6343
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.cicciomio.com/",
+      "website": "https://www.cicciomio.com/",
+      "phoneNumber": "(312) 828-9797",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days out",
+      "bookingWindowDays": 21,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations release 21 days in advance, parties up to six",
+        "Michelin Bib Gourmand; small, intimate room",
+        "VERIFY exact release time"
+      ],
+      "signatureDish": "Classic Italian-American pastas and red-sauce plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "red-sauce charm",
+        "romantic"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion"
+      ],
+      "dateNote": "Classic Italian-American comfort in one of the city's most intimate rooms — a cozy, candlelit two-top made for sharing.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (River North)"
+        }
+      ],
+      "evidence": "An intimate River North Italian-American room and a Michelin Bib Gourmand; reservations open on a 21-day rolling window."
+    },
+    {
+      "id": "avec",
+      "name": "avec West Loop",
+      "neighborhood": "West Loop",
+      "cuisine": "Mediterranean / small plates",
+      "coordinates": {
+        "lat": 41.8846,
+        "lng": -87.644
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/avec",
+      "website": "https://www.avecrestaurant.com/reservations/",
+      "phoneNumber": "(312) 377-2002",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "At open, weeknights",
+        "lineBy": "",
+        "advice": "One of the true West Loop OGs — communal seating means walk-ins can usually squeeze in on a weeknight; expect a short wait at peak."
+      },
+      "tips": [
+        "Communal room; reservations on Tock but walk-ins are part of the culture",
+        "Weekend brunch Sat & Sun 10am-2pm",
+        "Call for parties of 6+"
+      ],
+      "signatureDish": "Chorizo-stuffed bacon-wrapped dates; deluxe focaccia",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "communal",
+        "wine-forward"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "solo"
+      ],
+      "dateNote": "Warm cedar-lined room and famous chorizo-stuffed dates — elbow-to-elbow in the best way for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Walk-in guide",
+          "url": "https://www.theinfatuation.com/chicago/guides/the-best-chicago-walk-in-only-restaurants-for-when-you-didnt-make-a-reservation",
+          "note": "Called out as 'one of the true OGs' of the West Loop with a walk-in-friendly, no-fuss policy"
+        }
+      ],
+      "evidence": "Paul Kahan's 20-year One Off Hospitality standby; a low-key, walk-in-friendly small-plates icon of the West Loop."
+    },
+    {
+      "id": "the-publican",
+      "name": "The Publican",
+      "neighborhood": "Fulton Market",
+      "cuisine": "New American / beer hall (pork, oysters)",
+      "coordinates": {
+        "lat": 41.8865,
+        "lng": -87.6486
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/the-publican-chicago",
+      "website": "https://www.thepublicanrestaurant.com/",
+      "phoneNumber": "(312) 733-9555",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Patio first-come",
+        "lineBy": "",
+        "advice": "Walk-ins always welcome and patio seating is first-come, first-served; the big communal table absorbs pairs easily."
+      },
+      "tips": [
+        "Reserve on OpenTable or take your chances at the communal table",
+        "Patio is first-come, first-served",
+        "Weekday brunch and lunch 11am-2pm"
+      ],
+      "signatureDish": "Frites; pork rinds; oysters; whole roasted chicken",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "communal",
+        "boisterous",
+        "beer hall"
+      ],
+      "occasion": [
+        "friends",
+        "groups",
+        "date night"
+      ],
+      "dateNote": "A European-style beer hall built for sharing oysters, charcuterie and a great pour — easy and unpretentious for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review 7.6/10",
+          "url": "https://www.theinfatuation.com/chicago/reviews/the-publican",
+          "note": "7.6/10 review; European beer hall known for beer, pork and oysters, communal dining in Fulton Market"
+        }
+      ],
+      "evidence": "One Off Hospitality's beer-pork-oysters landmark; The Infatuation rates it 7.6 as a room that 'captures Chicago's spirit,' and it takes walk-ins."
+    },
+    {
+      "id": "green-street-smoked-meats",
+      "name": "Green Street Smoked Meats",
+      "neighborhood": "West Loop",
+      "cuisine": "Central Texas-style barbecue",
+      "coordinates": {
+        "lat": 41.8839,
+        "lng": -87.6489
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://greenstreetmeats.com/",
+      "website": "https://greenstreetmeats.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Counter order, first-come",
+        "lineBy": "",
+        "advice": "Order at the counter, grab a table in the loft space — no reservations, rarely a long wait outside peak weekend hours."
+      },
+      "tips": [
+        "Walk-in only; order at the counter",
+        "Sun-Thu 11am-10:30pm, Fri-Sat until 11pm",
+        "Central Texas-style smoked meats by the half pound"
+      ],
+      "signatureDish": "House-smoked brisket; hot links; ribs",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "industrial",
+        "casual",
+        "loft"
+      ],
+      "occasion": [
+        "friends",
+        "casual",
+        "groups"
+      ],
+      "dateNote": "Tucked down an alley in a raw brick loft — trays of brisket, cold beer and picnic tables make a laid-back date.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Walk-in guide",
+          "url": "https://www.theinfatuation.com/chicago/guides/the-best-chicago-walk-in-only-restaurants-for-when-you-didnt-make-a-reservation",
+          "note": "Recommended as a cool West Loop loft space for Texas-style BBQ; walk-in only"
+        }
+      ],
+      "evidence": "Hogsalt's Texas-style barbecue in a hidden West Loop loft; a walk-in staple on The Infatuation's no-reservations guide."
+    },
+    {
+      "id": "gilt-bar",
+      "name": "Gilt Bar",
+      "neighborhood": "River North",
+      "cuisine": "American / bistro (bar dining)",
+      "coordinates": {
+        "lat": 41.8892,
+        "lng": -87.6344
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.giltbarchicago.com/",
+      "website": "https://www.giltbarchicago.com/",
+      "phoneNumber": "(312) 464-9544",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "At open / bar first-come",
+        "lineBy": "",
+        "advice": "Takes reservations but the handsome bar and downstairs Curio lounge are walk-in friendly — a reliable Plan B when Au Cheval's line is brutal."
+      },
+      "tips": [
+        "Michelin Bib Gourmand; reservations plus a walk-in-friendly bar",
+        "Serves the Hogsalt burger nearly identical to Au Cheval's",
+        "VERIFY reservation platform/window on the website"
+      ],
+      "signatureDish": "Gilt Bar burger; meatballs; bone marrow",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "dim",
+        "clubby",
+        "old-world"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "nightcap"
+      ],
+      "dateNote": "Candlelit, brass-and-leather and quietly romantic — and it serves a near-identical Au Cheval burger without the wait.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (River North)"
+        }
+      ],
+      "evidence": "Hogsalt's dim, old-world River North bistro; a 2025 Michelin Bib Gourmand that takes reservations and welcomes walk-ins at the bar."
+    },
+    {
+      "id": "lula-cafe",
+      "name": "Lula Cafe",
+      "neighborhood": "Logan Square",
+      "cuisine": "Seasonal New American (farm-to-table)",
+      "coordinates": {
+        "lat": 41.9271,
+        "lng": -87.7075
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/lula-cafe",
+      "website": "https://www.lulacafe.com/",
+      "phoneNumber": "(773) 489-9554",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Brunch first-come",
+        "lineBy": "Before 10am weekends",
+        "advice": "Brunch is walk-in only and gets a line on weekends — come before 10am. Dinner takes reservations."
+      },
+      "tips": [
+        "Brunch does not take reservations — walk-in and expect a weekend line",
+        "Dinner reservations via OpenTable",
+        "Closed Tuesdays"
+      ],
+      "signatureDish": "Breakfast burrito; seasonal farm-driven dinners",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "neighborhood",
+        "funky",
+        "warm"
+      ],
+      "occasion": [
+        "brunch",
+        "date night",
+        "friends"
+      ],
+      "dateNote": "A Logan Square institution since 1999 — the breakfast burrito and a corner table make a low-key, lovely morning for two.",
+      "sources": [
+        {
+          "name": "Time Out Chicago",
+          "tier": "Feature",
+          "url": "https://www.timeout.com/chicago/restaurants/lula-cafe",
+          "note": "'A Logan Square Favorite for More Than Two Decades'; James Beard Outstanding Hospitality 2024, famed breakfast burrito"
+        },
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (Logan Square)"
+        }
+      ],
+      "evidence": "Jason Hammel's beloved 25-year Logan Square cafe; a 2025 Michelin Bib Gourmand and 2024 James Beard Outstanding Hospitality winner, walk-in for brunch."
+    },
+    {
+      "id": "longman-and-eagle",
+      "name": "Longman & Eagle",
+      "neighborhood": "Logan Square",
+      "cuisine": "New American / whiskey bar",
+      "coordinates": {
+        "lat": 41.9296,
+        "lng": -87.7078
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/chicago-il/venues/longman-and-eagle",
+      "website": "https://longmanandeagle.com/",
+      "phoneNumber": "(773) 276-7110",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "At open; bar first-come",
+        "lineBy": "",
+        "advice": "Reservations on Resy, but the bar and a share of tables stay open for walk-ins — easy on weeknights."
+      },
+      "tips": [
+        "Michelin Bib Gourmand; Resy reservations plus walk-in bar",
+        "Enormous whiskey selection",
+        "There's even an inn upstairs"
+      ],
+      "signatureDish": "Wild-game dishes; house biscuits; deep whiskey list",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "rustic",
+        "whiskey den",
+        "laid-back"
+      ],
+      "occasion": [
+        "friends",
+        "date night",
+        "solo"
+      ],
+      "dateNote": "'Eat. Sleep. Whisky.' — a snug tavern with a huge brown-spirits list; grab bar seats and split the wild-game plates.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Walk-in guide",
+          "url": "https://www.theinfatuation.com/chicago/guides/the-best-chicago-walk-in-only-restaurants-for-when-you-didnt-make-a-reservation",
+          "note": "Recommended walk-in spot; 'Eat. Sleep. Whisky.' Logan Square tavern"
+        },
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (Logan Square)"
+        }
+      ],
+      "evidence": "A Logan Square whiskey-and-wild-game tavern and long-running Michelin Bib Gourmand; both a Resy table and a walk-in bar staple."
+    },
+    {
+      "id": "mi-tocaya-antojeria",
+      "name": "Mi Tocaya Antojería",
+      "neighborhood": "Logan Square",
+      "cuisine": "Modern Mexican",
+      "coordinates": {
+        "lat": 41.9291,
+        "lng": -87.6976
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/chi/mi-tocaya-antojeria",
+      "website": "https://www.mitocaya.com/",
+      "phoneNumber": "(872) 315-3947",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations on Resy; small room books up on weekends",
+        "Closed Mondays",
+        "VERIFY release window"
+      ],
+      "signatureDish": "Chicharrón en salsa verde; encacahuatado (peanut mole)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "vibrant",
+        "personal",
+        "spirited"
+      ],
+      "occasion": [
+        "date night",
+        "friends"
+      ],
+      "dateNote": "Diana Dávila's deeply personal Mexican cooking — mole, mezcal and a colorful room built for lingering over two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (Logan Square); chef Diana Dávila"
+        }
+      ],
+      "evidence": "Chef Diana Dávila's acclaimed Logan Square antojería, a Michelin Bib Gourmand and one of the city's most personal Mexican tables."
+    },
+    {
+      "id": "superkhana-international",
+      "name": "Superkhana International",
+      "neighborhood": "Logan Square",
+      "cuisine": "Indian-American",
+      "coordinates": {
+        "lat": 41.9319,
+        "lng": -87.704
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.superkhanachicago.com/",
+      "website": "https://www.superkhanachicago.com/",
+      "phoneNumber": "(773) 661-9028",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Michelin Bib Gourmand; reserve via the website (Resy)",
+        "Indian flavors reimagined with American techniques",
+        "VERIFY release window"
+      ],
+      "signatureDish": "Butter chicken calzone; rolled naan",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "playful",
+        "colorful",
+        "fun"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "groups"
+      ],
+      "dateNote": "The butter-chicken calzone and jalapeno-mozzarella naan are pure joy — a fun, unfussy date that doesn't take itself seriously.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/article/dining-out/superkhana-international-restaurant-chicago-indian-cuisine",
+          "note": "MICHELIN feature on Superkhana International; Bib Gourmand Indian-with-a-twist in Logan Square"
+        },
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (Logan Square)"
+        }
+      ],
+      "evidence": "Chefs Yoshi Yamada and Zeeshan Shah's inventive Indian-American Logan Square room; a Michelin Bib Gourmand celebrated for its playful mashups."
+    },
+    {
+      "id": "table-donkey-and-stick",
+      "name": "Table, Donkey and Stick",
+      "neighborhood": "Logan Square / Palmer Square",
+      "cuisine": "Alpine European",
+      "coordinates": {
+        "lat": 41.9174,
+        "lng": -87.6968
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/table-donkey-and-stick-reservations-chicago",
+      "website": "https://www.tabledonkeystick.com/",
+      "phoneNumber": "(773) 486-8525",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Walk-ins welcome",
+        "lineBy": "",
+        "advice": "Walk-ins welcome; reservations on OpenTable make weekend nights easier."
+      },
+      "tips": [
+        "Walk-ins welcome; OpenTable reservations too",
+        "Michelin Bib Gourmand; opens at 5pm, closed Mondays",
+        "Cozy 'Alpine tavern' feel"
+      ],
+      "signatureDish": "House bread service; Alpine-style charcuterie and braises",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "rustic",
+        "alpine"
+      ],
+      "occasion": [
+        "date night",
+        "friends"
+      ],
+      "dateNote": "An Alpine-inn hideaway with house bread, charcuterie and warm lighting — a snug, storybook date in Palmer Square.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (Palmer Square / Logan Square)"
+        }
+      ],
+      "evidence": "An Alpine-European tavern near Palmer Square and a Michelin Bib Gourmand; takes both reservations and walk-ins."
+    },
+    {
+      "id": "lardon",
+      "name": "Lardon",
+      "neighborhood": "Logan Square",
+      "cuisine": "Charcuterie / French bistro",
+      "coordinates": {
+        "lat": 41.9209,
+        "lng": -87.6971
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/chicago-il/venues/lardon",
+      "website": "https://www.lardonchicago.com/",
+      "phoneNumber": "(773) 697-4444",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Cafe/aperitivo first-come",
+        "lineBy": "",
+        "advice": "Dinner takes Resy bookings; the daytime cafe and 3-5pm aperitivo hour are casual walk-in windows."
+      },
+      "tips": [
+        "All charcuterie made in-house; Michelin Bib Gourmand",
+        "Cafe by morning, aperitivo 3-5pm, bistro dinner from 5pm",
+        "Dinner reservations on Resy"
+      ],
+      "signatureDish": "House-made charcuterie and salumi boards",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Parisian",
+        "salumi-forward",
+        "charming"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "aperitivo"
+      ],
+      "dateNote": "House-cured salumi, a glass of something and a marble table — a Parisian-feeling nibble-and-sip date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2025/11/chicago-2025-michelin/",
+          "note": "Listed as a 2025 MICHELIN Bib Gourmand (Logan Square); charcuterie-focused"
+        }
+      ],
+      "evidence": "A salumi-focused French-leaning bistro and cafe in Logan Square; a Michelin Bib Gourmand known for house-cured charcuterie."
+    },
+    {
+      "id": "kumas-corner",
+      "name": "Kuma's Corner",
+      "neighborhood": "Avondale",
+      "cuisine": "Burgers / heavy-metal bar",
+      "coordinates": {
+        "lat": 41.9391,
+        "lng": -87.7009
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://kumascorner.com/",
+      "website": "https://kumascorner.com/",
+      "phoneNumber": "(773) 604-8769",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Put your name in early evening",
+        "lineBy": "",
+        "advice": "Walk-in driven (a Yelp waitlist runs at the original); weekend waits are real, so put your name in early and grab a beer."
+      },
+      "tips": [
+        "Original location: 2900 W Belmont Ave",
+        "Walk-in plus a waitlist; weekend waits can be long",
+        "Named 'Best Burger in Chicago' repeatedly"
+      ],
+      "signatureDish": "Kuma Burger (bacon, cheddar, fried egg on a pretzel bun)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "loud",
+        "metal",
+        "dive-plus"
+      ],
+      "occasion": [
+        "friends",
+        "casual"
+      ],
+      "dateNote": "Blaring metal and a bacon-cheddar burger named after a band — a fun, unpretentious date if you both like it loud.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Walk-in guide",
+          "url": "https://www.theinfatuation.com/chicago/guides/the-best-chicago-walk-in-only-restaurants-for-when-you-didnt-make-a-reservation",
+          "note": "Recommended for exceptional burgers and 'a constant dose of loud heavy metal music'"
+        }
+      ],
+      "evidence": "Chicago's cult heavy-metal burger joint; a walk-in institution featured on The Infatuation's no-reservations guide."
+    },
+    {
+      "id": "big-star",
+      "name": "Big Star",
+      "neighborhood": "Wicker Park",
+      "cuisine": "Tacos / honky-tonk bar",
+      "coordinates": {
+        "lat": 41.91,
+        "lng": -87.6772
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.bigstarchicago.com/",
+      "website": "https://www.bigstarchicago.com/",
+      "phoneNumber": "(773) 235-4039",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Patio first-come",
+        "lineBy": "",
+        "advice": "Walk-in only; patio is first-come and waits get brutal on warm nights — go early or on a weekday."
+      },
+      "tips": [
+        "Walk-in only; no reservations",
+        "Patio waits can be long on nice nights — arrive early",
+        "Handmade corn tortillas daily"
+      ],
+      "signatureDish": "Tacos al pastor; queso fundido",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "honky-tonk",
+        "rowdy",
+        "patio"
+      ],
+      "occasion": [
+        "friends",
+        "casual",
+        "date night"
+      ],
+      "dateNote": "Tacos, whiskey and a big patio with a jukebox — a rowdy, easygoing warm-weather date in Wicker Park.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/chicago/reviews/big-star",
+          "note": "Reviewed as an anchor tenant of the Wicker Park dining scene; walk-in taco-and-whiskey honky-tonk"
+        }
+      ],
+      "evidence": "An anchor of the Wicker Park scene from One Off Hospitality; walk-in-only tacos and whiskey, reviewed by The Infatuation."
+    },
+    {
+      "id": "doves-luncheonette",
+      "name": "Dove's Luncheonette",
+      "neighborhood": "Wicker Park",
+      "cuisine": "Southern-inspired Mexican diner",
+      "coordinates": {
+        "lat": 41.9103,
+        "lng": -87.6773
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.doveschicago.com/",
+      "website": "https://www.doveschicago.com/",
+      "phoneNumber": "(773) 645-4060",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Counter seats first-come",
+        "lineBy": "",
+        "advice": "Grab a stool at the counter — walk-in friendly, with a short wait at peak brunch. OpenTable reservations also available."
+      },
+      "tips": [
+        "Retro counter diner from One Off Hospitality (next to Big Star)",
+        "Walk-in friendly; OpenTable reservations too",
+        "Southern-inspired Mexican plus mezcal and vinyl records"
+      ],
+      "signatureDish": "Shrimp & grits; chilaquiles; pie",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "retro diner",
+        "vinyl",
+        "counter"
+      ],
+      "occasion": [
+        "brunch",
+        "date night",
+        "casual"
+      ],
+      "dateNote": "Sit side-by-side at the counter over chilaquiles and a mezcal while vinyl spins — a charming, offbeat little date.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Walk-in guide",
+          "url": "https://www.theinfatuation.com/chicago/guides/the-best-chicago-walk-in-only-restaurants-for-when-you-didnt-make-a-reservation",
+          "note": "Described as 'Tex Mex meets the 1950s old school diner'; walk-in friendly in Wicker Park"
+        }
+      ],
+      "evidence": "A beloved retro luncheonette pairing Southern and Mexican flavors with mezcal and vinyl; a walk-in pick on The Infatuation's guide."
+    },
+    {
+      "id": "pequods-pizza",
+      "name": "Pequod's Pizza",
+      "neighborhood": "Lincoln Park",
+      "cuisine": "Deep-dish / pan pizza",
+      "coordinates": {
+        "lat": 41.9223,
+        "lng": -87.664
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://pequodspizza.com/chicago/",
+      "website": "https://pequodspizza.com/chicago/",
+      "phoneNumber": "(773) 327-1512",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Walk-in / call ahead for the pie",
+        "lineBy": "",
+        "advice": "Walk in and expect ~45 minutes for a fresh pan pizza; go off-peak or call your order ahead. Some reservation/waitlist options on their site."
+      },
+      "tips": [
+        "Order the pan pizza with the caramelized crust — allow ~45 minutes",
+        "Walk-in tavern; call ahead to shorten the wait",
+        "VERIFY reservation/waitlist options on pequodspizza.com"
+      ],
+      "signatureDish": "Pan pizza with caramelized cheese crust",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tavern",
+        "classic",
+        "casual"
+      ],
+      "occasion": [
+        "friends",
+        "casual",
+        "date night"
+      ],
+      "dateNote": "That caramelized cheese crust in a dim old-school tavern booth — a quintessential deep-dish date for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/chicago/reviews/pequods-pizzeria",
+          "note": "The Infatuation's top deep-dish recommendation; renowned caramelized crust in Lincoln Park"
+        }
+      ],
+      "evidence": "A 40-year Lincoln Park institution and The Infatuation's top deep-dish pick, famous for its burnt-cheese caramelized crust."
+    },
+    {
+      "id": "hopleaf",
+      "name": "Hopleaf Bar",
+      "neighborhood": "Andersonville",
+      "cuisine": "Belgian gastropub",
+      "coordinates": {
+        "lat": 41.9758,
+        "lng": -87.6685
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.hopleaf.com/",
+      "website": "https://www.hopleaf.com/",
+      "phoneNumber": "(773) 334-9851",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Walk-in only; put name in at open on weekends",
+        "lineBy": "",
+        "advice": "No reservations — the front bar is first-come and the back dining room takes walk-ins; weekend waits are common, so arrive early."
+      },
+      "tips": [
+        "Walk-in only; front bar and back dining room",
+        "Massive Belgian-focused beer list",
+        "Weekend waits are common — go early"
+      ],
+      "signatureDish": "Montreal-style mussels & frites; CB&J (cashew butter) sandwich",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "beer temple",
+        "old-school"
+      ],
+      "occasion": [
+        "date night",
+        "friends",
+        "casual"
+      ],
+      "dateNote": "Belgian ales, mussels and the famous CB&J sandwich in a snug Andersonville tavern — a comfy, low-key date over a long beer list.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Walk-in guide",
+          "url": "https://www.theinfatuation.com/chicago/guides/the-best-chicago-walk-in-only-restaurants-for-when-you-didnt-make-a-reservation",
+          "note": "Recommended as an Andersonville Belgian gastropub with a massive beer selection; walk-in"
+        }
+      ],
+      "evidence": "A 30-year Andersonville beer temple and gastropub; a walk-in institution highlighted on The Infatuation's no-reservations guide."
+    }
+  ]
+}

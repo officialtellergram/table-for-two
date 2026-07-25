@@ -1,0 +1,1099 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Seattle",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "taneda-sushi-kaiseki",
+      "name": "Taneda Sushi in Kaiseki",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "Japanese sushi and kaiseki omakase",
+      "coordinates": {
+        "lat": 47.6135,
+        "lng": -122.3175
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/tanedaseattle",
+      "website": "https://www.tanedaseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "11:00 AM PT",
+      "releaseDay": "second-to-last Saturday",
+      "bookingWindow": "",
+      "bookingWindowDays": 45,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations drop once a month, on the second-to-last Saturday at 11:00 AM PT — be logged into Tock and ready to click the instant they release",
+        "Miss it and your options are the next monthly drop or the Tock waitlist for cancellations",
+        "VERIFY exact Tock URL/slug and drop time each month; the tiny room makes prime dates vanish immediately"
+      ],
+      "signatureDish": "Seasonal Edomae nigiri woven through a kaiseki progression",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "hushed",
+        "special-occasion"
+      ],
+      "occasion": [
+        "special occasion",
+        "anniversary",
+        "milestone"
+      ],
+      "dateNote": "The rarest seats in the city — book it and the evening is the gift.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/toughest-restaurant-reservations-seattle",
+          "note": "Listed #1 on Seattle's toughest reservations: monthly Tock drop on the second-to-last Saturday at 11am; extremely hard to book"
+        },
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On The Infatuation's best Seattle omakase guide; ~$255, 'extremely difficult,' reservations announced on Instagram and drop monthly"
+        }
+      ],
+      "evidence": "Called the toughest table in Seattle ('months or even years of planning'); a tiny sushi-in-kaiseki counter that releases seats only once a month at 11 AM."
+    },
+    {
+      "id": "ltd-edition-sushi",
+      "name": "Ltd Edition Sushi",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 47.6142,
+        "lng": -122.3205
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/ltdeditionsushi",
+      "website": "https://www.ltdeditionsushi.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "11:00 AM PT",
+      "releaseDay": "15th",
+      "bookingWindow": "",
+      "bookingWindowDays": 45,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The whole following month opens at once on the 15th at 11:00 AM PT — set a calendar alarm and be on Tock early",
+        "Only two dinner seatings nightly at a chef's bar that seats roughly eight, so inventory is razor-thin",
+        "Missed the drop? Join the Tock waitlist and watch for cancellations"
+      ],
+      "signatureDish": "Edomae nigiri omakase at the chef's bar",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "refined",
+        "counter-seating"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "An eight-seat bar and two seatings a night — pure front-row omakase for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/toughest-restaurant-reservations-seattle",
+          "note": "Listed among Seattle's toughest reservations: Tock drop on the 15th of each month at 11am for the following month; highly competitive"
+        },
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On the best Seattle omakase guide; ~16 seats total, ~$180, releases bookings 11am on the 15th monthly"
+        }
+      ],
+      "evidence": "Only two seatings a night at an ~8-seat chef's bar; the entire next month sells out fast when it drops at 11 AM on the 15th."
+    },
+    {
+      "id": "archipelago",
+      "name": "Archipelago",
+      "neighborhood": "Hillman City",
+      "cuisine": "Filipino-American tasting menu",
+      "coordinates": {
+        "lat": 47.5516,
+        "lng": -122.2846
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/archipelagoseattle",
+      "website": "https://www.archipelagoseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "VERIFY",
+      "releaseDay": "1st",
+      "bookingWindow": "",
+      "bookingWindowDays": 60,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Just 12 seats with a max of 4 per group; the prepaid ~$265 Tock ticket settles in full at booking and is non-refundable without diner's insurance",
+        "Seats release in monthly blocks (reported around the 1st of the prior month) and go weeks-to-months out; solo diners are typically only seated Wed/Thu",
+        "Follow the restaurant's Instagram for the exact drop announcement; VERIFY the release time on Tock"
+      ],
+      "signatureDish": "Nine-to-twelve-course Filipino-American tasting built on Pacific Northwest produce, seafood and foraged ingredients (~$265, prepaid)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "storytelling",
+        "fine-dining"
+      ],
+      "occasion": [
+        "special occasion",
+        "anniversary",
+        "milestone",
+        "solo dining"
+      ],
+      "dateNote": "Twelve seats, one seasonal menu, a night that reads like a love letter to the archipelago.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-restaurants-seattle",
+          "note": "Ranked #1 on The Infatuation's top Seattle restaurants; multi-course tasting menu, reservations open two months at a time"
+        },
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/toughest-restaurant-reservations-seattle",
+          "note": "Listed among Seattle's toughest reservations: 12 seats, max 4 per group, Tock, 'books out weeks, if not months'"
+        },
+        {
+          "name": "The Seattle Times",
+          "url": "https://www.seattletimes.com/life/food-drink/psst-hoy-seattle-archipelago-masterfully-combines-filipino-food-with-pacific-northwest-flair/",
+          "note": "Seattle Times review: Archipelago masterfully combines Filipino food with Pacific Northwest flair"
+        },
+        {
+          "name": "Seattle Met",
+          "url": "https://www.seattlemet.com/eat-and-drink/2026/01/seattle-2026-james-beard-semifinalists",
+          "note": "Seattle Met's 2026 James Beard semifinalist roundup: Aaron Verzosa nominated for Outstanding Chef"
+        }
+      ],
+      "evidence": "A 12-seat prepaid-ticket Filipino tasting counter (2026 James Beard Outstanding Chef nominee) whose monthly Tock blocks book out weeks to months ahead."
+    },
+    {
+      "id": "beast-and-cleaver",
+      "name": "Beast & Cleaver (The Peasant)",
+      "neighborhood": "Ballard",
+      "cuisine": "Whole-animal butchery tasting menu",
+      "coordinates": {
+        "lat": 47.6862,
+        "lng": -122.3862
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/beastandcleaver",
+      "website": "https://www.beastandcleaver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "VERIFY",
+      "releaseDay": "VERIFY",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "A handful of seats served as 'The Peasant' inside the butcher shop; when a new month drops on Tock it books almost immediately",
+        "Subscribe to the newsletter for a heads-up before the monthly release; VERIFY the exact drop day and time",
+        "3-day cancellation policy; no walk-ins for the tasting"
+      ],
+      "signatureDish": "Five-course 'The Peasant' chef's tasting built on whole-animal, dry-aged local meat (~$150)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "carnivore",
+        "tucked-away"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion"
+      ],
+      "dateNote": "A candlelit steak dinner for two hidden inside a Ballard butcher shop.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/reviews/beast-and-cleaver",
+          "note": "Infatuation review: 'No one does red meat like Beast & Cleaver'; tasting-menu steakhouse inside a butcher shop"
+        },
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-restaurants-seattle",
+          "note": "On The Infatuation's top Seattle restaurants; 'The Peasant' tasting menu, reservations open monthly"
+        },
+        {
+          "name": "Seattle Met",
+          "url": "https://www.seattlemet.com/eat-and-drink/2022/09/beast-and-cleaver-butcher-shop-tasting-menu-weekend-steak-house",
+          "note": "Seattle Met feature on Beast and Cleaver's butcher-shop tasting menu and weekend steakhouse"
+        }
+      ],
+      "evidence": "Only a scant handful of tasting-menu seats inside a butcher shop; each new month on Tock 'books up almost immediately.'"
+    },
+    {
+      "id": "sushi-by-scratch-seattle",
+      "name": "Sushi by Scratch Restaurants: Seattle",
+      "neighborhood": "South Lake Union",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 47.6215,
+        "lng": -122.3385
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/sushibyscratchrestaurantsseattle",
+      "website": "https://www.scratchrestaurants.com/sushi-by-scratch-restaurants-seattle",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Ticketed prepaid omakase for a single ten-seat counter, released in batches on Tock — buy the moment a batch appears",
+        "Speakeasy-style entry (ring the doorbell); no walk-ins",
+        "VERIFY the exact Tock URL and current release cadence before your target date"
+      ],
+      "signatureDish": "17-course prepaid nigiri omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "speakeasy",
+        "intimate",
+        "theatrical"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion"
+      ],
+      "dateNote": "Ring the unmarked doorbell and slide into a ten-seat hideaway built for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On The Infatuation's best Seattle omakase guide; 10 seats, ring the doorbell for entry, speakeasy-style, booked via Tock"
+        }
+      ],
+      "evidence": "A ten-seat, speakeasy-entry omakase counter selling prepaid Tock tickets in limited batches — scarcity by design."
+    },
+    {
+      "id": "sushi-suzuki",
+      "name": "Sushi Suzuki",
+      "neighborhood": "Madison Park",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 47.636,
+        "lng": -122.2807
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/sushisuzuki",
+      "website": "https://www.sushisuzukiseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only about 10 counter seats and a prepaid tasting (~$200+) on Tock, so prime dates disappear fast",
+        "VERIFY the release schedule and time on the live Tock page — book as far ahead as the calendar allows"
+      ],
+      "signatureDish": "Edomae nigiri omakase at a 10-seat counter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "refined",
+        "counter-seating"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "Ten seats in Madison Park where the chef sets each piece down in front of you.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On The Infatuation's best Seattle omakase guide; 10 seats, ~$200+, booked via Tock"
+        }
+      ],
+      "evidence": "A ~10-seat prepaid omakase counter (~$200+) in tiny Madison Park; limited inventory makes weekends tough."
+    },
+    {
+      "id": "communion",
+      "name": "Communion Restaurant & Bar",
+      "neighborhood": "Central District",
+      "cuisine": "'Seattle soul' (Southern-rooted Pacific Northwest)",
+      "coordinates": {
+        "lat": 47.6135,
+        "lng": -122.3013
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/communion-restaurant-and-bar-seattle",
+      "website": "https://www.communionseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "VERIFY",
+      "releaseDay": "VERIFY",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Try the bar at opening",
+        "lineBy": "",
+        "advice": "Some bar/counter seating is held for walk-ins; arrive early on weeknights for the best shot"
+      },
+      "tips": [
+        "The coming month's reservations open roughly 30 days out; watch Communion's Instagram for the exact release, then book on OpenTable immediately",
+        "Add yourself to the waitlist for cancellations if the month sells out",
+        "VERIFY the precise drop day/time each month"
+      ],
+      "signatureDish": "Oxtail; 'Seattle soul' plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "soulful",
+        "celebratory"
+      ],
+      "occasion": [
+        "date night",
+        "celebration",
+        "group dinner"
+      ],
+      "dateNote": "Kristi Brown's joyful Central District dining room — a warm, buzzy night out for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-restaurants-seattle",
+          "note": "On The Infatuation's top Seattle restaurants; reservations announced monthly on Instagram, waitlist option"
+        },
+        {
+          "name": "The Seattle Times",
+          "url": "https://www.seattletimes.com/life/food-drink/restaurant-review-communion-serves-up-delicious-seattle-soul-cuisine-that-deeply-matters/",
+          "note": "Seattle Times review: Communion serves delicious 'Seattle soul' cuisine that deeply matters"
+        },
+        {
+          "name": "Seattle Met",
+          "url": "https://www.seattlemet.com/eat-and-drink/2021/12/communion-our-restaurant-of-the-year",
+          "note": "Seattle Met named Communion its Restaurant of the Year"
+        }
+      ],
+      "evidence": "Seattle Met Restaurant of the Year and James Beard–nominated Kristi Brown; a monthly reservation window (announced on Instagram) that fills fast."
+    },
+    {
+      "id": "off-alley",
+      "name": "Off Alley",
+      "neighborhood": "Columbia City",
+      "cuisine": "Offal-forward, nose-to-tail New American",
+      "coordinates": {
+        "lat": 47.5544,
+        "lng": -122.2857
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/offalley",
+      "website": "https://www.offalleyseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Arrive at opening (around 5pm)",
+        "lineBy": "",
+        "advice": "Walk-in seats open each night at the single counter and sidewalk patio — come right at opening on a weeknight"
+      },
+      "tips": [
+        "Reservations open up to two months out on Tock for parties of 1-6; a single row of counter seats means they go quickly",
+        "Walk-ins are available nightly — the sidewalk patio and counter turn over, so try your luck at opening",
+        "VERIFY the exact Tock URL/slug"
+      ],
+      "signatureDish": "Foie gras and thoughtful sweetbread preparations from an ever-changing menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny",
+        "charming",
+        "elbow-to-elbow"
+      ],
+      "occasion": [
+        "date night",
+        "adventurous eaters"
+      ],
+      "dateNote": "A brick-lined 'closet' where two of you share a counter and a constantly changing menu.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/reviews/off-alley",
+          "note": "Infatuation review (8.5): so tiny it's 'easy to walk right on by,' a brick-lined closet with a single row of counter seats; Tock up to two months out"
+        }
+      ],
+      "evidence": "An 8.5-rated 'brick-lined closet' with one row of counter seats; tiny footprint keeps its Tock inventory scarce."
+    },
+    {
+      "id": "wataru",
+      "name": "Wataru",
+      "neighborhood": "Ravenna",
+      "cuisine": "Edomae sushi omakase",
+      "coordinates": {
+        "lat": 47.6759,
+        "lng": -122.3013
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/wataru",
+      "website": "https://wataruseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "12:00 AM PT",
+      "releaseDay": "1st",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The six-seat omakase counter (two seatings, 5:30 & 7:45pm) is the hard ticket; the next month opens at 12:00 AM PT on the 1st",
+        "A table for two is more attainable than the counter, per The Infatuation",
+        "VERIFY the current drop time; book right at the release for weekend counter seats"
+      ],
+      "signatureDish": "Edomae nigiri omakase (Hokkaido scallop, seared black cod)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "serene",
+        "counter-seating"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "Six counter seats of Toyosu-sourced Edomae sushi — or grab a quieter table for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/reviews/wataru",
+          "note": "Infatuation review: 'pretty hard to get a seat at the omakase counter, but not impossible to get a table for two'; reservations via Tock"
+        }
+      ],
+      "evidence": "A six-seat Edomae counter with only two nightly seatings; the following month's counter seats open at midnight on the 1st and go fast."
+    },
+    {
+      "id": "sushi-kashiba",
+      "name": "Sushi Kashiba",
+      "neighborhood": "Pike Place Market",
+      "cuisine": "Japanese sushi / omakase",
+      "coordinates": {
+        "lat": 47.6094,
+        "lng": -122.341
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/sushi-kashiba-seattle",
+      "website": "https://sushikashiba.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Line up outside before the 5pm opening",
+        "lineBy": "3:30 PM",
+        "advice": "The 5pm counter seating isn't reservable — line up around 3:30pm before doors open for a first-come chef's-counter seat"
+      },
+      "tips": [
+        "Counter seatings are at 5, 7 and 9pm; the 5pm seating is walk-in only, so line up early (~3:30pm)",
+        "Reservable seats book roughly two-plus weeks out on OpenTable — grab them as soon as your date is in the window",
+        "Counter omakase runs ~$250 per person"
+      ],
+      "signatureDish": "~25-course chef's-choice nigiri omakase (~$250 at the counter)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "classic",
+        "master-chef",
+        "counter-seating"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "Watch living legend Shiro Kashiba set each piece down at the counter — a bucket-list night for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On The Infatuation's best Seattle omakase guide; ~$250, plan 2+ weeks ahead, or line up at 3:30pm before the 5pm opening"
+        },
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-restaurants-seattle",
+          "note": "On The Infatuation's top Seattle restaurants; limited counter reservations, line-up option before 5pm opening"
+        }
+      ],
+      "evidence": "Living-legend Shiro Kashiba's counter runs three tight seatings a night; the 5pm counter is walk-in only and reservable seats book weeks ahead."
+    },
+    {
+      "id": "cascina-spinasse",
+      "name": "Cascina Spinasse",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "Piemontese Italian",
+      "coordinates": {
+        "lat": 47.6145,
+        "lng": -122.3143
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/cascina-spinasse-seattle",
+      "website": "https://www.spinasse.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Try the adjacent bar (Artusi) or Spinasse bar seats",
+        "lineBy": "",
+        "advice": "Walk-ins 'rarely get lucky' at the dining room; better odds at the bar or next-door Artusi"
+      },
+      "tips": [
+        "Reservations open 60 days out on OpenTable; book several weeks ahead for prime times and right at 60 days for weekends",
+        "Walk-ins rarely land a dining-room table — aim for bar seats or next-door Artusi",
+        "VERIFY the daily release time on OpenTable"
+      ],
+      "signatureDish": "Tajarin al ragù (hand-cut 40-yolk tagliarini)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "lace-curtained",
+        "old-world"
+      ],
+      "occasion": [
+        "date night",
+        "anniversary",
+        "special occasion"
+      ],
+      "dateNote": "Lace curtains and silky tajarin — one of the most romantic tables in Seattle.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-restaurants-seattle",
+          "note": "Ranked #2 on The Infatuation's top Seattle restaurants; 'nearly impossible' reservations, book 60 days ahead"
+        },
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/toughest-restaurant-reservations-seattle",
+          "note": "Listed among Seattle's toughest reservations: OpenTable, 60 days in advance, walk-ins rarely get lucky"
+        }
+      ],
+      "evidence": "'Nearly impossible' prime-time tables where walk-ins rarely get lucky; a 60-day OpenTable window that fills weeks ahead."
+    },
+    {
+      "id": "atoma",
+      "name": "Atoma",
+      "neighborhood": "Wallingford",
+      "cuisine": "Contemporary New American (vegetable-forward)",
+      "coordinates": {
+        "lat": 47.6613,
+        "lng": -122.3376
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/atoma-seattle",
+      "website": "https://www.atomaseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "12:00 PM PT",
+      "releaseDay": "1st",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar and solarium",
+        "lineBy": "",
+        "advice": "Limited bar seats are held nightly for walk-ins (21+, parties of one or two) — perfect for two on a whim"
+      },
+      "tips": [
+        "Reservations release on the 1st of each month at 12:00 PM PT for the following month; be on OpenTable at noon sharp",
+        "Bar and solarium hold limited walk-in seats nightly for parties of one or two (21+)",
+        "48-hour cancellation policy ($50 per person); online tables cap at 6"
+      ],
+      "signatureDish": "Lion's mane schnitzel; sunchokes",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "bustling",
+        "converted-house",
+        "warm"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion",
+        "celebration"
+      ],
+      "dateNote": "A glowing forest-green room in a converted Wallingford house — walk in for two at the bar if the month's booked.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/reviews/atoma",
+          "note": "Infatuation review (8.0): Wallingford New American 'worth crossing town for'; booked via OpenTable"
+        }
+      ],
+      "evidence": "Confirmed monthly drop: the whole next month opens at noon on the 1st, and the limited-capacity room means 'good luck scoring a table the same week.'"
+    },
+    {
+      "id": "cafe-juanita",
+      "name": "Café Juanita",
+      "neighborhood": "Kirkland",
+      "cuisine": "Northern Italian tasting menu",
+      "coordinates": {
+        "lat": 47.7076,
+        "lng": -122.2607
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/cafe-juanita",
+      "website": "https://www.cafejuanita.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Holly Smith's long-revered destination; reservations can be made far in advance (reportedly up to a year), and prime weekend tables are the scarce ones",
+        "VERIFY the current booking platform and release window before your date"
+      ],
+      "signatureDish": "Braised rabbit with house-made pappardelle",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "destination",
+        "refined"
+      ],
+      "occasion": [
+        "anniversary",
+        "special occasion",
+        "milestone"
+      ],
+      "dateNote": "A hushed Eastside institution where a tasting menu for two feels like a proper occasion.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-restaurants-seattle",
+          "note": "Ranked #4 on The Infatuation's top Seattle restaurants; tasting menu, accepts reservations up to one year in advance"
+        }
+      ],
+      "evidence": "A destination Eastside tasting-menu institution that accepts reservations up to a year out — weekend seats are booked far ahead."
+    },
+    {
+      "id": "shomon-kappo-sushi",
+      "name": "Shomon Kappo Sushi",
+      "neighborhood": "Belltown",
+      "cuisine": "Japanese kappo (sushi and small plates)",
+      "coordinates": {
+        "lat": 47.6145,
+        "lng": -122.347
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/seattle-wa/venues/shomon",
+      "website": "https://www.shomonseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 14 counter seats for an ~$185 kappo menu, so the calendar fills quickly on Resy",
+        "Use Resy Notify for cancellations if your date is gone",
+        "VERIFY the release schedule/time on the live Resy page"
+      ],
+      "signatureDish": "Eight-course kappo progression (sushi plus hot and cold small plates)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "counter-seating",
+        "refined"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "A 14-seat kappo counter from the Shiro's lineage — front-row cooking for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-restaurants-seattle",
+          "note": "On The Infatuation's top Seattle restaurants; 14-seat counter, 8-course kappo experience"
+        },
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On the best Seattle omakase guide; 14 seats, ~$185, kappo format, booked via Resy"
+        }
+      ],
+      "evidence": "A 14-seat kappo counter (sister to sushi institution Shiro's) with a single limited nightly service — scarce Resy inventory."
+    },
+    {
+      "id": "takai-by-kashiba",
+      "name": "Takai by Kashiba",
+      "neighborhood": "Bellevue",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 47.615,
+        "lng": -122.2016
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/takai-by-kashiba-bellevue",
+      "website": "https://www.takaiseattle.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Shiro Kashiba's Bellevue omakase draws heavy demand; the earlier ~5:30pm seating is the most relaxed and easiest to land",
+        "Book as far ahead as OpenTable allows for weekend counter seats",
+        "VERIFY the release window/time on OpenTable"
+      ],
+      "signatureDish": "Chef's-choice nigiri omakase from the Kashiba lineage",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "refined",
+        "counter-seating",
+        "special-occasion"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "The Eastside's Kashiba-lineage omakase — try the early seating for a calmer counter for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On The Infatuation's best Seattle omakase guide; Bellevue, booked via OpenTable, try the early 5:30pm seating"
+        }
+      ],
+      "evidence": "The high-demand Eastside omakase from the Kashiba lineage; limited counter seatings make weekend prime times competitive."
+    },
+    {
+      "id": "sushi-kappo-tamura",
+      "name": "Sushi Kappo Tamura",
+      "neighborhood": "Eastlake",
+      "cuisine": "Japanese sushi / kappo omakase",
+      "coordinates": {
+        "lat": 47.6465,
+        "lng": -122.3255
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/sushi-kappo-tamura-seattle",
+      "website": "https://sushikappotamura.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar/table seating may open for walk-ins",
+        "lineBy": "",
+        "advice": "Non-counter tables sometimes take walk-ins; call ahead for counter availability"
+      },
+      "tips": [
+        "The counter omakase runs long and seats are limited, so book the counter well ahead on OpenTable",
+        "VERIFY the release window/time on OpenTable"
+      ],
+      "signatureDish": "Seasonal omakase with house-cured and Pacific Northwest fish",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "leisurely",
+        "counter-seating"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "A leisurely Eastlake counter where an omakase for two can stretch languidly into the night.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/best-omakase-seattle",
+          "note": "On The Infatuation's best Seattle omakase guide; leisurely pacing, meals can be lengthy, booked via OpenTable"
+        }
+      ],
+      "evidence": "A revered Eastlake sushi counter with limited, leisurely omakase seatings — counter seats are the scarce, sought-after ones."
+    },
+    {
+      "id": "canlis",
+      "name": "Canlis",
+      "neighborhood": "Queen Anne (Aurora)",
+      "cuisine": "Pacific Northwest fine-dining tasting menu",
+      "coordinates": {
+        "lat": 47.6414,
+        "lng": -122.3475
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/canlis",
+      "website": "https://canlis.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "12:00 PM PT",
+      "releaseDay": "1st",
+      "bookingWindow": "",
+      "bookingWindowDays": 90,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar",
+        "lineBy": "",
+        "advice": "The bar takes walk-ins and is a fine plan-B for two if the dining room is full"
+      },
+      "tips": [
+        "Reservations run in three-month blocks; each new month opens on the 1st around 12:00 PM PT on Tock",
+        "Weeknights have loosened up, but prime weekend tables still go fast — set a reminder for the 1st",
+        "Deposits become non-refundable 48 hours out, so cancellations can free up seats; the bar takes walk-ins"
+      ],
+      "signatureDish": "Peter Canlis prawns; the Canlis salad",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "iconic",
+        "glamorous",
+        "view"
+      ],
+      "occasion": [
+        "anniversary",
+        "special occasion",
+        "milestone"
+      ],
+      "dateNote": "Mid-century glamour over Lake Union — still the definitive Seattle special-occasion table for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/reviews/canlis",
+          "note": "Infatuation review: opens reservations in three-month blocks via Tock; bar walk-ins available"
+        }
+      ],
+      "evidence": "The city's landmark special-occasion room; Tock releases in three-month blocks on the 1st and prime weekend tables 'fill up incredibly fast.'"
+    },
+    {
+      "id": "tendon-kohaku",
+      "name": "Tendon Kohaku",
+      "neighborhood": "Belltown",
+      "cuisine": "Japanese tempura (tendon)",
+      "coordinates": {
+        "lat": 47.6132,
+        "lng": -122.3455
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.tendonkohaku.com/",
+      "website": "https://www.tendonkohaku.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Line up before opening",
+        "lineBy": "one hour before opening",
+        "advice": "Largely walk-in; arrive at least an hour before lunch or dinner opening to beat the line"
+      },
+      "tips": [
+        "Mostly walk-in; phone reservations only for parties of 5+, and lines form well before opening",
+        "Arrive at least an hour before lunch or dinner service for the shortest wait",
+        "VERIFY current reservation policy by phone before going"
+      ],
+      "signatureDish": "Tendon (tempura over rice) with soft-cooked egg",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "casual",
+        "specialist",
+        "cult-favorite"
+      ],
+      "occasion": [
+        "casual date",
+        "lunch"
+      ],
+      "dateNote": "A cult tempura-rice-bowl counter — line up together and make an event of the wait.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/seattle/guides/toughest-restaurant-reservations-seattle",
+          "note": "Listed among Seattle's toughest reservations: walk-in based, phone reservations for 5+; arrive at least an hour before opening"
+        }
+      ],
+      "evidence": "A specialist tendon counter with lines that form an hour before doors; reservations are limited to large parties, so most wait in line."
+    },
+    {
+      "id": "homer",
+      "name": "Homer",
+      "neighborhood": "Beacon Hill",
+      "cuisine": "Eastern Mediterranean",
+      "coordinates": {
+        "lat": 47.5806,
+        "lng": -122.3117
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/homer/reservations/create/search/",
+      "website": "https://www.restauranthomer.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Put your name in early at the door",
+        "lineBy": "at or before opening",
+        "advice": "The dining room is largely walk-in only — arrive at or before opening and expect a wait; the patio helps in summer"
+      },
+      "tips": [
+        "The 50-seat room is mostly walk-in only (150+ people rotate through nightly), so getting a table takes patience — arrive early",
+        "Only limited large-party reservations (groups of 6-10) are bookable, via SevenRooms/Tock, first-come each evening",
+        "VERIFY the current large-party reservation channel before relying on it"
+      ],
+      "signatureDish": "Wood-fired flatbread; hummus and mezze; lamb",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "bustling",
+        "neighborhood-gem",
+        "warm"
+      ],
+      "occasion": [
+        "date night",
+        "group dinner"
+      ],
+      "dateNote": "A buzzy Beacon Hill mezze spot worth the odyssey — put your name in and share small plates while you wait.",
+      "sources": [
+        {
+          "name": "The Seattle Times",
+          "url": "https://www.seattletimes.com/life/food-drink/homer-epic-mediterranean-food-on-beacon-hill-worth-the-odyssey-of-scoring-a-table/",
+          "note": "Seattle Times: epic Middle Eastern food 'worth the odyssey of scoring a table'; walk-in-heavy"
+        },
+        {
+          "name": "Seattle magazine",
+          "url": "https://seattlemag.com/restaurants/beacon-hills-homer-home-run/",
+          "note": "Seattle magazine: 'Beacon Hill's Homer Is a Home Run'"
+        }
+      ],
+      "evidence": "A 50-seat, largely walk-in-only room where 150+ diners rotate through nightly; scoring a table is famously 'an odyssey.'"
+    },
+    {
+      "id": "the-wayland-mill",
+      "name": "The Wayland Mill",
+      "neighborhood": "Northlake",
+      "cuisine": "Japanese-inspired Western",
+      "coordinates": {
+        "lat": 47.647,
+        "lng": -122.334
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.thewaylandmill.com/",
+      "website": "https://www.thewaylandmill.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Try the bar",
+        "lineBy": "",
+        "advice": "Bar/walk-in seats may be available — check on arrival on weeknights"
+      },
+      "tips": [
+        "A 2026 James Beard Best New Restaurant nominee; post-nomination demand makes prime tables scarce",
+        "VERIFY the actual booking platform and reservation-release mechanics before your date — details are still settling",
+        "Check for bar/walk-in seating if reservations are gone"
+      ],
+      "signatureDish": "Japanese-inspired Western small plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "new",
+        "inventive"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion"
+      ],
+      "dateNote": "One of the city's hottest new tables in Northlake — early buzz makes it a fun two-top gamble.",
+      "sources": [
+        {
+          "name": "Seattle Met",
+          "url": "https://www.seattlemet.com/eat-and-drink/2026/01/seattle-2026-james-beard-semifinalists",
+          "note": "Seattle Met's 2026 James Beard semifinalists: The Wayland Mill nominated for Best New Restaurant (Japanese-inspired Western in Northlake)"
+        }
+      ],
+      "evidence": "A 2026 James Beard Best New Restaurant nominee whose fresh national recognition has made its prime tables hard to land."
+    }
+  ]
+}

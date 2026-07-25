@@ -1,0 +1,2389 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Los Angeles",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "somni",
+      "name": "Somni",
+      "neighborhood": "West Hollywood",
+      "cuisine": "Avant-garde Tasting Menu",
+      "coordinates": {
+        "lat": 34.0827,
+        "lng": -118.3846
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/somni",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "1:00 PM PT",
+      "releaseDay": "First weekday of each month",
+      "bookingWindow": "~1 month",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 14 seats, one 7:30pm seating Wed-Sun; Aitor Zabala's LA's-first 3-star",
+        "Reservations drop on the first weekday of the month at 1pm PT for the following month",
+        "No walk-ins; the drop is the only way in",
+        "VERIFY exact Tock URL/slug and drop time before trusting the countdown"
+      ],
+      "signatureDish": "Avant-garde multi-course tasting menu (caviar course)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "avant-garde"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A 14-seat, once-a-night stage for the most memorable two-top of your year.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Michelin 2025 — 3 Stars",
+          "url": "https://blog.resy.com/2025/06/2025-los-angeles-michelin/",
+          "note": "Resy's 2025 LA Michelin recap lists Somni among LA's first-ever three-star restaurants"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "14 seats, single 7:30pm seating; reservations released a month in advance on the first weekday at 1pm"
+        }
+      ],
+      "evidence": "3 Michelin stars; 14 seats and a single 7:30pm seating; the monthly drop on the first weekday at 1pm sells out immediately."
+    },
+    {
+      "id": "n-naka",
+      "name": "n/naka",
+      "neighborhood": "Palms",
+      "cuisine": "Japanese Kaiseki",
+      "coordinates": {
+        "lat": 34.0288,
+        "lng": -118.4076
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/n-naka",
+      "website": "https://www.n-naka.com",
+      "phoneNumber": "",
+      "releaseSchedule": "weekly",
+      "releaseTime": "10:00 AM PT",
+      "releaseDay": "Sunday",
+      "bookingWindow": "~1 month out, a week at a time",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One Michelin star (dropped from two in 2024); ~$395pp modern kaiseki",
+        "A week's worth of seats is released every Sunday at 10am PT, about a month out, and sells out fast",
+        "No walk-ins; email about cancellations if you miss the drop",
+        "VERIFY current release time before relying on the countdown"
+      ],
+      "signatureDish": "Modern kaiseki tasting menu (13+ courses)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "refined"
+      ],
+      "occasion": [
+        "anniversary",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "The tasting-menu pilgrimage every LA couple schemes over — worth the Sunday-morning alarm.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★ (One Star)",
+          "url": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/n-naka",
+          "note": "One Michelin Star in the current California guide (previously two stars)"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Releases a week of reservations a month in advance every Sunday at 10am; they sell out quickly; ~$395pp"
+        }
+      ],
+      "evidence": "Niki Nakayama's kaiseki landmark; a week of seats drops every Sunday 10am about a month out and vanishes; ~$395pp."
+    },
+    {
+      "id": "providence",
+      "name": "Providence",
+      "neighborhood": "Hollywood",
+      "cuisine": "Seafood Tasting Menu",
+      "coordinates": {
+        "lat": 34.0838,
+        "lng": -118.3216
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/restaurant/profile/4336",
+      "website": "https://www.providencela.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "~2 months (rolling)",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Occasional day-of availability at the bar/lounge for walk-ins."
+      },
+      "tips": [
+        "3 Michelin stars (2025), one of LA's first; card required, strict cancellation policy",
+        "Reservations open roughly two months in advance on OpenTable",
+        "Bar/lounge sometimes has day-of availability for walk-ins",
+        "VERIFY exact release timing; prime weekends fill the moment the window opens"
+      ],
+      "signatureDish": "Seafood tasting menu (Michael Cimarusti)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "refined",
+        "classic"
+      ],
+      "occasion": [
+        "anniversary",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "The white-tablecloth splurge for a milestone night by the sea (of caviar).",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★★ (Three Stars)",
+          "url": "https://guide.michelin.com/us/en/california/hollywood/restaurant/providence",
+          "note": "Awarded three Michelin stars in the 2025 California guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Reservations can be made up to two months in advance; occasional day-of bar availability"
+        }
+      ],
+      "evidence": "One of LA's first-ever 3-star Michelin restaurants; strict-deposit tables open ~2 months out and prime nights fill instantly."
+    },
+    {
+      "id": "hayato",
+      "name": "Hayato",
+      "neighborhood": "Arts District (ROW DTLA)",
+      "cuisine": "Japanese Kaiseki",
+      "coordinates": {
+        "lat": 34.033,
+        "lng": -118.2296
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/hayato",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "10:00 AM PT",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "~1 month",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Two Michelin stars; only 7 seats per night, single seating",
+        "Reservations released on the 1st of the month at 10am PT and vanish instantly; regulars are prioritized",
+        "No walk-ins; a persistent waitlist eventually pays off",
+        "VERIFY current platform/release time before trusting the countdown"
+      ],
+      "signatureDish": "Seasonal kaiseki tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "refined"
+      ],
+      "occasion": [
+        "anniversary",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "Seven seats, one seating, a kaiseki whisper of a room — the definition of a special two-top.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★ (Two Stars)",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-california-stars-green-stars",
+          "note": "Retained two Michelin stars in the 2025 California guide (one of only three LA two-star rooms)"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Only 7 seats per night; reservations released on the first of the month at 10am and vanish instantly"
+        }
+      ],
+      "evidence": "2 Michelin stars, 7 seats a night; the monthly 1st-of-month 10am drop prioritizes regulars and vanishes instantly."
+    },
+    {
+      "id": "sushi-kaneyoshi",
+      "name": "Sushi Kaneyoshi",
+      "neighborhood": "Little Tokyo",
+      "cuisine": "Japanese Omakase",
+      "coordinates": {
+        "lat": 34.049,
+        "lng": -118.239
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/sushi-kaneyoshi",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "3:00 PM PT",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "~1 month",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Hidden basement omakase counter in Honda Plaza; ~$300pp",
+        "Reservations for the coming month released on the 1st at 3pm PT and usually disappear in minutes",
+        "No walk-ins; the adjacent Sawa bar is an easier consolation",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Edomae omakase (~$300pp)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "hidden",
+        "refined"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A basement counter you'd never find by accident — exactly why it feels like a secret shared for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "$300pp; reservations for the coming month released on the first at 3pm and usually disappear in minutes"
+        }
+      ],
+      "evidence": "Hidden Little Tokyo basement omakase; ~$300pp seats for the whole month drop on the 1st at 3pm and go in minutes."
+    },
+    {
+      "id": "melisse",
+      "name": "Mélisse",
+      "neighborhood": "Santa Monica",
+      "cuisine": "Contemporary French Tasting Menu",
+      "coordinates": {
+        "lat": 34.0205,
+        "lng": -118.4928
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/melisse",
+      "website": "https://www.melisse.com",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "rolling",
+      "bookingWindowDays": 60,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Two Michelin stars; intimate 14-seat room, ~2.5-hour tasting experience",
+        "Prime weekend seatings book out well in advance",
+        "VERIFY exact release window/time on OpenTable"
+      ],
+      "signatureDish": "Modern French tasting menu (Josiah Citrin)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "refined",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "A 2.5-hour, kitchen-blurring 14-seat experience — pure special-occasion romance.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★ (Two Stars)",
+          "url": "https://guide.michelin.com/us/en/california/santa-monica/restaurant/melisse",
+          "note": "Retained two Michelin stars in the 2025 California guide; 14-seat Citrin/Takayama room"
+        }
+      ],
+      "evidence": "2 Michelin stars; an intimate 14-seat Citrin room where prime nights book out well ahead."
+    },
+    {
+      "id": "vespertine",
+      "name": "Vespertine",
+      "neighborhood": "Culver City",
+      "cuisine": "Avant-garde Tasting Menu",
+      "coordinates": {
+        "lat": 34.027,
+        "lng": -118.3746
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/vespertine-culver-city",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "rolling",
+      "bookingWindowDays": 60,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Two Michelin stars (2019-2025) plus a Michelin Green Star",
+        "Single nightly seating; a full ticketed experience — book well ahead",
+        "VERIFY exact release window/time"
+      ],
+      "signatureDish": "Multi-course avant-garde tasting menu (Jordan Kahn)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "avant-garde",
+        "architectural"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A sci-fi tasting ritual in a spaceship of a building — an unforgettable, if otherworldly, date.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★★ (Two Stars) + Green Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-california-stars-green-stars",
+          "note": "One of three LA two-star restaurants in the 2025 guide; also holds a Michelin Green Star"
+        }
+      ],
+      "evidence": "2 Michelin stars plus a Green Star; a single nightly seating inside the Culver City monolith keeps tickets scarce."
+    },
+    {
+      "id": "lele-dinner-club",
+      "name": "Lele Dinner Club",
+      "neighborhood": "West Adams",
+      "cuisine": "Italian (Campanian) Supper Club",
+      "coordinates": {
+        "lat": 34.0345,
+        "lng": -118.33
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.leledinnerclub.com",
+      "website": "https://www.leledinnerclub.com",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "waitlist / cancellations",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Ticketed Campanian supper club (Thu-Mon) from Pizzana's Daniele Uditi; ~$245pp",
+        "Called 'LA's hardest reservation' with a roughly 6,000-person waitlist",
+        "Join the waitlist and watch the reservation page for cancellations",
+        "VERIFY current ticketing mechanics; not a traditional restaurant"
+      ],
+      "signatureDish": "Regional Campanian tasting ($245pp)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "supper-club",
+        "convivial"
+      ],
+      "occasion": [
+        "impress",
+        "celebration",
+        "date-night"
+      ],
+      "dateNote": "A warehouse dinner party with rare wine and Naples soul — a night out that feels like a secret invitation.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/lele-dinner-club",
+          "note": "The Infatuation reviews Lele Dinner Club, the buzzy ticketed West Adams Italian supper club from Daniele Uditi"
+        }
+      ],
+      "evidence": "Daniele Uditi's ticketed West Adams supper club with a ~6,000-person waitlist; seats surface mainly via last-minute cancellations."
+    },
+    {
+      "id": "funke",
+      "name": "Funke",
+      "neighborhood": "Beverly Hills",
+      "cuisine": "Italian (Handmade Pasta)",
+      "coordinates": {
+        "lat": 34.0668,
+        "lng": -118.3998
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/funke-la",
+      "website": "https://www.funkela.com",
+      "phoneNumber": "424-279-9796",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM PT",
+      "releaseDay": "",
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar Funke (al fresco)",
+        "lineBy": "",
+        "advice": "Walk-ins are welcome at Bar Funke for cocktails and a special Bar Funke menu; the main dining room needs the Resy drop."
+      },
+      "tips": [
+        "Reservations open only 7 days in advance at 9am PT for parties of 8 or less",
+        "Bar Funke takes walk-ins for cocktails and a smaller menu",
+        "VERIFY release time; prime slots vanish within seconds"
+      ],
+      "signatureDish": "Hand-rolled pastas (Evan Funke)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "scene",
+        "romantic",
+        "grand"
+      ],
+      "occasion": [
+        "impress",
+        "date-night",
+        "celebration"
+      ],
+      "dateNote": "Watch the pasta ladies roll dough by hand from a plush booth — one of the city's most romantic splurges.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial",
+          "url": "https://blog.resy.com/2023/05/funke-restaurant-reservation-beverly-hills/",
+          "note": "Resy's editorial on Evan Funke's Beverly Hills flagship and how to book it"
+        },
+        {
+          "name": "Michelin",
+          "tier": "Guide-listed",
+          "url": "https://guide.michelin.com/us/en/california/beverly-hills/restaurant/funke",
+          "note": "Listed in the Michelin Guide (Beverly Hills)"
+        }
+      ],
+      "evidence": "Evan Funke's pasta temple; Resy opens only 7 days out at 9am and prime tables are gone in seconds."
+    },
+    {
+      "id": "anajak-thai",
+      "name": "Anajak Thai",
+      "neighborhood": "Sherman Oaks",
+      "cuisine": "Thai",
+      "coordinates": {
+        "lat": 34.149,
+        "lng": -118.4548
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/anajak-thai-cuisine-sherman-oaks",
+      "website": "https://www.anajakthai.com",
+      "phoneNumber": "818-501-4201",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "rolling",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Front door for Thai Taco Tuesday",
+        "lineBy": "Arrive by 6pm for the 6:15pm Thai Taco Tuesday start",
+        "advice": "Thai Taco Tuesday draws lines around the block; arrive early. Other nights, dinner is often booked a week or more ahead."
+      },
+      "tips": [
+        "James Beard-winning; The Infatuation's highest-rated LA restaurant (9.6)",
+        "Wed-Sun dinner often booked a week or more in advance; cancellations happen",
+        "Thai Taco Tuesday (6:15-9pm) is famously mobbed — arrive early",
+        "VERIFY booking platform: The Infatuation cites OpenTable; the restaurant has also used Resy. Confirm whether Thai Taco Tuesday now requires a reservation"
+      ],
+      "signatureDish": "Thai Taco Tuesday specials; crispy rice",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "neighborhood",
+        "beloved"
+      ],
+      "occasion": [
+        "date-night",
+        "friends",
+        "foodie"
+      ],
+      "dateNote": "Order the wine-and-Thai-food pairing on a regular night, or brave Thai Taco Tuesday together for the full circus.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review — 9.6",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/anajak-thai",
+          "note": "Rated 9.6; called the best restaurant in LA; dinner often booked out a week or more; nationally awarded"
+        },
+        {
+          "name": "Michelin",
+          "tier": "Guide-listed",
+          "url": "https://guide.michelin.com/us/en/california/sherman-oaks/restaurant/anajak-thai",
+          "note": "Listed in the Michelin Guide (Sherman Oaks)"
+        }
+      ],
+      "evidence": "James Beard winner and The Infatuation's 9.6 'best restaurant in LA'; dinner booked a week+ out and Thai Taco Tuesday is a walk-in scrum."
+    },
+    {
+      "id": "bar-di-bello",
+      "name": "Bar di Bello",
+      "neighborhood": "Silver Lake",
+      "cuisine": "Italian Wine Bar",
+      "coordinates": {
+        "lat": 34.0905,
+        "lng": -118.279
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/bar-di-bello",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 AM PT",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Front door at 5pm",
+        "lineBy": "Arrive around 5pm for the 5:30pm first seating",
+        "advice": "Arrive around 5pm for the first 5:30pm seating; expect 2+ hour waits after that."
+      },
+      "tips": [
+        "Reservations released at midnight two weeks in advance",
+        "Arrive around 5pm for the first 5:30pm walk-in seating; 2+ hour waits after",
+        "VERIFY cuisine details, booking platform/URL and release time"
+      ],
+      "signatureDish": "Italian wine-bar plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "club-y",
+        "wine-forward"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "friends"
+      ],
+      "dateNote": "A tucked-away, members-club-feeling wine bar — conspiratorial and perfect for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Exclusive club feel; reservations released at midnight two weeks in advance; walk-in first seating at 5:30pm"
+        }
+      ],
+      "evidence": "Silver Lake's club-y hideaway; seats drop at midnight two weeks out and go fast."
+    },
+    {
+      "id": "donnas",
+      "name": "Donna's",
+      "neighborhood": "Echo Park",
+      "cuisine": "Italian-American (Red Sauce)",
+      "coordinates": {
+        "lat": 34.073,
+        "lng": -118.2555
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/donnas",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM PT",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Front door",
+        "lineBy": "",
+        "advice": "A large portion of the dining room is set aside for walk-ins; expect 1-hour-plus waits."
+      },
+      "tips": [
+        "Reservations released daily, 28 days in advance at 10am PT",
+        "A large chunk of the room is held for walk-ins; expect 1hr+ waits",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Red-sauce pastas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "convivial",
+        "neighborhood"
+      ],
+      "occasion": [
+        "date-night",
+        "friends",
+        "celebration"
+      ],
+      "dateNote": "Candlelit red-sauce comfort — the kind of easy, delicious date you book a month out for.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Reservations released daily, 28 days in advance at 10am; large portion of dining room set aside for walk-ins"
+        }
+      ],
+      "evidence": "Echo Park red-sauce hit; the daily 10am drop 28 days out sees weekend prime slots go fast."
+    },
+    {
+      "id": "pizzeria-sei",
+      "name": "Pizzeria Sei",
+      "neighborhood": "Palms",
+      "cuisine": "Tokyo-style Neapolitan Pizza",
+      "coordinates": {
+        "lat": 34.0295,
+        "lng": -118.403
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/pizzeria-sei",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM PT",
+      "releaseDay": "",
+      "bookingWindow": "1 week (rolling)",
+      "bookingWindowDays": 7,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Front door after 8pm",
+        "lineBy": "",
+        "advice": "Seats often free up for walk-ins after 8pm until close."
+      },
+      "tips": [
+        "Limited dining room; one of LA's most sought-after pizzas",
+        "Reservations released on a rolling basis at noon PT one week in advance",
+        "Walk-in seats open up after 8pm until close",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Tokyo-style Neapolitan pizza",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny",
+        "cult-favorite",
+        "casual"
+      ],
+      "occasion": [
+        "date-night",
+        "friends",
+        "foodie"
+      ],
+      "dateNote": "A pint-sized room turning out some of LA's most coveted pies — snag it and settle in.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Reservations released on a rolling basis at noon one week in advance; walk-in seats after 8pm"
+        }
+      ],
+      "evidence": "Tiny Palms pizzeria with an obsessive following; seats drop at noon a week out on a rolling basis."
+    },
+    {
+      "id": "wildes",
+      "name": "Wilde's",
+      "neighborhood": "Los Feliz",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 34.1055,
+        "lng": -118.287
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/wildes",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM PT",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Front door at ~5pm",
+        "lineBy": "Arrive around 5pm on weekdays for the first seating",
+        "advice": "Half the room is reserved for walk-ins; arrive ~5pm weekdays for a first seating, or expect 2+ hour waits on weekends."
+      },
+      "tips": [
+        "Long waits since opening; half the room is held for walk-ins",
+        "Reservations open two weeks ahead at 10am PT",
+        "Arrive ~5pm weekdays for a first seating; weekends mean 2+ hour waits",
+        "VERIFY cuisine details, booking platform/URL and release time"
+      ],
+      "signatureDish": "Seasonal Californian plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "neighborhood",
+        "stylish"
+      ],
+      "occasion": [
+        "date-night",
+        "friends",
+        "celebration"
+      ],
+      "dateNote": "A lively, of-the-moment Los Feliz room — go early on a weekday and grab a walk-in two-top.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Long waits since opening; opens two weeks ahead at 10am; half the room reserved for walk-ins"
+        }
+      ],
+      "evidence": "Los Feliz hit with long waits since opening; tables drop two weeks out at 10am."
+    },
+    {
+      "id": "sushisamba-west-hollywood",
+      "name": "Sushisamba",
+      "neighborhood": "West Hollywood",
+      "cuisine": "Japanese-Brazilian-Peruvian (Nikkei)",
+      "coordinates": {
+        "lat": 34.0838,
+        "lng": -118.3852
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/sushisamba-west-hollywood",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM PT",
+      "releaseDay": "",
+      "bookingWindow": "2 weeks (rolling)",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar and lounge",
+        "lineBy": "",
+        "advice": "The bar and lounge are reserved for walk-ins with full menu access."
+      },
+      "tips": [
+        "Tables earlier than 11pm usually disappear within a few hours",
+        "Reservations released two weeks ahead at 10am PT",
+        "Bar and lounge held for walk-ins with full menu access",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Sushi & Nikkei sharing plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "scene",
+        "lively",
+        "glossy"
+      ],
+      "occasion": [
+        "date-night",
+        "friends",
+        "celebration"
+      ],
+      "dateNote": "A glossy, buzzy WeHo scene — if the dining room's gone, the walk-in lounge still delivers the full menu.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in LA",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/toughest-restaurant-reservations-los-angeles",
+          "note": "Tables earlier than 11pm usually disappear in a few hours; released two weeks ahead at 10am; walk-in bar/lounge"
+        }
+      ],
+      "evidence": "WeHo scene magnet; tables before 11pm vanish within hours of the two-week 10am drop."
+    },
+    {
+      "id": "republique",
+      "name": "République",
+      "neighborhood": "Mid-City / Hancock Park",
+      "cuisine": "French brasserie / Californian",
+      "coordinates": {
+        "lat": 34.0625,
+        "lng": -118.3443
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/republique",
+      "website": "https://republiquela.com/",
+      "phoneNumber": "310-362-6115",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Daytime is counter-service walk-in (café + bakery, no reservations); dinner is the ticket you book ahead."
+      },
+      "tips": [
+        "Dinner reservations only; daytime is walk-in counter service",
+        "Chef Margarita Manzke won a James Beard Award for Outstanding Pastry Chef (2023)",
+        "VERIFY the exact OpenTable release time before trusting a countdown"
+      ],
+      "signatureDish": "Margarita Manzke's pastries; roast chicken and kimchi fried rice",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "grand",
+        "romantic",
+        "buzzy"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "brunch"
+      ],
+      "dateNote": "Book a dinner table under the soaring arches, or wander in for a morning of pastries and coffee.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/republique",
+          "note": "Review: a 'legendary French restaurant' that lands on every LA best-of list; Margarita Manzke's James Beard pastry win",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A perennial 'best of LA' fixture from Walter & Margarita Manzke; dinner books out but daytime walk-ins and mid-week tables are realistic."
+    },
+    {
+      "id": "kismet",
+      "name": "Kismet",
+      "neighborhood": "Los Feliz",
+      "cuisine": "Modern Middle Eastern / Californian",
+      "coordinates": {
+        "lat": 34.1016,
+        "lng": -118.2864
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.kismetla.com/",
+      "website": "https://www.kismetla.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Counter and a few tables held for walk-ins; easiest on weekday afternoons."
+      },
+      "tips": [
+        "Books on Resy — reserve link on their site; VERIFY the direct booking URL",
+        "Reservations essential on weekends",
+        "Sister project of Jon Shook & Vinny Dotolo with chefs Sara Kramer and Sarah Hymanson"
+      ],
+      "signatureDish": "Freekeh fritters; the crispy rice with barberry-saffron butter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "sunny",
+        "veg-forward",
+        "warm"
+      ],
+      "occasion": [
+        "date-night",
+        "brunch",
+        "casual"
+      ],
+      "dateNote": "A bright, herb-strewn room where two can graze through vegetable-forward mezze.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/kismet",
+          "note": "Review: opened 2017 but 'feels like it's been around forever,' more famous than ever",
+          "tier": "review"
+        },
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-california-bib-gourmand-2025",
+          "note": "2025 California Bib Gourmand — Kismet (Mediterranean)",
+          "tier": "Bib Gourmand 2025"
+        }
+      ],
+      "evidence": "Michelin Bib Gourmand and a beloved neighborhood icon since 2017; weekends need a booking but weekdays are gettable."
+    },
+    {
+      "id": "gjelina",
+      "name": "Gjelina",
+      "neighborhood": "Venice",
+      "cuisine": "Californian / New American",
+      "coordinates": {
+        "lat": 33.9905,
+        "lng": -118.4665
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/gjelina",
+      "website": "https://www.gjelina.com/",
+      "phoneNumber": "310-450-1429",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Opens for lunch/afternoon",
+        "lineBy": "Arrive by 5:30pm for dinner",
+        "advice": "The full menu is served at the walk-in bar and counter — arrive by 5:30pm, much easier on weekdays."
+      },
+      "tips": [
+        "Book 4–6 weeks ahead for weekend tables; weekdays are forgiving",
+        "Walk-in bar/counter serves the full menu",
+        "VERIFY the OpenTable release window"
+      ],
+      "signatureDish": "Wood-fired vegetable plates and blistered pizzas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "californian",
+        "buzzy",
+        "leafy-patio"
+      ],
+      "occasion": [
+        "date-night",
+        "group",
+        "casual"
+      ],
+      "dateNote": "The original Abbot Kinney fantasy — book the back patio, or grab two seats at the bar.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/best-restaurants-los-angeles",
+          "note": "On the 25 Best Restaurants in LA — 'an Abbott Kinney standby where the California fantasy still feels fresh'",
+          "tier": "25 Best"
+        },
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/california/venice/restaurant/gjelina",
+          "note": "Listed in the Michelin Guide, Venice",
+          "tier": "Michelin Guide"
+        }
+      ],
+      "evidence": "On The Infatuation's 25 Best in LA and the Michelin Guide; the Venice standby is still packed but the walk-in counter makes it very gettable."
+    },
+    {
+      "id": "jon-and-vinnys-fairfax",
+      "name": "Jon & Vinny's",
+      "neighborhood": "Fairfax",
+      "cuisine": "Italian-American",
+      "coordinates": {
+        "lat": 34.0787,
+        "lng": -118.3617
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/jon-and-vinnys",
+      "website": "https://www.jonandvinnys.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Come for lunch — same menu as dinner, tables almost always open, no weeks-ahead scramble."
+      },
+      "tips": [
+        "Dinner books 3–4 weeks out on Resy; lunch walk-ins are easy",
+        "Michelin Bib Gourmand",
+        "VERIFY the Resy release time"
+      ],
+      "signatureDish": "Spicy fusilli alla vodka; the gem lettuce salad; razor-thin pizzas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cool",
+        "cramped",
+        "hyped"
+      ],
+      "occasion": [
+        "date-night",
+        "casual",
+        "lunch"
+      ],
+      "dateNote": "Squeeze into the counter for vodka fusilli — or beat the hype at a relaxed lunch.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/jon-and-vinnys",
+          "note": "Review (9.3): come for lunch — same menu, tables available, vs. weeks-out dinner",
+          "tier": "review"
+        },
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-california-bib-gourmand-2025",
+          "note": "2025 California Bib Gourmand — Jon & Vinny's Fairfax (Italian)",
+          "tier": "Bib Gourmand 2025"
+        }
+      ],
+      "evidence": "Michelin Bib Gourmand and one of LA's most talked-about rooms since 2015; dinner is a hunt but lunch is wide open."
+    },
+    {
+      "id": "dunsmoor",
+      "name": "Dunsmoor",
+      "neighborhood": "Glassell Park",
+      "cuisine": "American heritage / wood-fire",
+      "coordinates": {
+        "lat": 34.1148,
+        "lng": -118.2265
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/dunsmoor-los-angeles",
+      "website": "https://www.dunsmoorfood.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The attached wine bar is walk-in only with a limited menu — a great backup when the dining room is booked."
+      },
+      "tips": [
+        "Reservations open ~1 month out on OpenTable; book a few weeks ahead for prime time",
+        "Walk-in wine bar serves a limited menu",
+        "VERIFY the OpenTable release timing"
+      ],
+      "signatureDish": "Dry-aged ribeye and cornbread, everything kissed by the hearth",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "rustic",
+        "wine-bar"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "casual"
+      ],
+      "dateNote": "Ember-cooked American cooking in an Art Deco room — sit by the hearth and split the ribeye.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/dunsmoor",
+          "note": "Review: 'a cozy spot that puts the spark back in wood-fire cooking'; on the LA Top 25",
+          "tier": "review / 25 Best"
+        }
+      ],
+      "evidence": "On The Infatuation's 25 Best in LA; plan-ahead-hard for weekends but the walk-in wine bar is a reliable in."
+    },
+    {
+      "id": "osteria-mozza",
+      "name": "Osteria Mozza",
+      "neighborhood": "Hollywood / Hancock Park",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 34.0838,
+        "lng": -118.332
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/osteria-mozza-los-angeles",
+      "website": "https://la.osteriamozza.com/",
+      "phoneNumber": "323-297-0100",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open ~1 month ahead (up to 6 guests) via OpenTable or phone",
+        "Michelin-starred",
+        "VERIFY the exact release time"
+      ],
+      "signatureDish": "The mozzarella bar; handmade pastas; the famed orecchiette",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "elegant",
+        "special-occasion",
+        "classic"
+      ],
+      "occasion": [
+        "anniversary",
+        "impress",
+        "date-night"
+      ],
+      "dateNote": "Nancy Silverton's mozzarella bar is one of LA's great special-occasion tables for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/osteria-mozza",
+          "note": "Review: 'still has some of the best pasta in LA'",
+          "tier": "review"
+        },
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/osteria-mozza",
+          "note": "Michelin-starred (One Star), Los Angeles",
+          "tier": "One Star"
+        }
+      ],
+      "evidence": "Michelin-starred Nancy Silverton institution; a plan-ahead splurge but reliably bookable a few weeks out."
+    },
+    {
+      "id": "rossoblu",
+      "name": "Rossoblu",
+      "neighborhood": "Fashion District (DTLA)",
+      "cuisine": "Italian (Bolognese)",
+      "coordinates": {
+        "lat": 34.0333,
+        "lng": -118.256
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/rossoblu-los-angeles",
+      "website": "https://www.rossoblula.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and lounge seats are open to walk-ins; easiest early evening midweek."
+      },
+      "tips": [
+        "Books on OpenTable; a Tock listing also exists — VERIFY the current platform",
+        "Steve Samson's Bologna-rooted cooking, full in-house butchery and salumi",
+        "Reservations highly recommended"
+      ],
+      "signatureDish": "Tagliatelle al ragù (Nonna Olimpia's); wood-fired meats",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "airy",
+        "romantic",
+        "wood-fire"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "group"
+      ],
+      "dateNote": "Hand-rolled tagliatelle in ragù under exposed rafters — a soulful downtown date.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/california/us-los-angeles/restaurant/rossoblu",
+          "note": "Michelin Guide listing — Steve Samson's Bolognese-rooted, wood-fired Italian",
+          "tier": "Michelin Guide"
+        }
+      ],
+      "evidence": "A Michelin Guide Italian standout in DTLA; weekends fill but midweek and bar seats are realistic."
+    },
+    {
+      "id": "saffys",
+      "name": "Saffy's",
+      "neighborhood": "East Hollywood",
+      "cuisine": "Middle Eastern",
+      "coordinates": {
+        "lat": 34.0946,
+        "lng": -118.2977
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/saffys-los-angeles",
+      "website": "https://saffysla.com/",
+      "phoneNumber": "424-699-4845",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins are welcomed and accommodated — a genuine strategy here, especially early or at the bar."
+      },
+      "tips": [
+        "Walk-ins are actively accommodated; books on OpenTable too",
+        "From Ori Menashe & Genevieve Gergis (Bestia / Bavel)",
+        "VERIFY the OpenTable slug/release before relying on a countdown"
+      ],
+      "signatureDish": "Wood-fired kebabs; hummus ful; turmeric mussels",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "polished",
+        "scene"
+      ],
+      "occasion": [
+        "date-night",
+        "casual",
+        "group"
+      ],
+      "dateNote": "The carefree younger sibling to Bavel — kebabs, cocktails, and most dishes under $25.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/saffys",
+          "note": "Review (9.0): 'the younger, more carefree sibling' to Bavel; walk-ins welcomed, most dishes under $25",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A 9.0 'Best of the Best' Infatuation room from the Bestia/Bavel team; polished but deliberately walk-in-friendly."
+    },
+    {
+      "id": "holbox",
+      "name": "Holbox",
+      "neighborhood": "Historic South Central",
+      "cuisine": "Mexican seafood / mariscos",
+      "coordinates": {
+        "lat": 34.0155,
+        "lng": -118.2785
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/holbox",
+      "website": "https://www.holboxla.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "11:00 AM PT",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Opens 11:00 AM",
+        "lineBy": "Before noon on weekends",
+        "advice": "The counter is first-come — hour-long lines spill into the Mercado La Paloma parking lot on weekends, so go at opening or mid-afternoon. Only the Wed/Thu tasting menu is reservation-based."
+      },
+      "tips": [
+        "Walk-in counter for the à la carte menu; the seated Wed/Thu tasting menu releases on the 1st of the month at 11am PT via Tock",
+        "Michelin-starred (Holbox Tasting Menu, 2025)",
+        "Located inside Mercado La Paloma"
+      ],
+      "signatureDish": "Aguachile; smoked marlin tacos; scallop and uni tostadas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "counter",
+        "cult-favorite",
+        "unpretentious"
+      ],
+      "occasion": [
+        "casual",
+        "adventurous",
+        "lunch"
+      ],
+      "dateNote": "Squeeze in at the market counter for aguachile and a tostada piled with scallop and uni.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/holbox",
+          "note": "Review (9.5): counter mariscos in Mercado La Paloma; weekend lines, tasting seats release 1st of month at 11am",
+          "tier": "review"
+        },
+        {
+          "name": "Resy",
+          "url": "https://blog.resy.com/2025/06/2025-los-angeles-michelin/",
+          "note": "2025 LA Michelin: Holbox Tasting Menu awarded One Star",
+          "tier": "One Star"
+        }
+      ],
+      "evidence": "The Infatuation's 9.5 mariscos counter and a 2025 Michelin star for its tasting menu; the à la carte counter is walk-in with a line strategy."
+    },
+    {
+      "id": "antico-nuovo",
+      "name": "Antico Nuovo",
+      "neighborhood": "Larchmont / Koreatown edge",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 34.0764,
+        "lng": -118.3106
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/antico-nuovo-los-angeles",
+      "website": "https://www.anticonuovo.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seats take walk-ins; the dining room is worth booking ahead."
+      },
+      "tips": [
+        "Books on OpenTable; VERIFY the exact slug/release",
+        "Chef Chad Colby's pasta and wood-fired breads are the draw",
+        "Weekends book ahead; weeknights are easier"
+      ],
+      "signatureDish": "Fresh pasta; wood-fired breads; regional Italian plates from Chad Colby",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "quiet-luxury",
+        "romantic",
+        "elegant"
+      ],
+      "occasion": [
+        "date-night",
+        "anniversary",
+        "impress"
+      ],
+      "dateNote": "'A fancy restaurant in drag as a charming neighborhood spot' — pasta and candlelight for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/antico-nuovo",
+          "note": "Review (9.2): 'a fancy restaurant in drag as a charming neighborhood spot'",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A 9.2 Infatuation review; a polished date-night Italian that's plan-ahead-hard on weekends but gettable midweek."
+    },
+    {
+      "id": "camphor",
+      "name": "Camphor",
+      "neighborhood": "Arts District",
+      "cuisine": "French bistro",
+      "coordinates": {
+        "lat": 34.0448,
+        "lng": -118.235
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/camphor-la",
+      "website": "https://www.camphor.la/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seats take walk-ins; the dining room is worth booking a week or two out."
+      },
+      "tips": [
+        "Books on Resy; VERIFY the exact release time",
+        "Michelin-starred (2025)",
+        "Weekends book ahead; weeknights and bar seats are easier"
+      ],
+      "signatureDish": "Duck liver mousse; steak frites with a French bistro twist",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "chic",
+        "laid-back",
+        "romantic"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "'A fancy French bistro with a laid-back personality' — a stylish, gettable Arts District date.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/camphor",
+          "note": "Review (8.5): 'a fancy French bistro with a laid-back personality'",
+          "tier": "review"
+        },
+        {
+          "name": "Resy",
+          "url": "https://blog.resy.com/2025/06/2025-los-angeles-michelin/",
+          "note": "2025 LA Michelin: Camphor awarded One Star",
+          "tier": "One Star"
+        }
+      ],
+      "evidence": "An 8.5 Infatuation review and a 2025 Michelin star, yet still a plan-a-week-ahead table rather than an impossible one."
+    },
+    {
+      "id": "loreto",
+      "name": "Loreto",
+      "neighborhood": "Frogtown (Elysian Valley)",
+      "cuisine": "Baja Mexican seafood",
+      "coordinates": {
+        "lat": 34.109,
+        "lng": -118.256
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/loreto-los-angeles",
+      "website": "https://www.loretola.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The giant wrap-around bar takes walk-ins; easiest early evening midweek."
+      },
+      "tips": [
+        "Books on OpenTable; VERIFY the exact slug/release",
+        "Baja/Sinaloa seafood with a strong cocktail program",
+        "Daytime courtyard pizza concept 'Za Za Za' too"
+      ],
+      "signatureDish": "Baja/Sinaloa seafood; aguachile; grilled fish and great cocktails",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "blockbuster",
+        "buzzy",
+        "cocktail-forward"
+      ],
+      "occasion": [
+        "date-night",
+        "group",
+        "drinks"
+      ],
+      "dateNote": "Buzzy energy, a big wrap-around bar, and exceptional Baja seafood — a lively night for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/loreto",
+          "note": "Review (8.7): 'a blockbuster space, buzzy energy, great cocktails, and exceptional seafood'",
+          "tier": "review"
+        }
+      ],
+      "evidence": "An 8.7 Infatuation review; a buzzy Frogtown blockbuster that's plan-ahead-hard on weekends but bar-walk-in friendly."
+    },
+    {
+      "id": "quarter-sheets-pizza-club",
+      "name": "Quarter Sheets Pizza Club",
+      "neighborhood": "Echo Park",
+      "cuisine": "Pan pizza",
+      "coordinates": {
+        "lat": 34.077,
+        "lng": -118.261
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/quartersheets",
+      "website": "https://www.quartersheets.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "weekly",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Some slices and seats go to walk-ins; the full sit-down is by Tock reservation only."
+      },
+      "tips": [
+        "Sit-down reservations drop weekly on Tock — VERIFY the current day/time",
+        "Some walk-in seating and slices",
+        "Michelin Bib Gourmand; save room for the cake"
+      ],
+      "signatureDish": "Detroit-style pan pizza; nostalgic layer cakes",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "fun",
+        "nostalgic",
+        "cult-favorite"
+      ],
+      "occasion": [
+        "casual",
+        "date-night",
+        "group"
+      ],
+      "dateNote": "Thick, crispy-edged pan pizza and a slab of nostalgic cake — a joyful, low-stakes date.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/guides/best-restaurants-los-angeles",
+          "note": "On the 25 Best Restaurants in LA — thick pan-style pizzas and nostalgic desserts",
+          "tier": "25 Best"
+        },
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-california-bib-gourmand-2025",
+          "note": "2025 California Bib Gourmand — Quarter Sheets (Pizza)",
+          "tier": "Bib Gourmand 2025"
+        }
+      ],
+      "evidence": "A Michelin Bib Gourmand and Infatuation 25 pick; the weekly Tock drop is competitive but walk-in slices make it accessible."
+    },
+    {
+      "id": "bistro-nas",
+      "name": "Bistro Na's",
+      "neighborhood": "Temple City",
+      "cuisine": "Imperial-style Chinese",
+      "coordinates": {
+        "lat": 34.107,
+        "lng": -118.053
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/bistro-nas-temple-city",
+      "website": "https://www.bistronas.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Books on OpenTable; VERIFY the exact slug/release",
+        "Michelin-starred",
+        "Big-table, special-occasion cooking — reserve ahead for weekends"
+      ],
+      "signatureDish": "Imperial-court Chinese dishes; Peking duck; refined Sichuan and Cantonese plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "lavish",
+        "special-occasion",
+        "refined"
+      ],
+      "occasion": [
+        "celebration",
+        "impress",
+        "group"
+      ],
+      "dateNote": "SGV showstopper where 'everyone feels like royalty' — a lavish, imperial-Chinese celebration.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/bistro-nas",
+          "note": "Review (9.4): 'everyone feels like royalty at this lavish SGV spot'",
+          "tier": "review"
+        },
+        {
+          "name": "Resy",
+          "url": "https://blog.resy.com/2025/06/2025-los-angeles-michelin/",
+          "note": "2025 LA Michelin coverage of the year's starred and Bib restaurants",
+          "tier": "Michelin (Star)"
+        }
+      ],
+      "evidence": "A 9.4 Infatuation review and a Michelin star; a plan-ahead SGV special-occasion table that's still bookable midweek."
+    },
+    {
+      "id": "night-market-song",
+      "name": "Night + Market Song",
+      "neighborhood": "Silver Lake",
+      "cuisine": "Thai",
+      "coordinates": {
+        "lat": 34.0908,
+        "lng": -118.2795
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/night-and-market-song-silverlake",
+      "website": "http://www.nightmarketsong.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "67 days",
+      "bookingWindowDays": 67,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Party-ready room turns over fast; walk-ins can usually grab a table early or late."
+      },
+      "tips": [
+        "Books on Resy; walk-ins common on weeknights",
+        "Kris Yenbamroong's second outpost, known for a strong natural-wine list",
+        "VERIFY the Resy release time"
+      ],
+      "signatureDish": "Fried chicken sandwich, larb, and startlingly spicy party-Thai dishes",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "neon-fun",
+        "loud",
+        "natural-wine"
+      ],
+      "occasion": [
+        "casual",
+        "group",
+        "date-night"
+      ],
+      "dateNote": "Pink-and-orange, salt-forward and spicy — a rowdy, joyful Thai night for two.",
+      "sources": [
+        {
+          "name": "The World's 50 Best",
+          "url": "https://www.theworlds50best.com/discovery/Establishments/US/Los-Angeles/Night-Market-Song.html",
+          "note": "50 Best Discovery listing — Kris Yenbamroong's salt-forward, spicy Thai with a strong natural-wine list",
+          "tier": "50 Best Discovery"
+        }
+      ],
+      "evidence": "A World's 50 Best Discovery pick and a Silver Lake Thai institution; genuinely easy to get into on weeknights."
+    },
+    {
+      "id": "guelaguetza",
+      "name": "Guelaguetza",
+      "neighborhood": "Koreatown",
+      "cuisine": "Oaxacan Mexican",
+      "coordinates": {
+        "lat": 34.0522,
+        "lng": -118.2966
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/guelaguetza",
+      "website": "https://www.ilovemole.com/",
+      "phoneNumber": "213-427-0608",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Big dining room absorbs walk-ins; only Friday/Saturday nights with mariachi get truly packed."
+      },
+      "tips": [
+        "Reserve on OpenTable or walk in — plenty of tables most nights",
+        "James Beard 'America's Classic' winner (2015)",
+        "Live music most nights; weekends are busiest"
+      ],
+      "signatureDish": "Mole negro and rojo; tlayudas; micheladas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "festive",
+        "family",
+        "live-music"
+      ],
+      "occasion": [
+        "group",
+        "casual",
+        "family"
+      ],
+      "dateNote": "Order the mole negro, split a big michelada, and let the mariachi do the rest.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/guelaguetza",
+          "note": "Review of the James Beard 'America's Classic' Oaxacan spot famed for its moles and live mariachi",
+          "tier": "review"
+        }
+      ],
+      "evidence": "James Beard America's Classic and the country's most celebrated Oaxacan restaurant; almost always bookable or walk-in."
+    },
+    {
+      "id": "jitlada",
+      "name": "Jitlada",
+      "neighborhood": "East Hollywood / Thai Town",
+      "cuisine": "Southern Thai",
+      "coordinates": {
+        "lat": 34.098,
+        "lng": -118.306
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/jitlada",
+      "website": "https://jitladala.com/",
+      "phoneNumber": "323-667-9809",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Small room — walk in early evening or off-peak; the menu is enormous, so know what you're ordering."
+      },
+      "tips": [
+        "Walk-ins welcome; limited Resy availability too",
+        "Closed Mondays",
+        "The menu is colossal — the Southern Thai curries are the reason to come"
+      ],
+      "signatureDish": "Dried catfish (khua kling), crispy morning glory salad, garlic crab",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "no-frills",
+        "fiery",
+        "legendary"
+      ],
+      "occasion": [
+        "casual",
+        "adventurous",
+        "group"
+      ],
+      "dateNote": "Order the crispy morning glory salad and something turmeric-stained — bring a heat tolerance.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/jitlada",
+          "note": "Review (8.5): 'real-deal, no holds barred Southern Thai'; set the bar for LA Thai",
+          "tier": "review"
+        }
+      ],
+      "evidence": "The bar-setter for LA Thai food and still excellent (Infatuation 8.5); casual and easy to walk into off-peak."
+    },
+    {
+      "id": "angelini-osteria",
+      "name": "Angelini Osteria",
+      "neighborhood": "Beverly Grove",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 34.0762,
+        "lng": -118.3486
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/angelini-osteria",
+      "website": "https://www.angelinirestaurantgroup.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM PT",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "A portion of the dining room is held for walk-ins every night — arrive at 5:30 or after 9."
+      },
+      "tips": [
+        "Resy opens daily at 10am PT, 60 days out",
+        "A slice of the room is held for walk-ins nightly",
+        "Open since 2001; the lasagna is the signature"
+      ],
+      "signatureDish": "The lasagna verde; whole branzino; Gino Angelini's rustic pastas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "classic",
+        "warm",
+        "always-packed"
+      ],
+      "occasion": [
+        "date-night",
+        "casual",
+        "family"
+      ],
+      "dateNote": "A 20-year Beverly Blvd mainstay — order the famous lasagna and settle in.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/angelini-osteria",
+          "note": "Review: 'packed every single night'; the giant lasagna is the most famous dish",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A packed-every-night Italian classic (Michelin Guide, Infatuation); daily Resy drops and nightly walk-in tables make it gettable."
+    },
+    {
+      "id": "found-oyster",
+      "name": "Found Oyster",
+      "neighborhood": "East Hollywood",
+      "cuisine": "Seafood",
+      "coordinates": {
+        "lat": 34.0946,
+        "lng": -118.2966
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.foundoyster.com/",
+      "website": "https://www.foundoyster.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "From dinner service",
+        "lineBy": "Before 6pm on weekends",
+        "advice": "No reservations — expect roughly a 30-minute wait on weekends; sip wine while you wait, or come early/late."
+      },
+      "tips": [
+        "Walk-in only, no reservations",
+        "Oysters come from the GM's family farm on Cape Cod",
+        "Wait is shorter on weeknights"
+      ],
+      "signatureDish": "Cape Cod oysters; the lobster roll; crudo",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cool",
+        "tiny",
+        "disco-ball"
+      ],
+      "occasion": [
+        "date-night",
+        "casual",
+        "drinks"
+      ],
+      "dateNote": "A jewel-box seafood shack under a disco ball — perch two at the counter for oysters and a lobster roll.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/found-oyster",
+          "note": "Review: 'pristine seafood shimmers under a disco ball'; effortlessly cool, walk-in only",
+          "tier": "review / 25 Best"
+        }
+      ],
+      "evidence": "An Infatuation 25 Best pick and Michelin Guide seafood darling; walk-in only, so strategy beats a reservation."
+    },
+    {
+      "id": "yangs-kitchen",
+      "name": "Yang's Kitchen",
+      "neighborhood": "Alhambra",
+      "cuisine": "Taiwanese / Chinese-American",
+      "coordinates": {
+        "lat": 34.0952,
+        "lng": -118.127
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/yangs-kitchen-alhambra",
+      "website": "https://www.yangskitchen.la/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "All-day café by day is walk-in friendly; the plated dinner service is the one to book."
+      },
+      "tips": [
+        "Books on OpenTable; VERIFY the exact slug/release",
+        "All-day café with an elevated dinner service",
+        "Produce-driven cooking from Chris Yang"
+      ],
+      "signatureDish": "Beef noodle soup; mapo tofu; seasonal produce-driven plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "sunny",
+        "casual",
+        "farm-to-table"
+      ],
+      "occasion": [
+        "casual",
+        "brunch",
+        "date-night"
+      ],
+      "dateNote": "An all-day Taiwanese café that turns quietly ambitious at dinner — bright, veg-forward, warm.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/yangs-kitchen",
+          "note": "Review (9.1): all-day Taiwanese café with an elevated dinner service",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A 9.1 Infatuation review and an SGV-area favorite; casual and very bookable, especially for the café."
+    },
+    {
+      "id": "soban",
+      "name": "Soban",
+      "neighborhood": "Koreatown",
+      "cuisine": "Korean",
+      "coordinates": {
+        "lat": 34.0523,
+        "lng": -118.3095
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.sobanusa.com/",
+      "website": "https://www.sobanusa.com/",
+      "phoneNumber": "323-936-9106",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins are generally fine midweek; call ahead on weekends for the banchan-heavy feast."
+      },
+      "tips": [
+        "Call ahead for weekends; walk-ins usually work midweek",
+        "Famous for its ganjang gejang and generous banchan spread",
+        "VERIFY reservation method before relying on a countdown"
+      ],
+      "signatureDish": "Ganjang gejang (soy-marinated crab); an avalanche of banchan",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "homey",
+        "banchan-obsessed",
+        "unfussy"
+      ],
+      "occasion": [
+        "casual",
+        "group",
+        "family"
+      ],
+      "dateNote": "Come hungry for the soy-crab and a table full of banchan — a quietly special K-town meal.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/soban",
+          "note": "Review (9.0): 'a banchan-obsessed spot where Korean feasts feel extra special'",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A 9.0 Infatuation 'Best of the Best' K-town room; casual and easy to walk into most nights."
+    },
+    {
+      "id": "dudley-market",
+      "name": "Dudley Market",
+      "neighborhood": "Venice",
+      "cuisine": "Seafood / New American",
+      "coordinates": {
+        "lat": 33.988,
+        "lng": -118.473
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/los-angeles-ca/venues/5870",
+      "website": "https://www.dudleymarketvenice.com/",
+      "phoneNumber": "424-744-8060",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The bar and sidewalk seats take walk-ins; a block from the beach, so come early on weekends."
+      },
+      "tips": [
+        "Books on Resy; VERIFY the exact release time",
+        "Crudo-focused with a natural-wine program",
+        "Near Venice Beach — weekend evenings get busy"
+      ],
+      "signatureDish": "Crudo; whole grilled fish; natural wine",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "breezy",
+        "crudo-forward",
+        "natural-wine"
+      ],
+      "occasion": [
+        "date-night",
+        "casual",
+        "drinks"
+      ],
+      "dateNote": "A sexy little seafood scene that spills onto the street — crudo, natural wine, sea air.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/dudley-market",
+          "note": "Review (9.2): 'a sexy seafood scene that spills onto the street'",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A 9.2 Infatuation review and Venice crudo favorite; small and buzzy but genuinely gettable off-peak."
+    },
+    {
+      "id": "luv2eat-thai-bistro",
+      "name": "Luv2Eat Thai Bistro",
+      "neighborhood": "Hollywood",
+      "cuisine": "Southern Thai",
+      "coordinates": {
+        "lat": 34.098,
+        "lng": -118.3345
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.luv2eatthai.com/",
+      "website": "https://www.luv2eatthai.com/",
+      "phoneNumber": "323-498-5835",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Strip-mall room; walk in with a short wait at peak — go early or for lunch."
+      },
+      "tips": [
+        "Casual walk-in spot; call for large parties",
+        "Southern/Phuket-style Thai — the crab curry noodles are the signature",
+        "Great for a low-key lunch"
+      ],
+      "signatureDish": "Crab curry noodles; Phuket-style southern curries; jade noodles",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "strip-mall-gem",
+        "casual",
+        "fiery"
+      ],
+      "occasion": [
+        "casual",
+        "lunch",
+        "adventurous"
+      ],
+      "dateNote": "Unassuming strip-mall room, thrilling Phuket-style curries — get the crab noodles.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/luv2eat-thai-bistro",
+          "note": "Review (9.3): 'Best of the Best' Southern/Phuket-style Thai in a strip mall",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A remarkable 9.3 Infatuation 'Best of the Best'; casual, cheap, and easy to walk into."
+    },
+    {
+      "id": "brents-deli",
+      "name": "Brent's Deli",
+      "neighborhood": "Northridge",
+      "cuisine": "Jewish deli",
+      "coordinates": {
+        "lat": 34.2288,
+        "lng": -118.568
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.brentsdeli.com/",
+      "website": "https://www.brentsdeli.com/",
+      "phoneNumber": "818-886-5679",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Opens for breakfast",
+        "lineBy": "Before 9am on weekends",
+        "advice": "A giant dining room absorbs walk-ins; only weekend breakfast has a real wait."
+      },
+      "tips": [
+        "Walk-in; the huge dining room rarely turns anyone away",
+        "Weekend breakfast is the busiest window",
+        "A 25-year Valley institution"
+      ],
+      "signatureDish": "Pastrami on rye; matzo ball soup; black-and-white cookies",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "classic-deli",
+        "family",
+        "bustling"
+      ],
+      "occasion": [
+        "family",
+        "breakfast",
+        "casual"
+      ],
+      "dateNote": "A giant, joyful snapshot of the Valley — split a pastrami on rye and a bowl of matzo ball soup.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/brents-deli",
+          "note": "Review (9.1): 'the best delicatessen in LA is a giant snapshot of the Valley'",
+          "tier": "review"
+        }
+      ],
+      "evidence": "A 9.1 Infatuation review calling it the best deli in LA; a walk-in Valley icon that's easy any weekday."
+    },
+    {
+      "id": "chifa",
+      "name": "Chifa",
+      "neighborhood": "Eagle Rock",
+      "cuisine": "Cantonese-Peruvian",
+      "coordinates": {
+        "lat": 34.129,
+        "lng": -118.218
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/chifa-la",
+      "website": "https://www.chifa-la.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Small room; walk in early or grab a bar seat midweek."
+      },
+      "tips": [
+        "Books on Tock; VERIFY the exact release timing",
+        "Michelin Bib Gourmand",
+        "Menu revives dishes from the owner's family restaurant in Peru"
+      ],
+      "signatureDish": "Pollo a la brasa; mapo tofu; zongzi",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "neighborhood",
+        "personal",
+        "fusion"
+      ],
+      "occasion": [
+        "casual",
+        "date-night",
+        "adventurous"
+      ],
+      "dateNote": "A family love-letter to Cantonese-Peruvian cooking — order the pollo a la brasa and the mapo tofu.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/chifa",
+          "note": "Review (7.7): 'a Cantonese-Peruvian restaurant in Eagle Rock that's a must-see'",
+          "tier": "review"
+        },
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-california-bib-gourmand-2025",
+          "note": "2025 California Bib Gourmand — Chifa (Chinese/fusion)",
+          "tier": "Bib Gourmand 2025"
+        }
+      ],
+      "evidence": "A Michelin Bib Gourmand Cantonese-Peruvian charmer; small but very bookable/walk-in midweek."
+    },
+    {
+      "id": "pizzana-brentwood",
+      "name": "Pizzana",
+      "neighborhood": "Brentwood",
+      "cuisine": "Neo-Neapolitan pizza",
+      "coordinates": {
+        "lat": 34.052,
+        "lng": -118.468
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/la/pizzana",
+      "website": "https://pizzana.com/",
+      "phoneNumber": "310-481-7108",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Most of the small room is given to walk-ins — a very real strategy here."
+      },
+      "tips": [
+        "Books on Resy, but most of the small space is held for walk-ins",
+        "Michelin Bib Gourmand",
+        "Chef Daniele Uditi's dough is the draw"
+      ],
+      "signatureDish": "Neo-Neapolitan pizzas (cacio e pepe, margherita); the corn pizza",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "casual",
+        "pizza-nerd"
+      ],
+      "occasion": [
+        "casual",
+        "date-night",
+        "family"
+      ],
+      "dateNote": "Chef Daniele Uditi's slow-fermented pies in a snug Brentwood room — split the cacio e pepe pizza.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/pizzana",
+          "note": "Review: 'takes reservations, but most of the small space is given to walk-ins'",
+          "tier": "review"
+        },
+        {
+          "name": "Michelin",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-california-bib-gourmand-2025",
+          "note": "2025 California Bib Gourmand — Pizzana Brentwood (Italian)",
+          "tier": "Bib Gourmand 2025"
+        }
+      ],
+      "evidence": "A Michelin Bib Gourmand pizzeria that prioritizes walk-ins; one of the more gettable rooms on this list."
+    },
+    {
+      "id": "kuya-lord",
+      "name": "Kuya Lord",
+      "neighborhood": "Melrose Hill / East Hollywood",
+      "cuisine": "Filipino",
+      "coordinates": {
+        "lat": 34.0838,
+        "lng": -118.301
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.kuyalord.com/",
+      "website": "https://www.kuyalord.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Order at the counter and grab a table — minimal wait midweek; the chef often comes out to say hi."
+      },
+      "tips": [
+        "Order-at-counter, walk-in; also a serious takeout operation",
+        "Chef Lord Maynard Llera periodically comes out to greet diners",
+        "Best on a weekday for a relaxed table"
+      ],
+      "signatureDish": "Pork belly adobo; longganisa; ube desserts",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "counter",
+        "family-run",
+        "warm"
+      ],
+      "occasion": [
+        "casual",
+        "lunch",
+        "adventurous"
+      ],
+      "dateNote": "A tiny, family-run counter with soulful Filipino cooking — low-key and lovely for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "url": "https://www.theinfatuation.com/los-angeles/reviews/kuya-lord",
+          "note": "Review (8.7): family-run Filipino counter, chef comes out to hang with diners",
+          "tier": "review"
+        }
+      ],
+      "evidence": "An 8.7 Infatuation review; a beloved walk-in counter that's easy to slot into on a weekday."
+    }
+  ]
+}
