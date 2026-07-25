@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-25T01:01:31+00:00",
+  "generated": "2026-07-25T04:43:53+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 194,
-  "new": 4,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
@@ -17,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-25T01:01:31+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-25T01:01:31+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-25&seats=2",
       "firstSeen": "2026-07-25T01:01:31+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -59,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-25T01:01:31+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2610,20 +2610,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-26",
-      "time": "00:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-23T04:51:37+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "little-pearl",
       "name": "Little Pearl",
@@ -2718,6 +2704,20 @@
       "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-25&seats=2",
+      "firstSeen": "2026-07-23T04:51:37+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-07-26",
+      "time": "00:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-26&seats=2",
       "firstSeen": "2026-07-23T04:51:37+00:00",
       "new": false
     }
