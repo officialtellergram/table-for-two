@@ -1,0 +1,67 @@
+# Table for Two — LOCAL detection sweep (residential IP => full coverage the
+# throttled cloud cron can't get). Deliberately lightweight: pure HTTP/JSON (no
+# browser), paced, and the Python runs at BELOW-NORMAL priority so it never
+# competes with anything you're doing. Corrects booking windows across all
+# cities, then pushes to GitHub Pages. Runs from the TableForTwoDetect task a
+# couple times a day (and catches up whenever the PC comes back on).
+#
+# --no-state: this task only fixes booking WINDOWS (cities/*.json). The shared
+# release-time series (.detect_state.json) is owned by the cloud cron, so the two
+# never collide over git.
+$ErrorActionPreference = 'Stop'
+$Repo = 'C:\Users\Karen Plankton\Desktop\hardtobook-dashboard'
+$Py   = 'C:\Users\Karen Plankton\anaconda3\python.exe'
+$Git  = 'C:\Program Files\Git\cmd\git.exe'
+$Log  = Join-Path $Repo 'scraper\.detect.log'
+$Lock = Join-Path $Repo 'scraper\.detect.lock'
+
+function Log($m) { "{0}  {1}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $m | Out-File -FilePath $Log -Append -Encoding utf8 }
+
+if (Test-Path $Lock) {
+    $age = (Get-Date) - (Get-Item $Lock).LastWriteTime
+    if ($age.TotalMinutes -lt 20) { Log 'another detect sweep holds the lock; skipping'; exit 0 }
+    Remove-Item $Lock -Force
+}
+New-Item -ItemType File -Path $Lock -Force | Out-Null
+
+try {
+    Set-Location $Repo
+    $env:PYTHONIOENCODING = 'utf-8'   # venue names carry accents; keep the console happy
+
+    # Run at BelowNormal priority so foreground apps always win the CPU.
+    $p = Start-Process -FilePath $Py -ArgumentList 'scraper\enrich_windows.py', '--all', '--no-state' `
+        -WorkingDirectory $Repo -NoNewWindow -PassThru
+    try { $p.PriorityClass = 'BelowNormal' } catch {}
+    $p.WaitForExit()
+    Log ("enrich_windows exit " + $p.ExitCode)
+
+    # Push only the window corrections. SAFE by design:
+    #   * --autostash protects any uncommitted work you have open — it's stashed
+    #     over the rebase and restored, never discarded. No reset --hard, ever.
+    #   * on a conflict we rebase --abort and leave the local commit in place; the
+    #     next sweep's pull replays it cleanly. Corrections are idempotent, so a
+    #     deferred push loses nothing.
+    & $Git add cities/*.json
+    & $Git diff --cached --quiet
+    if ($LASTEXITCODE -ne 0) {
+        & $Git commit --quiet -m 'detect(local): full-coverage booking-window refresh [skip ci]'
+        $pushed = $false
+        for ($i = 0; $i -lt 3 -and -not $pushed; $i++) {
+            & $Git pull --quiet --rebase --autostash origin main 2>&1 | Out-Null
+            if ($LASTEXITCODE -eq 0) {
+                & $Git push --quiet origin main 2>&1 | Out-Null
+                if ($LASTEXITCODE -eq 0) { $pushed = $true; Log 'pushed window corrections' }
+            } else {
+                & $Git rebase --abort 2>&1 | Out-Null
+                Start-Sleep -Seconds 3
+            }
+        }
+        if (-not $pushed) { Log 'could not push cleanly; local commit waits for the next sweep' }
+    } else {
+        Log 'no window changes this sweep'
+    }
+} catch {
+    Log ("ERROR: " + $_.Exception.Message)
+} finally {
+    Remove-Item $Lock -Force -ErrorAction SilentlyContinue
+}

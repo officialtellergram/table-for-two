@@ -120,6 +120,10 @@ def main():
     ap.add_argument("city", nargs="?", help="city key; omit with --all")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--no-state", action="store_true",
+                    help="window corrections only: don't read/write .detect_state.json "
+                         "(so the local task never fights the cloud cron over it). Skips "
+                         "releaseTime/difficulty inference, which need the shared history.")
     args = ap.parse_args()
     if not args.city and not args.all:
         ap.error("give a city key or --all")
@@ -132,7 +136,7 @@ def main():
 
     tzmap, json_keys = load_manifest()
     state = {"venues": {}}
-    if STATE_PATH.exists():
+    if STATE_PATH.exists() and not args.no_state:
         try:
             state = json.loads(STATE_PATH.read_text(encoding="utf-8"))
             state.setdefault("venues", {})
@@ -143,7 +147,7 @@ def main():
     for k in city_keys(json_keys, None if args.all else args.city):
         total += enrich_city(k, tzmap.get(k, "America/New_York"), state, dry=args.dry_run, session=sess)
 
-    if not args.dry_run:
+    if not args.dry_run and not args.no_state:
         state["updated"] = date.today().isoformat()
         STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
     print(f"\n{'would change' if args.dry_run else 'changed'} {total} fields; "
