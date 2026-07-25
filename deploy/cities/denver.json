@@ -1,0 +1,1482 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Denver",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "the-wolfs-tailor",
+      "name": "The Wolf's Tailor",
+      "neighborhood": "Sunnyside",
+      "cuisine": "Hyper-regional wood-fired tasting menu",
+      "coordinates": {
+        "lat": 39.7797,
+        "lng": -105.013
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/wolfstailor",
+      "website": "https://www.thewolfstailor.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "",
+      "releaseDay": "1st",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Colorado's first and only two-MICHELIN-star restaurant (2025), also a Green Star",
+        "Reservations are prepaid and released monthly on the 1st for the entire following month via Tock — book the instant they drop",
+        "Tasting menu only; weekday seatings are the more realistic get",
+        "VERIFY exact release time (Tock drop hour)"
+      ],
+      "signatureDish": "Ever-changing multi-course tasting menu built on house-milled grains and hearth cooking (no a la carte)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "chef-driven",
+        "fire-and-grain"
+      ],
+      "occasion": [
+        "special occasion",
+        "milestone",
+        "serious food lovers"
+      ],
+      "dateNote": "Colorado's only two-star room, and a whole evening's theater of fire and fermentation for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Two Stars + Green Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-from-the-michelin-guide-colorado-2025",
+          "note": "The MICHELIN Guide Colorado 2025 named The Wolf's Tailor the state's first Two-Star restaurant (also a Green Star)"
+        },
+        {
+          "name": "Westword",
+          "tier": "Two Stars 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Westword's 2025 Colorado MICHELIN roundup lists The Wolf's Tailor as Colorado's first two-star and a retained Green Star"
+        }
+      ],
+      "evidence": "Colorado's only 2-MICHELIN-star room; prepaid tasting-only seats released as a monthly calendar drop and gone fast."
+    },
+    {
+      "id": "kizaki",
+      "name": "Kizaki",
+      "neighborhood": "Platt Park (South Pearl St)",
+      "cuisine": "Edomae sushi omakase",
+      "coordinates": {
+        "lat": 39.6875,
+        "lng": -104.9803
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/kizaki-denver",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "",
+      "releaseDay": "15th",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Earned a MICHELIN star in 2025, months after opening; from Sushi Den's Toshi Kizaki",
+        "Only two seatings, four nights a week — roughly 40 guests total per night",
+        "Reservations open on the 15th of the previous month via OpenTable and vanish immediately",
+        "VERIFY release time and exact OpenTable URL/slug"
+      ],
+      "signatureDish": "20+ course Edomae nigiri omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "hushed",
+        "precise",
+        "sushi-counter"
+      ],
+      "occasion": [
+        "special occasion",
+        "sushi pilgrimage",
+        "date night"
+      ],
+      "dateNote": "A quiet counter and 20+ courses of Edomae nigiri — a bucket-list two-top.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-from-the-michelin-guide-colorado-2025",
+          "note": "New One-Star in the MICHELIN Guide Colorado 2025"
+        },
+        {
+          "name": "DiningOut Denver",
+          "tier": "Hottest openings 2025",
+          "url": "https://diningout.com/denver/hottest-new-restaurant-openings-of-2025/",
+          "note": "DiningOut: Edomae-style, chef Toshi Kizaki, 'two seatings four times a week,' Michelin-starred, very difficult reservations"
+        }
+      ],
+      "evidence": "One-star omakase with only ~40 seats a night across two seatings; the 15th-of-the-month OpenTable drop sells out in minutes."
+    },
+    {
+      "id": "sushi-by-scratch-denver",
+      "name": "Sushi by Scratch Restaurants: Denver",
+      "neighborhood": "Larimer Square (Downtown)",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 39.7476,
+        "lng": -104.9992
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/sushi-by-scratch-denver",
+      "website": "https://www.sushibyscratchrestaurants.com/denver",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "1:00 PM MT",
+      "releaseDay": "1st",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "From MICHELIN-starred chef Phillip Frankland Lee & Margarita Kallas-Lee",
+        "Only 10 seats; enter through the street-level NADC Burger and tell staff you're there for Sushi by SR",
+        "Reservations release on the 1st of each month at 1:00 PM for the following month — book on the dot",
+        "Seatings Wed–Sun at 5:00, 7:15 & 9:30 PM"
+      ],
+      "signatureDish": "17-course creative nigiri omakase (from ~$195)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "hidden",
+        "intimate",
+        "theatrical"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night",
+        "omakase splurge"
+      ],
+      "dateNote": "A hidden 10-seat counter behind a burger shop — 17 courses shoulder-to-shoulder for two.",
+      "sources": [
+        {
+          "name": "303 Magazine",
+          "tier": "Feature",
+          "url": "https://303magazine.com/2025/01/redefining-omakase-sushi-by-scratch-comes-to-denver/",
+          "note": "303 Magazine feature on the 10-seat Larimer Square omakase from Michelin-starred chef Phillip Frankland Lee"
+        },
+        {
+          "name": "DiningOut Denver",
+          "tier": "Hottest openings 2025",
+          "url": "https://diningout.com/denver/hottest-new-restaurant-openings-of-2025/",
+          "note": "DiningOut: 10-seat omakase counter, 17-course tasting, hard to book"
+        }
+      ],
+      "evidence": "10-seat counter; a strict 1st-of-month 1 PM ticketed Tock drop for the next month sells out on release."
+    },
+    {
+      "id": "margot",
+      "name": "Margot",
+      "neighborhood": "Platt Park (South Pearl St)",
+      "cuisine": "Contemporary American chef's-counter tasting",
+      "coordinates": {
+        "lat": 39.686,
+        "lng": -104.9803
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/margot-denver",
+      "website": "https://www.margotdenver.com/",
+      "phoneNumber": "(720) 390-8785",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Earned a MICHELIN star just months after its June 2025 opening; chef Justin Fulton",
+        "The tasting experience is an 8-seat counter tucked inside a larger room — those seats go first",
+        "Bar and dining room take walk-ins; call for parties over 4",
+        "VERIFY reservation release schedule and time (counter seats are the scarce ones)"
+      ],
+      "signatureDish": "12-course chef's-counter tasting menu that changes nightly",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny counter",
+        "seasonal",
+        "chef-driven"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night",
+        "chef's counter"
+      ],
+      "dateNote": "Eight seats facing the pass and a 12-course menu that changes nightly — an intimate front-row dinner.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/margot-1241646",
+          "note": "MICHELIN Guide one-star listing for Margot, Denver"
+        },
+        {
+          "name": "5280 Magazine",
+          "tier": "Feature",
+          "url": "https://5280.com/michelin-starred-margot-aims-high-with-multiple-menus-from-tiny-kitchen/",
+          "note": "5280: 'Michelin-Starred Margot Aims High With Multiple Menus From Tiny Kitchen' — 8-seat counter, 12-course tasting"
+        }
+      ],
+      "evidence": "One-star, 8-seat chef's counter with a nightly 12-course menu — the counter seats disappear the moment they post."
+    },
+    {
+      "id": "bruto",
+      "name": "Brutø",
+      "neighborhood": "Dairy Block (Downtown)",
+      "cuisine": "Fermentation-driven hearth tasting menu",
+      "coordinates": {
+        "lat": 39.753,
+        "lng": -104.9958
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/bruto-denver",
+      "website": "https://www.brutodenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One MICHELIN Star (held since 2023) plus a Green Star; from Id Est Hospitality (Kelly & Erika Whitaker, 2024 James Beard Outstanding Restaurateur)",
+        "18-seat counter, chef Byron Gomez; tasting-menu only",
+        "VERIFY reservation release schedule and time on OpenTable"
+      ],
+      "signatureDish": "Multi-course hearth tasting with a dedicated fermentation program and Latin influence",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "18-seat counter",
+        "fire",
+        "fermentation"
+      ],
+      "occasion": [
+        "special occasion",
+        "chef's counter",
+        "food lovers"
+      ],
+      "dateNote": "Eighteen seats around an open hearth — a fermentation-nerd tasting for two who like to watch the fire.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star + Green Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-from-the-michelin-guide-colorado-2025",
+          "note": "Retained One Star and Green Star in the MICHELIN Guide Colorado 2025"
+        },
+        {
+          "name": "Westword",
+          "tier": "One Star 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Westword's 2025 Colorado MICHELIN roundup lists Brutø as a Denver one-star (and Green Star)"
+        }
+      ],
+      "evidence": "One-star, 18-seat hearth counter; tasting-only seats at a tiny counter make prime nights near-impossible."
+    },
+    {
+      "id": "beckon",
+      "name": "Beckon",
+      "neighborhood": "RiNo (River North Art District)",
+      "cuisine": "Modern tasting menu (chef's counter)",
+      "coordinates": {
+        "lat": 39.7597,
+        "lng": -104.9808
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/beckon",
+      "website": "https://www.beckon-denver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "One MICHELIN Star (retained 2025); sibling to Bruto's team, open Wed–Sat",
+        "Just 18 counter seats (plus a 2-seat sommelier's salon); seats vanish the moment reservations open",
+        "Reservations open by season — a new season's dates post on Tock around the first day of the preceding season (roughly a quarterly drop)",
+        "VERIFY exact seasonal release date/time"
+      ],
+      "signatureDish": "Seasonal multi-course tasting at an 18-seat kitchen counter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "counter-only",
+        "seasonal",
+        "polished"
+      ],
+      "occasion": [
+        "special occasion",
+        "chef's counter",
+        "anniversary"
+      ],
+      "dateNote": "Close enough to the kitchen to watch every plate built — a counter dinner that feels private.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-from-the-michelin-guide-colorado-2025",
+          "note": "Retained One Star in the MICHELIN Guide Colorado 2025"
+        },
+        {
+          "name": "Westword",
+          "tier": "One Star 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Westword's 2025 Colorado MICHELIN roundup lists Beckon as a Denver one-star"
+        }
+      ],
+      "evidence": "One-star, 18-seat counter with a quarterly seasonal Tock drop — the whole season books out on release."
+    },
+    {
+      "id": "mezcaleria-alma",
+      "name": "Mezcaleria Alma",
+      "neighborhood": "LoHi (Highland)",
+      "cuisine": "Mexico City-inspired Mexican",
+      "coordinates": {
+        "lat": 39.762,
+        "lng": -105.0083
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mezcaleria-alma-denver",
+      "website": "https://www.mezcaleriaalma.com/",
+      "phoneNumber": "(303) 484-1471",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "One MICHELIN Star (2025) and named to the New York Times' 2025 list of the 50 Best Restaurants in America",
+        "Chef Johnny Curiel (2025 James Beard finalist); next door to his Alma Fonda Fina in LoHi",
+        "Bar/walk-in seats can open up — arrive early",
+        "VERIFY reservation release schedule, time and window on OpenTable"
+      ],
+      "signatureDish": "Tostada de toro (tuna belly) with charred habanero mayo",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "vivacious",
+        "mezcal bar",
+        "buzzy"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion",
+        "celebration"
+      ],
+      "dateNote": "Chef Johnny Curiel's 'vivacious younger sibling' to Alma Fonda Fina — tostadas, aguachile and mezcal for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/mezcaleria-alma",
+          "note": "MICHELIN Guide one-star listing for Mezcaleria Alma, Denver"
+        },
+        {
+          "name": "Westword",
+          "tier": "NYT 50 Best 2025",
+          "url": "https://www.westword.com/food-drink/two-colorado-spots-ranked-as-50-best-restaurants-in-us-25518849/",
+          "note": "Westword: Mezcaleria Alma is one of two Colorado spots on the NYT's 2025 50 Best Restaurants; describes it as the 'vivacious younger sibling' to Michelin-starred Alma Fonda Fina"
+        }
+      ],
+      "evidence": "One-star AND a NYT 50 Best 2025 pick in a small LoHi room — national spotlight on limited seats."
+    },
+    {
+      "id": "alma-fonda-fina",
+      "name": "Alma Fonda Fina",
+      "neighborhood": "LoHi (Highland)",
+      "cuisine": "Modern Mexican fonda",
+      "coordinates": {
+        "lat": 39.7622,
+        "lng": -105.0082
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/alma-fonda-fina-denver",
+      "website": "https://www.almafondafina.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Try the seasonal patio (approx. May–Oct), which is held for walk-ins, or the counter early in the evening."
+      },
+      "tips": [
+        "Chef Johnny Curiel's MICHELIN-starred fonda (2025 James Beard finalist)",
+        "28-seat dining room plus an 8-seat chef's counter; parties capped around 5",
+        "Reservations open on a rolling 60-day window via OpenTable — set a reminder 60 days out",
+        "Seasonal patio takes walk-ins (roughly May 1–Oct 1); VERIFY release time"
+      ],
+      "signatureDish": "House-masa antojitos and tacos; seasonal Mexican small plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "warm",
+        "masa-forward",
+        "neighborhood gem"
+      ],
+      "occasion": [
+        "date night",
+        "celebration",
+        "chef's counter"
+      ],
+      "dateNote": "An 8-seat chef's counter and house-milled masa — a warm, special two-top in LoHi.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-from-the-michelin-guide-colorado-2025",
+          "note": "One Star in the MICHELIN Guide Colorado 2025"
+        },
+        {
+          "name": "Westword",
+          "tier": "One Star 2025 / JB finalist",
+          "url": "https://www.westword.com/food-drink/two-colorado-spots-ranked-as-50-best-restaurants-in-us-25518849/",
+          "note": "Westword identifies Alma Fonda Fina as Johnny Curiel's Michelin-starred restaurant; Curiel a 2025 James Beard finalist"
+        }
+      ],
+      "evidence": "One-star fonda with a tiny counter; the 60-day rolling OpenTable window means prime dates are claimed two months out."
+    },
+    {
+      "id": "sap-sua",
+      "name": "Sắp Sửa",
+      "neighborhood": "City Park / Congress Park (E. Colfax)",
+      "cuisine": "Non-traditional Vietnamese",
+      "coordinates": {
+        "lat": 39.7401,
+        "lng": -104.9585
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/sap-sua---denver-",
+      "website": "https://www.sapsua.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "opens 5:00 PM (closed Tuesdays)",
+        "lineBy": "",
+        "advice": "About half the bar seats are held for walk-ins each night - arrive right at open or early evening and put your name in for the bar."
+      },
+      "tips": [
+        "One of Denver's most-decorated new restaurants: Bon Appétit named it among the most anticipated openings, Esquire put it on its 50 Best New Restaurants, and it was a James Beard Best New Restaurant semifinalist.",
+        "Dining-room reservations release 30 days out on Tock (parties of 1-10) and evaporate fast.",
+        "Closed Tuesdays. About half the bar is kept for walk-ins - your backup plan."
+      ],
+      "signatureDish": "Vietnamese-rooted dishes crossed with other cultures; a rotating menu of deceptively simple, memorable plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "warm",
+        "chef-couple"
+      ],
+      "occasion": [
+        "date-night",
+        "celebration",
+        "in-the-know dinner"
+      ],
+      "dateNote": "Ni and Anna Nguyen's warm, personal Vietnamese cooking - if the dining room's gone, the walk-in bar is a genuinely great seat for two.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "Feature",
+          "url": "https://www.westword.com/food-drink/sap-sua-fifty-best-new-restaurants-america-esquire-18367451/",
+          "note": "Reported Sap Sua onto Esquire's 50 Best New Restaurants and noted its Bon Appétit most-anticipated-openings nod."
+        },
+        {
+          "name": "Westword",
+          "tier": "NYT 50 Best coverage",
+          "url": "https://www.westword.com/food-drink/three-colorado-spots-make-nyt-50-best-us-restaurants-list-22039530/",
+          "note": "Named among The New York Times's 50 best restaurants in the U.S. (2024)."
+        },
+        {
+          "name": "Westword",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.westword.com/food-drink/50-best-restaurants-in-denver-colorado-40816237/",
+          "note": "Included on Westword's 50 Best Restaurants in Denver; James Beard Best New Restaurant semifinalist."
+        }
+      ],
+      "evidence": "Bon Appétit/Esquire/NYT-recognized and a James Beard Best New Restaurant semifinalist; 30-day Tock window sells out immediately, with only half a bar for walk-ins."
+    },
+    {
+      "id": "mezcaleria-alma",
+      "name": "Mezcalería Alma",
+      "neighborhood": "LoHi / Highland",
+      "cuisine": "Mexican (Mexico City-inspired)",
+      "coordinates": {
+        "lat": 39.7615,
+        "lng": -105.0088
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mezcaleria-alma-denver",
+      "website": "https://www.almalohidenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Earned a Michelin star in 2025 - Johnny Curiel's second starred restaurant, right beside Alma Fonda Fina.",
+        "Newer and instantly in demand after the star; open evenings daily except Tuesdays.",
+        "VERIFY reservation release cadence on OpenTable."
+      ],
+      "signatureDish": "Mexico City-inspired plates with a deep mezcal and agave-spirits program",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "moody",
+        "cocktail-forward",
+        "date-worthy"
+      ],
+      "occasion": [
+        "date-night",
+        "cocktails-and-dinner",
+        "celebration"
+      ],
+      "dateNote": "Curiel's second act next door to Alma Fonda Fina - a mezcal-lit room made for a slow, spirits-forward date.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One MICHELIN Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-from-the-michelin-guide-colorado-2025",
+          "note": "New one-star in the 2025 Colorado guide; Mexico City-inspired menu from chef Johnny Curiel."
+        },
+        {
+          "name": "The Colorado Sun",
+          "tier": "Feature",
+          "url": "https://coloradosun.com/2025/09/15/three-denver-restaurants-win-michelin-stars/",
+          "note": "Reported Mezcalería Alma's new star; opened November beside Curiel's Alma Fonda Fina."
+        }
+      ],
+      "evidence": "One Michelin star awarded within its first year (2025); tiny, brand-new, and slammed after the star - a very hard current table."
+    },
+    {
+      "id": "sap-sua",
+      "name": "Sắp Sửa (Sap Sua)",
+      "neighborhood": "City Park West (East Colfax)",
+      "cuisine": "Non-traditional Vietnamese",
+      "coordinates": {
+        "lat": 39.7402,
+        "lng": -104.9585
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/sap-sua---denver-",
+      "website": "https://www.sapsua.com/",
+      "phoneNumber": "(303) 736-2303",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "About half the bar is reserved for walk-ins each evening — arrive near opening for a bar seat."
+      },
+      "tips": [
+        "Named to Bon Appétit's 2024 Best New Restaurants; also featured by the New York Times and James Beard",
+        "Dining-room reservations release 30 days out on Tock; roughly half the bar is held for walk-ins each night",
+        "$20/guest late-cancellation fee",
+        "VERIFY release time; VERIFY Bon Appétit list URL"
+      ],
+      "signatureDish": "Modern Vietnamese sharing plates (rotating; e.g. clay-pot and grilled dishes)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "stylish",
+        "lively",
+        "modern-Vietnamese"
+      ],
+      "occasion": [
+        "date night",
+        "group dinner",
+        "special occasion"
+      ],
+      "dateNote": "One of Denver's most-lauded new tables — modern Vietnamese sharing plates for two on Colfax.",
+      "sources": [
+        {
+          "name": "Bon Appétit",
+          "tier": "Best New Restaurants 2024",
+          "url": "https://www.bonappetit.com/story/best-new-restaurants-2024",
+          "note": "Named to Bon Appétit's 2024 Best New Restaurants (Denver Vietnamese from Ni Nguyen & Anna Nguyen)"
+        }
+      ],
+      "evidence": "A Bon Appétit Best New Restaurant with national press; the 30-day Tock window for a small room fills within hours."
+    },
+    {
+      "id": "restaurant-olivia",
+      "name": "Restaurant Olivia",
+      "neighborhood": "Washington Park West",
+      "cuisine": "Handmade-pasta Italian",
+      "coordinates": {
+        "lat": 39.7038,
+        "lng": -104.9672
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/restaurantolivia",
+      "website": "https://www.oliviadenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Join the nightly Tock waitlist — cancellations do open up in a small room."
+      },
+      "tips": [
+        "MICHELIN Guide-recommended (Colorado 2025); a compact, reservation-driven room",
+        "The dining room books out nightly; add your name to the Tock waitlist",
+        "VERIFY reservation release schedule and time"
+      ],
+      "signatureDish": "Handmade pasta",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "romantic",
+        "pasta-focused"
+      ],
+      "occasion": [
+        "date night",
+        "anniversary",
+        "intimate dinner"
+      ],
+      "dateNote": "A small, warm Wash Park room built around handmade pasta — a classic Denver date.",
+      "sources": [
+        {
+          "name": "5280 Magazine",
+          "tier": "Restaurant profile",
+          "url": "https://5280.com/restaurant/restaurant-olivia/",
+          "note": "5280's restaurant profile of the Wash Park handmade-pasta spot"
+        },
+        {
+          "name": "Westword",
+          "tier": "MICHELIN Recommended 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Listed among Denver's MICHELIN-recommended restaurants in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Tiny, perennially booked Wash Park pasta room; near-nightly sellouts with a Tock waitlist as the fallback."
+    },
+    {
+      "id": "tavernetta",
+      "name": "Tavernetta",
+      "neighborhood": "Union Station (LoDo)",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 39.7519,
+        "lng": -105.0007
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/tavernetta",
+      "website": "https://www.tavernettadenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Patio, lounge and bar seats are kept for walk-ins and the waitlist — try those on busy nights."
+      },
+      "tips": [
+        "MICHELIN Bib Gourmand (2025); from the Frasca/Bonanno team",
+        "Books up fast, especially spring; patio, lounge and bar are held for walk-ins/waitlist",
+        "VERIFY booking platform and URL (Tock assumed) and release time"
+      ],
+      "signatureDish": "House pasta; Northern Italian plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "polished",
+        "romantic",
+        "Union Station"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion",
+        "pre-theater"
+      ],
+      "dateNote": "Frasca-family Italian by Union Station — handsome and romantic, ideal for a dressed-up two-top.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Retained MICHELIN Bib Gourmand in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Bib Gourmand Union Station Italian from the Frasca team; prime weekend and spring slots sell out within hours."
+    },
+    {
+      "id": "hop-alley",
+      "name": "Hop Alley",
+      "neighborhood": "RiNo (River North Art District)",
+      "cuisine": "Modern Chinese",
+      "coordinates": {
+        "lat": 39.7607,
+        "lng": -104.9793
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/hopalley",
+      "website": "https://www.hopalleydenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and early/late seats can open for walk-ins on weeknights."
+      },
+      "tips": [
+        "MICHELIN Bib Gourmand (2025); from chef Tommy Lee (Uncle)",
+        "Small, in-demand RiNo room; prime evenings go quickly",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Dry-fried string beans; dan dan noodles",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "dark and cool",
+        "buzzy",
+        "modern-Chinese"
+      ],
+      "occasion": [
+        "date night",
+        "group dinner",
+        "cocktails and dinner"
+      ],
+      "dateNote": "Moody RiNo room and punchy modern-Chinese plates — a lively, cool date.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Retained MICHELIN Bib Gourmand in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Bib Gourmand, small RiNo dining room with heavy demand; weekend prime times sell out within hours."
+    },
+    {
+      "id": "makfam",
+      "name": "MAKfam",
+      "neighborhood": "South Broadway / Rosedale",
+      "cuisine": "Chinese-American",
+      "coordinates": {
+        "lat": 39.681,
+        "lng": -104.9877
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/denver-co/venues/makfam-baker",
+      "website": "https://www.makfamdenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins seated when space allows — go early or midweek."
+      },
+      "tips": [
+        "MICHELIN Bib Gourmand (2025); family-run, hugely popular",
+        "Small room; weekend reservations disappear fast",
+        "VERIFY exact address/neighborhood, booking platform/URL and release time"
+      ],
+      "signatureDish": "Dim sum and MAK sauce; Chinese-American comfort plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "family-run",
+        "fun",
+        "dim-sum energy"
+      ],
+      "occasion": [
+        "group dinner",
+        "date night",
+        "casual celebration"
+      ],
+      "dateNote": "A warm, family-run Chinese-American room — order too much dim sum and share.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Retained MICHELIN Bib Gourmand in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Bib Gourmand darling in a small room; buzz and limited seating mean weekend tables vanish within hours."
+    },
+    {
+      "id": "barolo-grill",
+      "name": "Barolo Grill",
+      "neighborhood": "Cherry Creek North",
+      "cuisine": "Northern Italian",
+      "coordinates": {
+        "lat": 39.7195,
+        "lng": -104.9536
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/barolo-grill",
+      "website": "https://www.barologrilldenver.com/",
+      "phoneNumber": "(303) 393-1040",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "MICHELIN-recommended (2025); Wine Spectator Grand Award cellar, one of the largest Barolo collections outside Italy",
+        "Closed Sun–Mon; window tables are the hardest to secure",
+        "VERIFY release time and booking window on OpenTable"
+      ],
+      "signatureDish": "Long-braised duck; Piedmontese pasta",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "elegant",
+        "old-guard",
+        "wine-cellar"
+      ],
+      "occasion": [
+        "anniversary",
+        "special occasion",
+        "wine dinner"
+      ],
+      "dateNote": "A Denver institution with a legendary Barolo cellar — dressed-up, romantic, worth the effort.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "MICHELIN Recommended",
+          "url": "https://guide.michelin.com/us/en/colorado/denver_1261491/restaurant/barolo-grill",
+          "note": "MICHELIN Guide listing for Barolo Grill, Denver (Cherry Creek North, Northern Italian)"
+        },
+        {
+          "name": "Westword",
+          "tier": "MICHELIN Recommended 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Listed among Denver's MICHELIN-recommended restaurants in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Long-running fine-dining institution with a compressed Tue–Sat week; prime and window tables book out fast."
+    },
+    {
+      "id": "glo-noodle-house",
+      "name": "Glo Noodle House",
+      "neighborhood": "Sunnyside / Berkeley",
+      "cuisine": "Vietnamese noodles / pho",
+      "coordinates": {
+        "lat": 39.7695,
+        "lng": -105.043
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.glonoodlehouse.com/",
+      "website": "https://www.glonoodlehouse.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Front door; put your name in on arrival",
+        "lineBy": "Arrive at opening or off-peak to beat the wait",
+        "advice": "Mostly walk-in; go early or between rushes to avoid the longest waits."
+      },
+      "tips": [
+        "MICHELIN Bib Gourmand (2025); very small, family-run",
+        "Largely walk-in / first-come; expect a wait at peak times",
+        "VERIFY whether reservations are offered and exact address"
+      ],
+      "signatureDish": "Pho and Vietnamese noodle soups",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny",
+        "family-run",
+        "comforting"
+      ],
+      "occasion": [
+        "casual date",
+        "weeknight dinner",
+        "comfort food"
+      ],
+      "dateNote": "A tiny family pho counter — unpretentious and deeply comforting for two.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Retained MICHELIN Bib Gourmand in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Tiny Bib Gourmand noodle house with minimal seating; peak-hour waits are the norm."
+    },
+    {
+      "id": "la-diabla-pozole-y-mezcal",
+      "name": "La Diabla Pozole y Mezcal",
+      "neighborhood": "Downtown (Ballpark)",
+      "cuisine": "Mexican (pozole & mezcal)",
+      "coordinates": {
+        "lat": 39.7547,
+        "lng": -104.9862
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/la-diabla-pozole-y-mezcal-denver",
+      "website": "https://www.ladiabladenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and walk-in seats can open midweek and early evening."
+      },
+      "tips": [
+        "MICHELIN Bib Gourmand (2025); chef Jose Avila",
+        "Popular downtown room; weekend prime times fill quickly",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Pozole (multiple regional styles); mezcal list",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "colorful",
+        "spirited",
+        "mezcal bar"
+      ],
+      "occasion": [
+        "date night",
+        "group dinner",
+        "mezcal flight"
+      ],
+      "dateNote": "Bowls of soulful pozole and a deep mezcal list — a lively, warming date downtown.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Retained MICHELIN Bib Gourmand in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Bib Gourmand pozole specialist with strong demand; weekend tables sell out within hours."
+    },
+    {
+      "id": "the-counter-at-odells",
+      "name": "The Counter at Odell's",
+      "neighborhood": "West Colfax / Sloan's Lake",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 39.74,
+        "lng": -105.03
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/thecounteratodells",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Omakase counter seating within Odell's bagel shop; very limited availability",
+        "New in 2025; seats are scarce and go quickly",
+        "VERIFY booking platform/URL, address, release schedule and time"
+      ],
+      "signatureDish": "Seated omakase (limited nightly seatings)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "hidden",
+        "tiny counter",
+        "intimate"
+      ],
+      "occasion": [
+        "special occasion",
+        "omakase",
+        "date night"
+      ],
+      "dateNote": "An unexpected omakase counter tucked inside a bagel shop — a sly, intimate splurge for two.",
+      "sources": [
+        {
+          "name": "DiningOut Denver",
+          "tier": "Hottest openings 2025",
+          "url": "https://diningout.com/denver/hottest-new-restaurant-openings-of-2025/",
+          "note": "DiningOut: omakase counter inside Odell's on Irving St. with limited availability"
+        }
+      ],
+      "evidence": "A tiny hidden omakase counter with only a handful of nightly seats; availability is scarce and fleeting."
+    },
+    {
+      "id": "temaki-den",
+      "name": "Temaki Den",
+      "neighborhood": "Sunnyside / LoHi",
+      "cuisine": "Japanese hand rolls (temaki)",
+      "coordinates": {
+        "lat": 39.762,
+        "lng": -105.008
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/temakiden",
+      "website": "https://www.temakiden.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "MICHELIN-recommended (2025); counter-driven hand-roll bar",
+        "Limited counter seating; prime times book quickly",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Temaki (hand-roll) sets at the counter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "counter-focused",
+        "fresh",
+        "casual-cool"
+      ],
+      "occasion": [
+        "date night",
+        "sushi counter",
+        "quick splurge"
+      ],
+      "dateNote": "Warm rice, crisp nori, one roll at a time — a fresh, counter-side date.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "MICHELIN Recommended 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Listed among Denver's MICHELIN-recommended restaurants in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Counter-only hand-roll bar with limited seats; prime seatings sell out fast."
+    },
+    {
+      "id": "safta",
+      "name": "Safta",
+      "neighborhood": "RiNo (The Source Hotel)",
+      "cuisine": "Israeli / Middle Eastern",
+      "coordinates": {
+        "lat": 39.769,
+        "lng": -104.9773
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/safta-denver",
+      "website": "https://www.eatwithsafta.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seating and patio can take walk-ins on weeknights."
+      },
+      "tips": [
+        "MICHELIN-recommended (2025); from James Beard Award-winning chef Alon Shaya",
+        "Popular RiNo destination; weekend prime times book out",
+        "VERIFY booking platform/URL and release time"
+      ],
+      "signatureDish": "Hummus and wood-fired laffa",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "vibrant",
+        "hospitable",
+        "wood-fired"
+      ],
+      "occasion": [
+        "date night",
+        "group feast",
+        "celebration"
+      ],
+      "dateNote": "Chef Alon Shaya's warm, spice-driven Israeli cooking — laffa straight from the wood oven for two.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "MICHELIN Recommended 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Listed among Denver's MICHELIN-recommended restaurants in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "Marquee James Beard-pedigree Israeli restaurant; weekend prime tables sell out within hours."
+    },
+    {
+      "id": "alteno",
+      "name": "Alteño",
+      "neighborhood": "Cherry Creek",
+      "cuisine": "Jaliscan Mexican",
+      "coordinates": {
+        "lat": 39.7185,
+        "lng": -104.953
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/alteno-denver",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar/walk-in seats when available; try early or midweek."
+      },
+      "tips": [
+        "From Michelin-starred chef Johnny Curiel (Alma Fonda Fina, Mezcaleria Alma); his newest concept",
+        "New and in high demand; weekend tables go quickly",
+        "VERIFY booking platform/URL, address and release time"
+      ],
+      "signatureDish": "Refined Jaliscan Mexican plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "refined",
+        "new-and-buzzy",
+        "spirited"
+      ],
+      "occasion": [
+        "date night",
+        "celebration",
+        "special occasion"
+      ],
+      "dateNote": "Johnny Curiel's Cherry Creek Jaliscan concept — the buzziest new table from Denver's most-decorated Mexican chef.",
+      "sources": [
+        {
+          "name": "DiningOut Denver",
+          "tier": "Hottest openings 2025",
+          "url": "https://diningout.com/denver/hottest-new-restaurant-openings-of-2025/",
+          "note": "DiningOut: chef Johnny Curiel's fourth concept, refined Jaliscan Mexican in Cherry Creek"
+        }
+      ],
+      "evidence": "Newest concept from the city's most-lauded Mexican chef (Johnny Curiel); opening-season demand fills prime nights fast."
+    },
+    {
+      "id": "dio-mio",
+      "name": "Dio Mio",
+      "neighborhood": "RiNo (River North Art District)",
+      "cuisine": "Handmade pasta (fast-fine, walk-in)",
+      "coordinates": {
+        "lat": 39.7623,
+        "lng": -104.9818
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.diomiopasta.com/",
+      "website": "https://www.diomiopasta.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Order at the counter on arrival",
+        "lineBy": "Arrive before the 6–7 PM rush or right at opening",
+        "advice": "No reservations — walk-in only; go early before the line builds and the day's best pastas sell out."
+      },
+      "tips": [
+        "MICHELIN-recommended (2025); counter-service, no reservations",
+        "Lines form at peak; portions and pastas change daily and sell out",
+        "Go early — popular pastas run out"
+      ],
+      "signatureDish": "Daily-changing handmade pasta (e.g. cacio e pepe, ragu)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "counter-service",
+        "cult-pasta",
+        "casual"
+      ],
+      "occasion": [
+        "casual date",
+        "walk-in dinner",
+        "pasta fix"
+      ],
+      "dateNote": "Order at the counter, snag a seat, and split the day's pasta — low-key and beloved.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "MICHELIN Recommended 2025",
+          "url": "https://www.westword.com/food-drink/michelin-announces-2025-colorado-restaurant-guide-additions-40782524/",
+          "note": "Listed among Denver's MICHELIN-recommended restaurants in Westword's 2025 Colorado roundup"
+        }
+      ],
+      "evidence": "No-reservations cult pasta counter; peak-hour lines and daily sellouts make a seat genuinely hard to get."
+    },
+    {
+      "id": "yuan-wonton",
+      "name": "Yuan Wonton",
+      "neighborhood": "North Park Hill",
+      "cuisine": "Cantonese-American dumplings",
+      "coordinates": {
+        "lat": 39.7578,
+        "lng": -104.9281
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/yuan-wonton-denver",
+      "website": "https://yuanwonton.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Happy Hour (Thu-Fri afternoons) is walk-in only, no reservations - a way in without the booking scramble."
+      },
+      "tips": [
+        "Food truck turned brick-and-mortar; named to The New York Times's 50 Best Restaurants in the U.S. (2024) and a James Beard finalist.",
+        "Tiny room with limited seatings - reservations go fast.",
+        "Note the hours skew to lunch (roughly Tue-Fri 11am-3pm); Happy Hour Thu-Fri is walk-in only.",
+        "VERIFY current dinner service and whether Tock or OpenTable is live before you go."
+      ],
+      "signatureDish": "Hand-made wontons and dumplings; the jok (Chinese congee) is the NYT-anointed hero dish",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny",
+        "personal",
+        "cult-favorite"
+      ],
+      "occasion": [
+        "casual date",
+        "foodie lunch",
+        "in-the-know"
+      ],
+      "dateNote": "Penelope Wong's food-truck-turned-storefront - a small, personal room where a $16 dish landed on national best-of lists.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "NYT 50 Best coverage",
+          "url": "https://www.westword.com/food-drink/three-colorado-spots-make-nyt-50-best-us-restaurants-list-22039530/",
+          "note": "Named to The New York Times's list of the 50 best restaurants in the U.S. (2024); chef-owner Penelope Wong, a James Beard finalist."
+        }
+      ],
+      "evidence": "NYT 50 Best (2024) and James Beard finalist; a tiny former food truck with limited seatings that sell out - reservations are a scramble."
+    },
+    {
+      "id": "rioja",
+      "name": "Rioja",
+      "neighborhood": "Larimer Square (LoDo)",
+      "cuisine": "Mediterranean / contemporary American",
+      "coordinates": {
+        "lat": 39.7481,
+        "lng": -104.9997
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.riojadenver.com/",
+      "website": "https://www.riojadenver.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seating is typically available for walk-ins."
+      },
+      "tips": [
+        "Flagship of James Beard Award-winning chef Jennifer Jasinski (Best Chef: Southwest).",
+        "A Larimer Square institution; weekend prime times book out - reserve ahead.",
+        "VERIFY current reservation platform (in-house site vs. OpenTable/Resy) and window."
+      ],
+      "signatureDish": "House-made pastas and Mediterranean-inflected plates from Jennifer Jasinski's flagship",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "elegant",
+        "refined",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "date-night",
+        "celebration"
+      ],
+      "dateNote": "Jasinski's graceful Larimer Square flagship - a longtime special-occasion standard that still feels like an event.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.westword.com/food-drink/50-best-restaurants-in-denver-colorado-40816237/",
+          "note": "On Westword's 50 Best Restaurants in Denver: 'few Denver restaurants have aged as gracefully or remained as influential' - Jennifer Jasinski's LoDo flagship."
+        }
+      ],
+      "evidence": "James Beard-winning chef's flagship and a Westword 50 Best pick; a long-running special-occasion room that fills its prime times."
+    },
+    {
+      "id": "annette",
+      "name": "Annette",
+      "neighborhood": "Aurora (Stanley Marketplace)",
+      "cuisine": "Wood-fired American",
+      "coordinates": {
+        "lat": 39.7593,
+        "lng": -104.8956
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/annette-aurora",
+      "website": "https://www.annettescratchtotable.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and counter seats can open up for walk-ins on weeknights."
+      },
+      "tips": [
+        "Chef-owner Caroline Glover won the James Beard Award for Best Chef: Mountain (2022) - the first Aurora chef to take the title.",
+        "Small, wood-fired room; weekend seatings book out - reserve ahead on OpenTable.",
+        "VERIFY the booking window on OpenTable."
+      ],
+      "signatureDish": "Rotating wood-fired, scratch-made American menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "homey",
+        "warm",
+        "neighborhood-gem"
+      ],
+      "occasion": [
+        "date-night",
+        "celebration",
+        "weekend dinner"
+      ],
+      "dateNote": "Caroline Glover's homey, wood-fired cooking - an unpretentious, warm date worth the trip to Stanley Marketplace.",
+      "sources": [
+        {
+          "name": "Westword",
+          "tier": "50 Best Restaurants",
+          "url": "https://www.westword.com/food-drink/50-best-restaurants-in-denver-colorado-40816237/",
+          "note": "On Westword's 50 Best Restaurants in Denver: 'wood-fired cooking, homey vibes and a rotating menu'; chef Caroline Glover is a James Beard Best Chef: Mountain winner."
+        }
+      ],
+      "evidence": "James Beard Best Chef: Mountain winner in a small wood-fired room; weekend tables book out well ahead - a hard suburban ticket."
+    }
+  ]
+}

@@ -1,0 +1,2812 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Miami",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "reginas-farm",
+      "name": "Regina's Farm",
+      "neighborhood": "Fort Lauderdale (Middle Street)",
+      "cuisine": "Brazilian (Minas Gerais)",
+      "coordinates": {
+        "lat": 26.1005,
+        "lng": -80.167
+      },
+      "difficulty": 5,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.reginasfarm.com/",
+      "website": "https://www.reginasfarm.com/",
+      "phoneNumber": "954-465-1900",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Text waitlist, no fixed window",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations only by texting 954-465-1900; regulars get priority",
+        "Saturdays by reservation only; closed in summer, reopens in October",
+        "It's in Fort Lauderdale (~30 min north of downtown Miami), not the city core",
+        "Communal, donation-style dinner with a community mission; no refunds for weather",
+        "VERIFY current wait length and whether new names are being added"
+      ],
+      "signatureDish": "Three-course Minas-Gerais feast (soup, main, pao de queijo and flan) at communal backyard tables",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "backyard feast",
+        "communal tables",
+        "cult favorite",
+        "candlelit"
+      ],
+      "occasion": [
+        "special occasion",
+        "adventurous date",
+        "bucket list"
+      ],
+      "dateNote": "The most romantic long shot in South Florida: a candlelit backyard supper you may wait years to share.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
+          "note": "Listed as the city's hardest table with a 2-5 year wait; reservations only by texting 954-465-1900, regulars fast-tracked"
+        }
+      ],
+      "evidence": "Text-only waitlist reportedly runs 2-5 years; Saturdays-only Brazilian backyard feast with communal seating, regulars fast-tracked (The Infatuation)."
+    },
+    {
+      "id": "hiden",
+      "name": "Hiden",
+      "neighborhood": "Wynwood",
+      "cuisine": "Japanese Omakase",
+      "coordinates": {
+        "lat": 25.8007,
+        "lng": -80.1995
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/hiden/",
+      "website": "https://www.exploretock.com/hiden/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "7:00 PM ET",
+      "releaseDay": "Last day of the month",
+      "bookingWindow": "Full month of seats dropped at once",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Prepaid seats drop monthly on Tock, ~7:00 PM ET on the last day of the month for the following month",
+        "Only 8 seats; true speakeasy behind a taco stand - you get a password/location after booking",
+        "Weeknights are marginally easier than weekends; watch Tock for cancellations",
+        "VERIFY exact monthly drop time before setting your alarm"
+      ],
+      "signatureDish": "Chef's-choice Edomae omakase at the hidden counter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "speakeasy",
+        "hidden counter",
+        "intimate",
+        "special"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone",
+        "date night"
+      ],
+      "dateNote": "You need a password to find the door behind the taco stand - built-in intrigue for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Hiden (Wynwood) listed among Miami's one-Michelin-star restaurants in the 2026 Florida guide"
+        },
+        {
+          "name": "Michelin",
+          "tier": "One Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Hiden holds one Michelin star in the Florida selection; 8-seat omakase concealed behind a taco stand"
+        }
+      ],
+      "evidence": "One-MICHELIN-star, 8-seat omakase hidden behind a Wynwood taco stand; a full month of prepaid Tock seats drops at once and disappears fast."
+    },
+    {
+      "id": "latelier-de-joel-robuchon-miami",
+      "name": "L'Atelier de Joël Robuchon Miami",
+      "neighborhood": "Design District",
+      "cuisine": "Modern French",
+      "coordinates": {
+        "lat": 25.8135,
+        "lng": -80.1935
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.latelier-miami.com/",
+      "website": "https://www.latelier-miami.com/",
+      "phoneNumber": "(305) 402-9070",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Books via the venue's site (OpenTable / Resy / SevenRooms) - reserve the counter well in advance",
+        "151 NE 41st St, Suite 235 (same building as Le Jardinier); dinner nightly plus Saturday lunch",
+        "VERIFY exact reservation platform link and any release window"
+      ],
+      "signatureDish": "Le Caviar and the tasting menu at the 34-seat counter facing the open kitchen",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "fine dining",
+        "counter seating",
+        "theatrical",
+        "luxe"
+      ],
+      "occasion": [
+        "milestone",
+        "anniversary",
+        "splurge"
+      ],
+      "dateNote": "Two stars, one glowing counter, an open kitchen putting on a show for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "L'Atelier de Joël Robuchon (Design District) listed as Miami's sole two-Michelin-star restaurant in the 2026 Florida guide"
+        },
+        {
+          "name": "Michelin",
+          "tier": "Two Stars",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Retains two Michelin stars in the Florida guide - the only two-star in South Florida"
+        }
+      ],
+      "evidence": "South Florida's only two-MICHELIN-star restaurant; the 34-seat counter facing the open kitchen books out weeks ahead."
+    },
+    {
+      "id": "ogawa-miami",
+      "name": "Ogawa",
+      "neighborhood": "Little River",
+      "cuisine": "Japanese Omakase",
+      "coordinates": {
+        "lat": 25.847,
+        "lng": -80.193
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/ogawa-miami/",
+      "website": "https://www.exploretock.com/ogawa-miami/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Prepaid via Tock; only 11 seats at the counter",
+        "Contact the restaurant ~72 hours ahead to confirm dietary needs",
+        "VERIFY release cadence and time - Tock seats appear to be limited and rolling"
+      ],
+      "signatureDish": "~19-course kaiseki-style omakase with fish flown from Japan (~$350pp)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "omakase counter",
+        "intimate",
+        "hushed",
+        "refined"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone",
+        "date night"
+      ],
+      "dateNote": "Eleven seats, one chef, and a two-hour ballet of fish flown from Toyosu - shoulder to shoulder for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Ogawa (Little River) listed among Miami's one-Michelin-star restaurants in the 2026 Florida guide"
+        },
+        {
+          "name": "Michelin",
+          "tier": "One Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Ogawa holds one Michelin star in the Florida selection; 11-seat omakase counter"
+        }
+      ],
+      "evidence": "One-MICHELIN-star, 11-seat Little River omakase (~$350pp); prepaid Tock seats for the tiny counter go fast."
+    },
+    {
+      "id": "shingo",
+      "name": "Shingo",
+      "neighborhood": "Coral Gables",
+      "cuisine": "Japanese Omakase",
+      "coordinates": {
+        "lat": 25.749,
+        "lng": -80.261
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/shingo/reservations/create/search",
+      "website": "https://www.shingomiami.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Month of seats released together",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 14 seats; the chef 'encourages timeliness' - don't be late",
+        "112 Alhambra Circle in the historic La Palma Building",
+        "VERIFY exact monthly release day/time - seats appear to drop for a full period at once"
+      ],
+      "signatureDish": "Edomae omakase by chef Shingo Akikuni at the 14-seat counter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "omakase counter",
+        "historic building",
+        "intimate",
+        "precise"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone",
+        "date night"
+      ],
+      "dateNote": "A 14-seat counter in the historic La Palma building - quiet, exacting, and close.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Shingo listed among Greater Miami's one-Michelin-star restaurants; 14-seat omakase counter by chef Shingo Akikuni"
+        }
+      ],
+      "evidence": "One-MICHELIN-star, 14-seat Coral Gables sushi counter; a block of seats released at once on SevenRooms sells out quickly."
+    },
+    {
+      "id": "the-den-at-azabu",
+      "name": "The Den at Azabu Miami Beach",
+      "neighborhood": "Miami Beach (South Beach)",
+      "cuisine": "Japanese Omakase",
+      "coordinates": {
+        "lat": 25.777,
+        "lng": -80.13
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.azabumiami.com/the-den",
+      "website": "https://www.azabumiami.com/the-den",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Prepaid booking with a strict 24-hour cancellation policy",
+        "Hidden counter inside Azabu at the Stanton Hotel (Ocean Drive); all guests eat the full omakase",
+        "VERIFY current Michelin star status (held stars in earlier Florida guides) and exact booking mechanics"
+      ],
+      "signatureDish": "Edomae omakase with Toyosu-market fish at the hidden 18-seat counter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "speakeasy",
+        "hidden counter",
+        "intimate",
+        "old-school edomae"
+      ],
+      "occasion": [
+        "anniversary",
+        "date night",
+        "special"
+      ],
+      "dateNote": "A secret sushi room tucked inside a hotel - find the door, settle in for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Michelin Guide (Miami Beach)",
+          "url": "https://guide.michelin.com/us/en/florida/miami-beach/restaurant/the-den-at-sushi-azabu-miami",
+          "note": "Listed in the Michelin Guide as an intimate hidden omakase counter inside Azabu Miami Beach, edomae-style with fish flown from Tokyo"
+        }
+      ],
+      "evidence": "Hidden 18-seat omakase inside Azabu at the Stanton Hotel; prepaid seats at the speakeasy counter are scarce (MICHELIN Guide)."
+    },
+    {
+      "id": "cote-miami",
+      "name": "COTE Miami",
+      "neighborhood": "Design District",
+      "cuisine": "Korean Steakhouse",
+      "coordinates": {
+        "lat": 25.8125,
+        "lng": -80.1935
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/cote-mia",
+      "website": "https://www.cotekoreansteakhouse.com/",
+      "phoneNumber": "(305) 434-4668",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daily 5:00-7:00 PM happy hour at the standing bar",
+        "lineBy": "Arrive at 5:00 PM for the happy-hour bar",
+        "advice": "The 5-7 PM 'Butcher's Feast'-adjacent happy hour at the standing bar is first-come; weekday lunch is the easiest table."
+      },
+      "tips": [
+        "Resy opens ~10:00 AM ET, 30 days out; Thu-Sat 7-10 PM are the toughest slots",
+        "Weekday lunch and the standing bar offer limited last-minute access",
+        "VERIFY exact Resy venue slug"
+      ],
+      "signatureDish": "The Butcher's Feast (steakhouse-meets-Korean-BBQ tasting) with dry-aged cuts",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "sceney",
+        "steakhouse",
+        "buzzy",
+        "date-magnet"
+      ],
+      "occasion": [
+        "date night",
+        "celebration",
+        "group dinner"
+      ],
+      "dateNote": "Cook dry-aged beef over the coals together - the flagship Miami date table.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
+          "note": "Called very hard; book a month ahead on Resy, daily 5-7 PM happy hour at the standing bar is first-come, lunch tables easier"
+        },
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "COTE Miami (Design District, Korean) listed among Miami's one-Michelin-star restaurants in the 2026 Florida guide"
+        }
+      ],
+      "evidence": "One-MICHELIN-star Korean steakhouse called 'one of the hardest tables in town'; the 30-day Resy window fills the day it opens."
+    },
+    {
+      "id": "boia-de",
+      "name": "Boia De",
+      "neighborhood": "Buena Vista",
+      "cuisine": "Italian-leaning Contemporary",
+      "coordinates": {
+        "lat": 25.8235,
+        "lng": -80.193
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/boia-de",
+      "website": "https://www.boiaderestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "At opening, around 5:30 PM",
+        "lineBy": "Line up just before the ~5:30 PM opening",
+        "advice": "A few tables at the wine bar are held for walk-ins; people line up before opening, so arrive right at 5:30 PM (likely counter/outdoor seating)."
+      },
+      "tips": [
+        "Resy opens at 12:00 PM ET, exactly 30 days before; use desktop to click faster",
+        "In the Bravo Supermarket plaza - look for the neon pink exclamation point by the laundromat",
+        "Walk-in tables held at the wine bar; arrive by ~5:30 PM opening"
+      ],
+      "signatureDish": "Ever-changing pastas and crudo from a tiny open kitchen",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny room",
+        "strip-mall gem",
+        "wine-forward",
+        "cult favorite"
+      ],
+      "occasion": [
+        "date night",
+        "foodie pilgrimage"
+      ],
+      "dateNote": "A neon exclamation point, a strip-mall door, and one of Miami's best little rooms for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
+          "note": "Reservations go live on Resy at noon 30 days out and disappear same-day; a few walk-in spots at the wine bar around 5:30 PM"
+        },
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Boia De (Buena Vista) listed among Miami's one-Michelin-star restaurants in the 2026 Florida guide"
+        }
+      ],
+      "evidence": "One-MICHELIN-star in a tiny strip-mall room; Resy opens at noon exactly 30 days out and reservations often vanish the same day."
+    },
+    {
+      "id": "carbone-miami",
+      "name": "Carbone Miami",
+      "neighborhood": "South Beach",
+      "cuisine": "Italian-American",
+      "coordinates": {
+        "lat": 25.775,
+        "lng": -80.134
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/carbone-miami",
+      "website": "https://www.carbonemiami.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins are generally turned away; a weekday early seat at the bar is your only long shot."
+      },
+      "tips": [
+        "Resy opens ~10:00 AM ET, 30 days out; weekend prime time is largely reserved for VIPs",
+        "Book only through the site or authorized platforms - they won't honor third-party 'sold' reservations",
+        "49 Collins Ave, Miami Beach; dinner only",
+        "VERIFY exact Resy venue slug"
+      ],
+      "signatureDish": "Spicy Rigatoni Vodka and tableside Caesar",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "sceney",
+        "see-and-be-seen",
+        "tuxedoed captains",
+        "celebrity"
+      ],
+      "occasion": [
+        "celebration",
+        "date night",
+        "splurge"
+      ],
+      "dateNote": "Red sauce, red booths, and a room full of theater - dress up and lean in.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
+          "note": "Reservations open at 10am on Resy 30 days out; weekend bookings are difficult and walk-ins generally turned away"
+        }
+      ],
+      "evidence": "Major Food Group's South Beach scene; Resy opens at 10am 30 days out and fills within minutes, with prime weekend slots held for VIPs."
+    },
+    {
+      "id": "mutra",
+      "name": "Mutra",
+      "neighborhood": "North Miami",
+      "cuisine": "Farm-to-Table",
+      "coordinates": {
+        "lat": 25.888,
+        "lng": -80.161
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/mutra",
+      "website": "https://www.mutramiami.com/",
+      "phoneNumber": "786-860-1213",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "New Michelin star for 2026 - demand is climbing; book on Resy as early as you can",
+        "2188 NE 123rd St, North Miami; kosher-certified sourcing noted on their site",
+        "VERIFY seat count and any timed reservation release"
+      ],
+      "signatureDish": "'Ancient recipes meet modern imagination' seasonal farm-to-table menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "farm-driven",
+        "new-guard",
+        "under-the-radar"
+      ],
+      "occasion": [
+        "date night",
+        "foodie milestone"
+      ],
+      "dateNote": "A brand-new star in a quiet North Miami room - get there before everyone else does.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Mutra (North Miami, farm-to-table) named a NEW one-Michelin-star for 2026"
+        }
+      ],
+      "evidence": "New 2026 one-MICHELIN-star; intimate North Miami farm-to-table with limited Resy seats and fresh buzz."
+    },
+    {
+      "id": "daniels-miami",
+      "name": "Daniel's Miami",
+      "neighborhood": "Coral Gables",
+      "cuisine": "French",
+      "coordinates": {
+        "lat": 25.7485,
+        "lng": -80.259
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/daniels-miami",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "~4 months",
+      "bookingWindowDays": 120,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The Resy guide says it typically books about four months in advance",
+        "No tables held for walk-ins; walk-in chances 'low'",
+        "VERIFY platform/slug, release time, exact address, and signature dish"
+      ],
+      "signatureDish": "Modern French tasting and a la carte",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "luxe",
+        "special-occasion",
+        "polished"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A grand French room in the Gables that needs four months' notice — the dress-up-and-splurge kind of date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://blog.resy.com/2025/09/how-to-get-into-toughest-reservations-miami/",
+          "note": "Coral Gables; books ~4 months in advance, no walk-in tables held, 'chances are low'"
+        }
+      ],
+      "evidence": "The Resy toughest-tables guide says Daniel's books roughly four months out with 'low' walk-in chances — a Coral Gables special-occasion fortress."
+    },
+    {
+      "id": "los-felix",
+      "name": "Los Félix",
+      "neighborhood": "Coconut Grove",
+      "cuisine": "Modern Mexican",
+      "coordinates": {
+        "lat": 25.728,
+        "lng": -80.243
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/los-felix-miami",
+      "website": "https://www.losfelixmiami.com/reservations",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Books on OpenTable; plan ahead for weekend dinners",
+        "3413 Main Hwy, Coconut Grove; sister project to a natural-wine bar next door",
+        "VERIFY how far in advance the booking window opens"
+      ],
+      "signatureDish": "Heirloom-corn tortillas ground daily in the in-house molino; masa-forward plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "masa-driven",
+        "open kitchen",
+        "warm",
+        "design-forward"
+      ],
+      "occasion": [
+        "date night",
+        "foodie dinner"
+      ],
+      "dateNote": "Watch corn become tortillas at the counter - earthy, glowing, and easy to linger over.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star + Green Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Los Félix holds one Michelin star and a Michelin Green Star (Coconut Grove, modern Mexican) in the Florida guide"
+        },
+        {
+          "name": "Resy",
+          "tier": "Miami Hit List (editorial)",
+          "url": "https://blog.resy.com/2024/01/miami-restaurants-mar-24/",
+          "note": "Featured on Resy's Miami Hit List for its masa-forward cooking and open kitchen"
+        }
+      ],
+      "evidence": "One-MICHELIN-star plus a Green Star in Coconut Grove; the masa-forward room books out well ahead."
+    },
+    {
+      "id": "stubborn-seed",
+      "name": "Stubborn Seed",
+      "neighborhood": "Miami Beach (South of Fifth)",
+      "cuisine": "Contemporary American",
+      "coordinates": {
+        "lat": 25.769,
+        "lng": -80.1345
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/stubbornseed",
+      "website": "https://stubbornseed.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Prepaid tasting-menu seats on Tock; book ahead for weekends",
+        "101 Washington Ave, Miami Beach; also holds a Michelin Green Star",
+        "VERIFY how far in advance Tock seats are released"
+      ],
+      "signatureDish": "Seasonal tasting menu by Top Chef winner Jeremy Ford",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tasting menu",
+        "polished",
+        "chef-driven",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone",
+        "date night"
+      ],
+      "dateNote": "Jeremy Ford's precise, produce-driven tasting - a quietly special night in South of Fifth.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Stubborn Seed (Miami Beach, contemporary American) listed among Miami's one-Michelin-star restaurants in the 2026 Florida guide"
+        },
+        {
+          "name": "Michelin",
+          "tier": "One Star + Green Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Stubborn Seed holds one Michelin star and a Green Star; chef Jeremy Ford"
+        }
+      ],
+      "evidence": "Jeremy Ford's one-MICHELIN-star tasting-menu room in South of Fifth; limited Tock seats sell ahead."
+    },
+    {
+      "id": "le-jardinier-miami",
+      "name": "Le Jardinier Miami",
+      "neighborhood": "Design District",
+      "cuisine": "Modern French",
+      "coordinates": {
+        "lat": 25.8138,
+        "lng": -80.1932
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/lejardiniermiamimrktingcrm/reservations/create/search",
+      "website": "https://www.lejardinier-miami.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Books via SevenRooms; 151 NE 41st St, Suite 135",
+        "Lunch and early seatings are easier than weekend dinner",
+        "VERIFY reservation release window"
+      ],
+      "signatureDish": "Seasonal, vegetable-forward French cooking in a light-filled garden room",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "serene",
+        "garden oasis",
+        "refined",
+        "daylight"
+      ],
+      "occasion": [
+        "date night",
+        "anniversary",
+        "lunch date"
+      ],
+      "dateNote": "A serene, plant-filled French room in the Design District - graceful and unhurried for two.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Le Jardinier Miami (Design District, French) listed among Miami's one-Michelin-star restaurants in the 2026 Florida guide"
+        },
+        {
+          "name": "Michelin",
+          "tier": "One Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Le Jardinier holds one Michelin star in the Florida guide"
+        }
+      ],
+      "evidence": "One-MICHELIN-star French in the Design District; SevenRooms tables go fast for prime dinner slots."
+    },
+    {
+      "id": "the-surf-club-restaurant",
+      "name": "The Surf Club Restaurant",
+      "neighborhood": "Surfside",
+      "cuisine": "American / Continental",
+      "coordinates": {
+        "lat": 25.879,
+        "lng": -80.1215
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.thesurfclubrestaurant.com/",
+      "website": "https://www.thesurfclubrestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve well in advance for weekend dinners; jackets suit the room",
+        "9011 Collins Ave, Surfside (Four Seasons at The Surf Club)",
+        "VERIFY exact reservation platform link and window"
+      ],
+      "signatureDish": "Tableside classics (Dover sole, gueridon service) by Thomas Keller",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "glamorous",
+        "old-Hollywood",
+        "tableside service",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone",
+        "splurge"
+      ],
+      "dateNote": "Thomas Keller's glamorous throwback dining room inside a historic beach club - pure occasion.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "The Surf Club Restaurant (Surfside, American) listed among Miami's one-Michelin-star restaurants in the 2026 Florida guide"
+        },
+        {
+          "name": "Michelin",
+          "tier": "One Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Thomas Keller's The Surf Club Restaurant holds one Michelin star in the Florida guide"
+        }
+      ],
+      "evidence": "Thomas Keller's one-MICHELIN-star at the historic Surf Club in Surfside; a special-occasion table that books weeks out."
+    },
+    {
+      "id": "el-cielo-miami",
+      "name": "El Cielo Miami",
+      "neighborhood": "Brickell",
+      "cuisine": "Modern Colombian (tasting menu)",
+      "coordinates": {
+        "lat": 25.768,
+        "lng": -80.192
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/booking/experiences-availability?rid=161446&restref=161446&experienceId=195037",
+      "website": "https://elcielo.com.co/miami/",
+      "phoneNumber": "+1 786-694-9525",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Booked as a timed tasting-menu experience on OpenTable",
+        "31 SE 5th St, Brickell; chef Juan Manuel Barrientos",
+        "VERIFY current booking-window length"
+      ],
+      "signatureDish": "Multi-course sensory tasting including the signature 'Chocotherapy' course",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "theatrical tasting",
+        "sensory",
+        "playful",
+        "immersive"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone",
+        "date night"
+      ],
+      "dateNote": "An interactive, playful tasting journey by Juan Manuel Barrientos - hands-on and memorable for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "El Cielo (Brickell, Colombian tasting menu) holds one Michelin star in the Florida guide; retained in the 2026 selection"
+        }
+      ],
+      "evidence": "One-MICHELIN-star Colombian tasting experience in Brickell; limited nightly seatings booked as timed experiences."
+    },
+    {
+      "id": "tambourine-room",
+      "name": "Tambourine Room by Tristan Brandt",
+      "neighborhood": "North Beach (Carillon)",
+      "cuisine": "Contemporary European",
+      "coordinates": {
+        "lat": 25.847,
+        "lng": -80.121
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/tambourine-room-by-tristan-brandt-reservations-miami-beach",
+      "website": "https://www.tambourineroom.com/",
+      "phoneNumber": "+1 866-800-3858",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only ~12 seats; books on OpenTable, reserve ahead",
+        "6801 Collins Ave (Carillon Miami Wellness Resort), North Beach",
+        "VERIFY 2026 Michelin star retention and booking window"
+      ],
+      "signatureDish": "Tristan Brandt's contemporary European tasting menu in a 12-seat room",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny dining room",
+        "intimate",
+        "design-forward",
+        "hushed"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone",
+        "date night"
+      ],
+      "dateNote": "Just twelve seats inside a wellness resort - intimate, precise, and quietly luxe.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "Tambourine Room by Tristan Brandt (North Beach) awarded a Michelin star in the Florida guide; 12-seat dining room"
+        }
+      ],
+      "evidence": "Tristan Brandt's 12-seat fine-dining room at the Carillon; a tiny MICHELIN-starred counter with scarce seats."
+    },
+    {
+      "id": "casadonna",
+      "name": "Casadonna",
+      "neighborhood": "Edgewater",
+      "cuisine": "Coastal Italian",
+      "coordinates": {
+        "lat": 25.793,
+        "lng": -80.1875
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/casadonna",
+      "website": "https://casadonnamiami.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Call the day-of for cancellations, or try a late 9:30 PM table since Miami dines late."
+      },
+      "tips": [
+        "Reservations open ~90 days out on Resy; bayfront terrace tables are the hardest",
+        "Historic Miami Woman's Club on Biscayne Bay, Edgewater",
+        "Day-of cancellations and late 9:30 PM seatings are your best last-minute shot"
+      ],
+      "signatureDish": "Handmade pasta, crudo, and bistecca Fiorentina in a bayfront Riviera setting",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "waterfront",
+        "grand",
+        "Riviera glamour",
+        "see-and-be-seen"
+      ],
+      "occasion": [
+        "celebration",
+        "date night",
+        "group dinner"
+      ],
+      "dateNote": "A Mediterranean-Revival mansion on Biscayne Bay - sunset on the terrace is the whole date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Miami Hit List (editorial)",
+          "url": "https://blog.resy.com/2023/11/miami-restaurants-nov-2023/",
+          "note": "Featured on Resy's Miami Hit List: Tao Group x Grutman waterfront Italian in the historic Woman's Club, booking on Resy"
+        }
+      ],
+      "evidence": "Groot/Tao waterfront blockbuster in the historic Miami Woman's Club; the 90-day Resy window and prime bayfront tables vanish fast."
+    },
+    {
+      "id": "sunnys-steakhouse",
+      "name": "Sunny's Steakhouse",
+      "neighborhood": "The Roads",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 25.757,
+        "lng": -80.201
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/sunnys",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Right at opening; a handful of bar seats held for walk-ins",
+        "lineBy": "Arrive early, before the dinner rush",
+        "advice": "Only a handful of walk-in spots at the bar; come early and try weekdays or the first seating."
+      },
+      "tips": [
+        "Books on Resy ~30 days out; popular times snapped up quickly",
+        "A handful of walk-in seats at the bar - arrive early on a weekday",
+        "VERIFY exact address and Resy venue slug"
+      ],
+      "signatureDish": "Dry-aged steaks and martinis in an indoor-outdoor 'endless summer' setting",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cool-kid steakhouse",
+        "indoor-outdoor",
+        "martini bar",
+        "buzzy"
+      ],
+      "occasion": [
+        "date night",
+        "celebration"
+      ],
+      "dateNote": "A breezy, cool-kid steakhouse - split a martini and a dry-aged cut under the string lights.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
+          "note": "Very hard; Resy 30 days out, popular times snapped up quickly, only a handful of walk-in spots at the bar"
+        }
+      ],
+      "evidence": "Cult South Florida steakhouse; 30-day Resy window fills quickly and only a few walk-in bar seats exist (The Infatuation)."
+    },
+    {
+      "id": "tam-tam",
+      "name": "Tâm Tâm",
+      "neighborhood": "Downtown Miami",
+      "cuisine": "Vietnamese",
+      "coordinates": {
+        "lat": 25.774,
+        "lng": -80.192
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/tam-tam",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Sidewalk tables and late-service bar seats held for walk-ins",
+        "lineBy": "Come for later service or grab a sidewalk seat",
+        "advice": "Sidewalk tables are reserved for walk-ins and bar seats open up during late service; call ahead to check."
+      },
+      "tips": [
+        "Book at least two weeks out for weekend tables",
+        "Sidewalk tables and late-service bar seats are held for walk-ins",
+        "VERIFY exact address and reservation platform/slug"
+      ],
+      "signatureDish": "Vietnamese-American plates and natural wine (MICHELIN Bib Gourmand)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "hip",
+        "natural-wine",
+        "downtown cool",
+        "lively"
+      ],
+      "occasion": [
+        "casual date",
+        "friends dinner"
+      ],
+      "dateNote": "A cool, wine-soaked corner of downtown - low-key but hard to get, perfect for a second date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Tâm Tâm (Downtown Miami, Vietnamese) listed as a MICHELIN Bib Gourmand in the 2026 Florida guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
+          "note": "Toughest tables fill fast; book ~2 weeks out for weekends, sidewalk tables kept for walk-ins"
+        }
+      ],
+      "evidence": "MICHELIN Bib Gourmand Vietnamese downtown; weekend tables need booking about two weeks out (The Infatuation)."
+    },
+    {
+      "id": "walrus-rodeo",
+      "name": "Walrus Rodeo",
+      "neighborhood": "Buena Vista",
+      "cuisine": "Wood-fired Italian-ish",
+      "coordinates": {
+        "lat": 25.8232,
+        "lng": -80.1929
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/walrus-rodeo",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Sibling to Boia De, in the same Buena Vista strip mall; small room, book ahead",
+        "$12 happy-hour pizzas are a great early-seating play",
+        "VERIFY reservation platform/slug and any release window"
+      ],
+      "signatureDish": "Mustard Green Lasagna, Pane Bianco & Bone Marrow, Rodeo Za (anchovy pizza)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "strip-mall gem",
+        "wood-fired",
+        "fun",
+        "wine-forward"
+      ],
+      "occasion": [
+        "date night",
+        "foodie dinner"
+      ],
+      "dateNote": "Boia De's rowdier sibling - wood-fired pizzas and lasagna in a tiny room made for sharing.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review (9.6)",
+          "url": "https://www.theinfatuation.com/miami/reviews/walrus-rodeo",
+          "note": "Rated 9.6; Boia De's sibling in a Buena Vista strip mall, praised for wood-fired pizzas and mustard-green lasagna"
+        }
+      ],
+      "evidence": "Boia De's acclaimed sibling (The Infatuation, 9.6) in a tiny Buena Vista strip-mall space; scarce seats."
+    },
+    {
+      "id": "mandolin-aegean-bistro",
+      "name": "Mandolin Aegean Bistro",
+      "neighborhood": "Buena Vista / Design District",
+      "cuisine": "Greek / Aegean",
+      "coordinates": {
+        "lat": 25.8155,
+        "lng": -80.1928
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.mandolinrestaurant.com/",
+      "website": "https://www.mandolinrestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Up to 60 days rolling",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Walk-ins accepted but almost always seated indoors",
+        "lineBy": "Arrive around noon for lunch",
+        "advice": "Walk-ins are taken but seated inside; the leafy courtyard is reservation-only and the hard get. Lunch is easier than dinner."
+      },
+      "tips": [
+        "Books via the venue's site (Resy) up to ~60 days out; the courtyard is the hard reservation",
+        "Walk-ins usually seated indoors; lunch easier than dinner",
+        "4312 NE 2nd Ave, Buena Vista; VERIFY exact Resy link"
+      ],
+      "signatureDish": "Grilled whole fish and Aegean mezze in a garden courtyard",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "garden courtyard",
+        "breezy",
+        "Aegean",
+        "romantic"
+      ],
+      "occasion": [
+        "date night",
+        "lunch date",
+        "anniversary"
+      ],
+      "dateNote": "A whitewashed Greek-island courtyard hidden in Buena Vista - book the garden for the full effect.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "2026 Michelin Miami roundup (editorial)",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Mandolin Aegean Bistro (Design District, Greek) listed as a MICHELIN Bib Gourmand in the 2026 Florida guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
+          "note": "Outdoor courtyard tables are much harder to get; walk-ins accepted but seated indoors, lunch easier than dinner"
+        }
+      ],
+      "evidence": "MICHELIN Bib Gourmand Aegean bistro; the leafy courtyard tables are the tough get, booked up to 60 days out (The Infatuation)."
+    },
+    {
+      "id": "latelier-de-joel-robuchon",
+      "name": "L'Atelier de Joël Robuchon",
+      "neighborhood": "Design District",
+      "cuisine": "French",
+      "coordinates": {
+        "lat": 25.8135,
+        "lng": -80.1918
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/latelier-de-joel-robuchon-miami",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Florida's only Two MICHELIN Star restaurant (five years running)",
+        "Counter-focused tasting; book well ahead for prime times",
+        "VERIFY exact booking platform/slug and release time"
+      ],
+      "signatureDish": "La Langoustine; Le Caviar; counter tasting classics",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "fine-dining",
+        "counter",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "milestone"
+      ],
+      "dateNote": "Two seats at the red-and-black counter for Florida's only two-star tasting — a bucket-list splurge.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "MICHELIN 2026 roundup",
+          "url": "https://blog.resy.com/2026/05/michelin-miami/",
+          "note": "Listed as Two MICHELIN Stars, Design District — Florida's sole two-star for the fifth year running"
+        },
+        {
+          "name": "Michelin",
+          "tier": "★★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "L'Atelier de Joël Robuchon retained Two MICHELIN Stars in the Florida guide"
+        }
+      ],
+      "evidence": "Florida's sole Two MICHELIN Star restaurant, five years running; the counter-focused Robuchon room books out well ahead."
+    },
+    {
+      "id": "entrenos",
+      "name": "EntreNos",
+      "neighborhood": "Miami Shores",
+      "cuisine": "Tasting Menu (New American)",
+      "coordinates": {
+        "lat": 25.863,
+        "lng": -80.19
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/entrenos/",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Tiny tasting counter; One MICHELIN Star plus a Green Star for sustainability",
+        "Very few seats per service, a few nights a week",
+        "VERIFY booking platform/slug, release cadence, and exact address"
+      ],
+      "signatureDish": "Seasonal chef's tasting (farm-driven)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny",
+        "personal",
+        "sustainable"
+      ],
+      "occasion": [
+        "date-night",
+        "foodie"
+      ],
+      "dateNote": "A minuscule tasting counter with a green conscience — the kind of place where the chefs remember your name.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "★",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-stars-florida-guide-ceremony-miami-orlando-tampa",
+          "note": "EntreNos among Miami's One MICHELIN Star restaurants; also awarded a Green Star for sustainability"
+        }
+      ],
+      "evidence": "One MICHELIN Star and a Green Star; a tiny Miami Shores tasting counter with only a handful of seats per service."
+    },
+    {
+      "id": "carbone-vino",
+      "name": "Carbone Vino",
+      "neighborhood": "Coconut Grove",
+      "cuisine": "Italian (wine bar)",
+      "coordinates": {
+        "lat": 25.7285,
+        "lng": -80.2415
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/carbone-vino-coconut-grove",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins more likely here than at the original Carbone"
+      },
+      "tips": [
+        "Major Food Group's wine-focused Carbone spinoff in Coconut Grove",
+        "Resy opens 30 days out at 10:00 AM; walk-ins likelier than the original Carbone",
+        "VERIFY exact Resy slug, exact address, and signature dish"
+      ],
+      "signatureDish": "Italian small plates and a deep wine list",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "glam",
+        "wine-focused",
+        "date-night"
+      ],
+      "occasion": [
+        "date-night",
+        "celebration"
+      ],
+      "dateNote": "Carbone glamour distilled into a Coconut Grove wine bar — easier to walk into than the original, but still a scheme.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://blog.resy.com/2025/09/how-to-get-into-toughest-reservations-miami/",
+          "note": "Carbone Vino, Coconut Grove: 30 days in advance at 10 a.m.; walk-ins more likely than the original location"
+        }
+      ],
+      "evidence": "Major Food Group's wine-focused Carbone spinoff in Coconut Grove; Resy opens 30 days out at 10 a.m. per the Resy toughest-tables guide."
+    },
+    {
+      "id": "aviv",
+      "name": "AVIV",
+      "neighborhood": "Miami Beach (Sunset Harbour)",
+      "cuisine": "Israeli",
+      "coordinates": {
+        "lat": 25.7908,
+        "lng": -80.1435
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/aviv-miami",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar seats take walk-ins",
+        "lineBy": "",
+        "advice": "Bar accepts walk-ins; try the dining room right at 5 PM"
+      },
+      "tips": [
+        "Resy opens 30 days out at 10:00 AM; the small dining room fills fast",
+        "Bar seats are held for walk-ins; try the dining room at 5 PM",
+        "VERIFY exact Resy slug, exact address, and signature dish"
+      ],
+      "signatureDish": "Modern Israeli mezze and hearth breads",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "hip",
+        "warm",
+        "small-room"
+      ],
+      "occasion": [
+        "date-night",
+        "foodie"
+      ],
+      "dateNote": "A warm, buzzy Israeli room for hummus, hearth bread and natural wine — grab bar seats if the dining room's gone.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://blog.resy.com/2025/09/how-to-get-into-toughest-reservations-miami/",
+          "note": "AVIV, Miami Beach: 30 days in advance starting at 10 a.m.; bar accepts walk-ins; try the dining room at 5 p.m."
+        }
+      ],
+      "evidence": "A buzzy modern-Israeli room on Resy's toughest-tables list; reservations open 30 days out at 10 a.m. and the small dining room fills fast."
+    },
+    {
+      "id": "mother-wolf",
+      "name": "Mother Wolf",
+      "neighborhood": "Design District / Edgewater",
+      "cuisine": "Italian (Roman)",
+      "coordinates": {
+        "lat": 25.7965,
+        "lng": -80.19
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/mother-wolf-fl",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins difficult but possible"
+      },
+      "tips": [
+        "Evan Funke's glamorous Roman restaurant; Resy opens 14 days out at 9:00 AM",
+        "Walk-ins tough but possible",
+        "VERIFY exact neighborhood/address, Resy slug, and signature dish"
+      ],
+      "signatureDish": "Roman-style pastas (cacio e pepe)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "glam",
+        "loud",
+        "scene"
+      ],
+      "occasion": [
+        "celebration",
+        "date-night",
+        "group"
+      ],
+      "dateNote": "Evan Funke's hand-rolled Roman pasta in a glam, roaring room — the 9 a.m. Resy race is worth it.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://blog.resy.com/2025/09/how-to-get-into-toughest-reservations-miami/",
+          "note": "Mother Wolf: reservations 14 days out at 9 a.m.; 'It'll be tough'; walk-ins difficult but possible"
+        }
+      ],
+      "evidence": "Evan Funke's glamorous Roman restaurant; the Resy guide says tables drop 14 days out at 9 a.m. and 'it'll be tough.'"
+    },
+    {
+      "id": "macchialina",
+      "name": "Macchialina Taverna Rustica",
+      "neighborhood": "Miami Beach",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 25.7718,
+        "lng": -80.1418
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/macchialina",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "3 months",
+      "bookingWindowDays": 90,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins possible but not recommended, especially weekends and prime dinner hours"
+      },
+      "tips": [
+        "The Resy guide says it books up to three months out",
+        "Walk-ins possible but 'not recommended' on weekends/prime hours",
+        "VERIFY exact Resy slug, release time, and signature dish"
+      ],
+      "signatureDish": "House-made pasta",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "brick-walled",
+        "neighborhood-classic"
+      ],
+      "occasion": [
+        "date-night",
+        "casual"
+      ],
+      "dateNote": "A warm, brick-walled trattoria on Alton Road — the neighborhood classic that now needs three months' notice.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Toughest Reservations in Miami",
+          "url": "https://blog.resy.com/2025/09/how-to-get-into-toughest-reservations-miami/",
+          "note": "Macchialina, Miami Beach: books up to three months in advance; walk-ins possible but 'not recommended'"
+        }
+      ],
+      "evidence": "The Resy guide says this beloved Miami Beach trattoria books up to three months out, with walk-ins 'not recommended' on weekends."
+    },
+    {
+      "id": "zitz-sum",
+      "name": "Zitz Sum",
+      "neighborhood": "Coral Gables",
+      "cuisine": "Dim sum / pan-Asian",
+      "coordinates": {
+        "lat": 25.7515563,
+        "lng": -80.2622853
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/zitz-sum-coral-gables-1",
+      "website": "https://www.zitzsum.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only ~30 seats — reserve early for weekends",
+        "Menu changes daily; the dumplings are the constant",
+        "Weeknights are the easier grab"
+      ],
+      "signatureDish": "Shrimp har gow with lime and tamarind-black-garlic chutney; daily dumplings",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "chef-driven",
+        "intimate",
+        "inventive"
+      ],
+      "occasion": [
+        "date",
+        "foodie-dinner"
+      ],
+      "dateNote": "A 30-seat dumpling love letter from a chef who riffs across Asia, Mexico and Italy — book ahead and share everything.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/coral-gables/restaurant/zitz-sum",
+          "note": "Bib Gourmand 2022-2026; praised for original, gutsy plates like the lime har gow."
+        },
+        {
+          "name": "Miami New Times",
+          "tier": "Miami Restaurants guide",
+          "url": "https://www.miaminewtimes.com/guide/miami-restaurants/zitz-sum-12820420",
+          "note": "Listed as a top Chinese/dim-sum destination in Coral Gables."
+        }
+      ],
+      "evidence": "Chef Pablo Zitzmann's tiny room: a five-year Michelin Bib Gourmand and a NYT Best-50-in-America pick — small, so weekend tables go quickly."
+    },
+    {
+      "id": "kyu-miami",
+      "name": "KYU",
+      "neighborhood": "Wynwood",
+      "cuisine": "Asian wood-fired",
+      "coordinates": {
+        "lat": 25.8009119,
+        "lng": -80.2001793
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/kyu-miami",
+      "website": "https://kyurestaurants.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins can try the bar; the dining room books up on weekends, so reserve ahead."
+      },
+      "tips": [
+        "Book ahead for weekend dinner",
+        "Brunch is a beloved, easier option",
+        "Room runs loud and tables are close since the remodel"
+      ],
+      "signatureDish": "Korean fried chicken and the wood-fired dishes (plus the famous cinnamon roll)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "high-energy",
+        "wood-smoke",
+        "Wynwood buzz"
+      ],
+      "occasion": [
+        "date",
+        "group",
+        "brunch"
+      ],
+      "dateNote": "Loud, smoky and fun — a Wynwood staple for a lively shared-plates date (it's noisier and tighter since its remodel).",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review",
+          "url": "https://www.theinfatuation.com/miami/reviews/kyu",
+          "note": "An honest, wistful review: a Wynwood wood-fired staple whose post-renovation room feels tighter and louder (\"we just really miss the old Kyu\")."
+        }
+      ],
+      "evidence": "A TIME 'Best in Florida' and James Beard semifinalist that most of Miami has dined at; still a Wynwood anchor, reliably bookable on Resy. (The Infatuation misses the pre-renovation version.)"
+    },
+    {
+      "id": "uchi-miami",
+      "name": "Uchi Miami",
+      "neighborhood": "Wynwood",
+      "cuisine": "Japanese / sushi",
+      "coordinates": {
+        "lat": 25.8006221,
+        "lng": -80.2001454
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/miami-fl/venues/uchi-miami",
+      "website": "https://uchi.uchirestaurants.com/location/sushi-miami/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Sushi bar kept for walk-ins",
+        "lineBy": "",
+        "advice": "Walk in and sit at the sushi bar — great for a solo meal or the $25 lunch deal; tables for 5+ via the website."
+      },
+      "tips": [
+        "Walk-in at the sushi bar is the reliable move",
+        "$25 lunch deal is a steal",
+        "Book Resy ahead for a table on weekends"
+      ],
+      "signatureDish": "Bigeye tuna crudo, karaage chicken and kinoko nabe",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "sleek",
+        "electric",
+        "special-occasion-casual"
+      ],
+      "occasion": [
+        "date",
+        "solo",
+        "celebration"
+      ],
+      "dateNote": "Tyson Cole's Austin-born sushi temple in Wynwood — dress up or roll in for the bar; the whole (huge) menu delivers.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review / Wynwood guide",
+          "url": "https://www.theinfatuation.com/miami/reviews/uchi-miami",
+          "note": "\"Everything is excellent\" — highlights the tuna crudo, karaage and kinoko nabe; notes walk-ins can sit at the sushi bar."
+        }
+      ],
+      "evidence": "An Infatuation-praised, all-around-excellent Japanese room; reserve on Resy for tables, but the sushi bar welcomes walk-ins."
+    },
+    {
+      "id": "luca-osteria",
+      "name": "Luca Osteria",
+      "neighborhood": "Coral Gables",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 25.7511813,
+        "lng": -80.2571814
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/luca-osteria-coral-gables",
+      "website": "https://lucamiami.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Patio and bar seats on pedestrian Giralda Ave are good walk-in bets; book ahead for weekend dinner."
+      },
+      "tips": [
+        "Patate fritte are the non-negotiable order",
+        "Outdoor tables along Giralda Ave",
+        "Weekends book up — grab a weeknight if you can"
+      ],
+      "signatureDish": "Patate fritte (parmigiano-fonduta potato balls) and house-made pasta al tartufo",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "casual and fun",
+        "Giralda patio",
+        "pasta-forward"
+      ],
+      "occasion": [
+        "date",
+        "dinner-with-friends"
+      ],
+      "dateNote": "Some of Miami's best fresh pasta on a pedestrian street in the Gables — casual enough to be fun, good enough to impress.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial (Resy Blog)",
+          "url": "https://blog.resy.com/2024/04/the-best-dishes-to-order-at-giorgio-rapicavolis-luca-osteria/",
+          "note": "Resy's editorial guide to the best dishes at Luca Osteria, spotlighting the pastas and patate fritte."
+        },
+        {
+          "name": "Miami New Times",
+          "tier": "Local listing",
+          "url": "https://www.miaminewtimes.com/location/luca-osteria-13355246/",
+          "note": "Local press lists Luca Osteria among Coral Gables' notable Italian rooms."
+        }
+      ],
+      "evidence": "Chopped champ Giorgio Rapicavoli's Italian hit, championed by Resy and local press; popular, so reserve ahead for weekends."
+    },
+    {
+      "id": "krus-kitchen",
+      "name": "Krüs Kitchen",
+      "neighborhood": "Coconut Grove",
+      "cuisine": "Seasonal American / seafood",
+      "coordinates": {
+        "lat": 25.7272071,
+        "lng": -80.2430803
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/krus-kitchen-miami",
+      "website": "https://kruskitchen.com/",
+      "phoneNumber": "(786) 518-3998",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve ahead — it's an intimate room",
+        "Menu turns over seasonally",
+        "Sits above sister restaurant Los Félix on Main Hwy"
+      ],
+      "signatureDish": "Seasonal, locally-sourced seafood and produce (menu changes twice a year)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "light-filled",
+        "sustainable-minded",
+        "relaxed"
+      ],
+      "occasion": [
+        "date",
+        "long-dinner",
+        "foodie-dinner"
+      ],
+      "dateNote": "A glass-block-and-skylight room above Los Félix where dinners stretch for hours — settle in for a slow, seasonal date.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review (8.8/10)",
+          "url": "https://www.theinfatuation.com/miami/reviews/krus-kitchen",
+          "note": "Rated 8.8; praises the \"sincere care\" for sourcing and the light-filled Coconut Grove room, with hours-long dinners."
+        }
+      ],
+      "evidence": "The Infatuation's 8.8 for its sincerely sourced seasonal cooking; a small, in-demand room, so reserve ahead."
+    },
+    {
+      "id": "lung-yai-thai-tapas",
+      "name": "Lung Yai Thai Tapas",
+      "neighborhood": "Little Havana",
+      "cuisine": "Thai",
+      "coordinates": {
+        "lat": 25.7657718,
+        "lng": -80.2232054
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "Arrive early on weekends",
+        "advice": "Walk-in only, no reservations — communal picnic seating, so expect a weekend wait."
+      },
+      "tips": [
+        "No reservations — walk-in only",
+        "Communal picnic seating",
+        "Weekend waits are real; go early or off-peak"
+      ],
+      "signatureDish": "Khao soi, crispy chicken wings and spicy beef salad",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "communal picnic tables",
+        "cult-favorite",
+        "unassuming"
+      ],
+      "occasion": [
+        "casual",
+        "foodie-bite",
+        "dinner-with-friends"
+      ],
+      "dateNote": "Elbow-to-elbow at a picnic table over khao soi and crispy wings — a cult Little Havana Thai spot worth the wait.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review",
+          "url": "https://www.theinfatuation.com/miami/reviews/lung-yai-thai-tapas",
+          "note": "Calls it a Miami classic (khao soi, crispy wings, spicy beef salad) with an unchanged walk-in-only policy and weekend waits."
+        }
+      ],
+      "evidence": "An Infatuation-reviewed Miami Thai classic since 2015; strictly walk-in, so time it to avoid the weekend crush."
+    },
+    {
+      "id": "lucali-miami",
+      "name": "Lucali",
+      "neighborhood": "Sunset Harbour (Miami Beach)",
+      "cuisine": "Pizza / Italian",
+      "coordinates": {
+        "lat": 25.7952002,
+        "lng": -80.1439974
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Arrive right at opening",
+        "lineBy": "Put your name on the list the moment doors open",
+        "advice": "Walk-in only, no reservations — come at opening, put your name down, and plan for a wait for a table."
+      },
+      "tips": [
+        "No reservations — arrive at opening and put your name down",
+        "Expect a wait for a table on weekends",
+        "Cash-friendly; it's a small candlelit room"
+      ],
+      "signatureDish": "Thin-crust pizza and meatballs",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "candlelit",
+        "cult pizza",
+        "BYO-ish charm"
+      ],
+      "occasion": [
+        "date",
+        "casual",
+        "dinner-with-friends"
+      ],
+      "dateNote": "A candlelit, no-reservations pizza cult favorite — grab a table at opening and split a pie the slow, romantic way.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurants/bib-gourmand",
+          "note": "Listed as a Miami Bib Gourmand for its Italian/pizza in Sunset Harbour."
+        }
+      ],
+      "evidence": "A Michelin Bib Gourmand (the Miami outpost of the famed Brooklyn pizzeria); walk-in only, so strategy matters."
+    },
+    {
+      "id": "el-turco-miami",
+      "name": "El Turco",
+      "neighborhood": "Upper Buena Vista",
+      "cuisine": "Turkish",
+      "coordinates": {
+        "lat": 25.8218265,
+        "lng": -80.1920956
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://elturcomiami.com/",
+      "website": "https://elturcomiami.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Small room — book ahead for weekends",
+        "VERIFY the reservation link on their site before relying on it",
+        "In the Upper Buena Vista shopping enclave"
+      ],
+      "signatureDish": "Turkish kebabs, döner and meze",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "authentic Turkish",
+        "warm"
+      ],
+      "occasion": [
+        "date",
+        "dinner-with-friends"
+      ],
+      "dateNote": "A small, authentic Turkish room in the leafy Upper Buena Vista enclave — spice, warmth and a table for two worth booking.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurants/bib-gourmand",
+          "note": "Listed as a Miami Bib Gourmand for Turkish cuisine in Upper Buena Vista."
+        }
+      ],
+      "evidence": "A Michelin Bib Gourmand for its Turkish cooking; small room, so reserve ahead for weekends."
+    },
+    {
+      "id": "la-natural",
+      "name": "La Natural",
+      "neighborhood": "Little River",
+      "cuisine": "Wood-fired pizza / natural wine",
+      "coordinates": {
+        "lat": 25.841601,
+        "lng": -80.1970711
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Small, popular Little River spot — bar and patio can absorb walk-ins early; weekends fill quickly."
+      },
+      "tips": [
+        "Small room — arrive early or aim for a weeknight",
+        "VERIFY current reservation platform/hours before going",
+        "Natural-wine list is the pairing"
+      ],
+      "signatureDish": "Wood-fired sourdough pizza and natural wine",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "hip",
+        "natural-wine",
+        "backyard-cool"
+      ],
+      "occasion": [
+        "date",
+        "casual",
+        "dinner-with-friends"
+      ],
+      "dateNote": "Blistered wood-fired pies and a glass of something funky in laid-back Little River — an easy, cool date.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurants/bib-gourmand",
+          "note": "Listed as a Miami Bib Gourmand for pizza and natural wines in Little River."
+        }
+      ],
+      "evidence": "A Michelin Bib Gourmand pizza-and-natural-wine spot; small and popular, so go early or on a weeknight."
+    },
+    {
+      "id": "bar-bucce",
+      "name": "Bar Bucce",
+      "neighborhood": "Little River",
+      "cuisine": "Italian wine bar / pizza",
+      "coordinates": {
+        "lat": 25.8462,
+        "lng": -80.1963
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.barbucce.com/",
+      "website": "https://www.barbucce.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar-forward; walk-in seats at the counter",
+        "lineBy": "",
+        "advice": "A tiny wine-bar-meets-piazza from the Macchialina team; it's built for walk-in counter drinking and pizza, but the small room fills fast at night."
+      },
+      "tips": [
+        "From the Macchialina family — natural wine, market snacks, and blistered pizzas; on The Infatuation 25 Best, NT 50 Best, and Resy's 2025 list",
+        "Small and bar-forward; come early for a counter seat",
+        "VERIFY reservation platform — it's walk-in/wine-bar leaning; the crispy pizzas are the draw"
+      ],
+      "signatureDish": "Wood-fired pizza and natural wine by the glass",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "wine-bar",
+        "buzzy",
+        "little-italy-piazza"
+      ],
+      "occasion": [
+        "date-night",
+        "wine-and-snacks",
+        "casual"
+      ],
+      "dateNote": "'Miami's own Italian piazza' — perch at the counter with pizza and a glass of something natural.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/best-restaurants-in-miami",
+          "note": "'It's Miami's own Italian piazza, complete with glistening pizza' (updated July 2026)"
+        },
+        {
+          "name": "Miami New Times",
+          "tier": "50 Best Restaurants in Miami",
+          "url": "https://www.miaminewtimes.com/food-drink/50-best-restaurants-miami-23961723/",
+          "note": "On the 50 Best list (Feb 2026), Italian, Little River"
+        },
+        {
+          "name": "Resy",
+          "tier": "Top Miami Restaurants 2025",
+          "url": "https://blog.resy.com/2025/12/miami-restaurants-2025/",
+          "note": "Featured neighborhood market-wine bar hybrid (Resy, Dec 2025)"
+        }
+      ],
+      "evidence": "On The Infatuation 25 Best, Miami New Times 50 Best, and Resy's 2025 Miami list; a small, walk-in-friendly wine bar that fills fast but is easy off-peak."
+    },
+    {
+      "id": "estiatorio-milos-miami",
+      "name": "Estiatorio Milos",
+      "neighborhood": "South Beach (South of Fifth)",
+      "cuisine": "Greek seafood",
+      "coordinates": {
+        "lat": 25.7695,
+        "lng": -80.1346
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.milos.com/miami/",
+      "website": "https://www.milos.com/miami/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Costas Spiliadis's pristine whole-fish Greek temple; a Miami New Times 50 Best",
+        "Splurgy (fish sold by weight) but bookable ahead; the $30-ish lunch prix fixe is the value move",
+        "VERIFY reservation platform on milos.com before booking"
+      ],
+      "signatureDish": "Whole grilled Mediterranean fish, filleted tableside; Milos special (fried zucchini/eggplant)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "elegant",
+        "seaside-greek",
+        "special-occasion"
+      ],
+      "occasion": [
+        "celebration",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "Sea-salt-clean Greek seafood in an airy white room — a dressed-up date by the beach.",
+      "sources": [
+        {
+          "name": "Miami New Times",
+          "tier": "50 Best Restaurants in Miami",
+          "url": "https://www.miaminewtimes.com/food-drink/50-best-restaurants-miami-23961723/",
+          "note": "On the 50 Best list (Feb 2026), Greek, South Beach"
+        }
+      ],
+      "evidence": "A Miami New Times 50 Best and international Greek-seafood benchmark; pricey but genuinely bookable ahead, and the lunch prix fixe keeps it in reach."
+    },
+    {
+      "id": "palma",
+      "name": "Palma",
+      "neighborhood": "Little Havana",
+      "cuisine": "Wood-fired American",
+      "coordinates": {
+        "lat": 25.765,
+        "lng": -80.226
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.palmamiami.com/",
+      "website": "https://www.palmamiami.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "A small, sauce-driven wood-fire spot in Little Havana; reserve for weekend prime time, walk in on a quieter night."
+      },
+      "tips": [
+        "The Infatuation 25 Best — 'form an emotional bond with sauce'; a chef-driven Little Havana sleeper",
+        "Small room; book ahead for weekends",
+        "VERIFY reservation platform and hours on palmamiami.com before going"
+      ],
+      "signatureDish": "Wood-fired plates built around house sauces",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "chef-driven",
+        "candlelit"
+      ],
+      "occasion": [
+        "date-night",
+        "foodie-dinner",
+        "discovery"
+      ],
+      "dateNote": "Low-lit, sauce-obsessed, and personal — an under-the-radar date in Little Havana.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Miami",
+          "url": "https://www.theinfatuation.com/miami/guides/best-restaurants-in-miami",
+          "note": "'Form an emotional bond with sauce' (updated July 2026)"
+        }
+      ],
+      "evidence": "On The Infatuation 25 Best; a small chef-driven room that fills on weekends but is gettable midweek and takes walk-ins."
+    },
+    {
+      "id": "joes-stone-crab",
+      "name": "Joe's Stone Crab",
+      "neighborhood": "South Beach (South of Fifth)",
+      "cuisine": "Seafood / stone crab",
+      "coordinates": {
+        "lat": 25.7682,
+        "lng": -80.1348
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.joesstonecrab.com/",
+      "website": "https://www.joesstonecrab.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "No dinner reservations — walk in and wait; put your name in early",
+        "lineBy": "Arrive at opening (or before) for dinner; waits of 1-2 hours are normal at peak season",
+        "advice": "The century-old icon takes no dinner reservations — it's a walk-in wait (often long in stone-crab season, Oct-May). Come at opening, or do lunch/takeaway to skip the line."
+      },
+      "tips": [
+        "A Miami institution since 1913 and Miami New Times 50 Best — famous for chilled stone crab claws with mustard sauce",
+        "No dinner reservations: walk in and expect a wait, especially in season (Oct-May)",
+        "Lunch and the takeaway window are the strategy to beat the dinner line",
+        "Order claws by size, creamed spinach, and the key lime pie"
+      ],
+      "signatureDish": "Chilled stone crab claws with mustard sauce; key lime pie",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "iconic",
+        "old-school",
+        "bustling"
+      ],
+      "occasion": [
+        "special-occasion",
+        "cultural-must",
+        "celebration"
+      ],
+      "dateNote": "A only-in-Miami rite of passage — split a tray of claws and a slice of key lime pie.",
+      "sources": [
+        {
+          "name": "Miami New Times",
+          "tier": "50 Best Restaurants in Miami",
+          "url": "https://www.miaminewtimes.com/food-drink/50-best-restaurants-miami-23961723/",
+          "note": "On the 50 Best list (Feb 2026), Seafood, South Beach"
+        }
+      ],
+      "evidence": "The definitive Miami seafood landmark and a Miami New Times 50 Best; no reservations means it's walk-in-attainable, though you'll wait in stone-crab season."
+    },
+    {
+      "id": "michaels-genuine-food-drink",
+      "name": "Michael's Genuine Food & Drink",
+      "neighborhood": "Design District",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 25.8131765,
+        "lng": -80.1928179
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/michaels-genuine-food-and-drink-miami",
+      "website": "https://michaelsgenuine.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and patio seats often open for walk-ins on weeknights; the dining room is easy to book online a few days out."
+      },
+      "tips": [
+        "One of the more reliably bookable icons in the Design District",
+        "Great open-air patio — request it in good weather"
+      ],
+      "signatureDish": "Wood-oven roasted local fish and the crispy hominy",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "neighborhood institution",
+        "bistro-casual",
+        "reliable"
+      ],
+      "occasion": [
+        "date",
+        "dinner-with-friends",
+        "solo"
+      ],
+      "dateNote": "The Design District old-guard: unfussy, warm, and genuinely good — a low-stakes date that never disappoints.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurant/michael-s-genuine",
+          "note": "Bib Gourmand for five consecutive years since Florida's 2022 guide launch."
+        },
+        {
+          "name": "Miami New Times",
+          "tier": "Best Miami Restaurants guide",
+          "url": "https://www.miaminewtimes.com/guide/best-miami-restaurants/michaels-genuine-food-and-drink-6405097",
+          "note": "Featured in the local Best Restaurants guide as a modern-American Design District mainstay."
+        }
+      ],
+      "evidence": "James Beard-winner Michael Schwartz's 2007 flagship; a five-year-running Michelin Bib Gourmand that stays comfortably bookable."
+    },
+    {
+      "id": "cafe-la-trova",
+      "name": "Café La Trova",
+      "neighborhood": "Little Havana",
+      "cuisine": "Cuban + cocktail bar",
+      "coordinates": {
+        "lat": 25.7661828,
+        "lng": -80.2104728
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.cafelatrova.com/reservations/",
+      "website": "https://www.cafelatrova.com/",
+      "phoneNumber": "(786) 615-4379",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk in for the bar and the live-music energy; book a table if you want dinner during a set."
+      },
+      "tips": [
+        "Reservations via the venue's own site (Toast)",
+        "Come for a live-music set — check their schedule",
+        "Bar seating is the move for walk-ins"
+      ],
+      "signatureDish": "Cantinero-style daiquiris, croquetas and lechón with yuca",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "live music",
+        "high-energy",
+        "old-Havana glamour"
+      ],
+      "occasion": [
+        "date",
+        "celebration",
+        "night-out"
+      ],
+      "dateNote": "White-jacketed bartenders dancing behind the bar while a rumba band plays — the most joyful date in Little Havana.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review",
+          "url": "https://www.theinfatuation.com/miami/reviews/cafe-la-trova",
+          "note": "\"Still the best Cuban party in town\" — live music, dancing bartenders, elegant Cuban plates."
+        },
+        {
+          "name": "The World's 50 Best",
+          "tier": "50 Best Discovery",
+          "url": "https://www.theworlds50best.com/discovery/Establishments/US/Miami/Café-La-Trova.html",
+          "note": "Recognized establishment; Julio Cabrera's cantinero cocktail program (also No. 13 on North America's 50 Best Bars 2025)."
+        },
+        {
+          "name": "Michelin",
+          "tier": "MICHELIN Guide (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurant/cafe-la-trova",
+          "note": "Listed in the MICHELIN Guide for its Cuban cooking and cocktail heritage."
+        }
+      ],
+      "evidence": "Michelle Bernstein and Julio Cabrera's Cuban party; on the MICHELIN Guide and No. 13 on North America's 50 Best Bars 2025 — lively but genuinely gettable."
+    },
+    {
+      "id": "sanguich-de-miami",
+      "name": "Sanguich de Miami",
+      "neighborhood": "Little Havana",
+      "cuisine": "Cuban sandwiches",
+      "coordinates": {
+        "lat": 25.7653854,
+        "lng": -80.2286061
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://sanguich.com/",
+      "website": "https://sanguich.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Opens 10 AM daily (til ~6 PM)",
+        "lineBy": "Arrive before the noon rush",
+        "advice": "Order at the counter/walk-up window; there's almost always a line but it moves fast."
+      },
+      "tips": [
+        "Walk-up window — go before or after the noon rush",
+        "Daytime only (roughly 10 AM-6 PM)",
+        "Cash and cards both fine"
+      ],
+      "signatureDish": "The Cubano — house-made everything, plus a media noche and milkshakes",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "counter-service classic",
+        "from-scratch",
+        "daytime"
+      ],
+      "occasion": [
+        "lunch",
+        "casual-bite",
+        "quick"
+      ],
+      "dateNote": "Split the best Cubano in the city on a couple of stools — Miami romance, no reservation required.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurant/sanguich-de-miami",
+          "note": "Bib Gourmand 2022-2026 for from-scratch Cuban sandwiches."
+        },
+        {
+          "name": "Miami New Times",
+          "tier": "Local coverage",
+          "url": "https://www.miaminewtimes.com/uncategorized/sanguich-de-miami-opens-in-little-havana-9777746/",
+          "note": "Local food press on Sanguich making Cuban sandwiches entirely from scratch in Little Havana."
+        }
+      ],
+      "evidence": "Grew from a shipping container into a five-year Michelin Bib Gourmand; walk-in counter with a steady lunch line."
+    },
+    {
+      "id": "chugs-diner",
+      "name": "Chug's Diner",
+      "neighborhood": "Coconut Grove",
+      "cuisine": "Cuban-American diner",
+      "coordinates": {
+        "lat": 25.7272859,
+        "lng": -80.2435747
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/chugs-diner-miami-2",
+      "website": "https://chugsdiner.com/",
+      "phoneNumber": "(786) 353-2940",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Easy walk-in for breakfast/brunch on weekdays; weekend mornings get a wait."
+      },
+      "tips": [
+        "Best as a weekday brunch to skip the wait",
+        "Full dinner service Wed-Sat",
+        "Great cafecito counter"
+      ],
+      "signatureDish": "Cast-iron pancake, pastelitos and the frita",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cheerful diner",
+        "cafecito counter",
+        "family-friendly"
+      ],
+      "occasion": [
+        "brunch",
+        "breakfast-date",
+        "casual"
+      ],
+      "dateNote": "A sunny Cuban-diner brunch with a cortadito and a cast-iron pancake between you — unpretentious and delightful.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurant/chug-s-diner",
+          "note": "Bib Gourmand for its high-quality, value-driven Cuban-American diner cooking."
+        },
+        {
+          "name": "Miami New Times",
+          "tier": "Local listing",
+          "url": "https://www.miaminewtimes.com/location/chugs-diner-11188289/",
+          "note": "Local press lists Chug's as a Coconut Grove Cuban diner institution."
+        }
+      ],
+      "evidence": "Michael Beltran's Cuban-American diner, a Michelin Bib Gourmand since 2021; genuinely low-effort to get into midweek."
+    },
+    {
+      "id": "ghee-indian-kitchen-dadeland",
+      "name": "Ghee Indian Kitchen",
+      "neighborhood": "Dadeland / Kendall",
+      "cuisine": "Indian (farm-to-table)",
+      "coordinates": {
+        "lat": 25.6871927,
+        "lng": -80.3127697
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/ghee-indian-kitchen-kendall",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Weeknights are walk-in friendly; without a reservation on Fri/Sat expect a 30-45 minute wait."
+      },
+      "tips": [
+        "Reserve for Fri/Sat to skip a 30-45 min wait",
+        "Produce comes from chef Niven Patel's own farm",
+        "Also a Wynwood location exists — this OpenTable link is the Dadeland/Kendall room"
+      ],
+      "signatureDish": "Kerala lamb and yellowfin tuna bhel, with produce from the chef's own farm",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "warm hospitality",
+        "high-energy",
+        "modern Indian"
+      ],
+      "occasion": [
+        "date",
+        "dinner-with-friends"
+      ],
+      "dateNote": "Bright, layered spice cooking with vegetables pulled from the chef's Homestead farm — a warm, generous table for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurants/bib-gourmand",
+          "note": "Named a Michelin Bib Gourmand (2022-2025) on the Miami Bib Gourmand selection."
+        }
+      ],
+      "evidence": "Niven Patel's farm-driven Indian kitchen, a multi-year Michelin Bib Gourmand; reserve ahead for weekends, easy midweek."
+    },
+    {
+      "id": "phuc-yea",
+      "name": "Phuc Yea",
+      "neighborhood": "MiMo / Upper Eastside",
+      "cuisine": "Vietnamese-Cajun / Viet-Latin",
+      "coordinates": {
+        "lat": 25.8405336,
+        "lng": -80.1845274
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/phuc-yea-reservations-miami",
+      "website": "https://phucyea.com/",
+      "phoneNumber": "(305) 602-3710",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The big, club-like space usually takes walk-ins outside peak weekend hours."
+      },
+      "tips": [
+        "Big space keeps it bookable — even weekends aren't brutal",
+        "Come for the atmosphere as much as the food",
+        "Full cocktail bar"
+      ],
+      "signatureDish": "PY egg noodles and the Sancocho pho",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "dark and energetic",
+        "glowing red lanterns",
+        "party"
+      ],
+      "occasion": [
+        "night-out",
+        "date",
+        "group"
+      ],
+      "dateNote": "Red-lantern glow, a full-time DJ, and a burlesque dancer who might shimmy past your table — a date for the adventurous.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand (Florida)",
+          "url": "https://guide.michelin.com/us/en/florida/miami/restaurant/phuc-yea",
+          "note": "Four consecutive Bib Gourmand mentions; standouts include PY egg noodles and Sancocho pho."
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review",
+          "url": "https://www.theinfatuation.com/miami/reviews/phuc-yea",
+          "note": "Praises the personality and energy (\"dark, energetic\") while calling the current menu uneven — an honest, mixed take."
+        }
+      ],
+      "evidence": "A four-time Michelin Bib Gourmand and MiMo cult favorite; roomy enough to stay easy to book. (The Infatuation is mixed on the food — go for the vibe and the noodles.)"
+    },
+    {
+      "id": "macchialina",
+      "name": "Macchialina",
+      "neighborhood": "South Beach (Miami Beach)",
+      "cuisine": "Italian",
+      "coordinates": {
+        "lat": 25.7786012,
+        "lng": -80.1410217
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/macchialina-miami-beach",
+      "website": "",
+      "phoneNumber": "(305) 534-2124",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seats and last-minute early/late slots are often available even on a Saturday."
+      },
+      "tips": [
+        "Even weekends often have a bookable early or late table",
+        "The $75 four-course tasting is a lot of food",
+        "Bar seating for walk-ins"
+      ],
+      "signatureDish": "Six house-made pastas and the polenta",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy taverna",
+        "regulars greeted by name",
+        "unhurried"
+      ],
+      "occasion": [
+        "date",
+        "anniversary",
+        "dinner-with-friends"
+      ],
+      "dateNote": "South Beach's warm Italian exception — a special-occasion meal for non-billionaires, greeted by first name.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review",
+          "url": "https://www.theinfatuation.com/miami/reviews/macchialina",
+          "note": "\"Simply the best Italian restaurant in Miami\" — six pastas at its core; a locals' room that greets regulars by name."
+        }
+      ],
+      "evidence": "James Beard semifinalist Michael Pirolo's beloved trattoria; the Infatuation calls it the best Italian in Miami — and you can still snag a Saturday 8pm."
+    },
+    {
+      "id": "doya-miami",
+      "name": "Doya",
+      "neighborhood": "Wynwood",
+      "cuisine": "Aegean / Turkish meze",
+      "coordinates": {
+        "lat": 25.8002568,
+        "lng": -80.2014519
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/doya-miami",
+      "website": "https://doyarestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The room is big enough that you can usually find a next-day (or same-week) reservation, even in high season."
+      },
+      "tips": [
+        "Big room = easy availability, even winter weekends",
+        "Meze meant for sharing",
+        "Lively for groups"
+      ],
+      "signatureDish": "Branzino ceviche and wood-and-coal-fired meze",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "big and versatile",
+        "wood-fire",
+        "celebratory"
+      ],
+      "occasion": [
+        "date",
+        "group",
+        "celebration"
+      ],
+      "dateNote": "Share Aegean meze over coal-fired plates in a buzzy, plant-filled room — food comes fast, mood stays high.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review",
+          "url": "https://www.theinfatuation.com/miami/reviews/doya",
+          "note": "Calls it a versatile Aegean meze bar with fast, very-good-to-great food; notes you can usually book the next day."
+        }
+      ],
+      "evidence": "A Michelin Bib Gourmand Aegean meze bar the Infatuation rates highly; so large you can often book the very next day."
+    },
+    {
+      "id": "amara-at-paraiso",
+      "name": "Amara at Paraiso",
+      "neighborhood": "Edgewater",
+      "cuisine": "Latin-American coastal",
+      "coordinates": {
+        "lat": 25.806487,
+        "lng": -80.1856334
+      },
+      "difficulty": 2,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/amara-at-paraiso-miami-2",
+      "website": "https://amaraatparaiso.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve for sunset and request an outdoor bayfront table",
+        "Go for the view first — order the simple open-fire dishes",
+        "Easy to book; the setting is the draw"
+      ],
+      "signatureDish": "Open-fire chicken a la brasa and grilled whole fish, on Biscayne Bay",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "waterfront",
+        "sunset views",
+        "polished-relaxed"
+      ],
+      "occasion": [
+        "date",
+        "anniversary",
+        "proposal"
+      ],
+      "dateNote": "Book an outdoor table for sunset over Biscayne Bay — so proposal-friendly the restaurant literally sells a proposal package.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Miami review",
+          "url": "https://www.theinfatuation.com/miami/reviews/amara-at-paraiso",
+          "note": "Calls the Biscayne Bay view spectacular and the food solid-but-safe; recommends a sunset reservation with an outdoor table."
+        }
+      ],
+      "evidence": "James Beard winner Michael Schwartz's waterfront room; easy to book, and the bay view is the reason to go. (The Infatuation says the view outshines the food — reserve for the setting.)"
+    }
+  ]
+}

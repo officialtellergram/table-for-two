@@ -1,0 +1,2658 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Philadelphia",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "royal-sushi-izakaya-omakase",
+      "name": "Royal Sushi & Izakaya (Omakase Counter)",
+      "neighborhood": "Queen Village",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 39.9383,
+        "lng": -75.1466
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/royal-sushi-izakaya",
+      "website": "https://royalizakaya.com/sushi",
+      "phoneNumber": "(267) 909-9002",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "Adjacent izakaya (no-reservation bar/tables)",
+        "lineBy": "",
+        "advice": "The omakase counter never takes walk-ins, but the connected Royal Izakaya downstairs seats walk-ins — a strong consolation if the 8 seats are gone. Set alarms and ride the Resy Notify list for cancellations."
+      },
+      "tips": [
+        "Only 8 seats at the sushi bar; two seatings nightly (6:00pm & 8:15pm), Tue–Sat",
+        "~$300–355 per person, service included (VERIFY current price)",
+        "Use Resy Notify for every date you'd take — cancellations are the realistic way in",
+        "Diners can rebook next month's seat at the end of the meal — ask the chef",
+        "Bib Gourmand in the 2025 Michelin Guide (the omakase is the splurge; the izakaya earned the Bib)"
+      ],
+      "signatureDish": "17-course omakase; caviar-topped oysters and daily-rotating nigiri",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "chef-counter",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Eight seats, one chef, seventeen courses — the most romantic bragging rights in Philadelphia.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Philly",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "'Royal's sushi omakase is the single hardest reservation to book in Philadelphia'; 8 seats, opens 30 days in advance"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "Craig LaBan review",
+          "url": "https://www.inquirer.com/food/craig-laban/jesse-ito-royal-sushi-izakaya-omakase-james-beard-20240613.html",
+          "note": "LaBan calls Jesse Ito's Royal Sushi 'the gold standard for omakase in Philly'; multiple Beard nominee"
+        },
+        {
+          "name": "Resy",
+          "tier": "editorial guide",
+          "url": "https://blog.resy.com/2023/09/royal-sushi-omakase-philadelphia-reservations/",
+          "note": "Resy's how-to on booking Royal's omakase — 30-day window, 8-seat bar, Notify strategy"
+        },
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "Royal Sushi & Izakaya named a Bib Gourmand in the inaugural Philadelphia Michelin Guide"
+        }
+      ],
+      "evidence": "Called 'the single hardest reservation to book in Philadelphia' — only 8 counter seats, two seatings a night, released 30 days out and gone in minutes."
+    },
+    {
+      "id": "her-place-supper-club",
+      "name": "Her Place Supper Club",
+      "neighborhood": "Rittenhouse",
+      "cuisine": "American tasting menu",
+      "coordinates": {
+        "lat": 39.9507,
+        "lng": -75.1702
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/her-place-supper-club-philadelphia",
+      "website": "https://www.herplacephilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "monthly",
+      "releaseTime": "6:00 PM ET",
+      "releaseDay": "Third Sunday",
+      "bookingWindow": "Released the third Sunday of every month at 6pm",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations released the third Sunday of every month at 6pm (VERIFY: some seasons the venue has used Tock and a 2-week cadence — confirm on herplacephilly.com)",
+        "Single communal table; two seatings Mon–Fri — capacity is tiny",
+        "Join the Her Place newsletter and Instagram for the exact release calendar",
+        "One Michelin star in Philadelphia's inaugural 2025 guide; 2026 James Beard semifinalist"
+      ],
+      "signatureDish": "Seasonal four-course prix-fixe (Amanda Shulman)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "dinner-party",
+        "communal",
+        "buzzy"
+      ],
+      "occasion": [
+        "impress",
+        "celebration",
+        "date-night"
+      ],
+      "dateNote": "A single communal table that feels like the city's best dinner party — book it and you're the couple everyone envies.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "Her Place Supper Club earned one Michelin star in the first Philadelphia guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Fancy Dinner / Toughest Reservations",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/best-fine-dining-restaurants-special-occasions-philadelphia",
+          "note": "'Reservations are released the third Sunday of every month at 6pm'; single communal table; $97 four-course"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "restaurant page",
+          "url": "https://www.inquirer.com/food/restaurants/her-place/",
+          "note": "Inquirer coverage of Amanda Shulman's supper-club concept"
+        }
+      ],
+      "evidence": "One Michelin star, a single communal table, and a once-a-month drop that vanishes on release — reservations open the third Sunday of each month at 6pm."
+    },
+    {
+      "id": "ambra",
+      "name": "Ambra",
+      "neighborhood": "Queen Village",
+      "cuisine": "Modern Italian tasting menu",
+      "coordinates": {
+        "lat": 39.9403,
+        "lng": -75.1494
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/ambra",
+      "website": "https://www.ambraphilly.com/",
+      "phoneNumber": "267-858-9232",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "68 days",
+      "bookingWindowDays": 68,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations come out two months in advance, on the 1st (VERIFY release time)",
+        "Seating is a single communal table or a 2–4 person kitchen counter — extremely limited",
+        "Call 267-858-9232 to ask about cancellations",
+        "Tasting-menu only"
+      ],
+      "signatureDish": "Multi-course seasonal modern-Italian tasting menu (Chris D'Ambro)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "chef-counter",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A single communal table or four counter seats — dinner so small it feels like you booked the whole restaurant.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations / 25 Best (9.1)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "'Reservations come out two months in advance, on the first'; community table or 4-seat kitchen counter"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "restaurant page",
+          "url": "https://www.inquirer.com/food/restaurants/ambra-queen-village-tasting-menu/",
+          "note": "Inquirer coverage of Chris D'Ambro's Queen Village tasting-menu room"
+        }
+      ],
+      "evidence": "Tiny tasting-menu room: one communal table plus a 2–4 seat kitchen counter, and reservations come out two full months ahead on the 1st."
+    },
+    {
+      "id": "friday-saturday-sunday",
+      "name": "Friday Saturday Sunday",
+      "neighborhood": "Rittenhouse",
+      "cuisine": "New American tasting menu",
+      "coordinates": {
+        "lat": 39.9486,
+        "lng": -75.1758
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/friday-saturday-sunday-philadelphia",
+      "website": "https://www.frisatsun.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "10:00 AM ET",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "Next month released at 10am on the 1st",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Downstairs bar",
+        "lineBy": "Arrive around 5pm",
+        "advice": "The upstairs tasting menu needs a reservation, but the downstairs bar takes walk-ins and fills around 5pm daily — a genuine way in for two."
+      },
+      "tips": [
+        "Upstairs eight-course tasting ~$185; reservations released 10am on the 1st for the following month (VERIFY OpenTable vs Resy — Sapphire Reserve tables have appeared on OpenTable)",
+        "Downstairs bar is walk-in only and fills ~5pm",
+        "One Michelin star in the inaugural 2025 Philadelphia guide"
+      ],
+      "signatureDish": "Eight-course upstairs tasting menu (Chad & Hanna Williams)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "fine-dining",
+        "intimate",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "The romantic upstairs tasting room in a Rittenhouse townhouse — worth setting the alarm for the 1st.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "One Star 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "Friday Saturday Sunday earned one Michelin star in the first Philadelphia guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations / 25 Best (9.5)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "'Released at 10am on the first of the month'; downstairs bar walk-in fills ~5pm; $185 eight-course"
+        }
+      ],
+      "evidence": "One Michelin star; the upstairs eight-course tasting is tiny and the whole month drops at 10am on the 1st, selling out fast."
+    },
+    {
+      "id": "mawn",
+      "name": "Mawn",
+      "neighborhood": "Bella Vista",
+      "cuisine": "Cambodian (BYOB)",
+      "coordinates": {
+        "lat": 39.9396,
+        "lng": -75.158
+      },
+      "difficulty": 5,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mawn-philadelphia",
+      "website": "https://mawnphilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling 30 days in advance",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Try the 4:30–4:45pm early slots (easier to grab) and the Thu–Sat BYOB lunch, which is far less contested than dinner."
+      },
+      "tips": [
+        "Reservations open 30 days out on OpenTable; join Notify and watch for 2-day-out cancellations",
+        "Early dinner (4:30–4:45pm) and Thu–Sat BYOB lunch are the easiest slots",
+        "Chef Phila Lorn won the 2025 James Beard Award for Emerging Chef",
+        "BYOB"
+      ],
+      "signatureDish": "Banh chow salad (named to the NYT's best dishes of the year); Cambodian noodles",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "buzzy",
+        "casual"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "adventurous"
+      ],
+      "dateNote": "A tiny BYOB where Phila Lorn's Cambodian cooking turns a weeknight into an occasion — bring a bottle and settle in.",
+      "sources": [
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "restaurant page",
+          "url": "https://www.inquirer.com/food/restaurants/mawn/",
+          "note": "Inquirer's Mawn page; the paper named it one of the toughest reservations in town"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (9.5)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "On Infatuation's 25 Best (9.5); flagged among the city's hardest bookings"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "news",
+          "url": "https://www.inquirer.com/food/restaurants/sao-bar-mawn-phila-lorn-20241204.html",
+          "note": "Coverage of Phila Lorn (Mawn) and his follow-up oyster bar Sao"
+        }
+      ],
+      "evidence": "Named the toughest reservation in town by the Inquirer — a tiny Bella Vista BYOB from 2025 James Beard Emerging Chef winner Phila Lorn; 30-day OpenTable drops evaporate."
+    },
+    {
+      "id": "zahav",
+      "name": "Zahav",
+      "neighborhood": "Society Hill",
+      "cuisine": "Israeli",
+      "coordinates": {
+        "lat": 39.9456,
+        "lng": -75.1467
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/zahav",
+      "website": "https://www.zahavrestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "11:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Full-service bar",
+        "lineBy": "Arrive around 5pm",
+        "advice": "The full bar seats walk-ins à la carte — get there around 5pm and you can eat the hummus and mesibah highlights without a reservation."
+      },
+      "tips": [
+        "Tables release on a rolling basis, 4 weeks to-the-day, one day at a time, at 11am ET",
+        "Full bar takes walk-ins à la carte around 5pm",
+        "VERIFY: confirm the James Beard 'Outstanding Restaurant' (2019) citation before publishing a specific award tier"
+      ],
+      "signatureDish": "Hummus tehina, laffa bread, and the slow-cooked lamb shoulder (the Mesibah feast)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "warm",
+        "iconic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "Michael Solomonov's Israeli landmark — the lamb shoulder for two is a Philadelphia rite of passage.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations / Fancy Dinner (9.2)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "'Released on a rolling basis, 4 weeks to-the-day, one day at a time, at 11am ET'; bar walk-ins ~5pm"
+        },
+        {
+          "name": "Resy",
+          "tier": "editorial (Toughest Reservations Philadelphia)",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "Resy features Zahav among Philadelphia's toughest reservations"
+        }
+      ],
+      "evidence": "America's most-lauded Israeli restaurant (multiple James Beard wins); one day of tables releases every morning at 11am, four weeks out, and disappears."
+    },
+    {
+      "id": "sao",
+      "name": "Sao",
+      "neighborhood": "East Passyunk",
+      "cuisine": "Southeast Asian oyster bar",
+      "coordinates": {
+        "lat": 39.9285,
+        "lng": -75.1654
+      },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/sao-philadelphia",
+      "website": "https://www.saophilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "Same-month dates released at noon on the 1st",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar seats",
+        "lineBy": "Before 5pm",
+        "advice": "Bar seats are held for walk-ins before 5pm — arrive early for oysters if the tables are gone."
+      },
+      "tips": [
+        "Reservations open at noon on the 1st of the month for that same month on OpenTable",
+        "Only 33 seats; bar seats held for walk-ins before 5pm",
+        "From the Mawn team — expect similar demand"
+      ],
+      "signatureDish": "Oysters and a Southeast Asian raw-bar spread (Phila Lorn)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "intimate",
+        "stylish"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "Phila Lorn's 33-seat follow-up to Mawn — oysters, nostalgia and South Philly cool for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Philly",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "'Releases reservations at noon on the first of the month for the following month'; bar walk-ins before 5pm"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "news",
+          "url": "https://www.inquirer.com/food/restaurants/sao-bar-mawn-phila-lorn-20241204.html",
+          "note": "Inquirer on Sao, Phila Lorn's Southeast Asian oyster-bar follow-up to Mawn"
+        }
+      ],
+      "evidence": "Phila Lorn's tiny 33-seat oyster bar and one of the hottest rooms in town; the whole month opens at noon on the 1st and books through quickly."
+    },
+    {
+      "id": "royal-sushi-izakaya-omakase",
+      "name": "Royal Sushi & Izakaya",
+      "neighborhood": "Queen Village",
+      "cuisine": "Japanese omakase / izakaya",
+      "coordinates": {
+        "lat": 39.9376,
+        "lng": -75.1471
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/royal-sushi-izakaya",
+      "website": "https://www.royalsushiandizakaya.com/",
+      "phoneNumber": "215-877-3175",
+      "releaseSchedule": "daily",
+      "releaseTime": "9:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM (izakaya room)",
+        "lineBy": "",
+        "advice": "The hidden 8-seat omakase counter is reservation-only, but the front izakaya and bar take walk-ins — arrive at opening for a seat."
+      },
+      "tips": [
+        "Widely called the single hardest reservation in Philadelphia — only 8 omakase seats behind the izakaya",
+        "Omakase (~$300 pp) opens 30 days out on Resy; the izakaya section opens ~14 days out",
+        "Set alarms and join Resy Notify — prime seats vanish in seconds",
+        "VERIFY exact Resy slug and 9:00 AM release time on the live Resy page"
+      ],
+      "signatureDish": "17-course nigiri omakase with fish flown in from Japan",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "counter seat",
+        "hushed sushi temple behind a curtain"
+      ],
+      "occasion": [
+        "special occasion",
+        "sushi pilgrimage",
+        "date night"
+      ],
+      "dateNote": "Eight stools, one chef, and a two-hour progression that feels like a private dinner for two.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "Hardest Reservations",
+          "url": "https://www.phillymag.com/foobooz/philly-reservation-secrets/",
+          "note": "Named the hardest reservation in Philly; ~$300 omakase, 8 bar seats, opens 30 days out"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "8 omakase bar seats; 'hardest reservation in Philadelphia,' 30 days in advance"
+        },
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "Bib Gourmand in the first Michelin Guide to Philadelphia (2025)"
+        }
+      ],
+      "evidence": "8-seat hidden omakase counter with a rejection rate locals compare to Ivy admissions; ~$300 seats release 30 days out on Resy and disappear instantly."
+    },
+    {
+      "id": "royal-sushi-omakase",
+      "name": "Royal Sushi & Izakaya (Omakase)",
+      "neighborhood": "Queen Village",
+      "cuisine": "Edomae sushi omakase",
+      "coordinates": {
+        "lat": 39.9376,
+        "lng": -75.1466
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/royal-sushi",
+      "website": "https://royalizakaya.com/sushi",
+      "phoneNumber": "215-877-3080",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Izakaya opens ~5:00 PM",
+        "lineBy": "",
+        "advice": "The 8-seat omakase counter never takes walk-ins. The izakaya bar behind it is first-come; izakaya tables open 14 days out on Resy."
+      },
+      "tips": [
+        "8 seats, two seatings nightly (6:00 & 8:15 PM), Tue-Sat — widely called the single hardest reservation in Philly",
+        "Set an alarm for exactly 30 days out and hit Notify on Resy",
+        "72-hour cancellation policy means late drops do appear — watch the waitlist",
+        "VERIFY exact daily release time"
+      ],
+      "signatureDish": "Chef's edomae nigiri omakase (~$355, service included)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "hidden counter",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "splurge",
+        "sushi pilgrimage"
+      ],
+      "dateNote": "Eight seats, two seatings, a chef an arm's length away — the most romantic scramble in the city if you can land it.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/pennsylvania/philadelphia_2942787/restaurants",
+          "note": "Bib Gourmand, first MICHELIN Guide Philadelphia 2026 (Royal Sushi & Izakaya)"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "review",
+          "url": "https://www.theinfatuation.com/philadelphia/reviews/royal-sushi-izakaya",
+          "note": "'The best sushi Philly has to offer (if you can get it)' — 8-seat omakase counter"
+        },
+        {
+          "name": "Resy",
+          "tier": "editorial",
+          "url": "https://blog.resy.com/2023/09/royal-sushi-omakase-philadelphia-reservations/",
+          "note": "Resy how-to: omakase opens 30 days in advance; two seatings, eight seats"
+        }
+      ],
+      "evidence": "8-seat omakase counter, two seatings; releases 30 days out and vanishes instantly — repeatedly named Philadelphia's toughest reservation."
+    },
+    {
+      "id": "kalaya",
+      "name": "Kalaya",
+      "neighborhood": "Fishtown",
+      "cuisine": "Southern Thai",
+      "coordinates": {
+        "lat": 39.9705,
+        "lng": -75.1355
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/kalaya",
+      "website": "https://kalayaphilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "VERIFY whether bar/walk-in seating is held; book on Resy as far ahead as the window allows."
+      },
+      "tips": [
+        "Books up every night — reserve on Resy as early as you can (VERIFY exact release day/time)",
+        "Chef Nok Suntaranon won the 2023 James Beard Award, Best Chef: Mid-Atlantic",
+        "Large room but demand outstrips it — flexibility on day/time helps"
+      ],
+      "signatureDish": "Southern Thai crab curry; whole-fish and family-style Thai feasts",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "festive",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "celebration",
+        "date-night"
+      ],
+      "dateNote": "Nok Suntaranon's soulful Southern Thai cooking in a big, buzzy Fishtown room — order the crab curry and share everything.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "editorial profile",
+          "url": "https://blog.resy.com/2024/09/kalaya-philly-nok-suntaranon/",
+          "note": "Resy profile of Nok Suntaranon; among the hottest, hardest-to-book tables in Philly"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (9.5)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "On Infatuation's 25 Best Restaurants in Philadelphia (9.5)"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "news",
+          "url": "https://www.inquirer.com/food/kalaya-new-location-fishtown-philadelphia-20221123.html",
+          "note": "Inquirer coverage of Kalaya's move to its larger Fishtown home"
+        }
+      ],
+      "evidence": "James Beard Best Chef: Mid-Atlantic; even at 145 seats it books out every night of the week, so Resy tables go fast."
+    },
+    {
+      "id": "my-loup",
+      "name": "My Loup",
+      "neighborhood": "Rittenhouse",
+      "cuisine": "French market cuisine",
+      "coordinates": {
+        "lat": 39.9505,
+        "lng": -75.1742
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/my-loup-philadelphia",
+      "website": "https://www.myloupphl.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "",
+      "bookingWindow": "Rolling 30 days, at noon daily",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations open ~30 days out at noon daily (VERIFY platform — OpenTable listing confirmed; the room has also used Resy)",
+        "Dinner Mon–Fri only; no Saturday night service",
+        "Menu changes daily"
+      ],
+      "signatureDish": "Daily-changing French-inspired market menu (Alex Kemp & Amanda Shulman)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "warm",
+        "neighborhood-gem"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "The homey French sibling to Her Place — a candle-lit two-top and a menu that changes daily.",
+      "sources": [
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "Craig LaBan review",
+          "url": "https://www.inquirer.com/food/craig-laban/my-loup-restaurant-review-philadelphia-20230905.html",
+          "note": "LaBan: 'an impressive debut for Philly's newest restaurant power couple'"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (9.3)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "On Infatuation's 25 Best (9.3)"
+        },
+        {
+          "name": "Resy",
+          "tier": "editorial profile",
+          "url": "https://blog.resy.com/2025/03/my-loup-her-place-supper-club-alex-kemp-amanda-shulman-philly/",
+          "note": "Resy portrait of chefs Alex Kemp & Amanda Shulman of My Loup and Her Place"
+        }
+      ],
+      "evidence": "From the Her Place power couple; no Saturday service and a small room means the noon, 30-day-out drop is snapped up — Saturday-equivalent nights are famously hard."
+    },
+    {
+      "id": "vetri-cucina",
+      "name": "Vetri Cucina",
+      "neighborhood": "Washington Square West",
+      "cuisine": "Italian tasting menu",
+      "coordinates": {
+        "lat": 39.9464,
+        "lng": -75.1636
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/vetri",
+      "website": "https://vetricucina.com/",
+      "phoneNumber": "215-732-3478",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "Next month released on the 1st",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations released on the 1st of the month for the following month (VERIFY exact time; platform has been both OpenTable and Tock)",
+        "Only 32 seats; tasting menus ~$165–215 with wine pairings",
+        "Historic Spruce Street townhome"
+      ],
+      "signatureDish": "Marc Vetri's housemade pastas; the Forchetta and Quattro Piatti tasting menus",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "fine-dining",
+        "romantic",
+        "iconic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A 32-seat historic townhome with Murano chandeliers — Philadelphia's most classic special-occasion Italian.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Fancy Dinner (9.1)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/best-fine-dining-restaurants-special-occasions-philadelphia",
+          "note": "On Infatuation's fine-dining guide; four-course tasting ~$175 plus pairings"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (9.1)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "On Infatuation's 25 Best Restaurants in Philadelphia (9.1)"
+        }
+      ],
+      "evidence": "Marc Vetri's landmark tasting-menu townhouse seats only 32; reservations release on the 1st for the following month and the prime nights go quickly."
+    },
+    {
+      "id": "laser-wolf",
+      "name": "Laser Wolf",
+      "neighborhood": "Kensington/Fishtown",
+      "cuisine": "Israeli shipudim (grill)",
+      "coordinates": {
+        "lat": 39.9718,
+        "lng": -75.1372
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/laser-wolf",
+      "website": "https://www.laserwolfphilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "11:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations release rolling ~4 weeks to-the-day at 11am ET (VERIFY: some listings describe a first-of-month release)",
+        "Prix-fixe skewer format with unlimited salatim",
+        "In the 2025 Philadelphia Michelin Guide selection"
+      ],
+      "signatureDish": "Skewers (shipudim) with an all-you-can-eat salatim spread and soft-serve finish",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "festive",
+        "fun",
+        "group-friendly"
+      ],
+      "occasion": [
+        "date-night",
+        "celebration",
+        "impress"
+      ],
+      "dateNote": "Solomonov's grill: a table of salatim, skewers and a swirl of tahini soft-serve — joyful and delicious for two.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine",
+          "tier": "feature",
+          "url": "https://www.phillymag.com/restaurants/2020/02/04/laser-wolf-opening-solomonov-philadelphia/",
+          "note": "Phillymag: 'Go get a reservation at Laser Wolf while you still can' — instant hit for Solomonov"
+        },
+        {
+          "name": "Resy",
+          "tier": "venue",
+          "url": "https://resy.com/cities/philadelphia-pa/venues/laser-wolf",
+          "note": "Laser Wolf's Resy booking page"
+        }
+      ],
+      "evidence": "Michael Solomonov's runaway-hit Israeli grill; the fixed shipudim format and rolling ~11am daily release mean weekend seats vanish fast."
+    },
+    {
+      "id": "vernick-food-and-drink",
+      "name": "Vernick Food & Drink",
+      "neighborhood": "Rittenhouse",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 39.9503,
+        "lng": -75.1748
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/vernick-food-and-drink",
+      "website": "https://www.vernickphilly.com/vernick-food-and-drink",
+      "phoneNumber": "",
+      "releaseSchedule": "calendar-month",
+      "releaseTime": "8:00 AM ET",
+      "releaseDay": "1st of the month",
+      "bookingWindow": "36 days",
+      "bookingWindowDays": 36,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar/lounge",
+        "lineBy": "",
+        "advice": "The bar and lounge are left unreserved for walk-in dining and stay open late — a reliable way in without a booking."
+      },
+      "tips": [
+        "Dining-room reservations open at 8:00am on the 1st of the month for the following month on Resy",
+        "Bar/lounge is unreserved for walk-ins and open until ~11:45pm",
+        "Greg Vernick is a James Beard Award winner"
+      ],
+      "signatureDish": "Greg Vernick's toasts and wood-roasted fish; ever-changing New American plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "refined",
+        "warm",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "James Beard-winner Greg Vernick's flagship — grab two bar seats for the toasts if the tables are booked.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Fancy Dinner (7.9)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/best-fine-dining-restaurants-special-occasions-philadelphia",
+          "note": "On Infatuation's Philadelphia fine-dining guide"
+        },
+        {
+          "name": "Resy",
+          "tier": "venue",
+          "url": "https://resy.com/cities/philadelphia-pa/venues/vernick-food-and-drink",
+          "note": "Vernick Food & Drink's Resy booking page; monthly 1st-of-month release"
+        }
+      ],
+      "evidence": "James Beard Award-winning chef's flagship; dinner tables release the full month at 8am on the 1st and the dining room books out, leaving only the walk-in bar."
+    },
+    {
+      "id": "little-fish",
+      "name": "Little Fish",
+      "neighborhood": "Queen Village",
+      "cuisine": "Seafood tasting (BYOB)",
+      "coordinates": {
+        "lat": 39.9398,
+        "lng": -75.152
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/little-fish-philadelphia",
+      "website": "https://www.littlefishbyob.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 16 seats; two seatings (6pm & 8:15pm), Mon–Sat; ~$120 seafood tasting",
+        "BYOB; $50/guest cancellation fee within 24 hours",
+        "VERIFY exact release window/time before publishing"
+      ],
+      "signatureDish": "Scallop toast — sweet raw scallops over sesame toast under warm chili oil",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "cozy",
+        "neighborhood-gem"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "Sixteen seats and a BYO bottle — one of Philly's smallest, most romantic seafood counters.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (9.3)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "On Infatuation's 25 Best Restaurants in Philadelphia (9.3)"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "restaurant page",
+          "url": "https://www.inquirer.com/food/restaurants/little-fish/",
+          "note": "Inquirer's Little Fish page — one of the pioneers and smallest of Philly's BYOB scene"
+        }
+      ],
+      "evidence": "A 16-seat BYOB with a chef's-choice seafood tasting and two nightly seatings — capacity so small that any given night sells through."
+    },
+    {
+      "id": "river-twice",
+      "name": "River Twice",
+      "neighborhood": "East Passyunk",
+      "cuisine": "New American tasting menu",
+      "coordinates": {
+        "lat": 39.9297,
+        "lng": -75.1636
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/river-twice",
+      "website": "https://www.rivertwicerestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Four-course tasting ~$85 with optional pairings; open Fri–Mon only",
+        "Book on Resy (VERIFY exact release window)",
+        "2024 James Beard semifinalist"
+      ],
+      "signatureDish": "Ever-evolving four-course seasonal tasting (the Ruckers)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "refined",
+        "neighborhood-gem"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "A small Passyunk room and a four-course menu that never repeats — an easy place to fall for the person across the table.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "review",
+          "url": "https://www.theinfatuation.com/philadelphia/reviews/river-twice",
+          "note": "Infatuation review: 'experimental cuisine in a Passyunk package'"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "restaurant page",
+          "url": "https://www.inquirer.com/food/restaurants/river-twice/",
+          "note": "Inquirer coverage; James Beard semifinalist New American tasting menu"
+        }
+      ],
+      "evidence": "Tiny East Passyunk tasting-menu room, James Beard semifinalist, open only Fri–Mon — limited seatings on limited nights make it a scramble."
+    },
+    {
+      "id": "kampar",
+      "name": "Kampar",
+      "neighborhood": "Bella Vista",
+      "cuisine": "Malaysian / Hakka",
+      "coordinates": {
+        "lat": 39.9407,
+        "lng": -75.1552
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/kampar",
+      "website": "https://www.kamparphilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve on Tock (also listed on OpenTable — VERIFY current platform & release timing)",
+        "Bi-level space celebrating Malaysian street food and Hakka cuisine",
+        "James Beard Foundation has hosted Kampar Kongsi programming"
+      ],
+      "signatureDish": "Satay and traditional Malaysian street foods & Hakka dishes (Ange Branca)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "warm",
+        "distinctive"
+      ],
+      "occasion": [
+        "date-night",
+        "adventurous",
+        "impress"
+      ],
+      "dateNote": "Ange Branca's return with a bi-level celebration of Malaysian cooking — order the satay and share your way through the menu.",
+      "sources": [
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "restaurant page",
+          "url": "https://www.inquirer.com/food/restaurants/kampar/",
+          "note": "Inquirer's Kampar page — Ange Branca's Malaysian restaurant and 'platform for underrepresented food'"
+        },
+        {
+          "name": "James Beard",
+          "tier": "program",
+          "url": "https://www.jamesbeard.org/events/platform-beverage-seminar-kampar-kongsi",
+          "note": "James Beard Foundation beverage seminar featuring Philadelphia's Kampar Kongsi"
+        },
+        {
+          "name": "PhillyVoice",
+          "tier": "news",
+          "url": "https://www.phillyvoice.com/sate-kampar-reopening-bella-vista-malaysian-ange-branca/",
+          "note": "PhillyVoice on Ange Branca's return in a bigger Bella Vista space"
+        }
+      ],
+      "evidence": "Chef Ange Branca's acclaimed Malaysian comeback in a small bi-level Bella Vista space; a James Beard-recognized kitchen with limited seats and steady demand."
+    },
+    {
+      "id": "tesiny",
+      "name": "Tesiny",
+      "neighborhood": "Passyunk Square",
+      "cuisine": "Seafood / raw bar",
+      "coordinates": {
+        "lat": 39.9305,
+        "lng": -75.1574
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/tesiny",
+      "website": "https://www.tesiny.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "41 days",
+      "bookingWindowDays": 41,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Raw bar seats",
+        "lineBy": "",
+        "advice": "Raw-bar and table seats are all reservable on Resy, but book as far ahead as you can — there's no monthly drop, so grab future dates whenever they appear."
+      },
+      "tips": [
+        "No one-month-in-advance system — book the furthest-out dates on Resy as soon as they load (VERIFY Resy venue slug)",
+        "Raw-bar seats and tables are all reservable in advance",
+        "Opened September 2025; exec chef Michael Valent"
+      ],
+      "signatureDish": "Chilled seafood plateau, tangy broiled oysters, and a showstopping wagyu culotte",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "stylish",
+        "buzzy",
+        "date-night"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "A glam Passyunk oyster bar with an open kitchen — cocktails, a chilled plateau and low light for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "review / Toughest Reservations",
+          "url": "https://www.theinfatuation.com/philadelphia/reviews/tesiny",
+          "note": "Infatuation: 'Tesiny's cocktails and seafood measure up to its stylish scene'; book two months in advance"
+        },
+        {
+          "name": "Foobooz",
+          "tier": "first look",
+          "url": "https://www.phillymag.com/foobooz/2025/08/11/tesiny-oyster-bar/",
+          "note": "Philadelphia Magazine's Foobooz first look at East Passyunk's glam new oyster bar"
+        }
+      ],
+      "evidence": "One of the city's buzziest 2025 openings; 'a total reservation free-for-all' with no monthly system, so the good tables get claimed two months out."
+    },
+    {
+      "id": "fiorella",
+      "name": "Fiorella",
+      "neighborhood": "Bella Vista",
+      "cuisine": "Pasta",
+      "coordinates": {
+        "lat": 39.9385,
+        "lng": -75.1576
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/fiorella-philadelphia",
+      "website": "https://www.fiorellaphilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling 30 days in advance",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar seats",
+        "lineBy": "",
+        "advice": "Bar seats open up for walk-ins, and 4pm reservations occasionally get released — worth a look day-of."
+      },
+      "tips": [
+        "Reservations open 30 days in advance on OpenTable; bar seats for walk-ins, occasional 4pm releases (VERIFY OpenTable slug)",
+        "Very small room — flexibility helps",
+        "Michelin Bib Gourmand in the inaugural 2025 Philadelphia guide"
+      ],
+      "signatureDish": "Fresh handmade pasta (Marc Vetri's tiny Christian Street pasta counter)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "cozy",
+        "neighborhood-gem"
+      ],
+      "occasion": [
+        "date-night",
+        "casual",
+        "impress"
+      ],
+      "dateNote": "A jewel-box pasta counter on historic Christian Street — a plate of hand-rolled pasta and a glass of wine, elbow to elbow.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "Fiorella named a Bib Gourmand in the first Philadelphia Michelin Guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in Philly",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "'Opens 30 days in advance'; bar seats and occasional 4pm reservations for walk-ins"
+        }
+      ],
+      "evidence": "Marc Vetri's minuscule Bella Vista pasta room; a Michelin Bib Gourmand with a 30-day window that fills the moment it opens."
+    },
+    {
+      "id": "pizzeria-beddia",
+      "name": "Pizzeria Beddia",
+      "neighborhood": "Fishtown",
+      "cuisine": "Pizza",
+      "coordinates": {
+        "lat": 39.9716,
+        "lng": -75.1348
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/pizzeria-beddia",
+      "website": "https://www.pizzeriabeddia.com/",
+      "phoneNumber": "(267) 928-2256",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Roughly half the tables are held for walk-ins",
+        "lineBy": "Arrive at open",
+        "advice": "About half the tables are kept for walk-ins — come right at opening on a weeknight and you can skip the Resy scramble entirely."
+      },
+      "tips": [
+        "Reserve on Resy, but ~half the tables are held for walk-ins — arrive at opening",
+        "Private Hoagie Room and Pizza Party formats exist for groups",
+        "Michelin Bib Gourmand in the inaugural 2025 Philadelphia guide"
+      ],
+      "signatureDish": "The pizza — Joe Beddia's blistered pies, plus soft serve",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "casual",
+        "buzzy",
+        "fun"
+      ],
+      "occasion": [
+        "date-night",
+        "casual",
+        "adventurous"
+      ],
+      "dateNote": "Once dubbed the best pizza in America — grab a walk-in two-top, a natural wine, and a couple of pies.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "Pizzeria Beddia named a Bib Gourmand in the first Philadelphia Michelin Guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (9.0)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "On Infatuation's 25 Best Restaurants in Philadelphia (9.0)"
+        }
+      ],
+      "evidence": "Joe Beddia's Fishtown pizzeria remains a perennial hot table and a Michelin Bib Gourmand; the reservable tables go quickly, so timing the walk-in is the move."
+    },
+    {
+      "id": "forsythia",
+      "name": "Forsythia",
+      "neighborhood": "Old City",
+      "cuisine": "Modern French",
+      "coordinates": {
+        "lat": 39.9483,
+        "lng": -75.1447
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/forsythia",
+      "website": "https://www.forsythiaphilly.com/",
+      "phoneNumber": "(215) 644-9395",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve on Resy or call (215) 644-9395 (VERIFY release window)",
+        "Dinner Mon–Sat 5–10pm, Sun 5–9pm",
+        "Philadelphia Magazine 'Best of Philly' — Best French Restaurant"
+      ],
+      "signatureDish": "Modern French cooking (Christopher Kearse)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "refined",
+        "intimate"
+      ],
+      "occasion": [
+        "date-night",
+        "anniversary",
+        "impress"
+      ],
+      "dateNote": "Chris Kearse's polished French room in Old City — one of the city's most quietly romantic dinners for two.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine",
+          "tier": "Best of Philly",
+          "url": "https://www.phillymag.com/best-of-philly-archive/chris-kearses-forsythia/",
+          "note": "Named Best French Restaurant in Philadelphia Magazine's Best of Philly"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "Let's Eat",
+          "url": "https://www.inquirer.com/food/michael-klein/forsythia-old-city-christopher-kearse-restaurants-philadelphia-20190821.html",
+          "note": "Inquirer coverage of Christopher Kearse's Old City French restaurant"
+        }
+      ],
+      "evidence": "Chef Christopher Kearse's acclaimed Old City French room, named Philadelphia Magazine's Best French Restaurant; a small dining room keeps prime weekend seats scarce."
+    },
+    {
+      "id": "emilia",
+      "name": "Emilia",
+      "neighborhood": "Kensington/Fishtown",
+      "cuisine": "Italian / pasta",
+      "coordinates": {
+        "lat": 39.972,
+        "lng": -75.135
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/emilia",
+      "website": "https://www.vernickphilly.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "VERIFY current booking platform, exact address and release mechanics — recently opened",
+        "Handmade pasta from the Vernick team",
+        "On Infatuation's 25 Best Restaurants in Philadelphia (9.3)"
+      ],
+      "signatureDish": "Emilia-Romagna-style handmade pasta (Greg Vernick's pasta-driven Fishtown project)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "buzzy",
+        "warm",
+        "of-the-moment"
+      ],
+      "occasion": [
+        "date-night",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "Greg Vernick's newest, pasta-driven chapter in Fishtown — hand-rolled pasta and a buzzy new-restaurant glow.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (9.3)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "On Infatuation's 25 Best Restaurants in Philadelphia (9.3), listed in Kensington"
+        },
+        {
+          "name": "Resy",
+          "tier": "editorial feature",
+          "url": "https://blog.resy.com/2026/01/emilia-philly/",
+          "note": "Resy: 'Inside Emilia, Greg Vernick's next pasta-driven chapter in Fishtown'"
+        }
+      ],
+      "evidence": "Greg Vernick's high-profile new pasta restaurant landed straight onto Infatuation's 25 Best; a hot 2026 opening from a James Beard-winning chef, so tables are hard from day one."
+    },
+    {
+      "id": "hiroki",
+      "name": "Hiroki",
+      "neighborhood": "Fishtown",
+      "cuisine": "Japanese omakase",
+      "coordinates": {
+        "lat": 39.9702,
+        "lng": -75.136
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/hiroki",
+      "website": "https://hirokisan.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "12-seat omakase counter; Wed-Sat seatings at 6:00 PM and 8:30 PM, ~$195 pp (optional $70 sake pairing)",
+        "Books via Resy and the restaurant's site; the counter is the seat to get",
+        "VERIFY the release cadence/window on Resy — Hiroki does not publish a fixed drop time"
+      ],
+      "signatureDish": "21-course nigiri omakase (~$195 pp)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "counter seat",
+        "hushed"
+      ],
+      "occasion": [
+        "special occasion",
+        "sushi pilgrimage",
+        "date night"
+      ],
+      "dateNote": "A 12-seat blond-wood counter from a Morimoto alum, tucked on Fishtown's restaurant alley — quietly one of Philly's best sushi seats for two.",
+      "sources": [
+        {
+          "name": "Craig LaBan",
+          "tier": "Review",
+          "url": "https://www.inquirer.com/food/craig-laban/hiroki-review-omakase-oasis-morimoto-alum-lures-luxury-seekers-fishtowns-restaurant-alley-20190809.html",
+          "note": "LaBan review: 'Omakase oasis from Morimoto alum' on Fishtown's restaurant alley"
+        },
+        {
+          "name": "Michelin",
+          "tier": "Selected 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "In the first Michelin Guide to Philadelphia selection (2025)"
+        }
+      ],
+      "evidence": "Michelin-listed 12-seat omakase counter with only two seatings, four nights a week; the counter is a scarce, reservation-only ticket."
+    },
+    {
+      "id": "alpen-rose",
+      "name": "Alpen Rose",
+      "neighborhood": "Midtown Village",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 39.949,
+        "lng": -75.162
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/alpen-rose",
+      "website": "",
+      "phoneNumber": "215-600-0709",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins are possible but tough given the small room; call the reservations line at 2 PM for openings."
+      },
+      "tips": [
+        "Reservations open one month in advance on Resy for a small, high-demand room",
+        "Reservations team reachable at (215) 600-0709 daily at 2 PM for cancellations",
+        "VERIFY the exact daily release time on Resy"
+      ],
+      "signatureDish": "Dry-aged steak; Alpine-inspired sides",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "glamorous",
+        "clubby",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "special occasion",
+        "date night"
+      ],
+      "dateNote": "A jewel-box Midtown Village steakhouse that became a full-blown sensation — plush and made for a celebration.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Toughest Reservations",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "One month in advance; reservations team available at 2 p.m. daily"
+        },
+        {
+          "name": "Resy",
+          "tier": "Feature",
+          "url": "https://blog.resy.com/2023/03/alpen-rose-philadelphia/",
+          "note": "'Alpen Rose Has Become a Philadelphia Steakhouse Sensation'"
+        }
+      ],
+      "evidence": "A pint-sized Midtown Village steakhouse sensation; the one-month Resy window fills fast and walk-ins are a long shot."
+    },
+    {
+      "id": "bomb-bomb",
+      "name": "Bomb Bomb BBQ Grill & Italian Restaurant",
+      "neighborhood": "Lower Moyamensing",
+      "cuisine": "Italian-American & barbecue",
+      "coordinates": {
+        "lat": 39.9207,
+        "lng": -75.166
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/bomb-bomb",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The back bar is walk-ins only — a reliable path in when the dining room is booked."
+      },
+      "tips": [
+        "Reservations open 21 days in advance on Resy for this revived South Philly classic",
+        "The back bar is walk-ins only",
+        "VERIFY the exact Resy slug and release time"
+      ],
+      "signatureDish": "Barbecue ribs and red-gravy Italian classics",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "old-school South Philly",
+        "revived classic",
+        "convivial"
+      ],
+      "occasion": [
+        "date night",
+        "casual celebration",
+        "neighborhood dinner"
+      ],
+      "dateNote": "A century-old South Philly corner reborn — red-gravy nostalgia and smoky ribs in a room that fills up nightly.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Toughest Reservations",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "21 days in advance; back bar is walk-ins only"
+        }
+      ],
+      "evidence": "Revived century-old South Philly favorite with a short 21-day Resy window; the back bar is the walk-in fallback."
+    },
+    {
+      "id": "middle-child-clubhouse",
+      "name": "Middle Child Clubhouse",
+      "neighborhood": "Fishtown",
+      "cuisine": "American diner / all-day",
+      "coordinates": {
+        "lat": 39.9685,
+        "lng": -75.1372
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/middle-child-clubhouse",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "23 days",
+      "bookingWindowDays": 23,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Breakfast (weekdays easier)",
+        "lineBy": "",
+        "advice": "For breakfast, arrive first thing on weekends or come on a weekday; dinner is the reservation to scheme over."
+      },
+      "tips": [
+        "Dinner reservations are the hard part; released ~30 days out on Resy",
+        "For breakfast, line up early on weekends or go on a weekday",
+        "VERIFY the exact Resy slug and release time"
+      ],
+      "signatureDish": "Elevated diner fare; the Clubhouse's riffed-on classics",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "playful",
+        "retro diner",
+        "all-day"
+      ],
+      "occasion": [
+        "date night",
+        "brunch",
+        "casual"
+      ],
+      "dateNote": "The grown-up, sit-down sequel to the beloved Middle Child sandwich shop — a fun, unfussy Fishtown date.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/toughest-restaurant-reservations-philly",
+          "note": "Dinner reservations available on Resy; breakfast is walk-in with weekend lines"
+        }
+      ],
+      "evidence": "The sit-down Clubhouse from the cult Middle Child team; dinner tables on the ~30-day Resy window are among the Infatuation's toughest Philly picks."
+    },
+    {
+      "id": "southwark",
+      "name": "Southwark",
+      "neighborhood": "Queen Village",
+      "cuisine": "New American / French-American",
+      "coordinates": {
+        "lat": 39.9403,
+        "lng": -75.1473
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/southwarkand-ambra",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "56 days",
+      "bookingWindowDays": 56,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar opens at dinner service",
+        "lineBy": "",
+        "advice": "The bar and plant-filled back patio take walk-ins for cocktails and the half-portion pastas even when the dining room is booked; go early-week or before 6 PM."
+      },
+      "tips": [
+        "Book the dining room on Resy; bar and patio are walk-in for drinks and small plates",
+        "Shares a Resy page with sister spot Ambra",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Half-portion seasonal pastas; classic cocktails named for movie lines",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "candlelit",
+        "neighborhood-classic"
+      ],
+      "occasion": [
+        "date night",
+        "anniversary"
+      ],
+      "dateNote": "A 20-year Queen Village corner room made for a lingering two-top over shared pastas and a great cocktail.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #30 on the 2026 50 Best Restaurants list (Queen Village, Modern Italian/New American)"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/philadelphia/reviews/southwark",
+          "note": "Infatuation review of the Queen Village bar-and-dining-room classic"
+        }
+      ],
+      "evidence": "Long-running Chris D'Ambro/Marina De Oliveira flagship; #30 on Foobooz's 2026 50 Best and an Infatuation favorite. A perennial that stays gettable midweek and via the bar/patio."
+    },
+    {
+      "id": "le-virtu",
+      "name": "Le Virtù",
+      "neighborhood": "East Passyunk",
+      "cuisine": "Abruzzese Italian",
+      "coordinates": {
+        "lat": 39.9248,
+        "lng": -75.1655
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/le-virtu",
+      "website": "",
+      "phoneNumber": "(215) 271-5626",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and a few tables can absorb walk-ins on weeknights; weekends need a reservation."
+      },
+      "tips": [
+        "Ask about the garden in warm months",
+        "Special feast dinners (La Panarda) sell out far ahead",
+        "VERIFY release time"
+      ],
+      "signatureDish": "House-cured salumi; chitarra pasta; rustic lamb and rabbit",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "rustic-romantic",
+        "garden patio",
+        "regional Italian"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion"
+      ],
+      "dateNote": "Nearly two decades of Abruzzo cooking and a summer garden that's one of South Philly's most romantic tables for two.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #37 on the 2026 50 Best Restaurants list (East Passyunk, Italian)"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/philadelphia/reviews/le-virtu",
+          "note": "Infatuation review of the East Passyunk Abruzzese restaurant"
+        }
+      ],
+      "evidence": "Philadelphia's definitive Abruzzese kitchen; #37 on Foobooz's 2026 50 Best and an Infatuation pick. Weekends fill but weeknights and the garden stay bookable."
+    },
+    {
+      "id": "suraya",
+      "name": "Suraya",
+      "neighborhood": "Fishtown",
+      "cuisine": "Lebanese / Levantine",
+      "coordinates": {
+        "lat": 39.9705,
+        "lng": -75.1338
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/suraya",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "A few bar seats are held for walk-ins but go fast at peak dinner; arrive at opening or come off-peak."
+      },
+      "tips": [
+        "Reservations drop 30 days in advance (Resy)",
+        "Fri/Sat dinner in the dining room requires the tasting menu",
+        "Café and market are walk-in all day",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Hummus and mezze; mixed grill; weekend tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "all-day market",
+        "greenhouse garden",
+        "lively"
+      ],
+      "occasion": [
+        "date night",
+        "group dinner",
+        "brunch"
+      ],
+      "dateNote": "Café by day, glowing restaurant and garden by night — grab mezze in the greenhouse for an easy, beautiful date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial — Toughest Reservations in Philadelphia",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "Listed among Philadelphia's toughest reservations; reservations drop 30 days in advance, limited bar walk-ins"
+        }
+      ],
+      "evidence": "Award-winning Fishtown market/restaurant/garden; named among Philadelphia's toughest reservations by Resy but generous capacity keeps it bookable 30 days out and off-peak."
+    },
+    {
+      "id": "barclay-prime",
+      "name": "Barclay Prime",
+      "neighborhood": "Rittenhouse",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 39.9487,
+        "lng": -75.1723
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/barclay-prime",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Weekends and holidays book out — reserve ahead",
+        "VERIFY release time and exact platform URL"
+      ],
+      "signatureDish": "Dry-aged steaks; the $200 wagyu-and-foie cheesesteak with truffles",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "plush",
+        "clubby",
+        "special occasion"
+      ],
+      "occasion": [
+        "celebration",
+        "anniversary",
+        "business dinner"
+      ],
+      "dateNote": "Stephen Starr's glamorous Rittenhouse chophouse — split the famous luxe cheesesteak and a big Cabernet for a blowout date.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #46 on the 2026 50 Best Restaurants list (Rittenhouse, Steakhouse)"
+        }
+      ],
+      "evidence": "Iconic Starr steakhouse and home of the celebrity $200 cheesesteak; #46 on Foobooz's 2026 50 Best. Special-occasion demand, but bookable with a little lead time."
+    },
+    {
+      "id": "ama",
+      "name": "Amá",
+      "neighborhood": "Fishtown / Olde Kensington",
+      "cuisine": "Regional Mexican",
+      "coordinates": {
+        "lat": 39.9738,
+        "lng": -75.1418
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/ama-pa",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar takes walk-ins; reserve for weekend dinner."
+      },
+      "tips": [
+        "Bar walk-ins available",
+        "VERIFY platform URL / Resy slug",
+        "VERIFY release time and current address"
+      ],
+      "signatureDish": "Regional Mexican plates; house masa; mezcal and agave cocktails",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "colorful",
+        "spirited",
+        "chef-driven"
+      ],
+      "occasion": [
+        "date night",
+        "group dinner",
+        "drinks"
+      ],
+      "dateNote": "Chef Frankie Ramirez's regional Mexican cooking and a deep agave list make for a spirited, festive two-top.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #18 on the 2026 50 Best Restaurants list (Kensington, Mexican)"
+        }
+      ],
+      "evidence": "Chef Frankie Ramirez's regional Mexican spot, one of the restaurants that defined Philadelphia's 2025; #18 on Foobooz's 2026 50 Best. Buzzy but bookable ahead."
+    },
+    {
+      "id": "roxanne",
+      "name": "Roxanne",
+      "neighborhood": "Queen Village / South Street",
+      "cuisine": "New American",
+      "coordinates": {
+        "lat": 39.941,
+        "lng": -75.1442
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/roxanne",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Small room; bar walk-ins on quieter nights."
+      },
+      "tips": [
+        "VERIFY platform URL / Resy slug",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Playful, expressive New American plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "creative",
+        "intimate",
+        "chef-driven"
+      ],
+      "occasion": [
+        "date night",
+        "foodie dinner"
+      ],
+      "dateNote": "A small, expressive kitchen doing personal New American cooking — a fun choose-your-own-adventure date near South Street.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #12 on the 2026 50 Best Restaurants list (Queen Village, New American)"
+        }
+      ],
+      "evidence": "#12 on Foobooz's 2026 50 Best; a distinctive chef-driven room that's competitive on weekends but bookable ahead."
+    },
+    {
+      "id": "double-knot",
+      "name": "Double Knot",
+      "neighborhood": "Midtown Village",
+      "cuisine": "Japanese / robata / sushi",
+      "coordinates": {
+        "lat": 39.9497,
+        "lng": -75.1628
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/doubleknot",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Upstairs café/bar is walk-in; happy hour is easiest",
+        "lineBy": "",
+        "advice": "The upstairs coffee-and-cocktail level is walk-in; the downstairs izakaya/omakase takes reservations. Happy hour is the easy way in."
+      },
+      "tips": [
+        "Reservations release about a month in advance (Resy)",
+        "Upstairs café/bar is walk-in; downstairs izakaya takes reservations",
+        "VERIFY platform URL / Resy slug",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Robata skewers; sushi; Japanese small plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "dark and sceney",
+        "subterranean",
+        "date-night"
+      ],
+      "occasion": [
+        "date night",
+        "drinks",
+        "group dinner"
+      ],
+      "dateNote": "Head downstairs into the dark, buzzy izakaya for skewers and sake — a reliably sexy date-night move.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial — Toughest Reservations in Philadelphia",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "Listed among sought-after Philadelphia tables; reservations one month in advance, walk-ins especially at happy hour"
+        }
+      ],
+      "evidence": "Schulson's perennially popular multi-level Japanese spot; Resy lists it among the city's in-demand tables. Downstairs books ~a month out; upstairs is walk-in."
+    },
+    {
+      "id": "dancerobot",
+      "name": "Dancerobot",
+      "neighborhood": "Rittenhouse",
+      "cuisine": "Japanese-inflected comfort / New American",
+      "coordinates": {
+        "lat": 39.9498,
+        "lng": -75.172
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/dancerobot",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Bar seating is walk-in only",
+        "lineBy": "",
+        "advice": "Bar seats are walk-in only — arrive early for a shot at them when tables are gone."
+      },
+      "tips": [
+        "Reservations release three weeks in advance (Resy)",
+        "Bar seating is walk-in only",
+        "VERIFY platform URL / Resy slug and exact address",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Pork katsu with curry; mentaiko pasta",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "playful",
+        "comfort-driven",
+        "buzzy"
+      ],
+      "occasion": [
+        "date night",
+        "casual dinner"
+      ],
+      "dateNote": "A fun, comfort-driven Rittenhouse room — pork katsu and mentaiko pasta at the walk-in bar make a low-stress date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial — Toughest Reservations in Philadelphia",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "Listed among sought-after tables; reservations three weeks in advance, bar seating walk-in only"
+        }
+      ],
+      "evidence": "One of the restaurants that defined Philadelphia's 2025; Resy notes a 3-week booking window with walk-in-only bar seating."
+    },
+    {
+      "id": "sally",
+      "name": "Sally",
+      "neighborhood": "Rittenhouse",
+      "cuisine": "Sourdough pizza / small plates",
+      "coordinates": {
+        "lat": 39.948,
+        "lng": -75.176
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/sally",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Small room; bar/counter walk-ins possible on quieter nights."
+      },
+      "tips": [
+        "Small room — reserve for weekends",
+        "VERIFY platform URL / Resy slug and exact address",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Wood-fired sourdough pizza; seasonal small plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "chef-driven",
+        "natural wine"
+      ],
+      "occasion": [
+        "date night",
+        "casual-cool dinner"
+      ],
+      "dateNote": "A tiny, cool Rittenhouse room turning out sourdough pizza and small plates — a charming, unfussy date for two.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand 2025",
+          "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/all-the-stars-and-bib-gourmands-in-the-first-michelin-guide-to-philadelphia-2025",
+          "note": "Named a Bib Gourmand in the first MICHELIN Guide to Philadelphia (2025) — sourdough pizza and small plates"
+        }
+      ],
+      "evidence": "Named a Bib Gourmand in the inaugural 2025 MICHELIN Guide Philadelphia; a small, in-demand room that's still reservable within the standard window."
+    },
+    {
+      "id": "honeysuckle",
+      "name": "Honeysuckle",
+      "neighborhood": "North Broad",
+      "cuisine": "African-diaspora (tasting)",
+      "coordinates": {
+        "lat": 39.9638,
+        "lng": -75.16
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/honeysuckle-philadelphia",
+      "website": "https://www.honeysuckleprovisions.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Prix-fixe tasting (about $95, or $135 with pairings)",
+        "Reserve via OpenTable",
+        "VERIFY exact OpenTable link before relying on it"
+      ],
+      "signatureDish": "African-diaspora tasting menu sourced from local Black farmers",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "soulful",
+        "narrative",
+        "intimate"
+      ],
+      "occasion": [
+        "special occasion",
+        "date night",
+        "milestone"
+      ],
+      "dateNote": "A storytelling tasting menu that turns dinner for two into something deeper.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine",
+          "tier": "50 Best 2026 (#2)",
+          "url": "https://www.phillymag.com/restaurants/50-best-restaurants/",
+          "note": "#2 on the 2026 50 Best; a narrative of Black foodways"
+        },
+        {
+          "name": "The Philadelphia Inquirer",
+          "tier": "news/review",
+          "url": "https://www.inquirer.com/food/restaurants/honeysuckle-provisions-north-philly-omar-tate-20241216.html",
+          "note": "Inquirer coverage of Honeysuckle's relocation and Omar Tate's acclaim"
+        }
+      ],
+      "evidence": "Omar Tate and Cybille St.Aude-Tate's narrative African-diaspora tasting menu (#2 Phillymag); a bookable-ahead special occasion."
+    },
+    {
+      "id": "mish-mish",
+      "name": "Mish Mish",
+      "neighborhood": "East Passyunk / Passyunk Square",
+      "cuisine": "Mediterranean / Israeli",
+      "coordinates": {
+        "lat": 39.9268,
+        "lng": -75.1582
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/mish-mish-philadelphia",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "38 days",
+      "bookingWindowDays": 38,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Small BYOB; walk-ins possible on weeknights, reserve for weekends."
+      },
+      "tips": [
+        "BYOB",
+        "VERIFY platform URL / Resy slug",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Hummus and Mediterranean mezze; house pita",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "neighborhood BYOB",
+        "warm",
+        "chef-driven"
+      ],
+      "occasion": [
+        "date night",
+        "casual dinner"
+      ],
+      "dateNote": "Bring a bottle and settle into chef Yehuda Sichel's Mediterranean small plates — an easy, affectionate South Philly date.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #36 on the 2026 50 Best Restaurants list (East Passyunk, Mediterranean)"
+        }
+      ],
+      "evidence": "Chef Yehuda Sichel's Mediterranean BYOB; #36 on Foobooz's 2026 50 Best. Popular but generally gettable, especially midweek."
+    },
+    {
+      "id": "royal-tavern",
+      "name": "Royal Tavern",
+      "neighborhood": "Bella Vista",
+      "cuisine": "Gastropub / New American",
+      "coordinates": {
+        "lat": 39.9345,
+        "lng": -75.1568
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.royaltavern.com/",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Open daily into the early hours",
+        "lineBy": "Off-peak or late night for the shortest wait",
+        "advice": "No reservations — it's walk-in only, with food served until 1 AM, so late seatings are the move."
+      },
+      "tips": [
+        "No reservations — walk-in only",
+        "Kitchen serves until 1 AM; late nights are easiest",
+        "VERIFY current website URL"
+      ],
+      "signatureDish": "The Royal burger; hearty pub plates (incl. vegan options)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "dark cozy bar",
+        "late-night",
+        "neighborhood"
+      ],
+      "occasion": [
+        "casual date",
+        "late-night dinner",
+        "drinks"
+      ],
+      "dateNote": "A dim, cozy corner bar with one of the city's best burgers and late-night kitchen — an unpretentious, easy date.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #35 on the 2026 50 Best Restaurants list (Bella Vista, New American)"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Guide — Queen Village",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/queen-village-restaurants",
+          "note": "Featured as a walk-in neighborhood American spot with food served until 1 AM"
+        }
+      ],
+      "evidence": "Beloved Bella Vista gastropub known for its burger and 1 AM kitchen; #35 on Foobooz's 2026 50 Best and an Infatuation pick. Walk-in only, no reservations."
+    },
+    {
+      "id": "sang-kee-peking-duck-house",
+      "name": "Sang Kee Peking Duck House",
+      "neighborhood": "Chinatown",
+      "cuisine": "Cantonese / Chinese",
+      "coordinates": {
+        "lat": 39.9578,
+        "lng": -75.1562
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.sangkeechinatown.com/",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Open daily; peak is weekend lunch/dinner",
+        "lineBy": "Arrive off-peak to avoid the weekend rush",
+        "advice": "Primarily walk-in; turnover is fast even when busy. Go off-peak for the shortest wait."
+      },
+      "tips": [
+        "Walk-in friendly; fast turnover",
+        "VERIFY current reservation policy / platform",
+        "VERIFY website URL"
+      ],
+      "signatureDish": "Peking duck; wonton noodle soup; roast meats",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "bustling",
+        "classic Chinatown",
+        "casual"
+      ],
+      "occasion": [
+        "casual dinner",
+        "group dinner",
+        "comfort food"
+      ],
+      "dateNote": "A bustling Chinatown institution — split a Peking duck and a bowl of wonton noodles for a comforting, low-key date.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #42 on the 2026 50 Best Restaurants list (Chinatown, Chinese)"
+        }
+      ],
+      "evidence": "Longtime Chinatown standby famous for its Peking duck and noodle soups; #42 on Foobooz's 2026 50 Best. High-volume and walk-in friendly."
+    },
+    {
+      "id": "white-yak",
+      "name": "White Yak",
+      "neighborhood": "Roxborough",
+      "cuisine": "Tibetan / Nepali",
+      "coordinates": {
+        "lat": 40.0355,
+        "lng": -75.221
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.whiteyakrestaurant.com/",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Neighborhood BYOB-ish spot; walk-ins usually fine, reserve for weekend groups."
+      },
+      "tips": [
+        "VERIFY reservation platform and policy",
+        "VERIFY website URL"
+      ],
+      "signatureDish": "Momos; thukpa; Himalayan curries",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "warm",
+        "family-run",
+        "off-the-beaten-path"
+      ],
+      "occasion": [
+        "casual dinner",
+        "date night",
+        "comfort food"
+      ],
+      "dateNote": "A cozy Roxborough find for handmade momos and warming curries — a quietly delightful date away from the crowds.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "50 Best Restaurants 2026",
+          "url": "https://www.phillymag.com/foobooz/50-best-restaurants/",
+          "note": "Ranked #43 on the 2026 50 Best Restaurants list (Roxborough, Tibetan)"
+        }
+      ],
+      "evidence": "Roxborough Tibetan/Nepali favorite; #43 on Foobooz's 2026 50 Best. Neighborhood-scaled and easy to get into."
+    },
+    {
+      "id": "giuseppe-and-sons",
+      "name": "Giuseppe & Sons",
+      "neighborhood": "Center City / Midtown Village",
+      "cuisine": "Italian American",
+      "coordinates": {
+        "lat": 39.9505,
+        "lng": -75.1662
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/giuseppe-and-sons-philly",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Happy hour at the bar and upstairs deli",
+        "lineBy": "",
+        "advice": "Walk-ins are best at happy hour; the upstairs deli/bar is a fun no-reservation option."
+      },
+      "tips": [
+        "Reservations release about a month in advance (Resy)",
+        "Walk-ins mainly at happy hour / upstairs deli",
+        "VERIFY platform URL / Resy slug",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Seafood towers; pastas; Italian-American classics",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "retro supper club",
+        "lively",
+        "classic Italian-American"
+      ],
+      "occasion": [
+        "date night",
+        "group dinner",
+        "celebration"
+      ],
+      "dateNote": "A theatrical retro Italian-American supper club — martinis and a seafood tower downstairs make for a festive date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial — Toughest Reservations in Philadelphia",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "Listed among sought-after Philadelphia tables; reservations one month in advance, happy-hour walk-ins"
+        }
+      ],
+      "evidence": "Popular Schulson Italian-American in Midtown Village; Resy flags it among the city's sought-after tables. Reservations open ~a month out, with happy-hour walk-ins."
+    },
+    {
+      "id": "vedge",
+      "name": "Vedge",
+      "neighborhood": "Center City / Washington Square West",
+      "cuisine": "Vegetable-forward / vegan fine dining",
+      "coordinates": {
+        "lat": 39.9482,
+        "lng": -75.1618
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/vedge",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seating takes walk-ins for the full plant-based menu."
+      },
+      "tips": [
+        "Bar seating for walk-ins",
+        "VERIFY platform URL / Resy slug",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Seasonal vegetable small plates; the 'dirty' seitan and roasted vegetables",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "elegant townhouse",
+        "refined",
+        "plant-based"
+      ],
+      "occasion": [
+        "date night",
+        "special occasion",
+        "vegetarian dinner"
+      ],
+      "dateNote": "Rich Landau and Kate Jacoby's elegant vegetable fine-dining townhouse — proof a plant-based date can feel like a splurge.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine (Foobooz)",
+          "tier": "Coverage",
+          "url": "https://www.phillymag.com/foobooz/",
+          "note": "Longtime Foobooz-covered vegetable fine-dining destination from Rich Landau and Kate Jacoby"
+        }
+      ],
+      "evidence": "Nationally acclaimed, James Beard-recognized vegetable fine-dining room; recognized in the 2025 MICHELIN Guide Philadelphia selection. Upscale yet dependably bookable."
+    },
+    {
+      "id": "south-restaurant-jazz",
+      "name": "SOUTH",
+      "neighborhood": "Fairmount / Spring Garden",
+      "cuisine": "Southern / jazz supper club",
+      "coordinates": {
+        "lat": 39.964,
+        "lng": -75.1622
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/south-restaurant",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "58 days",
+      "bookingWindowDays": 58,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations release 60 days in advance (Resy)",
+        "No tables held for walk-ins — reserve",
+        "Check the live-music schedule when booking",
+        "VERIFY platform URL / Resy slug",
+        "VERIFY release time"
+      ],
+      "signatureDish": "Shrimp and grits; Southern classics with live jazz",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "live jazz",
+        "supper club",
+        "soulful"
+      ],
+      "occasion": [
+        "date night",
+        "live music",
+        "celebration"
+      ],
+      "dateNote": "Southern cooking and nightly live jazz — book a dinner set for a genuinely romantic, music-filled date.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Editorial — Toughest Reservations in Philadelphia",
+          "url": "https://blog.resy.com/the-one-who-keeps-the-book/toughest-restaurant-reservations-philadelphia/",
+          "note": "Listed among the city's sought-after tables; reservations 60 days in advance, no walk-in tables held"
+        }
+      ],
+      "evidence": "Southern kitchen and jazz supper club on North Broad; Resy notes a long 60-day booking window and that no tables are held for walk-ins. Plan ahead, then it's yours."
+    },
+    {
+      "id": "bomb-bomb",
+      "name": "Bomb Bomb Bar-B-Q Grill",
+      "neighborhood": "South Philadelphia",
+      "cuisine": "Italian / BBQ",
+      "coordinates": {
+        "lat": 39.921,
+        "lng": -75.165
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/bomb-bomb",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-in bar seats available; reserve tables on Resy."
+      },
+      "tips": [
+        "Walk-in bar; reserve tables on Resy",
+        "VERIFY exact Resy link before relying on it"
+      ],
+      "signatureDish": "Ribs; red-gravy pastas",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "old-school",
+        "quirky",
+        "hearty"
+      ],
+      "occasion": [
+        "casual date",
+        "group",
+        "family"
+      ],
+      "dateNote": "South Philly's Italian-BBQ mash-up — ribs and red gravy, no pretense.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (#18)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "#18 on the 25 Best; walk-in bar plus Resy reservations"
+        }
+      ],
+      "evidence": "A quirky, beloved South Philly Italian-BBQ institution (Infatuation #18) with a walk-in bar; easy to get into."
+    },
+    {
+      "id": "el-chingon",
+      "name": "El Chingon",
+      "neighborhood": "East Passyunk",
+      "cuisine": "Mexican",
+      "coordinates": {
+        "lat": 39.929,
+        "lng": -75.161
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/philadelphia-pa/venues/el-chingon-philly",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "37 days",
+      "bookingWindowDays": 37,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Tiny and casual — walk in early or off-peak."
+      },
+      "tips": [
+        "Tiny room; go early to beat the wait",
+        "VERIFY exact address, booking platform and link before relying on it"
+      ],
+      "signatureDish": "Sourdough tortas and tacos",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "tiny",
+        "casual",
+        "cult-favorite"
+      ],
+      "occasion": [
+        "casual date",
+        "quick dinner",
+        "solo"
+      ],
+      "dateNote": "A cult sourdough-torta counter that's all flavor, no fuss.",
+      "sources": [
+        {
+          "name": "Philadelphia Magazine",
+          "tier": "50 Best 2026 (#29)",
+          "url": "https://www.phillymag.com/restaurants/50-best-restaurants/",
+          "note": "#29 on the 2026 50 Best; sourdough tortas, two locations"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best (#23)",
+          "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-restaurants-in-philadelphia",
+          "note": "#23 on the 25 Best; casual café"
+        }
+      ],
+      "evidence": "A cult Mexican spot known for sourdough tortas (#29 Phillymag, #23 Infatuation); casual and walk-in friendly."
+    }
+  ]
+}

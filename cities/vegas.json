@@ -1,0 +1,1346 @@
+{
+  "meta": {
+    "source": "t42-research-fleet",
+    "city": "Las Vegas",
+    "curated": "2026-07-24"
+  },
+  "spots": [
+    {
+      "id": "endo-omakase",
+      "name": "Endo",
+      "neighborhood": "Chinatown / Spring Mountain",
+      "cuisine": "Japanese Omakase (Edomae)",
+      "coordinates": {
+        "lat": 36.1264,
+        "lng": -115.2098
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Phone",
+      "platformUrl": "tel:+17029817383",
+      "website": "",
+      "phoneNumber": "702-981-7383",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations are invitation/members-only and coordinated by text to 702-981-7383",
+        "Only 6 seats; two seatings nightly at 6pm and 9pm",
+        "Same chef (Mitsuo Endo) behind nearby Aburiya Raku",
+        "VERIFY current public availability — has run as members-only with limited public windows"
+      ],
+      "signatureDish": "Uni pasta; imported-from-Japan Edomae omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Hushed",
+        "Ultra-intimate",
+        "Chef-driven"
+      ],
+      "occasion": [
+        "Big splurge",
+        "Anniversary",
+        "Once-a-year"
+      ],
+      "dateNote": "Six seats, one chef, two of you at the counter for a couple of hours — about as private as public dining in Vegas gets.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Endo among restaurants worthy of the incoming Michelin Guide; six-seat omakase from six-time James Beard Award-nominated chef Mitsuo Endo"
+        }
+      ],
+      "evidence": "Six-seat, invitation/members-only counter from six-time James Beard-nominated chef Mitsuo Endo; two nightly seatings (6 & 9pm), reservations only by text — Vegas's scarcest table."
+    },
+    {
+      "id": "e-by-jose-andres",
+      "name": "é by José Andrés",
+      "neighborhood": "The Strip (Cosmopolitan)",
+      "cuisine": "Spanish avant-garde tasting counter",
+      "coordinates": {
+        "lat": 36.1096,
+        "lng": -115.1739
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.ebyjoseandres.com/",
+      "website": "https://www.ebyjoseandres.com/",
+      "phoneNumber": "702-698-7950",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Tickets released ~3 months in advance",
+      "bookingWindowDays": 90,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only 9 seats; two shows nightly at 5:30pm and 8:30pm, Tuesday-Sunday",
+        "Ticketed/prepaid — tickets become available roughly 3 months in advance",
+        "Booking currently runs through SevenRooms via the official site (historically Tock); VERIFY platform before the drop",
+        "Watch for cancellations if the initial release is gone"
+      ],
+      "signatureDish": "~20-course avant-garde tasting (liquid olives, cotton-candy foie)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Theatrical",
+        "Hidden-room",
+        "Bucket-list"
+      ],
+      "occasion": [
+        "Big splurge",
+        "Special occasion",
+        "Bucket list"
+      ],
+      "dateNote": "A nine-seat counter hidden behind a red velvet curtain inside Jaleo — a close-up magic show you happen to eat.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Las Vegas",
+          "url": "https://www.theinfatuation.com/las-vegas/guides/las-vegas-restaurants",
+          "note": "Calls é a nine-seat counter inside Jaleo, 'ultra-exclusive'; reserve at least a month ahead for first pick of two nightly seatings"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Lists é as one of the city's most exclusive rooms — only 18 seats total across two nightly seatings"
+        },
+        {
+          "name": "Vegas Magazine (Modern Luxury)",
+          "tier": "Hardest reservations in Las Vegas",
+          "url": "https://www.modernluxury.com/hardest-reservations-las-vegas/",
+          "note": "Features the tiny hidden counter inside Jaleo among the city's toughest tables, selling out on release"
+        }
+      ],
+      "evidence": "Nine-seat steel-topped counter tucked inside Jaleo at the Cosmopolitan; two prepaid/ticketed seatings nightly Tue-Sun, tickets released ~3 months out and gone fast."
+    },
+    {
+      "id": "kabuto-edomae-sushi",
+      "name": "Kabuto Edomae Sushi",
+      "neighborhood": "Chinatown / Spring Mountain",
+      "cuisine": "Japanese Omakase (Edomae)",
+      "coordinates": {
+        "lat": 36.1263,
+        "lng": -115.2098
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/las-vegas-nv/venues/kabuto-edomae-sushi",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Two seatings nightly, 5:30 and 7:30; the counter is small so slots vanish fast",
+        "Reservations open on Resy up to ~1 month in advance",
+        "If nothing shows, check Resy first thing in the morning for released tables",
+        "VERIFY exact release time"
+      ],
+      "signatureDish": "Daily-changing Edomae omakase at the hinoki counter",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Tiny counter",
+        "Purist",
+        "Strip-mall gem"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Date night",
+        "Sushi pilgrimage"
+      ],
+      "dateNote": "An easy-to-miss strip-mall door opens onto a hinoki-wood counter and two hours of chef-picked nigiri — quietly one of Vegas's great dates.",
+      "sources": [
+        {
+          "name": "The World's 50 Best",
+          "tier": "50 Best Discovery",
+          "url": "https://www.theworlds50best.com/discovery/Establishments/US/Las-Vegas/Kabuto-Edomae-Sushi.html",
+          "note": "Listed on The World's 50 Best Discovery as a notable Las Vegas Edomae sushi destination"
+        },
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Kabuto among Edomae-style rooms worthy of the incoming Michelin Guide"
+        }
+      ],
+      "evidence": "Tiny hinoki-counter Edomae room with just two seatings a night (5:30 & 7:30); daily-changing omakase, Resy opens ~1 month out and books up immediately."
+    },
+    {
+      "id": "delilah-wynn",
+      "name": "Delilah",
+      "neighborhood": "The Strip (Wynn)",
+      "cuisine": "American supper club",
+      "coordinates": {
+        "lat": 36.1275,
+        "lng": -115.166
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/delilahwlv",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling 30 days",
+      "bookingWindowDays": 30,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Try the adjacent Little Bubble bar for walk-in seating, or call at 7am PT day-of for same-day cancellations."
+      },
+      "tips": [
+        "Reservations open 30 days in advance on SevenRooms; prime times go almost instantly",
+        "If sold out, call at 7am PT day-of for cancellations",
+        "Strict no-photos policy; dress to impress",
+        "Walk-in seats sometimes available at the adjacent Little Bubble bar"
+      ],
+      "signatureDish": "Chicken Tenders & Caviar; seafood tower; Beef Wellington",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Glamorous",
+        "1950s supper club",
+        "Live music",
+        "No photos"
+      ],
+      "occasion": [
+        "Big night out",
+        "Anniversary",
+        "Celebration"
+      ],
+      "dateNote": "Art Deco glamour, a live orchestra and a strict no-photos rule — dress up and be fully present with your date.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Toughest Reservations in America",
+          "url": "https://www.theinfatuation.com/all/guides/toughest-restaurant-reservations-in-america",
+          "note": "The only Las Vegas entry on the national toughest-reservations guide; reservations open 30 days out, likely limited to 5:30 or 11:30pm, call 7am PT for cancellations"
+        },
+        {
+          "name": "The World's 50 Best",
+          "tier": "50 Best Discovery",
+          "url": "https://www.theworlds50best.com/discovery/Establishments/US/Las-Vegas/Delilah.html",
+          "note": "Listed on The World's 50 Best Discovery as a Las Vegas destination restaurant"
+        },
+        {
+          "name": "Vegas Magazine (Modern Luxury)",
+          "tier": "Hardest reservations in Las Vegas",
+          "url": "https://www.modernluxury.com/hardest-reservations-las-vegas/",
+          "note": "Named the hardest non-ticketed door in town, a 30-day window whose prime slots vanish in minutes"
+        }
+      ],
+      "evidence": "The Strip's hardest non-ticketed door: SevenRooms opens a rolling 30-day window and prime slots vanish within minutes, leaving 5:30pm or 11:30pm for most."
+    },
+    {
+      "id": "carbone-aria",
+      "name": "Carbone",
+      "neighborhood": "The Strip (Aria)",
+      "cuisine": "Italian-American",
+      "coordinates": {
+        "lat": 36.1072,
+        "lng": -115.1766
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/carbonelv",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "Rolling ~30 days",
+      "bookingWindowDays": 30,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Rolling ~30-day window on SevenRooms; Friday/Saturday prime times go first",
+        "A newer sibling, Carbone Riviera, opened at Bellagio in fall 2025",
+        "Weeknights and early/late slots are your best odds",
+        "VERIFY exact release time"
+      ],
+      "signatureDish": "Spicy Rigatoni Vodka; tableside Caesar; veal parm",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Showy",
+        "Tableside theater",
+        "Celebrity magnet"
+      ],
+      "occasion": [
+        "Celebration",
+        "Group dinner",
+        "See-and-be-seen"
+      ],
+      "dateNote": "Tuxedoed captains, tableside Caesar and a room full of spectacle — order the spicy rigatoni and lean into the show.",
+      "sources": [
+        {
+          "name": "Vegas Magazine (Modern Luxury)",
+          "tier": "Hardest reservations in Las Vegas",
+          "url": "https://www.modernluxury.com/hardest-reservations-las-vegas/",
+          "note": "Lists Carbone among the hardest Las Vegas reservations, booked out weeks in advance"
+        }
+      ],
+      "evidence": "Major Food Group's Italian-American blockbuster; prime weekend tables book out weeks ahead and disappear the moment the rolling window opens."
+    },
+    {
+      "id": "restaurant-guy-savoy",
+      "name": "Restaurant Guy Savoy",
+      "neighborhood": "The Strip (Caesars Palace)",
+      "cuisine": "French fine dining",
+      "coordinates": {
+        "lat": 36.1165,
+        "lng": -115.1745
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/restaurant-guy-savoy-caesars-palace-las-vegas",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book well ahead for weekends; the room is small and formal",
+        "Guy Savoy's only outpost outside Paris; La Liste 2026 top Vegas restaurant",
+        "Ask about the tasting menu and the Krug Room private experience",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Artichoke and black truffle soup; brioche cart",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Hushed luxury",
+        "Old-world French",
+        "Forbes Five-Star"
+      ],
+      "occasion": [
+        "Milestone",
+        "Anniversary",
+        "Bucket list"
+      ],
+      "dateNote": "Guy Savoy's only restaurant outside Paris — a slow, formal French evening for a truly special occasion.",
+      "sources": [
+        {
+          "name": "Vegas Magazine (Modern Luxury)",
+          "tier": "Hardest reservations in Las Vegas",
+          "url": "https://www.modernluxury.com/hardest-reservations-las-vegas/",
+          "note": "Highlights Guy Savoy as a top Vegas fine-dining reservation; carries Forbes Five-Star and topped La Liste's Las Vegas ranking for 2026"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025 (Hall of Fame)",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Placed in the RJ's Top 100 Hall of Fame as the French master's landmark Vegas outpost"
+        }
+      ],
+      "evidence": "La Liste's top-ranked Las Vegas restaurant for 2026 and a 14-year Forbes Five-Star; the intimate room requires booking well ahead, especially weekends."
+    },
+    {
+      "id": "bazaar-meat-jose-andres",
+      "name": "Bazaar Meat by José Andrés",
+      "neighborhood": "The Strip (Venetian/Palazzo)",
+      "cuisine": "Spanish steakhouse / whole-animal",
+      "coordinates": {
+        "lat": 36.1216,
+        "lng": -115.169
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://fp.sevenrooms.com/explore/bazaar/reservations/create/search/",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and lounge seating sometimes takes walk-ins on weeknights."
+      },
+      "tips": [
+        "Recently moved from the Sahara to the Venetian/Palazzo — VERIFY location before you go",
+        "Bar and lounge seating can absorb walk-ins on slower nights",
+        "Come hungry: the tasting/whole-animal format is the move",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Whole roast suckling pig; cotton-candy foie gras; wagyu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Carnivorous theater",
+        "Buzzy",
+        "Open kitchen"
+      ],
+      "occasion": [
+        "Group feast",
+        "Celebration",
+        "Meat lovers"
+      ],
+      "dateNote": "A theatrical whole-animal playground from José Andrés — go carnivore and share the suckling pig.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Bazaar Meat among Strip restaurants worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Las Vegas",
+          "url": "https://www.theinfatuation.com/las-vegas/guides/las-vegas-restaurants",
+          "note": "Featured among the city's best; tasting/whole-animal format recommended"
+        }
+      ],
+      "evidence": "José Andrés's showpiece Spanish steakhouse, relocated to the Venetian/Palazzo; a perennial best-of-Vegas pick that books out on weekends."
+    },
+    {
+      "id": "wakuda-venetian",
+      "name": "Wakuda",
+      "neighborhood": "The Strip (Venetian)",
+      "cuisine": "Modern Japanese",
+      "coordinates": {
+        "lat": 36.1211,
+        "lng": -115.1699
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.venetianlasvegas.com/dining/restaurants/wakuda.html",
+      "website": "",
+      "phoneNumber": "866-659-9643",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Private omakase runs Thursday-Saturday evenings and is the scarce experience",
+        "Reserve via the Venetian dining page or call 866-659-9643",
+        "Duck into the Golden Gai Cocktail Club afterward",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Nigiri, sashimi and yakimono; private omakase",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Sleek",
+        "Shinjuku-inspired",
+        "High-energy"
+      ],
+      "occasion": [
+        "Date night",
+        "Celebration",
+        "Sushi splurge"
+      ],
+      "dateNote": "Neon-lit, Shinjuku-inspired glamour with a hidden Golden Gai cocktail club to slip into after dinner.",
+      "sources": [
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025 / Best Sushi 2025 (Gold)",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Listed among the Top 100 as two-Michelin-starred chef Tetsuya Wakuda's modern Japanese room; separately named RJ 2025 Best Sushi gold winner"
+        }
+      ],
+      "evidence": "Modern Japanese flagship from two-Michelin-starred chef Tetsuya Wakuda; RJ 2025 Best Sushi (gold), with a limited private omakase Thu-Sat that books ahead."
+    },
+    {
+      "id": "wing-lei-wynn",
+      "name": "Wing Lei",
+      "neighborhood": "The Strip (Wynn)",
+      "cuisine": "Chinese fine dining",
+      "coordinates": {
+        "lat": 36.1268,
+        "lng": -115.165
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/wingleiwlv",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book well ahead for weekends; dinner-only with limited seatings",
+        "Pre-order the whole Peking duck when reserving",
+        "Reserve via SevenRooms or the Wynn dining line",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Peking duck with truffle hoisin; Imperial Peking duck",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Opulent",
+        "Forbes Five-Star",
+        "Gold-hued"
+      ],
+      "occasion": [
+        "Celebration",
+        "Anniversary",
+        "Special occasion"
+      ],
+      "dateNote": "Gilded Cantonese grandeur at the Wynn — order the Peking duck and settle in for a proper celebration.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Wing Lei among Chinese fine-dining rooms worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Las Vegas",
+          "url": "https://www.theinfatuation.com/las-vegas/guides/las-vegas-restaurants",
+          "note": "Featured for its Peking duck with traditional accoutrements and truffle hoisin"
+        }
+      ],
+      "evidence": "Forbes Five-Star Chinese fine dining at the Wynn (the first Chinese restaurant in the US to hold a Michelin star, in the old Vegas guide); limited hours mean weekends book well ahead."
+    },
+    {
+      "id": "kaiseki-yuzu",
+      "name": "Kaiseki Yuzu",
+      "neighborhood": "Chinatown / Spring Mountain",
+      "cuisine": "Japanese kaiseki",
+      "coordinates": {
+        "lat": 36.1263,
+        "lng": -115.1966
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/kaiseki-las-vegas",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Multi-course menu (around $210) changes monthly",
+        "Very small room; reserve prime weekend seats early",
+        "Also worthy of the incoming Michelin Guide per local critics",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Monthly-changing multi-course kaiseki (sea urchin, A5 wagyu, foie gras)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Snug",
+        "Seasonal",
+        "Chef Kaoru Azeuchi"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Quiet splurge",
+        "Kaiseki lovers"
+      ],
+      "dateNote": "Chef Azeuchi and his wife run a tiny room and a menu that turns over every month — an intimate seasonal ritual for two.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/las-vegas/reviews/kaiseki-yuzu",
+          "note": "Full Infatuation review of the snug Chinatown kaiseki room from chef Kaoru Azeuchi and his wife Mayumi"
+        },
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Kaiseki Yuzu among rooms worthy of the incoming Michelin Guide"
+        }
+      ],
+      "evidence": "Snug Chinatown kaiseki counter from chef Kaoru Azeuchi; an ~10-11 course menu that changes monthly and only a handful of seats, so prime nights fill fast."
+    },
+    {
+      "id": "sumo-omakase",
+      "name": "Sumo Omakase",
+      "neighborhood": "Chinatown / Spring Mountain",
+      "cuisine": "Japanese Omakase (Edomae)",
+      "coordinates": {
+        "lat": 36.1259,
+        "lng": -115.199
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/las-vegas-nv/venues/sumo-omakase",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Two daily seatings (about $79), plus a late Fri/Sat seating (about $99)",
+        "Small counter and rising demand since the Resy Hit List nod — book early",
+        "Reservations on Resy",
+        "VERIFY exact release time and address"
+      ],
+      "signatureDish": "Edomae omakase (two nightly seatings)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Buzzy newcomer",
+        "Counter-only",
+        "Value omakase"
+      ],
+      "occasion": [
+        "Date night",
+        "Sushi fix",
+        "Casual splurge"
+      ],
+      "dateNote": "A hot 2026 arrival that makes a real Edomae counter surprisingly attainable — grab the two of you a couple of counter seats.",
+      "sources": [
+        {
+          "name": "Resy",
+          "tier": "Las Vegas Hit List (Spring 2026)",
+          "url": "https://resy.com/cities/las-vegas-nv/venues/sumo-omakase",
+          "note": "Named to Resy's Las Vegas Hit List in spring 2026; authentic Edomae-style omakase with two daily seatings"
+        }
+      ],
+      "evidence": "Named to Resy's Las Vegas Hit List in spring 2026; a small Edomae counter with limited nightly seatings whose newfound buzz has made prime slots hard to grab."
+    },
+    {
+      "id": "mother-wolf-fontainebleau",
+      "name": "Mother Wolf",
+      "neighborhood": "North Strip (Fontainebleau)",
+      "cuisine": "Roman Italian",
+      "coordinates": {
+        "lat": 36.1355,
+        "lng": -115.1631
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/reservations/motherwolf",
+      "website": "",
+      "phoneNumber": "702-678-9170",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve on SevenRooms; weekend prime times fill early",
+        "Pasta-focused menu from acclaimed chef Evan Funke",
+        "Inside the Fontainebleau on the North Strip",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Hand-cut pastas; wood-fired Roman-style pizza; carbonara",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Grand",
+        "Golden-lit",
+        "Roman"
+      ],
+      "occasion": [
+        "Date night",
+        "Celebration",
+        "Pasta pilgrimage"
+      ],
+      "dateNote": "Evan Funke's cathedral to Roman pasta inside the Fontainebleau — order the carbonara and a bottle of something red.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Mother Wolf (chef Evan Funke, Italian pasta focus) among restaurants worthy of the incoming Michelin Guide"
+        }
+      ],
+      "evidence": "Evan Funke's much-hyped Roman-Italian room at the Fontainebleau; a marquee Strip opening whose prime-time tables book well ahead."
+    },
+    {
+      "id": "partage",
+      "name": "Partage",
+      "neighborhood": "Chinatown / Spring Mountain",
+      "cuisine": "Modern French tasting menu",
+      "coordinates": {
+        "lat": 36.1264,
+        "lng": -115.1955
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/partage-las-vegas-2",
+      "website": "https://partage.vegas/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "5-, 7- and 9-course tasting menus that rotate monthly",
+        "Small room; reserve prime weekend seats early",
+        "Reservations on OpenTable or partage.vegas",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Monthly 5-, 7- and 9-course modern French tasting menus",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Elegant",
+        "Refined",
+        "Chinatown surprise"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Quiet splurge",
+        "Tasting-menu date"
+      ],
+      "dateNote": "A serene, white-on-white French tasting room hidden in Chinatown — 'partage' means sharing, and it's built for two.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Partage (chef Yuri Szarzewski, modern French tasting experience) among restaurants worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Featured among the city's leading restaurants for its monthly-changing French tasting menus in Chinatown"
+        }
+      ],
+      "evidence": "Chef Yuri Szarzewski's modern French tasting-menu room in Chinatown; multi-course menus that change monthly and a small dining room that books ahead for weekends."
+    },
+    {
+      "id": "sparrow-and-wolf",
+      "name": "Sparrow + Wolf",
+      "neighborhood": "Chinatown / Spring Mountain",
+      "cuisine": "Modern American",
+      "coordinates": {
+        "lat": 36.1261,
+        "lng": -115.2028
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/restref/client/?rid=732187",
+      "website": "https://sparrowandwolflv.com/",
+      "phoneNumber": "702-790-2147",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seating can absorb walk-ins on weeknights."
+      },
+      "tips": [
+        "Credit card required to hold; $25/guest late-cancel fee inside 24 hours",
+        "Max 4 per table online — call 702-790-2147 for larger parties",
+        "Bar seats can take walk-ins on slower nights",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Chongqing spiced clams; seven-course tasting menu",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Neighborhood cool",
+        "Chef-driven",
+        "Chinatown"
+      ],
+      "occasion": [
+        "Date night",
+        "Foodie dinner",
+        "Tasting menu"
+      ],
+      "dateNote": "Chef Brian Howard's Chinatown cookery blends Old-World technique with Asian spice — grab the counter and split the tasting.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Sparrow & Wolf (chef Brian Howard, two-time James Beard finalist) among restaurants worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "Where To Have Dinner With Clients in Las Vegas",
+          "url": "https://www.theinfatuation.com/las-vegas/guides/business-dinner-las-vegas",
+          "note": "Featured as a standout Chinatown modern-American room from James Beard-nominated chef Brian Howard"
+        }
+      ],
+      "evidence": "Chef Brian Howard is a two-time James Beard finalist; the tight Chinatown room and its seven-course tasting menu see prime weekend seats go quickly."
+    },
+    {
+      "id": "anima-by-edo",
+      "name": "Anima by EDO",
+      "neighborhood": "Southwest / Spring Valley",
+      "cuisine": "Mediterranean / Spanish tapas",
+      "coordinates": {
+        "lat": 36.0703,
+        "lng": -115.301
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "SevenRooms",
+      "platformUrl": "https://www.sevenrooms.com/explore/animabyedo/reservations/create/search/",
+      "website": "",
+      "phoneNumber": "702-202-4291",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Dinner nightly from 5pm; tasting menu (~$80) runs about 2-2.5 hours",
+        "Small room; reserve prime weekend seats early",
+        "Sibling to EDO Tapas & Wine",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Chef's tapas tasting menu (Mediterranean/Catalan)",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Intimate",
+        "Chef-driven",
+        "Off-Strip gem"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Tasting-menu date",
+        "Foodie dinner"
+      ],
+      "dateNote": "The EDO team's more ambitious room near Summerlin — settle in for the tasting and let the kitchen lead.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Anima (and the EDO team) among restaurants worthy of the incoming Michelin Guide; James Beard Award semifinalist kitchen"
+        }
+      ],
+      "evidence": "From the EDO Hospitality team; a James Beard Best Chef: Southwest finalist and Desert Companion Restaurant of the Year, with a small room and tasting menu that book ahead."
+    },
+    {
+      "id": "esthers-kitchen",
+      "name": "Esther's Kitchen",
+      "neighborhood": "Downtown / Arts District",
+      "cuisine": "Seasonal Italian",
+      "coordinates": {
+        "lat": 36.1568,
+        "lng": -115.1543
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.estherslv.com/",
+      "website": "https://www.estherslv.com/",
+      "phoneNumber": "702-570-7864",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and counter seating can take walk-ins, especially on weeknights."
+      },
+      "tips": [
+        "Reserve via the restaurant's own site (BentoBox); weekends fill fast",
+        "Bar and counter seats help walk-ins on weeknights",
+        "In the heart of the downtown Arts District",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "House pastas; wood-fired bread and seasonal Italian plates",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Arts District",
+        "Warm",
+        "Neighborhood favorite"
+      ],
+      "occasion": [
+        "Date night",
+        "Casual celebration",
+        "Pasta night"
+      ],
+      "dateNote": "Chef James Trees's beloved Arts District trattoria — snag a bar seat, order the bread and a pasta, and stay a while.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Esther's Kitchen (chef James Trees) among restaurants worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Called the best Italian in Vegas and a pioneer of the downtown Arts District revival"
+        }
+      ],
+      "evidence": "Chef James Trees's pioneering Arts District Italian, widely cited as the city's best; the room stays packed and prime-time weekend tables book well ahead."
+    },
+    {
+      "id": "aburiya-raku",
+      "name": "Aburiya Raku",
+      "neighborhood": "Chinatown / Spring Mountain",
+      "cuisine": "Japanese (robata / izakaya)",
+      "coordinates": {
+        "lat": 36.1263,
+        "lng": -115.2096
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/las-vegas-nv/venues/aburiya-raku-lv",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Arrive early or very late for walk-in seats; peak dinner hours need a reservation."
+      },
+      "tips": [
+        "Small room — reserve on Resy 3+ days ahead for prime dinner hours",
+        "Open late (until ~1am); walk-ins fare better off-peak and late",
+        "Same chef as members-only Endo next door",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Foie gras skewer; house-made tofu; charcoal robata",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Cult favorite",
+        "Late-night",
+        "Tiny"
+      ],
+      "occasion": [
+        "Date night",
+        "Industry favorite",
+        "Japanese pilgrimage"
+      ],
+      "dateNote": "The tiny Chinatown izakaya that chefs sneak off to after service — go late, order the agedashi tofu and a stack of skewers.",
+      "sources": [
+        {
+          "name": "The Infatuation",
+          "tier": "Review",
+          "url": "https://www.theinfatuation.com/las-vegas/reviews/aburiya-raku-las-vegas",
+          "note": "Full Infatuation review of the tiny Chinatown izakaya from three-time James Beard Award semifinalist chef Mitsuo Endo"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Featured as a Chinatown standout with omakase options, open until 1am; reserve a few days ahead"
+        }
+      ],
+      "evidence": "Chef Mitsuo Endo's cult robata izakaya (three-time James Beard semifinalist); a tiny room open till 1am where prime seats require reserving days ahead."
+    },
+    {
+      "id": "mott-32-palazzo",
+      "name": "Mott 32",
+      "neighborhood": "The Strip (Venetian/Palazzo)",
+      "cuisine": "Chinese",
+      "coordinates": {
+        "lat": 36.1224,
+        "lng": -115.169
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.venetianlasvegas.com/dining/restaurants/mott-32.html",
+      "website": "",
+      "phoneNumber": "866-659-9643",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Pre-order the apple wood-roasted Peking duck when you reserve",
+        "Reserve via the Venetian dining page or call 866-659-9643",
+        "Weekend prime times book well ahead",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Apple wood-roasted Peking duck; dim sum",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Dramatic",
+        "Design-forward",
+        "Buzzy"
+      ],
+      "occasion": [
+        "Celebration",
+        "Group dinner",
+        "Date night"
+      ],
+      "dateNote": "Joyce Wang's industrial-meets-imperial dining room — pre-order the Peking duck and make an evening of it.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Mott 32 among restaurants worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Best Chinese Food 2025 (Silver)",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "RJ 2025 Best Chinese Food silver winner; also named Strip Restaurant of the Year by Desert Companion"
+        }
+      ],
+      "evidence": "Design-forward Hong Kong import at the Palazzo; RJ 2025 Best Chinese (silver) and Desert Companion Strip Restaurant of the Year, with weekend tables and the signature duck booking ahead."
+    },
+    {
+      "id": "the-black-sheep",
+      "name": "The Black Sheep",
+      "neighborhood": "Southwest",
+      "cuisine": "Vietnamese-American",
+      "coordinates": {
+        "lat": 36.0503,
+        "lng": -115.2963
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.blacksheepvegas.com/",
+      "website": "https://www.blacksheepvegas.com/",
+      "phoneNumber": "702-954-3998",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve on OpenTable via the restaurant site; weekend prime times fill",
+        "Chef Jamie Tran of Bravo's Top Chef",
+        "Open Tuesday-Sunday, 5-10pm",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Vietnamese-American plates with global technique",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Neighborhood gem",
+        "Chef-driven",
+        "Warm"
+      ],
+      "occasion": [
+        "Date night",
+        "Foodie dinner",
+        "Celebration"
+      ],
+      "dateNote": "Top Chef alum Jamie Tran's homey southwest-valley room — personal, generous cooking rooted in her Vietnamese family table.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names The Black Sheep (chef Jamie Tran) among restaurants worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Featured as chef Jamie Tran's Vietnamese-American room; James Beard nominee"
+        }
+      ],
+      "evidence": "Chef Jamie Tran (Top Chef; James Beard nominee, Eater Vegas Chef of the Year) runs a small suburban room where prime weekend tables book ahead."
+    },
+    {
+      "id": "other-mama",
+      "name": "Other Mama",
+      "neighborhood": "Southwest / Spring Valley",
+      "cuisine": "Japanese / seafood raw bar",
+      "coordinates": {
+        "lat": 36.1256,
+        "lng": -115.2854
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://othermama.com/",
+      "website": "https://othermama.com/",
+      "phoneNumber": "702-463-8382",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Happy hour (5-6pm daily) and the bar are your best walk-in odds."
+      },
+      "tips": [
+        "Small room; reserve prime weekend seats or aim for happy hour (5-6pm daily)",
+        "Chalkboard specials change constantly — ask what's best that night",
+        "Reservations via the restaurant's own site",
+        "VERIFY exact booking window and platform"
+      ],
+      "signatureDish": "Chalkboard raw-bar specials; sushi and crudo",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Polished dive bar",
+        "Chef-driven",
+        "Late-ish"
+      ],
+      "occasion": [
+        "Date night",
+        "Industry favorite",
+        "Raw bar crawl"
+      ],
+      "dateNote": "Dan Krohmer's polished-dive raw bar — pull up two seats, order off the chalkboard and let the kitchen improvise.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Other Mama (chef Dan Krohmer) among restaurants worthy of the incoming Michelin Guide"
+        },
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Featured as a Spring Valley sushi/seafood spot with a polished dive-bar feel and chalkboard specials"
+        }
+      ],
+      "evidence": "Chef Dan Krohmer's cult seafood/sushi bar (Las Vegas Weekly Best Seafood, KNPR Neighborhood Restaurant of the Year); a small, high-demand room where prime seats book ahead."
+    },
+    {
+      "id": "main-st-provisions",
+      "name": "Main St. Provisions",
+      "neighborhood": "Downtown / Arts District",
+      "cuisine": "Steak & seafood / New American",
+      "coordinates": {
+        "lat": 36.1556,
+        "lng": -115.1543
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/main-st-provisions-las-vegas",
+      "website": "https://www.mainstprovisions.com/",
+      "phoneNumber": "702-457-0111",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar seats can absorb walk-ins on weeknights."
+      },
+      "tips": [
+        "Reserve on OpenTable; VERIFY exact listing slug before booking",
+        "Bar seating helps walk-ins on weeknights",
+        "Open evenings Mon-Sun (from 4:00-4:30pm)",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Wood-grilled steaks and seafood; seasonal vegetables",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Arts District",
+        "Convivial",
+        "Chef-driven"
+      ],
+      "occasion": [
+        "Date night",
+        "Casual celebration",
+        "Foodie dinner"
+      ],
+      "dateNote": "A warm, hospitality-first Arts District room from Kim Owens — go for the bar seats and let the night unfold.",
+      "sources": [
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Main St. Provisions (owner Kim Owens) among restaurants worthy of the incoming Michelin Guide"
+        }
+      ],
+      "evidence": "A cornerstone of the downtown Arts District dining scene (Kim Owens; chef Miguel Tapia); the compact room sees prime-time weekend tables book ahead."
+    },
+    {
+      "id": "lotus-of-siam",
+      "name": "Lotus of Siam",
+      "neighborhood": "East of Strip (Flamingo)",
+      "cuisine": "Northern Thai",
+      "coordinates": {
+        "lat": 36.1149,
+        "lng": -115.1497
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.lotusofsiamlv.com/",
+      "website": "https://www.lotusofsiamlv.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins are possible off-peak; weekend prime times need a reservation."
+      },
+      "tips": [
+        "Reserve on OpenTable via the restaurant site; walk-ins possible off-peak",
+        "A second location opened on E. Sahara Ave in 2026",
+        "Famous for a surprisingly deep German-Riesling wine list",
+        "VERIFY exact booking window and which location you want"
+      ],
+      "signatureDish": "Nam khao tod (crispy rice); khao soi; Northern Thai specialties",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Legendary",
+        "Unpretentious",
+        "Deep wine list"
+      ],
+      "occasion": [
+        "Date night",
+        "Thai pilgrimage",
+        "Group dinner"
+      ],
+      "dateNote": "The Thai restaurant critics have chased for decades — order the crispy rice and a Riesling and see what the fuss is about.",
+      "sources": [
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025 (Hall of Fame)",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "RJ Top 100 Hall of Fame; named best Thai in the U.S. by critic Jonathan Gold"
+        },
+        {
+          "name": "Las Vegas Weekly",
+          "tier": "Michelin-worthy shortlist 2026",
+          "url": "https://lasvegasweekly.com/news/2026/jul/16/star-status-choosing-las-vegas-restaurants-worthy/",
+          "note": "Names Lotus of Siam among long-established restaurants worthy of the incoming Michelin Guide"
+        }
+      ],
+      "evidence": "Called the best Thai in America by the late Jonathan Gold and an RJ Top 100 Hall of Famer; perennially packed, with prime-time weekend tables booking ahead."
+    },
+    {
+      "id": "golden-steer-steakhouse",
+      "name": "Golden Steer Steakhouse",
+      "neighborhood": "Off-Strip (Sahara Ave)",
+      "cuisine": "Classic steakhouse",
+      "coordinates": {
+        "lat": 36.144,
+        "lng": -115.162
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://goldensteer.com/",
+      "website": "https://goldensteer.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reserve online via goldensteer.com (OpenTable-backed); weekends book out",
+        "Ask for one of the historic celebrity booths when you reserve",
+        "Order the tableside Caesar and bananas Foster",
+        "VERIFY exact booking window"
+      ],
+      "signatureDish": "Bone-in ribeye; tableside Caesar; bananas Foster",
+      "lastVerified": "2026-07-24",
+      "availability": null,
+      "vibe": [
+        "Rat Pack-era",
+        "Red-leather booths",
+        "Old Vegas"
+      ],
+      "occasion": [
+        "Anniversary",
+        "Old-Vegas night",
+        "Celebration"
+      ],
+      "dateNote": "Sinatra's old booth still has a plaque — this 1958 red-leather room is the most romantic time capsule in town.",
+      "sources": [
+        {
+          "name": "Las Vegas Review-Journal",
+          "tier": "Top 100 Restaurants 2025",
+          "url": "https://neon.reviewjournal.com/top-100-restaurants-2025/",
+          "note": "Featured as the historic 1958 steakhouse and celebrity hangout among the city's Top 100"
+        },
+        {
+          "name": "The Infatuation",
+          "tier": "25 Best Restaurants in Las Vegas",
+          "url": "https://www.theinfatuation.com/las-vegas/guides/las-vegas-restaurants",
+          "note": "Listed among the city's best as the historic downtown-adjacent steakhouse and celebrity hangout"
+        }
+      ],
+      "evidence": "Vegas's oldest steakhouse (est. 1958) and a Rat Pack landmark; a small, booth-lined room where weekend and prime-time tables book well ahead."
+    }
+  ]
+}
