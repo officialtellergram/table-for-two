@@ -28,12 +28,13 @@ try {
     Set-Location $Repo
     $env:PYTHONIOENCODING = 'utf-8'   # venue names carry accents; keep the console happy
 
-    # Run at BelowNormal priority so foreground apps always win the CPU.
-    $p = Start-Process -FilePath $Py -ArgumentList 'scraper\enrich_windows.py', '--all', '--no-state' `
-        -WorkingDirectory $Repo -NoNewWindow -PassThru
-    try { $p.PriorityClass = 'BelowNormal' } catch {}
-    $p.WaitForExit()
-    Log ("enrich_windows exit " + $p.ExitCode)
+    # The whole task runs at Priority 9 (idle-class) via its scheduler settings, so
+    # foreground apps always win the CPU — no Start-Process gymnastics needed. Call
+    # Python directly and capture its real exit code + output tail.
+    $out  = & $Py 'scraper\enrich_windows.py' '--all' '--no-state' 2>&1
+    $code = $LASTEXITCODE
+    ($out | Select-Object -Last 3) | ForEach-Object { Log ("  " + $_) }
+    Log ("enrich_windows exit " + $code)
 
     # Push only the window corrections. SAFE by design:
     #   * --autostash protects any uncommitted work you have open — it's stashed
