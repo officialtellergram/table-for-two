@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-26T22:53:11+00:00",
+  "generated": "2026-07-26T23:55:00+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 10,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
@@ -17,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -31,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -45,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -59,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T22:53:11+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -171,20 +171,6 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T20:49:06+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-28",
-      "time": "20:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-28&seats=2",
-      "firstSeen": "2026-07-26T17:32:36+00:00",
       "new": false
     },
     {
@@ -902,48 +888,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-27",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-27&seats=2",
-      "firstSeen": "2026-07-26T11:19:11+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-26",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-26T09:33:00+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-07-26",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-26T09:33:00+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
@@ -955,34 +899,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T04:06:04+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "omakase-at-nami",
-      "name": "Omakase at Nami",
-      "neighborhood": "Downtown / Shockoe Slip",
-      "cuisine": "Japanese omakase",
-      "date": "2026-07-28",
-      "time": "16:45",
-      "type": "Omakase Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-28&seats=2",
-      "firstSeen": "2026-07-26T00:06:49+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "omakase-at-nami",
-      "name": "Omakase at Nami",
-      "neighborhood": "Downtown / Shockoe Slip",
-      "cuisine": "Japanese omakase",
-      "date": "2026-07-28",
-      "time": "19:45",
-      "type": "Omakase Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-28&seats=2",
-      "firstSeen": "2026-07-26T00:06:49+00:00",
       "new": false
     },
     {
@@ -2803,6 +2719,90 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T00:06:49+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-28",
+      "time": "21:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-28&seats=2",
+      "firstSeen": "2026-07-26T00:06:49+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-07-28",
+      "time": "16:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-28&seats=2",
+      "firstSeen": "2026-07-26T00:06:49+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-07-28",
+      "time": "19:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-28&seats=2",
+      "firstSeen": "2026-07-26T00:06:49+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-27",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
+      "firstSeen": "2026-07-25T18:01:43+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-27",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
+      "firstSeen": "2026-07-25T18:01:43+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-27",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-27&seats=2",
+      "firstSeen": "2026-07-25T18:01:43+00:00",
       "new": false
     }
   ]
