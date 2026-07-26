@@ -813,7 +813,7 @@
         "lat": 41.9256,
         "lng": -87.6533
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/chicago-il/venues/galit",
@@ -822,8 +822,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "60 days",
-      "bookingWindowDays": 60,
+      "bookingWindow": "58 days",
+      "bookingWindowDays": 58,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -1373,7 +1373,7 @@
         "lat": 41.8892,
         "lng": -87.6339
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/chicago-il/venues/bavettes-bar-and-boeuf",
@@ -1382,8 +1382,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "9:00 AM CT",
       "releaseDay": "",
-      "bookingWindow": "21 days",
-      "bookingWindowDays": 21,
+      "bookingWindow": "19 days",
+      "bookingWindowDays": 19,
       "walkIns": true,
       "walkIn": {
         "doors": "At open for the bar",
