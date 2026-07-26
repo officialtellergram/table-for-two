@@ -96,8 +96,8 @@ jobs:
       # checkout and our push, and a lost sweep means a lost opening.
       - name: Commit the feed
         run: |
-          git config user.name  'table-for-two radar'
-          git config user.email 'radar@users.noreply.github.com'
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add cities/just-opened.json deploy/cities/just-opened.json scraper/.sniper_state.json
           git add cities/demand.json cities/restaurant-queue.json 2>/dev/null || true
           if git diff --cached --quiet; then

@@ -31,8 +31,8 @@ jobs:
       - run: python scripts/build_seo.py
       - name: Commit regenerated pages
         run: |
-          git config user.name  'table-for-two seo'
-          git config user.email 'seo@users.noreply.github.com'
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A ':(glob)*/index.html' sitemap.xml robots.txt
           if git diff --cached --quiet; then
             echo 'SEO pages unchanged; nothing to commit'; exit 0
