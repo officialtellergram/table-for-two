@@ -270,6 +270,21 @@
         "type": "json",
         "url": "cities/charlottesville.json"
       }
+    },
+    {
+      "key": "louisville",
+      "label": "Louisville, KY",
+      "short": "LOU",
+      "center": [
+        38.2527,
+        -85.7585
+      ],
+      "zoom": 12,
+      "timezone": "America/Kentucky/Louisville",
+      "source": {
+        "type": "json",
+        "url": "cities/louisville.json"
+      }
     }
   ]
 }

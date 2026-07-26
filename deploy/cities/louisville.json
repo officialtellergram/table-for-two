@@ -1,0 +1,1160 @@
+{
+  "meta": {
+    "source": "t42-city-concierge",
+    "city": "Louisville, KY",
+    "curated": "2026-07-26"
+  },
+  "spots": [
+    {
+      "id": "610-magnolia",
+      "name": "610 Magnolia",
+      "neighborhood": "Old Louisville",
+      "cuisine": "Modern Southern tasting menu (Chef Edward Lee)",
+      "coordinates": {
+        "lat": 38.2337,
+        "lng": -85.76
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/610-magnolia-louisville",
+      "website": "https://610magnolia.com/",
+      "phoneNumber": "(502) 636-0783",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "45 days",
+      "bookingWindowDays": 45,
+      "walkIns": false,
+      "walkIn": null,
+      "signatureDish": "Weekly-changing 4- or 6-course chef's tasting menu, greenhouse-grown produce",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Louisville Magazine",
+          "tier": "Feature/Review",
+          "url": "https://archive.louisville.com/restaurants/610-magnolia",
+          "note": "Magazine profile describing 610 Magnolia as a special-occasion tasting-menu destination run by Edward Lee."
+        },
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/news/dining-like-an-iron-chef-judge-at-610-magnolia-15772052/",
+          "note": "Local critic review scoring the restaurant highly (96 points), praising service and the wine list."
+        }
+      ],
+      "tips": [
+        "Tasting-menu-only restaurant from Edward Lee (Iron Chef winner) in a small converted Victorian house with limited nightly covers; consistently cited as one of Louisville's toughest special-occasion bookings.",
+        "Book well ahead for Friday/Saturday; weeknights open up more easily",
+        "Parties of 6 or fewer must book via OpenTable directly; larger parties call/email",
+        "VERIFY exact booking-window length"
+      ]
+    },
+    {
+      "id": "the-chefs-table",
+      "name": "The Chef's Table",
+      "neighborhood": "Norton Commons, Prospect",
+      "cuisine": "Rotating guest-chef multi-course tasting menu",
+      "coordinates": {
+        "lat": 38.3285,
+        "lng": -85.606
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Tock",
+      "platformUrl": "https://www.exploretock.com/thechefstable502/",
+      "website": "https://www.exploretock.com/thechefstable502/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "signatureDish": "",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "GoToLouisville (Louisville Tourism)",
+          "tier": "Destination feature",
+          "url": "https://www.gotolouisville.com/directory/the-chefs-table-norton-commons/",
+          "note": "Describes the intimate, interactive multi-course guest-chef dinner format in Norton Commons."
+        }
+      ],
+      "tips": [
+        "Reservation-only, ticketed experience capped at up to 8 guests per seating with rotating local and visiting guest chefs and non-refundable tickets — one of the smallest-capacity dining rooms in the Louisville metro.",
+        "Tickets are non-refundable and sold per-event on Tock — check for the next dated seating",
+        "Because capacity is ~8 guests total, dates can sell out immediately upon release",
+        "VERIFY release cadence/schedule for new event dates"
+      ]
+    },
+    {
+      "id": "the-dining-room-at-murrays-creole-pub",
+      "name": "The Dining Room at Murray's Creole Pub",
+      "neighborhood": "Highlands",
+      "cuisine": "French-Creole tasting menu",
+      "coordinates": {
+        "lat": 38.2519,
+        "lng": -85.7052
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/louisville-ky/venues/murrays-creole-pub",
+      "website": "https://www.murrayscreolepub.com/",
+      "phoneNumber": "(502) 653-7120",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "signatureDish": "Seasonal multi-course French-Creole tasting menu",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate",
+        "romantic"
+      ],
+      "occasion": [
+        "impress",
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "News",
+          "url": "https://www.leoweekly.com/food-drink/the-dining-room-at-murrays-creole-pub-sets-april-opening/",
+          "note": "Reports the April 9 opening of the upstairs, reservation-only tasting-menu concept by chef Lawrence Weeks."
+        },
+        {
+          "name": "WAVE3 News",
+          "tier": "News",
+          "url": "https://www.wave3.com/2026/06/24/murrays-creole-pub-opens-upstairs-dining-room-chef-driven-tasting-room-concept/",
+          "note": "Local TV news coverage describing the chef-driven tasting-room concept and its limited seating."
+        }
+      ],
+      "tips": [
+        "Brand-new (opened April 2026) reservation-only tasting-menu concept above Murray's Creole Pub from chef Lawrence Weeks (ex-North of Bourbon, ex-Enso); very limited seat count and immediate local buzz.",
+        "This is a very new opening (spring 2026) — booking patterns may still be settling; check Resy frequently",
+        "The downstairs pub (Murray's Creole Pub) is a separate, easier-to-book concept",
+        "VERIFY exact seat count and release cadence — not yet independently confirmed"
+      ]
+    },
+    {
+      "id": "meeshmeesh-mediterranean",
+      "name": "MeeshMeesh Mediterranean",
+      "neighborhood": "NuLu",
+      "cuisine": "Levantine / Mediterranean",
+      "coordinates": {
+        "lat": 38.2557,
+        "lng": -85.7335
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/meeshmeesh-mediterranean-louisville",
+      "website": "https://meeshmeesh.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "11:00 AM ET",
+      "releaseDay": "",
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
+      "walkIns": true,
+      "walkIn": null,
+      "signatureDish": "Hummus and grilled meats with rotating salatim spread; Haifa hot chicken",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "special-occasion"
+      ],
+      "occasion": [
+        "impress",
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "James Beard Foundation",
+          "tier": "Award",
+          "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "note": "Lists MeeshMeesh chef-owner Noam Bilitzer as a 2026 semifinalist for Best Chef: Southeast."
+        },
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/food-drink/nulus-meesh-meesh-is-good-good-15812022/",
+          "note": "Review calling MeeshMeesh's chicken shawarma, hand-pulled pita, and babka 'nationally-acclaimed'."
+        }
+      ],
+      "tips": [
+        "New seats release on a 60-day rolling window at 11am and regularly sell out same-day; chef Noam Bilitzer was a 2026 James Beard Award semifinalist for Best Chef: Southeast.",
+        "Set an alarm for the 11am release — prime weekend slots go within minutes",
+        "Patio is walk-in only in warm months even when the dining room is booked",
+        "VERIFY current release time, as policy is periodically adjusted"
+      ]
+    },
+    {
+      "id": "mill-iron-4",
+      "name": "Mill Iron 4",
+      "neighborhood": "Crescent Hill / Clifton",
+      "cuisine": "Whole-animal butchery, live-fire steakhouse and barbecue",
+      "coordinates": {
+        "lat": 38.2625,
+        "lng": -85.7095
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mill-iron-4-louisville",
+      "website": "https://www.milliron4.com/",
+      "phoneNumber": "(502) 365-1451",
+      "releaseSchedule": "daily",
+      "releaseTime": "12:00 PM ET",
+      "releaseDay": "",
+      "bookingWindow": "42 days",
+      "bookingWindowDays": 42,
+      "walkIns": false,
+      "walkIn": null,
+      "signatureDish": "Dry-aged, live-fire steaks and underutilized cuts from whole-animal butchery",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "News/Feature",
+          "url": "https://www.leoweekly.com/food-drink/mill-iron-4-to-open-feb-5-on-frankfort-avenue-blending-barbecue-and-whole-animal-butchery/",
+          "note": "Reports the Feb. 5 opening, the MeeshMeesh/North of Bourbon team, and the whole-animal butchery/live-fire concept."
+        }
+      ],
+      "tips": [
+        "Brand-new (Feb 2026) restaurant from the teams behind MeeshMeesh and North of Bourbon; new reservations drop daily at noon exactly 42 days out for Thu-Mon dinner and many early dates book up immediately.",
+        "Reservations open exactly 42 days out at noon ET on OpenTable — set a reminder",
+        "Closed Tuesday and Wednesday, which concentrates demand on the remaining nights",
+        "VERIFY whether the 42-day/noon release cadence has changed since opening — very new operation"
+      ]
+    },
+    {
+      "id": "north-of-bourbon",
+      "name": "North of Bourbon",
+      "neighborhood": "Germantown",
+      "cuisine": "New Orleans-inspired Cajun-Creole Southern",
+      "coordinates": {
+        "lat": 38.2247,
+        "lng": -85.7295
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/north-of-bourbon-louisville",
+      "website": "https://www.northofbourbon.com/",
+      "phoneNumber": "(502) 749-3305",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "5:30 PM for a bourbon-bar seat on weekends",
+        "advice": "Small Germantown row-house space; the bourbon bar takes walk-ins even when the dining room is booked."
+      },
+      "signatureDish": "Catfish and gumbo",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "romantic"
+      ],
+      "occasion": [
+        "celebration",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "The New York Times (reported via LEO Weekly)",
+          "tier": "Best-of / National ranking",
+          "url": "https://www.leoweekly.com/news/this-louisville-restaurant-was-named-one-of-americas-top-50-by-the-new-york-times-16883484/",
+          "note": "Reports the New York Times named North of Bourbon one of the 50 best restaurants in the U.S. for 2024."
+        }
+      ],
+      "tips": [
+        "Named to the New York Times' 2024 list of America's 50 best restaurants — the only Kentucky restaurant on the list — and demand for weekend dinner tables regularly outstrips the small Germantown space.",
+        "Book several days ahead minimum; weekends need more lead time",
+        "300+ bourbon list draws a bar crowd too, so the dining room fills fast",
+        "VERIFY current release schedule/booking window on OpenTable"
+      ]
+    },
+    {
+      "id": "sake-a-gogo",
+      "name": "Sake a Gogo",
+      "neighborhood": "NuLu",
+      "cuisine": "Japanese sushi and omakase",
+      "coordinates": {
+        "lat": 38.2557,
+        "lng": -85.7428
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/sake-a-gogo-louisville",
+      "website": "https://sakeagogo.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "signatureDish": "Chef-guided omakase (8-seat private omakase room)",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Voice-Tribune",
+          "tier": "Feature",
+          "url": "https://www.voice-tribune.com/post/sake-a-gogo-honors-traditional-asian-dining",
+          "note": "Local magazine feature on the restaurant's sushi bar, omakase room, and sake/Japanese-bourbon program."
+        }
+      ],
+      "tips": [
+        "Design-forward Japanese restaurant built around a dramatic sushi bar and an 8-person private omakase room; named one of Louisville's most romantic restaurants, driving high demand for the small omakase seatings.",
+        "Book the private omakase room well ahead — only 8 seats",
+        "The sushi bar/a la carte side has more availability than the omakase experience",
+        "VERIFY release schedule and booking window"
+      ]
+    },
+    {
+      "id": "yi-sushi-omakase",
+      "name": "Yi Sushi Omakase",
+      "neighborhood": "Highlands",
+      "cuisine": "Japanese omakase and sushi",
+      "coordinates": {
+        "lat": 38.249,
+        "lng": -85.7075
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://yisushiomakase.com/louisville-yi-sushi-omakase-reservations",
+      "website": "https://yisushiomakase.com/",
+      "phoneNumber": "(502) 384-0353",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "signatureDish": "10-piece nigiri omakase experience",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "Yi Sushi Omakase (official reservations page)",
+          "tier": "Booking/Menu",
+          "url": "https://yisushiomakase.com/louisville-yi-sushi-omakase-reservations",
+          "note": "Official page describing the intimate, high-end omakase format and recommending advance reservations."
+        }
+      ],
+      "tips": [
+        "Small, intimate high-end omakase counter with limited seating and a chef-curated multi-course format; reservations strongly recommended given Louisville's limited omakase options.",
+        "Call ahead for the omakase counter — seating is limited",
+        "Closed Mondays; Tue-Thu hours are shorter, concentrating demand",
+        "VERIFY exact seat count and booking-window policy directly with the restaurant"
+      ]
+    },
+    {
+      "id": "bar-vetti",
+      "name": "Bar Vetti",
+      "neighborhood": "NuLu",
+      "cuisine": "Neighborhood Italian",
+      "coordinates": {
+        "lat": 38.2551,
+        "lng": -85.7328
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/louisville-ky/venues/bar-vetti",
+      "website": "https://barvetti.com/",
+      "phoneNumber": "(502) 883-3331",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "5:30 PM on weekends",
+        "advice": "Communal tables and bar seats make walk-ins realistic most nights."
+      },
+      "signatureDish": "Cacio e pepe; Neapolitan Margherita pizza",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/food-drink/bar-vettis-fare-still-delights-in-its-new-space-15776168/",
+          "note": "Local critic review of Bar Vetti's food and new AC Hotel space in NuLu."
+        }
+      ],
+      "tips": [
+        "One of NuLu's most consistently busy Italian spots since relocating into the AC Hotel; prime weekend dinner reservations fill quickly, though its larger footprint makes it less scarce than the tier's hardest tables.",
+        "Bar/counter seating is often walk-in even when the dining room is booked",
+        "Book several days ahead for Friday/Saturday dinner",
+        "VERIFY current release/booking-window policy"
+      ]
+    },
+    {
+      "id": "jack-frys",
+      "name": "Jack Fry's",
+      "neighborhood": "Highlands",
+      "cuisine": "American bistro with Southern influence, jazz-age supper club",
+      "coordinates": {
+        "lat": 38.2453,
+        "lng": -85.713
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/jack-frys-louisville",
+      "website": "https://www.jackfrys.com/",
+      "phoneNumber": "(502) 452-9244",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM daily",
+        "lineBy": "5:30 PM for a bar seat on weekends",
+        "advice": "The full-service bar is first-come, first-served every night of the week even when the dining room is fully booked."
+      },
+      "signatureDish": "Pork chop; classic American bistro fare with live jazz",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Best-of 2024",
+          "url": "https://www.leoweekly.com/best-of/2024/food-and-dining/best-restaurant-highlands-16937895",
+          "note": "Names Jack Fry's Best Restaurant in the Highlands for 2024, calling it a Highlands fine-dining icon since 1985."
+        }
+      ],
+      "tips": [
+        "Louisville's most enduring fine-dining institution (since 1933/1985) and top vote-getter in LEO Weekly's 'worth the splurge' readers' poll; dining-room reservations fill well ahead of weekends and Derby season.",
+        "Book especially far ahead for Kentucky Derby week (early May)",
+        "Walk in to the bar any night for full-menu dining without a reservation",
+        "VERIFY current OpenTable booking-window length"
+      ]
+    },
+    {
+      "id": "le-moo",
+      "name": "Le Moo",
+      "neighborhood": "Clifton / Butchertown",
+      "cuisine": "Theatrical steakhouse",
+      "coordinates": {
+        "lat": 38.2478,
+        "lng": -85.7145
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/le-moo",
+      "website": "https://lemoorestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "5:30 PM at the bar on weekends",
+        "advice": "Bar area with its own menu takes walk-ins; the themed dining rooms and prime steak tables are best reserved for weekend nights."
+      },
+      "signatureDish": "Three-steak tasting flight (Wagyu, Prime, Choice)",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "celebration",
+        "anniversary"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/food-drink/we-go-full-carnivore-almost-at-le-moo-15756333/",
+          "note": "Review of Le Moo's steak program, including its three-steak Wagyu/Prime/Choice tasting flight."
+        }
+      ],
+      "tips": [
+        "LEO Weekly has repeatedly reviewed Le Moo's steaks and quirky brunch; a popular special-occasion steakhouse that fills up on weekends but is not a scarce reservation overall.",
+        "Book weekend dinner ahead on OpenTable",
+        "Bar seating is a reliable walk-in option",
+        "VERIFY pricing for dry-aged and Wagyu upgrades before booking"
+      ]
+    },
+    {
+      "id": "red-hog",
+      "name": "Red Hog",
+      "neighborhood": "Clifton",
+      "cuisine": "Butcher shop and wood-fired New American",
+      "coordinates": {
+        "lat": 38.2607,
+        "lng": -85.7128
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/louisville-ky/venues/red-hog",
+      "website": "https://redhogartisanmeat.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "5:30 PM",
+        "advice": "Walk-in seats at the butcher counter/bar are sometimes available even when the dining room is booked."
+      },
+      "signatureDish": "Wood-fired rotisserie chicken; 'Damn Good' Cuban sandwich",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "Bon Appétit",
+          "tier": "Best New Restaurants 2025 finalist",
+          "url": "https://www.whas11.com/article/news/local/this-louisville-eatery-is-a-finalist-for-bon-appetits-best-new-restaurants/417-461880663",
+          "note": "Reports Red Hog as a 2025 Bon Appétit Best New Restaurants in America finalist."
+        }
+      ],
+      "tips": [
+        "A butcher shop that becomes a wood-fired restaurant and bar at night; named a 2025 Bon Appétit Best New Restaurants finalist, increasing demand for prime-time Resy slots.",
+        "Walk-in seats at the butcher counter/bar are sometimes available",
+        "Weekday dinners are noticeably easier to book than Fri/Sat",
+        "VERIFY current Resy booking-window/release pattern"
+      ]
+    },
+    {
+      "id": "seviche-a-latin-restaurant",
+      "name": "Seviche, A Latin Restaurant",
+      "neighborhood": "Highlands",
+      "cuisine": "Nuevo Latin",
+      "coordinates": {
+        "lat": 38.2495,
+        "lng": -85.7112
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/seviche-a-latin-restaurant-highlands-louisville",
+      "website": "https://www.sevicherestaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "5:30 PM for bar seating on weekends",
+        "advice": "Bar and lounge seating is generally available without a reservation."
+      },
+      "signatureDish": "Seviche sampler; tuna 'old fashioned'",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Feature/Review",
+          "url": "https://www.leoweekly.com/food-drink/seviche-always-satisfies-15779090/",
+          "note": "Critic writes 'Seviche always makes me happy,' praising chef Anthony Lamas's James Beard-nominated cooking."
+        }
+      ],
+      "tips": [
+        "Long-running (20 years) destination from four-time James Beard Award nominee chef Anthony Lamas; a perennial local 'worth the splurge' pick with weekend tables booking up.",
+        "Weekend prime-time slots need advance booking; weekday dinners are easier",
+        "Bar seating is a solid walk-in fallback",
+        "VERIFY current wait times for weekend walk-ins by calling ahead"
+      ]
+    },
+    {
+      "id": "the-fat-lamb",
+      "name": "The Fat Lamb",
+      "neighborhood": "Highlands",
+      "cuisine": "Mediterranean-inspired modern American gastropub",
+      "coordinates": {
+        "lat": 38.2415,
+        "lng": -85.705
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/the-fat-lamb-louisville",
+      "website": "https://fatlamblouisville.com/",
+      "phoneNumber": "(502) 409-7499",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "5:30 PM for bar seats on weekends",
+        "advice": "Small bar area offers walk-in seating with the full menu."
+      },
+      "signatureDish": "Creative small plates and house-made pastas from chef-owner Dallas McGarity",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Feature/Review",
+          "url": "https://www.leoweekly.com/food-drink/fat-lamb-will-get-you-in-a-good-mood-15767510/",
+          "note": "Reviews chef Dallas McGarity's menu, noting his repeated appearances at the James Beard House."
+        }
+      ],
+      "tips": [
+        "Chef-owned since 2016 with a devoted local following; chef Dallas McGarity has cooked repeatedly at the James Beard House; the small dining room does not seat walk-ins once fully reserved.",
+        "Book ahead for weekends — no walk-ins accepted once the reservation book is full",
+        "Closed Sunday/Monday, which concentrates demand into a five-night week",
+        "VERIFY current booking-window/release policy"
+      ]
+    },
+    {
+      "id": "coals-artisan-pizza",
+      "name": "Coals Artisan Pizza",
+      "neighborhood": "St. Matthews / Clifton (Frankfort Ave)",
+      "cuisine": "Coal-fired American Neapolitan-style pizza",
+      "coordinates": {
+        "lat": 38.2548,
+        "lng": -85.6545
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.coalsartisanpizza.com/reservations",
+      "website": "https://www.coalsartisanpizza.com/",
+      "phoneNumber": "(502) 742-8200",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "11:00 AM (Wed-Sun) / 4:00 PM (Mon-Tue)",
+        "lineBy": "6:00 PM on weekends for a table without a wait",
+        "advice": "Takes reservations via its own website but also welcomes walk-ins; weekend dinner rush is the main pinch point."
+      },
+      "signatureDish": "Margherita ('Matthew's') pizza",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/news/coals-artisan-pizza-is-burning-hot-15777722/",
+          "note": "Review calling Coals Artisan Pizza 'seriously good pizza' with a 94-point rating."
+        }
+      ],
+      "tips": [
+        "Named one of the best pizzerias in the country by 50 Top Pizza USA for six consecutive years; LEO Weekly called it 'seriously good pizza' among Louisville's best — popular but not a hard reservation.",
+        "Reserve directly through the restaurant's website for weekend dinner",
+        "Walk-ins are generally fine on weeknights",
+        "VERIFY which of the two Louisville locations you're booking"
+      ]
+    },
+    {
+      "id": "doc-crows-southern-smokehouse-and-raw-bar",
+      "name": "Doc Crow's Southern Smokehouse & Raw Bar",
+      "neighborhood": "Downtown (Whiskey Row)",
+      "cuisine": "Southern smokehouse and raw bar",
+      "coordinates": {
+        "lat": 38.2571,
+        "lng": -85.7533
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/doc-crows-southern-smokehouse-and-raw-bar-louisville",
+      "website": "https://www.doccrows.com/",
+      "phoneNumber": "(502) 587-1626",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "11:00 AM (breakfast/lunch) or 5:00 PM dinner",
+        "lineBy": "6:00 PM on weekend evenings for the bourbon bar",
+        "advice": "Large bar with one of Kentucky's biggest bourbon collections takes walk-ins readily; dining room reservations recommended for weekend dinner and game nights."
+      },
+      "signatureDish": "Smoked brisket and shrimp & grits",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/news/southern-fare-is-just-what-the-doc-crow-ordered-15775953/",
+          "note": "Critic Robin Garr's review calling Doc Crow's Southern-style fare 'tempting and well-prepared'."
+        }
+      ],
+      "tips": [
+        "Historic Whiskey Row smokehouse with a long-running LEO Weekly endorsement; busy downtown destination that's easy to walk into outside peak weekend dinner hours.",
+        "Reserve ahead for weekend dinner or game-day crowds",
+        "Walk-ins are usually fine at the bar or for lunch",
+        "VERIFY hours around Derby week and major downtown events"
+      ]
+    },
+    {
+      "id": "el-mundo",
+      "name": "El Mundo",
+      "neighborhood": "Highlands",
+      "cuisine": "Locally-sourced Mexican",
+      "coordinates": {
+        "lat": 38.2508,
+        "lng": -85.7098
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://502elmundo.com/",
+      "website": "https://502elmundo.com/",
+      "phoneNumber": "(502) 384-5633",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "11:00 AM (Tue-Sat)",
+        "lineBy": "6:00 PM on weekends; 4:00-6:00 PM is the reliably slow window",
+        "advice": "Reservations accepted by phone but tables held only 10 minutes; walk-ins welcomed, especially the 4-6 PM window."
+      },
+      "signatureDish": "Butcher steak and eggs with coffee-chile rub",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "News",
+          "url": "https://www.leoweekly.com/food-drink/el-mundo-highlands-has-opened-15770265/",
+          "note": "Covers the opening of El Mundo's Highlands location, part of the long-running local Mexican restaurant group."
+        }
+      ],
+      "tips": [
+        "Established Highlands Mexican anchor covered by LEO Weekly since its 2020 opening; a reliably popular neighborhood spot rather than a scarce reservation.",
+        "Call ahead for a table, especially Friday/Saturday",
+        "Visit 4-6 PM for a guaranteed table and happy-hour pricing",
+        "VERIFY current days/hours — closed Sundays and Mondays"
+      ]
+    },
+    {
+      "id": "gralehaus",
+      "name": "Gralehaus",
+      "neighborhood": "Highlands",
+      "cuisine": "Scratch-made breakfast, brunch & lunch",
+      "coordinates": {
+        "lat": 38.244,
+        "lng": -85.725
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.thegrales.com/gralehaus",
+      "website": "https://www.thegrales.com/gralehaus",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "9:00 AM",
+        "lineBy": "8:45 AM weekdays, 8:30 AM weekends to beat the brunch rush",
+        "advice": "No reservations — counter service with first-come, first-served seating in a converted Victorian house."
+      },
+      "signatureDish": "Lamb merguez and grits, veggie or pork hash",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Feature",
+          "url": "https://www.leoweekly.com/food-drink/gralehaus-10-year-anniversary-15971118/",
+          "note": "Covers Gralehaus's 10th anniversary and its beloved status as part of the Highlands 'Grales' beer-and-brunch empire."
+        }
+      ],
+      "tips": [
+        "Ten-plus-year Highlands brunch institution from the Holy Grale team, repeatedly covered by LEO Weekly; popular enough for a wait but always walk-in-only.",
+        "No reservations taken — go early on weekends",
+        "Patio/garden seating adds capacity in warm months",
+        "VERIFY seasonal hours, especially around holidays"
+      ]
+    },
+    {
+      "id": "hammerheads",
+      "name": "Hammerheads",
+      "neighborhood": "Germantown",
+      "cuisine": "Gastropub smokehouse",
+      "coordinates": {
+        "lat": 38.2262,
+        "lng": -85.7345
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://louisvillehammerheads.com/",
+      "website": "https://louisvillehammerheads.com/",
+      "phoneNumber": "(502) 365-1112",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM (5:00-9:00 PM Mon-Thu/Sun, 5:00-10:00 PM Fri-Sat)",
+        "lineBy": "Arrive right at open for a table without a wait; expect a line by 6:30 PM on weekends",
+        "advice": "No reservations accepted at all — first come, first served only. Small Germantown space."
+      },
+      "signatureDish": "House-smoked meats",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Dining Guide",
+          "url": "https://www.leoweekly.com/food-drink/the-local-list-dining-guide-2014-15775001/",
+          "note": "Includes Hammerheads in LEO Weekly's local dining guide as a Germantown smokehouse and gastropub."
+        }
+      ],
+      "tips": [
+        "Long-running Germantown gastropub and smokehouse featured repeatedly in LEO Weekly's local dining guides; walk-in-only by design.",
+        "No reservations — plan to arrive at door-open for a table",
+        "Seating is limited, so weekday visits are far less of a wait",
+        "VERIFY current hours before visiting"
+      ]
+    },
+    {
+      "id": "mayan-cafe",
+      "name": "Mayan Cafe",
+      "neighborhood": "NuLu / Phoenix Hill",
+      "cuisine": "Yucatecan & Mayan-inspired Mexican",
+      "coordinates": {
+        "lat": 38.2553,
+        "lng": -85.7325
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/louisville-ky/venues/mayan-cafe",
+      "website": "https://themayancafe.com/",
+      "phoneNumber": "(502) 566-0651",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM (closed Sunday)",
+        "lineBy": "5:30 PM on weekends for the dining room",
+        "advice": "Small, chef-driven room; weeknight walk-ins are usually fine, weekends are safer with a Resy booking."
+      },
+      "signatureDish": "Cochinita pibil and duck confit papadzules",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "intimate"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/news/eat-like-a-mayan-and-love-it-at-mayan-cafe-15773484/",
+          "note": "Critic Robin Garr's review praising Mayan Cafe's Yucatecan and Guatemalan-inspired menu and its use of local, seasonal ingredients."
+        }
+      ],
+      "tips": [
+        "Chef Bruce Ucán's distinctive Yucatecan kitchen has been a consistent Louisville critical favorite since the 2000s; small dining room means weekend prime time needs planning but is not a true hard ticket.",
+        "Book on Resy for Friday/Saturday dinner",
+        "Weeknights are readily walk-in-able",
+        "VERIFY the Resy booking-window length directly"
+      ]
+    },
+    {
+      "id": "ramsis-cafe-on-the-world",
+      "name": "Ramsi's Cafe on the World",
+      "neighborhood": "Highlands",
+      "cuisine": "Global comfort food",
+      "coordinates": {
+        "lat": 38.2458,
+        "lng": -85.7115
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/ramsis-cafe-on-the-world-highlands-louisville",
+      "website": "https://ramsiscafe.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "11:00 AM",
+        "lineBy": "6:00 PM on weekends for a table without a wait",
+        "advice": "Large, colorful dining room with a full bar; walk-ins are generally accommodated except during peak Friday/Saturday dinner and brunch hours."
+      },
+      "signatureDish": "Hibachi salad and vegan Bayou burger",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Feature",
+          "url": "https://www.leoweekly.com/food-drink/ramsis-cafe-of-the-world-global-comfort-food-and-fine-art-18074183/",
+          "note": "Feature describing Ramsi's as one of Louisville's most beloved restaurants since opening around 1994."
+        }
+      ],
+      "tips": [
+        "Beloved 30-year-old Highlands institution and Urban Bourbon Trail stop; busy but genuinely walk-in-friendly most nights.",
+        "Reserve for weekend dinner if you want a specific time",
+        "Weekday lunch and off-peak hours are easy walk-ins",
+        "VERIFY current happy-hour and brunch schedules"
+      ]
+    },
+    {
+      "id": "volare-italian-ristorante",
+      "name": "Volare Italian Ristorante",
+      "neighborhood": "Clifton",
+      "cuisine": "Upscale Italian",
+      "coordinates": {
+        "lat": 38.2655,
+        "lng": -85.7148
+      },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/volare-italian-restaurant-louisville",
+      "website": "https://volare-restaurant.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:00 PM",
+        "lineBy": "5:30 PM on weekends for the bar",
+        "advice": "Bar area takes walk-ins; dining room is best reserved for Friday/Saturday but weeknights are easy to walk into."
+      },
+      "signatureDish": "House-made pasta",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": [
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "LEO Weekly",
+          "tier": "Review",
+          "url": "https://www.leoweekly.com/news/volare-continues-the-upscale-italian-tradition-15775836/",
+          "note": "Reviews Volare as part of Louisville's pantheon of top Italian tables."
+        }
+      ],
+      "tips": [
+        "Louisville Magazine readers' three-time Best Italian Restaurant pick; LEO Weekly calls it one of the city's top Italian tables since 2004 — beloved and busy but not a hard-to-get reservation.",
+        "Reserve for weekend dinner via OpenTable",
+        "Weeknight and bar seating are easy walk-ins",
+        "VERIFY holiday/Derby-week hours, which shift"
+      ]
+    }
+  ]
+}
