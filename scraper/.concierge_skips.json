@@ -1,0 +1,11 @@
+{
+  "$comment": "Cities and nominated restaurants the concierge evaluated and declined. Prevents re-litigating the same honest 'no' every run. 'restaurants' entries are keyed by city_key + restaurant_name (from restaurant-queue.json nominations); 'cities' entries are keyed by city label (from demand.json).",
+  "restaurants": [],
+  "cities": [
+    {
+      "city": "Lake Charles, LA",
+      "date": "2026-07-26",
+      "reason": "Too thin: only 7 restaurants cleared the anti-slop covenant (real trusted-outlet or substantive local-critic source, confirmed open, real booking mechanics) against a minimum of 8. Casino-resort dining (Vic & Anthony's Steakhouse at Golden Nugget, Ember Grille & Wine Bar at L'Auberge, Gordon Ramsay Steak at Horseshoe) plus a handful of independent chef-driven spots (Augustine, Restaurant Calla, The Terrace, 121 Artisan Bistro) is the extent of genuinely press-covered dining in this market. Well-regarded local institutions — La Truffe Sauvage, The Pioneer Club, Pujo Street Cafe, Villa Harlequin, Cafe Margaux — turned up only Yelp/TripAdvisor/directory coverage with no substantive critic writeup found after extensive searching (American Press, Thrive Magazine, The Local Palate, KPLC, James Beard database)."
+    }
+  ]
+}
