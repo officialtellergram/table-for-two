@@ -46,8 +46,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<!-- Leaflet CSS/JS is lazy-loaded on first map open (see loadLeaflet), and Vanta/
+     three.js after page load — neither is needed for first paint. Warm the CDN
+     connections so those lazy loads are quick. -->
+<link rel="preconnect" href="https://unpkg.com" crossorigin />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
 <style>
   :root{
     --bg:#0a0a0b; --panel:#101011; --panel2:#161618; --line:#212124;
@@ -722,12 +725,9 @@
   </footer>
 </main>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<!-- Lenis' CDN build also registers itself as window.L, clobbering Leaflet's L
-     (which breaks the map). Snapshot the real Leaflet L here, restore it after
-     Lenis loads below. We drive Lenis via window.Lenis, so L stays Leaflet's. -->
-<script>window.__leafletL = window.L;</script>
+<!-- Leaflet is loaded lazily by loadLeaflet() on first map open (saves ~150KB
+     off first load). Because it loads AFTER Lenis by then, Leaflet's window.L
+     wins cleanly; loadLeaflet snapshots it into __leafletL for showMap's guard. -->
 <script>
 /* ============================================================
    Drop Watch — single-file hard-to-book reservation dashboard
@@ -1320,10 +1320,35 @@ function tick(){
 }
 
 /* ---------- Map view ---------- */
-function showMap(){
-  if(window.__leafletL) window.L = window.__leafletL;   // guard: Lenis clobbers L
+/* Lazy-load Leaflet (CSS+JS) on demand — keeps ~150KB off first paint since the
+   map isn't shown on landing. Returns a promise that resolves once L is ready. */
+let __leafletP=null;
+function loadLeaflet(){
+  if(window.L && window.L.map) return Promise.resolve();
+  if(__leafletP) return __leafletP;
+  __leafletP=new Promise((res,rej)=>{
+    const css=document.createElement('link'); css.rel='stylesheet';
+    css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    css.integrity='sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY='; css.crossOrigin='';
+    document.head.appendChild(css);
+    const s=document.createElement('script');
+    s.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    s.integrity='sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo='; s.crossOrigin='';
+    s.onload=()=>{ window.__leafletL=window.L; res(); };   // snapshot the real Leaflet L
+    s.onerror=rej; document.head.appendChild(s);
+  });
+  return __leafletP;
+}
+async function showMap(){
   $('grid').classList.add('hide'); $('map').style.display='block';
+  if(!map){                                    // show a placeholder while the lib streams in
+    $('map').innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted)">Loading map…</div>';
+  }
+  try{ await loadLeaflet(); }
+  catch(e){ $('map').innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted)">Map couldn\'t load — check your connection.</div>'; return; }
+  if(window.__leafletL) window.L = window.__leafletL;   // guard: Lenis also defines window.L
   if(!map){
+    $('map').innerHTML='';
     map=L.map('map',{zoomControl:true});
     tileLayer=L.tileLayer(tileUrl(),
       {maxZoom:19, attribution:'&copy; OpenStreetMap &copy; CARTO'}).addTo(map);
@@ -1766,11 +1791,8 @@ window.addEventListener('load',function(){
   .lz-wordmark:hover{background-position:right center}
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
-<!-- Restore Leaflet's L, which the Lenis build above just clobbered. MUST run on
-     DOMContentLoaded, not inline-"defer" (defer is ignored on inline scripts, so
-     it would run at parse time BEFORE the deferred Lenis executes). DCL fires
-     after deferred scripts, so L is Leaflet's again by the time anything needs it. -->
-<script>document.addEventListener('DOMContentLoaded',function(){try{ if(window.__leafletL) window.L = window.__leafletL; }catch(e){}});</script>
+<!-- (Leaflet's window.L clobber-by-Lenis is now handled inside loadLeaflet, which
+     runs after Lenis and snapshots the real L — no page-load restore needed.) -->
 <script defer>
 (function(){
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -1850,32 +1872,45 @@ window.addEventListener('load',function(){
 <!-- WebGL ambient candlelight (Vanta FOG). Heavier (pulls three.js) — an
      EXPERIMENT: gated on reduced-motion + WebGL support, theme-aware, and cheap
      to kill. Before an app ship we'd gate it to desktop / high-power only. -->
-<script defer src="https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.fog.min.js"></script>
+<!-- Vanta FOG is ambient decoration, so three.js (~580KB) + vanta (~30KB) are
+     loaded LAZILY after the page is loaded and idle — off the first-load path
+     entirely. Skipped without download under reduced-motion or no WebGL. -->
 <script defer>
-window.addEventListener('load', function(){
-  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  if(!window.VANTA || !VANTA.FOG) return;
-  try{ var t=document.createElement('canvas');           // bail if no WebGL
-    if(!(t.getContext('webgl')||t.getContext('experimental-webgl'))) return;
-  }catch(e){ return; }
-  // Warm candlelit palettes — gold highlight, bronze midtone, deep-warm shadow.
-  var PAL = {
-    dark:  { baseColor:0x0a0a0b, lowlightColor:0x100a03, midtoneColor:0x3a2810, highlightColor:0x8a6636 },
-    light: { baseColor:0xf4f3ef, lowlightColor:0xeaddc4, midtoneColor:0xc4ab7e, highlightColor:0xdcb877 }
-  };
-  var theme = function(){ return document.documentElement.getAttribute('data-theme')==='light' ? 'light' : 'dark'; };
-  var v;
-  try{
-    v = VANTA.FOG(Object.assign({
-      el:'#vanta-bg', mouseControls:false, touchControls:false, gyroControls:false,
-      blurFactor:0.86, speed:3.2, zoom:1.0, scaleMobile:1
-    }, PAL[theme()]));
-    window.__vanta = v;
-  }catch(e){ return; }
-  new MutationObserver(function(){ try{ v.setOptions(PAL[theme()]); }catch(e){} })
-    .observe(document.documentElement, {attributes:true, attributeFilter:['data-theme']});
-});
+(function(){
+  function canRun(){
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
+    try{ var t=document.createElement('canvas');
+      return !!(t.getContext('webgl')||t.getContext('experimental-webgl')); }catch(e){ return false; }
+  }
+  function inject(src){ return new Promise(function(res,rej){
+    var s=document.createElement('script'); s.src=src; s.async=true;
+    s.onload=res; s.onerror=rej; document.head.appendChild(s);
+  }); }
+  function initFog(){
+    if(!window.VANTA || !VANTA.FOG) return;
+    var PAL = {
+      dark:  { baseColor:0x0a0a0b, lowlightColor:0x100a03, midtoneColor:0x3a2810, highlightColor:0x8a6636 },
+      light: { baseColor:0xf4f3ef, lowlightColor:0xeaddc4, midtoneColor:0xc4ab7e, highlightColor:0xdcb877 }
+    };
+    var theme=function(){ return document.documentElement.getAttribute('data-theme')==='light'?'light':'dark'; };
+    var v;
+    try{ v = VANTA.FOG(Object.assign({ el:'#vanta-bg', mouseControls:false, touchControls:false,
+      gyroControls:false, blurFactor:0.86, speed:3.2, zoom:1.0, scaleMobile:1 }, PAL[theme()]));
+      window.__vanta=v; }catch(e){ return; }
+    new MutationObserver(function(){ try{ v.setOptions(PAL[theme()]); }catch(e){} })
+      .observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+  }
+  function load(){
+    if(!canRun()) return;                    // never even download three.js if it can't run
+    inject('https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js')
+      .then(function(){ return inject('https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.fog.min.js'); })
+      .then(initFog).catch(function(){});
+  }
+  // after load + idle, so the fog never competes with first paint
+  window.addEventListener('load', function(){
+    (window.requestIdleCallback || function(f){ return setTimeout(f, 500); })(load, {timeout:3000});
+  });
+})();
 </script>
 
 <!-- Stage 2: sign-in + watchlists. Separate ES module so it doesn't touch the
