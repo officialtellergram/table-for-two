@@ -1,0 +1,1087 @@
+{
+  "meta": {
+    "source": "t42-city-concierge",
+    "city": "Charlottesville, VA",
+    "count": 25,
+    "curated": "2026-07-26",
+    "disclaimer": "Always confirm release times with the restaurant."
+  },
+  "spots": [
+    {
+      "id": "smyrna",
+      "name": "Smyrna",
+      "neighborhood": "West Main St, Charlottesville",
+      "cuisine": "Aegean / Mediterranean",
+      "coordinates": { "lat": 38.0325, "lng": -78.4884 },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/smyrna",
+      "website": "https://www.smyrnacville.com/",
+      "phoneNumber": "(434) 956-4250",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book on Resy as soon as a date opens rather than waiting",
+        "Closed Tuesdays",
+        "Limited hours (5-9/9:30 PM) mean early and late slots go first",
+        "VERIFY exact release cadence/time"
+      ],
+      "signatureDish": "Aegean small plates applying French technique to Virginia ingredients",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["special-occasion", "lively"],
+      "occasion": ["impress", "celebration", "anniversary"],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "James Beard",
+          "tier": "Semifinalist 2026",
+          "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+          "note": "Chef-owner Tarik Sengul named Best Chef: Mid-Atlantic semifinalist 2026"
+        },
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2026/01/21/smyrnas-tarik-sengul-named-james-beard-semifinalist-best-chef-mid-atlantic/",
+          "note": "Local reporting on the James Beard semifinalist nod and Sengul's background"
+        }
+      ]
+    },
+    {
+      "id": "marigold-by-jean-georges",
+      "name": "Marigold by Jean-Georges",
+      "neighborhood": "Keswick Hall, Keswick",
+      "cuisine": "French / seasonal American",
+      "coordinates": { "lat": 38.0679, "lng": -78.352 },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/keswick-va/venues/marigold-by-jean-georges",
+      "website": "https://www.marigoldjg.com/",
+      "phoneNumber": "(434) 284-4200",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Flagship restaurant of chef Jean-Georges Vongerichten inside the Keswick Hall resort",
+        "Book via Resy well ahead for prime weekend dinner times",
+        "Weekday dinners are easier than resort event weekends (graduation, football)",
+        "Also serves lunch/breakfast, which can be an easier-to-book alternative",
+        "VERIFY release cadence and booking window"
+      ],
+      "signatureDish": "Seasonal French menu built around produce from Keswick's own Oakdale Farm",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["special-occasion", "romantic"],
+      "occasion": ["anniversary", "celebration", "impress"],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Virginia Living",
+          "tier": "Feature",
+          "url": "https://virginialiving.com/food/marigold-at-keswick-hall/",
+          "note": "Feature on Marigold's opening at Keswick Hall"
+        },
+        {
+          "name": "Virginia Living",
+          "tier": "Feature",
+          "url": "https://virginialiving.com/food/keswick-hall-and-marigold/",
+          "note": "Additional coverage of Keswick Hall and Marigold"
+        }
+      ]
+    },
+    {
+      "id": "the-alley-light",
+      "name": "The Alley Light",
+      "neighborhood": "Downtown Mall, Charlottesville",
+      "cuisine": "French shared plates / craft cocktails",
+      "coordinates": { "lat": 38.0296, "lng": -78.4791 },
+      "difficulty": 5,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/the-alley-light",
+      "website": "https://alleylight.com/",
+      "phoneNumber": "(434) 296-5003",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Only two nightly seatings (early 5-6:30 PM, late 8 PM+) — book the exact time you want",
+        "Early seating may be easier to land than the late seating",
+        "Below street level in an actual alley — easy to miss, arrive with time to spare",
+        "Kitchen/menu has evolved over the years (currently chef Robin McDaniel)",
+        "VERIFY release cadence and booking window"
+      ],
+      "signatureDish": "Country French small plates",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["intimate", "romantic", "special-occasion"],
+      "occasion": ["anniversary", "first-date", "celebration"],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "The Washington Post",
+          "tier": "Review",
+          "url": "https://www.washingtonpost.com/lifestyle/food/alley-light-review-a-french-chefs-cooking-glows-in-charlottesville/2015/09/01/effe4f3c-4a5e-11e5-846d-02792f854297_story.html",
+          "note": "National dining review; also a 2015 James Beard Best New Restaurant nominee"
+        },
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://c-ville.com/expert-approved-the-alley-lights-food-thrills-even-the-toughest-critic/",
+          "note": "Local critic feature praising the kitchen's cooking"
+        }
+      ]
+    },
+    {
+      "id": "bar-tomas",
+      "name": "Bar Tomas",
+      "neighborhood": "Belmont (edge), Charlottesville",
+      "cuisine": "Spanish small plates",
+      "coordinates": { "lat": 38.0248, "lng": -78.4779 },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "(434) 956-9107",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "5:30 PM",
+        "lineBy": "",
+        "advice": "Communal 18-foot table has some walk-in flexibility; arrive early for your own space."
+      },
+      "tips": [
+        "No online booking platform — call ahead to reserve",
+        "Menu changes monthly, so ask what's on the current sheet",
+        "Open for dinner Wed-Sat from 5:30 PM",
+        "VERIFY current official website"
+      ],
+      "signatureDish": "Tortilla Española; house-made crusty bread",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["intimate", "cozy"],
+      "occasion": ["first-date", "celebration"],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2018/06/28/introducing-quality-pie/",
+          "note": "Introduces chef Tomas Rahal's concept in the former Spudnuts building that later evolved into Bar Tomas (same chef/owners, same space)"
+        }
+      ]
+    },
+    {
+      "id": "lampo-neapolitan-pizzeria",
+      "name": "Lampo Neapolitan Pizzeria",
+      "neighborhood": "Belmont, Charlottesville",
+      "cuisine": "Neapolitan pizza",
+      "coordinates": { "lat": 38.0221, "lng": -78.4783 },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.lampopizza.com/",
+      "website": "https://www.lampopizza.com/",
+      "phoneNumber": "(434) 244-3226",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "open at 5 PM",
+        "lineBy": "",
+        "advice": "No reservations at all — arrive right at open or very late (open until midnight) to shorten the wait."
+      },
+      "tips": [
+        "Does not take reservations at all — 100% walk-in with a cult following and long waits",
+        "A separate Lampo 2Go takeout location exists if you don't want to wait",
+        "Recent head-chef departure reported locally — worth a quick recent-review check before a special-occasion visit",
+        "Fri/Sat waits are longest"
+      ],
+      "signatureDish": "12-inch Neapolitan pies, wood-fired under two minutes",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively", "cozy"],
+      "occasion": ["first-date"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://c-ville.com/chef-exits-ian-redshaw-departs-lampo-prime-109/",
+          "note": "Local trade coverage confirming the restaurant's standing and recent chef news"
+        }
+      ]
+    },
+    {
+      "id": "c-and-o-restaurant",
+      "name": "C&O Restaurant",
+      "neighborhood": "Downtown (East Water St), Charlottesville",
+      "cuisine": "New American, French-influenced",
+      "coordinates": { "lat": 38.0292, "lng": -78.4779 },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/c-and-o-charlottesville",
+      "website": "https://www.candorestaurant.com/",
+      "phoneNumber": "(434) 971-7044",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The ground-floor bistro level may take walk-ins; the upstairs dining room is reservation-first."
+      },
+      "tips": [
+        "50-year Charlottesville institution (opened 1976)",
+        "Book the upstairs dining room for the quietest experience",
+        "Reservations easier midweek",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "French-American bistro fare; ask for current chef Dean Maupin's seasonal specials",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["special-occasion", "romantic"],
+      "occasion": ["anniversary", "celebration"],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://c-ville.com/five-decades-after-opening-on-east-water-street-the-co-continues-to-define-charlottesville-dining/",
+          "note": "In-depth 2026 feature on the restaurant's 50-year history"
+        }
+      ]
+    },
+    {
+      "id": "fleurie",
+      "name": "Fleurie",
+      "neighborhood": "Downtown Mall (3rd St NE), Charlottesville",
+      "cuisine": "French fine dining",
+      "coordinates": { "lat": 38.0301, "lng": -78.4787 },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/fleurie",
+      "website": "https://www.fleurierestaurant.com/",
+      "phoneNumber": "(434) 971-7800",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Open Tue-Thu 5-9 PM, Fri-Sat 5-10 PM — plan around limited hours",
+        "Prix-fixe fine dining format ($119, +$79 wine pairing) — call for large parties",
+        "Its more casual sibling Petit Pois is a good backup if Fleurie is full",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Prix-fixe three-course French tasting menu, seasonally rotating",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["special-occasion", "romantic"],
+      "occasion": ["anniversary", "celebration", "impress"],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://www.c-ville.com/five-finds-on-friday-brian-helleberg",
+          "note": "\"Five Finds on Friday\" feature on chef-owner Brian Helleberg (Fleurie / Petit Pois)"
+        }
+      ]
+    },
+    {
+      "id": "ivy-inn-restaurant",
+      "name": "Ivy Inn Restaurant",
+      "neighborhood": "Ivy Road, Charlottesville",
+      "cuisine": "New American, locavore",
+      "coordinates": { "lat": 38.0453, "lng": -78.5188 },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/the-ivy-inn-restaurant",
+      "website": "https://www.ivyinnrestaurant.com/",
+      "phoneNumber": "(434) 977-1222",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Dinner only, Tue-Sat 5-9 PM",
+        "Historic house with multiple small dining rooms and no elevator — call ahead for accessibility or large groups",
+        "Garden/tented patio seating is a nice warm-weather ask",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Grilled quail; bison short ribs",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["special-occasion", "cozy"],
+      "occasion": ["anniversary", "celebration"],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://c-ville.com/ivy-inns-angelo-vangelopoulos-star-worthy/",
+          "note": "Local critic profile of chef/owner Angelo Vangelopoulos noting past James Beard semifinalist recognitions"
+        },
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://c-ville.com/room-at-the-inn-the-vangelopouloses-welcome-everyone-as-family/",
+          "note": "Additional local feature on the restaurant"
+        }
+      ]
+    },
+    {
+      "id": "1799-at-the-clifton",
+      "name": "1799 at The Clifton",
+      "neighborhood": "Clifton Inn, near Charlottesville",
+      "cuisine": "New American fine dining",
+      "coordinates": { "lat": 38.0575, "lng": -78.3985 },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/1799-at-the-clifton-charlottesville",
+      "website": "https://www.the-clifton.com/eat-and-drink/1799-at-the-clifton-charlottesville",
+      "phoneNumber": "(434) 971-1800",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Reservations required even for hotel guests — not guaranteed day-of",
+        "Book well ahead for weekend dates, popular for special occasions",
+        "Ask about Sunday brunch as an easier-to-book alternative",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Seasonal Mid-Atlantic tasting menu drawing on the property's own garden",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["special-occasion", "romantic"],
+      "occasion": ["anniversary", "celebration", "impress"],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://c-ville.com/advice-for-dining-at-the-cliftons-1799/",
+          "note": "Local dining-advice feature on the restaurant (Dec. 2024)"
+        }
+      ]
+    },
+    {
+      "id": "oakhart-social",
+      "name": "Oakhart Social",
+      "neighborhood": "West Main St, Charlottesville",
+      "cuisine": "Wood-fired modern American, shared plates",
+      "coordinates": { "lat": 38.0316, "lng": -78.4869 },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/oakhart-social",
+      "website": "https://www.oakhartsocial.com/reservations",
+      "phoneNumber": "(434) 995-5449",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "4:30 PM",
+        "lineBy": "",
+        "advice": "First-come-first-served seating exists beyond reserved tables; arrive at first seating or be ready to wait."
+      },
+      "tips": [
+        "2-top reservations get 1h45m, 3+ get 2 hours",
+        "Known as a great bar/natural-wine hang even outside reservation hours",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Wood-fired sausage pizza",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively"],
+      "occasion": ["first-date", "celebration"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://c-ville.com/everybody-knows-name-oakhart-social-favorite-hours-hang/",
+          "note": "Local feature on the restaurant's standing in the community"
+        }
+      ]
+    },
+    {
+      "id": "tavola",
+      "name": "Tavola",
+      "neighborhood": "Belmont, Charlottesville",
+      "cuisine": "Rustic Italian",
+      "coordinates": { "lat": 38.0201, "lng": -78.4761 },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/tavola",
+      "website": "https://tavolavino.com/",
+      "phoneNumber": "(434) 972-9463",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Cicchetti bar seating is a legitimate first-come-first-served backup if the dining room is full."
+      },
+      "tips": [
+        "Small 37-seat storefront — book the dining room ahead on Resy",
+        "Chef Michael Keaveny has published a cookbook of the restaurant's recipes",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "House-made pappardelle Bolognese; carbonara with sausage",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["romantic", "intimate"],
+      "occasion": ["anniversary", "first-date"],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2019/11/14/tavolas-secrets-revealed-new-book-with-recipes-from-charlottesvilles-beloved-italian-restaurant/",
+          "note": "Local food-writer feature calling it \"Charlottesville's beloved Italian restaurant\""
+        }
+      ]
+    },
+    {
+      "id": "mockingbird",
+      "name": "Mockingbird",
+      "neighborhood": "Belmont, Charlottesville",
+      "cuisine": "Southern",
+      "coordinates": { "lat": 38.021, "lng": -78.477 },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/mockingbird-charlottesville",
+      "website": "https://www.mockingbird-cville.com/make-a-reservation",
+      "phoneNumber": "(434) 465-6131",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "40-seat room, $120 all-inclusive prix-fixe format — book ahead",
+        "Open Wed-Sun 5-9 PM",
+        "Chef Melissa Close-Hart is a four-time James Beard semifinalist (Best Chef Mid-Atlantic)",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Biscuit basket with honey butter, pepper jelly, apple butter; fried green tomatoes with whipped pimento cheese",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["special-occasion", "cozy"],
+      "occasion": ["anniversary", "celebration"],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2022/07/20/introducing-mockingbird-chef-melissa-close-harts-restaurant-dream-come-true/",
+          "note": "Local food-writer feature at opening, on chef Melissa Close-Hart's background"
+        }
+      ]
+    },
+    {
+      "id": "cafe-frank",
+      "name": "Café Frank",
+      "neighborhood": "Downtown Mall (East Main St), Charlottesville",
+      "cuisine": "French-Italian",
+      "coordinates": { "lat": 38.0298, "lng": -78.4796 },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/cafe-frank-charlottesville",
+      "website": "https://www.cafefrankcville.com/reservations",
+      "phoneNumber": "(434) 825-9496",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Bar and patio usually have walk-in space even when the dining room is booked."
+      },
+      "tips": [
+        "Private dining room (\"The Study\") available for groups/celebrations",
+        "Book dining room ahead for weekends",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Duck confit; steak frites; house-made pasta",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["romantic", "lively"],
+      "occasion": ["first-date", "anniversary"],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2022/03/17/charlottesville-2022-best-new-restaurant-cafe-frank/",
+          "note": "2022 Best New Restaurant award, notes chef pedigree previously of The Alley Light"
+        }
+      ]
+    },
+    {
+      "id": "the-local",
+      "name": "The Local",
+      "neighborhood": "Belmont, Charlottesville",
+      "cuisine": "New American, locavore",
+      "coordinates": { "lat": 38.0201, "lng": -78.4761 },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/the-local",
+      "website": "https://www.thelocal-cville.com/",
+      "phoneNumber": "(434) 984-9749",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Outdoor seating is a nice overflow/walk-in option in good weather."
+      },
+      "tips": [
+        "Belmont anchor restaurant since 2008 (owner Adam Frazier, chef Matthew Hart)",
+        "Book ahead for weekend dinners in the bustling dining room",
+        "Credited locally as the restaurant that helped launch Belmont's dining scene",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Locally sourced seasonal American plates",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively", "cozy"],
+      "occasion": ["first-date", "celebration"],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/restaurants-of-the-charlottesville-29/",
+          "note": "Named among long-standing Charlottesville 29 restaurants"
+        }
+      ]
+    },
+    {
+      "id": "mas-tapas",
+      "name": "Mas Tapas",
+      "neighborhood": "Belmont, Charlottesville",
+      "cuisine": "Spanish tapas",
+      "coordinates": { "lat": 38.0206, "lng": -78.4775 },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/mas-tapas",
+      "website": "https://mastapas.com/",
+      "phoneNumber": "(434) 979-0990",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Reservations recommended to avoid a wait, but walk-ins are accepted, especially weeknights."
+      },
+      "tips": [
+        "Reserve for prime Fri/Sat times; weeknights much easier to walk into",
+        "Founding chef Tomas Rahal now runs Bar Tomas nearby",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Traditional Spanish tapas rooted in local-farm sourcing",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively"],
+      "occasion": ["first-date"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Feature",
+          "url": "https://www.c-ville.com/five-finds-on-friday-tomas-rahal-of-mas-tapas",
+          "note": "\"Five Finds on Friday\" feature on founding chef Tomas Rahal"
+        }
+      ]
+    },
+    {
+      "id": "public-fish-and-oyster",
+      "name": "Public Fish & Oyster",
+      "neighborhood": "West Main St, Charlottesville",
+      "cuisine": "Seafood / raw bar",
+      "coordinates": { "lat": 38.0316, "lng": -78.487 },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/public-fish-and-oyster",
+      "website": "https://www.publicfo.com/",
+      "phoneNumber": "(434) 995-5542",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Daily happy hour 4-6 PM is a good lower-key walk-in window; sit at the raw bar to watch the shucking."
+      },
+      "tips": [
+        "Small narrow room — book ahead for dinner Fri/Sat",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Hot lobster roll; daily rotating oyster selection",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively", "romantic"],
+      "occasion": ["first-date"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2016/03/10/public-fish-oyster/",
+          "note": "Local feature describing it as a coastal oyster house in Charlottesville"
+        }
+      ]
+    },
+    {
+      "id": "zocalo",
+      "name": "Zocalo",
+      "neighborhood": "Downtown Mall, Charlottesville",
+      "cuisine": "Latin American",
+      "coordinates": { "lat": 38.0297, "lng": -78.4785 },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/zocalo",
+      "website": "https://www.zocalo-restaurant.com/",
+      "phoneNumber": "(434) 977-4944",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Large patio (the biggest on the Mall) often accommodates walk-ins even at peak times."
+      },
+      "tips": [
+        "Phone ahead for parties of 8+",
+        "New ownership (Will Miguel) — menu is evolving",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Contemporary Latin-inspired plates with French technique",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively"],
+      "occasion": ["first-date", "celebration"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/zocalo/",
+          "note": "The first restaurant ever entered into the Charlottesville 29 list (est. Dec. 2003)"
+        }
+      ]
+    },
+    {
+      "id": "the-bebedero",
+      "name": "The Bebedero",
+      "neighborhood": "Downtown Mall, Charlottesville",
+      "cuisine": "Mexican (Veracruz-style)",
+      "coordinates": { "lat": 38.03, "lng": -78.4805 },
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/the-bebedero-charlottesville",
+      "website": "https://thebebedero.com/",
+      "phoneNumber": "(434) 351-7277",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Can get loud with live music/DJ nights — book an earlier or midweek slot for a quieter meal",
+        "Part of Ten Course Hospitality group (also runs Whiskey Jar, Rev Soup)",
+        "VERIFY exact current address and release time"
+      ],
+      "signatureDish": "Modern Veracruz-style Mexican plates; craft cocktail program",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively"],
+      "occasion": ["first-date", "celebration"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2016/02/18/introducing-el-bebedero/",
+          "note": "Local food-writer feature at opening"
+        }
+      ]
+    },
+    {
+      "id": "petit-pois",
+      "name": "Petit Pois",
+      "neighborhood": "Downtown Mall, Charlottesville",
+      "cuisine": "French bistro",
+      "coordinates": { "lat": 38.0297, "lng": -78.4785 },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/petit-pois-charlottesville",
+      "website": "https://www.petitpoisrestaurant.com/",
+      "phoneNumber": "(434) 979-7647",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The 65-seat patio makes walk-ins easy in summer; the 25-seat dining room is smaller in winter — reserve ahead then."
+      },
+      "tips": [
+        "Casual sibling of Fleurie — a good backup if Fleurie is fully booked",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Coq au vin; lamb pastilla",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["romantic", "cozy"],
+      "occasion": ["first-date"],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2015/02/04/petit-pois/",
+          "note": "Local description confirming it as \"the more casual sibling of Fleurie\""
+        }
+      ]
+    },
+    {
+      "id": "bizou",
+      "name": "Bizou",
+      "neighborhood": "Downtown Mall, Charlottesville",
+      "cuisine": "American comfort food, French-diner hybrid",
+      "coordinates": { "lat": 38.0305, "lng": -78.4823 },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "https://www.bizoudowntown.com/reservations-info",
+      "phoneNumber": "(434) 977-1818",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Walk-ins fine for smaller parties and brunch (brunch takes no reservations at all)."
+      },
+      "tips": [
+        "Not bookable online — call ahead, especially for groups of 4+",
+        "Reservations only accepted for parties of 4+ outside brunch",
+        "Open 25+ years — a reliably good, low-drama option"
+      ],
+      "signatureDish": "Gussied-up comfort food and sophisticated specials",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["cozy"],
+      "occasion": ["first-date"],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2016/03/14/bizou/",
+          "note": "Local description: \"Gussied-up comfort food and sophisticated specials in a diner-like setting\""
+        }
+      ]
+    },
+    {
+      "id": "bang",
+      "name": "Bang!",
+      "neighborhood": "Downtown Mall (2nd St SW), Charlottesville",
+      "cuisine": "Pan-Asian small plates",
+      "coordinates": { "lat": 38.0295, "lng": -78.4792 },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/bang",
+      "website": "https://www.bangrestaurant.net/",
+      "phoneNumber": "(434) 984-2264",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Small/medium parties can usually walk in on weeknights; book ahead for weekends."
+      },
+      "tips": [
+        "Reservations accepted for parties of 8+, limited nightly allotment",
+        "Vegetarian/vegan-friendly menu",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "Steamed buns (chicken, pork belly); General Tso's cauliflower",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively"],
+      "occasion": ["first-date"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/tag/jin-bang/",
+          "note": "Local food-writer coverage of the kitchen's cooking"
+        }
+      ]
+    },
+    {
+      "id": "guajiros-miami-eatery",
+      "name": "Guajiros Miami Eatery",
+      "neighborhood": "near Downtown, Charlottesville",
+      "cuisine": "Nicaraguan / Cuban-Miami fusion",
+      "coordinates": { "lat": 38.0328, "lng": -78.4917 },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "https://www.guajiroscville.com/",
+      "phoneNumber": "(434) 465-2108",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Family-run counter that added dinner service in 2024 — call to confirm current reservation practice."
+      },
+      "tips": [
+        "Closed evenings Mon-Tue",
+        "2025 Charlottesville 29 newcomer, growing following",
+        "VERIFY current walk-in vs. reservation split"
+      ],
+      "signatureDish": "Family Nicaraguan recipes; ask for daily specials",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["lively", "cozy"],
+      "occasion": ["first-date"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2025/03/31/guajiros/",
+          "note": "2025 essential-restaurants list entry, praised for its evolving menu and dedicated following"
+        }
+      ]
+    },
+    {
+      "id": "mariebette-cafe-and-bakery",
+      "name": "MarieBette Café & Bakery",
+      "neighborhood": "Rose Hill, Charlottesville",
+      "cuisine": "French bakery / café",
+      "coordinates": { "lat": 38.0428, "lng": -78.482 },
+      "difficulty": 2,
+      "priceRange": "$",
+      "platform": "Website",
+      "platformUrl": "https://www.mariebette.com/",
+      "website": "https://www.mariebette.com/",
+      "phoneNumber": "(434) 529-6118",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "100% walk-in, first-come-first-served. Go early on weekends — brunch lines build fast."
+      },
+      "tips": [
+        "Breakfast/brunch/lunch only, closes mid-afternoon — not a dinner option",
+        "Sister location Petite MarieBette (105 E Water St) is a good overflow option"
+      ],
+      "signatureDish": "French pastries; classic breakfast/brunch fare",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["cozy"],
+      "occasion": ["first-date"],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2017/02/09/mariebette/",
+          "note": "Local food-writer profile of owners Jason Becton and Patrick Evans"
+        }
+      ]
+    },
+    {
+      "id": "milan-indian-cuisine",
+      "name": "Milan Indian Cuisine",
+      "neighborhood": "Emmet St corridor, Charlottesville",
+      "cuisine": "North Indian",
+      "coordinates": { "lat": 38.0567, "lng": -78.4966 },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/charlottesville-va/venues/milan-indian-restaurant",
+      "website": "https://www.milan-indian-cuisine.com/",
+      "phoneNumber": "(434) 984-2828",
+      "releaseSchedule": "daily",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Generally walk-in friendly outside peak weekend dinner hours."
+      },
+      "tips": [
+        "Book ahead only for larger weekend groups",
+        "Multiple \"Best of C-VILLE\" reader-poll wins for curry",
+        "VERIFY release time and booking window"
+      ],
+      "signatureDish": "North Indian classics; vegetarian/vegan-friendly menu",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["cozy"],
+      "occasion": ["first-date"],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "C-VILLE Weekly",
+          "tier": "Best of C-VILLE 2021",
+          "url": "https://bestof2021.c-ville.com/CVille/best-of-cville-2021/food-drink/curry/milan-indian-cuisine",
+          "note": "Readers'-poll award page, Best Curry 2021"
+        }
+      ]
+    },
+    {
+      "id": "hogwaller-brewing",
+      "name": "Hogwaller Brewing",
+      "neighborhood": "Woolen Mills, Charlottesville",
+      "cuisine": "Brewpub, smash burgers",
+      "coordinates": { "lat": 38.0349, "lng": -78.465 },
+      "difficulty": 2,
+      "priceRange": "$",
+      "platform": "Website",
+      "platformUrl": "https://www.hogwallerbrewing.com/",
+      "website": "https://www.hogwallerbrewing.com/",
+      "phoneNumber": "(434) 235-5043",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Fully walk-in, counter-order brewpub format — no need to plan ahead."
+      },
+      "tips": [
+        "2025 newcomer to The Charlottesville 29 essential list, praised for local sourcing",
+        "Good casual pairing after a harder-to-book dinner reservation elsewhere"
+      ],
+      "signatureDish": "Grass-fed smash burger",
+      "lastVerified": "2026-07-26",
+      "availability": null,
+      "vibe": ["cozy", "lively"],
+      "occasion": ["first-date"],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "The Charlottesville 29",
+          "tier": "Feature",
+          "url": "https://charlottesville29.com/2025/03/31/hogwaller-brewing/",
+          "note": "2025 essential-restaurants list entry"
+        }
+      ]
+    }
+  ]
+}
