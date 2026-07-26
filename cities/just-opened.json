@@ -1,23 +1,51 @@
 {
-  "generated": "2026-07-26T07:10:34+00:00",
+  "generated": "2026-07-26T09:33:00+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 0,
+  "new": 3,
   "items": [
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
       "date": "2026-07-26",
-      "time": "21:15",
-      "type": "Indoor",
+      "time": "20:15",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-26&seats=2",
-      "firstSeen": "2026-07-26T04:06:04+00:00",
-      "new": false
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-26&seats=2",
+      "firstSeen": "2026-07-26T09:33:00+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-26",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-26&seats=2",
+      "firstSeen": "2026-07-26T09:33:00+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-26",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-26&seats=2",
+      "firstSeen": "2026-07-26T09:33:00+00:00",
+      "new": true
     },
     {
       "city": "dc",
@@ -2775,34 +2803,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-07-28&seats=2",
       "firstSeen": "2026-07-26T00:06:49+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-27",
-      "time": "17:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-27&seats=2",
-      "firstSeen": "2026-07-25T21:56:37+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-27",
-      "time": "21:30",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-27&seats=2",
-      "firstSeen": "2026-07-25T16:58:05+00:00",
       "new": false
     }
   ]
