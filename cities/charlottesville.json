@@ -12,7 +12,10 @@
       "name": "Smyrna",
       "neighborhood": "West Main St, Charlottesville",
       "cuisine": "Aegean / Mediterranean",
-      "coordinates": { "lat": 38.0325, "lng": -78.4884 },
+      "coordinates": {
+        "lat": 38.0325,
+        "lng": -78.4884
+      },
       "difficulty": 5,
       "priceRange": "$$$",
       "platform": "Resy",
@@ -22,8 +25,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "65 days",
+      "bookingWindowDays": 65,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -35,8 +38,15 @@
       "signatureDish": "Aegean small plates applying French technique to Virginia ingredients",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["special-occasion", "lively"],
-      "occasion": ["impress", "celebration", "anniversary"],
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "celebration",
+        "anniversary"
+      ],
       "dateNote": "A special-occasion table worth the wait.",
       "sources": [
         {
@@ -58,7 +68,10 @@
       "name": "Marigold by Jean-Georges",
       "neighborhood": "Keswick Hall, Keswick",
       "cuisine": "French / seasonal American",
-      "coordinates": { "lat": 38.0679, "lng": -78.352 },
+      "coordinates": {
+        "lat": 38.0679,
+        "lng": -78.352
+      },
       "difficulty": 5,
       "priceRange": "$$$$",
       "platform": "Resy",
@@ -82,8 +95,15 @@
       "signatureDish": "Seasonal French menu built around produce from Keswick's own Oakdale Farm",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["special-occasion", "romantic"],
-      "occasion": ["anniversary", "celebration", "impress"],
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "impress"
+      ],
       "dateNote": "A special-occasion table worth the wait.",
       "sources": [
         {
@@ -105,7 +125,10 @@
       "name": "The Alley Light",
       "neighborhood": "Downtown Mall, Charlottesville",
       "cuisine": "French shared plates / craft cocktails",
-      "coordinates": { "lat": 38.0296, "lng": -78.4791 },
+      "coordinates": {
+        "lat": 38.0296,
+        "lng": -78.4791
+      },
       "difficulty": 5,
       "priceRange": "$$$",
       "platform": "Resy",
@@ -115,8 +138,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -129,8 +152,16 @@
       "signatureDish": "Country French small plates",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["intimate", "romantic", "special-occasion"],
-      "occasion": ["anniversary", "first-date", "celebration"],
+      "vibe": [
+        "intimate",
+        "romantic",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date",
+        "celebration"
+      ],
       "dateNote": "An intimate counter — just you, them, and the chef.",
       "sources": [
         {
@@ -152,7 +183,10 @@
       "name": "Bar Tomas",
       "neighborhood": "Belmont (edge), Charlottesville",
       "cuisine": "Spanish small plates",
-      "coordinates": { "lat": 38.0248, "lng": -78.4779 },
+      "coordinates": {
+        "lat": 38.0248,
+        "lng": -78.4779
+      },
       "difficulty": 4,
       "priceRange": "$$",
       "platform": "Phone",
@@ -179,8 +213,14 @@
       "signatureDish": "Tortilla Española; house-made crusty bread",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["intimate", "cozy"],
-      "occasion": ["first-date", "celebration"],
+      "vibe": [
+        "intimate",
+        "cozy"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
       "dateNote": "An intimate counter — just you, them, and the chef.",
       "sources": [
         {
@@ -196,7 +236,10 @@
       "name": "Lampo Neapolitan Pizzeria",
       "neighborhood": "Belmont, Charlottesville",
       "cuisine": "Neapolitan pizza",
-      "coordinates": { "lat": 38.0221, "lng": -78.4783 },
+      "coordinates": {
+        "lat": 38.0221,
+        "lng": -78.4783
+      },
       "difficulty": 4,
       "priceRange": "$$",
       "platform": "Website",
@@ -223,8 +266,13 @@
       "signatureDish": "12-inch Neapolitan pies, wood-fired under two minutes",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively", "cozy"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -240,7 +288,10 @@
       "name": "C&O Restaurant",
       "neighborhood": "Downtown (East Water St), Charlottesville",
       "cuisine": "New American, French-influenced",
-      "coordinates": { "lat": 38.0292, "lng": -78.4779 },
+      "coordinates": {
+        "lat": 38.0292,
+        "lng": -78.4779
+      },
       "difficulty": 3,
       "priceRange": "$$$",
       "platform": "OpenTable",
@@ -267,8 +318,14 @@
       "signatureDish": "French-American bistro fare; ask for current chef Dean Maupin's seasonal specials",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["special-occasion", "romantic"],
-      "occasion": ["anniversary", "celebration"],
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
       "dateNote": "A special-occasion table worth the wait.",
       "sources": [
         {
@@ -284,7 +341,10 @@
       "name": "Fleurie",
       "neighborhood": "Downtown Mall (3rd St NE), Charlottesville",
       "cuisine": "French fine dining",
-      "coordinates": { "lat": 38.0301, "lng": -78.4787 },
+      "coordinates": {
+        "lat": 38.0301,
+        "lng": -78.4787
+      },
       "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "OpenTable",
@@ -307,8 +367,15 @@
       "signatureDish": "Prix-fixe three-course French tasting menu, seasonally rotating",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["special-occasion", "romantic"],
-      "occasion": ["anniversary", "celebration", "impress"],
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "impress"
+      ],
       "dateNote": "A special-occasion table worth the wait.",
       "sources": [
         {
@@ -324,7 +391,10 @@
       "name": "Ivy Inn Restaurant",
       "neighborhood": "Ivy Road, Charlottesville",
       "cuisine": "New American, locavore",
-      "coordinates": { "lat": 38.0453, "lng": -78.5188 },
+      "coordinates": {
+        "lat": 38.0453,
+        "lng": -78.5188
+      },
       "difficulty": 3,
       "priceRange": "$$$",
       "platform": "OpenTable",
@@ -347,8 +417,14 @@
       "signatureDish": "Grilled quail; bison short ribs",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["special-occasion", "cozy"],
-      "occasion": ["anniversary", "celebration"],
+      "vibe": [
+        "special-occasion",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
       "dateNote": "Warm neighborhood charm — easy and unhurried.",
       "sources": [
         {
@@ -370,7 +446,10 @@
       "name": "1799 at The Clifton",
       "neighborhood": "Clifton Inn, near Charlottesville",
       "cuisine": "New American fine dining",
-      "coordinates": { "lat": 38.0575, "lng": -78.3985 },
+      "coordinates": {
+        "lat": 38.0575,
+        "lng": -78.3985
+      },
       "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "OpenTable",
@@ -393,8 +472,15 @@
       "signatureDish": "Seasonal Mid-Atlantic tasting menu drawing on the property's own garden",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["special-occasion", "romantic"],
-      "occasion": ["anniversary", "celebration", "impress"],
+      "vibe": [
+        "special-occasion",
+        "romantic"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "impress"
+      ],
       "dateNote": "A special-occasion table worth the wait.",
       "sources": [
         {
@@ -410,7 +496,10 @@
       "name": "Oakhart Social",
       "neighborhood": "West Main St, Charlottesville",
       "cuisine": "Wood-fired modern American, shared plates",
-      "coordinates": { "lat": 38.0316, "lng": -78.4869 },
+      "coordinates": {
+        "lat": 38.0316,
+        "lng": -78.4869
+      },
       "difficulty": 3,
       "priceRange": "$$",
       "platform": "Resy",
@@ -420,8 +509,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": {
         "doors": "4:30 PM",
@@ -436,8 +525,13 @@
       "signatureDish": "Wood-fired sausage pizza",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively"],
-      "occasion": ["first-date", "celebration"],
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -453,7 +547,10 @@
       "name": "Tavola",
       "neighborhood": "Belmont, Charlottesville",
       "cuisine": "Rustic Italian",
-      "coordinates": { "lat": 38.0201, "lng": -78.4761 },
+      "coordinates": {
+        "lat": 38.0201,
+        "lng": -78.4761
+      },
       "difficulty": 3,
       "priceRange": "$$$",
       "platform": "Resy",
@@ -479,8 +576,14 @@
       "signatureDish": "House-made pappardelle Bolognese; carbonara with sausage",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["romantic", "intimate"],
-      "occasion": ["anniversary", "first-date"],
+      "vibe": [
+        "romantic",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
       "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
       "sources": [
         {
@@ -496,7 +599,10 @@
       "name": "Mockingbird",
       "neighborhood": "Belmont, Charlottesville",
       "cuisine": "Southern",
-      "coordinates": { "lat": 38.021, "lng": -78.477 },
+      "coordinates": {
+        "lat": 38.021,
+        "lng": -78.477
+      },
       "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "OpenTable",
@@ -519,8 +625,14 @@
       "signatureDish": "Biscuit basket with honey butter, pepper jelly, apple butter; fried green tomatoes with whipped pimento cheese",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["special-occasion", "cozy"],
-      "occasion": ["anniversary", "celebration"],
+      "vibe": [
+        "special-occasion",
+        "cozy"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
       "dateNote": "A special-occasion table worth the wait.",
       "sources": [
         {
@@ -536,7 +648,10 @@
       "name": "Café Frank",
       "neighborhood": "Downtown Mall (East Main St), Charlottesville",
       "cuisine": "French-Italian",
-      "coordinates": { "lat": 38.0298, "lng": -78.4796 },
+      "coordinates": {
+        "lat": 38.0298,
+        "lng": -78.4796
+      },
       "difficulty": 3,
       "priceRange": "$$$",
       "platform": "OpenTable",
@@ -562,8 +677,14 @@
       "signatureDish": "Duck confit; steak frites; house-made pasta",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["romantic", "lively"],
-      "occasion": ["first-date", "anniversary"],
+      "vibe": [
+        "romantic",
+        "lively"
+      ],
+      "occasion": [
+        "first-date",
+        "anniversary"
+      ],
       "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
       "sources": [
         {
@@ -579,7 +700,10 @@
       "name": "The Local",
       "neighborhood": "Belmont, Charlottesville",
       "cuisine": "New American, locavore",
-      "coordinates": { "lat": 38.0201, "lng": -78.4761 },
+      "coordinates": {
+        "lat": 38.0201,
+        "lng": -78.4761
+      },
       "difficulty": 3,
       "priceRange": "$$$",
       "platform": "OpenTable",
@@ -606,8 +730,14 @@
       "signatureDish": "Locally sourced seasonal American plates",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively", "cozy"],
-      "occasion": ["first-date", "celebration"],
+      "vibe": [
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
       "dateNote": "Warm neighborhood charm — easy and unhurried.",
       "sources": [
         {
@@ -623,7 +753,10 @@
       "name": "Mas Tapas",
       "neighborhood": "Belmont, Charlottesville",
       "cuisine": "Spanish tapas",
-      "coordinates": { "lat": 38.0206, "lng": -78.4775 },
+      "coordinates": {
+        "lat": 38.0206,
+        "lng": -78.4775
+      },
       "difficulty": 2,
       "priceRange": "$$",
       "platform": "Resy",
@@ -649,8 +782,12 @@
       "signatureDish": "Traditional Spanish tapas rooted in local-farm sourcing",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -666,7 +803,10 @@
       "name": "Public Fish & Oyster",
       "neighborhood": "West Main St, Charlottesville",
       "cuisine": "Seafood / raw bar",
-      "coordinates": { "lat": 38.0316, "lng": -78.487 },
+      "coordinates": {
+        "lat": 38.0316,
+        "lng": -78.487
+      },
       "difficulty": 2,
       "priceRange": "$$$",
       "platform": "OpenTable",
@@ -691,8 +831,13 @@
       "signatureDish": "Hot lobster roll; daily rotating oyster selection",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively", "romantic"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "lively",
+        "romantic"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -708,7 +853,10 @@
       "name": "Zocalo",
       "neighborhood": "Downtown Mall, Charlottesville",
       "cuisine": "Latin American",
-      "coordinates": { "lat": 38.0297, "lng": -78.4785 },
+      "coordinates": {
+        "lat": 38.0297,
+        "lng": -78.4785
+      },
       "difficulty": 2,
       "priceRange": "$$$",
       "platform": "Resy",
@@ -734,8 +882,13 @@
       "signatureDish": "Contemporary Latin-inspired plates with French technique",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively"],
-      "occasion": ["first-date", "celebration"],
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -751,7 +904,10 @@
       "name": "The Bebedero",
       "neighborhood": "Downtown Mall, Charlottesville",
       "cuisine": "Mexican (Veracruz-style)",
-      "coordinates": { "lat": 38.03, "lng": -78.4805 },
+      "coordinates": {
+        "lat": 38.03,
+        "lng": -78.4805
+      },
       "difficulty": 2,
       "priceRange": "$$$",
       "platform": "OpenTable",
@@ -773,8 +929,13 @@
       "signatureDish": "Modern Veracruz-style Mexican plates; craft cocktail program",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively"],
-      "occasion": ["first-date", "celebration"],
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -790,7 +951,10 @@
       "name": "Petit Pois",
       "neighborhood": "Downtown Mall, Charlottesville",
       "cuisine": "French bistro",
-      "coordinates": { "lat": 38.0297, "lng": -78.4785 },
+      "coordinates": {
+        "lat": 38.0297,
+        "lng": -78.4785
+      },
       "difficulty": 2,
       "priceRange": "$$",
       "platform": "OpenTable",
@@ -815,8 +979,13 @@
       "signatureDish": "Coq au vin; lamb pastilla",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["romantic", "cozy"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "romantic",
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
       "sources": [
         {
@@ -832,7 +1001,10 @@
       "name": "Bizou",
       "neighborhood": "Downtown Mall, Charlottesville",
       "cuisine": "American comfort food, French-diner hybrid",
-      "coordinates": { "lat": 38.0305, "lng": -78.4823 },
+      "coordinates": {
+        "lat": 38.0305,
+        "lng": -78.4823
+      },
       "difficulty": 2,
       "priceRange": "$$",
       "platform": "Phone",
@@ -858,8 +1030,12 @@
       "signatureDish": "Gussied-up comfort food and sophisticated specials",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["cozy"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Warm neighborhood charm — easy and unhurried.",
       "sources": [
         {
@@ -875,7 +1051,10 @@
       "name": "Bang!",
       "neighborhood": "Downtown Mall (2nd St SW), Charlottesville",
       "cuisine": "Pan-Asian small plates",
-      "coordinates": { "lat": 38.0295, "lng": -78.4792 },
+      "coordinates": {
+        "lat": 38.0295,
+        "lng": -78.4792
+      },
       "difficulty": 2,
       "priceRange": "$$",
       "platform": "Resy",
@@ -901,8 +1080,12 @@
       "signatureDish": "Steamed buns (chicken, pork belly); General Tso's cauliflower",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -918,7 +1101,10 @@
       "name": "Guajiros Miami Eatery",
       "neighborhood": "near Downtown, Charlottesville",
       "cuisine": "Nicaraguan / Cuban-Miami fusion",
-      "coordinates": { "lat": 38.0328, "lng": -78.4917 },
+      "coordinates": {
+        "lat": 38.0328,
+        "lng": -78.4917
+      },
       "difficulty": 2,
       "priceRange": "$$",
       "platform": "Phone",
@@ -944,8 +1130,13 @@
       "signatureDish": "Family Nicaraguan recipes; ask for daily specials",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["lively", "cozy"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "lively",
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
@@ -961,7 +1152,10 @@
       "name": "MarieBette Café & Bakery",
       "neighborhood": "Rose Hill, Charlottesville",
       "cuisine": "French bakery / café",
-      "coordinates": { "lat": 38.0428, "lng": -78.482 },
+      "coordinates": {
+        "lat": 38.0428,
+        "lng": -78.482
+      },
       "difficulty": 2,
       "priceRange": "$",
       "platform": "Website",
@@ -986,8 +1180,12 @@
       "signatureDish": "French pastries; classic breakfast/brunch fare",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["cozy"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Warm neighborhood charm — easy and unhurried.",
       "sources": [
         {
@@ -1003,7 +1201,10 @@
       "name": "Milan Indian Cuisine",
       "neighborhood": "Emmet St corridor, Charlottesville",
       "cuisine": "North Indian",
-      "coordinates": { "lat": 38.0567, "lng": -78.4966 },
+      "coordinates": {
+        "lat": 38.0567,
+        "lng": -78.4966
+      },
       "difficulty": 2,
       "priceRange": "$$",
       "platform": "Resy",
@@ -1029,8 +1230,12 @@
       "signatureDish": "North Indian classics; vegetarian/vegan-friendly menu",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["cozy"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Warm neighborhood charm — easy and unhurried.",
       "sources": [
         {
@@ -1046,7 +1251,10 @@
       "name": "Hogwaller Brewing",
       "neighborhood": "Woolen Mills, Charlottesville",
       "cuisine": "Brewpub, smash burgers",
-      "coordinates": { "lat": 38.0349, "lng": -78.465 },
+      "coordinates": {
+        "lat": 38.0349,
+        "lng": -78.465
+      },
       "difficulty": 2,
       "priceRange": "$",
       "platform": "Website",
@@ -1071,8 +1279,13 @@
       "signatureDish": "Grass-fed smash burger",
       "lastVerified": "2026-07-26",
       "availability": null,
-      "vibe": ["cozy", "lively"],
-      "occasion": ["first-date"],
+      "vibe": [
+        "cozy",
+        "lively"
+      ],
+      "occasion": [
+        "first-date"
+      ],
       "dateNote": "Buzzy and fun — a lively night out for two.",
       "sources": [
         {
