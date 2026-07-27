@@ -848,6 +848,9 @@ function normalizeSpot(s, city){
     walkIns:!!s.walkIns, walkIn:s.walkIn||null,
     tips:Array.isArray(s.tips)?s.tips:[], signatureDish:s.signatureDish||'',
     lastVerified:s.lastVerified||'',
+    // Real venue photo (harvest_photos.py) + its source credit; card falls back
+    // to the generated banner when absent.
+    photo:s.photo||'', photoAttr:s.photoAttr||'',
     // Provenance: named critic/blog endorsements (the anti-slop trust signal) and
     // the free-text note on why the table is hard to get.
     sources:Array.isArray(s.sources)?s.sources:[], evidence:s.evidence||''
@@ -1244,6 +1247,15 @@ function paintPhoto(cv,s){
   const g=cv.getContext&&cv.getContext('2d'); if(!g) return;
   drawPhoto(g,s.id||s.name,s.cuisine||'',w,h);
 }
+/* A hotlinked photo died (404 / hotlink block) → generated banner, not a hole. */
+window.t42PhotoFail=function(img){
+  try{
+    const cv=document.createElement('canvas'); cv.setAttribute('aria-hidden','true');
+    const stub={id:img.getAttribute('data-pid'), cuisine:img.getAttribute('data-cuisine')};
+    const wrap=img.parentElement; img.replaceWith(cv); paintPhoto(cv,stub);
+    const cr=wrap&&wrap.querySelector('.cp-credit'); if(cr) cr.remove();
+  }catch(e){}
+};
 
 function buildCard(s,drop){
   const el=document.createElement('div'); el.className='card';
@@ -1279,7 +1291,7 @@ function buildCard(s,drop){
 
   el.innerHTML=`
     <div class="card-photo">
-      ${s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:`<canvas data-photo aria-hidden="true"></canvas>`}
+      ${s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-pid="${attr(s.id||'')}" data-cuisine="${attr(s.cuisine||'')}" onerror="t42PhotoFail(this)">`:`<canvas data-photo aria-hidden="true"></canvas>`}
       ${s.photo&&s.photoAttr?`<span class="cp-credit" title="Photo: ${attr(s.photoAttr)}">Photo · ${esc(s.photoAttr)}</span>`:''}
       <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
       <div class="cp-cap">
