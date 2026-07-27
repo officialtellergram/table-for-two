@@ -308,6 +308,10 @@
   .cp-cap{position:absolute;left:17px;right:14px;bottom:12px}
   .cp-cap .name{color:#fff;text-shadow:0 1px 16px rgba(0,0,0,.6);font-size:19px}
   .cp-cap .sub{color:rgba(255,255,255,.82);text-shadow:0 1px 10px rgba(0,0,0,.5)}
+  /* Google Places photos require photographer attribution — tiny, top-left. */
+  .cp-credit{position:absolute;top:12px;left:13px;font-size:9px;letter-spacing:.4px;
+    color:rgba(255,255,255,.55);background:rgba(0,0,0,.35);border-radius:5px;padding:2px 6px;
+    max-width:55%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .metaline{display:flex;align-items:center;justify-content:space-between;gap:12px}
   .card-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
   .name{font-family:var(--serif);font-weight:600;font-size:17.5px;line-height:1.22;letter-spacing:-.3px}
@@ -1275,7 +1279,8 @@ function buildCard(s,drop){
 
   el.innerHTML=`
     <div class="card-photo">
-      ${s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy">`:`<canvas data-photo aria-hidden="true"></canvas>`}
+      ${s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:`<canvas data-photo aria-hidden="true"></canvas>`}
+      ${s.photo&&s.photoAttr?`<span class="cp-credit" title="Photo: ${attr(s.photoAttr)}">Photo · ${esc(s.photoAttr)}</span>`:''}
       <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
       <div class="cp-cap">
         <div class="name">${esc(s.name)}</div>
