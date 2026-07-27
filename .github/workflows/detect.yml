@@ -49,6 +49,17 @@ jobs:
           CITY='${{ inputs.city }}'
           if [ -n "$CITY" ]; then python enrich_windows.py "$CITY"; else python enrich_windows.py --all; fi
 
+      # Any new listing gets a photo automatically: Resy API + og:image, skipping
+      # spots that already have one (steady-state: zero network). Browser-only
+      # sources (Tock/SevenRooms/OpenTable) are the local sweep's job — datacenter
+      # fetches can't reach them anyway. Photo trouble never fails detection.
+      - name: Harvest photos for new listings
+        working-directory: scraper
+        env:
+          HTTP_PROXY: ${{ secrets.RESY_PROXY }}
+          HTTPS_PROXY: ${{ secrets.RESY_PROXY }}
+        run: python harvest_photos.py --all || echo 'photo harvest failed soft'
+
       - name: Commit corrections + state
         run: |
           git config user.name  'github-actions[bot]'

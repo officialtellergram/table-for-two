@@ -43,7 +43,7 @@ OG_RE = re.compile(
     r'<meta[^>]+(?:property|name)=["\'](?:og:image|og:image:secure_url|twitter:image)["\'][^>]+content=["\']([^"\']+)["\']'
     r'|<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|og:image:secure_url|twitter:image)["\']',
     re.I)
-BAD_IMG = re.compile(r'logo|favicon|icon|placeholder|default|sprite', re.I)
+BAD_IMG = re.compile(r'logo|favicon|icon|placeholder|default|sprite|social-share|share-image|fb-share|og-share|/social/|[-_](?:facebook|twitter|og)?[-_]?preview\.|og-image-default', re.I)
 
 resy_limited = False   # set on 429 — stop touching Resy for the rest of the run
 

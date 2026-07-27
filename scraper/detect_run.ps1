@@ -36,6 +36,20 @@ try {
     ($out | Select-Object -Last 3) | ForEach-Object { Log ("  " + $_) }
     Log ("enrich_windows exit " + $code)
 
+    # Photos for any new listings — skips spots that already have one, so the
+    # steady state costs nothing. Plain pass (Resy API + og:image) first; the
+    # headful-Edge pass (Tock/SevenRooms/OT, parked off-screen, shares the OT
+    # radar profile) only when fresh candidates remain, and at most every 14
+    # days per stubborn venue (photoChecked stamps). Failures never fail the sweep.
+    $out = & $Py 'scraper\harvest_photos.py' '--all' 2>&1
+    ($out | Select-Object -Last 2) | ForEach-Object { Log ("  " + $_) }
+    $need = & $Py -c "import json,glob,os;from datetime import date,timedelta;st=(date.today()-timedelta(days=14)).isoformat();print(sum(1 for f in glob.glob(r'cities\*.json') if os.path.basename(f) not in ('index.json','demand.json','just-opened.json','restaurant-queue.json','_template.json') for s in json.load(open(f,encoding='utf-8')).get('spots',[]) if not s.get('photo') and (s.get('photoChecked') or '')<st))" 2>$null
+    if ([int]$need -gt 0) {
+        Log ("browser photo pass: " + $need + " candidate venue(s)")
+        $out = & $Py 'scraper\harvest_photos_browser.py' '--all' 2>&1
+        ($out | Select-Object -Last 2) | ForEach-Object { Log ("  " + $_) }
+    }
+
     # Push only the window corrections. SAFE by design:
     #   * --autostash protects any uncommitted work you have open — it's stashed
     #     over the rebase and restored, never discarded. No reset --hard, ever.
@@ -45,7 +59,7 @@ try {
     & $Git add cities/*.json
     & $Git diff --cached --quiet
     if ($LASTEXITCODE -ne 0) {
-        & $Git commit --quiet -m 'detect(local): full-coverage booking-window refresh [skip ci]'
+        & $Git commit --quiet -m 'detect(local): windows + photos refresh [skip ci]'
         $pushed = $false
         for ($i = 0; $i -lt 3 -and -not $pushed; $i++) {
             & $Git pull --quiet --rebase --autostash origin main 2>&1 | Out-Null
