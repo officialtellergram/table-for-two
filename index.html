@@ -280,7 +280,7 @@
 
   /* Liquid glass: translucent tint + heavy frost + specular edge + depth. The
      scroll-story scene behind blurs into soft moving gold light through them. */
-  .card{position:relative;display:flex;flex-direction:column;gap:13px;padding:20px;
+  .card{position:relative;display:flex;flex-direction:column;gap:0;padding:0;overflow:hidden;
     border-radius:var(--radius);border:1px solid var(--cardBorder);
     background:color-mix(in srgb, var(--panel) var(--cardMix,100%), transparent);
     backdrop-filter:blur(var(--cardBlur,0px)) saturate(1.4);
@@ -295,6 +295,20 @@
     box-shadow:0 14px 42px var(--cardShadow), inset 0 1px 0 var(--cardSheen)}
   .card.soon{border-color:rgba(205,167,102,.5)}
   @media (max-width:640px){ :root{--cardBlur:13px} }   /* lighter frost on phones */
+  /* Photo banner — the room leads the card. Generated on-device per venue until a
+     spot carries a real licensed photo (s.photo → <img> swap in buildCard). */
+  .card-inner{display:flex;flex-direction:column;gap:13px;padding:16px 20px 20px}
+  .card-photo{position:relative;height:170px;background:#0b0a09;overflow:hidden;flex:none}
+  .card-photo canvas,.card-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .card-photo::after{content:"";position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(to top, rgba(6,6,8,.94) 3%, rgba(6,6,8,.55) 32%, rgba(6,6,8,.05) 62%, rgba(6,6,8,.28) 100%)}
+  .card-photo .pill{position:absolute;top:12px;right:13px;background:rgba(0,0,0,.4);
+    -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+    border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px}
+  .cp-cap{position:absolute;left:17px;right:14px;bottom:12px}
+  .cp-cap .name{color:#fff;text-shadow:0 1px 16px rgba(0,0,0,.6);font-size:19px}
+  .cp-cap .sub{color:rgba(255,255,255,.82);text-shadow:0 1px 10px rgba(0,0,0,.5)}
+  .metaline{display:flex;align-items:center;justify-content:space-between;gap:12px}
   .card-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
   .name{font-family:var(--serif);font-weight:600;font-size:17.5px;line-height:1.22;letter-spacing:-.3px}
   .sub{color:var(--muted);font-size:12px;margin-top:5px;letter-spacing:.1px}
@@ -1184,6 +1198,49 @@ function render(){
   tick();
 }
 
+/* ---------- Generated card imagery ----------
+   Deterministic per venue (id-seeded), tinted per cuisine — a warm, dim stand-in
+   until a spot carries a real licensed photo (s.photo → <img> swap below).
+   Fixed internal resolution + object-fit:cover, so no layout-timing dependency. */
+function cuisineHue(c){ c=(c||'').toLowerCase();
+  if(/ital|pizza|pasta|trattor/.test(c)) return 20;
+  if(/japan|sushi|omakase|izakaya|ramen/.test(c)) return 158;
+  if(/korean|steak|bbq|grill|chophouse/.test(c)) return 8;
+  if(/indian|thai|spice|szechuan|sichuan/.test(c)) return 33;
+  if(/seafood|oyster|fish|scandi|nordic|raw/.test(c)) return 192;
+  if(/mexic|latin|taquer/.test(c)) return 26;
+  if(/french|bistro|contemporary|american|new|tasting/.test(c)) return 40;
+  return 30; }
+function drawPhoto(g,key,cuisine,w,h){
+  let sd=2166136261; const str=String(key||'x');
+  for(let i=0;i<str.length;i++){ sd=(sd^str.charCodeAt(i))*16777619>>>0; }
+  const rnd=()=>{ sd=(sd*1664525+1013904223)>>>0; return sd/4294967296; };
+  const hue=cuisineHue(cuisine);
+  const base=g.createLinearGradient(0,0,w,h);
+  base.addColorStop(0,'hsl('+hue+',42%,14%)'); base.addColorStop(.6,'hsl('+((hue+8)%360)+',34%,9%)'); base.addColorStop(1,'hsl('+hue+',30%,5%)');
+  g.fillStyle=base; g.fillRect(0,0,w,h);
+  const blooms=2+Math.floor(rnd()*3);
+  for(let i=0;i<blooms;i++){ const x=rnd()*w,y=rnd()*h*0.72,r=Math.max(w,h)*(0.24+rnd()*0.4);
+    const rg=g.createRadialGradient(x,y,2,x,y,r);
+    rg.addColorStop(0,'hsla('+(28+rnd()*22)+',82%,62%,'+(0.09+rnd()*0.12)+')'); rg.addColorStop(1,'transparent');
+    g.fillStyle=rg; g.beginPath(); g.arc(x,y,r,0,7); g.fill(); }
+  const px=w*(0.3+rnd()*0.4),py=h*(0.52+rnd()*0.18),pr=Math.min(w,h)*(0.26+rnd()*0.13);
+  const pg=g.createRadialGradient(px,py-pr*0.3,pr*0.1,px,py,pr);
+  pg.addColorStop(0,'hsla('+(hue+12)+',52%,42%,0.55)'); pg.addColorStop(.7,'hsla('+hue+',40%,18%,0.3)'); pg.addColorStop(1,'transparent');
+  g.fillStyle=pg; g.beginPath(); g.ellipse(px,py,pr,pr*0.6,0,0,7); g.fill();
+  const surf=g.createLinearGradient(0,h*0.6,0,h); surf.addColorStop(0,'transparent'); surf.addColorStop(1,'hsla('+hue+',28%,6%,0.92)');
+  g.fillStyle=surf; g.fillRect(0,h*0.58,w,h*0.42);
+  const vg=g.createRadialGradient(w/2,h*0.42,Math.min(w,h)*0.28,w/2,h/2,Math.max(w,h)*0.8);
+  vg.addColorStop(0,'transparent'); vg.addColorStop(1,'rgba(0,0,0,0.55)'); g.fillStyle=vg; g.fillRect(0,0,w,h);
+  const gn=Math.min(1500,Math.floor(w*h*0.02));
+  for(let i=0;i<gn;i++){ g.fillStyle='rgba(255,255,255,'+(rnd()*0.03)+')'; g.fillRect(rnd()*w,rnd()*h,1,1); }
+}
+function paintPhoto(cv,s){
+  const w=480,h=150; cv.width=w; cv.height=h;
+  const g=cv.getContext&&cv.getContext('2d'); if(!g) return;
+  drawPhoto(g,s.id||s.name,s.cuisine||'',w,h);
+}
+
 function buildCard(s,drop){
   const el=document.createElement('div'); el.className='card';
   const state=spotState(s);
@@ -1217,16 +1274,18 @@ function buildCard(s,drop){
     : '';
 
   el.innerHTML=`
-    <div class="card-head">
-      <div>
+    <div class="card-photo">
+      ${s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy">`:`<canvas data-photo aria-hidden="true"></canvas>`}
+      <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
+      <div class="cp-cap">
         <div class="name">${esc(s.name)}</div>
         <div class="sub">${esc(s.neighborhood)} · ${esc(s.cuisine)}</div>
       </div>
-      <div>
-        <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
-        <div class="diff" title="Booking difficulty ${s.difficulty}/5 — ${esc(diffWord(s.difficulty))}">${dots}</div>
-        <div class="price">${esc(s.priceRange)}</div>
-      </div>
+    </div>
+    <div class="card-inner">
+    <div class="metaline">
+      <div class="price">${esc(s.priceRange)}</div>
+      <div class="diff" title="Booking difficulty ${s.difficulty}/5 — ${esc(diffWord(s.difficulty))}">${dots}</div>
     </div>
     ${vetted}
     <div class="drop" data-drop>
@@ -1248,7 +1307,9 @@ function buildCard(s,drop){
       ${watchable(s)?`<button class="btn watchb" data-watch="${attr(s.id)}" title="Alert me the moment a table for two opens up here">${BELL}<span>Alert me</span></button>`:''}
       ${s.website&&s.platformUrl!==s.website?`<a class="btn ghost" href="${attr(s.website)}" target="_blank" rel="noopener">Site</a>`:''}
       ${s.walkIns&&!s.platformUrl?'<span class="btn ghost">Walk-in only</span>':''}
+    </div>
     </div>`;
+  const pcv=el.querySelector('[data-photo]'); if(pcv) paintPhoto(pcv,s);
   const wb=el.querySelector('[data-watch]');
   if(wb){
     if(window.t42Watched && window.t42Watched(s.id)) markWatchBtn(wb,true);
