@@ -1,10 +1,122 @@
 {
-  "generated": "2026-07-29T18:02:41+00:00",
+  "generated": "2026-07-29T19:51:06+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 6,
+  "new": 8,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-07-30",
+      "time": "11:00",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-29",
+      "time": "17:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-29&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-30",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-30",
+      "time": "17:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-30",
+      "time": "17:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-30",
+      "time": "17:15",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-07-30",
+      "time": "17:45",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "albi",
+      "name": "Albi",
+      "neighborhood": "Navy Yard",
+      "cuisine": "Palestinian / live-fire",
+      "date": "2026-07-29",
+      "time": "18:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/albi?date=2026-07-29&seats=2",
+      "firstSeen": "2026-07-29T19:51:06+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T18:02:41+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,21 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T18:02:41+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-07-30",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-29T18:02:41+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -59,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T18:02:41+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -73,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T18:02:41+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T18:02:41+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -2701,104 +2799,6 @@
       "cuisine": "Northern Italian",
       "date": "2026-07-31",
       "time": "08:45",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T16:49:05+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-31",
-      "time": "09:00",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T16:49:05+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-31",
-      "time": "09:15",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T16:49:05+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-31",
-      "time": "09:30",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T16:49:05+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-31",
-      "time": "09:45",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T16:49:05+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-31",
-      "time": "10:00",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T16:49:05+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-31",
-      "time": "10:15",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T16:49:05+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-07-31",
-      "time": "10:30",
       "type": "Breakfast",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-07-31&seats=2",
