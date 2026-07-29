@@ -300,16 +300,30 @@
   .card-inner{display:flex;flex-direction:column;gap:13px;padding:16px 20px 20px}
   .card-photo{position:relative;height:170px;background:#0b0a09;overflow:hidden;flex:none}
   .card-photo canvas,.card-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-  .card-photo::after{content:"";position:absolute;inset:0;pointer-events:none;
-    background:linear-gradient(to top, rgba(6,6,8,.94) 3%, rgba(6,6,8,.55) 32%, rgba(6,6,8,.05) 62%, rgba(6,6,8,.28) 100%)}
-  .card-photo .pill{position:absolute;top:12px;right:13px;background:rgba(0,0,0,.4);
-    -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
-    border:1px solid rgba(255,255,255,.15);border-radius:6px;padding:4px 8px}
-  .cp-cap{position:absolute;left:17px;right:14px;bottom:12px}
-  .cp-cap .name{color:#fff;text-shadow:0 1px 16px rgba(0,0,0,.6);font-size:19px}
-  .cp-cap .sub{color:rgba(255,255,255,.82);text-shadow:0 1px 10px rgba(0,0,0,.5)}
+  /* Scrim: the caption has to stay legible over ANY photo, including a bright
+     sunlit dining room. Hold near-opaque through the whole caption band, then
+     release quickly so the image still reads above it. */
+  /* z-index is load-bearing: ::after is the last child, so without it the scrim
+     paints OVER the caption and greys the white text out. Scrim 1, text 2. */
+  .card-photo::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;
+    background:linear-gradient(to top, rgba(4,4,6,.94) 0%, rgba(4,4,6,.88) 20%,
+      rgba(4,4,6,.70) 38%, rgba(4,4,6,.36) 56%, rgba(4,4,6,.08) 76%, rgba(4,4,6,.28) 100%)}
+  /* Sits over unpredictable pixels — a bright tablecloth washed the brand ink
+     out, so the chip carries its own dark plate and a text shadow. */
+  .card-photo .pill{position:absolute;top:12px;right:13px;z-index:2;background:rgba(0,0,0,.62);
+    -webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);
+    border:1px solid rgba(255,255,255,.22);border-radius:6px;padding:4px 8px;
+    text-shadow:0 1px 3px rgba(0,0,0,.85);filter:brightness(1.28) saturate(1.1)}
+  .cp-cap{position:absolute;left:17px;right:14px;bottom:13px;z-index:2}
+  /* Tight dark shadow for edge contrast + a wide soft one to lift off busy
+     pixels. Both, because either alone fails on some photo. */
+  .cp-cap .name{color:#fff;font-size:19px;line-height:1.2;
+    text-shadow:0 1px 3px rgba(0,0,0,.95), 0 2px 16px rgba(0,0,0,.75)}
+  .cp-cap .sub{color:rgba(255,255,255,.95);margin-top:4px;line-height:1.35;
+    text-shadow:0 1px 3px rgba(0,0,0,.9), 0 1px 12px rgba(0,0,0,.65);
+    display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   /* Google Places photos require photographer attribution — tiny, top-left. */
-  .cp-credit{position:absolute;top:12px;left:13px;font-size:9px;letter-spacing:.4px;
+  .cp-credit{position:absolute;top:12px;left:13px;z-index:2;font-size:9px;letter-spacing:.4px;
     color:rgba(255,255,255,.55);background:rgba(0,0,0,.35);border-radius:5px;padding:2px 6px;
     max-width:55%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .metaline{display:flex;align-items:center;justify-content:space-between;gap:12px}
