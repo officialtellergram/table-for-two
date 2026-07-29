@@ -36,7 +36,7 @@ PLATFORM_LABEL = {"exploretock.com": "Tock", "opentable.com": "OpenTable",
 # In-page extractor: runs in the rendered DOM, returns the best candidate URL.
 EXTRACT_JS = """
 () => {
-  const bad = /logo|favicon|icon|placeholder|default|sprite|social-share|share-image|fb-share|og-share|\/social\/|[-_](?:facebook|twitter|og)?[-_]?preview\.|og-image-default/i;
+  const bad = /logo|favicon|icon|placeholder|default|sprite|social-share|share-image|fb-share|og-share|error-page|\/social\/|[-_](?:facebook|twitter|og)?[-_]?preview\.|og-image-default/i;
   const ok = u => u && /^https?:/.test(u) && !bad.test(u);
   const meta = sel => { const el = document.querySelector(sel); return el && el.content; };
   for (const sel of ['meta[property="og:image"]','meta[property="og:image:secure_url"]',
