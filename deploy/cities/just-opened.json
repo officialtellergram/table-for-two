@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-29T01:58:30+00:00",
+  "generated": "2026-07-29T05:24:05+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 45,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
@@ -11,13 +11,433 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-07-31",
-      "time": "16:00",
+      "date": "2026-07-29",
+      "time": "21:30",
       "type": "Indoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-29&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-07-30",
+      "time": "19:15",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-31",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-31",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "17:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "17:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "21:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-31",
+      "time": "21:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "16:00",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "16:15",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "16:30",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "16:45",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "17:00",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "17:15",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "19:45",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "20:00",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "20:15",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "20:30",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "20:45",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "21:00",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "21:15",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "21:30",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-31",
+      "time": "21:45",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-07-31",
+      "time": "16:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-07-31",
+      "time": "21:15",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-29T05:24:05+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-07-30&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -59,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-01&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -73,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -101,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -115,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -129,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -143,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -157,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -171,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -185,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -199,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -213,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -227,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -241,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -255,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -269,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -283,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -297,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -311,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -325,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -339,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -353,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -367,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -381,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -395,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -409,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -423,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -437,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -451,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -465,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -479,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -493,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -507,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -521,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -535,7 +955,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -549,7 +969,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-29&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -563,7 +983,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -577,7 +997,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -591,7 +1011,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -605,7 +1025,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -619,7 +1039,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -633,7 +1053,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-29T01:58:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -1378,62 +1798,6 @@
       "new": false
     },
     {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-29",
-      "time": "17:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-29&seats=2",
-      "firstSeen": "2026-07-28T21:56:58+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-29",
-      "time": "18:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-29&seats=2",
-      "firstSeen": "2026-07-28T21:56:58+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "18:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T21:56:58+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "18:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T21:56:58+00:00",
-      "new": false
-    },
-    {
       "city": "nyc",
       "spotId": "lilia",
       "name": "Lilia",
@@ -1444,34 +1808,6 @@
       "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-29&seats=2",
-      "firstSeen": "2026-07-28T21:56:58+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-07-29",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-29&seats=2",
-      "firstSeen": "2026-07-28T21:56:58+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-07-30",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-30&seats=2",
       "firstSeen": "2026-07-28T21:56:58+00:00",
       "new": false
     },
@@ -1588,6 +1924,62 @@
       "new": false
     },
     {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-29",
+      "time": "17:45",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-29&seats=2",
+      "firstSeen": "2026-07-28T21:56:58+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-29",
+      "time": "18:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-29&seats=2",
+      "firstSeen": "2026-07-28T21:56:58+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-30",
+      "time": "18:15",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T21:56:58+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-07-30",
+      "time": "18:45",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T21:56:58+00:00",
+      "new": false
+    },
+    {
       "city": "nyc",
       "spotId": "lilia",
       "name": "Lilia",
@@ -1627,804 +2019,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-07-30&seats=2",
       "firstSeen": "2026-07-28T13:47:49+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:15",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:30",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "17:45",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "18:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "18:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "18:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "18:30",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:15",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:30",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "19:45",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:15",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:30",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "20:45",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "21:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-07-30",
-      "time": "21:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "16:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "16:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "16:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "16:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "17:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "17:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "17:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "17:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "18:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "19:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "19:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "19:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "20:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "20:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "20:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-07-30",
-      "time": "20:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "omakase-at-nami",
-      "name": "Omakase at Nami",
-      "neighborhood": "Downtown / Shockoe Slip",
-      "cuisine": "Japanese omakase",
-      "date": "2026-07-30",
-      "time": "19:45",
-      "type": "Omakase Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-07-30&seats=2",
-      "firstSeen": "2026-07-28T06:21:54+00:00",
       "new": false
     },
     {
@@ -2802,6 +2396,412 @@
       "type": "Dining room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-07-30",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-30",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-30",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-07-30",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:15",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:30",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "17:45",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "18:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "18:30",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "19:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "19:15",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "19:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "19:30",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "19:45",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "20:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "20:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "20:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "20:15",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
+      "firstSeen": "2026-07-28T06:21:54+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-07-30",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-30&seats=2",
       "firstSeen": "2026-07-28T06:21:54+00:00",
       "new": false
     }
