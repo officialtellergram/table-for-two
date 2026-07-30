@@ -485,8 +485,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": false,
       "walkIn": {
         "doors": "",
@@ -1101,8 +1101,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "19 days",
-      "bookingWindowDays": 19,
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
       "walkIns": true,
       "walkIn": {
         "doors": "Sidewalk tables and late-service bar seats held for walk-ins",
@@ -1385,8 +1385,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": {
         "doors": "",
@@ -1723,8 +1723,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": {
         "doors": "Sushi bar kept for walk-ins",

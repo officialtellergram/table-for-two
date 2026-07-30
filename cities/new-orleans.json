@@ -196,8 +196,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "32 days",
-      "bookingWindowDays": 32,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": false,
       "walkIn": {
         "doors": "",
@@ -2335,7 +2335,9 @@
           "note": "'One of the most inviting dinners in town'"
         }
       ],
-      "evidence": "An Infatuation Best-of and Resy Top-NOLA pick ('one of the most inviting dinners in town') — accessible and beloved."
+      "evidence": "An Infatuation Best-of and Resy Top-NOLA pick ('one of the most inviting dinners in town') — accessible and beloved.",
+      "photo": "https://img1.wsimg.com/isteam/ip/3559876c-4bd3-4ce4-a289-35952b5cb20a/BE2345A6-EAE4-4AF2-A6BA-854CB25380F9.jpeg",
+      "photoAttr": "fritai.com"
     },
     {
       "id": "addis-nola",
