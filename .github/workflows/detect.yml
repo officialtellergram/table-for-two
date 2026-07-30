@@ -53,12 +53,17 @@ jobs:
       # spots that already have one (steady-state: zero network). Browser-only
       # sources (Tock/SevenRooms/OpenTable) are the local sweep's job — datacenter
       # fetches can't reach them anyway. Photo trouble never fails detection.
+      #
+      # HARD-WON: --max-seconds is not optional. An unbounded --all sweep ran past
+      # this job's 25-minute timeout, so every run was cancelled and detection
+      # committed nothing for days. Keep the budget well under the remaining time;
+      # unfinished cities simply resume on the next sweep.
       - name: Harvest photos for new listings
         working-directory: scraper
         env:
           HTTP_PROXY: ${{ secrets.RESY_PROXY }}
           HTTPS_PROXY: ${{ secrets.RESY_PROXY }}
-        run: python harvest_photos.py --all || echo 'photo harvest failed soft'
+        run: python harvest_photos.py --all --max-seconds 480 || echo 'photo harvest failed soft'
 
       - name: Commit corrections + state
         run: |

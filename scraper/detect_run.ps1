@@ -41,7 +41,7 @@ try {
     # headful-Edge pass (Tock/SevenRooms/OT, parked off-screen, shares the OT
     # radar profile) only when fresh candidates remain, and at most every 14
     # days per stubborn venue (photoChecked stamps). Failures never fail the sweep.
-    $out = & $Py 'scraper\harvest_photos.py' '--all' 2>&1
+    $out = & $Py 'scraper\harvest_photos.py' '--all' '--max-seconds' '900' 2>&1
     ($out | Select-Object -Last 2) | ForEach-Object { Log ("  " + $_) }
     $need = & $Py -c "import json,glob,os;from datetime import date,timedelta;st=(date.today()-timedelta(days=14)).isoformat();print(sum(1 for f in glob.glob(r'cities\*.json') if os.path.basename(f) not in ('index.json','demand.json','just-opened.json','restaurant-queue.json','_template.json') for s in json.load(open(f,encoding='utf-8')).get('spots',[]) if not s.get('photo') and (s.get('photoChecked') or '')<st))" 2>$null
     if ([int]$need -gt 0) {

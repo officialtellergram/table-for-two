@@ -101,14 +101,43 @@ def source_label(url):
     return host or "source"
 
 
-def harvest_city(city, dry=False, refresh=False, limit=0, resy_sleep=0.9, og_sleep=0.4):
+def url_ok(url, session):
+    """Confirm the URL really serves an image before we commit it to a card.
+
+    Without this, a page that advertises an og:image which 404s gets harvested
+    forever: we purge the dead link, the next sweep reads the same stale tag and
+    puts it right back. Validating here breaks that loop at the source."""
+    try:
+        r = session.head(url, timeout=12, allow_redirects=True,
+                         headers={"User-Agent": PAGE_H["User-Agent"]})
+        if r.status_code >= 400 or "image" not in (r.headers.get("Content-Type") or ""):
+            # some CDNs refuse HEAD; confirm with a ranged GET before believing it
+            r = session.get(url, timeout=15, stream=True, allow_redirects=True,
+                            headers={"User-Agent": PAGE_H["User-Agent"], "Range": "bytes=0-2047"})
+            ok = r.status_code < 400 and "image" in (r.headers.get("Content-Type") or "")
+            r.close()
+            return ok
+        return True
+    except Exception:
+        return False
+
+
+def harvest_city(city, dry=False, refresh=False, limit=0, resy_sleep=0.9, og_sleep=0.4,
+                 deadline=None):
     path = CITIES / f"{city}.json"
     data = json.loads(path.read_text(encoding="utf-8"))
     spots = data.get("spots", [])
     s_http = requests.Session()
     hit = miss = skip = 0
+    out_of_time = False
     for s in spots:
         if limit and hit + miss >= limit:
+            break
+        # Bounded sweeps: the cloud cron shares a 25-minute job with the window
+        # detector, so we stop cleanly on budget and keep whatever we resolved.
+        # Coverage converges over runs instead of dying at the timeout.
+        if deadline and time.monotonic() > deadline:
+            out_of_time = True
             break
         if s.get("photo") and not refresh:
             skip += 1
@@ -128,6 +157,9 @@ def harvest_city(city, dry=False, refresh=False, limit=0, resy_sleep=0.9, og_sle
                     break
                 if page:
                     time.sleep(og_sleep)
+        if photo and not url_ok(photo, s_http):
+            print(f"  DEAD  {s.get('name')}  advertises a broken image; leaving fallback")
+            photo = attr = None
         if photo:
             hit += 1
             print(f"  OK    {s.get('name')}  [{attr}]  {photo[:96]}")
@@ -140,8 +172,9 @@ def harvest_city(city, dry=False, refresh=False, limit=0, resy_sleep=0.9, og_sle
     if not dry and hit:
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f">> {city}: {hit} photos, {miss} misses, {skip} already had one"
-          + ("  [dry run — nothing written]" if dry else ""))
-    return hit, miss
+          + ("  [dry run — nothing written]" if dry else "")
+          + ("  [out of time budget]" if out_of_time else ""))
+    return hit, miss, out_of_time
 
 
 def main():
@@ -151,6 +184,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--refresh", action="store_true")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--max-seconds", type=int, default=0,
+                    help="wall-clock budget for the whole sweep (0 = unbounded)")
     args = ap.parse_args()
 
     index = json.loads((CITIES / "index.json").read_text(encoding="utf-8"))
@@ -160,12 +195,16 @@ def main():
     if not targets:
         sys.exit("pass --city <key> or --all")
 
+    deadline = time.monotonic() + args.max_seconds if args.max_seconds else None
     th = tm = 0
     for ckey in targets:
         if ckey not in cities:
             print(f">> unknown or non-json city: {ckey}"); continue
+        if deadline and time.monotonic() > deadline:
+            print(">> time budget spent; remaining cities resume next sweep"); break
         print(f">> {ckey}")
-        h, m = harvest_city(ckey, dry=args.dry_run, refresh=args.refresh, limit=args.limit)
+        h, m, _ = harvest_city(ckey, dry=args.dry_run, refresh=args.refresh,
+                               limit=args.limit, deadline=deadline)
         th += h; tm += m
     print(f">> done — {th} photos, {tm} misses" + (" (dry run)" if args.dry_run else ""))
 

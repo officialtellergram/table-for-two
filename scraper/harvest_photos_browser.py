@@ -24,7 +24,9 @@ from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
 
-from harvest_photos import BAD_IMG          # same logo/sprite filter
+import requests
+
+from harvest_photos import BAD_IMG, url_ok  # same filter + link validation
 from opentable_find import PROFILE_DIR, _ARGS
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,7 +36,9 @@ PLATFORM_LABEL = {"exploretock.com": "Tock", "opentable.com": "OpenTable",
                   "sevenrooms.com": "SevenRooms", "resy.com": "Resy"}
 
 # In-page extractor: runs in the rendered DOM, returns the best candidate URL.
-EXTRACT_JS = """
+# Raw string: the JS regexes below own their backslashes (\/ \. \( \)) and Python
+# must not reinterpret them — an unraw string makes these invalid escapes.
+EXTRACT_JS = r"""
 () => {
   const bad = /logo|favicon|icon|placeholder|default|sprite|social-share|share-image|fb-share|og-share|error-page|\/social\/|[-_](?:facebook|twitter|og)?[-_]?preview\.|og-image-default/i;
   const ok = u => u && /^https?:/.test(u) && !bad.test(u);
@@ -47,7 +51,7 @@ EXTRACT_JS = """
     try {
       const walk = x => {
         if (!x) return null;
-        if (typeof x === 'string') return ok(x) && /\\.(jpe?g|png|webp)|image/i.test(x) ? x : null;
+        if (typeof x === 'string') return ok(x) && /\.(jpe?g|png|webp)|image/i.test(x) ? x : null;
         if (Array.isArray(x)) { for (const y of x) { const r = walk(y); if (r) return r; } return null; }
         if (typeof x === 'object') {
           if (x.image) { const r = walk(x.image); if (r) return r; }
@@ -125,6 +129,10 @@ def harvest_city(page, city, dry=False, limit=0):
         s["photoChecked"] = date.today().isoformat()
         if got and got.get("url"):
             u = got["url"].replace("http://", "https://", 1)
+            if not url_ok(u, requests):          # never store a link that 404s
+                print(f"  DEAD  {s.get('name')}  page advertises a broken image")
+                got = None
+        if got and got.get("url"):
             hit += 1
             s["photo"], s["photoAttr"] = u, source_for(target)
             print(f"  OK    {s.get('name')}  [{s['photoAttr']} · {got['how']}]  {u[:90]}")
