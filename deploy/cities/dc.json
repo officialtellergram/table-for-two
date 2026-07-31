@@ -3,7 +3,7 @@
     "source": "curate.py",
     "city": "Washington, DC",
     "count": 25,
-    "generated": "2026-06-25",
+    "generated": "2026-07-31",
     "disclaimer": "Always confirm release times with the restaurant."
   },
   "spots": [
@@ -25,8 +25,8 @@
       "releaseSchedule": "calendar-month",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "1st of preceding month",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -35,7 +35,7 @@
         "Bar held for walk-ins but weekend waits hit 4+ hrs"
       ],
       "signatureDish": "Sfeeha (spiced lamb pies)",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -58,7 +58,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -78,7 +78,7 @@
           "name": "James Beard",
           "tier": "Winner 2024",
           "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-award-winners",
-          "note": "Outstanding Chef — Michael Rafidi"
+          "note": "Outstanding Chef \u2014 Michael Rafidi"
         },
         {
           "name": "The Washington Post",
@@ -86,7 +86,9 @@
           "url": "https://www.washingtonpost.com/food/interactive/2025/best-dc-restaurants/",
           "note": "Restaurant of the Year in Tom Sietsema's final Fall Dining Guide (2025)"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/5101/0f2dfc510cfe833504a5bfcaa6d3f3fed211ecdb/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "maru-san",
@@ -106,8 +108,8 @@
       "releaseSchedule": "monthly",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "60 days",
-      "bookingWindowDays": 60,
+      "bookingWindow": "92 days",
+      "bookingWindowDays": 92,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -116,7 +118,7 @@
         "VERIFY release time and whether it's monthly vs 60-day rolling"
       ],
       "signatureDish": "15-course chef's-choice handroll tasting ('The Experience')",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -135,7 +137,7 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "dateNote": "An intimate counter \u2014 just you, them, and the chef.",
       "sources": [
         {
           "name": "The Infatuation",
@@ -143,7 +145,9 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/maru-san",
           "note": "Nikkei handroll counter from the chef behind Causa/Amazonia"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/92984/4e4a95094257c1c5d39cd2c7f09fb4cc6c832ecf/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "little-pearl",
@@ -154,7 +158,7 @@
         "lat": 38.8830167,
         "lng": -76.9931347
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/little-pearl",
@@ -163,8 +167,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -173,7 +177,7 @@
         "VERIFY release cadence, time, and window"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -199,11 +203,13 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/54362/3f64088e5b3c9d4b5d59f6461fa52e094164d9e2/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "omakase-at-barracks-row",
@@ -220,8 +226,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:01 AM ET",
       "releaseDay": "",
-      "bookingWindow": "14 days",
-      "bookingWindowDays": 14,
+      "bookingWindow": "21 days",
+      "bookingWindowDays": 21,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -230,7 +236,7 @@
         "Be online at midnight exactly 14 days before target date"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -256,7 +262,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -271,7 +277,9 @@
           "tier": "review",
           "url": "https://www.theinfatuation.com/washington-dc/reviews/omakase-barracks-row"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/73886/75f91d9291183ec6f4728fb0895f19cc1b53a64f/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "pineapple-and-pearls",
@@ -282,7 +290,7 @@
         "lat": 38.8807042,
         "lng": -76.9952133
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls",
@@ -296,12 +304,12 @@
       "walkIns": false,
       "walkIn": null,
       "tips": [
-        "Now on Resy (moved off Tock) — old Tock links 404",
+        "Now on Resy (moved off Tock) \u2014 old Tock links 404",
         "$360+/head prepaid prix-fixe; sells out within minutes",
         "VERIFY release time"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -327,7 +335,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (2025 selection)"
         },
@@ -337,7 +345,9 @@
           "url": "https://washingtonian.com/100-very-best-restaurants-2026/pineapple-pearls/",
           "note": "#11 of 100 Very Best Restaurants 2026"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/54363/286801193ec3a2975e60ba7affd7db3de2ef04ea/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "causa",
@@ -367,7 +377,7 @@
         "Sells out fast"
       ],
       "signatureDish": "Coast-to-Andes Peruvian tasting menu",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -381,7 +391,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -401,20 +411,20 @@
           "name": "James Beard",
           "tier": "Winner 2025",
           "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-winners",
-          "note": "Best Chef: Mid-Atlantic — Carlos Delgado (Causa and Amazonia)"
+          "note": "Best Chef: Mid-Atlantic \u2014 Carlos Delgado (Causa and Amazonia)"
         }
       ]
     },
     {
       "id": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
+      "name": "D\u014dgon by Kwame Onwuachi",
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
       "coordinates": {
         "lat": 38.8834116,
         "lng": -77.0310193
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi",
@@ -423,8 +433,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "28 days",
-      "bookingWindowDays": 28,
+      "bookingWindow": "23 days",
+      "bookingWindowDays": 23,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -433,7 +443,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Mom Dukes shrimp; braised Wagyu oxtails",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -471,11 +481,13 @@
           "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
           "note": "On Eater DC's 38 essential restaurants map"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/83393/7669aa06bea9054a6664a10b064066cda42e6277/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "jont",
-      "name": "Jônt",
+      "name": "J\u00f4nt",
       "neighborhood": "14th Street Corridor",
       "cuisine": "Ingredient-focused tasting menu (Japanese land & sea)",
       "coordinates": {
@@ -496,12 +508,12 @@
       "walkIns": false,
       "walkIn": null,
       "tips": [
-        "Moved off Tock to OpenTable — use the OpenTable page",
+        "Moved off Tock to OpenTable \u2014 use the OpenTable page",
         "~17-seat counter above Bresca; weekend slots vanish in minutes",
         "VERIFY release time and exact release day (1st-Friday is secondary-sourced)"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -516,7 +528,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "Two stars, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -530,7 +542,7 @@
     },
     {
       "id": "minibar-by-jose-andres",
-      "name": "Minibar by José Andrés",
+      "name": "Minibar by Jos\u00e9 Andr\u00e9s",
       "neighborhood": "Penn Quarter",
       "cuisine": "Avant-garde modernist tasting menu",
       "coordinates": {
@@ -556,7 +568,7 @@
         "Prepaid; have backups ready the second it opens"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -572,7 +584,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "Two stars, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         }
@@ -587,7 +599,7 @@
         "lat": 38.8981231,
         "lng": -77.0317333
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi",
@@ -596,8 +608,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -606,7 +618,7 @@
         "Also listed on OpenTable; VERIFY release window and time"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -638,7 +650,9 @@
           "url": "https://www.theinfatuation.com/washington-dc/reviews/omakase-room-by-tadayoshi",
           "note": "12-seat omakase counter downtown"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/92756/d5b20bcf3aef8c5361662203612b9af21f992946/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "roses-luxury",
@@ -649,7 +663,7 @@
         "lat": 38.8806306,
         "lng": -76.9952423
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/roses-luxury",
@@ -668,7 +682,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Pork & lychee salad",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -696,7 +710,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -706,7 +720,9 @@
           "url": "https://washingtonian.com/100-very-best-restaurants-2026/roses-luxury-2/",
           "note": "#23 of 100 Very Best Restaurants 2026"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/53022/6d16b35e050cf3e348c9b193232113f7dd1c6fce/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "sushi-taro-omakase-counter",
@@ -717,7 +733,7 @@
         "lat": 38.909944,
         "lng": -77.0382421
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/sushi-taro",
@@ -726,8 +742,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "9:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -736,7 +752,7 @@
         "Legendary midnight-scramble reputation persists"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -768,7 +784,9 @@
           "url": "https://washingtonian.com/100-very-best-restaurants-2026/sushi-taro-3/",
           "note": "#24 of 100 Very Best Restaurants 2026 (listed as Sushi Taro)"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/189/8393d98f15912889e2bd664759da6f622bc0b48f/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "the-dabney",
@@ -779,7 +797,7 @@
         "lat": 38.9063777,
         "lng": -77.0245704
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/the-dabney",
@@ -798,7 +816,7 @@
         "Bar/courtyard are walk-in"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -822,7 +840,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -838,7 +856,9 @@
           "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
           "note": "On Eater DC's 38 essential restaurants map"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/495/5e8ca72d78fdf25e290f49c4a27ce7c52c8dbe06/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "chang-chang",
@@ -868,7 +888,7 @@
         "VERIFY release time and window"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -898,7 +918,7 @@
         "lat": 38.8938,
         "lng": -77.0205
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/fiola-dc",
@@ -907,8 +927,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "65 days",
+      "bookingWindowDays": 65,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -917,7 +937,7 @@
         "VERIFY release time and window"
       ],
       "signatureDish": "Lobster ravioli",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -946,7 +966,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -962,7 +982,9 @@
           "url": "https://www.washingtonpost.com/food/interactive/2025/best-dc-restaurants/",
           "note": "Inducted into Tom Sietsema's Hall of Fame, 2025 Fall Dining Guide"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/69388/1aaaf23df071c36c0a8d31e03be931d5e942aa81/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "imperfecto",
@@ -991,7 +1013,7 @@
         "VERIFY release time and booking window"
       ],
       "signatureDish": "10+ course communal Chef's Table tasting",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -1006,7 +1028,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star for Imperfecto: The Chef's Table, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         }
@@ -1018,17 +1040,17 @@
       "neighborhood": "Union Market District",
       "cuisine": "Modern Arabic / Levantine",
       "coordinates": null,
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/lashukran",
       "website": "https://www.lashukran.com/",
       "phoneNumber": "",
       "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
+      "releaseTime": "12:00 AM (Midnight) ET",
       "releaseDay": "",
-      "bookingWindow": "21 days",
-      "bookingWindowDays": 21,
+      "bookingWindow": "18 days",
+      "bookingWindowDays": 18,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -1037,7 +1059,7 @@
         "Walk-ins early evening or after 8pm"
       ],
       "signatureDish": "Escargot hummus with arak butter",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1069,18 +1091,20 @@
           "url": "https://washingtonian.com/100-very-best-restaurants-2026/la-shukran-2/",
           "note": "#9 of 100 Very Best Restaurants 2026"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/81186/66d68197e5679be99ec1d5676fd76556924c031b/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "lutece",
-      "name": "Lutèce",
+      "name": "Lut\u00e8ce",
       "neighborhood": "Georgetown",
       "cuisine": "Modern French neo-bistro",
       "coordinates": {
         "lat": 38.9094031,
         "lng": -77.0646054
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/lutece",
@@ -1089,8 +1113,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "11:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -1099,7 +1123,7 @@
         "Limited walk-in space held"
       ],
       "signatureDish": "Grilled octopus with 'nduja",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1135,7 +1159,9 @@
           "url": "https://washingtonian.com/100-very-best-restaurants-2026/lutece-4/",
           "note": "#5 of 100 Very Best Restaurants 2026"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/73695/9348b38fb415b67c2cd8b899a58918d71a27750f/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "maydan",
@@ -1165,7 +1191,7 @@
         "Walk-in waitlist available"
       ],
       "signatureDish": "Hearth-cooked lamb shoulder",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -1190,7 +1216,9 @@
           "tier": "review",
           "url": "https://www.theinfatuation.com/washington-dc/reviews/maydan"
         }
-      ]
+      ],
+      "photo": "https://static1.squarespace.com/static/5be471e312b13fbb8d5c7682/t/6851d1ca1c9c875e83e9647a/1750192586971/Maydan_Wordmark_Cream_1.png?format=1500w",
+      "photoAttr": "meetatmaydan.com"
     },
     {
       "id": "mita",
@@ -1220,7 +1248,7 @@
         "VERIFY release schedule and window (could not source)"
       ],
       "signatureDish": "Arepa basket with guasacaca and chontaduro butter",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -1234,7 +1262,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         }
@@ -1258,8 +1286,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "55 days",
-      "bookingWindowDays": 55,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -1268,7 +1296,7 @@
         "VERIFY release time (old '10am' figure is outdated)"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1298,7 +1326,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star plus Green Star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -1318,9 +1346,11 @@
           "name": "James Beard",
           "tier": "Winner 2023",
           "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-award-winners",
-          "note": "Outstanding Chef — Rob Rubba"
+          "note": "Outstanding Chef \u2014 Rob Rubba"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/49710/d5d30964717f013045ecb807cb081f806447cf3e/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "pascual",
@@ -1331,7 +1361,7 @@
         "lat": 38.8956665,
         "lng": -76.9951858
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/pascual",
@@ -1340,17 +1370,17 @@
       "releaseSchedule": "daily",
       "releaseTime": "11:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": null,
       "tips": [
         "James Beard-level acclaim; prime two-tops fill the full 30 days out",
         "Holds some walk-in seats",
-        "VERIFY release time — site says 11 AM, a Resy GM interview said noon"
+        "VERIFY release time \u2014 site says 11 AM, a Resy GM interview said noon"
       ],
       "signatureDish": "Smoked half chicken with mole amarillo",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1390,7 +1420,9 @@
           "url": "https://dc.eater.com/maps/dc-best-restaurants-38",
           "note": "On Eater DC's 38 essential restaurants map"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/76701/6d2e8be942d4257c8cce129a358fdd3a5bc63253/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "rooster-and-owl",
@@ -1401,7 +1433,7 @@
         "lat": 38.92149,
         "lng": -77.032167
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/rooster-and-owl",
@@ -1420,7 +1452,7 @@
         "VERIFY release time (28-day window is third-party-sourced)"
       ],
       "signatureDish": "Caviar & Champagne brown-butter steamed buns",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1449,7 +1481,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -1459,7 +1491,9 @@
           "url": "https://washingtonian.com/100-very-best-restaurants-2026/rooster-owl-2/",
           "note": "#65 of 100 Very Best Restaurants 2026"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/4630/4c4d428a9cdbdaa7c56004a417bfdc5b490aeb3e/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "sushi-nakazawa-dc",
@@ -1470,7 +1504,7 @@
         "lat": 38.8941177,
         "lng": -77.0275626
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/washington-dc/venues/sushi-nakazawa-dc",
@@ -1489,7 +1523,7 @@
         "VERIFY release time (noon ET is from a 2023 source)"
       ],
       "signatureDish": "Japanese scallop with yuzu kosho",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1520,7 +1554,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurants",
           "note": "One star, Michelin Guide Washington DC (retained in Nov 2025 selection)"
         },
@@ -1535,7 +1569,9 @@
           "tier": "review",
           "url": "https://www.theinfatuation.com/washington-dc/reviews/sushi-nakazawa-dc"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/2585/60e618ef227db71f1a0a978f2803e38dc2224e86/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "amazonia",
@@ -1565,7 +1601,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Pisco Sour; ceviche; lomo saltado",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-07-31",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -1589,7 +1625,7 @@
           "name": "James Beard",
           "tier": "Winner 2025",
           "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-winners",
-          "note": "Best Chef: Mid-Atlantic — Carlos Delgado (Causa and Amazonia)"
+          "note": "Best Chef: Mid-Atlantic \u2014 Carlos Delgado (Causa and Amazonia)"
         }
       ]
     }
