@@ -1,0 +1,1733 @@
+{
+  "meta": {
+    "source": "t42-research-spain",
+    "city": "Málaga",
+    "curated": "2026-07-30",
+    "disclaimer": "Always confirm hours and booking with the restaurant."
+  },
+  "spots": [
+    {
+      "id": "kaleja",
+      "name": "Kaleja",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Andalusian ember cooking (cocina de candela)",
+      "coordinates": {
+        "lat": 36.7211116,
+        "lng": -4.4178541
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.restaurantekaleja.com/reservas",
+      "website": "https://www.restaurantekaleja.com/",
+      "phoneNumber": "+34 952 600 000",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The hardest table in the city — start three to four weeks ahead for Friday or Saturday, and take a weekday slot if one appears.",
+        "The site's 'IR A LA RESERVA' button opens a TheFork widget; if it shows nothing, email reservas@restaurantekaleja.com, which is where cancellations get reallocated.",
+        "Take the 'Guisa que te guisa' set menu over à la carte — the slow-cooked stew courses are the entire argument for the star.",
+        "It is a narrow alley address in the old Jewish quarter behind the Picasso Museum; leave ten extra minutes to find the door."
+      ],
+      "signatureDish": "Slow stews finished over live embers — Dani Carnero's 'cocina de candela'",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "historic",
+        "intimate",
+        "chefs-counter"
+      ],
+      "occasion": [
+        "dinner",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "Dani Carnero cooks his grandmother's stews over open fire and got a Michelin star for it; the room seats barely thirty.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "1★",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/kaleja",
+          "note": "One MICHELIN Star, 2026 Guía MICHELIN España — 'candela' fire cooking in Málaga's old Jewish quarter."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Sol Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/kaleja-321913/",
+          "note": "Repsol-listed among Málaga capital's Sol-holding restaurants."
+        }
+      ],
+      "evidence": "restaurantekaleja.com returns HTTP 200; its /contacto and /reservas pages give a live TheFork booking widget, phone +34 952 600 000 and reservas@restaurantekaleja.com; Michelin renewed the star for 2026.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://static.wixstatic.com/media/832893_06d67e8931934b1ab618fb0b7bad9cf9~mv2.png/v1/crop/x_8,y_0,w_1012,h_119/fill/w_514,h_60,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/faldon.png",
+      "photoAttr": "restaurantekaleja.com"
+    },
+    {
+      "id": "palodu",
+      "name": "Palodú",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Contemporary Málaga tasting menus ('cocina dual')",
+      "coordinates": {
+        "lat": 36.7191222,
+        "lng": -4.4241676
+      },
+      "difficulty": 5,
+      "priceRange": "$$$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/palodu-r723832",
+      "website": "https://www.palodurestaurante.es/",
+      "phoneNumber": "+34 951 777 101",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Málaga's newest star and its smallest starred room — roughly two dozen covers, four nights a week. Start three to four weeks out for a weekend and take any weekday slot you are offered.",
+        "Closed Sunday, Monday and Tuesday. Seatings are fixed at 13:30/14:00 and 20:00/21:00, so pick the sitting when you book rather than a loose time.",
+        "The restaurant's own /reservas page just opens a TheFork widget, so book on TheFork directly. Parties over six have to email hola@palodurestaurante.es instead.",
+        "There is a 100 euro per person charge for a no-show or a cancellation inside 24 hours — unusually strict for Málaga, so hold the date only if you mean it.",
+        "Choose between the two tasting menus, Palodú and Alcazul, when you book; wine pairings run 75 and 65 euros on top. Four stools at the bar look straight into the kitchen — ask for them."
+      ],
+      "signatureDish": "The salmonete–gazpachuelo–patata sequence, served as one course",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "chefs-counter",
+        "modern"
+      ],
+      "occasion": [
+        "dinner",
+        "lunch",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "A two-cook couple took a Michelin star here in the 2026 guide, cooking to about two dozen covers a block from the Atarazanas market.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "1★",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/palodu",
+          "note": "One MICHELIN Star, 2026 Guía MICHELIN España — Cristina Cánovas and Diego Aguilar's 'dual cuisine', two tasting menus (Alcazul and Palodú), Sebastián Souvirón 7-9."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "1 Sol Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/palodu-332633/",
+          "note": "Repsol ficha: one Sol since 2024; 'dual' market cooking moved from Teatinos to a room near the Mercado de Atarazanas in November 2023, with a four-stool bar onto the kitchen."
+        },
+        {
+          "name": "El Español - Málaga",
+          "tier": "Feature",
+          "url": "https://www.elespanol.com/malaga/vivir/gastronomia/20251125/palodu-asciende-cielo-gastronomico-primera-estrella-michelin-gala-historica-malaga/1003744029488_0.html",
+          "note": "Reports Palodú taking the only new Málaga-city star at the MICHELIN gala held in Málaga on 25 November 2025."
+        }
+      ],
+      "evidence": "palodurestaurante.es returns HTTP 200 and its /reservas page carries a live TheFork widget, phone 951 77 71 01, hola@palodurestaurante.es, the Sebastián Souvirón 7-9 address, closed Sun/Mon/Tue and the 100 euro per person late-cancellation policy; TheFork palodu-r723832 is live with 2026 menus and a 9.7/10 score (the older slug palodu-restaurante-r475279 is the stale Teatinos listing and is deliberately not used); Michelin's own per-venue page and Guía Repsol ficha palodu-332633 both resolve; Nominatim geocodes Calle Sebastián Souvirón 7 to 36.7191222,-4.4241676 in Centro Histórico. No OSM POI node exists for the venue yet, so the street address was geocoded rather than taken from a named node.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://static.wixstatic.com/media/832893_cff09f2f288f4a539b51627da589ec45~mv2.jpg/v1/fill/w_1185,h_671,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Captura%20de%20pantalla%202026-04-08%20a%20las%2010_26_edited.jpg",
+      "photoAttr": "palodurestaurante.es"
+    },
+    {
+      "id": "jose-carlos-garcia",
+      "name": "José Carlos García",
+      "neighborhood": "Muelle Uno",
+      "cuisine": "Modern Andalusian tasting menu",
+      "coordinates": {
+        "lat": 36.7168322,
+        "lng": -4.4133217
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.restaurantejcg.com/reserva.php",
+      "website": "https://www.restaurantejcg.com/",
+      "phoneNumber": "+34 952 003 588",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "HARD DATE LIMIT: the Muelle Uno room serves its '15 años cocinando frente al mar' farewell menu only through the end of August 2026, then closes. The replacement room at the old Café de París is still being rebuilt and is expected 'towards the end of the year' with no announced date — do not book this for September through at least November 2026 without phoning first.",
+        "Book two to three weeks out for a weekend dinner in the remaining window; there are only a handful of tables and no à la carte — it is tasting menu only.",
+        "The Michelin star is attached to the Muelle Uno room. García has told the guide about the move and inspectors will re-judge the new address on its own merits, so the star is not guaranteed to travel with him.",
+        "Lunch is the better-value seating and the harbour light through the glass box is the whole point — ask for a terrace-side table.",
+        "Email jcg@restaurantejcg.com if the web form shows nothing; they release held tables by hand."
+      ],
+      "signatureDish": "Tasting menu built on Málaga seafood — the ajoblanco and the local red prawn are the through-line",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "waterfront",
+        "chefs-counter",
+        "special-occasion"
+      ],
+      "occasion": [
+        "dinner",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "A one-star glass pavilion on the harbour quay, in its final season before the chef moves the room back to his family's old Café de París.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "1★",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/jose-carlos-garcia",
+          "note": "One MICHELIN Star, 2026 Guía MICHELIN España — creative Andalusian cooking overlooking the Muelle Uno yachts."
+        },
+        {
+          "name": "Michelin",
+          "tier": "1★",
+          "url": "https://guide.michelin.com/en/es/andalucia/malaga/restaurants",
+          "note": "Listed among Málaga's three starred restaurants in the 2026 selection."
+        }
+      ],
+      "evidence": "Own site restaurantejcg.com returns HTTP 200 with a live /reserva.php booking page, current phone +34 952 003 588 and a 2026 '15 años cocinando frente al mar' anniversary menu; Michelin lists it as 1★ in the 2026 Spain guide.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://www.restaurantejcg.com/assets/images/mar-img.jpg",
+      "photoAttr": "restaurantejcg.com"
+    },
+    {
+      "id": "blossom",
+      "name": "Blossom",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Contemporary with South American accents",
+      "coordinates": {
+        "lat": 36.7199721,
+        "lng": -4.4171575
+      },
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.blossommalaga.com/reservas",
+      "website": "https://www.blossommalaga.com/",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Booking runs through the restaurant directly — use the /reservas form or email info@blossommalaga.com, and expect a confirmation reply rather than instant availability.",
+        "Two weeks out is comfortable midweek; a fortnight is thin for Saturday. Ask for a window table on the fourth floor.",
+        "Choose between 'Esencia' (9 courses) and 'Confluencia' (15) when you book, not on arrival — the kitchen preps to your choice.",
+        "It sits on the top floor of the 18th-century Palacio de la Aduana, inside the Museo de Málaga; the restaurant entrance is not the museum entrance."
+      ],
+      "signatureDish": "Tasting menus where Argentine and Andalusian technique meet",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "rooftop",
+        "romantic",
+        "special-occasion"
+      ],
+      "occasion": [
+        "dinner",
+        "impress",
+        "celebration"
+      ],
+      "dateNote": "A tasting menu on the top floor of a neoclassical customs palace — a Michelin star inside Málaga's best-looking dining room.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "1★",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/blossom-1202609",
+          "note": "One MICHELIN Star, 2026 Guía MICHELIN España — contemporary cooking on the 4th floor of the Palacio de la Aduana."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "1 Sol Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/blossom-332820/",
+          "note": "One of four Málaga-province restaurants awarded a first Sol in the 2026 Repsol Guide."
+        }
+      ],
+      "evidence": "blossommalaga.com returns HTTP 200 with a live /reservas page listing the Palacio de la Aduana address and info@blossommalaga.com; Michelin lists it at one star for 2026 under chef Emi Schobert.",
+      "photo": "https://static.wixstatic.com/media/832893_8275d8fe6fb14107a13b2c3842bf435a%7Emv2.avif/v1/fit/w_2500,h_1330,al_c/832893_8275d8fe6fb14107a13b2c3842bf435a%7Emv2.avif",
+      "photoAttr": "blossommalaga.com"
+    },
+    {
+      "id": "la-cosmo",
+      "name": "La Cosmo",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Málaga market cooking, seafood-led",
+      "coordinates": {
+        "lat": 36.7205949,
+        "lng": -4.4180618
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/la-cosmo-r749549",
+      "website": "https://www.lacosmo.es/",
+      "phoneNumber": "+34 630 917 396",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Ten to fourteen days ahead for a weekend dinner on TheFork; midweek lunch often opens up two or three days out.",
+        "This is Dani Carnero's casual room — same hand as Kaleja at roughly half the price, which is why it is the harder-value booking in town.",
+        "Order the ensaladilla rusa. It is the dish critics keep writing about and it sells out late in service.",
+        "Seats at the open kitchen counter are bookable and are the better view; request them in the TheFork notes field.",
+        "Note: Carnero's original La Cosmopolita closed in October 2025 — La Cosmo on Calle Císter is the surviving room, do not confuse the two."
+      ],
+      "signatureDish": "Ensaladilla rusa; mollete and market seafood",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "open-kitchen",
+        "local-institution"
+      ],
+      "occasion": [
+        "dinner",
+        "lunch",
+        "impress"
+      ],
+      "dateNote": "Star-level cooking at Bib Gourmand prices, three minutes behind the cathedral — the reservation locals actually fight over.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/la-cosmo",
+          "note": "Bib Gourmand in the 2026 Guía MICHELIN España — Dani Carnero championing Málaga tradition and seafood flavours."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/la-cosmo-331645/",
+          "note": "Repsol ficha: informal format with the product at the centre, C/ Císter 11."
+        }
+      ],
+      "evidence": "lacosmo.es returns HTTP 200 and links its own bookings to a TheFork widget; the matching TheFork page la-cosmo-r749549 is live with 2026 menus; Michelin carries it as a 2026 Bib Gourmand.",
+      "photo": "https://static.wixstatic.com/media/832893_f495dc6a4bf94358b56e4c3dad4760ea~mv2.jpg/v1/fill/w_1191,h_842,al_c/832893_f495dc6a4bf94358b56e4c3dad4760ea~mv2.jpg",
+      "photoAttr": "lacosmo.es"
+    },
+    {
+      "id": "la-taberna-de-mike-palmer",
+      "name": "La Taberna de Mike Palmer",
+      "neighborhood": "Montes de Málaga",
+      "cuisine": "Grilled and slow-cooked Andalusian",
+      "coordinates": {
+        "lat": 36.7431472,
+        "lng": -4.3933875
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://latabernademikepalmer.com/",
+      "website": "https://latabernademikepalmer.com/",
+      "phoneNumber": "+34 622 697 134",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Phone or WhatsApp only — there is no online booking engine. Message a couple of weeks ahead for a Sunday lunch, which is the seating everyone wants.",
+        "Closed Monday and Tuesday. Wednesday and Sunday are lunch-only; Thursday to Saturday adds a dinner service.",
+        "You need a taxi or a car — it sits inside the Club Hípico El Pinar in the hills above the city, roughly 20 minutes from Centro.",
+        "Book the covered terrace under the pines rather than the interior room, and eat from the open grill."
+      ],
+      "signatureDish": "Slow-cooked and open-grill dishes off the wood fire",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "countryside",
+        "terrace",
+        "long-lunch"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "celebration"
+      ],
+      "dateNote": "A 21st-century Andalusian venta in a pine forest above the city — the lunch that turns into an afternoon.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/la-taberna-de-mike-palmer",
+          "note": "Bib Gourmand in the 2026 Guía MICHELIN España — updated traditional cooking, mostly on the open grill."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/comer/nuestros-favoritos/la-taberna-de-mike-palmer-malaga/",
+          "note": "Repsol feature: chef Miguel Palma's 'venta del siglo XXI', named Restaurant of the Year 2025 by Málaga's hoteliers' association."
+        }
+      ],
+      "evidence": "latabernademikepalmer.com returns HTTP 200 with 2026 opening hours, phone +34 622 69 71 34 and WhatsApp booking; OSM confirms the Club Hípico El Pinar location on Camino de los Almendrales.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://latabernademikepalmer.com/wp-content/uploads/photo-gallery/WhatsApp-Image-2024-09-04-at-23.05.49.jpeg?bwg=1725561824",
+      "photoAttr": "latabernademikepalmer.com"
+    },
+    {
+      "id": "base9",
+      "name": "Base9",
+      "neighborhood": "Perchel Sur",
+      "cuisine": "Modern Spanish tapas and sharing plates",
+      "coordinates": {
+        "lat": 36.7139268,
+        "lng": -4.426701
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.base9restaurante.com/",
+      "website": "https://www.base9restaurante.com/",
+      "phoneNumber": "+34 622 546 437",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Newly promoted to Bib Gourmand in the 2026 guide, so book a week ahead now and assume it gets harder through the year.",
+        "Call or message the number — booking is handled by the two chefs directly, and email at info@base9restaurante.com is slower.",
+        "It is a five-minute walk from María Zambrano station, which makes it the smartest arrival-night or departure-day dinner in the city.",
+        "Order the canelón de gallina vieja and the omurice-style Spanish tortilla with wasabi mayonnaise."
+      ],
+      "signatureDish": "Canelón de gallina vieja; Spanish tortilla done omurice-style with wasabi mayo",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "neighborhood",
+        "modern",
+        "value"
+      ],
+      "occasion": [
+        "dinner",
+        "tapas",
+        "casual"
+      ],
+      "dateNote": "Two young chefs cooking sofritos and slow stews into a Bib Gourmand — the best-value serious meal in Málaga right now.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Bib Gourmand",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/base9",
+          "note": "New Bib Gourmand in the 2026 Guía MICHELIN España; Perchel Sur, Salitre 9, chefs Cristian Fernández and Pablo Zamudio."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/base9-333816/",
+          "note": "Repsol ficha for Base9, Málaga."
+        }
+      ],
+      "evidence": "base9restaurante.com returns HTTP 200; Michelin's 2026 new-Bib-Gourmand announcement names it with the Salitre 9 address and phone +34 622 54 64 37; OSM has a matching restaurant node at Calle Salitre 9.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://www.base9restaurante.com/wp-content/uploads/go-x/u/05e59ca7-bdf4-4957-aa2b-11ac2dbc0b2e/image.webp",
+      "photoAttr": "base9restaurante.com"
+    },
+    {
+      "id": "cavala",
+      "name": "Cávala",
+      "neighborhood": "Soho",
+      "cuisine": "Seafood, tasting menu",
+      "coordinates": {
+        "lat": 36.7161602,
+        "lng": -4.4248571
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/cavala-malaga-r815528",
+      "website": "",
+      "phoneNumber": "+34 628 021 363",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Closed Tuesday and Wednesday — that compresses demand into five nights, so book a week out for Friday or Saturday.",
+        "Two services only, roughly 13:30 and 20:00; the late-lunch slot is the easier grab and the better light in Soho.",
+        "The cellar runs past a thousand references — let them pair rather than ordering by the glass.",
+        "Ask for the counter facing the open kitchen if you want the fish worked in front of you."
+      ],
+      "signatureDish": "Market seafood tasting menu built around the Alborán catch",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "open-kitchen",
+        "wine-led",
+        "modern"
+      ],
+      "occasion": [
+        "dinner",
+        "lunch",
+        "impress"
+      ],
+      "dateNote": "A seafood kitchen with a 1,200-bottle cellar in Soho — where Málaga goes when the beach fry-up won't do.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Selected",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/cavala",
+          "note": "In the MICHELIN Guide selection for Málaga."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/cavala-327370/",
+          "note": "Repsol ficha for Cávala, Alameda de Colón 5, Málaga."
+        }
+      ],
+      "evidence": "Michelin and Guía Repsol both carry current listings; the TheFork page cavala-malaga-r815528 is live with 2026 menus and open booking. The venue's own domain returned a 503 at time of research so no website is claimed.",
+      "photoChecked": "2026-07-30"
+    },
+    {
+      "id": "beluga",
+      "name": "Beluga",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Mediterranean, rice dishes",
+      "coordinates": {
+        "lat": 36.7202446,
+        "lng": -4.4220765
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/beluga-r850384",
+      "website": "https://belugamalaga.es/",
+      "phoneNumber": "+34 952 214 253",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Open every day, lunch 13:00–15:50 and dinner from 18:00 — the wide dinner window makes a same-week booking realistic.",
+        "Terrace tables on Plaza de las Flores are the ones to ask for and the ones that go first; specify 'terraza' when booking.",
+        "The rice menu is a separate card from the main one — order rice for two at least a day ahead by phone if you want a specific one.",
+        "It is a small room off Calle Larios, so a party of five or more really does need to call rather than book online."
+      ],
+      "signatureDish": "Mediterranean rice dishes and Alborán Sea seafood",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "plaza-terrace",
+        "romantic",
+        "central"
+      ],
+      "occasion": [
+        "dinner",
+        "lunch",
+        "anniversary"
+      ],
+      "dateNote": "Diego René's 'meridian cuisine' on a flower-filled plaza off Calle Larios — the reliable romantic dinner that isn't a tasting menu.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Selected",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/beluga-1201438",
+          "note": "MICHELIN Guide selection — a couple-run kitchen committed to 'meridian cuisine' of the southern Mediterranean."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "1 Sol Repsol",
+          "url": "https://www.guiarepsol.com/es/comer/nuestros-favoritos/restaurante-beluga-malaga/",
+          "note": "Repsol feature; Beluga on Plaza de las Flores was the year's new one-Sol addition in Málaga capital."
+        }
+      ],
+      "evidence": "belugamalaga.es returns HTTP 200 with current daily hours, phone +34 952 214 253 and reservas@belugamalaga.es; the TheFork page beluga-r850384 is live; OSM confirms Plaza de las Flores 3.",
+      "photo": "https://belugamalaga.es/wp-content/uploads/2022/06/cartas-general.jpg",
+      "photoAttr": "belugamalaga.es"
+    },
+    {
+      "id": "ta-kumi",
+      "name": "Ta-Kumi",
+      "neighborhood": "La Victoria",
+      "cuisine": "Japanese",
+      "coordinates": {
+        "lat": 36.7227404,
+        "lng": -4.4162121
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/ta-kumi-malaga-r753964",
+      "website": "https://www.restaurantetakumi.com/malaga.html",
+      "phoneNumber": "+34 952 060 079",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Book the sushi bar rather than a table — it is the seat the Michelin write-up is about, and it takes only a handful of people.",
+        "A week ahead covers most weekend nights; the room runs over several levels so table availability is better than counter availability.",
+        "The 'Matsuri' tasting menu is the way in if you want the kitchen's Andalusian-Japanese crossovers rather than straight sushi.",
+        "It is on the slope below the Alcazaba — pair it with a late walk up to the Gibralfaro viewpoints."
+      ],
+      "signatureDish": "Matsuri tasting menu; nigiri worked with local Málaga fish",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "chefs-counter",
+        "intimate",
+        "modern"
+      ],
+      "occasion": [
+        "dinner",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "The one non-Spanish kitchen in Málaga that critics take as seriously as the local ones, a block from the Alcazaba walls.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Selected",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/ta-kumi1160009",
+          "note": "MICHELIN Guide selection — Japanese cooking near the Alcazaba, sushi bar plus a Matsuri tasting menu."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/ta-kumi-malaga-325179/",
+          "note": "Repsol ficha: Ta-Kumi Málaga, C/ Mundo Nuevo 4."
+        }
+      ],
+      "evidence": "restaurantetakumi.com/malaga.html returns HTTP 200; OSM has a Ta-Kumi restaurant node at Calle Mundo Nuevo 4; the TheFork page ta-kumi-malaga-r753964 is live with 2026 menus.",
+      "photo": "https://www.restaurantetakumi.com/uploads/5/4/7/5/54754047/dsc05218_2.jpg",
+      "photoAttr": "restaurantetakumi.com"
+    },
+    {
+      "id": "tragata-malaga",
+      "name": "Tragatá Málaga",
+      "neighborhood": "Soho",
+      "cuisine": "Modern tapas and raciones",
+      "coordinates": {
+        "lat": 36.7176739,
+        "lng": -4.4213263
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/tragata-benito-gomez-malaga-r835617",
+      "website": "https://www.tragata.com/malaga",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Opens for lunch and again in the evening; high tables are first-come",
+        "lineBy": "",
+        "advice": "The high tables and bar are kept for walk-ins — arrive at opening or after 22:00 and you will usually get in without a booking."
+      },
+      "tips": [
+        "This is two-star Ronda chef Benito Gómez's casual room, so it books like a restaurant but eats like a tapas bar — reserve the low tables, walk in for the high ones.",
+        "A week ahead is plenty for a weekend booking; it is a bigger room than the Michelin-starred places nearby.",
+        "Order raciones to share rather than a set sequence — the kitchen is built for it and the prices stay contained.",
+        "Alameda Principal 3 puts you a two-minute walk from the Soho street-art blocks and the Pompidou."
+      ],
+      "signatureDish": "Oysters with carrot sauce; the flan",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "high-tables",
+        "chef-backed"
+      ],
+      "occasion": [
+        "tapas",
+        "dinner",
+        "casual"
+      ],
+      "dateNote": "A two-star Ronda chef's tapas bar in Soho — the cheapest way to eat cooking of that pedigree in Andalusia.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Selected",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/tragata-1214047",
+          "note": "MICHELIN Guide selection — Benito Gómez's casual concept brought from Ronda to central Málaga."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "1 Sol Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/tragata-malaga-333972/",
+          "note": "One of four Málaga-province restaurants awarded a first Sol in the 2026 Repsol Guide."
+        }
+      ],
+      "evidence": "tragata.com/malaga returns HTTP 200; Michelin and Guía Repsol both list the Málaga branch; the TheFork page tragata-benito-gomez-malaga-r835617 is live with 2026 menus.",
+      "photo": "https://static.wixstatic.com/media/832893_4ca2e8f998224d1baa54903450d2809a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/832893_4ca2e8f998224d1baa54903450d2809a%7Emv2.jpg",
+      "photoAttr": "tragata.com"
+    },
+    {
+      "id": "promesa",
+      "name": "Promesa",
+      "neighborhood": "La Malagueta",
+      "cuisine": "Málaga cooking with French technique",
+      "coordinates": {
+        "lat": 36.7195104,
+        "lng": -4.4114916
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/promesa-r851301",
+      "website": "https://restaurantepromesa.com/",
+      "phoneNumber": "+34 669 007 070",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Chef Julio Zambrana trained under Dani Carnero at La Cosmopolita — this is where that lineage went after the original closed in 2025.",
+        "Book seven to ten days out for a weekend dinner; the 'El Gran Festín' tasting menu is around €120 and should be requested when booking.",
+        "It occupies the ground floor of the MS Maestranza hotel between the bullring and Muelle Uno, so it is an easy walk from the port after dinner.",
+        "À la carte at lunch is far cheaper than the evening tasting and uses the same market fish."
+      ],
+      "signatureDish": "Málaga classics rebuilt with French sauce work",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "polished",
+        "romantic",
+        "seaside-adjacent"
+      ],
+      "occasion": [
+        "dinner",
+        "lunch",
+        "anniversary"
+      ],
+      "dateNote": "Named best restaurant in the province within a year of opening, and it has kept getting harder to book since.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "Selected",
+          "url": "https://guide.michelin.com/us/en/andalucia/malaga/restaurant/promesa",
+          "note": "In the MICHELIN Guide selection for Málaga."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "1 Sol Repsol",
+          "url": "https://www.guiarepsol.com/es/comer/nuestros-favoritos/restaurante-promesa-malaga/",
+          "note": "Repsol feature on chef Julio Zambrana's Málaga cooking with French touches; awarded its first Sol in the 2026 guide."
+        }
+      ],
+      "evidence": "restaurantepromesa.com returns HTTP 200 with the Avenida de Cánovas del Castillo 1 address and phone +34 669 00 70 70; Michelin and Repsol both carry current listings; TheFork page promesa-r851301 is live.",
+      "photo": "https://restaurantepromesa.com/wp-content/uploads/2024/10/restaurante-promesa-malaga-malagueta.jpg",
+      "photoAttr": "restaurantepromesa.com"
+    },
+    {
+      "id": "el-pimpi",
+      "name": "El Pimpi",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Andalusian bodega, tapas and Málaga wine",
+      "coordinates": {
+        "lat": 36.7217974,
+        "lng": -4.4180421
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Website",
+      "platformUrl": "https://www.elpimpi.com/reservas/",
+      "website": "https://www.elpimpi.com/",
+      "phoneNumber": "+34 952 225 403",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "12:00 daily, kitchen until 23:30 (00:00 Fri–Sat)",
+        "lineBy": "",
+        "advice": "The warren of interior rooms almost always has space; it is only the Alcazabilla terrace that needs a booking."
+      },
+      "tips": [
+        "Book specifically for the terrace facing the Roman theatre and Alcazaba — that view is the entire reason to come, and it goes a week ahead in summer.",
+        "Inside, walk in. It rambles across an 18th-century house and there is nearly always a table in one of the back patios.",
+        "Drink the sweet Málaga wines from the barrels rather than ordering a standard Rioja; that is the house's actual specialty.",
+        "Go at 20:00 rather than 21:30 if you want to eat before the crowd rather than in it."
+      ],
+      "signatureDish": "Iberian charcuterie and fried fish, with sweet Málaga wine from the cask",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "historic",
+        "local-institution",
+        "terrace"
+      ],
+      "occasion": [
+        "tapas",
+        "drinks",
+        "dinner",
+        "family"
+      ],
+      "dateNote": "Málaga's most famous bodega since 1971, and the only terrace in town that puts a Roman theatre in the background of dinner.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/bodegas-el-pimpi-85693/",
+          "note": "Repsol Solete: 'where tradition coexists with the contemporary', Calle Granada 62 — good Iberian charcuterie and fried fish."
+        }
+      ],
+      "evidence": "elpimpi.com/reservas/ returns HTTP 200 with current 2026 hours, phone 952 22 54 03 and reservas@elpimpi.com; OSM has a 'Bodega Bar El Pimpi' node at Calle Granada 62.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-tl.png",
+      "photoAttr": "elpimpi.com"
+    },
+    {
+      "id": "uvedoble-taberna",
+      "name": "Uvedoble Taberna",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Contemporary tapas",
+      "coordinates": {
+        "lat": 36.7204673,
+        "lng": -4.4175283
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "CoverManager",
+      "platformUrl": "https://www.covermanager.com/reservation/module_restaurant/restaurante-tabernauvedoble/spanish",
+      "website": "https://www.uvedobletaberna.com/",
+      "phoneNumber": "+34 951 248 478",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Mon–Sat 12:30–00:00, closed Sunday",
+        "lineBy": "",
+        "advice": "Bar stools go to walk-ins; the terrace does not. If the CoverManager widget is full, turn up and stand."
+      },
+      "tips": [
+        "Closed Sundays — a genuinely common trip-planning mistake given how central it is.",
+        "Book five to seven days ahead for a terrace table facing the Roman theatre; the bar itself is walk-in.",
+        "The menu rotates seasonally: look for the toasted black noodles with Málaga squid and the truffled potato tortilla.",
+        "Chef Willie Orellana buys from Atarazanas market each morning, so the specials board beats the printed card."
+      ],
+      "signatureDish": "Toasted black noodles with Málaga squid; truffled potato tortilla",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "modern",
+        "lively",
+        "central"
+      ],
+      "occasion": [
+        "tapas",
+        "dinner",
+        "lunch"
+      ],
+      "dateNote": "The most imaginative tapas in the old town, served in the shadow of a Roman theatre.",
+      "sources": [
+        {
+          "name": "Time Out",
+          "tier": "Essential",
+          "url": "https://www.timeout.com/spain/things-to-do/best-things-to-do-in-malaga",
+          "note": "Time Out: 'the freshest, most imaginative contemporary tapas in town' — C/ Alcazabilla 1, Mon–Sat 12:30–midnight."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-de-tapas-por-malaga-ciudad/",
+          "note": "Named on Repsol's Málaga tapas route — Willie Orellana's tavern, supplied from the Atarazanas market."
+        }
+      ],
+      "evidence": "uvedobletaberna.com returns HTTP 200 with Alcazabilla 1, phone +34 951 248 478 and a CoverManager booking link that loads (widget confirmed live for 'restaurante-tabernauvedoble'); OSM has a matching restaurant node.",
+      "photo": "https://www.uvedobletaberna.com/wp-content/uploads/2022/12/taberna-uvedoble-home.jpg",
+      "photoAttr": "uvedobletaberna.com"
+    },
+    {
+      "id": "el-merendero-de-antonio-martin",
+      "name": "El Merendero de Antonio Martín",
+      "neighborhood": "La Malagueta",
+      "cuisine": "Classic Málaga seafood",
+      "coordinates": {
+        "lat": 36.7177641,
+        "lng": -4.4097445
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/el-merendero-de-antonio-martin-r65350",
+      "website": "",
+      "phoneNumber": "+34 951 776 502",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "The only proper seafront institution within walking distance of the centre — book it when you do not have time to get out to El Palo.",
+        "Terrace tables over Playa de la Malagueta need booking three or four days ahead in summer; the interior is easier.",
+        "Order a rice for two — the rices are what the guides pick out here — and add espetos to start.",
+        "Sunday lunch is a Málaga family institution at this address; if you want the local scene rather than a quiet meal, that is the slot."
+      ],
+      "signatureDish": "Rice dishes and espetos, eaten over La Malagueta beach",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "historic",
+        "family"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "family",
+        "celebration"
+      ],
+      "dateNote": "The emblematic Malagueta beach house — a twenty-minute walk from the cathedral and still a proper seafront lunch.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/el-merendero-de-antonio-martin-63408/",
+          "note": "Repsol ficha: 'an emblematic beach restaurant on Malagueta beach, on the Maritime Promenade', classic Málaga and Spanish cooking."
+        }
+      ],
+      "evidence": "Guía Repsol carries a current ficha; the TheFork page el-merendero-de-antonio-martin-r65350 is live with 2026 menus; OSM has an 'El Merendero' restaurant node at Plaza de la Malagueta 4. Its booking also runs through CoverManager; TheFork is given as the verified public link.",
+      "photoChecked": "2026-07-30"
+    },
+    {
+      "id": "primitivo",
+      "name": "Primitivo",
+      "neighborhood": "El Palo",
+      "cuisine": "Traditional Málaga, rice and stews",
+      "coordinates": {
+        "lat": 36.7200415,
+        "lng": -4.3653276
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "TheFork",
+      "platformUrl": "https://www.thefork.es/restaurante/primitivo-r836785",
+      "website": "https://www.primitivo-restaurante.com/",
+      "phoneNumber": "+34 951 453 202",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Closed Monday and Tuesday; Sunday is lunch only, and Sunday lunch here is the local move — book four or five days ahead.",
+        "This is the sit-down counterweight to the chiringuitos on the same avenue: same neighbourhood, tablecloths, proper gazpachuelo.",
+        "Order the gazpachuelo malagueño or a caldereta — the broths are what the guides single out.",
+        "Pair it with a walk along the El Palo seafront; it is on Avenida Salvador Allende, minutes from the beach grills."
+      ],
+      "signatureDish": "Gazpachuelo malagueño; rice and calderetas",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "neighborhood",
+        "traditional",
+        "value"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "family"
+      ],
+      "dateNote": "Root-cuisine cooking done with technique, out where Málaga actually eats on a Sunday.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/primitivo-335023/",
+          "note": "Repsol ficha: tradition read through a contemporary lens, respecting the product's essence."
+        }
+      ],
+      "evidence": "primitivo-restaurante.com returns HTTP 200 with Av. Salvador Allende 5, phone 951 45 32 02, current 2026 opening hours and a TheFork booking widget; OSM confirms the address in Echeverría del Palo.",
+      "photo": "https://static.wixstatic.com/media/832893_48011b8e960c4583948edcb096bcae78%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/832893_48011b8e960c4583948edcb096bcae78%7Emv2.jpg",
+      "photoAttr": "primitivo-restaurante.com"
+    },
+    {
+      "id": "casa-lola",
+      "name": "Casa Lola",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Andalusian tapas",
+      "coordinates": {
+        "lat": 36.722057,
+        "lng": -4.419036
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://grupocasalola.com/",
+      "website": "https://grupocasalola.com/",
+      "phoneNumber": "+34 951 773 982",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Open daily, continuous service from midday",
+        "lineBy": "",
+        "advice": "Built for walk-ins — vermouth at the bar, order two or three tapas, move on. Peak is 21:00–22:30."
+      },
+      "tips": [
+        "Around 80 tapas on the card and the list turns over every six months, so ask what has just been added.",
+        "The Calle Granada original is the one to visit; there are further branches on Calle Strachan and Plaza de Uncibay if it is heaving.",
+        "It is a stand-and-eat vermouth bar first — do not plan a two-hour sit-down dinner here.",
+        "Good first stop on a tapas crawl up Calle Granada towards El Pimpi."
+      ],
+      "signatureDish": "Rotating card of about 80 tapas, with house vermouth",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "standing-bar",
+        "tiled"
+      ],
+      "occasion": [
+        "tapas",
+        "drinks",
+        "casual"
+      ],
+      "dateNote": "The Calle Granada tapas bar locals actually queue at, with a menu that resets twice a year.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/casa-lola-325549/",
+          "note": "Repsol Solete: 'one of the gastronomic references in downtown Málaga', 80 tapas rotating every six months; original opened on Calle Granada in 2010."
+        }
+      ],
+      "evidence": "grupocasalola.com returns HTTP 200; Guía Repsol carries a current Solete ficha; OSM confirms Calle Granada 46 in Centro Histórico.",
+      "photo": "https://grupocasalola.com/wp-content/uploads/2025/07/imagen-casa-lola-1200.jpg",
+      "photoAttr": "grupocasalola.com"
+    },
+    {
+      "id": "meson-mariano",
+      "name": "Mesón Mariano",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Traditional Málaga tavern",
+      "coordinates": {
+        "lat": 36.7225473,
+        "lng": -4.4199726
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 952 211 899",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Lunch and dinner service; closed Sunday",
+        "lineBy": "",
+        "advice": "Phone the same morning for lunch — it is a small room on a narrow street and the locals book it out by 14:00."
+      },
+      "tips": [
+        "Phone booking only. Call +34 952 211 899 in the morning for a 14:00 lunch, which is the right way to eat here.",
+        "Order the cuttlefish stew (guiso de choco) — Repsol singles it out and it is what Malagueños bring visitors for.",
+        "Tucked on Calle Granados, a lane most tourists walk past; it is deliberately hard to spot.",
+        "Portions are old-school large; two people should share three plates, not order three each."
+      ],
+      "signatureDish": "Guiso de choco (cuttlefish stew); conchas finas",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "traditional",
+        "hidden",
+        "local-institution"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "tapas"
+      ],
+      "dateNote": "A hidden tavern where nobody has ever left hungry — the cuttlefish stew is a local rite of passage.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-de-tapas-por-malaga-ciudad/",
+          "note": "Repsol's Málaga tapas route: 'a traditional tavern where you never leave hungry', Calle Granados 2, tel. 952 21 18 99 — conchas finas and the cuttlefish stew."
+        }
+      ],
+      "evidence": "Guía Repsol's current Málaga tapas route gives the Calle Granados 2 address and phone; OSM has a matching 'Mariano' restaurant node at Calle Granados 2. No live official website was found, so none is claimed."
+    },
+    {
+      "id": "la-recova",
+      "name": "La Recova",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Breakfast, toasts and Andalusian pitufos",
+      "coordinates": {
+        "lat": 36.7201336,
+        "lng": -4.4236083
+      },
+      "difficulty": 2,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 744 617 658",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Mornings into early afternoon",
+        "lineBy": "",
+        "advice": "Walk-in only and genuinely small — before 10:00 you will sit outside in the passage; after that expect a short wait."
+      },
+      "tips": [
+        "This is where to learn the local breakfast: order a 'pitufo', the small Málaga roll, and pick your topping.",
+        "The topping list is the point — butter, sobrasada, chicharrones, tomato, house jams. Chicharrones is the Málaga answer.",
+        "It hides in a tiny passage (Pasaje Nuestra Señora de los Dolores de San Juan) off the Atarazanas market side of the centre.",
+        "Combine with the market two minutes away for a proper morning rather than a rushed coffee."
+      ],
+      "signatureDish": "Pitufo with chicharrones, or toast with sobrasada",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "hidden",
+        "morning",
+        "charming"
+      ],
+      "occasion": [
+        "breakfast",
+        "brunch",
+        "casual"
+      ],
+      "dateNote": "A passage-sized breakfast bar that does the pitufo properly — the local start to the day, not the hotel buffet.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/la-recova-325542/",
+          "note": "Repsol Solete: multiple toppings served with toast — butter, sobrasada, chicharrones, tomato and house jams. Tel. 744 61 76 58."
+        }
+      ],
+      "evidence": "Guía Repsol carries a current Solete ficha with the passage address and phone; OSM has a 'La Recova' cafe node in Pasaje Nuestra Señora de los Dolores de San Juan. No official website found, so none is claimed."
+    },
+    {
+      "id": "el-tintero-ii",
+      "name": "El Tintero II",
+      "neighborhood": "El Palo",
+      "cuisine": "Chiringuito — fried fish, espetos, shellfish",
+      "coordinates": {
+        "lat": 36.7168885,
+        "lng": -4.3480936
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 952 206 826",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daily from roughly 12:30 to 23:30",
+        "lineBy": "",
+        "advice": "Enormous, no menu, no real booking culture. Arrive 13:30 for lunch or before 21:00 for dinner and you will be seated."
+      },
+      "tips": [
+        "There is no menu. Waiters walk the tables shouting the dishes and you raise a hand for what you want — that auction is the entire experience.",
+        "Signposted and known both as El Tintero and El Tintero II; it is the one on Playa del Dedo at Avenida Salvador Allende 340.",
+        "The bill is counted by the plates left on your table, so do not let staff clear them until you have paid.",
+        "Sit near the grill end of the terrace for the espetos — sardines skewered on a cane and roasted over a boat full of embers."
+      ],
+      "signatureDish": "Espetos de sardinas and pescaíto frito, claimed off the passing trays",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "raucous",
+        "local-institution"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "family"
+      ],
+      "dateNote": "Waiters auction fried fish over your head from moving trays; it is loud, cheap and completely unlike anywhere else on the coast.",
+      "sources": [
+        {
+          "name": "Time Out",
+          "tier": "Essential",
+          "url": "https://www.timeout.com/spain/things-to-do/best-things-to-do-in-malaga",
+          "note": "Time Out: 'probably the most famous restaurant in town' — paper tablecloths, plastic cutlery, and seafood as fresh as it gets. Avenida Salvador Allende 340, daily 12:30–23:30."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/el-tintero-ii-328177/",
+          "note": "Repsol Solete: on Playa del Dedo in El Palo, known for the 'y yo cobrooooo' call and its tray-auction service."
+        }
+      ],
+      "evidence": "Time Out's current Málaga guide lists it with 2026 hours and prices; Guía Repsol carries a Solete ficha; OSM has an 'El Tintero' restaurant node at Avenida Salvador Allende 340."
+    },
+    {
+      "id": "el-cabra",
+      "name": "El Cabra",
+      "neighborhood": "Pedregalejo",
+      "cuisine": "Chiringuito — grilled fish, espetos, rice",
+      "coordinates": {
+        "lat": 36.7209734,
+        "lng": -4.3768781
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daily, continuous service roughly 12:00–23:00",
+        "lineBy": "",
+        "advice": "Front-row seafront tables need a phone call a few days ahead in summer; the back of the terrace takes walk-ins."
+      },
+      "tips": [
+        "Phone a few days ahead and ask specifically for a front-line table — the sea is close enough to hear from them.",
+        "Running since 1965 and reopened in April 2025 under the Asador Ovidio group, so it now trades as 'El Cabra Ovidio Playa' on some signage. Same building, same beach.",
+        "Order espetos de sardinas plus one whole fish from the grill; the rice dishes need ordering for two and take 30 minutes.",
+        "Lunch beats dinner here — Pedregalejo's light on the water at 15:00 is the reason people make the trip east."
+      ],
+      "signatureDish": "Espetos de sardinas and whole fish over the coals",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "family",
+        "grill"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "family"
+      ],
+      "dateNote": "The Pedregalejo chiringuito that has been grilling on the same stretch of sand since 1965.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/soletes/chiringuitos-en-malaga/",
+          "note": "Repsol's Málaga Solete chiringuitos: El Cabra, Paseo Marítimo El Pedregal 17 — 'the sea almost touching the tables', fried fish, sardine espetos and rice."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/comer/nuestros-favoritos/restaurantes-pedregalejo-malaga/",
+          "note": "Repsol's Pedregalejo neighbourhood restaurant guide."
+        }
+      ],
+      "evidence": "Guía Repsol lists it as a Solete chiringuito at Paseo Marítimo El Pedregal 17; OSM has a 'Merendero El Cabra Ovidio playa' restaurant node at that address, confirming the 2025 change of operator. Its former domain no longer resolves, so no website is claimed."
+    },
+    {
+      "id": "miguelito-el-carinoso",
+      "name": "Miguelito el Cariñoso",
+      "neighborhood": "Pedregalejo",
+      "cuisine": "Traditional chiringuito — espetos, fried fish, shellfish",
+      "coordinates": {
+        "lat": 36.7206117,
+        "lng": -4.3713722
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daily through lunch and dinner in season",
+        "lineBy": "",
+        "advice": "Walk the Pedregalejo promenade and take a table when you see the espeto boat lit — no booking system to speak of."
+      },
+      "tips": [
+        "One of the last genuinely old-guard chiringuitos left in Pedregalejo, going since 1965 — this is the unrenovated version of the experience.",
+        "Espetos go on the fire around 13:30 and again around 20:30; that is when to be sitting down, not arriving.",
+        "Order the fried fish and a plate of shellfish before any rice — the grill and the fryer are what this kitchen is for.",
+        "It is a 15-minute walk east along the promenade from El Cabra, so the two make an easy comparison lunch."
+      ],
+      "signatureDish": "Sardine espetos off the beach fire; pescaíto frito",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "old-guard",
+        "casual"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "family"
+      ],
+      "dateNote": "Sixty years on the same sand, still roasting sardines over a boat full of olive-wood embers.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/miguelito-el-carinoso-328178/",
+          "note": "Repsol Solete: 'one of the few traditional chiringuitos still holding out in Pedregalejo' — appetisers, excellent espetos, rice and shellfish."
+        }
+      ],
+      "evidence": "Guía Repsol carries a current Solete ficha; OSM has a 'Miguelito El Cariñoso' restaurant node on Paseo Marítimo El Pedregal. No phone or website verified, so neither is claimed."
+    },
+    {
+      "id": "las-palmeras",
+      "name": "Las Palmeras",
+      "neighborhood": "Pedregalejo",
+      "cuisine": "Chiringuito — grilled and fried seafood",
+      "coordinates": {
+        "lat": 36.719606,
+        "lng": -4.3673023
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daily in season, lunch and dinner",
+        "lineBy": "",
+        "advice": "Straightforward walk-in beach dining; the promenade tables fill from 14:00 on summer weekends."
+      },
+      "tips": [
+        "Further east along the Pedregalejo promenade than El Cabra, which means fewer visitors and the same fire.",
+        "Best used as the second stop on a chiringuito crawl — espetos here, then a walk to El Palo.",
+        "Sit on the promenade side rather than indoors; the whole value is the sea being ten metres away.",
+        "Take the number 11 bus from Alameda Principal if you would rather not taxi both ways."
+      ],
+      "signatureDish": "Espetos and the day's grilled catch",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "casual",
+        "promenade"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "casual"
+      ],
+      "dateNote": "A Solete-rated beach grill on the quieter end of the Pedregalejo promenade.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/las-palmeras-334487/",
+          "note": "Repsol Solete for Las Palmeras, Málaga — Paseo Marítimo El Pedregal."
+        }
+      ],
+      "evidence": "Guía Repsol carries a current Solete ficha; OSM confirms Paseo Marítimo El Pedregal 97 in the Pedregalejo/Las Acacias stretch. No phone or website verified, so neither is claimed."
+    },
+    {
+      "id": "antigua-casa-de-guardia",
+      "name": "Antigua Casa de Guardia",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Historic wine tavern, barrel wines and seafood snacks",
+      "coordinates": {
+        "lat": 36.7178132,
+        "lng": -4.4233107
+      },
+      "difficulty": 1,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "https://www.antiguacasadeguardia.com/",
+      "phoneNumber": "+34 952 214 680",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Mon–Thu 10:00–22:00, Fri–Sat 10:00–22:45, Sun 11:00–15:00",
+        "lineBy": "",
+        "advice": "No reservations and no seats — you stand at the bar. Just arrive; even at its busiest the wall of barrels absorbs the crowd."
+      },
+      "tips": [
+        "There are no tables and no bookings. You stand, and the barman chalks your running total straight onto the wooden counter.",
+        "Order by the barrel name — Pajarete, Pedro Ximén, Moscatel — not by the glass size. A small glass costs a couple of euros.",
+        "Sunday closes at 15:00, which catches visitors out; go before lunch that day.",
+        "Have the pickles and shellfish with the wine; it is the correct pairing and the whole food menu."
+      ],
+      "signatureDish": "Sweet Málaga wine drawn straight from the cask, with pickles and shellfish",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "historic",
+        "standing-bar",
+        "local-institution"
+      ],
+      "occasion": [
+        "drinks",
+        "tapas",
+        "casual"
+      ],
+      "dateNote": "Open since 1840 and still chalking the bill on the counter — the single most Málaga thing you can do in twenty minutes.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/antigua-casa-de-guardia-85694/",
+          "note": "Repsol Solete: 'the reference for tasting Málaga's famous sweet wines', Alameda Principal 18."
+        }
+      ],
+      "evidence": "antiguacasadeguardia.com returns HTTP 200 with founding year 1840, current 2026 hours, Alameda Principal 18 and phone 952 214 680; OSM has a matching pub node at that address.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://antiguacasadeguardia.com/wp-content/uploads/2024/12/uvas.png",
+      "photoAttr": "antiguacasadeguardia.com"
+    },
+    {
+      "id": "la-cepa",
+      "name": "Mesón La Cepa",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Andalusian tapas and raciones",
+      "coordinates": {
+        "lat": 36.7196,
+        "lng": -4.4203651
+      },
+      "difficulty": 1,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 952 214 089",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Daily, lunch through late evening",
+        "lineBy": "",
+        "advice": "Pure walk-in. The pedestrian terrace on Calle Strachan turns over constantly; wait five minutes and a table clears."
+      },
+      "tips": [
+        "Forty years in the same spot and still the cheapest sit-down lunch inside the historic centre — this is the menú-del-día option that does not feel like a tourist trap.",
+        "Take the terrace on the pedestrianised Calle Strachan rather than the interior; it is one street off Calle Larios.",
+        "Go at 14:00 for the working lunch crowd, which is when the kitchen is sharpest.",
+        "No booking system worth using — just turn up."
+      ],
+      "signatureDish": "Andalusian raciones and a straightforward daily lunch",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "casual",
+        "terrace",
+        "value"
+      ],
+      "occasion": [
+        "lunch",
+        "tapas",
+        "casual"
+      ],
+      "dateNote": "Forty years of unglamorous, correct Málaga cooking a single street off the main shopping drag.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/la-cepa-332124/",
+          "note": "Repsol Solete: 'a mesón with forty years of tradition in the centre of the city', terrace on a pedestrian street, Calle Strachan 12."
+        }
+      ],
+      "evidence": "Guía Repsol carries a current Solete ficha with the Calle Strachan 12 address; OSM has a 'La Cepa' restaurant node at that address. No official website found, so none is claimed."
+    },
+    {
+      "id": "la-tranca",
+      "name": "La Tranca",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Vermouth bar, Málaga tapas",
+      "coordinates": {
+        "lat": 36.7241766,
+        "lng": -4.421155
+      },
+      "difficulty": 1,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "http://www.latranca.es/",
+      "phoneNumber": "+34 615 029 669",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Evenings, latest of the classic bars",
+        "lineBy": "",
+        "advice": "No reservations, standing room only, and it spills onto the street. Go after 21:00 and expect to hold your glass."
+      },
+      "tips": [
+        "This is the late-drinks-with-food answer: vermouth on tap, tinned seafood, old copla records, and a crowd that stays past midnight.",
+        "Order the gazpachuelo — Repsol picks it out, and it is unusual to find that soup in a drinking bar.",
+        "It is up on Calle Carretería, out of the Larios tourist funnel, which is exactly why locals keep going.",
+        "No bookings and no table service — pay at the bar as you go."
+      ],
+      "signatureDish": "Gazpachuelo malagueño; vermut de grifo with tinned seafood",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "standing-bar",
+        "late-night"
+      ],
+      "occasion": [
+        "drinks",
+        "tapas",
+        "casual"
+      ],
+      "dateNote": "The bar Malagueños are quietly annoyed the guidebooks found — still the best late vermouth in the city.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/la-tranca-326869/",
+          "note": "Repsol Solete: a Málaga classic at Calle Carretería 92, singled out for its gazpachuelo and kept quiet by locals."
+        }
+      ],
+      "evidence": "latranca.es/contacto/ returns HTTP 200; Guía Repsol carries a current Solete ficha; OSM has a 'La Tranca' pub node at Calle Carretería 92.",
+      "photoChecked": "2026-07-30"
+    },
+    {
+      "id": "casa-aranda",
+      "name": "Casa Aranda",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Churros and chocolate",
+      "coordinates": {
+        "lat": 36.7188476,
+        "lng": -4.4232825
+      },
+      "difficulty": 1,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "http://www.casa-aranda.net/",
+      "phoneNumber": "+34 952 222 812",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "From early morning through the afternoon merienda",
+        "lineBy": "",
+        "advice": "No bookings ever. Tables sprawl across the alley — grab any free one and a waiter will find you."
+      },
+      "tips": [
+        "Go before 09:30 or after 11:30; the 10:00–11:00 window on a Saturday is the busiest hour in Málaga breakfast.",
+        "Order 'una de churros y un chocolate' — the chocolate is thick enough to stand a churro in, which is the correct consistency.",
+        "It occupies both sides of a tiny alley off Calle Atarazanas, next to the market; the whole lane is Casa Aranda.",
+        "Cash is quickest; the turnover is fast and the queue behind you is real."
+      ],
+      "signatureDish": "Churros with thick drinking chocolate",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "historic",
+        "local-institution",
+        "morning"
+      ],
+      "occasion": [
+        "breakfast",
+        "brunch",
+        "family"
+      ],
+      "dateNote": "Nearly a century of churros in one alley — the breakfast Málaga measures every other breakfast against.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/casa-aranda-325490/",
+          "note": "Repsol Solete: 'nearly a century of history', Calle Herrería del Rey 3 — 'having churros at Casa Aranda is like having them with family'."
+        }
+      ],
+      "evidence": "casa-aranda.net returns HTTP 200 (Spanish and English versions); Guía Repsol carries a current Solete ficha; OSM has two Casa Aranda cafe nodes on Calle Herrería del Rey.",
+      "photoChecked": "2026-07-30"
+    },
+    {
+      "id": "mia-coffee",
+      "name": "Mía Coffee Shop",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Specialty coffee and brunch",
+      "coordinates": {
+        "lat": 36.7222279,
+        "lng": -4.4227404
+      },
+      "difficulty": 1,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 671 447 679",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Mornings through mid-afternoon",
+        "lineBy": "",
+        "advice": "Small room, no bookings. Weekend mid-morning is the crunch; before 10:00 you will walk straight in."
+      },
+      "tips": [
+        "The specialty-coffee counterweight to Casa Aranda — this is where to go if you want a properly extracted flat white rather than a cortado.",
+        "It sits on Plaza de los Mártires Ciriaco y Paula, a quiet square five minutes north of Calle Larios.",
+        "Brunch plates run out before the coffee does; go earlier if you want food rather than just a cup.",
+        "Good pre-museum stop — it is close to both the Carmen Thyssen and the Picasso."
+      ],
+      "signatureDish": "Specialty espresso and filter, with brunch plates",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "cafe",
+        "quiet-square",
+        "morning"
+      ],
+      "occasion": [
+        "breakfast",
+        "brunch",
+        "drinks"
+      ],
+      "dateNote": "Málaga's serious coffee has been here since 2016, on a square most visitors never turn into.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/mia-coffee-333041/",
+          "note": "Repsol Solete for Mía Coffee, Málaga — a coffee shop open since 2016."
+        }
+      ],
+      "evidence": "Guía Repsol carries a current Solete ficha; OSM has a 'Mía Coffee Shop' cafe node at Plaza de los Mártires Ciriaco y Paula 4. No official website found, so none is claimed."
+    },
+    {
+      "id": "cafe-bar-mercado-atarazanas",
+      "name": "Café Bar Mercado Atarazanas",
+      "neighborhood": "Centro Histórico",
+      "cuisine": "Market bar — fried fish, shellfish, vegetables",
+      "coordinates": {
+        "lat": 36.718408,
+        "lng": -4.4240607
+      },
+      "difficulty": 1,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "Market hours — mornings until roughly 15:00, closed Sunday",
+        "lineBy": "",
+        "advice": "Standing at a market counter, no reservations. Best between 11:00 and 13:00; it winds down when the stalls do."
+      },
+      "tips": [
+        "Mornings only, and closed Sunday — this is a lunch you have to plan around the market's hours, not yours.",
+        "Order whatever the stall opposite is selling: the bar cooks the bay's catch and the market's vegetables the same day.",
+        "Stand at the counter with a caña and boquerones fritos; the Atarazanas iron-and-stained-glass hall is half the experience.",
+        "Combine with Casa Aranda two minutes away for a churros-then-market morning."
+      ],
+      "signatureDish": "Málaga fried fish and bay shellfish, eaten at the counter",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "market",
+        "standing-bar",
+        "morning"
+      ],
+      "occasion": [
+        "breakfast",
+        "lunch",
+        "tapas"
+      ],
+      "dateNote": "Eating the catch inside the 19th-century market hall built on a Moorish shipyard — Málaga at its least performative.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "Solete Repsol",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/cafe-bar-mercado-atarazanas-326868/",
+          "note": "Repsol Solete for the café-bar inside the central market."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "Recomendado",
+          "url": "https://www.guiarepsol.com/es/comer/en-el-mercado/mercado-central-de-atarazanas-malaga/",
+          "note": "Repsol on the Mercado Central de Atarazanas: built on an old Arab shipyard, with a café-bar serving Málaga fried fish, bay seafood and fresh vegetables."
+        }
+      ],
+      "evidence": "Guía Repsol carries both a current Solete ficha for the bar and a feature on the market itself; OSM confirms the Mercado de Atarazanas marketplace. No phone or website verified, so neither is claimed."
+    }
+  ]
+}

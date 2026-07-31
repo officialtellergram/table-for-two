@@ -57,6 +57,7 @@
     --txt:#f4f3f1; --muted:#8a8a90; --faint:#56565c;
     --accent:#c9a86a; --accent2:#dcc28c; --good:#86b6a0; --soon:#cda766;
     --resy:#c97078; --tock:#7d97bd; --opentable:#c87a68; --sevenrooms:#9b92c4;
+    --thefork:#4fbfa8; --covermanager:#a8b46b;
     --invite:#9a9aa0; --radius:14px;
     --serif:'Inter',-apple-system,'Segoe UI',sans-serif; --glow:none;
     --hover:#131315; --line2:#34343a; --dot:#2c2c30; --onaccent:#15110a;
@@ -69,6 +70,7 @@
     --txt:#1b1a1c; --muted:#6f6c74; --faint:#a8a4ac;
     --accent:#a8843c; --accent2:#937734; --good:#3f8068; --soon:#a8803a;
     --resy:#bf4651; --tock:#3f6aa0; --opentable:#bf5641; --sevenrooms:#6c60b4;
+    --thefork:#0e8a72; --covermanager:#74812f;
     --invite:#7a7780;
     --hover:#f1efe9; --line2:#d3cec3; --dot:#d9d5cc; --onaccent:#fffaf0;
     --nm:linear-gradient(94deg,#2a2a2c,#9c7d3a 55%,#a8843c);
@@ -959,7 +961,8 @@ function fmtWhen(date){
   const f=new Intl.DateTimeFormat('en-US',{timeZone:cityTz,weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
   return f.format(date);
 }
-const PLAT_COLOR={Resy:'var(--resy)',Tock:'var(--tock)',OpenTable:'var(--opentable)',SevenRooms:'var(--sevenrooms)'};
+const PLAT_COLOR={Resy:'var(--resy)',Tock:'var(--tock)',OpenTable:'var(--opentable)',SevenRooms:'var(--sevenrooms)',
+  TheFork:'var(--thefork)',CoverManager:'var(--covermanager)'};   // Spain + EU platforms
 function platColor(p){ return PLAT_COLOR[p]||'var(--invite)'; }
 
 // Today's date (YYYY-MM-DD) in the active city's timezone — for prefilled links.
@@ -985,6 +988,11 @@ function prefillUrl(s){
   if(!url) return '';
   try{
     const u=new URL(url), h=u.hostname;
+    // Only inject date/party on platforms whose URLs understand them. EU spots
+    // (TheFork/CoverManager) and plain websites get the link untouched —
+    // spraying ?date= on an arbitrary booking widget or homepage breaks trust.
+    const KNOWN=['resy.com','opentable.com','exploretock.com','sevenrooms.com'];
+    if(!KNOWN.some(k=>h.includes(k))) return url;
     if(h.includes('opentable.com')) u.searchParams.set('dateTime',todayISO()+'T19:00');
     else u.searchParams.set('date',todayISO());
     return partyParam(u.toString(), party);
@@ -1280,9 +1288,13 @@ function buildCard(s,drop){
   const walkTag = s.walkIns
     ? '<span class="tag walk">✓ Walk-ins'+(s.walkIn&&s.walkIn.doors?' · '+s.walkIn.doors:'')+'</span>'
     : '<span class="tag nowalk">✕ No walk-ins</span>';
+  // No drop schedule ≠ exclusivity: a Spanish chiringuito is walk-in, not
+  // invitation-only. Only /invitation/ platforms earn that label.
   const schedLabel = s.releaseSchedule && s.releaseSchedule!=='none'
     ? ((s.releaseTime?s.releaseTime+' · ':'')+s.releaseSchedule+(s.bookingWindow?' · '+s.bookingWindow+' out':''))
-    : 'Invitation only / varies';
+    : /invitation/i.test(s.platform||'') ? 'Invitation only / varies'
+    : s.platform==='Phone' ? (s.walkIns?'Walk in, or reserve by phone':'Reservations by phone')
+    : s.walkIns ? 'Walk-ins welcome' : 'Rolling availability';
   const open=state==='open';
   const noBook = !s.platformUrl || /invitation/i.test(s.platform||'');
   const bookLabel = open ? '✓ Booking Available'
@@ -1401,8 +1413,16 @@ function paintCard(c){
   // unknown — live auto-check is Resy-only; offer a one-click check on the platform
   const noBook = !s.platformUrl || /invitation/i.test(s.platform||'');
   c.dropEl.className='drop none'; c.lblEl.textContent=noBook?'Booking':'Availability';
-  c.timeEl.textContent=noBook?'Invite / varies':'Check next 7 days';
-  c.whenEl.textContent=noBook?c.schedLabel:('Live status is Resy-only — opens '+(s.platform||'the platform')+', party 2');
+  // Platform-honest headline: "Invite / varies" is ONLY for invitation venues —
+  // a phone-first or walk-in room says so plainly (the Spain fix).
+  c.timeEl.textContent = noBook
+    ? (/invitation/i.test(s.platform||'') ? 'Invite / varies'
+       : s.platform==='Phone' ? 'Reserve by phone'
+       : s.walkIns ? 'Walk right in' : 'See options')
+    : 'Check next 7 days';
+  c.whenEl.textContent = noBook ? c.schedLabel
+    : s.platform==='Resy' ? ('Live status is Resy-only — opens Resy, party 2')
+    : ('Check availability on '+(s.platform||'the platform')+' · party 2');
 }
 
 /* ---------- Live tick (1s) — only countdowns change ---------- */

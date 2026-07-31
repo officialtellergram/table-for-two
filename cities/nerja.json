@@ -1,0 +1,753 @@
+{
+  "meta": {
+    "source": "t42-research-spain",
+    "city": "Nerja",
+    "curated": "2026-07-30",
+    "disclaimer": "Always confirm hours and booking with the restaurant."
+  },
+  "spots": [
+    {
+      "id": "oliva",
+      "name": "Oliva",
+      "neighborhood": "Balcón de Europa",
+      "cuisine": "Contemporary Mediterranean",
+      "coordinates": {
+        "lat": 36.74618,
+        "lng": -3.87745
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://www.restauranteoliva.com/reserve.html",
+      "website": "https://www.restauranteoliva.com/",
+      "phoneNumber": "+34 952 52 29 88",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The dining room is small and the terrace smaller; turning up without a booking in July or August is optimistic."
+      },
+      "tips": [
+        "The only restaurant inside Nerja town limits in the current MICHELIN Guide selection — treat it as the room to book first and build the rest of the week around.",
+        "Book on the restaurant's own site: restauranteoliva.com/reserve.html runs a live DISH reservation widget for parties of up to 6, and online bookings close two hours before service; larger groups have to phone or email.",
+        "In July and August book a week or more ahead for a prime 21:00 slot, and ask specifically for the Plaza de España terrace rather than the interior room; the phone is answered daily 12:30–23:30.",
+        "Carlos cooks and Kim runs the floor — the tasting menu is the fuller expression of the kitchen if you want the full argument."
+      ],
+      "signatureDish": "Prawns with kataifi and foie gras sauce",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "chef-driven",
+        "terrace"
+      ],
+      "occasion": [
+        "dinner",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "The one table in Nerja that MICHELIN inspectors actually stopped for, and it behaves like it.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "guide",
+          "url": "https://guide.michelin.com/en/andalucia/nerja/restaurant/oliva-1195827",
+          "note": "MICHELIN Guide selected restaurant, Mediterranean Cuisine, €€; the only Nerja-town entry in the current selection."
+        },
+        {
+          "name": "Academia Gastronómica de Málaga",
+          "tier": "local",
+          "url": "https://academiagastronomica.com/restaurantes/oliva/",
+          "note": "Profiles Oliva under chef Carlos Pardo with Kim Ranzijn front of house; notes Michelin Guide recognition since 2016 and the 2021 move to Plaza de España."
+        }
+      ],
+      "evidence": "Verified July 2026: MICHELIN venue page loads with address Plaza de España 2 and phone +34 952 52 29 88, and Oliva appears in the live 5-restaurant 'Nerja and surroundings' MICHELIN selection; coordinates confirmed against the OpenStreetMap 'Oliva' POI at Plaza de España 2.",
+      "photoChecked": "2026-07-30"
+    },
+    {
+      "id": "sollun",
+      "name": "Sollun",
+      "neighborhood": "Old Town",
+      "cuisine": "Modern Andalusian tasting menus",
+      "coordinates": {
+        "lat": 36.74596,
+        "lng": -3.87609
+      },
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "CoverManager",
+      "platformUrl": "https://www.covermanager.com/reservation/module_restaurant/Sollun/spanish",
+      "website": "https://sollunrestaurant.com/",
+      "phoneNumber": "+34 952 52 55 69",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "A tasting-menu kitchen with a handful of covers — walk-ins are effectively a no in high season."
+      },
+      "tips": [
+        "Two set menus, Sol and Luna, each running snack, bread and oil, starter, fish, meat and dessert, with an optional wine pairing from a ~250-reference cellar leaning Andalusian and malagueño.",
+        "The reservations page embeds a live CoverManager calendar, so you can book online and get an instant confirmation; phone +34 952 52 55 69 or email info@sollunrestaurant.com only if the date you want shows as full.",
+        "Service is two tight sittings, 13:00–14:30 and 19:00–22:30; the evening sitting is the one worth the trip, and 20:00 gets you out before the room turns.",
+        "Flag dietary restrictions when you book, not on arrival — a fixed menu this small has no improvisation room."
+      ],
+      "signatureDish": "Ajoblanco with marinated tuna and pickled mango",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "chef-driven",
+        "intimate",
+        "local-institution"
+      ],
+      "occasion": [
+        "dinner",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "Nerja's one genuine tasting-menu room, and the local chefs' answer when you ask where to spend real money.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/viajar/vamos-de-excursion/ruta-nerja-malaga/",
+          "note": "In Guía Repsol's Nerja feature, Marbella chef Fernando Villasclaras (El Lago, 1 Sol Guía Repsol) sends readers wanting a proper sit-down meal to Sollun, 'quizá la única muestra actual de alta cocina en esta localidad'."
+        },
+        {
+          "name": "Academia Gastronómica de Málaga",
+          "tier": "local",
+          "url": "https://academiagastronomica.com/restaurantes/sollun/",
+          "note": "Full profile of chef-owner Juan Quintanilla Arnedo, who trained in London and in Michelin-starred kitchens before opening Sollun in 2006; details the Sol and Luna menus and the wine list."
+        }
+      ],
+      "evidence": "Verified July 2026: sollunrestaurant.com loads with address Calle Pintada 9, phone +34 952 525 569 and service hours 13:00–14:30 / 19:00–22:30. NOTE — Sollun's own site and several blogs still claim MICHELIN recommendation, but the MICHELIN venue URL returns 404 on both the Spain and global editions and Sollun is absent from the live 5-restaurant Nerja selection, so no Michelin claim is made here. Coordinates are Calle Pintada street-level (OSM has no Sollun POI); cross-checked against Calle Pintada 55 at 36.74819 to place no. 9 toward the southern end.",
+      "photo": "https://sollunrestaurant.com/wp-content/uploads/2024/09/sollun-restaurante-juan-quintanilla-alta-cocina-nerja-3971-scaled.jpg",
+      "photoAttr": "sollunrestaurant.com"
+    },
+    {
+      "id": "el-chiringuito-sedella",
+      "name": "El Chiringuito",
+      "neighborhood": "Sedella (Axarquía)",
+      "cuisine": "Modern Andalusian",
+      "coordinates": {
+        "lat": 36.86292,
+        "lng": -4.0346
+      },
+      "difficulty": 4,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 601 99 55 59",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Closed Tuesday and Wednesday, and a tiny village bar with a growing MICHELIN-driven following — do not drive an hour of mountain road on spec."
+      },
+      "tips": [
+        "The tasting menu must be booked in advance — MICHELIN's own entry says 'solo bajo reserva previa' — so phone several days ahead if that is what you are coming for.",
+        "MICHELIN lists it closed Tuesday and Wednesday, Monday 10:00–17:00 and Thursday–Sunday 10:00–21:00; it is about an hour inland from Nerja on winding roads, so make it a lunch and avoid descending the curves in the dark.",
+        "Chef Víctor Hierrezuelo cooked at Arzak and Bardal before returning to take over what were his grandparents' premises, so the ambition is real even though the room is a plain village bar.",
+        "Save room for the dessert with the long name, 'Como decía Antonio, la misión del pobre...', which MICHELIN's inspector singled out."
+      ],
+      "signatureDish": "The tasting menu, booked ahead",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "mountain-village",
+        "chef-driven",
+        "unpretentious"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "impress"
+      ],
+      "dateNote": "A Bardal-trained cook doing serious food in his grandparents' village bar, an hour up the mountain.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "guide",
+          "url": "https://guide.michelin.com/en/andalucia/sedella/restaurant/el-chiringuito",
+          "note": "MICHELIN Guide selected restaurant, Andalusian, €€, flagged 'Good for: Eat like a local'; notes chef Víctor Hierrezuelo's Arzak and Bardal background and that the tasting menu requires advance booking."
+        },
+        {
+          "name": "Academia Gastronómica de Málaga",
+          "tier": "local",
+          "url": "https://academiagastronomica.com/donde-comer-en-malaga-las-recomendaciones-de-ignacio-luque-las-joyas-de-la-axarquia/",
+          "note": "Called a 'tesoro escondido' in the Academia's Axarquía guide, which says the drive's curves are worth enduring."
+        }
+      ],
+      "evidence": "Verified July 2026: the MICHELIN venue page loads with address Villa del Castillo 24, Sedella 29715, phone +34 601 99 55 59, opening hours, and the note that the restaurant manages its own bookings; it also appears in the live 5-restaurant 'Nerja and surroundings' MICHELIN selection. Coordinates confirmed against the OpenStreetMap POI 'Bar Restaurante El Chiringuito' at Calle Villa Castillo 24."
+    },
+    {
+      "id": "casa-luque",
+      "name": "Casa Luque",
+      "neighborhood": "Balcón de Europa",
+      "cuisine": "Andalusian, wine-led",
+      "coordinates": {
+        "lat": 36.74494,
+        "lng": -3.87743
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "https://casaluque.com/en",
+      "phoneNumber": "+34 951 08 51 82",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "13:30",
+        "lineBy": "",
+        "advice": "Closed Sunday and Monday — the single most common way visitors get this one wrong."
+      },
+      "tips": [
+        "Open Tuesday to Saturday only, 13:30–23:00 with last orders at 22:30; closed Sunday and Monday, which catches out a lot of week-long visitors.",
+        "The kitchen runs continuously through the afternoon, so a 16:00 late lunch on the Plaza Cavana terrace is a genuine option when everywhere else has shut.",
+        "This is the town's serious wine list — Málaga and Andalusian growers alongside international bottles — so come for a glass and a few plates even if you are not eating a full meal.",
+        "The site's 'Reservations' page is a contact card, not a booking form — reserve by phone on +34 951 08 51 82 or email reservas@casaluque.com, and ask for the daily market and kitchen-garden specials."
+      ],
+      "signatureDish": "Daily market and kitchen-garden specials",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "wine-bar",
+        "romantic",
+        "local-institution"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "drinks"
+      ],
+      "dateNote": "A historic house off Plaza Cavana where the wine list is the point and the cooking keeps up.",
+      "sources": [
+        {
+          "name": "Academia Gastronómica de Málaga",
+          "tier": "local",
+          "url": "https://academiagastronomica.com/donde-comer-en-malaga-las-recomendaciones-de-ignacio-luque-las-joyas-de-la-axarquia/",
+          "note": "In the Academia's Axarquía guide, Casa Luque is one of only two Nerja addresses singled out as worth the detour — 'por tradición, nos llama a disfrutar de su magnífica mesa'."
+        }
+      ],
+      "evidence": "Verified July 2026: casaluque.com loads with address Plaza Cavana 2, phone 951 08 51 82, and posted hours Tuesday–Saturday 13:30–23:00, closed Sunday and Monday; the /en/reservas booking page resolves. Coordinates from an OpenStreetMap house-number match at Plaza Cavana 2, corroborated by the Cafetería Cavana POI 20m away.",
+      "photo": "https://static.wixstatic.com/media/832893_717135dda99741a685e387f1d222c4ae%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/832893_717135dda99741a685e387f1d222c4ae%7Emv2.jpg",
+      "photoAttr": "casaluque.com"
+    },
+    {
+      "id": "el-pulguilla",
+      "name": "El Pulguilla",
+      "neighborhood": "Old Town",
+      "cuisine": "Pescaíto frito and tapas",
+      "coordinates": {
+        "lat": 36.74661,
+        "lng": -3.87551
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "https://www.elpulguilla.com/en/",
+      "phoneNumber": "+34 952 52 13 84",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "12:30",
+        "lineBy": "20:30",
+        "advice": "Two rooms plus a big terrace absorb a lot, but the August queue peaks around 21:30 — arrive by 20:30 or accept standing at the bar first."
+      },
+      "tips": [
+        "Order at the standing bar rather than waiting for a table: you get the same fried fish faster, and a drink at the bar comes with a tapa.",
+        "The house case is fried fish — jureles, sardinas, calamaritos, boquerones — ordered as raciones to share rather than as individual mains.",
+        "Two minutes' walk from the Balcón de Europa, reached on foot via Calle Cristo; if you are driving, come in via Huertos de Carabeo.",
+        "It does not take bookings in practice — this is a walk-in bar, so build the evening around arriving early rather than around a reservation."
+      ],
+      "signatureDish": "Fritura of Málaga fried fish",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "local-institution",
+        "bustling",
+        "family-run"
+      ],
+      "occasion": [
+        "tapas",
+        "lunch",
+        "dinner",
+        "casual"
+      ],
+      "dateNote": "The old-town fried-fish bar locals actually use, which is why it is heaving by nine.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "award",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/el-pulguilla-326858/",
+          "note": "Solete Guía Repsol (awarded Soletes de Otoño 2021): 'Raciones a compartir de las más clásicas recetas de pescaíto frito malagueño en el casco histórico de Nerja y a un paso del Balcón de Europa. Acierto garantizado.'"
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/viajar/vamos-de-excursion/ruta-nerja-malaga/",
+          "note": "Guía Repsol's Nerja route names El Pulguilla as the lunchtime stop and 'uno de los bares más auténticos del municipio'."
+        }
+      ],
+      "evidence": "Verified July 2026: the Guía Repsol Solete record loads with address Calle Almirante Ferrándiz 26 and phone 952521384, and elpulguilla.com is live with a 2026 copyright; coordinates confirmed against the OpenStreetMap 'El Pulguilla' POI at that street number.",
+      "photo": "https://www.elpulguilla.com/wp-content/uploads/rrss-elpulguilla.jpg",
+      "photoAttr": "elpulguilla.com"
+    },
+    {
+      "id": "paco-el-churretero",
+      "name": "Paco el Churretero",
+      "neighborhood": "Burriana Beach",
+      "cuisine": "Wood-fired meat and coastal fish",
+      "coordinates": {
+        "lat": 36.75067,
+        "lng": -3.86793
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "CoverManager",
+      "platformUrl": "https://www.covermanager.com/reservation/module_restaurant/paco-el-churretero/spanish",
+      "website": "https://pacoelchurretero.es/",
+      "phoneNumber": "+34 952 52 81 71",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "The only Burriana address on this list with a live booking system, and it sells out online on summer nights — the site then tells you to phone."
+      },
+      "tips": [
+        "This is the one beachfront room here that takes real online bookings, through CoverManager; when the web allocation is full it explicitly redirects you to the phone or a waiting list.",
+        "Go for beef rather than paella — Rubia Gallega, wagyu and aged vaca vieja arrive sliced on a hot stone so you finish the cooking to your own taste.",
+        "There is a WhatsApp booking line on +34 652 733 066 if the calendar shows nothing, which is often faster than the switchboard in August.",
+        "Started as grandfather Paco's chiringuito in 1967 and was taken over in 2017 by Abel Cecilia and his brother-in-law Daniel — it now sits between beach shack and serious restaurant, so dress a notch up from the sand."
+      ],
+      "signatureDish": "Aged Rubia Gallega beef finished on the stone",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "family-run",
+        "grill-house"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "impress"
+      ],
+      "dateNote": "The Burriana chiringuito that grew into a steakhouse, and the only one you actually need to book.",
+      "sources": [
+        {
+          "name": "Academia Gastronómica de Málaga",
+          "tier": "local",
+          "url": "https://academiagastronomica.com/restaurantes/paco-el-churretero/",
+          "note": "Full profile covering the 1967 origin, the 2017 handover to Abel Cecilia and Daniel, the focus on brasa-cooked Rubia Gallega, wagyu and vaca vieja, and the 'Sabor a Málaga' seal it holds uniquely in Nerja."
+        },
+        {
+          "name": "Academia Gastronómica de Málaga",
+          "tier": "local",
+          "url": "https://academiagastronomica.com/donde-comer-en-malaga-las-recomendaciones-de-ignacio-luque-las-joyas-de-la-axarquia/",
+          "note": "Named as the standout above Burriana's popular chiringuitos — 'destaca una joya en el trato de carnes, El Churretero'."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/viajar/vamos-de-excursion/ruta-nerja-malaga/",
+          "note": "Chef Fernando Villasclaras's second Burriana recommendation in Guía Repsol's Nerja route: 'el restaurante Paco el Churretero ofrece también productos del mar y la montaña'."
+        }
+      ],
+      "evidence": "Verified July 2026: pacoelchurretero.es is live at Camino de Burriana 9 with phone 652 73 30 66, and its CoverManager booking module loads a working July 2026 calendar with real availability logic; coordinates confirmed against the OpenStreetMap POI 'Paco \"El Churretero\"'.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://pacoelchurretero.es/wp-content/uploads/2024/11/PCH-2-2-768x514.webp",
+      "photoAttr": "pacoelchurretero.es"
+    },
+    {
+      "id": "las-piedras",
+      "name": "Las Piedras",
+      "neighborhood": "Maro",
+      "cuisine": "Andalusian beach grill",
+      "coordinates": {
+        "lat": 36.74466,
+        "lng": -3.78804
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 699 81 08 85",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "11:30",
+        "lineBy": "",
+        "advice": "The constraint is the beach, not the restaurant — Cañuelo access is capped in summer, so secure the beach before you worry about the table."
+      },
+      "tips": [
+        "This sits above Playa del Cañuelo inside the Acantilados de Maro-Cerro Gordo protected area, roughly 10km east of Nerja off the N-340 at km 287.",
+        "Access is the whole game: you leave the car at the roadside and walk about 1.5km down, and the climb back up is steep — in high season vehicle access and parking are restricted, so check the day's arrangements before setting off.",
+        "It does take reservations but has no booking site — phone +34 699 81 08 85, and confirm it is open, as the season and hours vary with the weather.",
+        "Order the brochetas and the fritura de pescado; there are sea views, a garden, high chairs and it is dog-friendly, which makes it the best-equipped family stop east of town."
+      ],
+      "signatureDish": "Brochetas and fritura de pescado under the cane pergola",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "cliffside",
+        "seafront",
+        "family-friendly"
+      ],
+      "occasion": [
+        "lunch",
+        "family",
+        "casual"
+      ],
+      "dateNote": "A cane-pergola terrace above one of Málaga's last undeveloped beaches, earned on foot.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "award",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/las-piedras-334335/",
+          "note": "Solete Guía Repsol (Soletes Verano 2025): 'La estética tradicional de esta terraza refrescante bajo una pérgola de caña y vegetación combina con los sabores del mar. ¡Y en una de las playas más vírgenes de Málaga!' Recommends brochetas and fritura de pescado."
+        }
+      ],
+      "evidence": "Verified July 2026: the Guía Repsol Solete record loads with address Playa el Cañuelo, N-340 km 287, phone 699810885, live opening hours, and listed services including sea views, garden, children welcome and reservations; coordinates confirmed against the OpenStreetMap 'Las piedras' POI beside Playa del Cañuelo. No website exists — phone only."
+    },
+    {
+      "id": "el-acebuchal",
+      "name": "El Acebuchal",
+      "neighborhood": "El Acebuchal (Frigiliana)",
+      "cuisine": "Mountain game and Andalusian home cooking",
+      "coordinates": {
+        "lat": 36.81774,
+        "lng": -3.92486
+      },
+      "difficulty": 3,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "https://www.elacebuchal.com/",
+      "phoneNumber": "+34 951 48 08 08",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "10:00",
+        "lineBy": "",
+        "advice": "Sunday lunch is when the whole Axarquía drives up — book for that, walk in midweek."
+      },
+      "tips": [
+        "You reach it from Frigiliana on a narrow track that turns from asphalt to concrete to dirt through pine forest inside the Sierras de Tejeda, Almijara y Alhama natural park — fine in a normal car, but not a drive to attempt after dark for the first time.",
+        "This is the antidote to a week of fried fish: wild boar in smoked-paprika sauce, venison with oloroso and dried figs, and beef ribs cooked 48 hours in peach sauce.",
+        "Run by the García Sánchez family with brothers Antonio and Sebastián in charge; bread, desserts and ice creams are all made in house.",
+        "It opens from 10:00 and has its own kitchen garden, terrace, high chairs and gluten-free, vegan and halal options — but it is a daytime kitchen serving the hamlet's guest houses, so confirm the closing time when you phone rather than planning a late dinner."
+      ],
+      "signatureDish": "Wild boar in smoked paprika sauce",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "mountain-hamlet",
+        "family-run",
+        "rustic"
+      ],
+      "occasion": [
+        "lunch",
+        "family",
+        "impress"
+      ],
+      "dateNote": "A resurrected ghost hamlet up a dirt road, serving the game cooking the coast forgot.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/fichas/restaurante/el-acebuchal-325172/",
+          "note": "Restaurante Guía Repsol, 2026 edition: praised for coherence — 'Pocos alardes en cocina, pero sí buen producto y todo en su punto.' Recommends jabalí en salsa de pimentón ahumado, gamo con oloroso e higos secos, and 48-hour beef ribs."
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/comer/nuestros-favoritos/restaurante-el-acebuchal-frigiliana-malaga/",
+          "note": "Full 'Nuestros favoritos' feature on the restaurant, the García Sánchez family, and the approach road from Frigiliana."
+        }
+      ],
+      "evidence": "Verified July 2026: the Guía Repsol record loads carrying a current 2026 'Restaurante Guía Repsol' listing with live opening hours, phone 951 48 08 08, and services including terrace, good views, own kitchen garden and children welcome; coordinates from the OpenStreetMap El Acebuchal hamlet, which the restaurant effectively constitutes.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://www.elacebuchal.com/wp-content/uploads/2021/06/historia_home_1-1.jpg",
+      "photoAttr": "elacebuchal.com"
+    },
+    {
+      "id": "el-chaleco",
+      "name": "El Chaleco",
+      "neighborhood": "Almuñécar",
+      "cuisine": "French",
+      "coordinates": {
+        "lat": 36.73898,
+        "lng": -3.69818
+      },
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "",
+      "phoneNumber": "+34 958 63 24 02",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": {
+        "doors": "",
+        "lineBy": "",
+        "advice": "Closed Mondays, and a two-room restaurant that fills on the strength of its MICHELIN listing — call ahead."
+      },
+      "tips": [
+        "About 20km east of Nerja along the coast in Almuñécar, which is an easy 25-minute drive and pairs naturally with a day at the Maro or Cerro Gordo beaches.",
+        "Closed Mondays; MICHELIN notes it handles its own bookings, so phone +34 958 63 24 02 rather than looking for an online widget.",
+        "The kitchen works through two set menus — a short three-course and a five-course tasting — rather than a long carte, so go hungry and let them drive.",
+        "Ask whether a themed menu is running: lobster, seafood and anniversary specials come round regularly and are the best value on the board."
+      ],
+      "signatureDish": "Prawn-stuffed ravioli from the tasting menu",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "family-run",
+        "old-school"
+      ],
+      "occasion": [
+        "dinner",
+        "impress",
+        "anniversary"
+      ],
+      "dateNote": "Genuinely French cooking on a coast that almost never attempts it, now run by the founders' daughter.",
+      "sources": [
+        {
+          "name": "Michelin",
+          "tier": "guide",
+          "url": "https://guide.michelin.com/en/andalucia/almunecar/restaurant/el-chaleco",
+          "note": "MICHELIN Guide selected restaurant, French cuisine, €€: 'A restaurant with a long history, now run by the daughter of the previous owners, who has managed to maintain its essence but with an exquisite professional touch.'"
+        }
+      ],
+      "evidence": "Verified July 2026: the MICHELIN venue page loads with address Avenida Costa del Sol 37, Almuñécar 18690, phone +34 958 63 24 02, Monday closure, and the note that it manages its own bookings; it also appears in the live 5-restaurant 'Nerja and surroundings' MICHELIN selection. Coordinates confirmed against the OpenStreetMap 'El Chaleco' POI in Almuñécar."
+    },
+    {
+      "id": "la-puntilla",
+      "name": "La Puntilla",
+      "neighborhood": "Old Town",
+      "cuisine": "Seafood tapas",
+      "coordinates": {
+        "lat": 36.75,
+        "lng": -3.87469
+      },
+      "difficulty": 2,
+      "priceRange": "$",
+      "platform": "Website",
+      "platformUrl": "https://www.lapuntillanerja.es/reservas/",
+      "website": "https://www.lapuntillanerja.es/",
+      "phoneNumber": "+34 952 52 89 51",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "12:30",
+        "lineBy": "",
+        "advice": "Split across two units facing each other with a terrace between Calle Bolivia and Calle San Pablo — if one side looks full, check the other before giving up."
+      },
+      "tips": [
+        "Chef Fernando Villasclaras names the standing bar, not the dining room, as the reason to come — order a beer and pulpo seco there before you think about sitting down.",
+        "It is a short uphill walk north of the old-town core rather than a Balcón-side address, which is exactly why the crowd stays local.",
+        "The team buys each morning from the Nerja and Málaga-coast cofradías, so ask for the pescado del día rather than ordering off the printed list.",
+        "The booking form on the site is a request, not an instant confirmation; for a table tonight just phone +34 952 52 89 51."
+      ],
+      "signatureDish": "Pulpo seco at the bar",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "local-institution",
+        "family-run",
+        "bustling"
+      ],
+      "occasion": [
+        "tapas",
+        "lunch",
+        "drinks",
+        "casual"
+      ],
+      "dateNote": "The tapas bar a Sol-winning chef sends you to, which is a better credential than any window sticker.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/viajar/vamos-de-excursion/ruta-nerja-malaga/",
+          "note": "Chef Fernando Villasclaras (El Lago, 1 Sol Guía Repsol) calls it 'el bar de tapeo de referencia en Nerja. Sobre todo su barra, donde tomar una cerveza con productos de cercanía como el pulpo seco'."
+        }
+      ],
+      "evidence": "Verified July 2026: lapuntillanerja.es is live, with phone +34 952 528 951 and a working /reservas/ request page; the Guía Repsol feature's description of two facing units and a terrace across Calle Bolivia and Calle San Pablo matches the OpenStreetMap 'La Puntilla' POI used for coordinates.",
+      "photo": "https://www.lapuntillanerja.es/wp-content/uploads/2025/05/guarniciones-mariscos-camarones-calamares-pescado.jpg",
+      "photoAttr": "lapuntillanerja.es"
+    },
+    {
+      "id": "merendero-la-barca",
+      "name": "Merendero La Barca",
+      "neighborhood": "Burriana Beach",
+      "cuisine": "Seafood merendero",
+      "coordinates": {
+        "lat": 36.75056,
+        "lng": -3.86744
+      },
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "https://www.merenderolabarca.es/",
+      "phoneNumber": "+34 952 52 69 27",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "13:00",
+        "lineBy": "",
+        "advice": "A big room 40m from the water that turns over steadily; phoning an hour ahead in August is usually enough for a front table."
+      },
+      "tips": [
+        "Closed from November through 21 December each year — check before planning a late-autumn meal here.",
+        "Service runs 13:00–18:00 and 19:00–22:00 daily, with a genuine afternoon gap, so a 17:00 arrival gets you a quiet beachfront table.",
+        "Founded in 1967 and still running a near-hundred-dish list; the reason to come is the shellfish — conchas finas, almejas blancas, jibia frita — and the espeto.",
+        "There are children's menus and a cheap first-line sunbed service, which makes it the easiest full beach-day base of the Burriana row."
+      ],
+      "signatureDish": "Conchas finas and fried jibia",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "family-friendly",
+        "local-institution"
+      ],
+      "occasion": [
+        "lunch",
+        "dinner",
+        "family"
+      ],
+      "dateNote": "The Burriana veteran with the long list and the sunbeds, built for a whole day rather than a meal.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/viajar/vamos-de-excursion/ruta-nerja-malaga/",
+          "note": "One of chef Fernando Villasclaras's two Burriana picks in Guía Repsol's Nerja route: 'el merendero La Barca, fundado a finales de los años 60 y con una carta con casi un centenar de platos. La estrella son los pescados y mariscos.'"
+        }
+      ],
+      "evidence": "Verified July 2026: merenderolabarca.es loads with address Camino de Burriana s/n, hours 13:00–18:00 and 19:00–22:00, the November–21 December closure, and the 1967 founding by Francisco Navas Valverde; coordinates and phone +34 952 52 69 27 confirmed against the OpenStreetMap 'La Barca' POI on Paseo Marítimo Antonio Mercero.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://www.merenderolabarca.es/img/slider/labarca.jpg",
+      "photoAttr": "merenderolabarca.es"
+    },
+    {
+      "id": "ayo",
+      "name": "Ayo",
+      "neighborhood": "Burriana Beach",
+      "cuisine": "Wood-fired paella and beach grill",
+      "coordinates": {
+        "lat": 36.75121,
+        "lng": -3.86589
+      },
+      "difficulty": 1,
+      "priceRange": "$",
+      "platform": "Phone",
+      "platformUrl": "",
+      "website": "http://www.ayonerja.com/",
+      "phoneNumber": "+34 952 52 22 89",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "12:00",
+        "lineBy": "",
+        "advice": "No reservations at all, by design — the paella is cooked continuously so there is always a portion coming off the fire."
+      },
+      "tips": [
+        "Ayo does not take bookings; its own line is 'siempre recién hecha, sin reserva', so simply walk up off the sand.",
+        "The paella is cooked in giant pans over wood fire in the open, and the seconds are traditionally free — pace your first plate accordingly.",
+        "Come for lunch, not dinner: the paella service and the spectacle of the fire pit are a midday thing, roughly 13:00–16:00.",
+        "The website is served over plain HTTP only (its HTTPS certificate fails), so use the phone number if the link looks broken to you."
+      ],
+      "signatureDish": "Paella a la leña, cooked over wood on the sand",
+      "lastVerified": "2026-07-30",
+      "availability": null,
+      "vibe": [
+        "seafront",
+        "local-institution",
+        "family-friendly"
+      ],
+      "occasion": [
+        "lunch",
+        "family",
+        "casual"
+      ],
+      "dateNote": "Wood-fired paella on the sand since 1969, with no reservation to lose and no pretensions to defend.",
+      "sources": [
+        {
+          "name": "Guía Repsol",
+          "tier": "award",
+          "url": "https://www.guiarepsol.com/es/fichas/solete/ayo-328175/",
+          "note": "Solete Guía Repsol (Soletes de Verano 2022): 'puro Verano Azul, pescaíto en la playa más popular de Nerja y arroz infinito. Sencillez, humildad y comida casera para un establecimiento con duende.'"
+        },
+        {
+          "name": "Guía Repsol",
+          "tier": "guide",
+          "url": "https://www.guiarepsol.com/es/viajar/vamos-de-excursion/ruta-nerja-malaga/",
+          "note": "Guía Repsol's own third pick on the Nerja route, noting the huge terrace on the sand and the restaurant's role as a 'Verano Azul' filming location."
+        }
+      ],
+      "evidence": "Verified July 2026: the Guía Repsol Solete record loads with Paseo Burriana 15 and phone 952522289, and ayonerja.com resolves over HTTP (HTTPS returns an SSL protocol error) advertising paella a la leña since 1969 and the Ministry of Agriculture 'Alimentos de España' award; coordinates confirmed against the OpenStreetMap POI 'La Parrala \"Ayo\"' at Paseo de Burriana 15.",
+      "photoChecked": "2026-07-30",
+      "photo": "https://chiringuitoayonerja.es/img/hero-paella.webp",
+      "photoAttr": "ayonerja.com"
+    }
+  ]
+}

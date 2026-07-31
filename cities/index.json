@@ -285,6 +285,36 @@
         "type": "json",
         "url": "cities/louisville.json"
       }
+    },
+    {
+      "key": "malaga",
+      "label": "Málaga",
+      "short": "MLG",
+      "center": [
+        36.7213,
+        -4.4214
+      ],
+      "zoom": 13,
+      "timezone": "Europe/Madrid",
+      "source": {
+        "type": "json",
+        "url": "cities/malaga.json"
+      }
+    },
+    {
+      "key": "nerja",
+      "label": "Nerja",
+      "short": "NRJ",
+      "center": [
+        36.7461,
+        -3.877
+      ],
+      "zoom": 14,
+      "timezone": "Europe/Madrid",
+      "source": {
+        "type": "json",
+        "url": "cities/nerja.json"
+      }
     }
   ]
 }
