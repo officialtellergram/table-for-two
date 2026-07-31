@@ -1,67 +1,11 @@
 {
-  "generated": "2026-07-31T18:51:09+00:00",
+  "generated": "2026-07-31T20:16:36+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 21,
+  "new": 0,
   "items": [
     {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-01",
-      "time": "11:30",
-      "type": "Lunch",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-01&seats=2",
-      "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-01",
-      "time": "11:45",
-      "type": "Lunch",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-01&seats=2",
-      "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-07-31",
-      "time": "16:00",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "pineapple-and-pearls",
-      "name": "Pineapple and Pearls",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American fine-dining prix-fixe",
-      "date": "2026-07-31",
-      "time": "20:45",
-      "type": "Bar Full Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
-    },
-    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
@@ -73,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -101,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-01&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -115,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-01&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -129,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-01&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -185,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -199,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -213,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -227,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -241,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -255,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -269,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-07-31&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -283,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-01&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -297,7 +241,21 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-01&seats=2",
       "firstSeen": "2026-07-31T18:51:09+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "pineapple-and-pearls",
+      "name": "Pineapple and Pearls",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American fine-dining prix-fixe",
+      "date": "2026-07-31",
+      "time": "20:45",
+      "type": "Bar Full Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-07-31&seats=2",
+      "firstSeen": "2026-07-31T18:51:09+00:00",
+      "new": false
     },
     {
       "city": "richmond",
@@ -2316,48 +2274,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-01",
-      "time": "00:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-01&seats=2",
-      "firstSeen": "2026-07-31T15:35:42+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-01",
-      "time": "23:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-01&seats=2",
-      "firstSeen": "2026-07-31T15:35:42+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "little-pearl",
-      "name": "Little Pearl",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American tasting menu",
-      "date": "2026-07-31",
-      "time": "20:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-07-31&seats=2",
-      "firstSeen": "2026-07-31T15:35:42+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
@@ -2438,6 +2354,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
+      "firstSeen": "2026-07-31T15:35:42+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-01",
+      "time": "23:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-01&seats=2",
       "firstSeen": "2026-07-31T15:35:42+00:00",
       "new": false
     },
@@ -2803,6 +2733,76 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-02&seats=2",
       "firstSeen": "2026-07-31T02:06:27+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-01",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-01&seats=2",
+      "firstSeen": "2026-07-30T17:55:11+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-01",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-01&seats=2",
+      "firstSeen": "2026-07-30T17:55:11+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-02",
+      "time": "00:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-02&seats=2",
+      "firstSeen": "2026-07-30T01:58:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-01",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-01&seats=2",
+      "firstSeen": "2026-07-30T01:58:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-01",
+      "time": "17:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-01&seats=2",
+      "firstSeen": "2026-07-30T01:58:50+00:00",
       "new": false
     }
   ]
