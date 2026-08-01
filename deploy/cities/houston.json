@@ -25,8 +25,8 @@
       "releaseSchedule": "monthly",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -36,7 +36,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "20-course edomae omakase by Chef Manabu 'Hori' Horiuchi",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -59,7 +59,7 @@
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Chef of the Year",
+          "tier": "Tastemaker Awards 2026 \u2014 Chef of the Year",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-houston-2026-winners/",
           "note": "Manabu 'Hori' Horiuchi (Kata Robata, Katami, Sushi Horiuchi) named 2026 Chef of the Year"
         },
@@ -69,7 +69,9 @@
           "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
           "note": "Six-seat omakase counter among Houstonia's top new openings of 2025"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/94706/6ab199f3a7a2527e92d9cf217efe901fe44c8667/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "hidden-omakase",
@@ -77,14 +79,14 @@
       "neighborhood": "Galleria / Uptown",
       "cuisine": "Japanese Omakase",
       "coordinates": null,
-      "difficulty": 5,
+      "difficulty": 4,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/houston-tx/venues/hidden-omakase",
       "website": "https://www.hiddenomakase.com/",
       "phoneNumber": "",
       "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM CT",
+      "releaseTime": "12:00 AM (Midnight) CT",
       "releaseDay": "",
       "bookingWindow": "14 days",
       "bookingWindowDays": 14,
@@ -97,7 +99,7 @@
         "Check Resy right at 12:00 AM CT for the day 14 days out"
       ],
       "signatureDish": "Edomae omakase (~$225pp)",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -122,7 +124,9 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "A special-occasion table worth the wait."
+      "dateNote": "A special-occasion table worth the wait.",
+      "photo": "https://image.resy.com/3/003/2/44365/4d45ae2771a2eae441712e44e2d4056e9146d692/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "kata-robata-omakase",
@@ -130,7 +134,7 @@
       "neighborhood": "Upper Kirby",
       "cuisine": "Japanese Omakase",
       "coordinates": null,
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/houston-tx/venues/kata-robata",
@@ -139,8 +143,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "62 days",
+      "bookingWindowDays": 62,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -150,7 +154,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Chef Hori omakase (fish flown from Japan multiple times weekly)",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -181,11 +185,13 @@
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Chef of the Year",
+          "tier": "Tastemaker Awards 2026 \u2014 Chef of the Year",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-houston-2026-winners/",
           "note": "Manabu 'Hori' Horiuchi (Kata Robata, Katami, Sushi Horiuchi) named 2026 Chef of the Year"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/3790/0b5395878ef6b1b8b5b0c10dcf52020f3a558c32/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "katami",
@@ -196,7 +202,7 @@
         "lat": 29.7572631,
         "lng": -95.3950421
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/houston-tx/venues/katami",
@@ -205,17 +211,17 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
       "walkIns": false,
       "walkIn": null,
       "tips": [
         "Select 'Omakase' seating area on Resy for the counter experience",
-        "Omakase counter seats are the scarce ones; à la carte easier",
+        "Omakase counter seats are the scarce ones; \u00e0 la carte easier",
         "VERIFY release time"
       ],
       "signatureDish": "17-course omakase at the sushi bar",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -247,7 +253,7 @@
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "tier": "Tastemaker Awards 2026 \u2014 Restaurant of the Year finalist",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/",
           "note": "One of 11 nominees for 2026 Restaurant of the Year; chef Manabu Horiuchi won 2026 Chef of the Year"
         },
@@ -263,7 +269,9 @@
           "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
           "note": "On Houstonia editors' 50 best Houston restaurants list"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/69226/903ad0de98bb87f085ebfcdd130e4446bedb02e6/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "march",
@@ -292,10 +300,10 @@
         "28-seat tasting-menu-only room; also listed on OpenTable/Sapphire Reserve",
         "Goodnight Hospitality; book exactly 60 days out",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Six- or nine-course Mediterranean tasting menu",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -310,7 +318,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
           "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
         },
@@ -328,14 +336,14 @@
         },
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "tier": "Tastemaker Awards 2026 \u2014 Restaurant of the Year finalist",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/"
         }
       ]
     },
     {
       "id": "tatemo",
-      "name": "Tatemó",
+      "name": "Tatem\u00f3",
       "neighborhood": "Spring Branch",
       "cuisine": "Modern Mexican",
       "coordinates": null,
@@ -359,7 +367,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Heirloom-corn nixtamal tasting menu",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -374,7 +382,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
           "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
         },
@@ -392,11 +400,13 @@
         },
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2025 — Chef of the Year",
+          "tier": "Tastemaker Awards 2025 \u2014 Chef of the Year",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/",
           "note": "Emmanuel Chavez named 2025 Chef of the Year"
         }
-      ]
+      ],
+      "photo": "https://static1.squarespace.com/static/693a089ad253fa7fe5ba9a38/t/693aeec4ac5812630c56337a/1765469892853/Tatemo%CC%81_Wordmark_Molcajete.png?format=1500w",
+      "photoAttr": "tatemohtx.com"
     },
     {
       "id": "theodore-rex",
@@ -407,7 +417,7 @@
         "lat": 29.7680583,
         "lng": -95.3541199
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "priceRange": "$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/houston-tx/venues/theodore-rex",
@@ -416,8 +426,8 @@
       "releaseSchedule": "calendar-month",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -427,7 +437,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Tomato toast",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -467,7 +477,9 @@
           "url": "https://www.houstonchronicle.com/projects/2024/best-restaurants-houston/",
           "note": "Ranked No. 5 on the Chronicle's 2024 Top 100 restaurants list"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/1439/b8c1ea93057d1c366cf272799ab613ad3dcf2fc7/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "bcn-taste-tradition",
@@ -497,7 +509,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Char-grilled octopus; Iberian suckling pig",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -511,7 +523,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
           "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
         }
@@ -543,10 +555,10 @@
         "Online reservations open 3 weeks in advance",
         "Prime weekend slots fill immediately",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Seafood tower; Dover sole",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -559,7 +571,7 @@
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "tier": "Tastemaker Awards 2026 \u2014 Restaurant of the Year finalist",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/"
         },
         {
@@ -576,7 +588,7 @@
       "neighborhood": "River Oaks",
       "cuisine": "Japanese (temaki tasting)",
       "coordinates": null,
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/houston-tx/venues/kira",
@@ -585,8 +597,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "21 days",
-      "bookingWindowDays": 21,
+      "bookingWindow": "14 days",
+      "bookingWindowDays": 14,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -595,7 +607,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "7-course hand-roll (temaki) tasting",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -625,17 +637,19 @@
       "sources": [
         {
           "name": "Texas Monthly",
-          "tier": "Best New Restaurants 2025 — No. 4",
+          "tier": "Best New Restaurants 2025 \u2014 No. 4",
           "url": "https://www.texasmonthly.com/food/best-new-restaurants-2025/",
           "note": "Ranked No. 4 on Texas Monthly's 10 best new Texas restaurants of 2025"
         },
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+          "tier": "Tastemaker Awards 2025 \u2014 Best New Restaurant nominee",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/",
           "note": "Also home to 2025 Tastemaker Bartender of the Year Aaron Lara"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/81665/c9cbc9d6a5906e41054b3e69ab8e2f4a9f7de751/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "late-august",
@@ -660,13 +674,13 @@
       "walkIns": false,
       "walkIn": null,
       "tips": [
-        "Option for à la carte or the 'surprise tasting'",
+        "Option for \u00e0 la carte or the 'surprise tasting'",
         "Confirm Resy availability or contact directly",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Surprise tasting (Afro-Mexican)",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -679,7 +693,7 @@
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+          "tier": "Tastemaker Awards 2025 \u2014 Best New Restaurant nominee",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/"
         }
       ]
@@ -710,7 +724,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Seasonal vegetable-forward French tasting",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -724,7 +738,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
           "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
         },
@@ -734,7 +748,9 @@
           "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
           "note": "On Houstonia editors' 50 best Houston restaurants list"
         }
-      ]
+      ],
+      "photo": "https://static1.squarespace.com/static/66e4948fcb34b31909dfeb50/t/66e495d32b7e2e2c8042a352/1726256595608/Le+Jardinier+MFAH+-+transparent.png?format=1500w",
+      "photoAttr": "lejardinier-houston.com"
     },
     {
       "id": "musaafer",
@@ -764,7 +780,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Multi-course regional Indian tasting; Texas wagyu kofta",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -777,7 +793,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
           "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
         },
@@ -818,7 +834,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Texas tartare; ever-changing small plates",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "intimate",
@@ -828,7 +844,7 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "dateNote": "An intimate counter \u2014 just you, them, and the chef.",
       "sources": [
         {
           "name": "Michelin",
@@ -864,10 +880,10 @@
         "Resy or contact the restaurant directly",
         "Hot opening at Hotel Saint Augustine from Aaron Bludorn",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Gulf Coast-inflected bistro fare",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "romantic"
@@ -877,11 +893,11 @@
         "celebration",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "dateNote": "Low-lit and date-perfect \u2014 made for a lingering two-top.",
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+          "tier": "Tastemaker Awards 2026 \u2014 Best New Restaurant nominee",
           "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
         },
         {
@@ -918,10 +934,10 @@
         "Book well ahead for weekends, holidays, and piano nights",
         "Goodnight Hospitality; choose your section when booking",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Caviar service; fried chicken & champagne Sundays",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -935,10 +951,12 @@
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
+          "tier": "Tastemaker Awards 2025 \u2014 Best New Restaurant nominee",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/"
         }
-      ]
+      ],
+      "photo": "https://images.prismic.io/marigoldclub/Zrty1kaF0TcGI5h9_MainDiningRoomTablescape.JPG?ixlib=gatsbyFP&amp;auto=format%2Ccompress&amp;dpr=1&amp;fit=max&amp;q=50",
+      "photoAttr": "themarigoldclub.com"
     },
     {
       "id": "uchi-houston",
@@ -946,7 +964,7 @@
       "neighborhood": "Montrose",
       "cuisine": "Japanese",
       "coordinates": null,
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/houston-tx/venues/uchi-houston",
@@ -955,8 +973,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -966,7 +984,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Hama chili; seasonal omakase",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1001,7 +1019,9 @@
           "url": "https://www.houstoniamag.com/eat-and-drink/best-restaurants-houston",
           "note": "On Houstonia editors' 50 best list; cited for its 15-seat Oheya omakase experience"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/52379/9ee5a445924a35562651525920b7ab2f626c5964/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "agnes-and-sherman",
@@ -1030,10 +1050,10 @@
         "New 2025 Michelin-recommended addition",
         "VERIFY release time",
         "VERIFY exact address and platform",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -1065,7 +1085,7 @@
         },
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+          "tier": "Tastemaker Awards 2026 \u2014 Best New Restaurant nominee",
           "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
         },
         {
@@ -1074,7 +1094,9 @@
           "url": "https://www.houstoniamag.com/eat-and-drink/2025/12/best-restaurants-opened-houston-2025",
           "note": "Nick Wong and Lisa Lee's Asian American diner, among Houstonia's top new openings of 2025"
         }
-      ]
+      ],
+      "photo": "https://static1.squarespace.com/static/657227f72895f578e889a5c3/t/693f4ae2144d875d2d94d695/1765755618894/MICHELIN_Selected+restaurant_2025_Round_Red.png?format=1500w",
+      "photoAttr": "agnesandsherman.com"
     },
     {
       "id": "annam",
@@ -1091,8 +1113,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "62 days",
+      "bookingWindowDays": 62,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -1101,7 +1123,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Monthly Chef's Tasting menu",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1134,7 +1156,9 @@
           "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants/bib-gourmand",
           "note": "New Bib Gourmand in MICHELIN Guide Texas 2025"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/91915/fcb08ded73ccc5043a1efca0a14f2cae60ab10c0/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "baso",
@@ -1162,10 +1186,10 @@
         "Online reservations open ~1-2 weeks in advance",
         "Kitchen counter often available for walk-ins",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Basque-style grilled fish; pintxos",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "intimate"
@@ -1173,11 +1197,11 @@
       "occasion": [
         "first-date"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "dateNote": "An intimate counter \u2014 just you, them, and the chef.",
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2025 — Restaurant of the Year",
+          "tier": "Tastemaker Awards 2025 \u2014 Restaurant of the Year",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/",
           "note": "2025 Restaurant of the Year; chefs Jacques Varon and Max Lappe also won Rising Star Chef of the Year"
         },
@@ -1215,10 +1239,10 @@
         "Reservations on Resy; recommended for the dining room",
         "Hot 2025 opening from acclaimed chef Shawn Gawle",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Family-style market-driven menu",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "romantic",
@@ -1228,7 +1252,7 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "dateNote": "Low-lit and date-perfect \u2014 made for a lingering two-top.",
       "sources": [
         {
           "name": "Houston Chronicle",
@@ -1238,7 +1262,7 @@
         },
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Best New Restaurant nominee",
+          "tier": "Tastemaker Awards 2026 \u2014 Best New Restaurant nominee",
           "url": "https://houston.culturemap.com/news/restaurants-bars/best-new-restaurants-houston-tastemakers/"
         },
         {
@@ -1278,7 +1302,7 @@
         "VERIFY exact address and platform"
       ],
       "signatureDish": "Chocolate tasting experience",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "intimate",
@@ -1289,7 +1313,7 @@
         "anniversary",
         "celebration"
       ],
-      "dateNote": "An intimate counter — just you, them, and the chef."
+      "dateNote": "An intimate counter \u2014 just you, them, and the chef."
     },
     {
       "id": "credence",
@@ -1318,10 +1342,10 @@
         "New 2025 Michelin-recommended addition",
         "VERIFY release time",
         "VERIFY exact address and platform",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -1335,7 +1359,7 @@
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
+          "tier": "Tastemaker Awards 2026 \u2014 Restaurant of the Year finalist",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/",
           "note": "Also a 2025 Tastemaker Best New Restaurant nominee"
         }
@@ -1367,10 +1391,10 @@
         "Reservations on Resy",
         "Frequently cited among Houston's hardest tables",
         "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Not bookable on Resy \u2014 reserve via the website or by phone"
       ],
       "signatureDish": "Modern Israeli mezze",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": null,
       "vibe": [
         "romantic"
@@ -1379,11 +1403,11 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "dateNote": "Low-lit and date-perfect \u2014 made for a lingering two-top.",
       "sources": [
         {
           "name": "Texas Monthly",
-          "tier": "Best New Restaurants 2023 — No. 3",
+          "tier": "Best New Restaurants 2023 \u2014 No. 3",
           "url": "https://www.texasmonthly.com/food/best-new-restaurants-texas-2023/",
           "note": "Ranked No. 3 on Texas Monthly's best new Texas restaurants of 2023"
         }
@@ -1407,8 +1431,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "62 days",
+      "bookingWindowDays": 62,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -1417,7 +1441,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Mississippi hot catfish sandwich; grilled redfish",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-01",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1442,14 +1466,16 @@
         "anniversary",
         "first-date"
       ],
-      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "dateNote": "Low-lit and date-perfect \u2014 made for a lingering two-top.",
       "sources": [
         {
           "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2025 — Neighborhood Restaurant of the Year",
+          "tier": "Tastemaker Awards 2025 \u2014 Neighborhood Restaurant of the Year",
           "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-2025-winners/"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/73659/a79724fecec8bbc94f3b9a14f97c9e09c7418ce7/jpg/640x360",
+      "photoAttr": "Resy"
     }
   ]
 }
