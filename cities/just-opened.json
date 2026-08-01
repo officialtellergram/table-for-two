@@ -1,23 +1,429 @@
 {
-  "generated": "2026-08-01T21:23:03+00:00",
+  "generated": "2026-08-01T22:25:55+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 65,
+  "new": 16,
   "items": [
     {
       "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
       "cuisine": "Italian",
+      "date": "2026-08-03",
+      "time": "23:00",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-03&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-08-03",
+      "time": "23:15",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-03&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-08-03",
+      "time": "23:30",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-03&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-01",
+      "time": "21:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
       "date": "2026-08-02",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-02",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-01",
+      "time": "22:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-01",
       "time": "22:30",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
       "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-02",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-02",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-08-01",
+      "time": "21:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-08-01",
+      "time": "22:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-08-01",
+      "time": "20:30",
+      "type": "DINING ROOM",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-08-02",
+      "time": "19:45",
+      "type": "Main Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-08-01",
+      "time": "18:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kira",
+      "name": "Kira",
+      "neighborhood": "River Oaks",
+      "cuisine": "Japanese (temaki tasting)",
+      "date": "2026-08-01",
+      "time": "18:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-08-01&seats=2",
+      "firstSeen": "2026-08-01T22:25:55+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "18:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "19:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "19:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "19:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-02",
+      "time": "22:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T21:23:03+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -59,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -185,371 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-08-01",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-08-01",
-      "time": "19:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-08-01",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-08-01",
-      "time": "19:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-08-01",
-      "time": "19:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "conejo",
-      "name": "Conejo",
-      "neighborhood": "Far West End / Patterson",
-      "cuisine": "Modern Mexican",
-      "date": "2026-08-01",
-      "time": "20:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/conejo?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-08-02",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "18:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-02",
-      "time": "22:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "field-and-vine",
-      "name": "Field & Vine",
-      "neighborhood": "Union Square (Somerville)",
-      "cuisine": "New American farm-to-table",
-      "date": "2026-08-01",
-      "time": "17:30",
-      "type": "DINING ROOM",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "field-and-vine",
-      "name": "Field & Vine",
-      "neighborhood": "Union Square (Somerville)",
-      "cuisine": "New American farm-to-table",
-      "date": "2026-08-01",
-      "time": "17:30",
-      "type": "Outdoor Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "field-and-vine",
-      "name": "Field & Vine",
-      "neighborhood": "Union Square (Somerville)",
-      "cuisine": "New American farm-to-table",
-      "date": "2026-08-01",
-      "time": "17:45",
-      "type": "DINING ROOM",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "field-and-vine",
-      "name": "Field & Vine",
-      "neighborhood": "Union Square (Somerville)",
-      "cuisine": "New American farm-to-table",
-      "date": "2026-08-01",
-      "time": "17:45",
-      "type": "Outdoor Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "field-and-vine",
-      "name": "Field & Vine",
-      "neighborhood": "Union Square (Somerville)",
-      "cuisine": "New American farm-to-table",
-      "date": "2026-08-01",
-      "time": "18:00",
-      "type": "DINING ROOM",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -563,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -577,21 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-01",
-      "time": "17:00",
-      "type": "Sun Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -605,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-01&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -619,21 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-01&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-01",
-      "time": "22:00",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -647,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -661,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -675,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -689,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -703,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -717,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -731,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -745,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -759,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -773,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -787,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -801,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -815,21 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-03&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-01",
-      "time": "20:30",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -843,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-01&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -857,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-01&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -871,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-01&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -885,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-01&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -899,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-01&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -913,62 +913,6 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-02&seats=2",
       "firstSeen": "2026-08-01T21:23:03+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-01",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T20:24:25+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-01",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T20:24:25+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-01",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T20:24:25+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-01",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-01&seats=2",
-      "firstSeen": "2026-08-01T20:24:25+00:00",
       "new": false
     },
     {
@@ -986,31 +930,17 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-02",
-      "time": "17:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T19:00:35+00:00",
-      "new": false
-    },
-    {
       "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
+      "spotId": "contessa",
+      "name": "Contessa",
       "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-08-02",
-      "time": "17:15",
+      "cuisine": "Northern Italian",
+      "date": "2026-08-03",
+      "time": "17:30",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-02&seats=2",
-      "firstSeen": "2026-08-01T16:54:17+00:00",
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-03&seats=2",
+      "firstSeen": "2026-08-01T15:55:40+00:00",
       "new": false
     },
     {
@@ -2037,20 +1967,6 @@
     },
     {
       "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-03",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-03&seats=2",
-      "firstSeen": "2026-08-01T15:55:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
       "spotId": "la-padrona",
       "name": "La Padrona",
       "neighborhood": "Back Bay",
@@ -2802,6 +2718,90 @@
       "type": "Main Dining",
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T15:55:40+00:00",
+      "new": false
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-08-02",
+      "time": "21:00",
+      "type": "Sun Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T15:55:40+00:00",
+      "new": false
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-08-02",
+      "time": "21:00",
+      "type": "Sushi Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-02&seats=2",
+      "firstSeen": "2026-08-01T15:55:40+00:00",
+      "new": false
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-08-03",
+      "time": "17:00",
+      "type": "Cocktail Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-03&seats=2",
+      "firstSeen": "2026-08-01T15:55:40+00:00",
+      "new": false
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-08-03",
+      "time": "17:00",
+      "type": "Main Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-03&seats=2",
+      "firstSeen": "2026-08-01T15:55:40+00:00",
+      "new": false
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-08-03",
+      "time": "17:00",
+      "type": "Omakase",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-03&seats=2",
+      "firstSeen": "2026-08-01T15:55:40+00:00",
+      "new": false
+    },
+    {
+      "city": "houston",
+      "spotId": "katami",
+      "name": "Katami",
+      "neighborhood": "Montrose",
+      "cuisine": "Japanese / Omakase",
+      "date": "2026-08-03",
+      "time": "17:00",
+      "type": "Sun Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-03&seats=2",
       "firstSeen": "2026-08-01T15:55:40+00:00",
       "new": false
     }
