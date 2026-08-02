@@ -18,10 +18,10 @@
       },
       "difficulty": 5,
       "priceRange": "$$$",
-      "platform": "Website",
+      "platform": "Phone",
       "platformUrl": "https://www.celladorawines.com/",
       "website": "https://www.celladorawines.com/",
-      "phoneNumber": "",
+      "phoneNumber": "(804) 709-5216",
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
@@ -31,13 +31,11 @@
       "walkIn": null,
       "tips": [
         "Tiny room, only a handful of tables",
-        "Reservations by text/phone/Instagram DM only - not a standard online platform",
-        "VERIFY release time",
-        "Confirm whether a Resy page is currently active or if it's text-only",
-        "Not bookable on Resy — reserve via the website or by phone"
+        "Reservations by phone/text/Instagram DM only: (804) 709-5216",
+        "VERIFY possibly closed — some sources show March 31, 2026 closure but July 2026 listings show active; confirm status before recommending"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "intimate",
@@ -89,7 +87,7 @@
         "Rolling availability on OpenTable — check the next few days directly (not a monthly drop)"
       ],
       "signatureDish": "Buffalo octopus; bone-in veal Parmesan; Tavern burger with Cooper's Sharp White cheese",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -109,7 +107,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/lafayette-tavern-opening/",
           "note": "'A Legacy Continued' — opening feature on the Giavos family (Stella's) tavern in Malvern Gardens"
         }
-      ]
+      ],
+      "photo": "https://static1.squarespace.com/static/6904c783e0937904498760eb/t/692a0216117b9249d06f8fef/1764360726300/LT.png?format=1500w",
+      "photoAttr": "lafayettetavern.com"
     },
     {
       "id": "restaurant-adarra",
@@ -140,7 +140,7 @@
         "Confirm exact street address (some listings show 618 N 1st St)"
       ],
       "signatureDish": "Wood-fired seasonal Basque dishes",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -189,7 +189,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Wood-fired grilled ribeye; whole branzino",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -228,7 +228,9 @@
           "url": "https://www.styleweekly.com/gold-rush-2/",
           "note": "'Gold Rush' — review of The Brooklyn's wood-fired cooking"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/94409/97541daad76ea382dd16340a01769354235a5e96/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "the-roosevelt",
@@ -248,8 +250,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -258,7 +260,7 @@
         "VERIFY release time (assumed Resy midnight default)"
       ],
       "signatureDish": "Seasonal Appalachian-Southern small plates",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -299,7 +301,9 @@
           "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
           "note": "Executive chef Leah Branch, Best Chef: Mid-Atlantic semifinalist 2026"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/37624/3453620b1303208c2198d39b865632a91803ec02/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "dinamo",
@@ -312,24 +316,24 @@
       },
       "difficulty": 4,
       "priceRange": "$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/r/dinamo-richmond",
+      "platform": "Phone",
+      "platformUrl": "https://dinamorichmond.com/",
       "website": "https://dinamorichmond.com/",
-      "phoneNumber": "",
+      "phoneNumber": "(804) 678-9706",
       "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
+      "releaseTime": "3:00 PM",
       "releaseDay": "",
       "bookingWindow": "30 days",
       "bookingWindowDays": 30,
       "walkIns": true,
       "walkIn": null,
       "tips": [
-        "Historically walk-in heavy with text-waitlist; confirm whether OpenTable bookings are live",
-        "VERIFY release time",
-        "VERIFY current reservation policy (has fluctuated)"
+        "Reservations by phone only — NOT on OpenTable despite old listings",
+        "Call (804) 678-9706 Tue-Sat after 3 PM to book up to 1 month in advance",
+        "Heavy walk-in volume on weekends"
       ],
       "signatureDish": "Seasonal pasta",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "romantic"
@@ -367,8 +371,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -377,7 +381,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Steak frites",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -409,7 +413,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
           "note": "Named one of Richmond magazine's 25 top tables for 2025"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/10086/35dfbbfa541c41908cdea2ca01f870c6fe41f363/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "l-opossum",
@@ -442,7 +448,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Theatrical French tasting plates",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -472,7 +478,9 @@
           "url": "https://www.styleweekly.com/lopossums-david-shannon-named-as-semifinalist-in-the-james-beard-awards/",
           "note": "Coverage of David Shannon's James Beard semifinalist recognition"
         }
-      ]
+      ],
+      "photo": "https://static1.squarespace.com/static/53c7d015e4b026acf2ddabcd/t/5ff3568d0f96794605288dd2/1609782936480/lopbg.png?format=1500w",
+      "photoAttr": "lopossum.com"
     },
     {
       "id": "lillian",
@@ -502,7 +510,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Buck-a-shuck oysters; raw bar towers",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -533,7 +541,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
           "note": "Named one of Richmond magazine's 25 top tables for 2025"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/80860/c183915c0c2b82c01038a18a8a65c0b5d85eb862/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "metzger-bar-and-butchery",
@@ -546,10 +556,10 @@
       },
       "difficulty": 4,
       "priceRange": "$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/metzger-bar-and-butchery",
+      "platform": "Resy",
+      "platformUrl": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery",
       "website": "http://www.metzgerbarandbutchery.com/",
-      "phoneNumber": "General Inquiries 804.325.3147",
+      "phoneNumber": "804-325-3147",
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
@@ -558,12 +568,13 @@
       "walkIns": true,
       "walkIn": null,
       "tips": [
+        "Books via Resy, not OpenTable",
         "Bar seating reserved for walk-ins",
         "Small dining room - book ahead",
         "VERIFY release time"
       ],
       "signatureDish": "Schnitzel; charcuterie",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "intimate",
@@ -601,8 +612,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -611,7 +622,7 @@
         "VERIFY release time and exact booking window"
       ],
       "signatureDish": "13-course seated omakase (~$85)",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -645,7 +656,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/omakase-sushi-nami/",
           "note": "'In Good Hands' — feature on chef-owner Tao Chen's omakase counter at Nami"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/86798/5729a4730f6c8319157ae01e138e7b7e7252d5bd/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "shagbark",
@@ -672,7 +685,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Virginia-sourced wild game & seafood",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -710,8 +723,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -720,7 +733,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Mid-Atlantic seafood plates",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -749,7 +762,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
           "note": "Named one of Richmond magazine's 25 top tables for 2025"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/89955/f40b62660eee07b131523296b1d76f6e5122d694/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "alewife",
@@ -769,8 +784,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "45 days",
+      "bookingWindowDays": 45,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -778,7 +793,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Offbeat local catch; oysters",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -816,7 +831,9 @@
           "url": "https://www.bonappetit.com/gallery/best-restaurants-in-richmond-virginia",
           "note": "Named among Bon Appétit's best restaurants in Richmond, Virginia (2019)"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/2820/4b2af9a2d9909eec3fdb79de76510a1c4db24184/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "birdies",
@@ -846,7 +863,7 @@
         "VERIFY release time and booking window"
       ],
       "signatureDish": "East Coast oysters; seafood towers; lobster roll",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "lively",
@@ -871,7 +888,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/food-news/opening-soon-birdies-at-common-house/",
           "note": "Feature on the Arts District cafe and oyster saloon at Common House"
         }
-      ]
+      ],
+      "photo": "https://static1.squarespace.com/static/64e3b62353022f2045c8d9ee/t/64e3b63b53022f2045c8da98/1781104807789/BirdiesStampsScans+1.jpg?format=1500w",
+      "photoAttr": "birdiesva.com"
     },
     {
       "id": "blue-atlas",
@@ -901,7 +920,7 @@
         "VERIFY release time and window"
       ],
       "signatureDish": "Rotating global small plates",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "intimate"
@@ -917,7 +936,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
           "note": "Named one of Richmond magazine's 25 top tables for 2025"
         }
-      ]
+      ],
+      "photo": "https://static.wixstatic.com/media/e768a2_ec8f7b0a4e9e45b58c9913788863a7ab~mv2.jpg/v1/fill/w_2500,h_1666,al_c/e768a2_ec8f7b0a4e9e45b58c9913788863a7ab~mv2.jpg",
+      "photoAttr": "blueatlasrva.com"
     },
     {
       "id": "conejo",
@@ -937,8 +958,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -947,7 +968,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "House-milled heirloom-corn tortillas; ceviche; frozen margaritas",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -980,7 +1001,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
           "note": "Named one of Richmond magazine's 25 top tables for 2025"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/58625/7854373afdc4417c36a18335f01e9c32d7df42cf/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "lehja",
@@ -1000,8 +1023,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "45 days",
+      "bookingWindowDays": 45,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -1010,7 +1033,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Chaat; modern Indian tasting plates",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1049,7 +1072,9 @@
           "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
           "note": "Chef-owner Sandeep 'Sunny' Baweja, Best Chef: Mid-Atlantic semifinalist 2020 (second consecutive nod)"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/82178/e9b83d821246cd5d3e05f46bacb1c6d29bc4596b/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "lemaire-at-the-jefferson-hotel",
@@ -1078,7 +1103,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Seasonal Virginia tasting plates; afternoon tea",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -1127,7 +1152,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Beef tartare; cavatelli",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1159,7 +1184,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
           "note": "Named one of Richmond magazine's 25 top tables for 2025"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/68525/264f9f6ee3ebcbd3262ae06781e6473656b12465/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "ml-steak-modern-chophouse",
@@ -1189,7 +1216,7 @@
         "VERIFY release time and booking window"
       ],
       "signatureDish": "Dry-aged steaks",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -1219,24 +1246,24 @@
       },
       "difficulty": 3,
       "priceRange": "$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/mama-js-kitchen",
+      "platform": "Phone",
+      "platformUrl": "https://www.facebook.com/MamaJsRVA/",
       "website": "https://www.facebook.com/MamaJsRVA/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "12:00 AM ET",
+      "phoneNumber": "(804) 225-7449",
+      "releaseSchedule": "none",
+      "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "",
+      "bookingWindowDays": null,
       "walkIns": true,
       "walkIn": null,
       "tips": [
-        "Heavy walk-in / takeout volume; long waits common",
-        "Confirm whether OpenTable booking is live or phone-only (804-225-7449)",
-        "VERIFY release time and platform"
+        "Phone-only reservations: (804) 225-7449 (or walk-in); NOT on OpenTable",
+        "Heavy walk-in / takeout volume; long weekend waits common",
+        "Also uses Toast for takeout orders"
       ],
       "signatureDish": "Fried catfish; fried chicken",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "cozy"
@@ -1282,7 +1309,7 @@
         "VERIFY release time and booking window"
       ],
       "signatureDish": "Seasonal small plates; natural wine",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "romantic",
@@ -1301,7 +1328,9 @@
           "url": "https://richmondmagazine.com/restaurants-in-richmond/best-restaurants/25-best-restaurants-in-richmond/",
           "note": "Named one of Richmond magazine's 25 top tables for 2025"
         }
-      ]
+      ],
+      "photo": "https://i0.wp.com/pennysrva.com/wp-content/uploads/2022/12/richwine-pennys-kristen-lance.jpg?fit=1200%2C800&#038;ssl=1",
+      "photoAttr": "pennysrva.com"
     },
     {
       "id": "stellas",
@@ -1330,7 +1359,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Greek meze; spanakopita",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": null,
       "vibe": [
         "cozy"
@@ -1352,7 +1381,9 @@
           "url": "https://www.nytimes.com/interactive/2016/09/17/travel/what-to-do-36-hours-in-richmond-virginia.html",
           "note": "Included in the NYT's '36 Hours in Richmond, Va.' (2016)"
         }
-      ]
+      ],
+      "photo": "https://stellasrichmond.com/wp-content/uploads/fb-yoast.jpg",
+      "photoAttr": "stellasrichmond.com"
     },
     {
       "id": "acacia-midtown",
@@ -1381,7 +1412,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Fresh-catch seafood by Chef Dale Reitzer",
-      "lastVerified": "2026-06-25",
+      "lastVerified": "2026-08-02",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1419,7 +1450,9 @@
           "url": "https://www.styleweekly.com/after-being-named-one-of-americas-best-new-chefs-by-food-wine-acacias-dale-reitzer-is-working-harder-than-ever/",
           "note": "Profile of chef Dale Reitzer after Food & Wine named him one of America's Best New Chefs (1999)"
         }
-      ]
+      ],
+      "photo": "https://image.resy.com/3/003/2/65604/16afe8c87aecbc2fe975d30364685dde729872b6/jpg/640x360",
+      "photoAttr": "Resy"
     }
   ]
 }
