@@ -349,7 +349,7 @@
         "lat": 25.8125,
         "lng": -80.1935
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/miami-fl/venues/cote-mia",
@@ -476,7 +476,7 @@
         "lat": 25.775,
         "lng": -80.134
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/miami-fl/venues/carbone-miami",
@@ -485,8 +485,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "28 days",
-      "bookingWindowDays": 28,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": false,
       "walkIn": {
         "doors": "",
@@ -588,7 +588,7 @@
         "lat": 25.7485,
         "lng": -80.259
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/miami-fl/venues/daniels-miami",
@@ -1385,8 +1385,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "28 days",
-      "bookingWindowDays": 28,
+      "bookingWindow": "30 days",
+      "bookingWindowDays": 30,
       "walkIns": true,
       "walkIn": {
         "doors": "",
