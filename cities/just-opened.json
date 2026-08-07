@@ -1,65 +1,79 @@
 {
-  "generated": "2026-08-06T15:09:14+00:00",
+  "generated": "2026-08-07T00:36:59+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 43,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
-      "cuisine": "Italian",
-      "date": "2026-08-06",
-      "time": "15:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
       "spotId": "lilia",
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
       "date": "2026-08-07",
-      "time": "16:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-07&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-07",
-      "time": "16:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-07&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-07",
-      "time": "16:30",
+      "time": "20:30",
       "type": "Indoor",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-07&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-08",
+      "time": "16:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-08&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-09",
+      "time": "21:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-09",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
     },
     {
       "city": "dc",
@@ -68,26 +82,12 @@
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-08-08",
-      "time": "17:00",
-      "type": "Dining Room",
+      "time": "21:15",
+      "type": "Dōgon Lounge",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-08",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
     },
     {
       "city": "dc",
@@ -96,40 +96,292 @@
       "neighborhood": "Capitol Hill",
       "cuisine": "New American, family-style",
       "date": "2026-08-08",
+      "time": "17:45",
+      "type": "Chef's Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-08&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-08",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-08&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "18:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
       "time": "18:15",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
     },
     {
       "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-06",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "18:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "18:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "19:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "19:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
       "time": "19:30",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
     },
     {
       "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-06",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
       "time": "19:45",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-09",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
     },
     {
       "city": "richmond",
@@ -137,13 +389,41 @@
       "name": "The Roosevelt",
       "neighborhood": "Church Hill",
       "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-06",
+      "date": "2026-08-09",
       "time": "20:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-09",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-09",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T00:36:59+00:00",
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -185,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -199,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -213,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -227,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -241,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -255,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -269,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -283,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -297,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -311,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -325,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -339,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -353,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -367,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -381,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -395,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -409,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -423,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -437,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -451,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -465,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -479,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -493,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -507,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -521,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -535,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -549,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -563,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -577,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -591,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -605,7 +885,21 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T15:09:14+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-07",
+      "time": "16:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-06T15:09:14+00:00",
+      "new": false
     },
     {
       "city": "dc",
@@ -629,52 +923,10 @@
       "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-08-07",
       "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-07&seats=2",
-      "firstSeen": "2026-08-06T12:52:55+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-07",
-      "time": "21:00",
       "type": "Dōgon Lounge",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-07&seats=2",
       "firstSeen": "2026-08-06T12:52:55+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-07",
-      "time": "21:15",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-07&seats=2",
-      "firstSeen": "2026-08-06T12:52:55+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-06",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T07:59:14+00:00",
       "new": false
     },
     {
@@ -726,20 +978,6 @@
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-08-08",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-06T07:59:14+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-08",
       "time": "21:30",
       "type": "Dining Room",
       "party": 2,
@@ -759,48 +997,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T07:59:14+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
-      "date": "2026-08-06",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T07:59:14+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-06",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T01:54:55+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-06",
-      "time": "23:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-06T01:54:55+00:00",
       "new": false
     },
     {
@@ -825,20 +1021,6 @@
       "cuisine": "New American tasting menu",
       "date": "2026-08-08",
       "time": "18:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-06T01:54:55+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "little-pearl",
-      "name": "Little Pearl",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American tasting menu",
-      "date": "2026-08-08",
-      "time": "18:15",
       "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-08&seats=2",
@@ -1133,35 +1315,7 @@
       "cuisine": "French bouchon / Lyonnais",
       "date": "2026-08-08",
       "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-06T01:54:55+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-08",
-      "time": "21:00",
       "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-06T01:54:55+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-08",
-      "time": "21:15",
-      "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T01:54:55+00:00",
@@ -1207,20 +1361,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-06T01:54:55+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "avra-estiatorio",
-      "name": "Avra Estiatorio",
-      "neighborhood": "Back Bay",
-      "cuisine": "Greek / Mediterranean seafood",
-      "date": "2026-08-06",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T23:53:51+00:00",
       "new": false
     },
     {
@@ -1318,20 +1458,6 @@
       "type": "Main Dining",
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-07&seats=2",
-      "firstSeen": "2026-08-05T22:51:17+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
-      "date": "2026-08-06",
-      "time": "18:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-06&seats=2",
       "firstSeen": "2026-08-05T22:51:17+00:00",
       "new": false
     },
@@ -2377,62 +2503,6 @@
       "name": "Katami",
       "neighborhood": "Montrose",
       "cuisine": "Japanese / Omakase",
-      "date": "2026-08-06",
-      "time": "19:00",
-      "type": "Cocktail Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-06",
-      "time": "19:00",
-      "type": "Sun Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-06",
-      "time": "19:00",
-      "type": "Sushi Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-06",
-      "time": "19:15",
-      "type": "Sun Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
       "date": "2026-08-07",
       "time": "17:00",
       "type": "Cocktail Bar",
@@ -2513,20 +2583,6 @@
     },
     {
       "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-08-06",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
       "spotId": "alewife",
       "name": "Alewife",
       "neighborhood": "Church Hill",
@@ -2540,269 +2596,213 @@
       "new": false
     },
     {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "16:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "16:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-07",
       "time": "16:15",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T20:04:59+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-07",
+      "time": "17:45",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T16:27:57+00:00",
       "new": false
     },
     {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "16:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "16:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "16:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "16:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "16:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "17:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "17:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
       "time": "17:30",
-      "type": "PATIO",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
       "new": false
     },
     {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "17:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "18:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "18:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "18:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "18:45",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "19:45",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "20:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
       "time": "20:30",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
       "new": false
     },
     {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "20:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "20:45",
+      "type": "Bar Full Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
       "time": "20:45",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
       "new": false
     },
     {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "21:00",
-      "type": "Dining Room",
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-07",
+      "time": "20:45",
+      "type": "Patio",
       "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-06",
-      "time": "22:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-06&seats=2",
-      "firstSeen": "2026-08-05T21:42:48+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-05T01:52:40+00:00",
       "new": false
     }
   ]
