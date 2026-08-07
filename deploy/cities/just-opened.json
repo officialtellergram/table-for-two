@@ -1,23 +1,23 @@
 {
-  "generated": "2026-08-07T19:26:43+00:00",
+  "generated": "2026-08-07T20:04:44+00:00",
   "party": 2,
   "windowDays": 3,
-  "count": 198,
-  "new": 0,
+  "count": 200,
+  "new": 4,
   "items": [
     {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-08",
-      "time": "21:15",
-      "type": "Dining Room",
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-09",
+      "time": "16:15",
+      "type": "Bar",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-07T18:08:51+00:00",
-      "new": false
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T20:04:44+00:00",
+      "new": true
     },
     {
       "city": "dc",
@@ -25,27 +25,13 @@
       "name": "Dōgon by Kwame Onwuachi",
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-08",
-      "time": "21:30",
+      "date": "2026-08-07",
+      "time": "17:30",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-07T18:08:51+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-08",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-07T18:08:51+00:00",
-      "new": false
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-07T20:04:44+00:00",
+      "new": true
     },
     {
       "city": "richmond",
@@ -53,13 +39,27 @@
       "name": "Grisette",
       "neighborhood": "Church Hill",
       "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-08",
-      "time": "19:30",
-      "type": "PATIO",
+      "date": "2026-08-07",
+      "time": "17:00",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-07T18:08:51+00:00",
-      "new": false
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-07T20:04:44+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-08-08",
+      "time": "16:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-08&seats=2",
+      "firstSeen": "2026-08-07T20:04:44+00:00",
+      "new": true
     },
     {
       "city": "boston",
@@ -230,6 +230,20 @@
       "new": false
     },
     {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-07",
+      "time": "23:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-07&seats=2",
+      "firstSeen": "2026-08-07T16:14:21+00:00",
+      "new": false
+    },
+    {
       "city": "dc",
       "spotId": "little-pearl",
       "name": "Little Pearl",
@@ -263,12 +277,12 @@
       "name": "Cote Korean Steakhouse",
       "neighborhood": "Flatiron",
       "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-07",
-      "time": "23:45",
+      "date": "2026-08-08",
+      "time": "00:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-07&seats=2",
-      "firstSeen": "2026-08-07T16:14:21+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-08&seats=2",
+      "firstSeen": "2026-08-07T15:22:40+00:00",
       "new": false
     },
     {
@@ -282,20 +296,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-08&seats=2",
-      "firstSeen": "2026-08-07T15:22:40+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-08",
-      "time": "00:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-08&seats=2",
       "firstSeen": "2026-08-07T15:22:40+00:00",
       "new": false
     },
@@ -2775,6 +2775,34 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-09&seats=2",
       "firstSeen": "2026-08-07T06:48:29+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-08-09",
+      "time": "15:00",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T05:29:02+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-08-09",
+      "time": "15:15",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-07T05:29:02+00:00",
       "new": false
     }
   ]
