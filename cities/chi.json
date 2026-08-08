@@ -834,8 +834,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM (Midnight) CT",
       "releaseDay": "",
-      "bookingWindow": "56 days",
-      "bookingWindowDays": 56,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -1410,8 +1410,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "9:00 AM CT",
       "releaseDay": "",
-      "bookingWindow": "21 days",
-      "bookingWindowDays": 21,
+      "bookingWindow": "19 days",
+      "bookingWindowDays": 19,
       "walkIns": true,
       "walkIn": {
         "doors": "At open for the bar",
