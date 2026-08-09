@@ -1,1268 +1,22 @@
 {
-  "generated": "2026-08-09T01:09:20+00:00",
+  "generated": "2026-08-09T03:12:39+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 200,
+  "new": 1,
   "items": [
     {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
       "date": "2026-08-09",
-      "time": "22:00",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-09",
-      "time": "22:15",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-09",
-      "time": "22:30",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-09",
-      "time": "22:45",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-09",
-      "time": "23:00",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-09",
-      "time": "23:15",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-09",
-      "time": "23:30",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:00",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:30",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-11",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
       "time": "17:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:00",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:15",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:30",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "17:45",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "19:30",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-11",
-      "time": "19:45",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-11",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "17:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "18:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "18:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "19:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:15",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:30",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "20:45",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "21:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-11",
-      "time": "21:00",
-      "type": "Window Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "18:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "18:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-11",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "omakase-at-nami",
-      "name": "Omakase at Nami",
-      "neighborhood": "Downtown / Shockoe Slip",
-      "cuisine": "Japanese omakase",
-      "date": "2026-08-11",
-      "time": "16:45",
-      "type": "Omakase Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "omakase-at-nami",
-      "name": "Omakase at Nami",
-      "neighborhood": "Downtown / Shockoe Slip",
-      "cuisine": "Japanese omakase",
-      "date": "2026-08-11",
-      "time": "19:45",
-      "type": "Omakase Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-09T03:12:39+00:00",
       "new": true
     },
     {
@@ -1277,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1291,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1305,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1319,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1333,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1347,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1361,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1375,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1389,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1403,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1417,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1431,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1445,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1459,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1473,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1487,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1501,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1515,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1529,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1543,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1557,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1571,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1585,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1599,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1613,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1627,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1641,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1655,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1669,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1683,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1697,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1711,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1725,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1739,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1753,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1767,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1781,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1795,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1809,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1823,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1837,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1851,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1865,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1879,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1893,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -1907,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1921,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1935,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1949,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1963,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1977,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1991,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2005,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2019,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2033,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2047,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2061,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2075,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2089,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2103,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2117,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2131,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2145,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2159,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2173,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2187,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2201,7 +955,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2215,7 +969,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2229,7 +983,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2243,7 +997,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2257,7 +1011,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2271,7 +1025,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2285,7 +1039,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2299,7 +1053,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2313,7 +1067,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2327,7 +1081,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2341,7 +1095,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2355,7 +1109,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2369,7 +1123,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2383,7 +1137,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2397,7 +1151,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2411,7 +1165,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2425,7 +1179,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2439,7 +1193,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2453,7 +1207,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2467,7 +1221,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2481,7 +1235,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2495,7 +1249,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2509,7 +1263,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2523,7 +1277,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2537,7 +1291,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2551,7 +1305,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2565,7 +1319,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2579,7 +1333,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2593,7 +1347,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2607,7 +1361,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2621,7 +1375,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2635,7 +1389,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2649,7 +1403,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2663,7 +1417,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2677,7 +1431,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2691,7 +1445,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2705,7 +1459,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2719,7 +1473,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2733,7 +1487,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2747,7 +1501,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2761,7 +1515,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2775,7 +1529,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2789,7 +1543,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2803,7 +1557,1253 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-11",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:30",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "17:45",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "19:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "19:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "19:30",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-11",
+      "time": "19:45",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-11",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "17:45",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "18:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "18:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "18:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "18:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "19:45",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:15",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:30",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:45",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "20:45",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "21:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-11",
+      "time": "21:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "18:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "18:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "18:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "18:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "19:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "19:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "19:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-11",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-08-11",
+      "time": "16:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-08-11",
+      "time": "19:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-09",
+      "time": "16:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-08T19:51:34+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-10",
+      "time": "22:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T17:01:31+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-09",
+      "time": "16:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-08T15:55:00+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-09",
+      "time": "16:45",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-08T14:56:38+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-09",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
+      "firstSeen": "2026-08-08T14:56:38+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-10",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T05:37:16+00:00",
+      "new": false
     }
   ]
 }
