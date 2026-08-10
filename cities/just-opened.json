@@ -1,10 +1,150 @@
 {
-  "generated": "2026-08-10T21:34:30+00:00",
+  "generated": "2026-08-10T22:29:35+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 16,
+  "new": 10,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "17:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "18:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "19:00",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "20:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "tatiana",
+      "name": "Tatiana",
+      "neighborhood": "Upper West Side",
+      "cuisine": "Afro-Caribbean",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-10",
+      "time": "19:30",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-10",
+      "time": "19:45",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-10",
+      "time": "20:00",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-10",
+      "time": "20:15",
+      "type": "Window Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "metzger-bar-and-butchery",
+      "name": "Metzger Bar & Butchery",
+      "neighborhood": "Union Hill",
+      "cuisine": "German / meat-focused",
+      "date": "2026-08-12",
+      "time": "18:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T22:29:35+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -31,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -45,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -59,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -185,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -199,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -213,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -227,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T21:34:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -664,20 +804,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-10",
-      "time": "22:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-10&seats=2",
-      "firstSeen": "2026-08-10T18:46:01+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
@@ -689,20 +815,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T18:46:01+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-10",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-10&seats=2",
-      "firstSeen": "2026-08-10T17:45:00+00:00",
       "new": false
     },
     {
@@ -745,34 +857,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T17:45:00+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-08-12",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-08-12",
-      "time": "18:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
       "new": false
     },
     {
@@ -1332,6 +1416,34 @@
       "type": "Upstairs Bar",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T15:53:39+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-08-12",
+      "time": "18:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T15:53:39+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-08-12",
+      "time": "18:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
       "new": false
     },
@@ -2687,118 +2799,6 @@
       "cuisine": "Japanese sushi / omakase",
       "date": "2026-08-12",
       "time": "18:30",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "18:45",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "19:00",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "19:15",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "19:30",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "19:45",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "20:00",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "20:15",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T08:22:48+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-08-12",
-      "time": "20:30",
       "type": "Sushi Counter",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-08-12&seats=2",
