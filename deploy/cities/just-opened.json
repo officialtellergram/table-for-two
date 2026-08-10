@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-09T23:35:54+00:00",
+  "generated": "2026-08-10T01:10:51+00:00",
   "party": 2,
   "windowDays": 3,
-  "count": 200,
-  "new": 31,
+  "count": 182,
+  "new": 5,
   "items": [
     {
       "city": "nyc",
@@ -11,26 +11,68 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-08-09",
-      "time": "21:15",
-      "type": "Indoor",
+      "date": "2026-08-10",
+      "time": "21:00",
+      "type": "Bar",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T01:10:51+00:00",
       "new": true
     },
     {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-09",
-      "time": "21:00",
-      "type": "Dining Room",
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-12",
+      "time": "21:15",
+      "type": "Bar",
       "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T01:10:51+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-12",
+      "time": "21:15",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T01:10:51+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-12",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T01:10:51+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-12",
+      "time": "21:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T01:10:51+00:00",
       "new": true
     },
     {
@@ -45,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -59,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -157,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -171,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -185,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -199,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -227,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -241,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -255,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -269,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -283,161 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-08-09",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "kata-robata-omakase",
-      "name": "Kata Robata (Omakase)",
-      "neighborhood": "Upper Kirby",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-08-09",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-09",
-      "time": "20:30",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-09",
-      "time": "20:45",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-09",
-      "time": "21:00",
-      "type": "Main Dining",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T23:35:54+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -479,90 +367,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T22:26:58+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-09",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T21:02:41+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-09",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T20:27:59+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-09",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T19:56:42+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-09",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T19:26:40+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-09",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T17:56:47+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-09",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T17:56:47+00:00",
       "new": false
     },
     {
@@ -619,20 +423,6 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T15:55:42+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-10",
-      "time": "17:15",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
-      "firstSeen": "2026-08-09T15:00:51+00:00",
       "new": false
     },
     {
@@ -997,174 +787,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-09T14:27:31+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "19:00",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "19:15",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "19:30",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "19:45",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "20:00",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "20:15",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "21:15",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "21:30",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-08-09",
-      "time": "21:45",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-09&seats=2",
-      "firstSeen": "2026-08-09T07:48:01+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-11",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-09T01:09:20+00:00",
       "new": false
     },
     {
@@ -2803,6 +2425,132 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-11",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-09T01:09:20+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-10",
+      "time": "22:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T17:01:31+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-10",
+      "time": "21:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T01:16:12+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-10",
+      "time": "21:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T01:16:12+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-10",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T01:16:12+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-10",
+      "time": "21:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T01:16:12+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-10",
+      "time": "21:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-08T01:16:12+00:00",
       "new": false
     }
   ]
