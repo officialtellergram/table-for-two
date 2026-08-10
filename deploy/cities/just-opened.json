@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-10T15:53:39+00:00",
+  "generated": "2026-08-10T16:45:56+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 51,
+  "new": 4,
   "items": [
     {
       "city": "nyc",
@@ -11,124 +11,54 @@
       "name": "Carbone",
       "neighborhood": "Greenwich Village",
       "cuisine": "Italian",
-      "date": "2026-08-10",
-      "time": "21:15",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-10&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "23:00",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "23:15",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "23:30",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "17:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "21:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-10",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-10&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-11",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
       "date": "2026-08-12",
-      "time": "18:30",
-      "type": "Upstairs Bar",
+      "time": "11:30",
+      "type": "Lunch",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-12&seats=2",
-      "firstSeen": "2026-08-10T15:53:39+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T16:45:56+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-08-12",
+      "time": "11:45",
+      "type": "Lunch",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T16:45:56+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-10",
+      "time": "17:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T16:45:56+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-10",
+      "time": "17:45",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T16:45:56+00:00",
       "new": true
     },
     {
@@ -143,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -171,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -185,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -199,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -227,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -241,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -255,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -269,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -283,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -297,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -311,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -325,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -339,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -353,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -367,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -395,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -409,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -423,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -437,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -451,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -465,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -479,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -493,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -507,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -521,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -535,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -549,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -563,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -577,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -591,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -605,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -619,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -633,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -647,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -661,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -675,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -689,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -703,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-12&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -717,7 +647,63 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-10T15:53:39+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "17:00",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-10T15:53:39+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-11",
+      "time": "21:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-11&seats=2",
+      "firstSeen": "2026-08-10T15:53:39+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-10",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-10&seats=2",
+      "firstSeen": "2026-08-10T15:53:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-08-12",
+      "time": "18:30",
+      "type": "Upstairs Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T15:53:39+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -2803,6 +2789,20 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-10&seats=2",
       "firstSeen": "2026-08-10T08:22:48+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "pineapple-and-pearls",
+      "name": "Pineapple and Pearls",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American fine-dining prix-fixe",
+      "date": "2026-08-12",
+      "time": "18:00",
+      "type": "Bar Full Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-12&seats=2",
+      "firstSeen": "2026-08-10T05:04:01+00:00",
       "new": false
     }
   ]
