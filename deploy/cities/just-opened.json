@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-11T09:28:39+00:00",
+  "generated": "2026-08-11T10:25:27+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 4,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
@@ -17,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-11T09:28:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-11T09:28:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-11T09:28:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -59,20 +59,6 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-11&seats=2",
       "firstSeen": "2026-08-11T09:28:39+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-11",
-      "time": "13:15",
-      "type": "Lunch",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-11&seats=2",
-      "firstSeen": "2026-08-11T06:54:10+00:00",
       "new": false
     },
     {
@@ -2802,6 +2788,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-13&seats=2",
+      "firstSeen": "2026-08-11T03:29:16+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-14",
+      "time": "00:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-11T03:29:16+00:00",
       "new": false
     }
