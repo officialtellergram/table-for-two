@@ -6,60 +6,6 @@
   },
   "spots": [
     {
-      "id": "noodle-in-a-haystack",
-      "name": "Noodle in a Haystack",
-      "neighborhood": "Inner Richmond",
-      "cuisine": "Japanese (ramen tasting menu)",
-      "coordinates": {
-        "lat": 37.7806,
-        "lng": -122.4675
-      },
-      "difficulty": 5,
-      "priceRange": "$$$",
-      "platform": "Tock",
-      "platformUrl": "https://www.exploretock.com/noodleinahaystack",
-      "website": "http://www.noodleinhaystack.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "monthly",
-      "releaseTime": "9:00 PM PT",
-      "releaseDay": "Every second Sunday",
-      "bookingWindow": "Monthly drop",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": {
-        "doors": "",
-        "lineBy": "",
-        "advice": "Counter is prepaid-ticket only; no walk-in line."
-      },
-      "tips": [
-        "Tables drop every second Sunday around 9:00 PM PT for the following month and can sell out within minutes to days.",
-        "Set a Tock alert and be logged in before the drop; watch for cancellation releases.",
-        "VERIFY exact drop time/date each month on the Tock page (schedule has shifted historically)."
-      ],
-      "signatureDish": "Ramen-centered multi-course tasting menu with house-made noodles",
-      "lastVerified": "2026-07-24",
-      "availability": null,
-      "vibe": [
-        "intimate",
-        "counter",
-        "chef-driven"
-      ],
-      "occasion": [
-        "foodie-pilgrimage",
-        "special-occasion"
-      ],
-      "dateNote": "Ten seats, one ramen obsessive at the pass - the kind of counter you scheme months ahead to share.",
-      "sources": [
-        {
-          "name": "The Infatuation",
-          "tier": "Review",
-          "url": "https://www.theinfatuation.com/san-francisco/reviews/noodle-in-a-haystack",
-          "note": "Full review calling it '100% worth the hype'; a ten-seat, ramen-centered tasting counter that is one of SF's hardest reservations."
-        }
-      ],
-      "evidence": "10-seat counter selling a single monthly Tock drop; routinely booked out for months, called one of the city's hardest reservations."
-    },
-    {
       "id": "benu",
       "name": "Benu",
       "neighborhood": "SoMa",
@@ -91,7 +37,7 @@
         "VERIFY the exact Tock booking URL from benusf.com before shipping (Tock slug not independently confirmed)."
       ],
       "signatureDish": "Faux shark fin soup; thousand-year-old quail egg",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -107,7 +53,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★★",
+          "tier": "\u2605\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Three MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
@@ -146,7 +92,7 @@
         "Check ~10:00 AM PT on weekdays for cancellation releases."
       ],
       "signatureDish": "Evolving 16-plus course modern Mexican tasting menu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -164,11 +110,11 @@
           "name": "The San Francisco Standard",
           "tier": "News",
           "url": "https://sfstandard.com/2026/06/25/californios-three-star-michelin-restaurant/",
-          "note": "Reports Californios (chef Val Cantú, SoMa) became the world's first Mexican restaurant to earn three Michelin stars in the 2026 California guide."
+          "note": "Reports Californios (chef Val Cant\u00fa, SoMa) became the world's first Mexican restaurant to earn three Michelin stars in the 2026 California guide."
         },
         {
           "name": "Michelin",
-          "tier": "★★★",
+          "tier": "\u2605\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Three MICHELIN stars in the 2026 MICHELIN Guide California selection."
         }
@@ -206,7 +152,7 @@
         "VERIFY the exact SevenRooms reservation URL and the release window on quincerestaurant.com."
       ],
       "signatureDish": "Seasonal California-Italian grand tasting menu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -222,12 +168,14 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★★",
+          "tier": "\u2605\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Three MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
       ],
-      "evidence": "Three Michelin stars in the 2026 California guide; a low-volume prepaid tasting room in Jackson Square."
+      "evidence": "Three Michelin stars in the 2026 California guide; a low-volume prepaid tasting room in Jackson Square.",
+      "photo": "https://cdn.prod.website-files.com/650b4849c824346af5ce91a2/654c06543c4a4477d057400a_QuinceOG.jpg",
+      "photoAttr": "quincerestaurant.com"
     },
     {
       "id": "atelier-crenn",
@@ -260,7 +208,7 @@
         "VERIFY the exact release schedule and time - not independently confirmed."
       ],
       "signatureDish": "'Poem' tasting menu; a hand-illustrated menu of seasonal courses",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -276,12 +224,14 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★★",
+          "tier": "\u2605\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Three MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
       ],
-      "evidence": "Three Michelin stars in the 2026 California guide; an intimate prepaid tasting room from Dominique Crenn."
+      "evidence": "Three Michelin stars in the 2026 California guide; an intimate prepaid tasting room from Dominique Crenn.",
+      "photo": "https://images.getbento.com/accounts/36789046647a4c4439ca1d65879fe4f7/media/images/64119ACNESTgold_Artboard_1.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
+      "photoAttr": "ateliercrenn.com"
     },
     {
       "id": "saison",
@@ -314,7 +264,7 @@
         "VERIFY the exact release window on the Tock page."
       ],
       "signatureDish": "Live-fire seasonal tasting menu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -330,7 +280,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Two MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
@@ -369,7 +319,7 @@
         "Communal dinner-party format; parties of 1-6."
       ],
       "signatureDish": "Modern American 'dinner party' tasting menu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "lively",
@@ -384,7 +334,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Two MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
@@ -423,7 +373,7 @@
         "VERIFY the exact Tock URL and address - slug and street address not independently confirmed."
       ],
       "signatureDish": "Filipino fine-dining tasting menu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "intimate",
@@ -444,7 +394,7 @@
         },
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "One MICHELIN star (newly awarded) in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
@@ -483,7 +433,7 @@
         "VERIFY the noon release timing on OpenTable."
       ],
       "signatureDish": "Seven-day dry-aged fried squab; chili-crisp pig head",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "lively",
@@ -503,7 +453,9 @@
           "note": "Lists Four Kings among SF's toughest reservations: 10-seat counter, OpenTable release ~3 weeks ahead at noon, walk-ins accepted nightly (easier after 9pm)."
         }
       ],
-      "evidence": "10-seat Chinatown counter named to Bon Appétit's Best New Restaurants and crowned Restaurant of the Year; reservations vanish instantly on a 3-week window."
+      "evidence": "10-seat Chinatown counter named to Bon App\u00e9tit's Best New Restaurants and crowned Restaurant of the Year; reservations vanish instantly on a 3-week window.",
+      "photo": "https://www.itsfourkings.com/images/og.jpg",
+      "photoAttr": "itsfourkings.com"
     },
     {
       "id": "kiln",
@@ -536,7 +488,7 @@
         "VERIFY the exact release window/time on the Kiln Tock page."
       ],
       "signatureDish": "Nordic-inflected tasting menu built on curing, drying and fermentation",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "intimate",
@@ -551,7 +503,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Two MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco); promoted from one star in 2025."
         }
@@ -589,7 +541,7 @@
         "VERIFY the exact release window/time on the Birdsong Tock page."
       ],
       "signatureDish": "Wood-fired, Southern-inflected New American tasting menu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "fine-dining",
@@ -604,7 +556,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Two MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
@@ -643,7 +595,7 @@
         "VERIFY current release timing on acquerellosf.com."
       ],
       "signatureDish": "Squid-ink 'chitarra' pasta with lobster and sea urchin",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -659,7 +611,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Two MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
@@ -669,11 +621,11 @@
     {
       "id": "sons-and-daughters",
       "name": "Sons & Daughters",
-      "neighborhood": "Nob Hill",
+      "neighborhood": "Mission",
       "cuisine": "Modern Californian / New Nordic (tasting menu)",
       "coordinates": {
-        "lat": 37.7899,
-        "lng": -122.4104
+        "lat": 37.759,
+        "lng": -122.413
       },
       "difficulty": 4,
       "priceRange": "$$$$",
@@ -698,7 +650,7 @@
         "VERIFY the exact release window on the Sons & Daughters Tock page."
       ],
       "signatureDish": "New Nordic-inspired seasonal tasting menu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "intimate",
@@ -713,12 +665,14 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★★",
+          "tier": "\u2605\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "Two MICHELIN stars in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
       ],
-      "evidence": "Two Michelin stars in the 2026 California guide; a small prepaid tasting room with limited nightly seats."
+      "evidence": "Two Michelin stars in the 2026 California guide; a small prepaid tasting room with limited nightly seats.",
+      "photo": "https://static1.squarespace.com/static/63e5968eac04921062e086e3/t/63eeb5ecf3b8e67f4c139e95/1676588527454/S%26D+Stamp.png?format=1500w",
+      "photoAttr": "sonsanddaughterssf.com"
     },
     {
       "id": "state-bird-provisions",
@@ -752,7 +706,7 @@
         "Walk-in bar/communal seats are the backup if reservations are gone."
       ],
       "signatureDish": "State bird with provisions (quail); dim-sum-style savory pancakes and dumplings",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "lively",
@@ -767,12 +721,14 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "One MICHELIN star in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
       ],
-      "evidence": "Michelin one star and two James Beard Awards; a perennially packed dining room with a 60-day window and only a handful of walk-in seats."
+      "evidence": "Michelin one star and two James Beard Awards; a perennially packed dining room with a 60-day window and only a handful of walk-in seats.",
+      "photo": "https://static1.squarespace.com/static/6500a081b4e5021dc4f378b1/t/666b2e98a7a37f4be4aebf93/1748317293317/SBP-Website-SocialImage.png?format=1500w",
+      "photoAttr": "statebirdsf.com"
     },
     {
       "id": "san-ho-won",
@@ -806,7 +762,7 @@
         "VERIFY the exact Tock URL/slug before shipping."
       ],
       "signatureDish": "Live-fire Korean barbecue; grilled short rib",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "lively",
@@ -821,7 +777,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "One MICHELIN star in the 2026 MICHELIN Guide California selection (San Francisco)."
         },
@@ -866,7 +822,7 @@
         "Larger parties (6-8) book a banquet menu with a deposit."
       ],
       "signatureDish": "Roast duck; salt-and-pepper crab; hom sui gok",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -882,12 +838,14 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "One MICHELIN star in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
       ],
-      "evidence": "One Michelin star; a stylish Chinatown dining room with a 30-day, 10 AM Resy release that fills quickly."
+      "evidence": "One Michelin star; a stylish Chinatown dining room with a 30-day, 10 AM Resy release that fills quickly.",
+      "photo": "https://image.resy.com/3/003/2/93096/a1f7ee392fb48af1ac265752df7f997d496fde84/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "nisei",
@@ -920,7 +878,7 @@
         "VERIFY the exact release window/time on the Nisei Tock page."
       ],
       "signatureDish": "Japanese-Californian 'washoku' tasting menu (10 courses / 17 bites)",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "intimate",
@@ -935,7 +893,7 @@
       "sources": [
         {
           "name": "Michelin",
-          "tier": "★",
+          "tier": "\u2605",
           "url": "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/guide-michelin-california",
           "note": "One MICHELIN star in the 2026 MICHELIN Guide California selection (San Francisco)."
         }
@@ -973,7 +931,7 @@
         "VERIFY the OpenTable URL slug and noon release timing before shipping."
       ],
       "signatureDish": "Contemporary Chinese-American plates",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "buzzy",
@@ -993,7 +951,9 @@
           "note": "Lists The Happy Crane among SF's toughest reservations: OpenTable, released 30 days ahead at 12pm, tables 'disappear almost instantly.'"
         }
       ],
-      "evidence": "The Infatuation lists it among SF's toughest reservations: tables release 30 days out at noon and 'disappear almost instantly.'"
+      "evidence": "The Infatuation lists it among SF's toughest reservations: tables release 30 days out at noon and 'disappear almost instantly.'",
+      "photo": "https://resizer.otstatic.com/v4/photos/92648283-3?width=640&amp;height=640",
+      "photoAttr": "opentable.com"
     },
     {
       "id": "flour-and-water",
@@ -1027,7 +987,7 @@
         "VERIFY the Resy slug and midnight release timing before shipping."
       ],
       "signatureDish": "Handmade pasta tasting; seasonal pastas and Neapolitan-style pizza",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "lively",
@@ -1047,7 +1007,9 @@
           "note": "Lists Flour + Water among SF's toughest reservations: Resy, released 28 days ahead at midnight, with space reserved for walk-ins."
         }
       ],
-      "evidence": "The Infatuation lists it among SF's toughest reservations: Resy, released 28 days out at midnight, with only some walk-in space."
+      "evidence": "The Infatuation lists it among SF's toughest reservations: Resy, released 28 days out at midnight, with only some walk-in space.",
+      "photo": "https://image.resy.com/3/003/2/6291/81346b855f92e4f111714ba6fe6b16b1d769aba6/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "verjus",
@@ -1081,7 +1043,7 @@
         "VERIFY the SevenRooms URL slug before shipping."
       ],
       "signatureDish": "Rotisserie chicken; charcuterie and a deep by-the-glass wine list",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "lively",
@@ -1101,7 +1063,9 @@
           "note": "Lists Verjus among SF's toughest reservations: SevenRooms, released one week ahead at midnight; walk-ins from 4pm, Saturday lunch often same-day."
         }
       ],
-      "evidence": "The Infatuation lists it among SF's toughest reservations: SevenRooms, released one week out at midnight; walk-ins from 4pm."
+      "evidence": "The Infatuation lists it among SF's toughest reservations: SevenRooms, released one week out at midnight; walk-ins from 4pm.",
+      "photo": "https://cdn.prod.website-files.com/66d1040877b0cf634c772958/671a92af0584a82c3a35995b_homepage_Banner.jpg",
+      "photoAttr": "verjussf.com"
     },
     {
       "id": "maria-isabel",
@@ -1135,7 +1099,7 @@
         "VERIFY the OpenTable URL slug and midnight release timing before shipping."
       ],
       "signatureDish": "Modern Mexican plates; award-winning cocktail program",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "lively",
@@ -1195,7 +1159,7 @@
         "Walk-in at the bar is the classic backup for weekend nights."
       ],
       "signatureDish": "Prime rib carved tableside; spinning salad bowl",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "classic",
@@ -1250,7 +1214,7 @@
         "VERIFY platform: reservations route through the venue site (believed Resy)"
       ],
       "signatureDish": "Wood-oven pork chop",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "buzzy",
@@ -1305,7 +1269,7 @@
         "VERIFY exact Tock URL (bot-walled; open it in a browser)"
       ],
       "signatureDish": "Raviolo di ricotta with runny egg yolk in brown butter",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "rustic-elegant",
@@ -1326,7 +1290,9 @@
           "note": "Reviewed in Jackson Square; the raviolo di ricotta is the signature and it 'guarantees a fantastic meal for any occasion.'"
         }
       ],
-      "evidence": "Michael Tusk's more casual (and bookable) sibling to Quince; the Infatuation says it 'guarantees a fantastic meal for any occasion.'"
+      "evidence": "Michael Tusk's more casual (and bookable) sibling to Quince; the Infatuation says it 'guarantees a fantastic meal for any occasion.'",
+      "photo": "https://cdn.prod.website-files.com/5f459f0c5a592422059d2311/5fa22818ecd9b1ca24e649c5_Cotogna_OG.jpg",
+      "photoAttr": "cotognasf.com"
     },
     {
       "id": "rintaro",
@@ -1355,7 +1321,7 @@
         "VERIFY the daily open time for the rolling 28-day window"
       ],
       "signatureDish": "Hand-cut soba, robata skewers, and kara-age",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "serene",
@@ -1404,7 +1370,7 @@
         "VERIFY current signature dishes (menu is seasonal)"
       ],
       "signatureDish": "Chef Pim Techamuanvivit's regional Thai curries",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "stylish",
@@ -1424,7 +1390,9 @@
           "note": "#14 on the May 26, 2026 list - Pim Techamuanvivit's contemporary Thai in Japantown."
         }
       ],
-      "evidence": "Chef Pim Techamuanvivit's acclaimed contemporary Thai restaurant; #14 on the Infatuation May 2026 '25 Best' and bookable on Resy with some planning."
+      "evidence": "Chef Pim Techamuanvivit's acclaimed contemporary Thai restaurant; #14 on the Infatuation May 2026 '25 Best' and bookable on Resy with some planning.",
+      "photo": "https://image.resy.com/3/003/2/6707/62f1e59c3ac585888984755a485a5097e674156b/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "zuni-cafe",
@@ -1458,7 +1426,7 @@
         "Walk in and sit at the bar if tables are gone"
       ],
       "signatureDish": "Wood-fired roast chicken for two over bread salad",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "iconic",
@@ -1479,7 +1447,9 @@
           "note": "Listed among visitor essentials for its wood-fired roast chicken over warm bread salad."
         }
       ],
-      "evidence": "A four-decade SF icon the Infatuation lists among visitor essentials for its wood-fired roast chicken; books up to 60 days out, with a walk-in bar."
+      "evidence": "A four-decade SF icon the Infatuation lists among visitor essentials for its wood-fired roast chicken; books up to 60 days out, with a walk-in bar.",
+      "photo": "https://resizer.otstatic.com/v4/photos/69629956-2?width=640&amp;height=640",
+      "photoAttr": "opentable.com"
     },
     {
       "id": "kokkari-estiatorio",
@@ -1512,7 +1482,7 @@
         "VERIFY reservation platform (venue routes through its own site; believed OpenTable)"
       ],
       "signatureDish": "Chili-crusted feta (feta tou fournou) and wood-grilled whole fish",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "romantic",
@@ -1561,8 +1531,8 @@
         "Venue site books through OpenTable",
         "The Infatuation calls the food hit-or-miss - stick to pizzas and small plates"
       ],
-      "signatureDish": "Fried supplì (tomato-risotto and fontina)",
-      "lastVerified": "2026-07-24",
+      "signatureDish": "Fried suppl\u00ec (tomato-risotto and fontina)",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "design-forward",
@@ -1573,16 +1543,18 @@
         "date night",
         "with friends"
       ],
-      "dateNote": "A stunning skylit room above Divisadero - order pizzas and small plates and share the supplì.",
+      "dateNote": "A stunning skylit room above Divisadero - order pizzas and small plates and share the suppl\u00ec.",
       "sources": [
         {
           "name": "The Infatuation",
           "tier": "review",
           "url": "https://www.theinfatuation.com/san-francisco/reviews/che-fico",
-          "note": "Reviewed as 'hit-or-miss Italian in a stunning space'; the fried supplì are crave-worthy."
+          "note": "Reviewed as 'hit-or-miss Italian in a stunning space'; the fried suppl\u00ec are crave-worthy."
         }
       ],
-      "evidence": "A stylish, long-buzzy NoPa Italian the Infatuation still reviews; easier to book now than at its peak - plan a week or so out for weekends."
+      "evidence": "A stylish, long-buzzy NoPa Italian the Infatuation still reviews; easier to book now than at its peak - plan a week or so out for weekends.",
+      "photo": "https://static1.squarespace.com/static/5c7433f7e5f7d17a1ff644cf/t/6660b4c44837e52b9213e298/1717613764799/Screenshot+2024-06-05+at+1.55.40%E2%80%AFPM.png?format=1500w",
+      "photoAttr": "chefico.com"
     },
     {
       "id": "rich-table",
@@ -1616,7 +1588,7 @@
         "The porcini doughnuts are 'always on the menu'"
       ],
       "signatureDish": "Dried porcini doughnuts with raclette",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "warm-modern",
@@ -1636,7 +1608,9 @@
           "note": "Reviewed as a Hayes Valley spot known for creative seasonal small plates and exceptional service since 2012; the porcini doughnuts are always on the menu."
         }
       ],
-      "evidence": "A warmly-run Hayes Valley favorite since 2012 the Infatuation calls it 'small plates royalty'-adjacent for service; bookable a couple weeks out with a walk-in counter."
+      "evidence": "A warmly-run Hayes Valley favorite since 2012 the Infatuation calls it 'small plates royalty'-adjacent for service; bookable a couple weeks out with a walk-in counter.",
+      "photo": "https://resizer.otstatic.com/v4/photos/78933027-1?width=640&amp;height=640",
+      "photoAttr": "opentable.com"
     },
     {
       "id": "niku-steakhouse",
@@ -1665,7 +1639,7 @@
         "It's a splurge, but bookable with a few days' notice for most nights"
       ],
       "signatureDish": "A5 Japanese wagyu",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "sleek",
@@ -1686,7 +1660,9 @@
           "note": "#20 on the May 26, 2026 list - wagyu-focused Japanese steakhouse in the Design District."
         }
       ],
-      "evidence": "A wagyu-focused Japanese steakhouse in the Design District, #20 on the Infatuation May 2026 '25 Best'; a splurge that's still bookable with planning."
+      "evidence": "A wagyu-focused Japanese steakhouse in the Design District, #20 on the Infatuation May 2026 '25 Best'; a splurge that's still bookable with planning.",
+      "photo": "https://resizer.otstatic.com/v4/photos/66276140-4?width=640&amp;height=640",
+      "photoAttr": "opentable.com"
     },
     {
       "id": "thanh-long",
@@ -1715,7 +1691,7 @@
         "Weekend evenings book ahead; the crab-and-garlic-noodles combo is the move (and gets pricey)"
       ],
       "signatureDish": "Roasted crab and garlic noodles",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -1736,7 +1712,9 @@
           "note": "#22 on the May 26, 2026 list - Sunset Vietnamese seafood; the 'birthplace of garlic noodles' and butter-drenched roasted crab."
         }
       ],
-      "evidence": "The original An family Sunset seafood house - 'birthplace of garlic noodles' per the Infatuation's visitor guide; a special-occasion table best booked ahead."
+      "evidence": "The original An family Sunset seafood house - 'birthplace of garlic noodles' per the Infatuation's visitor guide; a special-occasion table best booked ahead.",
+      "photo": "https://resizer.otstatic.com/v4/photos/88787379-3?width=640&amp;height=640",
+      "photoAttr": "opentable.com"
     },
     {
       "id": "a16",
@@ -1769,7 +1747,7 @@
         "VERIFY reservation platform via the venue's /reservations page (believed Resy)"
       ],
       "signatureDish": "Margherita pizza and house-made pastas",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "neighborhood-classic",
@@ -1822,7 +1800,7 @@
         "One of the more gettable spots on this list; midweek is easy"
       ],
       "signatureDish": "Khao kan jin (pork-and-blood-sausage rice)",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "unfussy",
@@ -1842,7 +1820,9 @@
           "note": "Reviewed near Union Square; the khao kan jin 'steals the show,' and it's less expensive than sister restaurant Nari."
         }
       ],
-      "evidence": "A longtime Union Square favorite the Infatuation calls 'funk-and-spice-packed' and cheaper than sister Nari; usually bookable within days."
+      "evidence": "A longtime Union Square favorite the Infatuation calls 'funk-and-spice-packed' and cheaper than sister Nari; usually bookable within days.",
+      "photo": "https://image.resy.com/3/003/2/984/4a07aa1ba2200f91e48dac57a7175a10def3fa3a/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "beit-rima",
@@ -1876,7 +1856,7 @@
         "Go early; the room is tiny and popular"
       ],
       "signatureDish": "Rotisserie chicken with garlic sauce and hummus",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "cozy",
@@ -1929,7 +1909,7 @@
         "One of the more gettable Italian tables in the Mission"
       ],
       "signatureDish": "Spaghetti pomodoro",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "neighborhood-classic",
@@ -1949,7 +1929,9 @@
           "note": "Reviewed as a Mission Italian mainstay; the spaghetti pomodoro 'has a devoted following.'"
         }
       ],
-      "evidence": "A 25-year Mission Italian mainstay (glammed up in a 2022 redesign) the Infatuation still reviews; usually bookable within a few days."
+      "evidence": "A 25-year Mission Italian mainstay (glammed up in a 2022 redesign) the Infatuation still reviews; usually bookable within a few days.",
+      "photo": "https://resizer.otstatic.com/v4/photos/78462225-2?width=640&amp;height=640",
+      "photoAttr": "opentable.com"
     },
     {
       "id": "anchor-oyster-bar",
@@ -1983,7 +1965,7 @@
         "VERIFY website (TLS certificate may warn)"
       ],
       "signatureDish": "Crab cakes, cioppino, and clam chowder",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "old-school",
@@ -2037,7 +2019,7 @@
         "Waits are long at peak - arrive when doors open or later in the evening"
       ],
       "signatureDish": "Tea leaf salad (tossed tableside)",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "bustling",
@@ -2092,7 +2074,7 @@
         "VERIFY reservation platform (venue site's certificate may warn; believed Resy)"
       ],
       "signatureDish": "Bucatini",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "historic",
@@ -2146,7 +2128,7 @@
         "VERIFY reservation platform via the venue's /reservations page"
       ],
       "signatureDish": "Spicy rigatoni vodka (and the Joe's Special)",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "classic",
@@ -2200,7 +2182,7 @@
         "The cioppino is designed to share; go hungry and off-peak"
       ],
       "signatureDish": "Cioppino (famously big enough for two)",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "rowdy",
@@ -2220,7 +2202,9 @@
           "note": "Listed as a beloved local-and-tourist North Beach spot for large portions of cioppino and linguine with clams."
         }
       ],
-      "evidence": "A beloved North Beach seafood house the Infatuation lists among visitor picks for its big-portion cioppino; walk-in/phone, no online system."
+      "evidence": "A beloved North Beach seafood house the Infatuation lists among visitor picks for its big-portion cioppino; walk-in/phone, no online system.",
+      "photo": "https://static.wixstatic.com/media/ee803f_3c62b37b02b04901a6163f01c251faf9%7Emv2.png/v1/fit/w_2500,h_1330,al_c/ee803f_3c62b37b02b04901a6163f01c251faf9%7Emv2.png",
+      "photoAttr": "sottomaresf.com"
     },
     {
       "id": "prubechu",
@@ -2240,8 +2224,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "37 days",
-      "bookingWindowDays": 37,
+      "bookingWindow": "56 days",
+      "bookingWindowDays": 56,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -2249,7 +2233,7 @@
         "SF's only Chamorro spot - go for the kelaguen and the tasting"
       ],
       "signatureDish": "Chicken kelaguen (lemon-marinated)",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "warm",
@@ -2269,7 +2253,9 @@
           "note": "#25 on the May 26, 2026 list - the only Guamanian restaurant in town, serving Chamorro dishes like chicken kelaguen."
         }
       ],
-      "evidence": "The Infatuation's #25 and the only Guamanian restaurant in the city; a distinctive, bookable Mission destination."
+      "evidence": "The Infatuation's #25 and the only Guamanian restaurant in the city; a distinctive, bookable Mission destination.",
+      "photo": "https://image.resy.com/3/003/2/8486/daaf96fc9400814a5b1f755bfecc853fe429127d/jpg/640x360",
+      "photoAttr": "Resy"
     },
     {
       "id": "bix",
@@ -2303,7 +2289,7 @@
         "VERIFY reservation platform via the venue's /reservations page"
       ],
       "signatureDish": "Martini, shrimp cocktail, and Duroc pork chop",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "speakeasy",
@@ -2353,7 +2339,7 @@
         "One of the easiest 'nice dinner' bookings on this list"
       ],
       "signatureDish": "Cider-brined pork loin (multi-course prix fixe)",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "cozy",
@@ -2373,7 +2359,9 @@
           "note": "Reviewed as 'the most bang-for-your-buck tasting menu in town' - a multi-course prix fixe for around $52."
         }
       ],
-      "evidence": "The Infatuation calls it 'the most bang-for-your-buck tasting menu in town' - a Michelin-recognized prix fixe for about $52 that's very bookable."
+      "evidence": "The Infatuation calls it 'the most bang-for-your-buck tasting menu in town' - a Michelin-recognized prix fixe for about $52 that's very bookable.",
+      "photo": "https://static.wixstatic.com/media/5a647b_58ff0e66aeb04417802514fac29eac30%7Emv2.png/v1/fit/w_2500,h_1330,al_c/5a647b_58ff0e66aeb04417802514fac29eac30%7Emv2.png",
+      "photoAttr": "trestlesf.com"
     },
     {
       "id": "yank-sing",
@@ -2407,7 +2395,7 @@
         "Weekend late-morning is the sweet spot"
       ],
       "signatureDish": "Shanghai soup dumplings and cart-service dim sum",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "classic",
@@ -2461,7 +2449,7 @@
         "A calmer, more bookable alternative to the Clement Street Burmese lines"
       ],
       "signatureDish": "Tea leaf salad and pumpkin pork stew",
-      "lastVerified": "2026-07-24",
+      "lastVerified": "2026-08-12",
       "availability": null,
       "vibe": [
         "longtime-local",
