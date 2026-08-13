@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-13T20:34:30+00:00",
+  "generated": "2026-08-13T22:33:53+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 6,
+  "new": 2,
   "items": [
     {
       "city": "nyc",
@@ -12,53 +12,11 @@
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
       "date": "2026-08-14",
-      "time": "16:00",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-14&seats=2",
-      "firstSeen": "2026-08-13T20:34:30+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-15",
       "time": "16:30",
       "type": "Indoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-15&seats=2",
-      "firstSeen": "2026-08-13T20:34:30+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-08-13",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-13&seats=2",
-      "firstSeen": "2026-08-13T20:34:30+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-08-13",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-13&seats=2",
-      "firstSeen": "2026-08-13T20:34:30+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-13T22:33:53+00:00",
       "new": true
     },
     {
@@ -68,11 +26,11 @@
       "neighborhood": "Flatiron",
       "cuisine": "Korean BBQ / Steakhouse",
       "date": "2026-08-14",
-      "time": "23:30",
+      "time": "00:00",
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-14&seats=2",
-      "firstSeen": "2026-08-13T20:34:30+00:00",
+      "firstSeen": "2026-08-13T22:33:53+00:00",
       "new": true
     },
     {
@@ -87,7 +45,21 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-13T20:34:30+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-14",
+      "time": "23:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-13T20:34:30+00:00",
+      "new": false
     },
     {
       "city": "boston",
@@ -2803,6 +2775,34 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-13&seats=2",
       "firstSeen": "2026-08-13T15:29:02+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-16",
+      "time": "00:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-16&seats=2",
+      "firstSeen": "2026-08-13T03:38:04+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-14",
+      "time": "23:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-12T01:17:44+00:00",
       "new": false
     }
   ]
