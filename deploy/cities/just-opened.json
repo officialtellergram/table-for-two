@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T06:53:16+00:00",
+  "generated": "2026-08-14T08:08:41+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
@@ -566,20 +566,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-14",
-      "time": "16:00",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-14&seats=2",
-      "firstSeen": "2026-08-14T05:26:49+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "lillian",
       "name": "Lillian",
@@ -921,12 +907,12 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-08-16",
-      "time": "21:30",
-      "type": "Bar",
+      "date": "2026-08-14",
+      "time": "16:00",
+      "type": "Indoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T01:18:58+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T05:26:49+00:00",
       "new": false
     },
     {
@@ -1154,6 +1140,20 @@
       "new": false
     },
     {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-16",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-16&seats=2",
+      "firstSeen": "2026-08-14T01:18:58+00:00",
+      "new": false
+    },
+    {
       "city": "richmond",
       "spotId": "grisette",
       "name": "Grisette",
@@ -1182,20 +1182,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-14",
-      "time": "23:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-14&seats=2",
-      "firstSeen": "2026-08-13T20:34:30+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "roses-luxury",
       "name": "Rose's Luxury",
@@ -1206,6 +1192,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-13T20:34:30+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-14",
+      "time": "23:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-13T20:34:30+00:00",
       "new": false
     },
