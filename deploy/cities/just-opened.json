@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T19:26:40+00:00",
+  "generated": "2026-08-14T20:02:47+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
@@ -2708,20 +2708,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-16",
-      "time": "21:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T01:18:58+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "the-brooklyn",
       "name": "The Brooklyn",
@@ -2802,6 +2788,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-16&seats=2",
+      "firstSeen": "2026-08-14T01:18:58+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-16",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T01:18:58+00:00",
       "new": false
     }
