@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-14T16:12:57+00:00",
+  "generated": "2026-08-14T17:25:30+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 63,
+  "new": 21,
   "items": [
     {
       "city": "nyc",
@@ -11,26 +11,278 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-08-16",
-      "time": "20:45",
+      "date": "2026-08-15",
+      "time": "16:30",
       "type": "Indoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T16:12:57+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
       "new": true
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-08-14",
-      "time": "22:45",
+      "time": "17:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-14&seats=2",
-      "firstSeen": "2026-08-14T16:12:57+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "17:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "21:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-14",
+      "time": "21:45",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "17:15",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "17:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-15",
+      "time": "21:45",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
       "new": true
     },
     {
@@ -39,12 +291,12 @@
       "name": "Grisette",
       "neighborhood": "Church Hill",
       "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-15",
+      "date": "2026-08-14",
       "time": "17:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-15&seats=2",
-      "firstSeen": "2026-08-14T16:12:57+00:00",
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-14&seats=2",
+      "firstSeen": "2026-08-14T17:25:30+00:00",
       "new": true
     },
     {
@@ -59,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -157,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -171,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -185,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -199,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -227,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -241,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -255,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -269,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -283,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -297,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -311,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -325,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -339,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -353,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -367,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -395,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -409,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -423,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -437,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -451,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -465,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -479,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -493,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -507,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -521,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -535,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -549,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -563,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -577,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -591,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -605,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -619,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -633,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -647,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -661,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -675,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -689,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -703,7 +955,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -717,7 +969,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -731,7 +983,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -745,7 +997,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -759,7 +1011,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -773,7 +1025,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -787,7 +1039,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -801,7 +1053,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -815,7 +1067,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -829,7 +1081,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -843,7 +1095,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -857,7 +1109,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -871,7 +1123,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -885,7 +1137,35 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-14&seats=2",
       "firstSeen": "2026-08-14T16:12:57+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-16",
+      "time": "20:45",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-16&seats=2",
+      "firstSeen": "2026-08-14T16:12:57+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-15",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-14T16:12:57+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -2520,286 +2800,6 @@
       "date": "2026-08-16",
       "time": "19:30",
       "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "19:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "19:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "19:45",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:00",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:00",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:15",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:15",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:30",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "20:45",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "21:00",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-14T10:51:57+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-16",
-      "time": "21:00",
-      "type": "High Top",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-14T10:51:57+00:00",
