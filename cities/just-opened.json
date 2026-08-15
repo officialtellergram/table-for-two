@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-15T13:06:08+00:00",
+  "generated": "2026-08-15T13:50:09+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 3,
+  "new": 1,
   "items": [
     {
       "city": "nyc",
@@ -13,10 +13,10 @@
       "cuisine": "Italian",
       "date": "2026-08-16",
       "time": "20:00",
-      "type": "Bar",
+      "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-15T13:06:08+00:00",
+      "firstSeen": "2026-08-15T13:50:09+00:00",
       "new": true
     },
     {
@@ -31,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-15T13:06:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -45,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-15T13:06:08+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
