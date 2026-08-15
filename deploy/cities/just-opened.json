@@ -1,10 +1,24 @@
 {
-  "generated": "2026-08-15T05:18:25+00:00",
+  "generated": "2026-08-15T05:49:08+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 5,
+  "new": 1,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-16",
+      "time": "22:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-16&seats=2",
+      "firstSeen": "2026-08-15T05:49:08+00:00",
+      "new": true
+    },
     {
       "city": "boston",
       "spotId": "sarma",
@@ -17,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T05:18:25+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -31,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T05:18:25+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -45,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T05:18:25+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -59,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T05:18:25+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T05:18:25+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -86,20 +100,6 @@
       "type": "BRUNCH",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-15&seats=2",
-      "firstSeen": "2026-08-15T03:11:34+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-17",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-15T03:11:34+00:00",
       "new": false
     },
@@ -128,6 +128,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-15&seats=2",
+      "firstSeen": "2026-08-15T03:11:34+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-17",
+      "time": "22:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-15T03:11:34+00:00",
       "new": false
     },
@@ -2786,20 +2800,6 @@
       "date": "2026-08-17",
       "time": "21:15",
       "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-15T00:50:22+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-17",
-      "time": "21:30",
-      "type": "Bar",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-15T00:50:22+00:00",
