@@ -1,24 +1,10 @@
 {
-  "generated": "2026-08-15T03:11:34+00:00",
+  "generated": "2026-08-15T04:02:00+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 4,
+  "new": 0,
   "items": [
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-17",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-15T03:11:34+00:00",
-      "new": true
-    },
     {
       "city": "richmond",
       "spotId": "slack-tide-fish-co",
@@ -31,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T03:11:34+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -45,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T03:11:34+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -59,7 +45,21 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-15&seats=2",
       "firstSeen": "2026-08-15T03:11:34+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-17",
+      "time": "22:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-17&seats=2",
+      "firstSeen": "2026-08-15T03:11:34+00:00",
+      "new": false
     },
     {
       "city": "richmond",
