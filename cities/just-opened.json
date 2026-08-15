@@ -1,22 +1,36 @@
 {
-  "generated": "2026-08-15T22:45:11+00:00",
+  "generated": "2026-08-15T23:13:48+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 1,
+  "new": 2,
   "items": [
     {
       "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
       "date": "2026-08-16",
-      "time": "11:30",
-      "type": "Lunch",
+      "time": "15:00",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-16&seats=2",
-      "firstSeen": "2026-08-15T22:45:11+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-16&seats=2",
+      "firstSeen": "2026-08-15T23:13:48+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-17",
+      "time": "21:00",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
+      "firstSeen": "2026-08-15T23:13:48+00:00",
       "new": true
     },
     {
@@ -2191,6 +2205,20 @@
     },
     {
       "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-08-17",
+      "time": "19:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-17&seats=2",
+      "firstSeen": "2026-08-15T02:09:45+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
       "spotId": "the-roosevelt",
       "name": "The Roosevelt",
       "neighborhood": "Church Hill",
@@ -2736,20 +2764,6 @@
       "new": false
     },
     {
-      "city": "richmond",
-      "spotId": "omakase-at-nami",
-      "name": "Omakase at Nami",
-      "neighborhood": "Downtown / Shockoe Slip",
-      "cuisine": "Japanese omakase",
-      "date": "2026-08-17",
-      "time": "19:45",
-      "type": "Omakase Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-15T02:09:45+00:00",
-      "new": false
-    },
-    {
       "city": "nyc",
       "spotId": "lilia",
       "name": "Lilia",
@@ -2788,20 +2802,6 @@
       "type": "Bar",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-15T00:50:22+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-17",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-15T00:50:22+00:00",
       "new": false
     }
