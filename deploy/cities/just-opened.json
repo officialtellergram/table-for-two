@@ -1,10 +1,38 @@
 {
-  "generated": "2026-08-16T15:43:47+00:00",
+  "generated": "2026-08-16T16:16:06+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
   "new": 2,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "11:30",
+      "type": "Lunch",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T16:16:06+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "11:45",
+      "type": "Lunch",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T16:16:06+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-16T15:43:47+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-16T15:43:47+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -2771,34 +2799,6 @@
       "cuisine": "Japanese (temaki tasting)",
       "date": "2026-08-18",
       "time": "14:00",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T03:25:23+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "kira",
-      "name": "Kira",
-      "neighborhood": "River Oaks",
-      "cuisine": "Japanese (temaki tasting)",
-      "date": "2026-08-18",
-      "time": "16:00",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T03:25:23+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "kira",
-      "name": "Kira",
-      "neighborhood": "River Oaks",
-      "cuisine": "Japanese (temaki tasting)",
-      "date": "2026-08-18",
-      "time": "16:15",
       "type": "Bar Seat",
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-08-18&seats=2",
