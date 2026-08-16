@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-16T18:17:47+00:00",
+  "generated": "2026-08-16T18:53:35+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 4,
+  "new": 1,
   "items": [
     {
       "city": "nyc",
@@ -12,53 +12,11 @@
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
       "date": "2026-08-17",
-      "time": "19:30",
-      "type": "Indoor",
+      "time": "17:15",
+      "type": "Bar",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-16T18:17:47+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-08-18",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T18:17:47+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-08-18",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T18:17:47+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-08-18",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T18:17:47+00:00",
+      "firstSeen": "2026-08-16T18:53:35+00:00",
       "new": true
     },
     {
@@ -185,20 +143,6 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-16T15:43:47+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-17",
-      "time": "17:30",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-16T14:46:24+00:00",
       "new": false
     },
     {
@@ -2803,6 +2747,62 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-16T03:25:23+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "21:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T00:53:05+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T00:53:05+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-18",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T00:53:05+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-18",
+      "time": "17:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T00:53:05+00:00",
       "new": false
     }
   ]
