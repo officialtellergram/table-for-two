@@ -1,10 +1,24 @@
 {
-  "generated": "2026-08-16T09:20:40+00:00",
+  "generated": "2026-08-16T09:49:17+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 0,
+  "new": 1,
   "items": [
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-18",
+      "time": "19:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T09:49:17+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "via-carota",
@@ -2789,20 +2803,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-16&seats=2",
       "firstSeen": "2026-08-16T03:25:23+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-18",
-      "time": "17:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T00:53:05+00:00",
       "new": false
     }
   ]
