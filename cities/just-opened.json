@@ -1,10 +1,38 @@
 {
-  "generated": "2026-08-16T20:13:47+00:00",
+  "generated": "2026-08-16T20:44:58+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 1,
+  "new": 2,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-17",
+      "time": "17:00",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-17&seats=2",
+      "firstSeen": "2026-08-16T20:44:58+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-18",
+      "time": "19:15",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-16T20:44:58+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "via-carota",
@@ -17,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-16T20:13:47+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -2771,34 +2799,6 @@
       "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-08-18",
       "time": "17:15",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T00:53:05+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-18",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-16T00:53:05+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-18",
-      "time": "17:30",
       "type": "Dōgon Lounge",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
