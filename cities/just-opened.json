@@ -1,50 +1,22 @@
 {
-  "generated": "2026-08-17T16:18:56+00:00",
+  "generated": "2026-08-17T16:53:44+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 12,
+  "new": 1,
   "items": [
     {
       "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
       "date": "2026-08-17",
-      "time": "21:00",
-      "type": "Dinner",
+      "time": "22:30",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-17",
-      "time": "21:15",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-17",
-      "time": "23:00",
-      "type": "Dinner",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-17T16:18:56+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-17&seats=2",
+      "firstSeen": "2026-08-17T16:53:44+00:00",
       "new": true
     },
     {
@@ -59,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -73,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -101,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,20 +143,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "torrisi",
-      "name": "Torrisi",
-      "neighborhood": "Nolita",
-      "cuisine": "Italian",
-      "date": "2026-08-17",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/torrisi?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-17T15:47:46+00:00",
       "new": false
     },
     {
@@ -2803,6 +2761,48 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-17T05:58:10+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-08-19",
+      "time": "18:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T04:10:21+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T03:26:07+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T03:26:07+00:00",
       "new": false
     }
   ]
