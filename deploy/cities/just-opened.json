@@ -1,50 +1,22 @@
 {
-  "generated": "2026-08-17T22:47:44+00:00",
+  "generated": "2026-08-17T23:16:12+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 12,
+  "new": 1,
   "items": [
     {
       "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-08-18",
-      "time": "23:30",
-      "type": "Dinner",
+      "date": "2026-08-19",
+      "time": "17:15",
+      "type": "Indoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-08-18",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-18",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-17T22:47:44+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T23:16:12+00:00",
       "new": true
     },
     {
@@ -59,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -157,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-17&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -171,7 +143,21 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T22:47:44+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-18",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-17T22:47:44+00:00",
+      "new": false
     },
     {
       "city": "boston",
@@ -213,20 +199,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-17T21:48:09+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-17",
-      "time": "20:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
-      "firstSeen": "2026-08-17T21:18:42+00:00",
       "new": false
     },
     {
@@ -720,20 +692,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-18",
-      "time": "21:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-17T19:49:35+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "the-brooklyn",
       "name": "The Brooklyn",
@@ -744,6 +702,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T19:49:35+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "21:15",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T19:49:35+00:00",
       "new": false
     },
@@ -759,20 +731,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-17T16:18:56+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-18",
-      "time": "21:15",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-17T15:47:46+00:00",
       "new": false
     },
     {
@@ -2443,6 +2401,20 @@
     },
     {
       "city": "dc",
+      "spotId": "omakase-room-by-tadayoshi",
+      "name": "Omakase Room by Tadayoshi",
+      "neighborhood": "Downtown",
+      "cuisine": "Japanese omakase (20-course, 12-seat counter)",
+      "date": "2026-08-19",
+      "time": "17:30",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T03:26:07+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
       "neighborhood": "Southwest Waterfront",
@@ -2792,17 +2764,45 @@
       "new": false
     },
     {
-      "city": "dc",
-      "spotId": "omakase-room-by-tadayoshi",
-      "name": "Omakase Room by Tadayoshi",
-      "neighborhood": "Downtown",
-      "cuisine": "Japanese omakase (20-course, 12-seat counter)",
-      "date": "2026-08-19",
-      "time": "17:30",
-      "type": "Counter",
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-17",
+      "time": "21:00",
+      "type": "Patio",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-17&seats=2",
+      "firstSeen": "2026-08-17T02:16:07+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-19",
+      "time": "21:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T02:16:07+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "pineapple-and-pearls",
+      "name": "Pineapple and Pearls",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American fine-dining prix-fixe",
+      "date": "2026-08-19",
+      "time": "18:00",
+      "type": "Bar Full Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T02:16:07+00:00",
       "new": false
     }
   ]
