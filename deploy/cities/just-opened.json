@@ -1,10 +1,52 @@
 {
-  "generated": "2026-08-18T17:51:45+00:00",
+  "generated": "2026-08-18T18:26:54+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 4,
+  "new": 3,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "22:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-18T18:26:54+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-19",
+      "time": "11:00",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-18T18:26:54+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "albi",
+      "name": "Albi",
+      "neighborhood": "Navy Yard",
+      "cuisine": "Palestinian / live-fire",
+      "date": "2026-08-20",
+      "time": "17:45",
+      "type": "Bar Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/albi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T18:26:54+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-18T17:51:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-18T17:51:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-18T17:51:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -59,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-18T17:51:45+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -2761,48 +2803,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T11:48:56+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-20",
-      "time": "22:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T11:48:56+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-08-20",
-      "time": "22:15",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T11:48:56+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-20",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T04:04:50+00:00",
       "new": false
     }
   ]
