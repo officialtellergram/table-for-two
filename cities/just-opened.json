@@ -1,22 +1,78 @@
 {
-  "generated": "2026-08-18T14:25:23+00:00",
+  "generated": "2026-08-18T15:00:18+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 12,
+  "new": 5,
   "items": [
     {
       "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
       "cuisine": "Italian",
+      "date": "2026-08-19",
+      "time": "17:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-18T15:00:18+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-19",
+      "time": "21:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-18T15:00:18+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-20",
+      "time": "17:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T15:00:18+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "tatiana",
+      "name": "Tatiana",
+      "neighborhood": "Upper West Side",
+      "cuisine": "Afro-Caribbean",
       "date": "2026-08-18",
-      "time": "13:30",
+      "time": "17:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-18T14:25:23+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-18T15:00:18+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-18",
+      "time": "22:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-18T15:00:18+00:00",
       "new": true
     },
     {
@@ -31,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -45,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -59,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -115,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -129,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -143,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T14:25:23+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1770,6 +1826,20 @@
       "new": false
     },
     {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-18",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-18T11:48:56+00:00",
+      "new": false
+    },
+    {
       "city": "richmond",
       "spotId": "the-brooklyn",
       "name": "The Brooklyn",
@@ -1785,44 +1855,16 @@
     },
     {
       "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
       "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "cuisine": "Global coastal seafood",
       "date": "2026-08-20",
-      "time": "17:30",
+      "time": "16:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T11:48:56+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-08-20",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T11:48:56+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-18",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-18T11:48:56+00:00",
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T08:27:07+00:00",
       "new": false
     },
     {
@@ -2760,48 +2802,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T08:27:07+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-20",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T08:27:07+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "metzger-bar-and-butchery",
-      "name": "Metzger Bar & Butchery",
-      "neighborhood": "Union Hill",
-      "cuisine": "German / meat-focused",
-      "date": "2026-08-20",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-18T08:27:07+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-08-20",
-      "time": "16:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T08:27:07+00:00",
       "new": false
     }
