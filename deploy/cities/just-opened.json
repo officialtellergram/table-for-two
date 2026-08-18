@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-18T06:30:32+00:00",
+  "generated": "2026-08-18T07:31:40+00:00",
   "party": 2,
   "windowDays": 3,
-  "count": 199,
+  "count": 200,
   "new": 0,
   "items": [
     {
@@ -255,6 +255,20 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-18T05:00:34+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "21:00",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
       "new": false
     },
     {
@@ -521,34 +535,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T04:04:50+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-18",
-      "time": "21:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-18T04:04:50+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-18",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-18T00:49:17+00:00",
       "new": false
     },
     {
@@ -2789,6 +2775,34 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-17T05:58:10+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T03:26:07+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-17T03:26:07+00:00",
       "new": false
     }
   ]
