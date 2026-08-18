@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T09:56:31+00:00",
+  "generated": "2026-08-18T10:54:14+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
@@ -2120,20 +2120,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-19",
-      "time": "17:00",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-18T05:00:34+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "roses-luxury",
       "name": "Rose's Luxury",
@@ -2279,12 +2265,12 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-08-18",
-      "time": "21:00",
-      "type": "Bar",
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "Indoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
-      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-18T05:00:34+00:00",
       "new": false
     },
     {
@@ -2550,6 +2536,20 @@
       "type": "Counter",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "21:00",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-18T04:04:50+00:00",
       "new": false
     },
