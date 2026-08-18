@@ -1,10 +1,318 @@
 {
-  "generated": "2026-08-18T00:49:17+00:00",
+  "generated": "2026-08-18T04:04:50+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 27,
+  "new": 0,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "13:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-18",
+      "time": "21:00",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:15",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:30",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "17:45",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:15",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:30",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "21:45",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "omakase-room-by-tadayoshi",
+      "name": "Omakase Room by Tadayoshi",
+      "neighborhood": "Downtown",
+      "cuisine": "Japanese omakase (20-course, 12-seat counter)",
+      "date": "2026-08-20",
+      "time": "17:30",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "omakase-room-by-tadayoshi",
+      "name": "Omakase Room by Tadayoshi",
+      "neighborhood": "Downtown",
+      "cuisine": "Japanese omakase (20-course, 12-seat counter)",
+      "date": "2026-08-20",
+      "time": "20:00",
+      "type": "Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-18T04:04:50+00:00",
+      "new": false
+    },
     {
       "city": "nyc",
       "spotId": "cote",
@@ -17,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -59,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -73,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -101,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -115,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -129,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -143,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -157,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -171,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -185,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -199,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -213,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -227,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -241,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -255,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -269,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -283,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -297,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -311,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -325,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -339,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -353,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -367,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -381,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-18T00:49:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -856,20 +1164,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T19:49:35+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-18",
-      "time": "21:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-18&seats=2",
       "firstSeen": "2026-08-17T19:49:35+00:00",
       "new": false
     },
@@ -2509,300 +2803,6 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/hidden-omakase?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-17T05:58:10+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "hidden-omakase",
-      "name": "Hidden Omakase",
-      "neighborhood": "Galleria / Uptown",
-      "cuisine": "Japanese Omakase",
-      "date": "2026-08-19",
-      "time": "20:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/hidden-omakase?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T05:58:10+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
-      "date": "2026-08-19",
-      "time": "18:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T04:10:21+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:00",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:15",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:30",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "17:45",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "19:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "19:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "19:15",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "19:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "19:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "19:45",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "21:00",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-19",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-17T03:26:07+00:00",
       "new": false
     }
   ]
