@@ -1,10 +1,52 @@
 {
-  "generated": "2026-08-19T15:54:59+00:00",
+  "generated": "2026-08-19T16:22:39+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
   "new": 3,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-20",
+      "time": "14:00",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-19T16:22:39+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-20",
+      "time": "15:15",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-19T16:22:39+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "albi",
+      "name": "Albi",
+      "neighborhood": "Navy Yard",
+      "cuisine": "Palestinian / live-fire",
+      "date": "2026-08-21",
+      "time": "17:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/albi?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-19T16:22:39+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,35 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-19T15:54:59+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-19",
-      "time": "19:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-19T15:54:59+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-20",
-      "time": "19:30",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-19T15:54:59+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -58,20 +72,6 @@
       "type": "Upstairs Bar",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-19T15:00:34+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "torrisi",
-      "name": "Torrisi",
-      "neighborhood": "Nolita",
-      "cuisine": "Italian",
-      "date": "2026-08-21",
-      "time": "14:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/torrisi?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-19T15:00:34+00:00",
       "new": false
     },
