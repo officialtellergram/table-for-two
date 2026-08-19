@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-19T03:23:28+00:00",
+  "generated": "2026-08-19T04:05:31+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 1,
+  "new": 0,
   "items": [
     {
       "city": "nyc",
@@ -17,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-19T03:23:28+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -1476,20 +1476,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-22",
-      "time": "00:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-19T00:50:04+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "little-pearl",
       "name": "Little Pearl",
@@ -1878,6 +1864,20 @@
       "type": "Counter",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-19T00:50:04+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-22",
+      "time": "00:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-19T00:50:04+00:00",
       "new": false
     },
@@ -2764,20 +2764,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-19",
-      "time": "21:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
-      "firstSeen": "2026-08-18T22:47:52+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
@@ -2802,6 +2788,20 @@
       "type": "High Top",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-19&seats=2",
+      "firstSeen": "2026-08-18T22:47:52+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-19",
+      "time": "21:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-19&seats=2",
       "firstSeen": "2026-08-18T22:47:52+00:00",
       "new": false
     }
