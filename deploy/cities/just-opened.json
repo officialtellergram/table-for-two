@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T19:47:17+00:00",
+  "generated": "2026-08-19T20:18:34+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
@@ -7,16 +7,16 @@
   "items": [
     {
       "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
-      "cuisine": "Italian",
-      "date": "2026-08-21",
-      "time": "13:45",
-      "type": "Lunch",
+      "spotId": "tatiana",
+      "name": "Tatiana",
+      "neighborhood": "Upper West Side",
+      "cuisine": "Afro-Caribbean",
+      "date": "2026-08-20",
+      "time": "21:30",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-19T19:47:17+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-19T20:18:34+00:00",
       "new": true
     },
     {
@@ -440,6 +440,20 @@
       "new": false
     },
     {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-21",
+      "time": "16:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-19T17:48:27+00:00",
+      "new": false
+    },
+    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
@@ -464,20 +478,6 @@
       "type": "Dōgon Lounge",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-19T17:48:27+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-21",
-      "time": "16:30",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-19T17:48:27+00:00",
       "new": false
     },
@@ -2610,6 +2610,20 @@
       "new": false
     },
     {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-20",
+      "time": "19:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-20&seats=2",
+      "firstSeen": "2026-08-19T06:31:20+00:00",
+      "new": false
+    },
+    {
       "city": "nyc",
       "spotId": "cote",
       "name": "Cote Korean Steakhouse",
@@ -2786,20 +2800,6 @@
       "date": "2026-08-21",
       "time": "19:45",
       "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-19T00:50:04+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "little-pearl",
-      "name": "Little Pearl",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American tasting menu",
-      "date": "2026-08-21",
-      "time": "20:00",
-      "type": "Bar Full Dining",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-19T00:50:04+00:00",
