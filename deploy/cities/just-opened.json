@@ -1,38 +1,10 @@
 {
-  "generated": "2026-08-20T20:54:30+00:00",
+  "generated": "2026-08-20T21:20:50+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 70,
+  "new": 0,
   "items": [
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-22",
-      "time": "20:45",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-22",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
-    },
     {
       "city": "richmond",
       "spotId": "the-brooklyn",
@@ -45,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -59,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -143,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -157,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -171,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/tonino?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -185,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -199,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -227,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -241,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -255,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -269,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -283,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -297,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -311,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -325,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -339,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -353,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -367,7 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -395,7 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -409,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -423,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -437,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -451,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -465,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -479,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -493,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -507,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -521,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -535,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -549,7 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -563,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -577,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -591,7 +563,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -605,7 +577,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -619,7 +591,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -633,7 +605,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -647,7 +619,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -661,7 +633,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -675,7 +647,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -689,7 +661,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -703,7 +675,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -717,7 +689,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -731,7 +703,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -745,7 +717,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -759,7 +731,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -773,7 +745,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -787,7 +759,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -801,7 +773,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -815,7 +787,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -829,7 +801,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -843,7 +815,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -857,7 +829,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -871,7 +843,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -885,7 +857,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -899,7 +871,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -913,7 +885,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -927,7 +899,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -941,7 +913,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -955,7 +927,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -969,7 +941,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -983,7 +955,21 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:54:30+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-22",
+      "time": "22:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T20:54:30+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -997,20 +983,6 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T20:20:00+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-21",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-20T19:53:50+00:00",
       "new": false
     },
     {
@@ -1098,6 +1070,20 @@
       "new": false
     },
     {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-21",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-20T19:53:50+00:00",
+      "new": false
+    },
+    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
@@ -1137,20 +1123,6 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-20T18:28:06+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-21",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-20T17:21:52+00:00",
       "new": false
     },
     {
@@ -1221,20 +1193,6 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/kira?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-20T16:33:22+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
-      "date": "2026-08-22",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T15:05:46+00:00",
       "new": false
     },
     {
@@ -2064,6 +2022,20 @@
       "new": false
     },
     {
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-08-22",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T15:05:46+00:00",
+      "new": false
+    },
+    {
       "city": "richmond",
       "spotId": "slack-tide-fish-co",
       "name": "Slack Tide Fish Co.",
@@ -2145,6 +2117,188 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-20T08:29:17+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-22",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "date": "2026-08-22",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-22",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-22",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-08-22",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-22",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-22",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-22",
+      "time": "21:15",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-22",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-08-22",
+      "time": "21:30",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-08-22",
+      "time": "16:15",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-08-22",
+      "time": "16:30",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "lillian",
+      "name": "Lillian",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Ecuadorian-inspired raw bar / seafood",
+      "date": "2026-08-22",
+      "time": "16:45",
+      "type": "Dining Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-20T00:49:44+00:00",
       "new": false
     },
     {
@@ -2420,20 +2574,6 @@
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
       "date": "2026-08-21",
-      "time": "17:45",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-21",
       "time": "19:45",
       "type": "High Top",
       "party": 2,
@@ -2624,185 +2764,45 @@
       "new": false
     },
     {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
-      "date": "2026-08-22",
-      "time": "21:15",
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-21",
+      "time": "23:15",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-19T20:52:07+00:00",
       "new": false
     },
     {
-      "city": "richmond",
-      "spotId": "the-brooklyn",
-      "name": "The Brooklyn",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Wood-fired American / wine & cocktail bar",
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-08-21",
+      "time": "18:45",
+      "type": "Upstairs Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-19T15:00:34+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
       "date": "2026-08-22",
-      "time": "21:30",
+      "time": "00:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-22",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-22",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-08-22",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-22",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-22",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-22",
-      "time": "21:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-22",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-08-22",
-      "time": "21:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-08-22",
-      "time": "16:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-08-22",
-      "time": "16:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-08-22",
-      "time": "16:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T00:49:44+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-19T00:50:04+00:00",
       "new": false
     }
   ]
