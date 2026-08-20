@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-20T04:05:49+00:00",
+  "generated": "2026-08-20T05:02:41+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 3,
+  "new": 0,
   "items": [
     {
       "city": "dc",
@@ -17,7 +17,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-20T04:05:49+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -31,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/tonino?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T04:05:49+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -45,20 +45,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/tonino?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-20T04:05:49+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
-      "cuisine": "Italian",
-      "date": "2026-08-20",
-      "time": "14:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-20&seats=2",
-      "firstSeen": "2026-08-20T03:23:01+00:00",
       "new": false
     },
     {
@@ -2803,6 +2789,20 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-20&seats=2",
       "firstSeen": "2026-08-19T22:48:51+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-21",
+      "time": "23:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-19T20:52:07+00:00",
       "new": false
     }
   ]
