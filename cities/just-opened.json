@@ -1,50 +1,78 @@
 {
-  "generated": "2026-08-21T17:21:30+00:00",
+  "generated": "2026-08-21T17:54:09+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 9,
+  "new": 5,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-22",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-21T17:54:09+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-08-21",
-      "time": "16:00",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-21T17:54:09+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-23",
+      "time": "16:15",
       "type": "Indoor",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-21T17:21:30+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-23&seats=2",
+      "firstSeen": "2026-08-21T17:54:09+00:00",
       "new": true
     },
     {
       "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-23",
-      "time": "22:45",
+      "spotId": "tatiana",
+      "name": "Tatiana",
+      "neighborhood": "Upper West Side",
+      "cuisine": "Afro-Caribbean",
+      "date": "2026-08-21",
+      "time": "17:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-23&seats=2",
-      "firstSeen": "2026-08-21T17:21:30+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-21T17:54:09+00:00",
       "new": true
     },
     {
       "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-23",
-      "time": "23:00",
+      "spotId": "tatiana",
+      "name": "Tatiana",
+      "neighborhood": "Upper West Side",
+      "cuisine": "Afro-Caribbean",
+      "date": "2026-08-21",
+      "time": "17:15",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-23&seats=2",
-      "firstSeen": "2026-08-21T17:21:30+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-21T17:54:09+00:00",
       "new": true
     },
     {
@@ -59,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-21T17:21:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-21T17:21:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -87,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-21T17:21:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -101,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-21T17:21:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -115,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-21T17:21:30+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -129,7 +157,35 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
       "firstSeen": "2026-08-21T17:21:30+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-21",
+      "time": "16:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-21T17:21:30+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-23",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-23&seats=2",
+      "firstSeen": "2026-08-21T17:21:30+00:00",
+      "new": false
     },
     {
       "city": "boston",
@@ -370,62 +426,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-21",
-      "time": "16:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-21T16:30:32+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "little-pearl",
-      "name": "Little Pearl",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American tasting menu",
-      "date": "2026-08-21",
-      "time": "18:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-21T16:30:32+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "little-pearl",
-      "name": "Little Pearl",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American tasting menu",
-      "date": "2026-08-21",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-21T16:30:32+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
-      "date": "2026-08-22",
-      "time": "19:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-21T16:30:32+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "the-brooklyn",
       "name": "The Brooklyn",
@@ -604,6 +604,48 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-21T16:30:32+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-21",
+      "time": "16:00",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-21T16:30:32+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American tasting menu",
+      "date": "2026-08-21",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-08-21&seats=2",
+      "firstSeen": "2026-08-21T16:30:32+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-08-22",
+      "time": "19:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-21T16:30:32+00:00",
       "new": false
     },
@@ -2736,20 +2778,6 @@
       "new": false
     },
     {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
-      "date": "2026-08-22",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-20T15:05:46+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "the-brooklyn",
       "name": "The Brooklyn",
@@ -2771,34 +2799,6 @@
       "cuisine": "Greek taverna",
       "date": "2026-08-21",
       "time": "13:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-20T15:05:46+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-21",
-      "time": "13:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
-      "firstSeen": "2026-08-20T15:05:46+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-08-21",
-      "time": "13:45",
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-08-21&seats=2",
