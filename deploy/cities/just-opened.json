@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-22T16:15:26+00:00",
+  "generated": "2026-08-22T16:47:32+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 1,
+  "new": 2,
   "items": [
     {
       "city": "nyc",
@@ -11,12 +11,26 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
+      "date": "2026-08-23",
+      "time": "16:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-23&seats=2",
+      "firstSeen": "2026-08-22T16:47:32+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
       "date": "2026-08-24",
-      "time": "21:15",
-      "type": "Bar",
+      "time": "21:30",
+      "type": "Patio",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-22T16:15:26+00:00",
+      "firstSeen": "2026-08-22T16:47:32+00:00",
       "new": true
     },
     {
@@ -2789,20 +2803,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-24&seats=2",
       "firstSeen": "2026-08-22T02:11:51+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "omakase-room-by-tadayoshi",
-      "name": "Omakase Room by Tadayoshi",
-      "neighborhood": "Downtown",
-      "cuisine": "Japanese omakase (20-course, 12-seat counter)",
-      "date": "2026-08-22",
-      "time": "17:30",
-      "type": "Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/omakase-room-by-tadayoshi?date=2026-08-22&seats=2",
-      "firstSeen": "2026-08-21T19:45:52+00:00",
       "new": false
     }
   ]
