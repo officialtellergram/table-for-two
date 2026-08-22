@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T21:44:00+00:00",
+  "generated": "2026-08-22T22:14:26+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
@@ -7,16 +7,58 @@
   "items": [
     {
       "city": "nyc",
-      "spotId": "carbone",
-      "name": "Carbone",
-      "neighborhood": "Greenwich Village",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
       "cuisine": "Italian",
       "date": "2026-08-23",
-      "time": "11:30",
-      "type": "Lunch",
+      "time": "12:15",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-23&seats=2",
-      "firstSeen": "2026-08-22T21:44:00+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-23&seats=2",
+      "firstSeen": "2026-08-22T22:14:26+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-22",
+      "time": "20:30",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-22T22:14:26+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-22",
+      "time": "20:45",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-22T22:14:26+00:00",
+      "new": true
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-22",
+      "time": "21:00",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-22&seats=2",
+      "firstSeen": "2026-08-22T22:14:26+00:00",
       "new": true
     },
     {
@@ -26,11 +68,11 @@
       "neighborhood": "Flatiron",
       "cuisine": "Korean BBQ / Steakhouse",
       "date": "2026-08-24",
-      "time": "23:00",
+      "time": "22:45",
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-22T21:44:00+00:00",
+      "firstSeen": "2026-08-22T22:14:26+00:00",
       "new": true
     },
     {
@@ -45,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-22T21:44:00+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -59,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-22T21:44:00+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -73,7 +115,21 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-22&seats=2",
       "firstSeen": "2026-08-22T21:44:00+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-24",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-24&seats=2",
+      "firstSeen": "2026-08-22T21:44:00+00:00",
+      "new": false
     },
     {
       "city": "richmond",
@@ -2743,62 +2799,6 @@
       "cuisine": "Japanese / Omakase",
       "date": "2026-08-24",
       "time": "18:00",
-      "type": "Omakase",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-22T07:52:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-24",
-      "time": "18:00",
-      "type": "Sun Room",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-22T07:52:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-24",
-      "time": "18:00",
-      "type": "Sushi Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-22T07:52:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-24",
-      "time": "18:15",
-      "type": "Cocktail Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-22T07:52:48+00:00",
-      "new": false
-    },
-    {
-      "city": "houston",
-      "spotId": "katami",
-      "name": "Katami",
-      "neighborhood": "Montrose",
-      "cuisine": "Japanese / Omakase",
-      "date": "2026-08-24",
-      "time": "18:15",
       "type": "Omakase",
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-24&seats=2",
