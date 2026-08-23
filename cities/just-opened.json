@@ -1,10 +1,24 @@
 {
-  "generated": "2026-08-23T12:24:20+00:00",
+  "generated": "2026-08-23T13:52:06+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 2,
+  "new": 1,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "carbone",
+      "name": "Carbone",
+      "neighborhood": "Greenwich Village",
+      "cuisine": "Italian",
+      "date": "2026-08-23",
+      "time": "23:15",
+      "type": "Dinner",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/carbone?date=2026-08-23&seats=2",
+      "firstSeen": "2026-08-23T13:52:06+00:00",
+      "new": true
+    },
     {
       "city": "richmond",
       "spotId": "the-brooklyn",
@@ -17,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-08-23&seats=2",
       "firstSeen": "2026-08-23T12:24:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -31,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
       "firstSeen": "2026-08-23T12:24:20+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -2785,20 +2799,6 @@
       "cuisine": "Northern Italian",
       "date": "2026-08-25",
       "time": "10:15",
-      "type": "Breakfast",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-25&seats=2",
-      "firstSeen": "2026-08-23T03:28:09+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "contessa",
-      "name": "Contessa",
-      "neighborhood": "Back Bay",
-      "cuisine": "Northern Italian",
-      "date": "2026-08-25",
-      "time": "10:30",
       "type": "Breakfast",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-08-25&seats=2",
