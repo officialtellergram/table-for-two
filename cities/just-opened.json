@@ -1,10 +1,80 @@
 {
-  "generated": "2026-08-24T20:21:17+00:00",
+  "generated": "2026-08-24T20:56:39+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 16,
+  "new": 5,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-24",
+      "time": "21:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-25",
+      "time": "17:30",
+      "type": "Restaurant Week",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": true
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-25",
+      "time": "17:45",
+      "type": "Restaurant Week",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-25",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-25",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,21 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-26",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,7 +101,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -59,7 +115,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -73,7 +129,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +143,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/omakase-barracks-row?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -101,7 +157,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -115,7 +171,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -129,7 +185,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -143,7 +199,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -157,7 +213,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -171,7 +227,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -185,7 +241,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -199,7 +255,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -213,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -227,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -241,76 +297,6 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
       "firstSeen": "2026-08-24T19:52:26+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-24",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T19:23:01+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-24",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T19:23:01+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-24",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T19:23:01+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-24",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T19:23:01+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sarma",
-      "name": "Sarma",
-      "neighborhood": "Somerville",
-      "cuisine": "Eastern Mediterranean meze",
-      "date": "2026-08-24",
-      "time": "21:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T19:23:01+00:00",
       "new": false
     },
     {
@@ -664,59 +650,45 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
       "date": "2026-08-24",
-      "time": "17:15",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T18:32:08+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-26",
       "time": "21:00",
-      "type": "Restaurant Week",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-24T18:32:08+00:00",
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
+      "firstSeen": "2026-08-24T19:23:01+00:00",
       "new": false
     },
     {
-      "city": "richmond",
-      "spotId": "omakase-at-nami",
-      "name": "Omakase at Nami",
-      "neighborhood": "Downtown / Shockoe Slip",
-      "cuisine": "Japanese omakase",
-      "date": "2026-08-26",
-      "time": "19:45",
-      "type": "Omakase Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-24T17:55:57+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
       "date": "2026-08-24",
-      "time": "20:45",
-      "type": "Patio",
+      "time": "21:15",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T17:55:57+00:00",
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
+      "firstSeen": "2026-08-24T19:23:01+00:00",
+      "new": false
+    },
+    {
+      "city": "boston",
+      "spotId": "sarma",
+      "name": "Sarma",
+      "neighborhood": "Somerville",
+      "cuisine": "Eastern Mediterranean meze",
+      "date": "2026-08-24",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
+      "firstSeen": "2026-08-24T19:23:01+00:00",
       "new": false
     },
     {
@@ -814,6 +786,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T17:55:57+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "omakase-at-nami",
+      "name": "Omakase at Nami",
+      "neighborhood": "Downtown / Shockoe Slip",
+      "cuisine": "Japanese omakase",
+      "date": "2026-08-26",
+      "time": "19:45",
+      "type": "Omakase Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T17:55:57+00:00",
       "new": false
     },
@@ -2624,20 +2610,6 @@
       "new": false
     },
     {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-08-24",
-      "time": "18:30",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T14:34:14+00:00",
-      "new": false
-    },
-    {
       "city": "nyc",
       "spotId": "lilia",
       "name": "Lilia",
@@ -2676,6 +2648,20 @@
       "type": "Indoor",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T14:34:14+00:00",
+      "new": false
+    },
+    {
+      "city": "richmond",
+      "spotId": "alewife",
+      "name": "Alewife",
+      "neighborhood": "Church Hill",
+      "cuisine": "Chesapeake / Mid-Atlantic seafood",
+      "date": "2026-08-24",
+      "time": "18:30",
+      "type": "Dining room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-08-24&seats=2",
       "firstSeen": "2026-08-24T14:34:14+00:00",
       "new": false
     },
@@ -2803,6 +2789,20 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T02:19:12+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "pineapple-and-pearls",
+      "name": "Pineapple and Pearls",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American fine-dining prix-fixe",
+      "date": "2026-08-26",
+      "time": "18:00",
+      "type": "Bar Full Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-26&seats=2",
+      "firstSeen": "2026-08-24T00:52:18+00:00",
       "new": false
     }
   ]
