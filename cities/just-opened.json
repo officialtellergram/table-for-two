@@ -1,50 +1,22 @@
 {
-  "generated": "2026-08-24T20:56:39+00:00",
+  "generated": "2026-08-24T21:25:27+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 5,
+  "new": 1,
   "items": [
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-24",
-      "time": "21:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T20:56:39+00:00",
-      "new": true
-    },
-    {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-25",
-      "time": "17:30",
+      "date": "2026-08-26",
+      "time": "19:30",
       "type": "Restaurant Week",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
-      "firstSeen": "2026-08-24T20:56:39+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-25",
-      "time": "17:45",
-      "type": "Restaurant Week",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
-      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-26&seats=2",
+      "firstSeen": "2026-08-24T21:25:27+00:00",
       "new": true
     },
     {
@@ -59,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:56:39+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -73,7 +45,49 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:56:39+00:00",
-      "new": true
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-24",
+      "time": "21:15",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-25",
+      "time": "17:30",
+      "type": "Restaurant Week",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-25",
+      "time": "17:45",
+      "type": "Restaurant Week",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-24T20:56:39+00:00",
+      "new": false
     },
     {
       "city": "nyc",
@@ -128,20 +142,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "omakase-at-barracks-row",
-      "name": "Omakase @ Barracks Row",
-      "neighborhood": "Barracks Row",
-      "cuisine": "Edomae sushi omakase",
-      "date": "2026-08-26",
-      "time": "20:15",
-      "type": "Omakase seating",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/omakase-barracks-row?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
       "new": false
     },
@@ -283,20 +283,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-24T20:21:17+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-24",
-      "time": "21:15",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T19:52:26+00:00",
       "new": false
     },
     {
@@ -636,20 +622,6 @@
       "new": false
     },
     {
-      "city": "dc",
-      "spotId": "roses-luxury",
-      "name": "Rose's Luxury",
-      "neighborhood": "Capitol Hill",
-      "cuisine": "New American, family-style",
-      "date": "2026-08-26",
-      "time": "18:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-24T19:23:01+00:00",
-      "new": false
-    },
-    {
       "city": "boston",
       "spotId": "sarma",
       "name": "Sarma",
@@ -688,6 +660,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-08-24&seats=2",
+      "firstSeen": "2026-08-24T19:23:01+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "roses-luxury",
+      "name": "Rose's Luxury",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American, family-style",
+      "date": "2026-08-26",
+      "time": "18:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/roses-luxury?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-24T19:23:01+00:00",
       "new": false
     },
@@ -2666,20 +2652,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-24",
-      "time": "21:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-24&seats=2",
-      "firstSeen": "2026-08-24T07:35:14+00:00",
-      "new": false
-    },
-    {
       "city": "houston",
       "spotId": "katami",
       "name": "Katami",
@@ -2799,6 +2771,34 @@
       "cuisine": "New American fine-dining prix-fixe",
       "date": "2026-08-26",
       "time": "18:00",
+      "type": "Bar Full Dining",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-26&seats=2",
+      "firstSeen": "2026-08-24T00:52:18+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "pineapple-and-pearls",
+      "name": "Pineapple and Pearls",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American fine-dining prix-fixe",
+      "date": "2026-08-26",
+      "time": "18:00",
+      "type": "Chef's Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-26&seats=2",
+      "firstSeen": "2026-08-24T00:52:18+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "pineapple-and-pearls",
+      "name": "Pineapple and Pearls",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "New American fine-dining prix-fixe",
+      "date": "2026-08-26",
+      "time": "18:15",
       "type": "Bar Full Dining",
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-26&seats=2",
