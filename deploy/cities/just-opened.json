@@ -1,10 +1,24 @@
 {
-  "generated": "2026-08-25T19:53:38+00:00",
+  "generated": "2026-08-25T20:20:06+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 6,
+  "new": 1,
   "items": [
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-08-26",
+      "time": "21:00",
+      "type": "Restaurant Week",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-26&seats=2",
+      "firstSeen": "2026-08-25T20:20:06+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-25T19:53:38+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -31,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-25T19:53:38+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -45,21 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-25T19:53:38+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-08-26",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-25T19:53:38+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -73,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/pineapple-and-pearls?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-25T19:53:38+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -87,7 +87,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-25T19:53:38+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "nyc",
@@ -142,34 +142,6 @@
       "type": "Indoor",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-25&seats=2",
-      "firstSeen": "2026-08-25T18:28:59+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-25",
-      "time": "17:00",
-      "type": "Restaurant Week",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
-      "firstSeen": "2026-08-25T18:28:59+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-08-25",
-      "time": "17:15",
-      "type": "Restaurant Week",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-25T18:28:59+00:00",
       "new": false
     },
@@ -395,20 +367,6 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-25T17:05:10+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-26",
-      "time": "22:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-25T16:27:49+00:00",
       "new": false
     },
     {
@@ -2694,20 +2652,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-25",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-25&seats=2",
-      "firstSeen": "2026-08-25T02:14:46+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "metzger-bar-and-butchery",
       "name": "Metzger Bar & Butchery",
@@ -2803,6 +2747,62 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/metzger-bar-and-butchery?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-25T02:14:46+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-25",
+      "time": "23:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-25T02:14:46+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-27",
+      "time": "21:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-27&seats=2",
+      "firstSeen": "2026-08-25T00:52:09+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-27",
+      "time": "23:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-27&seats=2",
+      "firstSeen": "2026-08-25T00:52:09+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-08-28",
+      "time": "00:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-28&seats=2",
+      "firstSeen": "2026-08-25T00:52:09+00:00",
       "new": false
     }
   ]
