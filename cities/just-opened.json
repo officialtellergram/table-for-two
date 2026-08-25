@@ -1,10 +1,24 @@
 {
-  "generated": "2026-08-25T12:33:42+00:00",
+  "generated": "2026-08-25T13:42:28+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 4,
+  "new": 1,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-08-25",
+      "time": "12:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-25&seats=2",
+      "firstSeen": "2026-08-25T13:42:28+00:00",
+      "new": true
+    },
     {
       "city": "nyc",
       "spotId": "lilia",
@@ -17,7 +31,7 @@
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-25T12:33:42+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -31,7 +45,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-25T12:33:42+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -45,7 +59,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-25T12:33:42+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "dc",
@@ -59,7 +73,7 @@
       "party": 2,
       "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-25T12:33:42+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -2788,20 +2802,6 @@
       "type": "DINING ROOM",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-08-25&seats=2",
-      "firstSeen": "2026-08-25T02:14:46+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-08-25",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-08-25&seats=2",
       "firstSeen": "2026-08-25T02:14:46+00:00",
       "new": false
     }
