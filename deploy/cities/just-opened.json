@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T06:56:41+00:00",
+  "generated": "2026-08-26T07:42:36+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
@@ -2260,20 +2260,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-26",
-      "time": "21:15",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-26T03:31:24+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
       "spotId": "pineapple-and-pearls",
       "name": "Pineapple and Pearls",
@@ -2788,6 +2774,20 @@
       "type": "PATIO",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-08-28&seats=2",
+      "firstSeen": "2026-08-26T03:31:24+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-26",
+      "time": "21:15",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-26T03:31:24+00:00",
       "new": false
     },
