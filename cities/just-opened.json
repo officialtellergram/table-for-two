@@ -1,24 +1,10 @@
 {
-  "generated": "2026-08-26T11:54:12+00:00",
+  "generated": "2026-08-26T12:37:08+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 1,
+  "new": 0,
   "items": [
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-08-28",
-      "time": "21:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-28&seats=2",
-      "firstSeen": "2026-08-26T11:54:12+00:00",
-      "new": true
-    },
     {
       "city": "houston",
       "spotId": "katami",
@@ -128,20 +114,6 @@
       "type": "Sun Room",
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-08-26&seats=2",
-      "firstSeen": "2026-08-26T05:27:16+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "via-carota",
-      "name": "Via Carota",
-      "neighborhood": "West Village",
-      "cuisine": "Italian",
-      "date": "2026-08-26",
-      "time": "13:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-08-26&seats=2",
       "firstSeen": "2026-08-26T05:27:16+00:00",
       "new": false
     },
@@ -2803,6 +2775,34 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-08-27&seats=2",
       "firstSeen": "2026-08-26T03:31:24+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-26",
+      "time": "21:15",
+      "type": "Indoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-26&seats=2",
+      "firstSeen": "2026-08-26T03:31:24+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-08-28",
+      "time": "16:45",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-08-28&seats=2",
+      "firstSeen": "2026-08-26T00:53:24+00:00",
       "new": false
     }
   ]
