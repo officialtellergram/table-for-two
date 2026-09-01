@@ -198,8 +198,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "32 days",
-      "bookingWindowDays": 32,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": false,
       "walkIn": {
         "doors": "",
@@ -1216,8 +1216,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM (Midnight) CT",
       "releaseDay": "",
-      "bookingWindow": "88 days",
-      "bookingWindowDays": 88,
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
       "walkIns": true,
       "walkIn": {
         "doors": "Downstairs dining room is first-come; opens for lunch",
