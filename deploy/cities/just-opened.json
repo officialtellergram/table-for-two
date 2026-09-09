@@ -1,10 +1,24 @@
 {
-  "generated": "2026-09-09T06:15:13+00:00",
+  "generated": "2026-09-09T11:38:34+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
   "new": 0,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "via-carota",
+      "name": "Via Carota",
+      "neighborhood": "West Village",
+      "cuisine": "Italian",
+      "date": "2026-09-09",
+      "time": "12:30",
+      "type": "Outdoor",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/via-carota?date=2026-09-09&seats=2",
+      "firstSeen": "2026-09-09T11:38:34+00:00",
+      "new": false
+    },
     {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
@@ -1616,20 +1630,6 @@
       "new": false
     },
     {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-09-09",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-09-09&seats=2",
-      "firstSeen": "2026-09-08T23:29:29+00:00",
-      "new": false
-    },
-    {
       "city": "richmond",
       "spotId": "the-roosevelt",
       "name": "The Roosevelt",
@@ -1640,6 +1640,20 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-09&seats=2",
+      "firstSeen": "2026-09-08T23:29:29+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-09-09",
+      "time": "22:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-09-09&seats=2",
       "firstSeen": "2026-09-08T23:29:29+00:00",
       "new": false
     },
@@ -2788,20 +2802,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-10&seats=2",
-      "firstSeen": "2026-09-08T14:40:31+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-09",
-      "time": "19:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-09&seats=2",
       "firstSeen": "2026-09-08T14:40:31+00:00",
       "new": false
     }
