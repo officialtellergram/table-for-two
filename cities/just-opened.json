@@ -1,232 +1,1562 @@
 {
-  "generated": "2026-09-11T19:22:50+00:00",
+  "generated": "2026-09-11T21:48:51+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 97,
+  "new": 111,
   "items": [
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:00",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:00",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:15",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:15",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:15",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:30",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-11",
-      "time": "16:45",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-12",
-      "time": "16:45",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
     {
       "city": "nyc",
       "spotId": "cote",
       "name": "Cote Korean Steakhouse",
       "neighborhood": "Flatiron",
       "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-09-11",
-      "time": "17:00",
+      "date": "2026-09-12",
+      "time": "23:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-09-11",
-      "time": "17:30",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
       "new": true
     },
     {
       "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-11",
-      "time": "17:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-11",
-      "time": "19:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-11",
-      "time": "19:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-11",
-      "time": "19:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
+      "spotId": "the-brooklyn",
+      "name": "The Brooklyn",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Wood-fired American / wine & cocktail bar",
       "date": "2026-09-11",
       "time": "21:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
+      "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-09-12",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-09-12",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "the-roosevelt",
+      "name": "The Roosevelt",
+      "neighborhood": "Church Hill",
+      "cuisine": "Modern Southern / Appalachian",
+      "date": "2026-09-12",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "grisette",
+      "name": "Grisette",
+      "neighborhood": "Church Hill",
+      "cuisine": "French bouchon / Lyonnais",
+      "date": "2026-09-12",
+      "time": "17:00",
+      "type": "PATIO",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-09-12",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "richmond",
+      "spotId": "slack-tide-fish-co",
+      "name": "Slack Tide Fish Co.",
+      "neighborhood": "Scott's Addition",
+      "cuisine": "Global coastal seafood",
+      "date": "2026-09-12",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "kava-neo-taverna",
+      "name": "Kava Neo-Taverna",
+      "neighborhood": "South End",
+      "cuisine": "Greek taverna",
+      "date": "2026-09-11",
+      "time": "18:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "avra-estiatorio",
+      "name": "Avra Estiatorio",
+      "neighborhood": "Back Bay",
+      "cuisine": "Greek / Mediterranean seafood",
+      "date": "2026-09-11",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "avra-estiatorio",
+      "name": "Avra Estiatorio",
+      "neighborhood": "Back Bay",
+      "cuisine": "Greek / Mediterranean seafood",
+      "date": "2026-09-12",
+      "time": "16:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "avra-estiatorio",
+      "name": "Avra Estiatorio",
+      "neighborhood": "Back Bay",
+      "cuisine": "Greek / Mediterranean seafood",
+      "date": "2026-09-13",
+      "time": "18:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-12",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "07:00",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "07:15",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "07:30",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "07:45",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "08:00",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "08:15",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "08:30",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "08:45",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "09:00",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "09:15",
+      "type": "BRUNCH",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "contessa",
+      "name": "Contessa",
+      "neighborhood": "Back Bay",
+      "cuisine": "Northern Italian",
+      "date": "2026-09-13",
+      "time": "22:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-12",
+      "time": "22:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:00",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:15",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "17:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:00",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:15",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "18:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "19:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "19:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "19:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "19:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:15",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "20:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:00",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:00",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:15",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:15",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:30",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:45",
+      "type": "Bar Seat",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "la-padrona",
+      "name": "La Padrona",
+      "neighborhood": "Back Bay",
+      "cuisine": "Regional Italian",
+      "date": "2026-09-13",
+      "time": "21:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "sushi-temple-records",
+      "name": "Sushi @ Temple Records",
+      "neighborhood": "Downtown Crossing",
+      "cuisine": "Japanese sushi / omakase",
+      "date": "2026-09-11",
+      "time": "19:30",
+      "type": "Sushi Counter",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "18:00",
+      "type": "DINING ROOM",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "18:00",
+      "type": "Outdoor Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "18:15",
+      "type": "Outdoor Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "18:30",
+      "type": "Outdoor Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "18:45",
+      "type": "Outdoor Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "type": "Outdoor Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "19:15",
+      "type": "Outdoor Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "boston",
+      "spotId": "field-and-vine",
+      "name": "Field & Vine",
+      "neighborhood": "Union Square (Somerville)",
+      "cuisine": "New American farm-to-table",
+      "date": "2026-09-11",
+      "time": "19:30",
+      "type": "Outdoor Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/boston-ma/venues/field-and-vine?date=2026-09-11&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-12",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-12",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-12",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-12",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-12&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "12:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "12:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "12:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "12:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "13:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "13:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "14:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "14:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "14:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "14:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "15:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "15:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "16:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "16:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "20:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "20:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "20:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "21:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
+      "new": true
+    },
+    {
+      "city": "houston",
+      "spotId": "kata-robata-omakase",
+      "name": "Kata Robata (Omakase)",
+      "neighborhood": "Upper Kirby",
+      "cuisine": "Japanese Omakase",
+      "date": "2026-09-13",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/houston-tx/venues/kata-robata?date=2026-09-13&seats=2",
+      "firstSeen": "2026-09-11T21:48:51+00:00",
       "new": true
     },
     {
@@ -241,7 +1571,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -255,7 +1585,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -269,7 +1599,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -283,7 +1613,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -297,7 +1627,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -311,7 +1641,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -325,7 +1655,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -339,7 +1669,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -353,7 +1683,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -367,7 +1697,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +1711,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -395,7 +1725,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -409,7 +1739,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -423,7 +1753,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -437,7 +1767,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -451,7 +1781,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -465,7 +1795,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -479,7 +1809,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -493,7 +1823,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -507,7 +1837,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -521,7 +1851,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -535,7 +1865,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -549,7 +1879,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -563,7 +1893,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -577,7 +1907,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -591,7 +1921,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -605,7 +1935,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -619,7 +1949,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -633,7 +1963,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -647,7 +1977,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -661,7 +1991,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -675,7 +2005,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -689,7 +2019,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -703,7 +2033,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -717,7 +2047,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -731,7 +2061,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -745,7 +2075,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -759,7 +2089,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -773,7 +2103,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -787,7 +2117,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -801,7 +2131,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -815,7 +2145,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -829,7 +2159,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -843,7 +2173,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -857,7 +2187,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -871,7 +2201,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -885,7 +2215,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -899,7 +2229,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -913,7 +2243,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -927,7 +2257,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -941,7 +2271,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -955,7 +2285,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -969,21 +2299,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-12",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -997,21 +2313,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-12",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1025,7 +2327,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1039,7 +2341,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1053,7 +2355,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1067,7 +2369,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1081,7 +2383,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1095,7 +2397,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1109,7 +2411,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1123,7 +2425,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1137,7 +2439,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1151,7 +2453,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1165,7 +2467,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1179,7 +2481,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1193,7 +2495,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1207,7 +2509,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1221,7 +2523,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1235,7 +2537,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1249,7 +2551,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1263,7 +2565,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1277,7 +2579,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1291,7 +2593,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1305,7 +2607,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1319,7 +2621,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1333,7 +2635,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1347,7 +2649,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -1361,62 +2663,6 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T19:22:50+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-12",
-      "time": "16:00",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-11T16:39:10+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-09-11",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T16:39:10+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-09-11",
-      "time": "21:00",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T16:39:10+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-09-11",
-      "time": "21:15",
-      "type": "Dōgon Lounge",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-11T12:16:55+00:00",
       "new": false
     },
     {
@@ -1557,1252 +2803,6 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-09-13",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "15:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "15:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "15:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "15:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "16:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "16:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "16:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "16:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "17:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "17:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "17:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "17:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "18:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "18:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "18:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "18:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "19:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "19:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "19:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "19:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "20:00",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "20:15",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "20:30",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "lillian",
-      "name": "Lillian",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Ecuadorian-inspired raw bar / seafood",
-      "date": "2026-09-13",
-      "time": "20:45",
-      "type": "Dining Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/lillian?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "10:30",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "10:45",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "11:00",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "11:15",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "11:30",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "11:45",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "12:00",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "12:15",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "12:30",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "12:45",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "13:00",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "13:15",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "alewife",
-      "name": "Alewife",
-      "neighborhood": "Church Hill",
-      "cuisine": "Chesapeake / Mid-Atlantic seafood",
-      "date": "2026-09-13",
-      "time": "13:30",
-      "type": "Dining room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/alewife?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-11T02:24:02+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-09-12",
-      "time": "00:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-09-12",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "dc",
-      "spotId": "dogon-by-kwame-onwuachi",
-      "name": "Dōgon by Kwame Onwuachi",
-      "neighborhood": "Southwest Waterfront",
-      "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-09-12",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-11",
-      "time": "17:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-11",
-      "time": "17:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "richmond",
-      "spotId": "slack-tide-fish-co",
-      "name": "Slack Tide Fish Co.",
-      "neighborhood": "Scott's Addition",
-      "cuisine": "Global coastal seafood",
-      "date": "2026-09-11",
-      "time": "17:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/slack-tide?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "15:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "15:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "16:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "16:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "16:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "16:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "16:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "17:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "22:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "22:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-11",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T23:36:07+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "21:30",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "21:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "21:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "21:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "21:45",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:00",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:00",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:15",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:15",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:30",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-11",
-      "time": "22:45",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "21:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:00",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:15",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:30",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:45",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-09-11",
-      "time": "17:00",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-09-11",
-      "time": "17:15",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-09-11",
-      "time": "17:30",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-09-11",
-      "time": "17:45",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
-      "new": false
-    },
-    {
-      "city": "boston",
-      "spotId": "sushi-temple-records",
-      "name": "Sushi @ Temple Records",
-      "neighborhood": "Downtown Crossing",
-      "cuisine": "Japanese sushi / omakase",
-      "date": "2026-09-11",
-      "time": "18:00",
-      "type": "Sushi Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/sushi-temple-records?date=2026-09-11&seats=2",
-      "firstSeen": "2026-09-10T12:19:40+00:00",
       "new": false
     }
   ]
