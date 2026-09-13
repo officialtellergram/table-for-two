@@ -1,23 +1,261 @@
 {
-  "generated": "2026-09-12T23:50:29+00:00",
+  "generated": "2026-09-13T07:52:39+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
-  "new": 39,
+  "new": 0,
   "items": [
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-09-15",
+      "time": "21:30",
+      "type": "Bar",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "lilia",
+      "name": "Lilia",
+      "neighborhood": "Williamsburg",
+      "cuisine": "Italian",
+      "date": "2026-09-15",
+      "time": "21:30",
+      "type": "Patio",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
     {
       "city": "dc",
       "spotId": "dogon-by-kwame-onwuachi",
       "name": "Dōgon by Kwame Onwuachi",
       "neighborhood": "Southwest Waterfront",
       "cuisine": "Afro-Caribbean / Pan-African",
-      "date": "2026-09-12",
+      "date": "2026-09-15",
+      "time": "17:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "17:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "17:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "17:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "19:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "19:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
       "time": "21:00",
       "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:00",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:15",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:15",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:30",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:30",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:30",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:45",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:45",
+      "type": "Dōgon Lounge",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "dogon-by-kwame-onwuachi",
+      "name": "Dōgon by Kwame Onwuachi",
+      "neighborhood": "Southwest Waterfront",
+      "cuisine": "Afro-Caribbean / Pan-African",
+      "date": "2026-09-15",
+      "time": "21:45",
+      "type": "High Top",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/dogon-by-kwame-onwuachi?date=2026-09-15&seats=2",
+      "firstSeen": "2026-09-13T07:52:39+00:00",
+      "new": false
     },
     {
       "city": "richmond",
@@ -31,7 +269,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -45,7 +283,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -59,7 +297,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -73,7 +311,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -87,7 +325,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -101,91 +339,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-brooklyn?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-09-12",
-      "time": "20:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-09-12",
-      "time": "20:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-09-12",
-      "time": "20:45",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "the-roosevelt",
-      "name": "The Roosevelt",
-      "neighborhood": "Church Hill",
-      "cuisine": "Modern Southern / Appalachian",
-      "date": "2026-09-12",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-12",
-      "time": "21:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "richmond",
-      "spotId": "grisette",
-      "name": "Grisette",
-      "neighborhood": "Church Hill",
-      "cuisine": "French bouchon / Lyonnais",
-      "date": "2026-09-12",
-      "time": "21:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/richmond-va/venues/grisette?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "richmond",
@@ -199,7 +353,7 @@
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/omakase-at-nami-ric?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -213,63 +367,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/sarma?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-12",
-      "time": "20:00",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-12",
-      "time": "20:15",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-12",
-      "time": "20:30",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "kava-neo-taverna",
-      "name": "Kava Neo-Taverna",
-      "neighborhood": "South End",
-      "cuisine": "Greek taverna",
-      "date": "2026-09-12",
-      "time": "20:45",
-      "type": "PATIO",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/kava-neo-taverna?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -283,7 +381,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -297,7 +395,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -311,7 +409,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -325,7 +423,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -339,7 +437,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -353,7 +451,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -367,7 +465,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -381,7 +479,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/avra-boston?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -395,7 +493,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -409,7 +507,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "boston",
@@ -423,77 +521,7 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/contessa?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "21:45",
-      "type": "Bar Seat",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:15",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:15",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:30",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "boston",
-      "spotId": "la-padrona",
-      "name": "La Padrona",
-      "neighborhood": "Back Bay",
-      "cuisine": "Regional Italian",
-      "date": "2026-09-12",
-      "time": "22:30",
-      "type": "High Top",
-      "party": 2,
-      "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -507,7 +535,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -521,7 +549,7 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
+      "new": false
     },
     {
       "city": "houston",
@@ -535,34 +563,6 @@
       "party": 2,
       "url": "https://resy.com/cities/houston-tx/venues/katami?date=2026-09-13&seats=2",
       "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "houston",
-      "spotId": "theodore-rex",
-      "name": "Theodore Rex",
-      "neighborhood": "Warehouse District / EaDo",
-      "cuisine": "New American",
-      "date": "2026-09-12",
-      "time": "21:30",
-      "type": "Kitchen Counter",
-      "party": 2,
-      "url": "https://resy.com/cities/houston-tx/venues/theodore-rex?date=2026-09-12&seats=2",
-      "firstSeen": "2026-09-12T23:50:29+00:00",
-      "new": true
-    },
-    {
-      "city": "nyc",
-      "spotId": "cote",
-      "name": "Cote Korean Steakhouse",
-      "neighborhood": "Flatiron",
-      "cuisine": "Korean BBQ / Steakhouse",
-      "date": "2026-09-13",
-      "time": "23:00",
-      "type": "Dining Room",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-09-13&seats=2",
-      "firstSeen": "2026-09-12T21:58:41+00:00",
       "new": false
     },
     {
