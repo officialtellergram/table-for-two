@@ -6,11 +6,6 @@
       "city": "boston",
       "obs": [
         {
-          "observedAt": "2026-08-30T13:47:34+00:00",
-          "horizonRaw": 29,
-          "scarcity": 0.767
-        },
-        {
           "observedAt": "2026-08-31T05:28:35+00:00",
           "horizonRaw": 29,
           "scarcity": 0.767
@@ -244,6 +239,11 @@
           "observedAt": "2026-09-16T22:54:56+00:00",
           "horizonRaw": 30,
           "scarcity": 0.613
+        },
+        {
+          "observedAt": "2026-09-17T04:48:35+00:00",
+          "horizonRaw": 29,
+          "scarcity": 0.6
         }
       ]
     },
@@ -252,11 +252,6 @@
       "loc": "boston-ma",
       "city": "boston",
       "obs": [
-        {
-          "observedAt": "2026-08-30T05:20:46+00:00",
-          "horizonRaw": 28,
-          "scarcity": 1.0
-        },
         {
           "observedAt": "2026-08-30T13:47:36+00:00",
           "horizonRaw": 28,
@@ -491,6 +486,11 @@
           "observedAt": "2026-09-16T22:54:57+00:00",
           "horizonRaw": 29,
           "scarcity": 1.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:37+00:00",
+          "horizonRaw": 28,
+          "scarcity": 1.0
         }
       ]
     },
@@ -499,11 +499,6 @@
       "loc": "boston-ma",
       "city": "boston",
       "obs": [
-        {
-          "observedAt": "2026-08-30T05:20:48+00:00",
-          "horizonRaw": 0,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-08-30T13:47:38+00:00",
           "horizonRaw": 0,
@@ -737,6 +732,11 @@
         {
           "observedAt": "2026-09-16T22:54:59+00:00",
           "horizonRaw": 1,
+          "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:41+00:00",
+          "horizonRaw": 0,
           "scarcity": 0.0
         }
       ]
@@ -14597,11 +14597,6 @@
       "city": "atlanta",
       "obs": [
         {
-          "observedAt": "2026-09-05T04:21:29+00:00",
-          "horizonRaw": 28,
-          "scarcity": 0.059
-        },
-        {
           "observedAt": "2026-09-05T11:49:00+00:00",
           "horizonRaw": 28,
           "scarcity": 0.059
@@ -14835,6 +14830,11 @@
           "observedAt": "2026-09-16T22:54:11+00:00",
           "horizonRaw": 29,
           "scarcity": 0.056
+        },
+        {
+          "observedAt": "2026-09-17T04:47:55+00:00",
+          "horizonRaw": 28,
+          "scarcity": 0.0
         }
       ]
     },
@@ -14843,11 +14843,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:30+00:00",
-          "horizonRaw": 27,
-          "scarcity": 0.062
-        },
         {
           "observedAt": "2026-09-05T11:49:01+00:00",
           "horizonRaw": 27,
@@ -15082,6 +15077,11 @@
           "observedAt": "2026-09-16T22:54:12+00:00",
           "horizonRaw": 28,
           "scarcity": 0.118
+        },
+        {
+          "observedAt": "2026-09-17T04:47:57+00:00",
+          "horizonRaw": 27,
+          "scarcity": 0.062
         }
       ]
     },
@@ -15090,11 +15090,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:31+00:00",
-          "horizonRaw": 56,
-          "scarcity": 0.049
-        },
         {
           "observedAt": "2026-09-05T11:49:03+00:00",
           "horizonRaw": 56,
@@ -15329,6 +15324,11 @@
           "observedAt": "2026-09-16T22:54:13+00:00",
           "horizonRaw": 45,
           "scarcity": 0.029
+        },
+        {
+          "observedAt": "2026-09-17T04:47:59+00:00",
+          "horizonRaw": 44,
+          "scarcity": 0.0
         }
       ]
     },
@@ -15337,11 +15337,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:33+00:00",
-          "horizonRaw": 56,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-05T11:49:04+00:00",
           "horizonRaw": 56,
@@ -15576,6 +15571,11 @@
           "observedAt": "2026-09-16T22:54:15+00:00",
           "horizonRaw": 45,
           "scarcity": 0.029
+        },
+        {
+          "observedAt": "2026-09-17T04:48:00+00:00",
+          "horizonRaw": 44,
+          "scarcity": 0.0
         }
       ]
     },
@@ -15584,11 +15584,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:34+00:00",
-          "horizonRaw": 95,
-          "scarcity": 0.032
-        },
         {
           "observedAt": "2026-09-05T11:49:06+00:00",
           "horizonRaw": 95,
@@ -15821,6 +15816,11 @@
         },
         {
           "observedAt": "2026-09-16T22:54:17+00:00",
+          "horizonRaw": 95,
+          "scarcity": 0.032
+        },
+        {
+          "observedAt": "2026-09-17T04:48:02+00:00",
           "horizonRaw": 95,
           "scarcity": 0.032
         }
@@ -16079,11 +16079,6 @@
       "city": "atlanta",
       "obs": [
         {
-          "observedAt": "2026-09-05T04:21:37+00:00",
-          "horizonRaw": 89,
-          "scarcity": 0.0
-        },
-        {
           "observedAt": "2026-09-05T11:49:09+00:00",
           "horizonRaw": 89,
           "scarcity": 0.0
@@ -16317,6 +16312,11 @@
           "observedAt": "2026-09-16T22:54:20+00:00",
           "horizonRaw": 89,
           "scarcity": 0.026
+        },
+        {
+          "observedAt": "2026-09-17T04:48:05+00:00",
+          "horizonRaw": 89,
+          "scarcity": 0.026
         }
       ]
     },
@@ -16325,11 +16325,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:38+00:00",
-          "horizonRaw": 29,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-05T11:49:10+00:00",
           "horizonRaw": 29,
@@ -16564,6 +16559,11 @@
           "observedAt": "2026-09-16T22:54:22+00:00",
           "horizonRaw": 29,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:07+00:00",
+          "horizonRaw": 29,
+          "scarcity": 0.0
         }
       ]
     },
@@ -16572,11 +16572,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:39+00:00",
-          "horizonRaw": 29,
-          "scarcity": 0.034
-        },
         {
           "observedAt": "2026-09-05T11:49:13+00:00",
           "horizonRaw": 29,
@@ -16811,6 +16806,11 @@
           "observedAt": "2026-09-16T22:54:23+00:00",
           "horizonRaw": 29,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:08+00:00",
+          "horizonRaw": 29,
+          "scarcity": 0.0
         }
       ]
     },
@@ -16819,11 +16819,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:41+00:00",
-          "horizonRaw": 56,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-05T11:49:15+00:00",
           "horizonRaw": 56,
@@ -17058,6 +17053,11 @@
           "observedAt": "2026-09-16T22:54:26+00:00",
           "horizonRaw": 59,
           "scarcity": 0.056
+        },
+        {
+          "observedAt": "2026-09-17T04:48:10+00:00",
+          "horizonRaw": 58,
+          "scarcity": 0.086
         }
       ]
     },
@@ -17066,11 +17066,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:43+00:00",
-          "horizonRaw": 26,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-05T11:49:16+00:00",
           "horizonRaw": 26,
@@ -17305,6 +17300,11 @@
           "observedAt": "2026-09-16T22:54:28+00:00",
           "horizonRaw": 24,
           "scarcity": 0.062
+        },
+        {
+          "observedAt": "2026-09-17T04:48:11+00:00",
+          "horizonRaw": 23,
+          "scarcity": 0.0
         }
       ]
     },
@@ -17313,11 +17313,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-05T04:21:44+00:00",
-          "horizonRaw": 59,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-05T11:49:19+00:00",
           "horizonRaw": 59,
@@ -17552,6 +17547,11 @@
           "observedAt": "2026-09-16T22:54:31+00:00",
           "horizonRaw": 59,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:14+00:00",
+          "horizonRaw": 58,
+          "scarcity": 0.0
         }
       ]
     },
@@ -17560,11 +17560,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-04T18:58:55+00:00",
-          "horizonRaw": 27,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-04T22:20:41+00:00",
           "horizonRaw": 27,
@@ -17799,6 +17794,11 @@
           "observedAt": "2026-09-16T22:54:33+00:00",
           "horizonRaw": 27,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:16+00:00",
+          "horizonRaw": 27,
+          "scarcity": 0.0
         }
       ]
     },
@@ -17807,11 +17807,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-04T18:58:58+00:00",
-          "horizonRaw": 57,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-04T22:20:44+00:00",
           "horizonRaw": 57,
@@ -18046,6 +18041,11 @@
           "observedAt": "2026-09-16T22:54:36+00:00",
           "horizonRaw": 59,
           "scarcity": 0.022
+        },
+        {
+          "observedAt": "2026-09-17T04:48:18+00:00",
+          "horizonRaw": 58,
+          "scarcity": 0.023
         }
       ]
     },
@@ -18054,11 +18054,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-04T12:42:23+00:00",
-          "horizonRaw": 57,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-04T18:58:59+00:00",
           "horizonRaw": 57,
@@ -18293,6 +18288,11 @@
           "observedAt": "2026-09-16T22:54:38+00:00",
           "horizonRaw": 45,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:20+00:00",
+          "horizonRaw": 44,
+          "scarcity": 0.0
         }
       ]
     },
@@ -18301,11 +18301,6 @@
       "loc": "atlanta-ga",
       "city": "atlanta",
       "obs": [
-        {
-          "observedAt": "2026-09-04T12:42:25+00:00",
-          "horizonRaw": 29,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-04T18:59:01+00:00",
           "horizonRaw": 29,
@@ -18540,6 +18535,11 @@
           "observedAt": "2026-09-16T22:54:40+00:00",
           "horizonRaw": 29,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:21+00:00",
+          "horizonRaw": 28,
+          "scarcity": 0.0
         }
       ]
     },
@@ -18548,11 +18548,6 @@
       "loc": "austin-tx",
       "city": "austin",
       "obs": [
-        {
-          "observedAt": "2026-09-04T04:26:15+00:00",
-          "horizonRaw": null,
-          "scarcity": null
-        },
         {
           "observedAt": "2026-09-04T12:42:26+00:00",
           "horizonRaw": null,
@@ -18787,6 +18782,11 @@
           "observedAt": "2026-09-16T22:54:41+00:00",
           "horizonRaw": null,
           "scarcity": null
+        },
+        {
+          "observedAt": "2026-09-17T04:48:23+00:00",
+          "horizonRaw": null,
+          "scarcity": null
         }
       ]
     },
@@ -18795,11 +18795,6 @@
       "loc": "austin-tx",
       "city": "austin",
       "obs": [
-        {
-          "observedAt": "2026-09-03T22:32:37+00:00",
-          "horizonRaw": 58,
-          "scarcity": 0.093
-        },
         {
           "observedAt": "2026-09-04T04:26:16+00:00",
           "horizonRaw": 57,
@@ -19034,6 +19029,11 @@
           "observedAt": "2026-09-16T22:54:43+00:00",
           "horizonRaw": 45,
           "scarcity": 0.059
+        },
+        {
+          "observedAt": "2026-09-17T04:48:24+00:00",
+          "horizonRaw": 44,
+          "scarcity": 0.03
         }
       ]
     },
@@ -19042,11 +19042,6 @@
       "loc": "austin-tx",
       "city": "austin",
       "obs": [
-        {
-          "observedAt": "2026-09-03T12:48:45+00:00",
-          "horizonRaw": 29,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-03T22:32:42+00:00",
           "horizonRaw": 30,
@@ -19281,6 +19276,11 @@
           "observedAt": "2026-09-16T22:54:48+00:00",
           "horizonRaw": 30,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:29+00:00",
+          "horizonRaw": 29,
+          "scarcity": 0.0
         }
       ]
     },
@@ -19289,11 +19289,6 @@
       "loc": "austin-tx",
       "city": "austin",
       "obs": [
-        {
-          "observedAt": "2026-09-01T22:35:56+00:00",
-          "horizonRaw": 60,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-09-02T04:27:25+00:00",
           "horizonRaw": 59,
@@ -19528,6 +19523,11 @@
           "observedAt": "2026-09-16T22:54:52+00:00",
           "horizonRaw": 45,
           "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:31+00:00",
+          "horizonRaw": 44,
+          "scarcity": 0.0
         }
       ]
     },
@@ -19536,11 +19536,6 @@
       "loc": "austin-tx",
       "city": "austin",
       "obs": [
-        {
-          "observedAt": "2026-09-01T19:23:29+00:00",
-          "horizonRaw": 29,
-          "scarcity": 0.12
-        },
         {
           "observedAt": "2026-09-01T22:35:58+00:00",
           "horizonRaw": 29,
@@ -19775,6 +19770,11 @@
           "observedAt": "2026-09-16T22:54:53+00:00",
           "horizonRaw": 29,
           "scarcity": 0.2
+        },
+        {
+          "observedAt": "2026-09-17T04:48:33+00:00",
+          "horizonRaw": 28,
+          "scarcity": 0.167
         }
       ]
     },
@@ -19783,11 +19783,6 @@
       "loc": "austin-tx",
       "city": "austin",
       "obs": [
-        {
-          "observedAt": "2026-08-31T16:08:57+00:00",
-          "horizonRaw": 44,
-          "scarcity": 0.0
-        },
         {
           "observedAt": "2026-08-31T21:28:21+00:00",
           "horizonRaw": 44,
@@ -20021,6 +20016,11 @@
         {
           "observedAt": "2026-09-16T22:54:55+00:00",
           "horizonRaw": 44,
+          "scarcity": 0.0
+        },
+        {
+          "observedAt": "2026-09-17T04:48:34+00:00",
+          "horizonRaw": 43,
           "scarcity": 0.0
         }
       ]
@@ -31970,5 +31970,5 @@
       ]
     }
   },
-  "updated": "2026-09-16"
+  "updated": "2026-09-17"
 }
