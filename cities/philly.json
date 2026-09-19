@@ -166,8 +166,8 @@
       "releaseSchedule": "calendar-month",
       "releaseTime": "12:00 AM (Midnight) ET",
       "releaseDay": "1st of the month",
-      "bookingWindow": "45 days",
-      "bookingWindowDays": 45,
+      "bookingWindow": "42 days",
+      "bookingWindowDays": 42,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -807,8 +807,8 @@
       "releaseSchedule": "calendar-month",
       "releaseTime": "12:00 AM (Midnight) ET",
       "releaseDay": "1st of the month",
-      "bookingWindow": "49 days",
-      "bookingWindowDays": 49,
+      "bookingWindow": "42 days",
+      "bookingWindowDays": 42,
       "walkIns": true,
       "walkIn": {
         "doors": "Bar/lounge",
@@ -2111,8 +2111,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "49 days",
-      "bookingWindowDays": 49,
+      "bookingWindow": "42 days",
+      "bookingWindowDays": 42,
       "walkIns": true,
       "walkIn": {
         "doors": "",
@@ -2511,8 +2511,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "49 days",
-      "bookingWindowDays": 49,
+      "bookingWindow": "42 days",
+      "bookingWindowDays": 42,
       "walkIns": true,
       "walkIn": {
         "doors": "",
