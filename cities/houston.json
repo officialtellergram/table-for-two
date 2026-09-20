@@ -2,7 +2,7 @@
   "meta": {
     "source": "curate.py",
     "city": "Houston, TX",
-    "count": 25,
+    "count": 23,
     "generated": "2026-06-25",
     "disclaimer": "Always confirm release times with the restaurant."
   },
@@ -36,7 +36,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "20-course edomae omakase by Chef Manabu 'Hori' Horiuchi",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -96,10 +96,11 @@
         "Reservations release at midnight, 14 days in advance (rolling)",
         "Resy only; no phone/email bookings",
         "Seatings Tue-Sat 6:00pm & 8:30pm, Sun 5:00pm & 7:30pm",
-        "Check Resy right at 12:00 AM CT for the day 14 days out"
+        "Check Resy right at 12:00 AM CT for the day 14 days out",
+        "VERIFY location – operating from temporary residency at Bar Moon (started June 2026 after car accident); original space under renovation"
       ],
       "signatureDish": "Edomae omakase (~$225pp)",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -154,7 +155,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Chef Hori omakase (fish flown from Japan multiple times weekly)",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -221,7 +222,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "17-course omakase at the sushi bar",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -274,74 +275,6 @@
       "photoAttr": "Resy"
     },
     {
-      "id": "march",
-      "name": "March",
-      "neighborhood": "Montrose",
-      "cuisine": "Mediterranean tasting menu",
-      "coordinates": {
-        "lat": 29.742874,
-        "lng": -95.4001634
-      },
-      "difficulty": 5,
-      "priceRange": "$$$$",
-      "platform": "OpenTable",
-      "platformUrl": "https://www.opentable.com/r/march-houston",
-      "website": "https://www.marchrestaurant.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "",
-      "releaseDay": "",
-      "bookingWindow": "60 days",
-      "bookingWindowDays": 60,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Rolling 60-day window; prime weekend slots vanish on release",
-        "28-seat tasting-menu-only room; also listed on OpenTable/Sapphire Reserve",
-        "Goodnight Hospitality; book exactly 60 days out",
-        "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
-      ],
-      "signatureDish": "Six- or nine-course Mediterranean tasting menu",
-      "lastVerified": "2026-08-29",
-      "availability": null,
-      "vibe": [
-        "special-occasion",
-        "romantic"
-      ],
-      "occasion": [
-        "impress",
-        "anniversary",
-        "celebration"
-      ],
-      "dateNote": "A special-occasion table worth the wait.",
-      "sources": [
-        {
-          "name": "Michelin",
-          "tier": "★",
-          "url": "https://guide.michelin.com/us/en/texas/houston_2986624/restaurants",
-          "note": "One MICHELIN Star, retained in MICHELIN Guide Texas 2025"
-        },
-        {
-          "name": "James Beard",
-          "tier": "Finalist 2026",
-          "url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
-          "note": "June Rodil, Outstanding Professional in Beverage Service nominee 2026; MARCH also a 2025 finalist for Outstanding Wine and Other Beverages Program"
-        },
-        {
-          "name": "Houston Chronicle",
-          "tier": "Top 100 (2025)",
-          "url": "https://www.houstonchronicle.com/project/top-100-restaurants-houston/",
-          "note": "Ranked No. 5 on the Chronicle's 2025 Top 100 restaurants list"
-        },
-        {
-          "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2026 — Restaurant of the Year finalist",
-          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-awards-best-restaurant-houston/"
-        }
-      ]
-    },
-    {
       "id": "tatemo",
       "name": "Tatemó",
       "neighborhood": "Spring Branch",
@@ -367,7 +300,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Heirloom-corn nixtamal tasting menu",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -437,7 +370,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Tomato toast",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -509,7 +442,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Char-grilled octopus; Iberian suckling pig",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -560,7 +493,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "Seafood tower; Dover sole",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -609,7 +542,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "7-course hand-roll (temaki) tasting",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -654,53 +587,6 @@
       "photoAttr": "Resy"
     },
     {
-      "id": "late-august",
-      "name": "Late August",
-      "neighborhood": "Midtown",
-      "cuisine": "Afro-Mexican",
-      "coordinates": {
-        "lat": 29.7340648,
-        "lng": -95.3822743
-      },
-      "difficulty": 4,
-      "priceRange": "$$$",
-      "platform": "Website",
-      "platformUrl": "https://www.lateaugusthtx.com/",
-      "website": "https://www.lateaugusthtx.com/",
-      "phoneNumber": "",
-      "releaseSchedule": "daily",
-      "releaseTime": "",
-      "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Option for à la carte or the 'surprise tasting'",
-        "Confirm Resy availability or contact directly",
-        "VERIFY release time",
-        "Not bookable on Resy — reserve via the website or by phone"
-      ],
-      "signatureDish": "Surprise tasting (Afro-Mexican)",
-      "lastVerified": "2026-08-29",
-      "availability": null,
-      "vibe": [
-        "special-occasion"
-      ],
-      "occasion": [
-        "anniversary",
-        "celebration"
-      ],
-      "dateNote": "A special-occasion table worth the wait.",
-      "sources": [
-        {
-          "name": "CultureMap Houston",
-          "tier": "Tastemaker Awards 2025 — Best New Restaurant nominee",
-          "url": "https://houston.culturemap.com/news/restaurants-bars/tastemaker-best-new-restaurant-tournament/"
-        }
-      ]
-    },
-    {
       "id": "le-jardinier",
       "name": "Le Jardinier",
       "neighborhood": "Museum District",
@@ -726,7 +612,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Seasonal vegetable-forward French tasting",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -782,7 +668,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Multi-course regional Indian tasting; Texas wagyu kofta",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -838,7 +724,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Texas tartare; ever-changing small plates",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "intimate",
@@ -887,7 +773,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "Gulf Coast-inflected bistro fare",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "romantic"
@@ -915,7 +801,7 @@
     {
       "id": "marigold-club",
       "name": "The Marigold Club",
-      "neighborhood": "The Heights",
+      "neighborhood": "Montrose",
       "cuisine": "British / French supper club",
       "coordinates": {
         "lat": 29.7433844,
@@ -941,7 +827,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "Caviar service; fried chicken & champagne Sundays",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion",
@@ -988,7 +874,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Hama chili; seasonal omakase",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1057,7 +943,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -1127,7 +1013,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Monthly Chef's Tasting menu",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
@@ -1193,7 +1079,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "Basque-style grilled fish; pintxos",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "intimate"
@@ -1246,7 +1132,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "Family-style market-driven menu",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "romantic",
@@ -1306,7 +1192,7 @@
         "VERIFY exact address and platform"
       ],
       "signatureDish": "Chocolate tasting experience",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "intimate",
@@ -1349,7 +1235,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "special-occasion"
@@ -1398,7 +1284,7 @@
         "Not bookable on Resy — reserve via the website or by phone"
       ],
       "signatureDish": "Modern Israeli mezze",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": null,
       "vibe": [
         "romantic"
@@ -1445,7 +1331,7 @@
         "VERIFY release time"
       ],
       "signatureDish": "Mississippi hot catfish sandwich; grilled redfish",
-      "lastVerified": "2026-08-29",
+      "lastVerified": "2026-09-20",
       "availability": {
         "checkedAt": "2026-06-25",
         "source": "resy",
