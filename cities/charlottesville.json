@@ -576,8 +576,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM (Midnight) ET",
       "releaseDay": "",
-      "bookingWindow": "",
-      "bookingWindowDays": null,
+      "bookingWindow": "92 days",
+      "bookingWindowDays": 92,
       "walkIns": true,
       "walkIn": {
         "doors": "",
