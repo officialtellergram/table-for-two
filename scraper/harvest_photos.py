@@ -23,6 +23,7 @@ Usage:
   python harvest_photos.py --all --refresh         # re-resolve existing photos
 """
 import argparse, json, re, sys, time
+from html import unescape
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -82,7 +83,10 @@ def og_photo(url, session):
         if r.status_code != 200 or "text/html" not in (r.headers.get("Content-Type") or ""):
             return None
         for m in OG_RE.finditer(r.text[:200_000]):
-            u = (m.group(1) or m.group(2) or "").strip()
+            # The regex reads the RAW attribute text, so &amp; arrives literally
+            # and poisons every URL with query params (a month of dead OpenTable
+            # resizer links taught us this). Decode entities before storing.
+            u = unescape((m.group(1) or m.group(2) or "").strip())
             if u.startswith("//"):
                 u = "https:" + u
             if u.startswith("http") and not BAD_IMG.search(u):
