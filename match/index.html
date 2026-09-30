@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0a0a0b" />
+<title>Table for Two — Tonight</title>
+<link rel="icon" type="image/png" href="../icons/favicon.png" />
+<meta name="description" content="Table for Two. It's where you're eating tonight." />
+<style>
+/* Tokens inherited verbatim from the main app — this is the same brand,
+   reframed. Dark is home; light honors the OS. */
+:root{
+  --bg:#0a0a0b; --panel:#101011; --panel2:#161618; --line:#212124; --line2:#34343a;
+  --txt:#f4f3f1; --muted:#8a8a90; --faint:#56565c;
+  --accent:#c9a86a; --accent2:#dcc28c; --good:#86b6a0; --soon:#cda766;
+  --resy:#c97078; --tock:#7d97bd; --opentable:#c87a68; --sevenrooms:#9b92c4;
+  --thefork:#4fbfa8; --covermanager:#a8b46b; --invite:#9a9aa0;
+  --onaccent:#15110a; --dot:#2c2c30; --radius:14px;
+  --nm:linear-gradient(94deg,#f4f3f1,#dcc28c 55%,#c9a86a);
+  --topglow:rgba(201,168,106,.08);
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root{
+  --bg:#f4f3ef; --panel:#fffffe; --panel2:#efece5; --line:#e5e1d8; --line2:#d3cec3;
+  --txt:#1b1a1c; --muted:#6f6c74; --faint:#a8a4ac;
+  --accent:#a8843c; --accent2:#937734; --good:#3f8068; --soon:#a8803a;
+  --resy:#bf4651; --tock:#3f6aa0; --opentable:#bf5641; --sevenrooms:#6c60b4;
+  --thefork:#0e8a72; --covermanager:#74812f; --invite:#7a7780;
+  --onaccent:#fffaf0; --dot:#d9d5cc;
+  --nm:linear-gradient(94deg,#2a2a2c,#9c7d3a 55%,#a8843c);
+  --topglow:rgba(168,132,60,.06);
+  color-scheme:light;
+}}
+*{box-sizing:border-box; margin:0}
+html,body{height:100%}
+body{
+  background:radial-gradient(900px 460px at 50% -14%, var(--topglow), transparent 64%), var(--bg);
+  color:var(--txt); -webkit-font-smoothing:antialiased; letter-spacing:-.1px; overflow-x:hidden;
+  font:15px/1.5 'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+.app{min-height:100dvh; max-width:520px; margin:0 auto; padding:0 18px calc(18px + env(safe-area-inset-bottom));
+  display:flex; flex-direction:column}
+header{display:flex; align-items:center; justify-content:space-between; padding:20px 2px 0}
+.wm{font-weight:500; font-size:13.5px; letter-spacing:3.2px; text-transform:uppercase;
+  background:var(--nm); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent}
+.cityBtn{font:inherit; font-size:12px; font-weight:600; color:var(--accent2); cursor:pointer;
+  background:color-mix(in srgb,var(--accent) 12%, transparent);
+  border:1px solid color-mix(in srgb,var(--accent) 26%, transparent); border-radius:20px; padding:5px 12px}
+
+.screen{display:none; flex:1; flex-direction:column}
+.screen.on{display:flex; animation:rise .35s ease}
+@keyframes rise{from{opacity:0; transform:translateY(10px)} to{opacity:1; transform:none}}
+
+/* ---------- landing ---------- */
+#sLanding{justify-content:center; text-align:center; gap:10px; padding-bottom:8vh}
+.mark{width:56px; height:56px; margin:0 auto 6px}
+.mark circle,.mark path,.mark line{stroke:var(--accent); fill:none; stroke-width:1.4; stroke-linecap:round}
+h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-wrap:balance}
+.tagline{font-size:15px; color:var(--muted)}
+.tagline b{color:var(--accent2); font-weight:600}
+.cityline{font-size:12.5px; color:var(--faint); min-height:18px; margin-top:6px}
+.swipers{display:flex; gap:8px; justify-content:center; margin-top:18px}
+.swiperN{width:46px; height:46px; border-radius:12px; font:inherit; font-size:15px; font-weight:600; cursor:pointer;
+  background:var(--panel); color:var(--muted); border:1px solid var(--line); transition:.15s}
+.swiperN[aria-pressed="true"]{background:var(--accent); color:var(--onaccent); border-color:transparent}
+.hint{font-size:11.5px; color:var(--faint); margin-top:4px}
+.cta{font:inherit; font-size:15px; font-weight:700; letter-spacing:.3px; cursor:pointer; margin-top:22px;
+  background:linear-gradient(180deg,var(--accent2),var(--accent)); color:var(--onaccent);
+  border:0; border-radius:14px; padding:16px 34px; align-self:center}
+.cta:active{transform:scale(.97)}
+.cta[disabled]{opacity:.45; pointer-events:none}
+
+/* ---------- quiz ---------- */
+#sQuiz{padding-top:5vh; gap:6px}
+.qstep{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent); font-weight:600}
+.qtitle{font-size:26px; font-weight:600; letter-spacing:-.6px; margin:6px 0 4px; text-wrap:balance}
+.qsub{font-size:13px; color:var(--muted); margin-bottom:16px}
+.chips{display:flex; flex-wrap:wrap; gap:9px}
+.chip{font:inherit; font-size:14px; font-weight:600; cursor:pointer; padding:12px 17px; border-radius:13px;
+  background:var(--panel); color:var(--txt); border:1px solid var(--line); transition:.15s}
+.chip:hover{border-color:var(--line2)}
+.chip[aria-pressed="true"]{background:var(--accent); color:var(--onaccent); border-color:transparent}
+.chip small{display:block; font-weight:400; font-size:11px; color:inherit; opacity:.75; margin-top:2px}
+.qnav{display:flex; gap:10px; margin-top:auto; padding-top:20px}
+.qback{font:inherit; font-size:13px; font-weight:600; color:var(--muted); background:none; border:1px solid var(--line);
+  border-radius:12px; padding:14px 18px; cursor:pointer}
+.qnext{flex:1}
+.qnext .cta{width:100%; margin-top:0}
+
+/* ---------- handoff ---------- */
+#sHand{justify-content:center; text-align:center; gap:14px; padding-bottom:8vh}
+.handName{font-size:32px; font-weight:600; letter-spacing:-.8px; color:var(--accent2)}
+
+/* ---------- deck ---------- */
+#sDeck{padding-top:8px}
+.deckTop{display:flex; align-items:baseline; justify-content:space-between; padding:4px 2px 10px}
+.deckWho{font-size:13px; font-weight:600; color:var(--accent2)}
+.deckLeft{font-size:11.5px; color:var(--faint); font-variant-numeric:tabular-nums}
+.stage{position:relative; flex:1; min-height:440px; touch-action:pan-x; user-select:none; -webkit-user-select:none}
+.deck-card{position:absolute; inset:0 0 8px; border-radius:18px; overflow:hidden; background:#0b0a09;
+  border:1px solid rgba(255,255,255,.14); box-shadow:0 14px 44px rgba(0,0,0,.42); will-change:transform;
+  display:flex; flex-direction:column; justify-content:flex-end; cursor:grab; isolation:isolate}
+.deck-card:active{cursor:grabbing}
+.dcimg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; pointer-events:none}
+.deck-card::after{content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:linear-gradient(to top, rgba(4,4,6,.95) 0%, rgba(4,4,6,.82) 22%, rgba(4,4,6,.42) 46%, rgba(4,4,6,.06) 70%, rgba(4,4,6,.30) 100%)}
+.dcbody{position:relative; z-index:2; padding:18px; color:#fff; pointer-events:none}
+.dcname{font-size:27px; font-weight:600; letter-spacing:-.7px; line-height:1.1;
+  text-shadow:0 1px 3px rgba(0,0,0,.95), 0 2px 16px rgba(0,0,0,.7)}
+.dcsub{font-size:13px; color:rgba(255,255,255,.88); margin-top:5px; text-shadow:0 1px 3px rgba(0,0,0,.9)}
+.dcrow{display:flex; align-items:center; gap:10px; margin-top:9px; font-size:12px; color:rgba(255,255,255,.75)}
+.diff{display:inline-flex; gap:3px}
+.diff i{width:5px; height:5px; border-radius:50%; background:rgba(255,255,255,.28)}
+.diff i.on{background:var(--accent2)}
+.dcnote{font-style:italic; font-size:12.5px; color:var(--accent2); margin-top:9px;
+  text-shadow:0 1px 3px rgba(0,0,0,.9); display:-webkit-box; -webkit-line-clamp:2; line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
+.dcvet{display:flex; gap:6px; margin-top:10px; flex-wrap:wrap}
+.dcvet span{font-size:10px; font-weight:600; letter-spacing:.4px; color:var(--accent2);
+  border:1px solid color-mix(in srgb,var(--accent2) 45%, transparent); background:rgba(0,0,0,.35);
+  border-radius:6px; padding:3px 7px}
+.dcbadge{position:absolute; top:14px; left:14px; z-index:3; font-size:10px; font-weight:700; letter-spacing:.1em;
+  color:#08130e; background:var(--good); border-radius:7px; padding:4px 9px}
+.dcbadge.jo{background:var(--soon); color:#171003}
+.dcplat{position:absolute; top:14px; right:14px; z-index:3; font-size:9.5px; font-weight:600; letter-spacing:1.3px;
+  text-transform:uppercase; background:rgba(0,0,0,.6); border:1px solid rgba(255,255,255,.22);
+  border-radius:6px; padding:4px 8px; text-shadow:0 1px 3px rgba(0,0,0,.8)}
+.deck-stamp{position:absolute; top:52px; z-index:4; font-size:26px; font-weight:800; letter-spacing:.08em;
+  padding:6px 14px; border:3px solid; border-radius:10px; opacity:0; pointer-events:none; text-transform:uppercase}
+.deck-stamp--yes{left:16px; color:var(--good); border-color:var(--good); transform:rotate(-12deg)}
+.deck-stamp--no{right:16px; color:var(--resy); border-color:var(--resy); transform:rotate(12deg)}
+.deckBtns{display:flex; gap:14px; justify-content:center; align-items:center; padding:16px 0 4px}
+.db{width:60px; height:60px; border-radius:50%; font-size:24px; cursor:pointer; transition:.15s;
+  background:var(--panel); border:1px solid var(--line2); display:grid; place-items:center}
+.db:active{transform:scale(.92)}
+.db.no{color:var(--resy)} .db.yes{color:var(--good)}
+.db.undo{width:46px; height:46px; font-size:16px; color:var(--faint)}
+.deckHint{text-align:center; font-size:11px; color:var(--faint); padding-bottom:4px}
+
+/* ---------- results ---------- */
+#sResults{padding-top:16px; gap:0}
+.matchLabel{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent); font-weight:600; text-align:center}
+.matchName{font-size:34px; font-weight:600; letter-spacing:-1px; text-align:center; margin:8px 0 2px; text-wrap:balance}
+.matchTag{text-align:center; font-size:14px; color:var(--muted); margin-bottom:14px}
+.matchTag b{color:var(--accent2); font-weight:600}
+.winCard{position:relative; border-radius:18px; overflow:hidden; height:230px; background:#0b0a09;
+  border:1px solid rgba(255,255,255,.14); display:flex; align-items:flex-end}
+.winCard img,.winCard canvas{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+.winCard::after{content:""; position:absolute; inset:0;
+  background:linear-gradient(to top, rgba(4,4,6,.92) 0%, rgba(4,4,6,.4) 40%, rgba(4,4,6,.1) 70%)}
+.winMeta{position:relative; z-index:2; padding:16px; color:#fff}
+.winMeta .s1{font-size:14px; text-shadow:0 1px 3px rgba(0,0,0,.9)}
+.winCTAs{display:flex; gap:9px; margin-top:14px}
+.wbtn{flex:1; text-align:center; text-decoration:none; font-size:13.5px; font-weight:700; letter-spacing:.3px;
+  border-radius:12px; padding:14px 10px; border:1px solid var(--line2); color:var(--txt); background:var(--panel)}
+.wbtn.book{background:linear-gradient(180deg,var(--accent2),var(--accent)); color:var(--onaccent); border-color:transparent}
+.runners{margin-top:20px}
+.rlabel{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--faint); font-weight:600; margin-bottom:10px}
+.runner{display:flex; align-items:center; gap:12px; padding:11px 12px; border:1px solid var(--line); border-radius:12px;
+  background:var(--panel); margin-bottom:8px; text-decoration:none; color:var(--txt)}
+.runner img,.runner canvas{width:46px; height:46px; border-radius:9px; object-fit:cover; flex:none; background:#0b0a09}
+.rinfo{flex:1; min-width:0; display:flex; flex-direction:column}
+.rn{font-size:14.5px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.rs{font-size:11.5px; color:var(--muted); margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.rvotes{font-size:11px; color:var(--good); font-weight:700; flex:none}
+.again{margin:22px auto 8px}
+.foot{text-align:center; font-size:10.5px; color:var(--faint); line-height:1.6; padding:14px 6px 6px}
+
+/* modal picker */
+.scrim{position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:50; display:none; align-items:flex-end; justify-content:center}
+.scrim.on{display:flex}
+.sheet{background:var(--bg); border:1px solid var(--line2); border-radius:18px 18px 0 0; width:min(520px,100%);
+  max-height:70vh; overflow:auto; padding:18px}
+.sheet h3{font-size:15px; margin-bottom:12px}
+.cityopt{display:block; width:100%; text-align:left; font:inherit; font-size:14.5px; padding:12px 10px; cursor:pointer;
+  background:none; border:0; border-bottom:1px solid var(--line); color:var(--txt)}
+.cityopt small{color:var(--faint); margin-left:8px}
+.err{text-align:center; color:var(--muted); font-size:13.5px; padding:40px 20px}
+@media (prefers-reduced-motion: reduce){ *{animation-duration:.01ms!important; transition-duration:.05ms!important} }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <span class="wm">Table for Two</span>
+    <button class="cityBtn" id="cityBtn">…</button>
+  </header>
+
+  <!-- LANDING -->
+  <section class="screen on" id="sLanding">
+    <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+      <circle cx="20" cy="20" r="7"/><path d="M6 14v-5M4 9h4M6 14c0 3 4 3 4 0"/>
+      <path d="M34 14v-5M32 9h4M34 14c0 3-4 3-4 0"/><line x1="10" y1="20" x2="13" y2="20"/><line x1="27" y1="20" x2="30" y2="20"/>
+    </svg>
+    <h1>It's where you're<br>eating tonight.</h1>
+    <p class="tagline">A few questions. Real tables. <b>Swipe until it's settled.</b></p>
+    <p class="cityline" id="cityline">Finding your city…</p>
+    <div class="swipers" id="swipers" role="group" aria-label="How many are deciding">
+      <button class="swiperN" data-n="1" aria-pressed="false">1</button>
+      <button class="swiperN" data-n="2" aria-pressed="true">2</button>
+      <button class="swiperN" data-n="3" aria-pressed="false">3</button>
+      <button class="swiperN" data-n="4" aria-pressed="false">4</button>
+    </div>
+    <p class="hint">deciding together? pass the phone between swipes</p>
+    <button class="cta" id="startBtn" disabled>Let's eat</button>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="screen" id="sQuiz">
+    <span class="qstep" id="qstep">Question 1 of 4</span>
+    <h2 class="qtitle" id="qtitle"></h2>
+    <p class="qsub" id="qsub"></p>
+    <div class="chips" id="qchips"></div>
+    <div class="qnav">
+      <button class="qback" id="qback">Back</button>
+      <div class="qnext"><button class="cta" id="qnext">Next</button></div>
+    </div>
+  </section>
+
+  <!-- HANDOFF -->
+  <section class="screen" id="sHand">
+    <p class="tagline">Pass the phone to</p>
+    <div class="handName" id="handName">Swiper 2</div>
+    <p class="hint" id="handHint">Same deck, fresh eyes. Right = tonight works. Left = pass.</p>
+    <button class="cta" id="handGo">I'm ready</button>
+  </section>
+
+  <!-- DECK -->
+  <section class="screen" id="sDeck">
+    <div class="deckTop">
+      <span class="deckWho" id="deckWho"></span>
+      <span class="deckLeft" id="deckLeft"></span>
+    </div>
+    <div class="stage" id="stage"></div>
+    <div class="deckBtns">
+      <button class="db undo" id="btnUndo" title="Undo (Z)">↩</button>
+      <button class="db no" id="btnNo" title="Pass (←)">✕</button>
+      <button class="db yes" id="btnYes" title="Tonight (→)">✓</button>
+    </div>
+    <p class="deckHint">swipe, tap, or use ← → keys · Z to undo</p>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="screen" id="sResults"></section>
+</div>
+
+<!-- city picker -->
+<div class="scrim" id="cityScrim"><div class="sheet"><h3>Pick your city</h3><div id="cityList"></div></div></div>
+
+<script>
+/* ============================================================
+   Table for Two — Tonight. Quiz → prioritized deck → group swipe.
+   Reads LIVE production data (CORS-open GitHub Pages), so this
+   branch preview never needs its own data pipeline.
+   ============================================================ */
+const DATA_BASE = 'https://tablefortwo.city/';
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const S = {           // app state
+  cities: [], cityKey: null, city: null, spots: [], radar: [],
+  swipers: 2, q: 0, answers: { when:'tonight', party:'2', budget:new Set(), vibe:new Set() },
+  deckCards: [], votes: [],   // votes[swiperIdx] = Map(spotId -> 'right'|'left')
+  current: 0, deckApi: null, history: [],
+};
+
+/* ---------------- data ---------------- */
+async function jget(path){ const r = await fetch(DATA_BASE + path + '?m=' + Date.now()); if(!r.ok) throw new Error(path+':'+r.status); return r.json(); }
+function kmBetween(a,b){ const R=6371,r=x=>x*Math.PI/180;
+  const h=Math.sin(r(b[0]-a[0])/2)**2+Math.cos(r(a[0]))*Math.cos(r(b[0]))*Math.sin(r(b[1]-a[1])/2)**2;
+  return 2*R*Math.asin(Math.sqrt(h)); }
+
+async function boot(){
+  try{
+    const idx = await jget('cities/index.json');
+    S.cities = idx.cities.filter(c=>c.center);
+    // geolocate → nearest within 500 km (prod rule), else picker
+    const geo = await new Promise(res=>{
+      if(!('geolocation' in navigator)) return res(null);
+      let done=false; const fin=v=>{ if(!done){done=true;res(v);} };
+      setTimeout(()=>fin(null), 6000);
+      navigator.geolocation.getCurrentPosition(
+        p=>{ let best=null,bk=1e9;
+          for(const c of S.cities){ const d=kmBetween([p.coords.latitude,p.coords.longitude],c.center); if(d<bk){bk=d;best=c;} }
+          fin(bk<=500?best:null); },
+        ()=>fin(null),{timeout:5000,maximumAge:600000});
+    });
+    await setCity(geo || S.cities.find(c=>c.key==='nyc') || S.cities[0], !geo);
+  }catch(e){
+    $('#cityline').textContent = 'Couldn’t reach the kitchen — check your connection and refresh.';
+  }
+}
+async function setCity(c, fallback){
+  S.cityKey=c.key; S.city=c;
+  $('#cityBtn').textContent=c.label;
+  $('#cityline').textContent = fallback ? ('Showing '+c.label+' — tap the city to change') : ('You’re in '+c.label);
+  const data = await jget(c.source.url);
+  S.spots=(data.spots||data).filter(s=>s.name);
+  try{ const jo = await jget('cities/just-opened.json');
+    S.radar=(jo.items||[]).filter(i=>i.city===c.key); }catch(e){ S.radar=[]; }
+  $('#startBtn').disabled=false;
+}
+$('#cityBtn').onclick=()=>{
+  $('#cityList').innerHTML=S.cities.map(c=>`<button class="cityopt" data-k="${esc(c.key)}">${esc(c.label)}<small>${esc(c.short||'')}</small></button>`).join('');
+  $$('#cityList .cityopt').forEach(b=>b.onclick=async()=>{ $('#cityScrim').classList.remove('on');
+    $('#startBtn').disabled=true; await setCity(S.cities.find(x=>x.key===b.dataset.k), false); });
+  $('#cityScrim').classList.add('on');
+};
+$('#cityScrim').onclick=e=>{ if(e.target.id==='cityScrim') $('#cityScrim').classList.remove('on'); };
+
+/* ---------------- screens ---------------- */
+function show(id){ $$('.screen').forEach(s=>s.classList.toggle('on', s.id===id)); }
+
+/* ---------------- landing ---------------- */
+$$('.swiperN').forEach(b=>b.onclick=()=>{ $$('.swiperN').forEach(x=>x.setAttribute('aria-pressed', x===b));
+  S.swipers=+b.dataset.n; });
+$('#startBtn').onclick=()=>{ S.q=0; renderQuiz(); show('sQuiz'); };
+
+/* ---------------- quiz ---------------- */
+function vibeChoices(){
+  // offer only vibes this city can actually serve, by tag frequency
+  const freq={};
+  for(const s of S.spots) for(const t of [...(s.vibe||[]),...(s.occasion||[])])
+    if(!/breakfast|brunch|lunch|dinner|tapas|drinks/.test(t)) freq[t]=(freq[t]||0)+1;
+  return Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([t])=>t);
+}
+const QUIZ=[
+  { key:'when', title:'When’s the table?', sub:'Tonight leans hard on who actually has seats.', multi:false,
+    opts:()=>[['tonight','Tonight'],['week','This week'],['browse','Just browsing']] },
+  { key:'party', title:'How many of you?', sub:'We’ll prefill the booking for the right table.', multi:false,
+    opts:()=>[['2','Two'],['4','3–4'],['6','5+']] },
+  { key:'budget', title:'What’s the budget?', sub:'Pick any that work — or skip for all of it.', multi:true,
+    opts:()=>[['$','$'],['$$','$$'],['$$$','$$$'],['$$$$','$$$$']] },
+  { key:'vibe', title:'What’s the vibe?', sub:'Up to three. We only offer what this city can deliver.', multi:true, cap:3,
+    opts:()=>vibeChoices().map(t=>[t, t.replace(/-/g,' ')]) },
+];
+function renderQuiz(){
+  const q=QUIZ[S.q];
+  $('#qstep').textContent=`Question ${S.q+1} of ${QUIZ.length}`;
+  $('#qtitle').textContent=q.title; $('#qsub').textContent=q.sub;
+  const cur=S.answers[q.key];
+  $('#qchips').innerHTML=q.opts().map(([v,l])=>{
+    const on=q.multi ? cur.has(v) : cur===v;
+    return `<button class="chip" data-v="${esc(v)}" aria-pressed="${on}">${esc(l[0].toUpperCase()+l.slice(1))}</button>`;
+  }).join('');
+  $$('#qchips .chip').forEach(ch=>ch.onclick=()=>{
+    const v=ch.dataset.v;
+    if(q.multi){
+      if(cur.has(v)) cur.delete(v);
+      else{ if(q.cap && cur.size>=q.cap) return; cur.add(v); }
+      ch.setAttribute('aria-pressed', cur.has(v));
+    }else{
+      S.answers[q.key]=v;
+      $$('#qchips .chip').forEach(x=>x.setAttribute('aria-pressed', x===ch));
+    }
+  });
+  $('#qback').style.visibility = S.q===0?'hidden':'visible';
+  $('#qnext').textContent = S.q===QUIZ.length-1 ? 'Deal the deck' : 'Next';
+}
+$('#qback').onclick=()=>{ if(S.q>0){ S.q--; renderQuiz(); } };
+$('#qnext').onclick=()=>{
+  if(S.q<QUIZ.length-1){ S.q++; renderQuiz(); }
+  else startRound();
+};
+
+/* ---------------- scoring: "best available, from our data" ---------------- */
+function buildDeck(){
+  const A=S.answers, tonight=A.when==='tonight';
+  const joBySpot={}; for(const it of S.radar) if(!(it.spotId in joBySpot)) joBySpot[it.spotId]=it;
+  const today=new Date().toISOString().slice(0,10);
+  const scored=S.spots.map(s=>{
+    let sc=0; const why=[];
+    const av=s.availability, dates=(av&&av.dates||[]).filter(d=>d>=today);
+    const open=!!(av&&av.open&&dates.length);
+    if(open){ sc+=tonight?40:14; if(av.openDays) sc+=Math.min(av.openDays,3)*2; }
+    const jo=joBySpot[s.id];
+    if(jo){ sc+=tonight?30:12; }
+    const tags=new Set([...(s.vibe||[]),...(s.occasion||[])]);
+    let vhits=0; for(const v of A.vibe) if(tags.has(v)) vhits++;
+    sc+=Math.min(vhits*12,30);
+    if(A.budget.size){
+      const notch='$$$$'.indexOf(s.priceRange||'$$')>=0 ? (s.priceRange||'$$').length : 2;
+      let best=9; for(const b of A.budget) best=Math.min(best, Math.abs(b.length-notch));
+      if(best===0) sc+=15; else if(best===1) sc+=6; else sc-=12;
+    }
+    if(s.photo) sc+=10;
+    sc+=Math.min((s.sources||[]).length*2,8);
+    if(s.platformUrl) sc+=8;
+    if(tonight&&s.walkIns) sc+=6;
+    sc+= tonight ? (5-(s.difficulty||3))*2 : (s.difficulty||3)*3;
+    sc+=Math.random()*6-3;
+    return {s, sc, open, jo};
+  });
+  scored.sort((a,b)=>b.sc-a.sc);
+  return scored.slice(0,16);
+}
+
+/* ---------------- generated fallback art (port of prod drawPhoto, compact) -- */
+function cuisineHue(c){ c=(c||'').toLowerCase();
+  if(/ital|pizza|pasta/.test(c))return 20; if(/japan|sushi|omakase|ramen/.test(c))return 158;
+  if(/korean|steak|bbq|grill/.test(c))return 8; if(/indian|thai|spice/.test(c))return 33;
+  if(/seafood|oyster|fish/.test(c))return 192; if(/mexic|latin/.test(c))return 26;
+  if(/french|bistro|american|tasting/.test(c))return 40; return 30; }
+function paintFallback(cv,id,cuisine){
+  const w=cv.width=520,h=cv.height=560,g=cv.getContext('2d'); if(!g)return;
+  let sd=2166136261; for(const ch of String(id||'x')) sd=(sd^ch.charCodeAt(0))*16777619>>>0;
+  const rnd=()=>{ sd=(sd*1664525+1013904223)>>>0; return sd/4294967296; };
+  const hue=cuisineHue(cuisine);
+  const base=g.createLinearGradient(0,0,w,h);
+  base.addColorStop(0,`hsl(${hue},42%,14%)`); base.addColorStop(.6,`hsl(${(hue+8)%360},34%,9%)`); base.addColorStop(1,`hsl(${hue},30%,5%)`);
+  g.fillStyle=base; g.fillRect(0,0,w,h);
+  for(let i=0;i<3;i++){ const x=rnd()*w,y=rnd()*h*.7,r=Math.max(w,h)*(.24+rnd()*.4);
+    const rg=g.createRadialGradient(x,y,2,x,y,r);
+    rg.addColorStop(0,`hsla(${28+rnd()*22},82%,62%,${.09+rnd()*.12})`); rg.addColorStop(1,'transparent');
+    g.fillStyle=rg; g.beginPath(); g.arc(x,y,r,0,7); g.fill(); }
+  const vg=g.createRadialGradient(w/2,h*.42,120,w/2,h/2,h*.8);
+  vg.addColorStop(0,'transparent'); vg.addColorStop(1,'rgba(0,0,0,.55)');
+  g.fillStyle=vg; g.fillRect(0,0,w,h);
+}
+window.t42Fail=function(img){ const cv=document.createElement('canvas'); cv.className=img.className;
+  paintFallback(cv,img.dataset.pid,img.dataset.cui); img.replaceWith(cv); };
+
+/* ---------------- deck (mechanics ported from the procurement desk) --------
+   Feel spec kept intact: commit on distance (>30% width, floor 60px) OR flick
+   velocity (>0.45 px/ms with >24px travel); rotation = dx/20 clamped ±15°;
+   stamps fade in DURING the drag; cancel springs back and never commits. */
+const clamp=(v,lo,hi)=>Math.min(hi,Math.max(lo,v));
+function mountDeck(stage,{cards,renderCard,onDecide,onEmpty}){
+  const queue=[...cards]; let locked=false, destroyed=false, suppressClick=false;
+  stage.innerHTML=''; const els=new Map();
+  const makeEl=card=>{ const el=document.createElement('article'); el.className='deck-card';
+    el.innerHTML=`<span class="deck-stamp deck-stamp--yes">Tonight</span>
+      <span class="deck-stamp deck-stamp--no">Pass</span>${renderCard(card)}`;
+    els.set(card,el);
+    el.querySelectorAll('img[data-pid]').forEach(im=>im.addEventListener('error',()=>t42Fail(im),{once:true}));
+    return el; };
+  const settle=(animated=true)=>{ queue.forEach((card,i)=>{ const el=els.get(card); if(!el)return;
+    const d=Math.min(i,3), to=`translate(0px,${d*12}px) rotate(0deg) scale(${1-d*.04})`;
+    el.style.zIndex=String(100-i); el.style.opacity=i>2?'0':'1'; el.style.pointerEvents=i===0?'auto':'none';
+    if(animated&&!reduced&&i<4) el.animate([{transform:getComputedStyle(el).transform==='none'?to:undefined},{transform:to}].filter(k=>k.transform),{duration:380,easing:'cubic-bezier(.22,.9,.24,1)',fill:'forwards'});
+    el.style.transform=to; }); };
+  queue.forEach(c=>stage.appendChild(makeEl(c))); settle(false);
+  let drag=null;
+  const paint=()=>{ if(!drag)return; const{el,dx,dy}=drag;
+    el.style.transform=`translate(${dx}px,${dy*.5}px) rotate(${clamp(dx/20,-15,15)}deg)`;
+    const str=clamp(Math.abs(dx)/(el.offsetWidth*.3),0,1);
+    el.querySelector('.deck-stamp--yes').style.opacity=dx>0?str:0;
+    el.querySelector('.deck-stamp--no').style.opacity=dx<0?str:0;
+    drag.raf=0; };
+  const onDown=e=>{ if(locked||destroyed||!queue.length)return;
+    const el=els.get(queue[0]); if(!el||!el.contains(e.target))return;
+    if(e.target.closest('a'))return;
+    drag={card:queue[0],el,startX:e.clientX,startY:e.clientY,dx:0,dy:0,samples:[],raf:0,moved:false};
+    el.setPointerCapture?.(e.pointerId); };
+  const onMove=e=>{ if(!drag)return;
+    drag.dx=e.clientX-drag.startX; drag.dy=e.clientY-drag.startY;
+    if(Math.abs(drag.dx)+Math.abs(drag.dy)>6)drag.moved=true;
+    drag.samples.push({t:performance.now(),x:e.clientX}); if(drag.samples.length>6)drag.samples.shift();
+    if(!drag.raf)drag.raf=requestAnimationFrame(paint); };
+  const springHome=(el,dx,dy)=>{ el.querySelectorAll('.deck-stamp').forEach(s=>s.style.opacity='0');
+    if(reduced){ el.style.transform='translate(0px,0px)'; return; }
+    el.animate([{transform:`translate(${dx}px,${dy*.5}px) rotate(${clamp(dx/20,-15,15)}deg)`},
+      {transform:'translate(-6px,0px) rotate(-1deg)',offset:.7},{transform:'translate(0px,0px) rotate(0deg)'}],
+      {duration:320,easing:'cubic-bezier(.2,.9,.3,1.15)'});
+    el.style.transform='translate(0px,0px)'; };
+  const onUp=()=>{ if(!drag)return; const{card,el,dx,dy,samples,moved}=drag; drag=null;
+    let vx=0; if(samples.length>1){ const a=samples[0],b=samples[samples.length-1]; if(b.t>a.t)vx=(b.x-a.x)/(b.t-a.t); }
+    const byDist=Math.abs(dx)>Math.max(el.offsetWidth*.3,60);
+    const byFlick=Math.abs(vx)>.45&&Math.abs(dx)>24;
+    if(byDist||byFlick){ flyOff(card,(byDist?dx:vx)>0?'right':'left',{dx,dy,vx}); return; }
+    if(moved) springHome(el,dx,dy); };
+  const onCancel=()=>{ if(!drag)return; const{el,dx,dy,moved}=drag; drag=null; if(moved)springHome(el,dx,dy); };
+  const onClickCap=e=>{ if(e.target.closest?.('.deck-card')&&suppressClick){ e.preventDefault(); e.stopPropagation(); } };
+  function flyOff(card,dir,{dx=0,dy=0,vx=0}={}){
+    const el=els.get(card); if(!el||locked)return; locked=true;
+    suppressClick=true; setTimeout(()=>suppressClick=false,80);
+    const sign=dir==='right'?1:-1, exitX=sign*(window.innerWidth||1200)*.9;
+    el.querySelector(sign>0?'.deck-stamp--yes':'.deck-stamp--no').style.opacity='1';
+    const finish=()=>{ queue.shift(); el.remove(); els.delete(card); locked=false; settle();
+      onDecide?.(card,dir); if(!queue.length)onEmpty?.(); };
+    if(reduced){ finish(); return; }
+    const anim=el.animate([{transform:`translate(${dx}px,${dy*.5}px) rotate(${clamp(dx/20,-15,15)}deg)`},
+      {transform:`translate(${exitX}px,${dy*.5+40}px) rotate(${sign*(18+Math.min(Math.abs(vx)*10,10))}deg)`}],
+      {duration:340,easing:'cubic-bezier(.4,0,1,1)'});
+    anim.onfinish=finish; }
+  function undo(card,fromDir='right'){
+    if(locked||destroyed)return false; locked=true;
+    const el=makeEl(card); queue.unshift(card); stage.appendChild(el);
+    const sign=fromDir==='right'?1:-1, fromX=sign*(window.innerWidth||1200)*.9;
+    el.style.zIndex='200'; el.style.transform=`translate(${fromX}px,40px) rotate(${sign*20}deg)`;
+    const done=()=>{ locked=false; settle(); };
+    if(reduced){ el.style.transform='translate(0,0)'; done(); return true; }
+    const anim=el.animate([{transform:`translate(${fromX}px,40px) rotate(${sign*20}deg)`},
+      {transform:'translate(0px,0px) rotate(0deg)'}],{duration:420,easing:'cubic-bezier(.22,.9,.24,1)'});
+    el.style.transform='translate(0,0)'; anim.onfinish=done; return true; }
+  stage.addEventListener('pointerdown',onDown); stage.addEventListener('pointermove',onMove);
+  stage.addEventListener('pointerup',onUp); stage.addEventListener('pointercancel',onCancel);
+  stage.addEventListener('click',onClickCap,true);
+  return { decide:dir=>!drag&&queue.length&&flyOff(queue[0],dir), undo,
+    size:()=>queue.length,
+    destroy(){ destroyed=true;
+      stage.removeEventListener('pointerdown',onDown); stage.removeEventListener('pointermove',onMove);
+      stage.removeEventListener('pointerup',onUp); stage.removeEventListener('pointercancel',onCancel);
+      stage.removeEventListener('click',onClickCap,true); } };
+}
+
+/* ---------------- card rendering ---------------- */
+function fmtJo(jo){ const [H,M]=jo.time.split(':').map(Number); const h=(H%12)||12;
+  return `Just opened · ${h}:${String(M).padStart(2,'0')} ${H>=12?'PM':'AM'}`; }
+function renderCard({s,open,jo}){
+  const img=s.photo
+    ? `<img class="dcimg" src="${esc(s.photo)}" alt="" referrerpolicy="no-referrer" data-pid="${esc(s.id)}" data-cui="${esc(s.cuisine)}">`
+    : `<canvas class="dcimg" data-fb="${esc(s.id)}"></canvas>`;
+  const dots=Array.from({length:5},(_,i)=>`<i class="${i<(s.difficulty||0)?'on':''}"></i>`).join('');
+  const vet=(s.sources||[]).slice(0,2).map(v=>`<span>${esc(v.name)}${v.tier?' · '+esc(v.tier):''}</span>`).join('');
+  const badge = jo ? `<span class="dcbadge jo">${esc(fmtJo(jo))}</span>`
+    : open ? `<span class="dcbadge">Open tonight</span>` : '';
+  return `${img}${badge}<span class="dcplat" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
+    <div class="dcbody">
+      <div class="dcname">${esc(s.name)}</div>
+      <div class="dcsub">${esc(s.neighborhood)} · ${esc(s.cuisine)}</div>
+      <div class="dcrow"><span>${esc(s.priceRange||'')}</span><span class="diff">${dots}</span>
+        <span>${s.walkIns?'walk-ins ✓':''}</span></div>
+      ${s.dateNote?`<div class="dcnote">${esc(s.dateNote)}</div>`:''}
+      ${vet?`<div class="dcvet">${vet}</div>`:''}
+    </div>`;
+}
+const PLAT={Resy:'var(--resy)',Tock:'var(--tock)',OpenTable:'var(--opentable)',SevenRooms:'var(--sevenrooms)',TheFork:'var(--thefork)',CoverManager:'var(--covermanager)'};
+function platColor(p){ return PLAT[p]||'var(--invite)'; }
+function prefillUrl(s){
+  const url=s.platformUrl; if(!url)return '';
+  try{ const u=new URL(url),h=u.hostname;
+    const KNOWN=['resy.com','opentable.com','exploretock.com','sevenrooms.com'];
+    if(!KNOWN.some(k=>h.includes(k)))return url;
+    const today=new Date().toISOString().slice(0,10), n=S.answers.party;
+    if(h.includes('opentable.com')){ u.searchParams.set('dateTime',today+'T19:00'); u.searchParams.set('covers',n); }
+    else{ u.searchParams.set('date',today);
+      if(h.includes('resy.com'))u.searchParams.set('seats',n);
+      if(h.includes('exploretock.com'))u.searchParams.set('size',n);
+      if(h.includes('sevenrooms.com'))u.searchParams.set('party_size',n); }
+    return u.toString();
+  }catch(e){ return url; }
+}
+
+/* ---------------- rounds ---------------- */
+function startRound(){
+  S.deckCards=buildDeck();
+  if(S.deckCards.length<4){ alert('Not enough spots match — loosening the vibe filter usually fixes it.'); return; }
+  S.votes=Array.from({length:S.swipers},()=>new Map());
+  S.current=0;
+  beginSwiper();
+}
+function beginSwiper(){
+  if(S.swipers>1){ $('#handName').textContent='Swiper '+(S.current+1);
+    $('#handHint').textContent = S.current===0 ? 'Right = tonight works. Left = pass. Same deck for everyone.' :'Same deck, fresh eyes. No peeking at the last verdicts.';
+    show('sHand'); }
+  else openDeck();
+}
+$('#handGo').onclick=openDeck;
+function openDeck(){
+  show('sDeck'); S.history=[];
+  $('#deckWho').textContent = S.swipers>1 ? ('Swiper '+(S.current+1)) : 'Your deck';
+  const update=()=>$('#deckLeft').textContent=(S.deckApi?.size()??S.deckCards.length)+' left';
+  S.deckApi?.destroy();
+  S.deckApi=mountDeck($('#stage'),{
+    cards:S.deckCards,
+    renderCard,
+    onDecide:(card,dir)=>{ S.votes[S.current].set(card.s.id,dir); S.history.push({card,dir}); update(); },
+    onEmpty:()=>{ S.current++; S.current<S.swipers ? beginSwiper() : showResults(); },
+  });
+  $('#stage').querySelectorAll('canvas[data-fb]').forEach(cv=>{
+    const c=S.deckCards.find(x=>x.s.id===cv.dataset.fb); paintFallback(cv,cv.dataset.fb,c?.s.cuisine); });
+  update();
+}
+$('#btnYes').onclick=()=>S.deckApi?.decide('right');
+$('#btnNo').onclick=()=>S.deckApi?.decide('left');
+$('#btnUndo').onclick=doUndo;
+function doUndo(){ const last=S.history[S.history.length-1]; if(!last)return;
+  if(S.deckApi?.undo(last.card,last.dir)){ S.history.pop(); S.votes[S.current].delete(last.card.s.id);
+    $('#deckLeft').textContent=S.deckApi.size()+' left'; } }
+document.addEventListener('keydown',e=>{
+  if(!$('#sDeck').classList.contains('on'))return;
+  if(e.key==='ArrowRight')S.deckApi?.decide('right');
+  if(e.key==='ArrowLeft')S.deckApi?.decide('left');
+  if(e.key==='z'||e.key==='Z')doUndo(); });
+
+/* ---------------- results ---------------- */
+function showResults(){
+  S.deckApi?.destroy(); S.deckApi=null;
+  const rights=id=>S.votes.reduce((n,m)=>n+(m.get(id)==='right'?1:0),0);
+  const ranked=[...S.deckCards].map(c=>({...c,v:rights(c.s.id)}))
+    .sort((a,b)=>b.v-a.v||b.sc-a.sc);
+  const unanimous=ranked.filter(c=>c.v===S.swipers);
+  const winner=unanimous[0]||ranked[0];
+  const others=ranked.filter(c=>c!==winner&&c.v>0).slice(0,4);
+  const s=winner.s, consensus=unanimous.length>0;
+  const img=s.photo
+    ? `<img src="${esc(s.photo)}" alt="" referrerpolicy="no-referrer" data-pid="${esc(s.id)}" data-cui="${esc(s.cuisine)}" onerror="t42Fail(this)">`
+    : `<canvas data-fb="${esc(s.id)}"></canvas>`;
+  const maps=`https://maps.apple.com/?q=${encodeURIComponent(s.name)}&ll=${s.coordinates?.lat},${s.coordinates?.lng}`;
+  $('#sResults').innerHTML=`
+    <span class="matchLabel">${consensus?'It’s settled':'Closest to consensus'}</span>
+    <h2 class="matchName">${esc(s.name)}</h2>
+    <p class="matchTag">Table for ${esc(S.answers.party)} · <b>it’s where you’re eating tonight.</b></p>
+    <div class="winCard">${img}<div class="winMeta">
+      <div class="s1">${esc(s.neighborhood)} · ${esc(s.cuisine)} · ${esc(s.priceRange||'')}
+        ${winner.open?' · open tonight':''}${S.swipers>1?` · ${winner.v}/${S.swipers} said yes`:''}</div>
+    </div></div>
+    <div class="winCTAs">
+      ${s.platformUrl?`<a class="wbtn book" href="${esc(prefillUrl(s))}" target="_blank" rel="noopener">Book on ${esc(s.platform)}</a>`
+        : s.phoneNumber?`<a class="wbtn book" href="tel:${esc(s.phoneNumber)}">Call to book</a>`
+        : `<span class="wbtn book">Walk right in</span>`}
+      <a class="wbtn" href="${esc(maps)}" target="_blank" rel="noopener">Maps</a>
+    </div>
+    ${others.length?`<div class="runners"><div class="rlabel">If they’re booked</div>
+      ${others.map(c=>{const r=c.s; const ri=r.photo
+        ?`<img src="${esc(r.photo)}" alt="" referrerpolicy="no-referrer" data-pid="${esc(r.id)}" data-cui="${esc(r.cuisine)}" onerror="t42Fail(this)">`
+        :`<canvas data-fb="${esc(r.id)}"></canvas>`;
+        return `<a class="runner" href="${esc(r.platformUrl||r.website||'#')}" target="_blank" rel="noopener">${ri}
+          <span class="rinfo"><span class="rn">${esc(r.name)}</span><span class="rs">${esc(r.neighborhood)} · ${esc(r.cuisine)}</span></span>
+          <span class="rvotes">${S.swipers>1?c.v+'/'+S.swipers:'✓'}</span></a>`; }).join('')}</div>`:''}
+    <button class="cta again" id="againBtn">Deal a new deck</button>
+    <p class="foot">Availability is a stamped snapshot — always confirm with the restaurant.<br>Table for Two · tablefortwo.city</p>`;
+  $('#sResults').querySelectorAll('canvas[data-fb]').forEach(cv=>{
+    const c=S.deckCards.find(x=>x.s.id===cv.dataset.fb); paintFallback(cv,cv.dataset.fb,c?.s.cuisine); });
+  $('#againBtn').onclick=()=>{ S.q=0; renderQuiz(); show('sQuiz'); };
+  show('sResults');
+}
+
+boot();
+</script>
+</body>
+</html>
