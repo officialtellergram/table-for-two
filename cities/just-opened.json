@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T19:32:06+00:00",
+  "generated": "2026-09-30T23:21:46+00:00",
   "party": 2,
   "windowDays": 3,
-  "count": 200,
+  "count": 199,
   "new": 0,
   "items": [
     {
@@ -11,12 +11,12 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-09-30",
-      "time": "21:00",
-      "type": "Bar",
+      "date": "2026-10-01",
+      "time": "21:30",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-30&seats=2",
-      "firstSeen": "2026-09-30T19:32:06+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-10-01&seats=2",
+      "firstSeen": "2026-09-30T23:21:46+00:00",
       "new": false
     },
     {
@@ -25,12 +25,12 @@
       "name": "Lilia",
       "neighborhood": "Williamsburg",
       "cuisine": "Italian",
-      "date": "2026-10-01",
-      "time": "21:15",
+      "date": "2026-10-02",
+      "time": "16:00",
       "type": "Patio",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-10-01&seats=2",
-      "firstSeen": "2026-09-30T19:32:06+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-10-02&seats=2",
+      "firstSeen": "2026-09-30T23:21:46+00:00",
       "new": false
     },
     {
@@ -44,20 +44,6 @@
       "type": "Indoor",
       "party": 2,
       "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-10-01&seats=2",
-      "firstSeen": "2026-09-30T19:32:06+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "tatiana",
-      "name": "Tatiana",
-      "neighborhood": "Upper West Side",
-      "cuisine": "Afro-Caribbean",
-      "date": "2026-09-30",
-      "time": "19:45",
-      "type": "Patio",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/tatiana?date=2026-09-30&seats=2",
       "firstSeen": "2026-09-30T19:32:06+00:00",
       "new": false
     },
@@ -170,20 +156,6 @@
       "type": "Dining Room",
       "party": 2,
       "url": "https://resy.com/cities/richmond-va/venues/the-roosevelt?date=2026-09-30&seats=2",
-      "firstSeen": "2026-09-30T14:00:29+00:00",
-      "new": false
-    },
-    {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-30",
-      "time": "17:30",
-      "type": "Bar",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-30&seats=2",
       "firstSeen": "2026-09-30T14:00:29+00:00",
       "new": false
     },
@@ -2793,16 +2765,30 @@
     },
     {
       "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-09-30",
-      "time": "21:30",
-      "type": "Patio",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-10-01",
+      "time": "23:45",
+      "type": "Dining Room",
       "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-09-30&seats=2",
-      "firstSeen": "2026-09-30T01:25:42+00:00",
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-10-01&seats=2",
+      "firstSeen": "2026-09-29T00:09:03+00:00",
+      "new": false
+    },
+    {
+      "city": "nyc",
+      "spotId": "cote",
+      "name": "Cote Korean Steakhouse",
+      "neighborhood": "Flatiron",
+      "cuisine": "Korean BBQ / Steakhouse",
+      "date": "2026-10-02",
+      "time": "00:00",
+      "type": "Dining Room",
+      "party": 2,
+      "url": "https://resy.com/cities/new-york-ny/venues/cote-nyc?date=2026-10-02&seats=2",
+      "firstSeen": "2026-09-29T00:09:03+00:00",
       "new": false
     }
   ]
