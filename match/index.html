@@ -6,13 +6,20 @@
 <meta name="theme-color" content="#0a0a0b" />
 <title>Table for Two — Tonight</title>
 <link rel="icon" type="image/png" href="../icons/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&display=swap" rel="stylesheet" />
 <meta name="description" content="Table for Two. It's where you're eating tonight." />
 <style>
 /* Tokens inherited verbatim from the main app — this is the same brand,
    reframed. Dark is home; light honors the OS. */
 :root{
   --bg:#0a0a0b; --panel:#101011; --panel2:#161618; --line:#212124; --line2:#34343a;
-  --txt:#f4f3f1; --muted:#8a8a90; --faint:#56565c;
+  /* muted/faint raised above the 4.5:1 floor (ref rubric: B7 + C14 —
+     low-contrast dark mode is where template apps die) */
+  --txt:#f4f3f1; --muted:#a2a2a8; --faint:#8a8a90;
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --mono:ui-monospace,'Cascadia Mono','SF Mono',Menlo,Consolas,monospace;
   --accent:#c9a86a; --accent2:#dcc28c; --good:#86b6a0; --soon:#cda766;
   --resy:#c97078; --tock:#7d97bd; --opentable:#c87a68; --sevenrooms:#9b92c4;
   --thefork:#4fbfa8; --covermanager:#a8b46b; --invite:#9a9aa0;
@@ -23,7 +30,7 @@
 }
 @media (prefers-color-scheme: light){ :root{
   --bg:#f4f3ef; --panel:#fffffe; --panel2:#efece5; --line:#e5e1d8; --line2:#d3cec3;
-  --txt:#1b1a1c; --muted:#6f6c74; --faint:#a8a4ac;
+  --txt:#1b1a1c; --muted:#63605a; --faint:#7d7a73;
   --accent:#a8843c; --accent2:#937734; --good:#3f8068; --soon:#a8803a;
   --resy:#bf4651; --tock:#3f6aa0; --opentable:#bf5641; --sevenrooms:#6c60b4;
   --thefork:#0e8a72; --covermanager:#74812f; --invite:#7a7780;
@@ -37,8 +44,12 @@ html,body{height:100%}
 body{
   background:radial-gradient(900px 460px at 50% -14%, var(--topglow), transparent 64%), var(--bg);
   color:var(--txt); -webkit-font-smoothing:antialiased; letter-spacing:-.1px; overflow-x:hidden;
-  font:15px/1.5 'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 }
+/* The two-voice formula (ref A): display serif carries the emotional word,
+   tracked caps + mono instrumentation stay quiet around it. */
+.dv{font-family:var(--serif); font-optical-sizing:auto; font-weight:620; letter-spacing:-.5px}
+.spec{font-family:var(--mono); font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:var(--faint)}
 .app{min-height:100dvh; max-width:520px; margin:0 auto; padding:0 18px calc(18px + env(safe-area-inset-bottom));
   display:flex; flex-direction:column}
 header{display:flex; align-items:center; justify-content:space-between; padding:20px 2px 0}
@@ -56,7 +67,7 @@ header{display:flex; align-items:center; justify-content:space-between; padding:
 #sLanding{justify-content:center; text-align:center; gap:10px; padding-bottom:8vh}
 .mark{width:56px; height:56px; margin:0 auto 6px}
 .mark circle,.mark path,.mark line{stroke:var(--accent); fill:none; stroke-width:1.4; stroke-linecap:round}
-h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-wrap:balance}
+h1{font-family:var(--serif); font-optical-sizing:auto; font-size:42px; font-weight:600; letter-spacing:-1px; line-height:1.08; text-wrap:balance}
 .tagline{font-size:15px; color:var(--muted)}
 .tagline b{color:var(--accent2); font-weight:600}
 .cityline{font-size:12.5px; color:var(--faint); min-height:18px; margin-top:6px}
@@ -74,7 +85,7 @@ h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-
 /* ---------- quiz ---------- */
 #sQuiz{padding-top:5vh; gap:6px}
 .qstep{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent); font-weight:600}
-.qtitle{font-size:26px; font-weight:600; letter-spacing:-.6px; margin:6px 0 4px; text-wrap:balance}
+.qtitle{font-family:var(--serif); font-optical-sizing:auto; font-size:31px; font-weight:600; letter-spacing:-.6px; margin:6px 0 4px; text-wrap:balance}
 .qsub{font-size:13px; color:var(--muted); margin-bottom:16px}
 .chips{display:flex; flex-wrap:wrap; gap:9px}
 .chip{font:inherit; font-size:14px; font-weight:600; cursor:pointer; padding:12px 17px; border-radius:13px;
@@ -90,13 +101,13 @@ h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-
 
 /* ---------- handoff ---------- */
 #sHand{justify-content:center; text-align:center; gap:14px; padding-bottom:8vh}
-.handName{font-size:32px; font-weight:600; letter-spacing:-.8px; color:var(--accent2)}
+.handName{font-family:var(--serif); font-optical-sizing:auto; font-size:38px; font-weight:620; letter-spacing:-.8px; color:var(--accent2)}
 
 /* ---------- deck ---------- */
 #sDeck{padding-top:8px}
 .deckTop{display:flex; align-items:baseline; justify-content:space-between; padding:4px 2px 10px}
 .deckWho{font-size:13px; font-weight:600; color:var(--accent2)}
-.deckLeft{font-size:11.5px; color:var(--faint); font-variant-numeric:tabular-nums}
+.deckLeft{font-family:var(--mono); font-size:11px; letter-spacing:.1em; color:var(--faint); font-variant-numeric:tabular-nums}
 .stage{position:relative; flex:1; min-height:440px; touch-action:pan-x; user-select:none; -webkit-user-select:none}
 .deck-card{position:absolute; inset:0 0 8px; border-radius:18px; overflow:hidden; background:#0b0a09;
   border:1px solid rgba(255,255,255,.14); box-shadow:0 14px 44px rgba(0,0,0,.42); will-change:transform;
@@ -106,8 +117,10 @@ h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-
 .deck-card::after{content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
   background:linear-gradient(to top, rgba(4,4,6,.95) 0%, rgba(4,4,6,.82) 22%, rgba(4,4,6,.42) 46%, rgba(4,4,6,.06) 70%, rgba(4,4,6,.30) 100%)}
 .dcbody{position:relative; z-index:2; padding:18px; color:#fff; pointer-events:none}
-.dcname{font-size:27px; font-weight:600; letter-spacing:-.7px; line-height:1.1;
+.dcname{font-family:var(--serif); font-optical-sizing:auto; font-size:33px; font-weight:620; letter-spacing:-.6px; line-height:1.06;
   text-shadow:0 1px 3px rgba(0,0,0,.95), 0 2px 16px rgba(0,0,0,.7)}
+.dcgeo{font-family:var(--mono); font-size:9.5px; letter-spacing:.1em; color:rgba(220,194,140,.75);
+  margin-top:10px; text-shadow:0 1px 2px rgba(0,0,0,.9)}
 .dcsub{font-size:13px; color:rgba(255,255,255,.88); margin-top:5px; text-shadow:0 1px 3px rgba(0,0,0,.9)}
 .dcrow{display:flex; align-items:center; gap:10px; margin-top:9px; font-size:12px; color:rgba(255,255,255,.75)}
 .diff{display:inline-flex; gap:3px}
@@ -119,14 +132,22 @@ h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-
 .dcvet span{font-size:10px; font-weight:600; letter-spacing:.4px; color:var(--accent2);
   border:1px solid color-mix(in srgb,var(--accent2) 45%, transparent); background:rgba(0,0,0,.35);
   border-radius:6px; padding:3px 7px}
-.dcbadge{position:absolute; top:14px; left:14px; z-index:3; font-size:10px; font-weight:700; letter-spacing:.1em;
-  color:#08130e; background:var(--good); border-radius:7px; padding:4px 9px}
-.dcbadge.jo{background:var(--soon); color:#171003}
-.dcplat{position:absolute; top:14px; right:14px; z-index:3; font-size:9.5px; font-weight:600; letter-spacing:1.3px;
-  text-transform:uppercase; background:rgba(0,0,0,.6); border:1px solid rgba(255,255,255,.22);
-  border-radius:6px; padding:4px 8px; text-shadow:0 1px 3px rgba(0,0,0,.8)}
-.deck-stamp{position:absolute; top:52px; z-index:4; font-size:26px; font-weight:800; letter-spacing:.08em;
-  padding:6px 14px; border:3px solid; border-radius:10px; opacity:0; pointer-events:none; text-transform:uppercase}
+/* Certification-plate badges (ref F): mono microtype on near-black plates,
+   hairline borders in the status ink — instrumentation, not stickers. */
+.dcbadge{position:absolute; top:14px; left:14px; z-index:3; font-family:var(--mono); font-size:9.5px;
+  font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--good);
+  background:rgba(4,4,6,.72); border:1px solid color-mix(in srgb,var(--good) 55%, transparent);
+  border-radius:4px; padding:5px 9px}
+.dcbadge.jo{color:var(--soon); border-color:color-mix(in srgb,var(--soon) 55%, transparent)}
+.dcplat{position:absolute; top:14px; right:14px; z-index:3; font-family:var(--mono); font-size:9px;
+  font-weight:600; letter-spacing:.16em; text-transform:uppercase; background:rgba(4,4,6,.72);
+  border:1px solid rgba(255,255,255,.22); border-radius:4px; padding:5px 8px;
+  text-shadow:0 1px 3px rgba(0,0,0,.8)}
+/* Rubber-stamp verdicts (ref F): double-ruled box, tracked caps, landed at an angle. */
+.deck-stamp{position:absolute; top:52px; z-index:4; font-family:var(--mono); font-size:21px; font-weight:700;
+  letter-spacing:.18em; padding:8px 16px 8px 19px; border:2px solid; border-radius:3px;
+  opacity:0; pointer-events:none; text-transform:uppercase; background:rgba(4,4,6,.35);
+  box-shadow:inset 0 0 0 1.5px rgba(4,4,6,.4), inset 0 0 0 3px currentColor}
 .deck-stamp--yes{left:16px; color:var(--good); border-color:var(--good); transform:rotate(-12deg)}
 .deck-stamp--no{right:16px; color:var(--resy); border-color:var(--resy); transform:rotate(12deg)}
 .deckBtns{display:flex; gap:14px; justify-content:center; align-items:center; padding:16px 0 4px}
@@ -139,8 +160,9 @@ h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-
 
 /* ---------- results ---------- */
 #sResults{padding-top:16px; gap:0}
-.matchLabel{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent); font-weight:600; text-align:center}
-.matchName{font-size:34px; font-weight:600; letter-spacing:-1px; text-align:center; margin:8px 0 2px; text-wrap:balance}
+.matchLabel{font-family:var(--mono); font-size:10.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); font-weight:600; text-align:center}
+.matchName{font-family:var(--serif); font-optical-sizing:auto; font-size:44px; font-weight:640; letter-spacing:-1.2px;
+  text-align:center; margin:8px 0 2px; text-wrap:balance; line-height:1.05; min-height:1.1em}
 .matchTag{text-align:center; font-size:14px; color:var(--muted); margin-bottom:14px}
 .matchTag b{color:var(--accent2); font-weight:600}
 .winCard{position:relative; border-radius:18px; overflow:hidden; height:230px; background:#0b0a09;
@@ -150,10 +172,14 @@ h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-
   background:linear-gradient(to top, rgba(4,4,6,.92) 0%, rgba(4,4,6,.4) 40%, rgba(4,4,6,.1) 70%)}
 .winMeta{position:relative; z-index:2; padding:16px; color:#fff}
 .winMeta .s1{font-size:14px; text-shadow:0 1px 3px rgba(0,0,0,.9)}
-.winCTAs{display:flex; gap:9px; margin-top:14px}
-.wbtn{flex:1; text-align:center; text-decoration:none; font-size:13.5px; font-weight:700; letter-spacing:.3px;
+/* Fitts (ref D): Book is the single biggest tappable element in the flow. */
+.winCTAs{display:flex; flex-direction:column; gap:9px; margin-top:14px}
+.wbtn{text-align:center; text-decoration:none; font-size:13.5px; font-weight:700; letter-spacing:.3px;
   border-radius:12px; padding:14px 10px; border:1px solid var(--line2); color:var(--txt); background:var(--panel)}
-.wbtn.book{background:linear-gradient(180deg,var(--accent2),var(--accent)); color:var(--onaccent); border-color:transparent}
+.wbtn.book{background:linear-gradient(180deg,var(--accent2),var(--accent)); color:var(--onaccent); border-color:transparent;
+  font-size:16.5px; padding:19px 10px; border-radius:14px}
+.wrow{display:flex; gap:9px}
+.wrow .wbtn{flex:1}
 .runners{margin-top:20px}
 .rlabel{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--faint); font-weight:600; margin-bottom:10px}
 .runner{display:flex; align-items:center; gap:12px; padding:11px 12px; border:1px solid var(--line); border-radius:12px;
@@ -164,7 +190,8 @@ h1{font-size:34px; font-weight:600; letter-spacing:-1px; line-height:1.12; text-
 .rs{font-size:11.5px; color:var(--muted); margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .rvotes{font-size:11px; color:var(--good); font-weight:700; flex:none}
 .again{margin:22px auto 8px}
-.foot{text-align:center; font-size:10.5px; color:var(--faint); line-height:1.6; padding:14px 6px 6px}
+.foot{font-family:var(--mono); text-align:center; font-size:9.5px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--faint); line-height:1.9; padding:16px 6px 6px}
 
 /* modal picker */
 .scrim{position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:50; display:none; align-items:flex-end; justify-content:center}
@@ -393,8 +420,15 @@ function buildDeck(){
     return {s, sc, open, jo};
   });
   scored.sort((a,b)=>b.sc-a.sc);
-  return scored.slice(0,16);
+  const deck=scored.slice(0,16);
+  deck.forEach((c,i)=>{ c.no=i+1; c.of=deck.length; });   // archival numbering (ref F)
+  return deck;
 }
+function dms(co){ if(!co||co.lat==null||co.lng==null) return '';
+  const f=(v,pos,neg)=>{ const a=Math.abs(v); let d=Math.floor(a); let m=Math.round((a-d)*60);
+    if(m===60){ d+=1; m=0; }               // 73.9925 must read 74°00', not 73°60'
+    return `${d}°${String(m).padStart(2,'0')}'${v>=0?pos:neg}`; };
+  return f(co.lat,'N','S')+' '+f(co.lng,'E','W'); }
 
 /* ---------------- generated fallback art (port of prod drawPhoto, compact) -- */
 function cuisineHue(c){ c=(c||'').toLowerCase();
@@ -508,7 +542,7 @@ function mountDeck(stage,{cards,renderCard,onDecide,onEmpty}){
 /* ---------------- card rendering ---------------- */
 function fmtJo(jo){ const [H,M]=jo.time.split(':').map(Number); const h=(H%12)||12;
   return `Just opened · ${h}:${String(M).padStart(2,'0')} ${H>=12?'PM':'AM'}`; }
-function renderCard({s,open,jo}){
+function renderCard({s,open,jo,no,of}){
   const img=s.photo
     ? `<img class="dcimg" src="${esc(s.photo)}" alt="" referrerpolicy="no-referrer" data-pid="${esc(s.id)}" data-cui="${esc(s.cuisine)}">`
     : `<canvas class="dcimg" data-fb="${esc(s.id)}"></canvas>`;
@@ -524,6 +558,7 @@ function renderCard({s,open,jo}){
         <span>${s.walkIns?'walk-ins ✓':''}</span></div>
       ${s.dateNote?`<div class="dcnote">${esc(s.dateNote)}</div>`:''}
       ${vet?`<div class="dcvet">${vet}</div>`:''}
+      <div class="dcgeo">${[esc(dms(s.coordinates)), `Nº ${String(no||1).padStart(2,'0')} / ${of||16}`].filter(Boolean).join(' · ')}</div>
     </div>`;
 }
 const PLAT={Resy:'var(--resy)',Tock:'var(--tock)',OpenTable:'var(--opentable)',SevenRooms:'var(--sevenrooms)',TheFork:'var(--thefork)',CoverManager:'var(--covermanager)'};
@@ -561,7 +596,8 @@ $('#handGo').onclick=openDeck;
 function openDeck(){
   show('sDeck'); S.history=[];
   $('#deckWho').textContent = S.swipers>1 ? ('Swiper '+(S.current+1)) : 'Your deck';
-  const update=()=>$('#deckLeft').textContent=(S.deckApi?.size()??S.deckCards.length)+' left';
+  const update=()=>{ const n=S.deckApi?.size()??S.deckCards.length;
+    $('#deckLeft').textContent=String(n).padStart(2,'0')+' / '+S.deckCards.length+' REMAIN'; };
   S.deckApi?.destroy();
   S.deckApi=mountDeck($('#stage'),{
     cards:S.deckCards,
@@ -596,36 +632,59 @@ function showResults(){
   const others=ranked.filter(c=>c!==winner&&c.v>0).slice(0,4);
   const s=winner.s, consensus=unanimous.length>0;
   const img=s.photo
-    ? `<img src="${esc(s.photo)}" alt="" referrerpolicy="no-referrer" data-pid="${esc(s.id)}" data-cui="${esc(s.cuisine)}" onerror="t42Fail(this)">`
-    : `<canvas data-fb="${esc(s.id)}"></canvas>`;
-  const maps=`https://maps.apple.com/?q=${encodeURIComponent(s.name)}&ll=${s.coordinates?.lat},${s.coordinates?.lng}`;
+    ? `<img src="${esc(s.photo)}" alt="${esc(s.name)} — ${esc(s.cuisine)} in ${esc(s.neighborhood)}" referrerpolicy="no-referrer" data-pid="${esc(s.id)}" data-cui="${esc(s.cuisine)}" onerror="t42Fail(this)">`
+    : `<canvas data-fb="${esc(s.id)}" role="img" aria-label="${esc(s.name)}"></canvas>`;
+  const maps = s.coordinates?.lat!=null
+    ? `https://maps.apple.com/?q=${encodeURIComponent(s.name)}&ll=${s.coordinates.lat},${s.coordinates.lng}`
+    : `https://maps.apple.com/?q=${encodeURIComponent(s.name+' '+(S.city?.label||''))}`;
+  const secondary=[`<a class="wbtn" href="${esc(maps)}" target="_blank" rel="noopener">Maps</a>`];
+  if(s.platformUrl && s.phoneNumber) secondary.push(`<a class="wbtn" href="tel:${esc(s.phoneNumber)}">Call</a>`);
   $('#sResults').innerHTML=`
     <span class="matchLabel">${consensus?'It’s settled':'Closest to consensus'}</span>
-    <h2 class="matchName">${esc(s.name)}</h2>
+    <h2 class="matchName" id="matchName"></h2>
     <p class="matchTag">Table for ${esc(S.answers.party)} · <b>it’s where you’re eating tonight.</b></p>
     <div class="winCard">${img}<div class="winMeta">
       <div class="s1">${esc(s.neighborhood)} · ${esc(s.cuisine)} · ${esc(s.priceRange||'')}
         ${winner.open?' · open tonight':''}${S.swipers>1?` · ${winner.v}/${S.swipers} said yes`:''}</div>
+      ${dms(s.coordinates)?`<div class="dcgeo">${esc(dms(s.coordinates))}</div>`:''}
     </div></div>
     <div class="winCTAs">
       ${s.platformUrl?`<a class="wbtn book" href="${esc(prefillUrl(s))}" target="_blank" rel="noopener">Book on ${esc(s.platform)}</a>`
         : s.phoneNumber?`<a class="wbtn book" href="tel:${esc(s.phoneNumber)}">Call to book</a>`
         : `<span class="wbtn book">Walk right in</span>`}
-      <a class="wbtn" href="${esc(maps)}" target="_blank" rel="noopener">Maps</a>
+      <div class="wrow">${secondary.join('')}</div>
     </div>
     ${others.length?`<div class="runners"><div class="rlabel">If they’re booked</div>
       ${others.map(c=>{const r=c.s; const ri=r.photo
-        ?`<img src="${esc(r.photo)}" alt="" referrerpolicy="no-referrer" data-pid="${esc(r.id)}" data-cui="${esc(r.cuisine)}" onerror="t42Fail(this)">`
-        :`<canvas data-fb="${esc(r.id)}"></canvas>`;
+        ?`<img src="${esc(r.photo)}" alt="${esc(r.name)}" referrerpolicy="no-referrer" data-pid="${esc(r.id)}" data-cui="${esc(r.cuisine)}" onerror="t42Fail(this)">`
+        :`<canvas data-fb="${esc(r.id)}" role="img" aria-label="${esc(r.name)}"></canvas>`;
         return `<a class="runner" href="${esc(r.platformUrl||r.website||'#')}" target="_blank" rel="noopener">${ri}
           <span class="rinfo"><span class="rn">${esc(r.name)}</span><span class="rs">${esc(r.neighborhood)} · ${esc(r.cuisine)}</span></span>
           <span class="rvotes">${S.swipers>1?c.v+'/'+S.swipers:'✓'}</span></a>`; }).join('')}</div>`:''}
     <button class="cta again" id="againBtn">Deal a new deck</button>
-    <p class="foot">Availability is a stamped snapshot — always confirm with the restaurant.<br>Table for Two · tablefortwo.city</p>`;
+    <p class="foot">Availability is a stamped snapshot · confirm with the restaurant<br>
+      Curated by critics · watched by radar · decided by you<br>
+      <a href="https://tablefortwo.city" style="color:inherit">tablefortwo.city</a></p>`;
   $('#sResults').querySelectorAll('canvas[data-fb]').forEach(cv=>{
     const c=S.deckCards.find(x=>x.s.id===cv.dataset.fb); paintFallback(cv,cv.dataset.fb,c?.s.cuisine); });
   $('#againBtn').onclick=()=>{ S.q=0; renderQuiz(); show('sQuiz'); };
   show('sResults');
+  decodeIn($('#matchName'), s.name);   // the engineered peak (refs D + F)
+}
+/* Scramble-settle reveal: characters resolve left to right, like the reference
+   reel's aligning type. Reduced-motion gets the name instantly. */
+function decodeIn(el, final){
+  if(!el) return;
+  if(reduced){ el.textContent=final; return; }
+  const pool='ABCDEFGHIJKLMNOPQRSTUVWXYZÀÉÓ';
+  let frame=0; const total=final.length;
+  (function step(){
+    frame++;
+    const settled=Math.min(total, Math.floor(frame/2.2));
+    el.textContent=final.slice(0,settled)+
+      [...final.slice(settled)].map(ch=>/\s/.test(ch)?ch:pool[Math.random()*pool.length|0]).join('');
+    if(settled<total) requestAnimationFrame(step); else el.textContent=final;
+  })();
 }
 
 boot();
