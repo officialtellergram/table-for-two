@@ -108,6 +108,11 @@ h1{font-family:var(--serif); font-optical-sizing:auto; font-size:42px; font-weig
 .deckTop{display:flex; align-items:baseline; justify-content:space-between; padding:4px 2px 10px}
 .deckWho{font-size:13px; font-weight:600; color:var(--accent2)}
 .deckLeft{font-family:var(--mono); font-size:11px; letter-spacing:.1em; color:var(--faint); font-variant-numeric:tabular-nums}
+/* Honest-gate notice: when supply forces the budget/vibe gate to widen, say
+   so — never silently show a $ picker a $$$$ room (trust rule, ref C). */
+.deckNote{font-family:var(--mono); font-size:9.5px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--soon); border:1px solid color-mix(in srgb,var(--soon) 40%, transparent);
+  border-radius:5px; padding:6px 10px; margin-bottom:10px; line-height:1.5}
 /* touch-action:none — the deck owns EVERY gesture on the stage. pan-x was
    backwards: it granted the browser horizontal pans, so mobile stole the
    swipe mid-drag and fired pointercancel (first swipe worked, rest died). */
@@ -262,6 +267,7 @@ h1{font-family:var(--serif); font-optical-sizing:auto; font-size:42px; font-weig
       <span class="deckWho" id="deckWho"></span>
       <span class="deckLeft" id="deckLeft"></span>
     </div>
+    <div class="deckNote" id="deckNote" hidden></div>
     <div class="stage" id="stage"></div>
     <div class="deckBtns">
       <button class="db undo" id="btnUndo" title="Undo (Z)">↩</button>
@@ -397,13 +403,45 @@ $('#qnext').onclick=()=>{
   else startRound();
 };
 
-/* ---------------- scoring: "best available, from our data" ---------------- */
-function buildDeck(){
-  const A=S.answers, tonight=A.when==='tonight';
-  const joBySpot={}; for(const it of S.radar) if(!(it.spotId in joBySpot)) joBySpot[it.spotId]=it;
-  const today=new Date().toISOString().slice(0,10);
-  const scored=S.spots.map(s=>{
-    let sc=0; const why=[];
+/* ---------------- scoring: "best available, from our data" ----------------
+   PURE:BEGIN — rankDeck has zero DOM/global dependencies so the filter-gate
+   harness can extract and unit-test it in Node against live city data.
+   Budget is a CONSTRAINT, not a preference (field bug: $ pickers were shown
+   $$$$ because a -12 nudge lost to open-now +40). The gate degrades honestly:
+   exact tier → ±1 → ±2 → all, widening ONLY when supply < MIN_DECK, and
+   reports how far it had to relax so the UI can say so. */
+function rankDeck(spots, radar, A, rnd, todayISO){
+  const tonight=A.when==='tonight', MIN_DECK=8, DECK=16;
+  const joBySpot={}; for(const it of radar) if(!(it.spotId in joBySpot)) joBySpot[it.spotId]=it;
+  const today=todayISO;
+
+  // --- budget hard gate (graceful) ---
+  const notchOf=s=>{ const p=s.priceRange||''; return /^\$+$/.test(p)?p.length:null; };
+  const sel=[...A.budget].map(b=>b.length);
+  const distOf=s=>{ if(!sel.length) return 0;
+    const n=notchOf(s); if(n==null) return 1;            // unknown price: near-miss, never exact
+    return Math.min(...sel.map(x=>Math.abs(x-n))); };
+  let pool=spots, budgetRelax=null;
+  if(sel.length){
+    const within=d=>spots.filter(s=>distOf(s)<=d);
+    const exact=within(0);
+    if(exact.length>=MIN_DECK){ pool=exact; budgetRelax=0; }
+    else if(within(1).length>=MIN_DECK){ pool=within(1); budgetRelax=1; }
+    else if(within(2).length>=MIN_DECK){ pool=within(2); budgetRelax=2; }
+    else { pool=spots; budgetRelax='all'; }
+  }
+
+  // --- vibe semi-gate: hard when the city can supply it, soft otherwise ---
+  let vibeRelaxed=false;
+  if(A.vibe.size){
+    const matches=pool.filter(s=>{
+      const tags=new Set([...(s.vibe||[]),...(s.occasion||[])]);
+      for(const v of A.vibe) if(tags.has(v)) return true; return false; });
+    if(matches.length>=MIN_DECK) pool=matches; else vibeRelaxed=true;
+  }
+
+  const scored=pool.map(s=>{
+    let sc=0;
     const av=s.availability, dates=(av&&av.dates||[]).filter(d=>d>=today);
     const open=!!(av&&av.open&&dates.length);
     if(open){ sc+=tonight?40:14; if(av.openDays) sc+=Math.min(av.openDays,3)*2; }
@@ -412,23 +450,27 @@ function buildDeck(){
     const tags=new Set([...(s.vibe||[]),...(s.occasion||[])]);
     let vhits=0; for(const v of A.vibe) if(tags.has(v)) vhits++;
     sc+=Math.min(vhits*12,30);
-    if(A.budget.size){
-      const notch='$$$$'.indexOf(s.priceRange||'$$')>=0 ? (s.priceRange||'$$').length : 2;
-      let best=9; for(const b of A.budget) best=Math.min(best, Math.abs(b.length-notch));
-      if(best===0) sc+=15; else if(best===1) sc+=6; else sc-=12;
-    }
+    const d=distOf(s);                                   // order toward the wallet even when relaxed
+    sc+= d===0?15 : d===1?4 : -10*(d-1);
     if(s.photo) sc+=10;
     sc+=Math.min((s.sources||[]).length*2,8);
     if(s.platformUrl) sc+=8;
     if(tonight&&s.walkIns) sc+=6;
     sc+= tonight ? (5-(s.difficulty||3))*2 : (s.difficulty||3)*3;
-    sc+=Math.random()*6-3;
+    sc+=rnd()*6-3;
     return {s, sc, open, jo};
   });
   scored.sort((a,b)=>b.sc-a.sc);
-  const deck=scored.slice(0,16);
+  const deck=scored.slice(0,DECK);
   deck.forEach((c,i)=>{ c.no=i+1; c.of=deck.length; });   // archival numbering (ref F)
-  return deck;
+  return {deck, budgetRelax, vibeRelaxed,
+          budgetSupply: sel.length?spots.filter(s=>distOf(s)===0).length:null};
+}
+/* PURE:END */
+function buildDeck(){
+  const r=rankDeck(S.spots, S.radar, S.answers, Math.random, new Date().toISOString().slice(0,10));
+  S.deckMeta=r;
+  return r.deck;
 }
 function dms(co){ if(!co||co.lat==null||co.lng==null) return '';
   const f=(v,pos,neg)=>{ const a=Math.abs(v); let d=Math.floor(a); let m=Math.round((a-d)*60);
@@ -615,6 +657,13 @@ $('#handGo').onclick=openDeck;
 function openDeck(){
   show('sDeck'); S.history=[];
   $('#deckWho').textContent = S.swipers>1 ? ('Swiper '+(S.current+1)) : 'Your deck';
+  const m=S.deckMeta||{}, note=$('#deckNote'), sel=[...S.answers.budget].join(' ');
+  const parts=[];
+  if(m.budgetRelax===1) parts.push(`Only ${m.budgetSupply} at ${sel} here · nearby budgets included`);
+  else if(m.budgetRelax===2) parts.push(`${m.budgetSupply?('Only '+m.budgetSupply):'No'} ${sel} listings in ${S.city?.label||'this city'} yet · closest budgets shown`);
+  else if(m.budgetRelax==='all') parts.push(`${sel} is thin in ${S.city?.label||'this city'} · showing the full range, cheapest first`);
+  if(m.vibeRelaxed) parts.push('few matches for that vibe · close calls included');
+  note.hidden=!parts.length; note.textContent=parts.join(' — ');
   const update=()=>{ const n=S.deckApi?.size()??S.deckCards.length;
     $('#deckLeft').textContent=String(n).padStart(2,'0')+' / '+S.deckCards.length+' REMAIN'; };
   S.deckApi?.destroy();
