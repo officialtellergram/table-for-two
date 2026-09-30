@@ -6,62 +6,6 @@
   },
   "spots": [
     {
-      "id": "reginas-farm",
-      "name": "Regina's Farm",
-      "neighborhood": "Fort Lauderdale (Middle Street)",
-      "cuisine": "Brazilian (Minas Gerais)",
-      "coordinates": {
-        "lat": 26.1005,
-        "lng": -80.167
-      },
-      "difficulty": 5,
-      "priceRange": "$$",
-      "platform": "Phone",
-      "platformUrl": "https://www.reginasfarm.com/",
-      "website": "https://www.reginasfarm.com/",
-      "phoneNumber": "954-465-1900",
-      "releaseSchedule": "none",
-      "releaseTime": "",
-      "releaseDay": "",
-      "bookingWindow": "Text waitlist, no fixed window",
-      "bookingWindowDays": null,
-      "walkIns": false,
-      "walkIn": null,
-      "tips": [
-        "Reservations only by texting 954-465-1900; regulars get priority",
-        "Saturdays by reservation only; closed in summer, reopens in October",
-        "It's in Fort Lauderdale (~30 min north of downtown Miami), not the city core",
-        "Communal, donation-style dinner with a community mission; no refunds for weather",
-        "VERIFY current wait length and whether new names are being added"
-      ],
-      "signatureDish": "Three-course Minas-Gerais feast (soup, main, pao de queijo and flan) at communal backyard tables",
-      "lastVerified": "2026-09-08",
-      "availability": null,
-      "vibe": [
-        "backyard feast",
-        "communal tables",
-        "cult favorite",
-        "candlelit"
-      ],
-      "occasion": [
-        "special occasion",
-        "adventurous date",
-        "bucket list"
-      ],
-      "dateNote": "The most romantic long shot in South Florida: a candlelit backyard supper you may wait years to share.",
-      "sources": [
-        {
-          "name": "The Infatuation",
-          "tier": "Toughest Reservations in Miami",
-          "url": "https://www.theinfatuation.com/miami/guides/toughest-restaurant-reservations-in-miami",
-          "note": "Listed as the city's hardest table with a 2-5 year wait; reservations only by texting 954-465-1900, regulars fast-tracked"
-        }
-      ],
-      "evidence": "Text-only waitlist reportedly runs 2-5 years; Saturdays-only Brazilian backyard feast with communal seating, regulars fast-tracked (The Infatuation).",
-      "photo": "https://reginasfarm.com/wp-content/uploads/2020/03/Sep2016_Reginas_Farm_0045-scaled.jpg",
-      "photoAttr": "reginasfarm.com"
-    },
-    {
       "id": "hiden",
       "name": "Hiden",
       "neighborhood": "Wynwood",
@@ -90,7 +34,7 @@
         "VERIFY exact monthly drop time before setting your alarm"
       ],
       "signatureDish": "Chef's-choice Edomae omakase at the hidden counter",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "speakeasy",
@@ -148,7 +92,7 @@
         "VERIFY exact reservation platform link and any release window"
       ],
       "signatureDish": "Le Caviar and the tasting menu at the 34-seat counter facing the open kitchen",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "fine dining",
@@ -206,7 +150,7 @@
         "VERIFY release cadence and time - Tock seats appear to be limited and rolling"
       ],
       "signatureDish": "~19-course kaiseki-style omakase with fish flown from Japan (~$350pp)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "omakase counter",
@@ -264,7 +208,7 @@
         "VERIFY exact monthly release day/time - seats appear to drop for a full period at once"
       ],
       "signatureDish": "Edomae omakase by chef Shingo Akikuni at the 14-seat counter",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "omakase counter",
@@ -316,7 +260,7 @@
         "VERIFY current Michelin star status (held stars in earlier Florida guides) and exact booking mechanics"
       ],
       "signatureDish": "Edomae omakase with Toyosu-market fish at the hidden 18-seat counter",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "speakeasy",
@@ -372,7 +316,7 @@
         "VERIFY exact Resy venue slug"
       ],
       "signatureDish": "The Butcher's Feast (steakhouse-meets-Korean-BBQ tasting) with dry-aged cuts",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "sceney",
@@ -436,7 +380,7 @@
         "Walk-in tables held at the wine bar; arrive by ~5:30 PM opening"
       ],
       "signatureDish": "Ever-changing pastas and crudo from a tiny open kitchen",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "tiny room",
@@ -485,8 +429,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": false,
       "walkIn": {
         "doors": "",
@@ -500,7 +444,7 @@
         "VERIFY exact Resy venue slug"
       ],
       "signatureDish": "Spicy Rigatoni Vodka and tableside Caesar",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "sceney",
@@ -535,7 +479,7 @@
         "lat": 25.888,
         "lng": -80.161
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "priceRange": "$$$$",
       "platform": "Resy",
       "platformUrl": "https://resy.com/cities/miami-fl/venues/mutra",
@@ -554,7 +498,7 @@
         "VERIFY seat count and any timed reservation release"
       ],
       "signatureDish": "'Ancient recipes meet modern imagination' seasonal farm-to-table menu",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "intimate",
@@ -607,7 +551,7 @@
         "VERIFY platform/slug, release time, exact address, and signature dish"
       ],
       "signatureDish": "Modern French tasting and a la carte",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "luxe",
@@ -659,7 +603,7 @@
         "VERIFY how far in advance the booking window opens"
       ],
       "signatureDish": "Heirloom-corn tortillas ground daily in the in-house molino; masa-forward plates",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "masa-driven",
@@ -686,9 +630,7 @@
           "note": "Featured on Resy's Miami Hit List for its masa-forward cooking and open kitchen"
         }
       ],
-      "evidence": "One-MICHELIN-star plus a Green Star in Coconut Grove; the masa-forward room books out well ahead.",
-      "photo": "https://resizer.otstatic.com/v4/photos/82959096-2?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "One-MICHELIN-star plus a Green Star in Coconut Grove; the masa-forward room books out well ahead."
     },
     {
       "id": "stubborn-seed",
@@ -718,7 +660,7 @@
         "VERIFY how far in advance Tock seats are released"
       ],
       "signatureDish": "Seasonal tasting menu by Top Chef winner Jeremy Ford",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "tasting menu",
@@ -778,7 +720,7 @@
         "VERIFY reservation release window"
       ],
       "signatureDish": "Seasonal, vegetable-forward French cooking in a light-filled garden room",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "serene",
@@ -836,7 +778,7 @@
         "VERIFY exact reservation platform link and window"
       ],
       "signatureDish": "Tableside classics (Dover sole, gueridon service) by Thomas Keller",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "glamorous",
@@ -894,7 +836,7 @@
         "VERIFY current booking-window length"
       ],
       "signatureDish": "Multi-course sensory tasting including the signature 'Chocotherapy' course",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "theatrical tasting",
@@ -916,9 +858,7 @@
           "note": "El Cielo (Brickell, Colombian tasting menu) holds one Michelin star in the Florida guide; retained in the 2026 selection"
         }
       ],
-      "evidence": "One-MICHELIN-star Colombian tasting experience in Brickell; limited nightly seatings booked as timed experiences.",
-      "photo": "https://elcielo.com.co/wp-content/uploads/2024/12/estrellas-michelin.webp",
-      "photoAttr": "elcielo.com.co"
+      "evidence": "One-MICHELIN-star Colombian tasting experience in Brickell; limited nightly seatings booked as timed experiences."
     },
     {
       "id": "tambourine-room",
@@ -948,7 +888,7 @@
         "VERIFY 2026 Michelin star retention and booking window"
       ],
       "signatureDish": "Tristan Brandt's contemporary European tasting menu in a 12-seat room",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "tiny dining room",
@@ -970,9 +910,7 @@
           "note": "Tambourine Room by Tristan Brandt (North Beach) awarded a Michelin star in the Florida guide; 12-seat dining room"
         }
       ],
-      "evidence": "Tristan Brandt's 12-seat fine-dining room at the Carillon; a tiny MICHELIN-starred counter with scarce seats.",
-      "photo": "https://resizer.otstatic.com/v4/photos/83137521-2?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "Tristan Brandt's 12-seat fine-dining room at the Carillon; a tiny MICHELIN-starred counter with scarce seats."
     },
     {
       "id": "casadonna",
@@ -1006,7 +944,7 @@
         "Day-of cancellations and late 9:30 PM seatings are your best last-minute shot"
       ],
       "signatureDish": "Handmade pasta, crudo, and bistecca Fiorentina in a bayfront Riviera setting",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "waterfront",
@@ -1064,7 +1002,7 @@
         "VERIFY exact address and Resy venue slug"
       ],
       "signatureDish": "Dry-aged steaks and martinis in an indoor-outdoor 'endless summer' setting",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "cool-kid steakhouse",
@@ -1121,7 +1059,7 @@
         "VERIFY exact address and reservation platform/slug"
       ],
       "signatureDish": "Vietnamese-American plates and natural wine (MICHELIN Bib Gourmand)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "hip",
@@ -1180,7 +1118,7 @@
         "VERIFY reservation platform/slug and any release window"
       ],
       "signatureDish": "Mustard Green Lasagna, Pane Bianco & Bone Marrow, Rodeo Za (anchovy pizza)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "strip-mall gem",
@@ -1237,7 +1175,7 @@
         "4312 NE 2nd Ave, Buena Vista; VERIFY exact Resy link"
       ],
       "signatureDish": "Grilled whole fish and Aegean mezze in a garden courtyard",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "garden courtyard",
@@ -1295,7 +1233,7 @@
         "VERIFY exact booking platform/slug and release time"
       ],
       "signatureDish": "La Langoustine; Le Caviar; counter tasting classics",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "fine-dining",
@@ -1321,9 +1259,7 @@
           "note": "L'Atelier de Jo\u00ebl Robuchon retained Two MICHELIN Stars in the Florida guide"
         }
       ],
-      "evidence": "Florida's sole Two MICHELIN Star restaurant, five years running; the counter-focused Robuchon room books out well ahead.",
-      "photo": "https://resizer.otstatic.com/v4/photos/26727648-3?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "Florida's sole Two MICHELIN Star restaurant, five years running; the counter-focused Robuchon room books out well ahead."
     },
     {
       "id": "entrenos",
@@ -1353,7 +1289,7 @@
         "VERIFY booking platform/slug, release cadence, and exact address"
       ],
       "signatureDish": "Seasonal chef's tasting (farm-driven)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "tiny",
@@ -1393,8 +1329,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": {
         "doors": "",
@@ -1407,7 +1343,7 @@
         "VERIFY exact Resy slug, exact address, and signature dish"
       ],
       "signatureDish": "Italian small plates and a deep wine list",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "glam",
@@ -1463,7 +1399,7 @@
         "VERIFY exact Resy slug, exact address, and signature dish"
       ],
       "signatureDish": "Modern Israeli mezze and hearth breads",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "hip",
@@ -1519,7 +1455,7 @@
         "VERIFY exact neighborhood/address, Resy slug, and signature dish"
       ],
       "signatureDish": "Roman-style pastas (cacio e pepe)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "glam",
@@ -1576,7 +1512,7 @@
         "VERIFY exact Resy slug, release time, and signature dish"
       ],
       "signatureDish": "House-made pasta",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "cozy",
@@ -1628,7 +1564,7 @@
         "Weeknights are the easier grab"
       ],
       "signatureDish": "Shrimp har gow with lime and tamarind-black-garlic chutney; daily dumplings",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "chef-driven",
@@ -1654,9 +1590,7 @@
           "note": "Listed as a top Chinese/dim-sum destination in Coral Gables."
         }
       ],
-      "evidence": "Chef Pablo Zitzmann's tiny room: a five-year Michelin Bib Gourmand and a NYT Best-50-in-America pick \u2014 small, so weekend tables go quickly.",
-      "photo": "https://resizer.otstatic.com/v4/photos/67765093-2?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "Chef Pablo Zitzmann's tiny room: a five-year Michelin Bib Gourmand and a NYT Best-50-in-America pick \u2014 small, so weekend tables go quickly."
     },
     {
       "id": "kyu-miami",
@@ -1690,7 +1624,7 @@
         "Room runs loud and tables are close since the remodel"
       ],
       "signatureDish": "Korean fried chicken and the wood-fired dishes (plus the famous cinnamon roll)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "high-energy",
@@ -1733,8 +1667,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": true,
       "walkIn": {
         "doors": "Sushi bar kept for walk-ins",
@@ -1747,7 +1681,7 @@
         "Book Resy ahead for a table on weekends"
       ],
       "signatureDish": "Bigeye tuna crudo, karaage chicken and kinoko nabe",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "sleek",
@@ -1804,7 +1738,7 @@
         "Weekends book up \u2014 grab a weeknight if you can"
       ],
       "signatureDish": "Patate fritte (parmigiano-fonduta potato balls) and house-made pasta al tartufo",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "casual and fun",
@@ -1830,9 +1764,7 @@
           "note": "Local press lists Luca Osteria among Coral Gables' notable Italian rooms."
         }
       ],
-      "evidence": "Chopped champ Giorgio Rapicavoli's Italian hit, championed by Resy and local press; popular, so reserve ahead for weekends.",
-      "photo": "https://resizer.otstatic.com/v4/photos/55555453-3?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "Chopped champ Giorgio Rapicavoli's Italian hit, championed by Resy and local press; popular, so reserve ahead for weekends."
     },
     {
       "id": "krus-kitchen",
@@ -1862,7 +1794,7 @@
         "Sits above sister restaurant Los F\u00e9lix on Main Hwy"
       ],
       "signatureDish": "Seasonal, locally-sourced seafood and produce (menu changes twice a year)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "light-filled",
@@ -1884,8 +1816,8 @@
         }
       ],
       "evidence": "The Infatuation's 8.8 for its sincerely sourced seasonal cooking; a small, in-demand room, so reserve ahead.",
-      "photo": "https://resizer.otstatic.com/v4/photos/73486093-2?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "photo": "https://resizer.otstatic.com/v4/photos/73486093-2?width=640&height=640",
+      "photoAttr": "OpenTable"
     },
     {
       "id": "lung-yai-thai-tapas",
@@ -1919,7 +1851,7 @@
         "Weekend waits are real; go early or off-peak"
       ],
       "signatureDish": "Khao soi, crispy chicken wings and spicy beef salad",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "communal picnic tables",
@@ -1974,7 +1906,7 @@
         "Cash-friendly; it's a small candlelit room"
       ],
       "signatureDish": "Thin-crust pizza and meatballs",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "candlelit",
@@ -2025,7 +1957,7 @@
         "In the Upper Buena Vista shopping enclave"
       ],
       "signatureDish": "Turkish kebabs, d\u00f6ner and meze",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "intimate",
@@ -2079,7 +2011,7 @@
         "Natural-wine list is the pairing"
       ],
       "signatureDish": "Wood-fired sourdough pizza and natural wine",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "hip",
@@ -2134,7 +2066,7 @@
         "VERIFY reservation platform \u2014 it's walk-in/wine-bar leaning; the crispy pizzas are the draw"
       ],
       "signatureDish": "Wood-fired pizza and natural wine by the glass",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "wine-bar",
@@ -2199,7 +2131,7 @@
         "VERIFY reservation platform on milos.com before booking"
       ],
       "signatureDish": "Whole grilled Mediterranean fish, filleted tableside; Milos special (fried zucchini/eggplant)",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "elegant",
@@ -2254,7 +2186,7 @@
         "VERIFY reservation platform and hours on palmamiami.com before going"
       ],
       "signatureDish": "Wood-fired plates built around house sauces",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "intimate",
@@ -2310,7 +2242,7 @@
         "Order claws by size, creamed spinach, and the key lime pie"
       ],
       "signatureDish": "Chilled stone crab claws with mustard sauce; key lime pie",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "iconic",
@@ -2364,7 +2296,7 @@
         "Great open-air patio \u2014 request it in good weather"
       ],
       "signatureDish": "Wood-oven roasted local fish and the crispy hominy",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "neighborhood institution",
@@ -2427,7 +2359,7 @@
         "Bar seating is the move for walk-ins"
       ],
       "signatureDish": "Cantinero-style daiquiris, croquetas and lech\u00f3n with yuca",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "live music",
@@ -2494,7 +2426,7 @@
         "Cash and cards both fine"
       ],
       "signatureDish": "The Cubano \u2014 house-made everything, plus a media noche and milkshakes",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "counter-service classic",
@@ -2557,7 +2489,7 @@
         "Great cafecito counter"
       ],
       "signatureDish": "Cast-iron pancake, pastelitos and the frita",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "cheerful diner",
@@ -2584,9 +2516,7 @@
           "note": "Local press lists Chug's as a Coconut Grove Cuban diner institution."
         }
       ],
-      "evidence": "Michael Beltran's Cuban-American diner, a Michelin Bib Gourmand since 2021; genuinely low-effort to get into midweek.",
-      "photo": "https://resizer.otstatic.com/v4/photos/57736744-3?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "Michael Beltran's Cuban-American diner, a Michelin Bib Gourmand since 2021; genuinely low-effort to get into midweek."
     },
     {
       "id": "ghee-indian-kitchen-dadeland",
@@ -2620,7 +2550,7 @@
         "Also a Wynwood location exists \u2014 this OpenTable link is the Dadeland/Kendall room"
       ],
       "signatureDish": "Kerala lamb and yellowfin tuna bhel, with produce from the chef's own farm",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "warm hospitality",
@@ -2640,9 +2570,7 @@
           "note": "Named a Michelin Bib Gourmand (2022-2025) on the Miami Bib Gourmand selection."
         }
       ],
-      "evidence": "Niven Patel's farm-driven Indian kitchen, a multi-year Michelin Bib Gourmand; reserve ahead for weekends, easy midweek.",
-      "photo": "https://resizer.otstatic.com/v4/photos/67619920-3?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "Niven Patel's farm-driven Indian kitchen, a multi-year Michelin Bib Gourmand; reserve ahead for weekends, easy midweek."
     },
     {
       "id": "phuc-yea",
@@ -2676,7 +2604,7 @@
         "Full cocktail bar"
       ],
       "signatureDish": "PY egg noodles and the Sancocho pho",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "dark and energetic",
@@ -2704,7 +2632,7 @@
         }
       ],
       "evidence": "A four-time Michelin Bib Gourmand and MiMo cult favorite; roomy enough to stay easy to book. (The Infatuation is mixed on the food \u2014 go for the vibe and the noodles.)",
-      "photo": "https://phucyea.com/wp-content/uploads/2026/06/Michelin-2026-update-1.png",
+      "photo": "https://resizer.otstatic.com/v4/photos/42659549-4?width=640&height=640",
       "photoAttr": "phucyea.com"
     },
     {
@@ -2739,7 +2667,7 @@
         "Bar seating for walk-ins"
       ],
       "signatureDish": "Six house-made pastas and the polenta",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "cozy taverna",
@@ -2796,7 +2724,7 @@
         "Lively for groups"
       ],
       "signatureDish": "Branzino ceviche and wood-and-coal-fired meze",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "big and versatile",
@@ -2817,9 +2745,7 @@
           "note": "Calls it a versatile Aegean meze bar with fast, very-good-to-great food; notes you can usually book the next day."
         }
       ],
-      "evidence": "A Michelin Bib Gourmand Aegean meze bar the Infatuation rates highly; so large you can often book the very next day.",
-      "photo": "https://resizer.otstatic.com/v4/photos/42659549-4?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "evidence": "A Michelin Bib Gourmand Aegean meze bar the Infatuation rates highly; so large you can often book the very next day."
     },
     {
       "id": "amara-at-paraiso",
@@ -2849,7 +2775,7 @@
         "Easy to book; the setting is the draw"
       ],
       "signatureDish": "Open-fire chicken a la brasa and grilled whole fish, on Biscayne Bay",
-      "lastVerified": "2026-09-08",
+      "lastVerified": "2026-09-30",
       "availability": null,
       "vibe": [
         "waterfront",
@@ -2871,8 +2797,8 @@
         }
       ],
       "evidence": "James Beard winner Michael Schwartz's waterfront room; easy to book, and the bay view is the reason to go. (The Infatuation says the view outshines the food \u2014 reserve for the setting.)",
-      "photo": "https://resizer.otstatic.com/v4/photos/49812594-3?width=640&amp;height=640",
-      "photoAttr": "opentable.com"
+      "photo": "https://resizer.otstatic.com/v4/photos/49812594-3?width=640&height=640",
+      "photoAttr": "OpenTable"
     }
   ]
 }
