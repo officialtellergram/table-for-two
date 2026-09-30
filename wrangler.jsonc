@@ -44,10 +44,10 @@
 	// First check DNS → Records for a leftover "tonight" CNAME (it would
 	// block creation — delete only that record).
 	// ---------------------------------------------------------------------
-	// ,"routes": [
-	// 	{
-	// 		"pattern": "tonight.tablefortwo.city",
-	// 		"custom_domain": true
-	// 	}
-	// ]
+	,"routes": [
+		{
+			"pattern": "tonight.tablefortwo.city",
+			"custom_domain": true
+		}
+	]
 }
