@@ -1,14 +1,53 @@
+/**
+ * Table for Two — Tonight (swipe app) · Cloudflare Worker, static assets only.
+ *
+ * DISCOVERED 2026-09-30: Workers Builds has been connected to this repo since
+ * July, bound to the worker "table-for-two", running `npx wrangler versions
+ * upload` on every push (main's cron commits skip via [skip ci]). The name
+ * below MUST stay "table-for-two" to match that binding — a different name
+ * would make builds create a stray second worker. Branch pushes get a stable
+ * alias: https://reframe-table-for-two.officialtellergram.workers.dev
+ *
+ * Before this config existed, builds uploaded the ENTIRE repo root as public
+ * assets — including .git/. assets.directory below is the fix.
+ * The tablefortwo.city APEX stays on GitHub Pages — untouched.
+ */
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "table-for-two",
-  "compatibility_date": "2026-07-26",
-  "observability": {
-    "enabled": true
-  },
-  "assets": {
-    "directory": "."
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ]
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "table-for-two",
+	"compatibility_date": "2026-09-01",
+	// No "main": optional for assets-only Workers — and no "binding"
+	// (assets.binding is only valid alongside a Worker script).
+	"assets": {
+		"directory": "./match",
+		// Serve /index.html with 200 for any path that matches no asset
+		// (single-page app at the directory root). html_handling omitted:
+		// the default "auto-trailing-slash" already serves index.html at "/".
+		"not_found_handling": "single-page-application"
+	},
+	// Explicitly true: this is what serves
+	// https://table-for-two.officialtellergram.workers.dev — and it must STAY
+	// explicit, because adding a "routes" block later would otherwise make
+	// wrangler infer workers_dev = false on the next deploy.
+	"workers_dev": true,
+	// Version/preview URLs (<version>-t42-tonight.<subdomain>.workers.dev).
+	"preview_urls": true,
+	"observability": {
+		"enabled": true
+	}
+	// ---------------------------------------------------------------------
+	// Custom domain — uncomment when ready to go live at
+	// tonight.tablefortwo.city. On the next `npx wrangler deploy`, Cloudflare
+	// creates the DNS record for the "tonight" label and issues the cert
+	// automatically (the zone is already on this account). Exact-hostname
+	// match only, so the apex records pointing at GitHub Pages are untouched.
+	// First check DNS → Records for a leftover "tonight" CNAME (it would
+	// block creation — delete only that record).
+	// ---------------------------------------------------------------------
+	// ,"routes": [
+	// 	{
+	// 		"pattern": "tonight.tablefortwo.city",
+	// 		"custom_domain": true
+	// 	}
+	// ]
 }

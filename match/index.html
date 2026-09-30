@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#0a0a0b" />
 <title>Table for Two — Tonight</title>
-<link rel="icon" type="image/png" href="../icons/favicon.png" />
+<link rel="icon" type="image/png" href="favicon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&display=swap" rel="stylesheet" />
@@ -331,7 +331,9 @@ async function setCity(c, fallback){
 $('#cityBtn').onclick=()=>{
   $('#cityList').innerHTML=S.cities.map(c=>`<button class="cityopt" data-k="${esc(c.key)}">${esc(c.label)}<small>${esc(c.short||'')}</small></button>`).join('');
   $$('#cityList .cityopt').forEach(b=>b.onclick=async()=>{ $('#cityScrim').classList.remove('on');
-    $('#startBtn').disabled=true; await setCity(S.cities.find(x=>x.key===b.dataset.k), false); });
+    $('#startBtn').disabled=true;
+    try{ await setCity(S.cities.find(x=>x.key===b.dataset.k), false); }
+    catch(e){ $('#cityline').textContent='Couldn’t reach the kitchen — check your connection and pick again.'; } });
   $('#cityScrim').classList.add('on');
 };
 $('#cityScrim').onclick=e=>{ if(e.target.id==='cityScrim') $('#cityScrim').classList.remove('on'); };
@@ -614,7 +616,7 @@ $('#btnNo').onclick=()=>S.deckApi?.decide('left');
 $('#btnUndo').onclick=doUndo;
 function doUndo(){ const last=S.history[S.history.length-1]; if(!last)return;
   if(S.deckApi?.undo(last.card,last.dir)){ S.history.pop(); S.votes[S.current].delete(last.card.s.id);
-    $('#deckLeft').textContent=S.deckApi.size()+' left'; } }
+    $('#deckLeft').textContent=String(S.deckApi.size()).padStart(2,'0')+' / '+S.deckCards.length+' REMAIN'; } }
 document.addEventListener('keydown',e=>{
   if(!$('#sDeck').classList.contains('on'))return;
   if(e.key==='ArrowRight')S.deckApi?.decide('right');
