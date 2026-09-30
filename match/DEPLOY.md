@@ -3,8 +3,12 @@
 **Discovered 2026-09-30: the pipeline already exists.** Workers Builds has been
 connected to this repo since July, bound to the worker **`table-for-two`**
 (account officialtellergram), running `npx wrangler versions upload` on every
-push. Main's cron commits skip via `[skip ci]`; pushes to **`reframe`** build
-and upload a new version automatically.
+push. **Triggers rewired 2026-09-30 (via API):** `reframe` is now the PRODUCTION
+build branch — a push runs `npx wrangler deploy` (assets + routes, production
+traffic, custom domain). `main` matches **no trigger at all**: its cron and
+freshness commits build nothing and can never hijack the domain (which is
+exactly what happened the first night, when a freshness-auditor commit on
+main — no skip token — redeployed main's repo-root clone over production).
 
 ## The URLs
 
@@ -17,9 +21,9 @@ and upload a new version automatically.
 
 ## Daily workflow
 
-**`git push origin reframe` = deploy.** That's the whole pipeline. Build takes
-~25s; watch it in the dashboard (worker → Deployments) or via the
-cloudflare-builds MCP tools.
+**`git push origin reframe` = live on tonight.tablefortwo.city.** That's the
+whole pipeline — production deploy, ~40s. Watch via dashboard (worker →
+Deployments) or the cloudflare-builds MCP tools.
 
 ## Why `wrangler.jsonc` matters (do not rename the worker)
 
@@ -29,10 +33,10 @@ root `wrangler.jsonc` scopes assets to `./match` (plus `match/.assetsignore`
 for the .md files) and its `"name"` MUST stay `table-for-two` to match the
 Builds binding — a different name makes builds create a stray second worker.
 
-## Promoting a version to production traffic
+## Rolling back / pinning a version
 
-Branch builds only *upload* versions. To point the worker's production URL
-(and any custom domain) at the current version:
+Reframe builds now deploy production directly — promotion is only needed to
+ROLL BACK to an earlier version:
 
 ```powershell
 cd C:\Users\Karen Plankton\Desktop\t42-reframe
