@@ -946,8 +946,8 @@
       "releaseSchedule": "none",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": true,
       "walkIn": {
         "doors": "To-go window opens at 8 AM",
@@ -1591,8 +1591,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM CT",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -1805,8 +1805,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": false,
       "walkIn": null,
       "tips": [
