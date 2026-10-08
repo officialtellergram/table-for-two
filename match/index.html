@@ -451,8 +451,54 @@ const t42Scenes = (() => {
 
   const PAINTERS={table, bar, counter}, SEEDS={table:11, bar:23, counter:37};
 
+  /* Photo-derived scenes (dot-screen skill, 2026-10-08): dots distilled from
+     public-domain Gottscho/LOC photographs — a table for two at the
+     Rockefeller Luncheon Club window, and the TWA Flight Center bar (1962).
+     One binary payload serves both themes; ink is applied at draw time.
+     Format T42D: magic + w,h uint16 + count uint32, then per dot
+     x,y uint16 (tenths of px) + r uint8 (fortieths) + v uint8 (0-255). */
+  const BIN={table:'art/table.bin', bar:'art/bar.bin'};
+  const binCache={};
+  async function renderBin(cv, url){
+    try{
+      if(!binCache[url]) binCache[url]=await (await fetch(url)).arrayBuffer();
+    }catch(e){ return false; }
+    const dv=new DataView(binCache[url]);
+    if(dv.getUint8(0)!==0x54||dv.getUint8(1)!==0x34||dv.getUint8(2)!==0x32||dv.getUint8(3)!==0x44) return false;
+    const W=dv.getUint16(4,true), H=dv.getUint16(6,true), n=dv.getUint32(8,true);
+    cv.width=W; cv.height=H;
+    const g=cv.getContext('2d'); g.clearRect(0,0,W,H);
+    const darkMode=matchMedia('(prefers-color-scheme: dark)').matches;
+    const BK=8, buckets=Array.from({length:BK},()=>[]);
+    for(let i=0;i<n;i++){
+      const o=12+i*6, v=dv.getUint8(o+5)/255;
+      buckets[Math.min(BK-1, v*BK|0)].push(o);
+    }
+    for(let b=0;b<BK;b++){
+      if(!buckets[b].length) continue;
+      const v=(b+0.5)/BK;
+      g.fillStyle = darkMode
+        ? `rgba(216,205,180,${(0.20+0.50*v).toFixed(3)})`
+        : `rgba(29,28,26,${(0.24+0.72*v).toFixed(3)})`;
+      g.beginPath();
+      for(const o of buckets[b]){
+        const x=dv.getUint16(o,true)/10, y=dv.getUint16(o+2,true)/10, r=dv.getUint8(o+4)/40;
+        g.moveTo(x+r,y); g.arc(x,y,r,0,7);
+      }
+      g.fill();
+    }
+    return true;
+  }
+
   function render(cv){
     if(!cv) return;
+    if(BIN[cv.dataset.scene]){
+      renderBin(cv, BIN[cv.dataset.scene]).then(ok=>{ if(!ok) renderProc(cv); });
+      return;
+    }
+    renderProc(cv);
+  }
+  function renderProc(cv){
     const painter=PAINTERS[cv.dataset.scene]; if(!painter) return;
     const W=cv.width, H=cv.height;
     const off=document.createElement('canvas'); off.width=W; off.height=H;
