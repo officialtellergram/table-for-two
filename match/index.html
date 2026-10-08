@@ -119,14 +119,6 @@ h1{font-family:var(--serif); font-optical-sizing:auto; font-size:42px; font-weig
 .stage{position:relative; flex:1; min-height:440px; touch-action:none; user-select:none; -webkit-user-select:none}
 .stage img{-webkit-user-drag:none; user-drag:none}
 
-/* ---------- engraved scene art ----------
-   GLAUX-style dot-screen dining rooms, drawn in-page (no images): a value
-   study is painted offscreen, then stipple-sampled. Ink dots on cream in
-   light mode, ivory dots on near-black in dark. No people, no gradients. */
-.sceneArt{display:block; width:100%; height:auto; pointer-events:none; user-select:none}
-#artLanding{margin-top:30px}
-#artHand{margin-top:14px}
-.resultsArt{margin:30px 0 2px; opacity:.92}
 .deck-card{position:absolute; inset:0 0 8px; border-radius:18px; overflow:hidden; background:#0b0a09;
   border:1px solid rgba(255,255,255,.14); box-shadow:0 14px 44px rgba(0,0,0,.42); will-change:transform;
   display:flex; flex-direction:column; justify-content:flex-end; cursor:grab; isolation:isolate}
@@ -248,7 +240,6 @@ h1{font-family:var(--serif); font-optical-sizing:auto; font-size:42px; font-weig
     </div>
     <p class="hint">deciding together? pass the phone between swipes</p>
     <button class="cta" id="startBtn" disabled>Let's eat</button>
-    <canvas class="sceneArt" id="artLanding" data-scene="table" width="1500" height="920" aria-hidden="true"></canvas>
   </section>
 
   <!-- QUIZ -->
@@ -269,7 +260,6 @@ h1{font-family:var(--serif); font-optical-sizing:auto; font-size:42px; font-weig
     <div class="handName" id="handName">Swiper 2</div>
     <p class="hint" id="handHint">Same deck, fresh eyes. Right = tonight works. Left = pass.</p>
     <button class="cta" id="handGo">I'm ready</button>
-    <canvas class="sceneArt" id="artHand" data-scene="bar" width="1500" height="880" aria-hidden="true"></canvas>
   </section>
 
   <!-- DECK -->
@@ -295,245 +285,6 @@ h1{font-family:var(--serif); font-optical-sizing:auto; font-size:42px; font-weig
 <!-- city picker -->
 <div class="scrim" id="cityScrim"><div class="sheet"><h3>Pick your city</h3><div id="cityList"></div></div></div>
 
-<script>
-/* ============================================================
-   t42Scenes — engraved dining rooms (GLAUX dot-screen, 2026-10-07).
-   A grayscale value study is painted to an offscreen canvas, then
-   stipple-sampled onto a transparent canvas: dot density carries all
-   tone and light. Deterministic (seeded PRNG), no images, no people.
-   Refs: Lafayette Tavern dining room / Delores bar / Lillian counter.
-   ============================================================ */
-const t42Scenes = (() => {
-  const mul = a => () => { a|=0; a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a);
-    t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; };
-
-  /* value-study helpers: v = 0 (ink) … 1 (paper) */
-  const V=(g,v)=>{const c=Math.round(v*255); g.fillStyle=`rgb(${c},${c},${c})`;};
-  const poly=(g,pts,v)=>{V(g,v); g.beginPath(); g.moveTo(pts[0][0],pts[0][1]);
-    for(let i=1;i<pts.length;i++) g.lineTo(pts[i][0],pts[i][1]); g.closePath(); g.fill();};
-  const rect=(g,x,y,w,h,v)=>{V(g,v); g.fillRect(x,y,w,h);};
-  const ell=(g,x,y,rx,ry,v)=>{V(g,v); g.beginPath(); g.ellipse(x,y,rx,ry,0,0,7); g.fill();};
-  const ellS=(g,x,y,rx,ry,w,v)=>{const c=Math.round(v*255); g.strokeStyle=`rgb(${c},${c},${c})`;
-    g.lineWidth=w*2.4; g.beginPath(); g.ellipse(x,y,rx,ry,0,0,7); g.stroke();};
-  const ln=(g,x1,y1,x2,y2,w,v)=>{const c=Math.round(v*255); g.strokeStyle=`rgb(${c},${c},${c})`;
-    g.lineWidth=w*2.4; g.lineCap='round'; g.beginPath(); g.moveTo(x1,y1); g.lineTo(x2,y2); g.stroke();};
-  const arc=(g,x,y,r,a1,a2,w,v)=>{const c=Math.round(v*255); g.strokeStyle=`rgb(${c},${c},${c})`;
-    g.lineWidth=w*2.4; g.lineCap='round'; g.beginPath(); g.arc(x,y,r,a1,a2); g.stroke();};
-  const knock=(g,x,y,r)=>{const gr=g.createRadialGradient(x,y,r*0.05,x,y,r);
-    gr.addColorStop(0,'rgba(255,255,255,1)'); gr.addColorStop(1,'rgba(255,255,255,0)');
-    g.fillStyle=gr; g.beginPath(); g.arc(x,y,r,0,7); g.fill();};
-
-  /* SCENE: one table for two — cloth, lamp, glasses, facing chairs */
-  function table(g,W,H){
-    const cx=0.5*W, topY=0.555*H, clothBot=0.830*H, halfW=0.240*W, hz=0.47*H;
-    for(let row=0;row<9;row++){
-      const t=row/8, y=hz+(H-hz)*Math.pow(t,1.6), sz=(0.022+0.085*t*t)*W;
-      const off=(row%2)?sz:0;
-      for(let x=-sz+off;x<W+sz;x+=sz*2)
-        poly(g,[[x,y],[x+sz,y-sz*0.42],[x+sz*2,y],[x+sz,y+sz*0.42]],1-0.52*Math.pow(t,0.9));
-    }
-    knock(g,cx,0.40*H,0.33*W); knock(g,cx,0.430*H,0.155*W);
-    ell(g,cx,0.905*H,halfW*1.18,0.030*H,0.68);
-    poly(g,[[cx-halfW,topY],[cx+halfW,topY],[cx+halfW*0.90,topY-0.030*H],[cx-halfW*0.90,topY-0.030*H]],0.97);
-    ln(g,cx-halfW*0.90,topY-0.030*H,cx+halfW*0.90,topY-0.030*H,3.4,0.42);
-    ln(g,cx-halfW,topY,cx+halfW,topY,4.6,0.30);
-    poly(g,[[cx-halfW,topY],[cx+halfW,topY],[cx+halfW*0.93,clothBot],[cx-halfW*0.93,clothBot]],0.88);
-    for(let k=0;k<9;k++){
-      const fx=cx-halfW*0.88+k*(halfW*1.76/8), sway=(k%2?1:-1)*0.004*W;
-      ln(g,fx,topY+0.012*H,fx+sway,clothBot-0.012*H,3.0,0.55);
-    }
-    ln(g,cx-halfW,topY,cx-halfW*0.93,clothBot,3.2,0.42);
-    ln(g,cx+halfW,topY,cx+halfW*0.93,clothBot,3.2,0.42);
-    ln(g,cx-halfW*0.93,clothBot,cx+halfW*0.93,clothBot,3.6,0.38);
-    for(let k=0;k<6;k++)
-      arc(g,cx-halfW*0.78+k*(halfW*1.56/5),clothBot,0.016*W,Math.PI*0.05,Math.PI*0.95,2.0,0.55);
-    const shY=0.435*H;
-    ln(g,cx,topY-0.028*H,cx,shY+0.040*H,4.2,0.28);
-    poly(g,[[cx-0.062*W,shY+0.045*H],[cx+0.062*W,shY+0.045*H],[cx+0.037*W,shY-0.045*H],[cx-0.037*W,shY-0.045*H]],0.22);
-    ln(g,cx-0.062*W,shY+0.045*H,cx+0.062*W,shY+0.045*H,3.6,0.16);
-    ln(g,cx-0.037*W,shY-0.045*H,cx+0.037*W,shY-0.045*H,2.6,0.30);
-    for(const sgn of [-1,1]){
-      const gx=cx+sgn*0.118*W, base=topY-0.028*H;
-      ln(g,gx,base,gx,base-0.052*H,2.6,0.36);
-      arc(g,gx,base-0.078*H,0.0225*W,Math.PI*0.95,Math.PI*2.05,2.6,0.34);
-      arc(g,gx,base-0.063*H,0.0205*W,Math.PI*0.15,Math.PI*0.85,2.0,0.55);
-      ln(g,gx-0.016*W,base,gx+0.016*W,base,2.4,0.40);
-      ellS(g,cx+sgn*0.165*W,topY-0.012*H,0.046*W,0.011*H,2.6,0.42);
-    }
-    for(const sgn of [-1,1]){
-      const chx=cx+sgn*(halfW+0.118*W), seatY=0.655*H, seatW=0.085*W, legBot=0.880*H;
-      ell(g,chx,0.893*H,seatW*1.25,0.020*H,0.74);
-      const bx=chx+sgn*0.030*W;
-      arc(g,bx-sgn*0.012*W,0.475*H,0.052*W,Math.PI*1.05,Math.PI*1.95,3.8,0.24);
-      ln(g,bx-0.040*W,0.510*H,chx-0.034*W,seatY,3.4,0.27);
-      ln(g,bx+0.040*W,0.510*H,chx+0.034*W,seatY,3.4,0.27);
-      ln(g,chx-seatW/2,seatY,chx+seatW/2,seatY,5.2,0.22);
-      ln(g,chx-seatW*0.42,seatY,chx-seatW*0.52,legBot,3.4,0.27);
-      ln(g,chx+seatW*0.42,seatY,chx+seatW*0.52,legBot,3.4,0.27);
-      ln(g,chx-seatW*0.47,0.775*H,chx+seatW*0.47,0.775*H,2.4,0.42);
-      for(let k=0;k<3;k++) ln(g,chx-seatW*0.3+k*seatW*0.3,seatY-0.004*H,chx-seatW*0.24+k*seatW*0.3,seatY-0.012*H,1.6,0.50);
-    }
-  }
-
-  /* SCENE: the bar — backlit bottles, rail, three stools */
-  function bar(g,W,H){
-    const shelfY=0.30*H;
-    knock(g,0.42*W,shelfY-0.05*H,0.30*W);
-    ln(g,0.06*W,shelfY,0.86*W,shelfY,4.0,0.35);
-    const rr=mul(5);
-    for(let x=0.08*W;x<0.84*W;x+=0.028*W*(0.75+rr()*0.7)){
-      const bh=(0.065+rr()*0.045)*H, bw=(0.008+rr()*0.005)*W;
-      rect(g,x,shelfY-bh,bw,bh,0.16+rr()*0.14);
-      rect(g,x+bw*0.32,shelfY-bh-0.016*H,bw*0.36,0.017*H,0.20);
-      rect(g,x+bw*0.12,shelfY-bh*0.82,bw*0.16,bh*0.5,0.78);
-    }
-    for(let x=0.12*W;x<0.80*W;x+=0.052*W){
-      ln(g,x,0.06*H,x,0.102*H,2.2,0.55);
-      poly(g,[[x-0.012*W,0.102*H],[x+0.012*W,0.102*H],[x,0.148*H]],0.60);
-    }
-    ln(g,0,0.470*H,W,0.430*H,4.5,0.35);
-    poly(g,[[0,0.475*H],[W,0.435*H],[W,0.520*H],[0,0.565*H]],0.93);
-    ln(g,0,0.565*H,W,0.520*H,5.0,0.30);
-    for(let x=0;x<W;x+=0.012*W){
-      const yTop=0.565*H-(x/W)*0.045*H;
-      ln(g,x,yTop,x,yTop+0.16*H,5.5,0.46+0.12*Math.sin(x*0.07));
-    }
-    ln(g,0,0.790*H,W,0.745*H,6.0,0.50);
-    for(let i=0;i<3;i++){
-      const x=(0.22+0.27*i)*W, sc=1.12-0.16*i, seatY=(0.600-0.012*i)*H, seatR=0.072*W*sc;
-      knock(g,x-seatR*0.3,seatY-seatR*0.25,seatR*1.1);
-      ell(g,x,seatY,seatR,seatR*0.34,0.30);
-      ellS(g,x,seatY+seatR*0.10,seatR,seatR*0.34,3.4*sc,0.20);
-      ellS(g,x,seatY+seatR*0.22,seatR*0.97,seatR*0.30,2.6*sc,0.55);
-      ln(g,x,seatY+seatR*0.34,x,seatY+0.205*H*sc,7.0*sc,0.45);
-      ln(g,x-2.5,seatY+seatR*0.34,x-2.5,seatY+0.205*H*sc,2.0*sc,0.85);
-      ell(g,x,seatY+0.212*H*sc,seatR*0.82,seatR*0.20,0.55);
-      ellS(g,x,seatY+0.212*H*sc,seatR*0.82,seatR*0.20,2.4*sc,0.35);
-    }
-  }
-
-  /* SCENE: the counter — pendants, diagonal counter, round stools */
-  function counter(g,W,H){
-    const vpx=0.86*W;
-    ln(g,0,0.585*H,vpx,0.440*H,4.0,0.35);
-    ln(g,0,0.660*H,vpx,0.470*H,3.2,0.45);
-    poly(g,[[0,0.592*H],[vpx,0.444*H],[vpx,0.468*H],[0,0.652*H]],0.96);
-    for(let x=0;x<vpx;x+=0.011*W){
-      const t=x/vpx;
-      ln(g,x,0.660*H-(0.660-0.470)*H*t,x,0.930*H-(0.930-0.520)*H*t,4.8,0.50+0.09*Math.sin(x*0.05)+0.16*t);
-    }
-    for(let x=0;x<vpx;x+=0.016*W){
-      const t=x/vpx, y0=0.932*H-(0.932-0.522)*H*t;
-      ln(g,x,y0,x+0.012*W,y0+0.035*H*(1-t*0.7),2.2,0.78);
-    }
-    for(let i=0;i<4;i++){
-      const t=i/3, x=(0.13+0.20*i)*W, sy=(0.295-0.028*i)*H, sc=1.15-0.42*t;
-      knock(g,x,sy+0.030*H,0.062*W*sc);
-      ln(g,x,0,x,sy-0.030*H*sc,2.4,0.40);
-      poly(g,[[x-0.0175*W*sc,sy],[x+0.0175*W*sc,sy],[x+0.0095*W*sc,sy-0.032*H*sc],[x-0.0095*W*sc,sy-0.032*H*sc]],0.28);
-      ln(g,x-0.0175*W*sc,sy,x+0.0175*W*sc,sy,2.4,0.22);
-    }
-    for(let i=0;i<4;i++){
-      const t=i/3, x=(0.14+0.185*i)*W, sc=1.3-0.60*t, seatY=(0.735-0.062*i)*H, seatR=0.052*W*sc;
-      ell(g,x,seatY,seatR,seatR*0.34,0.90);
-      ellS(g,x,seatY,seatR,seatR*0.34,3.0*sc,0.34);
-      ellS(g,x,seatY+seatR*0.13,seatR*0.96,seatR*0.30,2.0*sc,0.60);
-      ln(g,x,seatY+seatR*0.33,x,seatY+0.165*H*sc,4.6*sc,0.32);
-      ln(g,x-seatR*0.62,seatY+0.158*H*sc,x+seatR*0.62,seatY+0.152*H*sc,3.0*sc,0.40);
-    }
-    for(let i=0;i<5;i++){
-      const t=i/4, x=(0.075+0.165*i)*W, y=(0.575-0.028*i)*H;
-      knock(g,x,y,0.030*W*(1-t*0.3));
-      ln(g,x,y+0.012*H,x,y+0.002*H,2.6,0.45);
-      ell(g,x,y-0.004*H,2.6,2.6,0.30);
-    }
-  }
-
-  const PAINTERS={table, bar, counter}, SEEDS={table:11, bar:23, counter:37};
-
-  /* Photo-derived scenes (dot-screen skill, 2026-10-08): dots distilled from
-     public-domain Gottscho/LOC photographs — a table for two at the
-     Rockefeller Luncheon Club window, and the TWA Flight Center bar (1962).
-     One binary payload serves both themes; ink is applied at draw time.
-     Format T42D: magic + w,h uint16 + count uint32, then per dot
-     x,y uint16 (tenths of px) + r uint8 (fortieths) + v uint8 (0-255). */
-  const BIN={table:'art/table.bin', bar:'art/bar.bin'};
-  const binCache={};
-  async function renderBin(cv, url){
-    try{
-      if(!binCache[url]) binCache[url]=await (await fetch(url)).arrayBuffer();
-    }catch(e){ return false; }
-    const dv=new DataView(binCache[url]);
-    if(dv.getUint8(0)!==0x54||dv.getUint8(1)!==0x34||dv.getUint8(2)!==0x32||dv.getUint8(3)!==0x44) return false;
-    const W=dv.getUint16(4,true), H=dv.getUint16(6,true), n=dv.getUint32(8,true);
-    cv.width=W; cv.height=H;
-    const g=cv.getContext('2d'); g.clearRect(0,0,W,H);
-    const darkMode=matchMedia('(prefers-color-scheme: dark)').matches;
-    const BK=8, buckets=Array.from({length:BK},()=>[]);
-    for(let i=0;i<n;i++){
-      const o=12+i*6, v=dv.getUint8(o+5)/255;
-      buckets[Math.min(BK-1, v*BK|0)].push(o);
-    }
-    for(let b=0;b<BK;b++){
-      if(!buckets[b].length) continue;
-      const v=(b+0.5)/BK;
-      g.fillStyle = darkMode
-        ? `rgba(216,205,180,${(0.20+0.50*v).toFixed(3)})`
-        : `rgba(29,28,26,${(0.24+0.72*v).toFixed(3)})`;
-      g.beginPath();
-      for(const o of buckets[b]){
-        const x=dv.getUint16(o,true)/10, y=dv.getUint16(o+2,true)/10, r=dv.getUint8(o+4)/40;
-        g.moveTo(x+r,y); g.arc(x,y,r,0,7);
-      }
-      g.fill();
-    }
-    return true;
-  }
-
-  function render(cv){
-    if(!cv) return;
-    if(BIN[cv.dataset.scene]){
-      renderBin(cv, BIN[cv.dataset.scene]).then(ok=>{ if(!ok) renderProc(cv); });
-      return;
-    }
-    renderProc(cv);
-  }
-  function renderProc(cv){
-    const painter=PAINTERS[cv.dataset.scene]; if(!painter) return;
-    const W=cv.width, H=cv.height;
-    const off=document.createElement('canvas'); off.width=W; off.height=H;
-    const og=off.getContext('2d',{willReadFrequently:true});
-    og.fillStyle='#ffffff'; og.fillRect(0,0,W,H);
-    painter(og,W,H);
-    const px=og.getImageData(0,0,W,H).data;
-    const g=cv.getContext('2d');
-    g.clearRect(0,0,W,H);
-    const darkMode=matchMedia('(prefers-color-scheme: dark)').matches;
-    const rnd=mul(SEEDS[cv.dataset.scene]);
-    const N=Math.round(W*H*0.0707);
-    for(let i=0;i<N;i++){
-      const x=rnd()*W, y=rnd()*H;
-      const L=px[(((y|0)*W+(x|0))*4)]/255;
-      const d=Math.min(1,Math.pow(1-L,1.4)*1.5);
-      if(d<0.045 || rnd()>d) continue;
-      const rad=0.65+rnd()*1.15*(0.5+0.5*d);
-      g.fillStyle = darkMode
-        ? `rgba(216,205,180,${(0.22+0.52*d).toFixed(3)})`
-        : `rgba(29,28,26,${(0.26+0.72*d).toFixed(3)})`;
-      g.beginPath(); g.arc(x,y,rad,0,7); g.fill();
-    }
-    for(let i=0;i<4000;i++){
-      g.fillStyle=darkMode?'rgba(216,205,180,0.05)':'rgba(29,28,26,0.06)';
-      g.fillRect(rnd()*W,rnd()*H,1.2,1.2);
-    }
-  }
-  function renderAll(){ document.querySelectorAll('canvas[data-scene]').forEach(render); }
-  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', renderAll);
-  // first paint beats the art: render on idle so boot never waits on it
-  (window.requestIdleCallback||(f=>setTimeout(f,60)))(renderAll);
-  return {render, renderAll};
-})();
-</script>
 <script>
 /* ============================================================
    Table for Two — Tonight. Quiz → prioritized deck → group swipe.
@@ -979,14 +730,12 @@ function showResults(){
         return `<a class="runner" href="${esc(r.platformUrl||r.website||'#')}" target="_blank" rel="noopener">${ri}
           <span class="rinfo"><span class="rn">${esc(r.name)}</span><span class="rs">${esc(r.neighborhood)} · ${esc(r.cuisine)}</span></span>
           <span class="rvotes">${S.swipers>1?c.v+'/'+S.swipers:'✓'}</span></a>`; }).join('')}</div>`:''}
-    <canvas class="sceneArt resultsArt" data-scene="counter" width="1500" height="900" aria-hidden="true"></canvas>
     <button class="cta again" id="againBtn">Deal a new deck</button>
     <p class="foot">Availability is a stamped snapshot · confirm with the restaurant<br>
       Curated by critics · watched by radar · decided by you<br>
       <a href="https://tablefortwo.city" style="color:inherit">tablefortwo.city</a></p>`;
   $('#sResults').querySelectorAll('canvas[data-fb]').forEach(cv=>{
     const c=S.deckCards.find(x=>x.s.id===cv.dataset.fb); paintFallback(cv,cv.dataset.fb,c?.s.cuisine); });
-  t42Scenes.render($('#sResults canvas[data-scene]'));
   $('#againBtn').onclick=()=>{ S.q=0; renderQuiz(); show('sQuiz'); };
   show('sResults');
   decodeIn($('#matchName'), s.name);   // the engineered peak (refs D + F)
