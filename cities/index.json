@@ -287,6 +287,21 @@
       }
     },
     {
+      "key": "lake-charles",
+      "label": "Lake Charles, LA",
+      "short": "LCH",
+      "center": [
+        30.2169,
+        -93.2174
+      ],
+      "zoom": 12,
+      "timezone": "America/Chicago",
+      "source": {
+        "type": "json",
+        "url": "cities/lake-charles.json"
+      }
+    },
+    {
       "key": "malaga",
       "label": "Málaga",
       "short": "MLG",

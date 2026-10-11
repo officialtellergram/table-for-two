@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "source": "t42-city-concierge",
+    "city": "Lake Charles, LA",
+    "curated": "2026-10-11",
+    "disclaimer": "Lake Charles is a small media market with limited independent restaurant criticism — always confirm reservation details directly with the restaurant."
+  },
+  "spots": [
+    {
+      "id": "gordon-ramsay-steak-lake-charles",
+      "name": "Gordon Ramsay Steak",
+      "neighborhood": "Westlake / Horseshoe Lake Charles",
+      "cuisine": "Steakhouse",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://opentable.com/r/gordon-ramsay-steak-horseshoe-lake-charles-westlake",
+      "website": "https://www.gordonramsayrestaurants.com/gordon-ramsay-steak-lake-charles/",
+      "phoneNumber": "(337) 430-2460",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": false,
+      "walkIn": null,
+      "tips": [
+        "Gordon Ramsay's first Louisiana restaurant, inside Horseshoe Lake Charles (Westlake) — opened Nov. 2023",
+        "Open Wednesday–Sunday dinner only; closed Monday/Tuesday, which tightens prime weekend slots",
+        "Book via OpenTable; the listing regularly shows dozens of same-day bookings",
+        "Phone number is the Horseshoe casino's general reservations line — VERIFY a direct line",
+        "VERIFY exact coordinates and booking window"
+      ],
+      "signatureDish": "Beef Wellington; dry-aged steaks",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "impress",
+        "celebration",
+        "anniversary"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Business Wire",
+          "tier": "News",
+          "url": "https://businesswire.com/news/home/20231018664547/en/5538641/Gordon-Ramsay-Makes-Louisiana-Debut-with-Gordon-Ramsay-Steak-at-Horseshoe-Lake-Charles-This-Fall",
+          "note": "Announcement of Gordon Ramsay's first Louisiana restaurant opening at Horseshoe Lake Charles, fall 2023"
+        }
+      ]
+    },
+    {
+      "id": "restaurant-calla",
+      "name": "Restaurant Calla",
+      "neighborhood": "Downtown (Market St.)",
+      "cuisine": "New American / New Orleans-inspired",
+      "coordinates": null,
+      "difficulty": 4,
+      "priceRange": "$$$",
+      "platform": "Website",
+      "platformUrl": "https://legacy-admin.spillover.com/spillover/proto/restaurantcalla/",
+      "website": "https://legacy-admin.spillover.com/spillover/proto/restaurantcalla/",
+      "phoneNumber": "(337) 429-5701",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": {
+        "doors": "11:00 AM",
+        "lineBy": "",
+        "advice": "Small second-floor dining room reached by elevator — call ahead, especially for weekend dinner or Sunday brunch."
+      },
+      "tips": [
+        "Fine dining above street level — reached by elevator, limited seating",
+        "Closed Mondays",
+        "Sunday brunch is a separate, popular booking",
+        "VERIFY exact coordinates and current booking channel"
+      ],
+      "signatureDish": "Blue crab beignets with avocado crema",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "intimate",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "impress"
+      ],
+      "dateNote": "An intimate counter — just you, them, and the chef.",
+      "sources": [
+        {
+          "name": "KPLC",
+          "tier": "Feature",
+          "url": "https://www.kplctv.com/2023/03/31/gotta-eat-fine-dining-restaurant-calla",
+          "note": "'Gotta Eat' feature calling the New Orleans-style dishes exceptional, with each plate showing careful detail"
+        }
+      ]
+    },
+    {
+      "id": "vic-and-anthonys-lake-charles",
+      "name": "Vic & Anthony's Steakhouse",
+      "neighborhood": "Golden Nugget Lake Charles",
+      "cuisine": "Steakhouse",
+      "coordinates": {
+        "lat": 30.20477,
+        "lng": -93.26374
+      },
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://opentable.com/r/vic-and-anthonys-lake-charles",
+      "website": "https://www.vicandanthonys.com/location/lake-charles",
+      "phoneNumber": "(337) 508-4103",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Upscale steakhouse inside the Golden Nugget casino resort",
+        "Business casual dress code",
+        "Fri/Sat seatings run later (until 11 PM) than the rest of the week",
+        "VERIFY booking window"
+      ],
+      "signatureDish": "Dry-aged steaks; Gulf seafood towers",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "lively"
+      ],
+      "occasion": [
+        "celebration",
+        "anniversary",
+        "impress"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "Louisiana Seafood",
+          "tier": "Chef feature",
+          "url": "https://www.louisianaseafood.com/lasco-2018/chef-justin-east",
+          "note": "Profile of executive chef Justin East (SOWELA-trained), who leads the kitchen at Vic & Anthony's Steakhouse at the Golden Nugget"
+        }
+      ]
+    },
+    {
+      "id": "ember-grille-wine-bar",
+      "name": "Ember Grille & Wine Bar",
+      "neighborhood": "L'Auberge Casino Resort",
+      "cuisine": "Modern American steakhouse",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$$",
+      "platform": "Phone",
+      "platformUrl": "https://www.biteandbooze.com/2013/11/ember-grille-and-winebar-at-lauberge.html",
+      "website": "https://www.lauberge.com/",
+      "phoneNumber": "(337) 395-7104",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Not on the OpenTable booking network — call to reserve",
+        "240-bottle wine cellar; occasional live piano",
+        "Fireside dining room inside L'Auberge Casino Resort",
+        "VERIFY current reservations line and exact coordinates"
+      ],
+      "signatureDish": "Dry-aged ribeye",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "romantic",
+        "special-occasion"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration",
+        "impress"
+      ],
+      "dateNote": "Low-lit and date-perfect — made for a lingering two-top.",
+      "sources": [
+        {
+          "name": "Bite and Booze",
+          "tier": "Feature",
+          "url": "https://www.biteandbooze.com/2013/11/ember-grille-and-winebar-at-lauberge.html",
+          "note": "Jay Ducote's dinner feature on Ember Grille's wine program and dry-aged steaks at L'Auberge Casino Resort"
+        }
+      ]
+    },
+    {
+      "id": "villa-harlequin",
+      "name": "Villa Harlequin",
+      "neighborhood": "Downtown (Pujo St. / Historic Noble Building)",
+      "cuisine": "Italian",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://bestofswla.com/2026/01/26/villa-harlequin/",
+      "website": "",
+      "phoneNumber": "(337) 436-6251",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Merged two of Lake Charles' oldest restaurant families (Harlequin Steaks & The Villa) in 2019",
+        "Founding owners (Hunter/Sperandeo families) retired in 2024; new leadership under chef Colin Nunez as of 2025",
+        "Downtown, in the historic Noble Building",
+        "VERIFY phone number and exact coordinates — no confirmed official website found"
+      ],
+      "signatureDish": "Italian-leaning chophouse fare",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "special-occasion",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "celebration"
+      ],
+      "dateNote": "A special-occasion table worth the wait.",
+      "sources": [
+        {
+          "name": "American Press",
+          "tier": "Feature",
+          "url": "https://americanpress.com/?p=258682",
+          "note": "'Colin Nunez takes the helm at Villa Harlequin' — profile on the chef who came up under David Sorrells at Restaurant Calla"
+        },
+        {
+          "name": "KPLC",
+          "tier": "News",
+          "url": "https://www.kplctv.com/2024/06/09/villa-harlequin-announces-new-leadership/",
+          "note": "Reports the Hunter and Sperandeo families' retirement after five decades and a new ownership chapter for Villa Harlequin"
+        }
+      ]
+    },
+    {
+      "id": "crying-eagle-lakefront",
+      "name": "Crying Eagle Lakefront",
+      "neighborhood": "North Lakeshore / Lakefront Promenade",
+      "cuisine": "Gulf seafood / Southern",
+      "coordinates": null,
+      "difficulty": 3,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/landmark/329621",
+      "website": "https://cryingeaglebrewing.com/",
+      "phoneNumber": "(337) 915-0547",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Opened Sept. 30, 2025 as a much-anticipated lakefront anchor near Port Wonder and the Horseshoe casino",
+        "House-brewed Crying Eagle beer on site",
+        "Indoor and outdoor lakefront seating",
+        "VERIFY current booking window and exact coordinates"
+      ],
+      "signatureDish": "Redfish on the Half Shell",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "lively",
+        "romantic"
+      ],
+      "occasion": [
+        "first-date",
+        "celebration"
+      ],
+      "dateNote": "Buzzy and fun — a lively night out for two.",
+      "sources": [
+        {
+          "name": "KPLC",
+          "tier": "News",
+          "url": "https://www.kplctv.com/2025/09/30/crying-eagle-brings-much-anticipated-restaurant-lake-charles-lakefront/",
+          "note": "Covers the opening of Crying Eagle's lakefront restaurant, already taking reservations ahead of a walk-in debut Oct. 31, 2025"
+        },
+        {
+          "name": "Thrive Magazine",
+          "tier": "Feature",
+          "url": "https://thriveswla.com/?p=4536",
+          "note": "Profiles chef Lyle Broussard, who runs the Crying Eagle lakefront kitchen and trained at the Culinary Institute of America"
+        }
+      ]
+    },
+    {
+      "id": "121-artisan-bistro",
+      "name": "121 Artisan Bistro",
+      "neighborhood": "Medical District (Dr. Michael DeBakey Dr.)",
+      "cuisine": "Italian-inspired",
+      "coordinates": null,
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "OpenTable",
+      "platformUrl": "https://www.opentable.com/r/121-artisan-bistro-lake-charles",
+      "website": "",
+      "phoneNumber": "(337) 310-7499",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Stone hearth oven dishes; a downtown-area fixture for over a decade",
+        "Phone number on file is for catering/private events — VERIFY a general reservations line",
+        "VERIFY exact coordinates"
+      ],
+      "signatureDish": "Stone hearth oven pasta and pizza",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "romantic"
+      ],
+      "occasion": [
+        "first-date",
+        "anniversary"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "Best of SWLA",
+          "tier": "Chef's Spotlight",
+          "url": "https://bestofswla.com/2020/01/09/ben-herrera-121-artisan-bistro/",
+          "note": "Chef's Spotlight on founder Ben Herrera, calling 121 Artisan Bistro as iconic as its predecessor D'Angelo's after a decade downtown"
+        }
+      ]
+    },
+    {
+      "id": "mazens",
+      "name": "Mazen's",
+      "neighborhood": "West College St.",
+      "cuisine": "Lebanese / French / Continental",
+      "coordinates": null,
+      "difficulty": 2,
+      "priceRange": "$$$",
+      "platform": "Phone",
+      "platformUrl": "https://americanpress.com/?p=12996",
+      "website": "",
+      "phoneNumber": "(337) 477-8207",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Owner-chef Mazen Hijazi has run the restaurant for over 30 years",
+        "Lebanese dishes alongside French and Louisiana influences",
+        "VERIFY exact coordinates and current hours"
+      ],
+      "signatureDish": "Aladdin fish; Grand Marnier soufflé",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "cozy",
+        "intimate"
+      ],
+      "occasion": [
+        "anniversary",
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "American Press",
+          "tier": "Column",
+          "url": "https://americanpress.com/?p=12996",
+          "note": "Column on owner-chef Mazen Hijazi, calling him 'undoubtedly one of the top five chefs in Lake Charles'"
+        }
+      ]
+    },
+    {
+      "id": "pujo-st-cafe",
+      "name": "Pujo St. Cafe",
+      "neighborhood": "Downtown (Ryan St.)",
+      "cuisine": "Eclectic American / Cajun-Creole",
+      "coordinates": null,
+      "difficulty": 2,
+      "priceRange": "$$",
+      "platform": "Phone",
+      "platformUrl": "https://americanpress.com/?p=103276",
+      "website": "",
+      "phoneNumber": "(337) 439-2054",
+      "releaseSchedule": "none",
+      "releaseTime": "",
+      "releaseDay": "",
+      "bookingWindow": "",
+      "bookingWindowDays": null,
+      "walkIns": true,
+      "walkIn": null,
+      "tips": [
+        "Cash only",
+        "Housed in the historic 1886 Gordon's Drug Store building downtown",
+        "Popular for Sunday brunch; call ahead for groups",
+        "VERIFY phone number and exact coordinates"
+      ],
+      "signatureDish": "Tilapia puttanesca; crab cakes",
+      "lastVerified": "2026-10-11",
+      "availability": null,
+      "vibe": [
+        "cozy"
+      ],
+      "occasion": [
+        "first-date"
+      ],
+      "dateNote": "Warm neighborhood charm — easy and unhurried.",
+      "sources": [
+        {
+          "name": "American Press",
+          "tier": "Feature",
+          "url": "https://americanpress.com/?p=103276",
+          "note": "Reports Pujo Street Cafe's dessert was featured in a statewide book of Louisiana's best dessert spots"
+        }
+      ]
+    }
+  ]
+}
