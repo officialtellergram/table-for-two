@@ -25,8 +25,8 @@
       "releaseSchedule": "calendar-month",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "1st of preceding month",
-      "bookingWindow": "25 days",
-      "bookingWindowDays": 25,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -435,8 +435,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "28 days",
-      "bookingWindowDays": 28,
+      "bookingWindow": "26 days",
+      "bookingWindowDays": 26,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -933,8 +933,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "63 days",
-      "bookingWindowDays": 63,
+      "bookingWindow": "62 days",
+      "bookingWindowDays": 62,
       "walkIns": false,
       "walkIn": null,
       "tips": [
