@@ -178,8 +178,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM (Midnight) ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": false,
       "walkIn": null,
       "tips": [
@@ -499,8 +499,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM (Midnight) ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -562,8 +562,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM ET",
       "releaseDay": "",
-      "bookingWindow": "63 days",
-      "bookingWindowDays": 63,
+      "bookingWindow": "90 days",
+      "bookingWindowDays": 90,
       "walkIns": true,
       "walkIn": null,
       "tips": [
@@ -1144,8 +1144,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM (Midnight) ET",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "60 days",
+      "bookingWindowDays": 60,
       "walkIns": true,
       "walkIn": null,
       "tips": [
