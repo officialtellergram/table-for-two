@@ -1790,8 +1790,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "12:00 AM (Midnight) PT",
       "releaseDay": "",
-      "bookingWindow": "2 days",
-      "bookingWindowDays": 2,
+      "bookingWindow": "7 days",
+      "bookingWindowDays": 7,
       "walkIns": true,
       "walkIn": {
         "doors": "",
