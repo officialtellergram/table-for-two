@@ -8,6 +8,13 @@
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
 <script>(function(){try{var t=localStorage.getItem('t42-theme')||((window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<!-- Landing pre-paint: a first visit (never entered, no saved city, no ?city=
+     deep link, not file://) will show the landing, so hold the app shell back
+     from frame one — otherwise the topbar + "Starting…" state flash before
+     boot() reaches runLanding(). boot() drops .lz-first on every non-landing
+     path and leave() drops it as the landing fades; the 7s timer is the
+     self-heal if anything goes wrong before either runs. -->
+<script>(function(){try{if(location.protocol!=='file:'&&!localStorage.getItem('t42-entered')&&!localStorage.getItem('t42-city')&&!new URLSearchParams(location.search).get('city')){document.documentElement.classList.add('lz-first');setTimeout(function(){document.documentElement.classList.remove('lz-first')},7000);}}catch(e){}})();</script>
 <title>Table for Two</title>
 <meta name="description" content="Any city. Any craving. — vetted restaurants and real-time tables in your city." />
 <!-- Link-preview cards: minimal — just the logo mark + "Table for Two" + domain.
@@ -23,6 +30,7 @@
 <meta name="twitter:title" content="Table for Two" />
 <meta name="twitter:image" content="https://tablefortwo.city/icons/og-square.png" />
 <link rel="canonical" href="https://tablefortwo.city/" />
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg" />
 <link rel="icon" type="image/png" href="icons/favicon.png" />
 <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 <!-- PWA: installable to home screen (iOS on-ramp) -->
@@ -57,6 +65,7 @@
     --txt:#f4f3f1; --muted:#8a8a90; --faint:#56565c;
     --accent:#c9a86a; --accent2:#dcc28c; --good:#86b6a0; --soon:#cda766;
     --resy:#c97078; --tock:#7d97bd; --opentable:#c87a68; --sevenrooms:#9b92c4;
+    --thefork:#4fbfa8; --covermanager:#a8b46b;
     --invite:#9a9aa0; --radius:14px;
     --serif:'Inter',-apple-system,'Segoe UI',sans-serif; --glow:none;
     --hover:#131315; --line2:#34343a; --dot:#2c2c30; --onaccent:#15110a;
@@ -69,6 +78,7 @@
     --txt:#1b1a1c; --muted:#6f6c74; --faint:#a8a4ac;
     --accent:#a8843c; --accent2:#937734; --good:#3f8068; --soon:#a8803a;
     --resy:#bf4651; --tock:#3f6aa0; --opentable:#bf5641; --sevenrooms:#6c60b4;
+    --thefork:#0e8a72; --covermanager:#74812f;
     --invite:#7a7780;
     --hover:#f1efe9; --line2:#d3cec3; --dot:#d9d5cc; --onaccent:#fffaf0;
     --nm:linear-gradient(94deg,#2a2a2c,#9c7d3a 55%,#a8843c);
@@ -102,24 +112,23 @@
   /* City picker / List-Map / refresh — scroll away with the page, not pinned */
   .subbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-top:16px}
   .brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);
-    font-weight:500;font-size:17px;letter-spacing:3.5px;text-transform:uppercase}
-  .brand .mark{width:24px;height:24px;object-fit:contain;align-self:center;
+    font-weight:650;font-size:18px;letter-spacing:-.03em;text-transform:none}
+  .brand .mark{width:26px;height:26px;object-fit:contain;align-self:center;border-radius:6px;
     filter:drop-shadow(0 1px 5px rgba(201,168,106,.45))}
   .brand .nm{background:var(--nm);
     -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .brand .nm .dot{-webkit-text-fill-color:var(--accent);color:var(--accent)}
   .brand small{font-family:'Inter',sans-serif;font-weight:400;letter-spacing:.2px;text-transform:none;
     color:var(--muted);font-size:11px;-webkit-text-fill-color:var(--muted)}
   .spacer{flex:1}
   select,input,button{font:inherit;color:var(--txt);transition:border-color .15s,box-shadow .15s,background .15s}
-  /* Scroll story: fixed line-art scene behind everything */
   /* Liquid-glass cards: translucent so the scroll story reads through as soft
      moving light. --cardMix = tint opacity, --cardBlur = frost. */
   :root{--sceneInk:#d8b47c;--cardMix:28%;--cardBlur:22px;
     --cardBorder:rgba(255,255,255,.14);--cardSheen:rgba(255,255,255,.11);--cardShadow:rgba(0,0,0,.34)}
   [data-theme="light"]{--sceneInk:#7e5f38;--cardMix:36%;
     --cardBorder:rgba(255,255,255,.8);--cardSheen:rgba(255,255,255,.92);--cardShadow:rgba(80,60,35,.15)}
-  /* WebGL ambient — warm candlelit haze drifting behind the frosted cards. Sits
-     UNDER the line-art scene (earlier in the DOM); both read through the glass. */
+  /* WebGL ambient — warm candlelit haze drifting behind the frosted cards. */
   #vanta-bg{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.46}
   [data-theme="light"] #vanta-bg{opacity:.62}
   /* Big desktop displays spread the fog thin — it reads much fainter than on a
@@ -128,22 +137,7 @@
     #vanta-bg{opacity:.66}
     [data-theme="light"] #vanta-bg{opacity:.74}
   }
-  #tableScene{position:fixed;inset:0;z-index:0;pointer-events:none;
-    display:flex;align-items:center;justify-content:center;opacity:.8}
-  [data-theme="light"] #tableScene{opacity:.62}
-  /* Ambient candlelight wash behind the line art — gives the frosted glass warm
-     light to catch everywhere, not just where the table strokes are. */
-  #tableScene::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
-    background:radial-gradient(56% 46% at 50% 48%, rgba(216,180,124,.16), transparent 70%);
-    animation:ambientPulse 5.5s ease-in-out infinite}
-  [data-theme="light"] #tableScene::before{background:radial-gradient(56% 46% at 50% 48%, rgba(200,150,70,.14), transparent 70%)}
-  @keyframes ambientPulse{0%,100%{opacity:.72}50%{opacity:1}}
-  #tableScene svg{position:relative;z-index:1;width:min(92vmin,720px);height:auto;margin-top:6vh;stroke-width:2.1}
-  #tableau{height:72vh}   /* open stage at the list's end where the story finishes */
-  .scene-window{grid-column:1/-1;height:200px;pointer-events:none}   /* clear band: story shows through */
   header,main{position:relative;z-index:1}
-  body.mapview #tableScene, body.mapview #tableau{display:none}
-  @media (prefers-reduced-motion: reduce){ #tableScene{display:none} #tableau{height:10vh} }
   .city-select,.sort-select,.filter-select,.party-select{
     background:transparent;border:1px solid var(--line);border-radius:10px;
     padding:8px 12px;appearance:none;cursor:pointer;color:var(--txt)}
@@ -224,63 +218,113 @@
   /* Grid */
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding-bottom:52px}
   /* ---------- First-visit landing overlay ---------- */
-  #landing{position:fixed;inset:0;z-index:2000;background:var(--bg);
-    display:flex;align-items:center;justify-content:center;padding:24px;
-    transition:opacity .6s ease;overflow:hidden}
+  /* "Through the door" on the Muse Image hero (art/hero.webp). Black, then the light in
+     the doorway opens across the frame while the camera pushes in. The brand lockup sits
+     top-left over the wall above the hostess desk. In the middle of the screen the demo
+     ask types itself, the three tiers of a real answer land under it, then the two ways
+     in. Light cream-to-gold lettering with dark halos so it reads over the print. */
+  #landing{position:fixed;inset:0;z-index:2000;background:#0a0a0b;color:#f4f3f1;overflow:hidden;
+    transition:opacity .6s ease}
   #landing[hidden]{display:none}
   #landing.leaving{opacity:0;pointer-events:none}
-  #landing::before{content:"";position:absolute;inset:0;pointer-events:none;
-    background:radial-gradient(52% 44% at 50% 46%,rgba(216,180,124,.18),transparent 72%)}
-  .lz-inner{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;max-width:640px;width:100%;text-align:center}
-  /* Brand greets first: logo + wordmark fade/rise in before the table draws */
-  .lz-brand{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:8px;
-    opacity:0;transform:translateY(-8px)}
-  /* Brand insignia: gold circle + white table-T. */
-  .lz-logo{display:block;width:64px;height:auto;filter:drop-shadow(0 3px 14px rgba(216,180,124,.28))}
-  /* Wordmark matches the header brand exactly: Inter, gold gradient, spaced caps. */
-  .lz-wordmark{font-family:var(--serif);font-size:clamp(27px,6.2vw,44px);font-weight:500;
-    letter-spacing:3.5px;text-transform:uppercase;
-    background:var(--nm);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-  /* Tagline lockup: "— Any city. Any craving. —" with dash flourishes, matching the mark. */
-  .lz-tagline{display:flex;align-items:center;gap:13px;color:var(--accent2);margin-top:3px;
-    font-size:clamp(11px,2.4vw,14px);letter-spacing:2.8px;text-transform:uppercase;font-weight:500;white-space:nowrap}
-  .lz-tagline::before,.lz-tagline::after{content:"";width:26px;height:1px;background:currentColor;opacity:.55}
-  #landing.playing .lz-brand{animation:lzWord .9s cubic-bezier(.2,.7,.2,1) .15s forwards}
-  /* Height-aware so the whole landing fits without clipping the logo on short windows */
-  .lz-scene{width:min(72vw,44vh,420px);height:auto;margin-bottom:6px}
-  /* draw-in: strokes start hidden, each group draws on its own delay */
-  #landing .lz-scene :is(path,ellipse):not(.lz-flame){stroke-dasharray:1000;stroke-dashoffset:1000}
-  .lz-glow,.lz-flame{opacity:0}
-  @keyframes lzDraw{to{stroke-dashoffset:0}}
-  @keyframes lzFade{to{opacity:1}}
-  @keyframes lzWord{to{opacity:1;transform:none}}
-  @keyframes lzGlowPulse{0%,100%{opacity:.75}50%{opacity:1}}
-  @keyframes lzFlick{to{transform:scaleY(.88) skewX(2.5deg)}}
-  /* furthest layer draws first, slow + gentle, so the city settles in behind */
-  #landing.playing .lz-skyline path{animation:lzDraw 1.3s ease .5s forwards}
-  #landing.playing .lz-floor path{animation:lzDraw .8s ease .8s forwards}
-  #landing.playing .lz-table :is(path,ellipse){animation:lzDraw 1s ease 1.15s forwards}
-  #landing.playing .lz-cloth path{animation:lzDraw .5s ease 1.85s forwards}
-  #landing.playing .lz-plate ellipse{animation:lzDraw .5s ease 2.05s forwards}
-  #landing.playing .lz-glass :is(path,ellipse){animation:lzDraw .6s ease 2.25s forwards}
-  #landing.playing .lz-chairs path{animation:lzDraw .9s ease 2.5s forwards}
-  #landing.playing .lz-candle :is(path,ellipse){animation:lzDraw .6s ease 2.8s forwards}
-  #landing.playing .lz-glow{animation:lzFade 1s ease 3.15s forwards, lzGlowPulse 3s ease-in-out 4.1s infinite}
-  #landing.playing .lz-flame{opacity:0;transform-box:fill-box;transform-origin:50% 100%;
-    animation:lzFade .6s ease 3.25s forwards, lzFlick .24s ease-in-out 3.8s infinite alternate}
-  .lz-scene{margin-top:14px}
-  .lz-cta{display:flex;flex-direction:column;align-items:center;gap:12px;opacity:0;margin-top:16px}
-  #landing.playing .lz-cta{animation:lzFade .8s ease 4.05s forwards}
-  .lz-cta .btn{font-size:15px;padding:13px 26px}
-  .lz-msg{font-size:12.5px;color:var(--muted);min-height:1em}
+  /* Pre-paint hold (see the .lz-first script in <head>): ink from frame one,
+     shell invisible underneath until the landing fades or boot opts out. */
+  html.lz-first,html.lz-first body{background:#0a0a0b}
+  html.lz-first body>:not(#landing){visibility:hidden}
+  /* Candle-Glow Void: warm radial glow, a whisper of liquid gold haze (the
+     content page's Vanta palette as blurred blobs) and canvas embers rising.
+     No image asset; the halftone hero lives on share images only. */
+  .lz-glow{position:absolute;inset:0;opacity:.37;background:
+    radial-gradient(38% 30% at 50% 40%,rgba(220,194,140,.16),transparent 70%),
+    radial-gradient(75% 62% at 50% 46%,rgba(201,168,106,.055),transparent 75%),
+    radial-gradient(120% 100% at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%)}
+  .lz-liquid{position:absolute;inset:0;overflow:hidden;opacity:.05}
+  .lz-blob{position:absolute;border-radius:50%;filter:blur(64px);mix-blend-mode:screen}
+  .lz-blob.b1{width:52%;height:44%;left:6%;top:8%;background:radial-gradient(circle,#3a2810 0%,transparent 70%);animation:lzDrift1 19s ease-in-out infinite alternate}
+  .lz-blob.b2{width:46%;height:40%;right:2%;top:34%;background:radial-gradient(circle,#8a6636 0%,transparent 70%);opacity:.55;animation:lzDrift2 23s ease-in-out infinite alternate}
+  .lz-blob.b3{width:40%;height:36%;left:30%;bottom:-8%;background:radial-gradient(circle,#5a3d16 0%,transparent 70%);opacity:.65;animation:lzDrift3 26s ease-in-out infinite alternate}
+  @keyframes lzDrift1{from{transform:translate(0,0) scale(1)}to{transform:translate(9%,6%) scale(1.14)}}
+  @keyframes lzDrift2{from{transform:translate(0,0) scale(1.08)}to{transform:translate(-8%,-5%) scale(.94)}}
+  @keyframes lzDrift3{from{transform:translate(0,0)}to{transform:translate(-6%,-9%) scale(1.1)}}
+  #lzEmbers{position:absolute;inset:0;width:100%;height:100%}
+  .lz-veil{position:absolute;inset:0;
+    background:radial-gradient(70vmax 70vmax at 50% 44%,transparent 40%,rgba(10,10,11,.5) 100%)}
+  .lz-cover{position:absolute;inset:0;background:#0a0a0b}
+  #landing.playing .lz-cover{animation:lzFade0 1.6s ease .2s forwards}
+  #landing.playing .lz-veil{animation:lzOpen 2.4s ease .6s forwards}
+  /* Brand, top-left above the desk */
+  .lz-brand{position:absolute;left:clamp(18px,5vw,72px);top:clamp(18px,6vh,64px);display:flex;flex-direction:column;align-items:flex-start;gap:8px;
+    opacity:0;transform:translateY(-10px)}
+  .lz-brand::before{content:"";position:absolute;inset:-30% -18% -34% -16%;z-index:-1;pointer-events:none;
+    background:radial-gradient(closest-side,rgba(10,10,11,.8),rgba(10,10,11,.5) 55%,transparent);filter:blur(12px)}
+  .lz-wordmark{font-family:var(--serif);font-size:clamp(26px,4.6vw,42px);font-weight:650;letter-spacing:-.045em;text-transform:none;
+    background:linear-gradient(94deg,#fffaf0,#f3e5c0 55%,#e8d19c);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    filter:drop-shadow(0 2px 10px rgba(0,0,0,.6))}
+  .lz-wordmark .dot{-webkit-text-fill-color:var(--accent);color:var(--accent)}
+  .lz-purpose{font-size:clamp(30px,5.4vw,54px);line-height:1.03;font-weight:650;letter-spacing:-.038em;
+    max-width:15.5em;text-wrap:balance;color:#f4f3f1;text-shadow:0 2px 14px rgba(0,0,0,.75);
+    opacity:0;transform:translateY(12px)}
+  .lz-purpose em{font-style:normal;color:var(--accent2)}
+  .lz-purpose .booked{color:var(--accent2)}
+  #landing.playing .lz-brand{animation:lzRise .9s cubic-bezier(.2,.7,.2,1) 1.1s forwards}
+  /* The stage, centred: the ask, the answer, the ways in */
+  .lz-stage{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(680px,calc(100vw - 36px));
+    display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center}
+  .lz-stage::before{content:"";position:absolute;inset:-12% -10%;z-index:-1;pointer-events:none;border-radius:40px;
+    background:radial-gradient(closest-side,rgba(10,10,11,.7),rgba(10,10,11,.45) 60%,transparent);filter:blur(18px)}
+  .lz-ey{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent2);font-weight:600;text-shadow:0 1px 4px rgba(0,0,0,.6);
+    opacity:0;transform:translateY(8px)}
+  .lz-ask{min-height:2.6em;font-size:clamp(17px,2.6vw,27px);line-height:1.3;color:#f4f3f1;letter-spacing:-.015em;max-width:26em;
+    text-shadow:0 1px 8px rgba(0,0,0,.7);opacity:0;transform:translateY(10px);text-wrap:balance}
+  .lz-ask::before{content:"\201C"}
+  .lz-ask::after{content:"\201D";display:inline;color:#f4f3f1}
+  .lz-ask .w{display:inline-block;opacity:0;transform:translateY(5px);filter:blur(3px);animation:lzWordIn .45s ease forwards}
+  @keyframes lzWordIn{to{opacity:1;transform:none;filter:blur(0)}}
+  .lz-tiers{display:flex;flex-direction:column;gap:8px;width:100%;max-width:560px}
+  .lz-tier{display:flex;gap:14px;align-items:flex-start;text-align:left;border:1px solid rgba(244,243,241,.13);border-radius:12px;padding:11px 14px;
+    background:rgba(16,16,17,.82);backdrop-filter:blur(8px);font-size:14px;line-height:1.45;color:#f4f3f1;opacity:0;transform:translateY(12px)}
+  .lz-tier b{flex:none;width:52px;padding-top:3px;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent2);font-weight:600}
+  .lz-tier .sl{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+  .lz-tier .sl i{font-style:normal;font-size:12px;color:var(--good);border:1px solid color-mix(in srgb,var(--good) 45%,transparent);border-radius:7px;padding:2px 8px}
+  #landing.typed .lz-tier:nth-child(1){animation:lzRise .6s ease .15s forwards}
+  #landing.typed .lz-tier:nth-child(2){animation:lzRise .6s ease .55s forwards}
+  #landing.typed .lz-tier:nth-child(3){animation:lzRise .6s ease .95s forwards}
+  .lz-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px;margin-top:4px;opacity:0;transform:translateY(12px)}
+  .lz-cta .btn{font-size:15px;padding:13px 24px;flex:0 0 auto;display:inline-flex;align-items:center;gap:8px}
+  .lz-cta .btn.go{background:var(--accent2);color:#1a1410;border-color:transparent}
+  .lz-cta .btn.go svg{width:16px;height:16px}
+  .lz-cta .linkbtn{color:#b9b3a4}
+  #landing.typed .lz-cta{animation:lzRise .8s cubic-bezier(.2,.7,.2,1) 1.5s forwards}
+  .lz-hint{font-size:12.5px;color:#a8a39a;max-width:48ch;line-height:1.45;text-shadow:0 1px 4px rgba(0,0,0,.6);opacity:0}
+  #landing.typed .lz-hint{animation:lzRise .8s ease 1.9s forwards}
+  .lz-msg{font-size:12.5px;color:#a8a39a;min-height:1em}
+  #landing.playing .lz-ey{animation:lzRise .7s ease 1.2s forwards}
+  #landing.playing .lz-purpose{animation:lzRise .9s cubic-bezier(.2,.7,.2,1) 1.35s forwards}
+  #landing.playing .lz-ask{animation:lzRise .8s cubic-bezier(.2,.7,.2,1) 1.6s forwards}
+  @keyframes lzFade0{to{opacity:0}}
+  @keyframes lzOpen{to{background:radial-gradient(95vmax 95vmax at 50% 44%,transparent 45%,rgba(10,10,11,.42) 100%)}}
+  @keyframes lzRise{to{opacity:1;transform:none}}
+  @keyframes lzBlink{50%{opacity:0}}
+  @media (max-width:640px){
+    .lz-brand{top:max(14px,env(safe-area-inset-top,0px))}
+    .lz-stage{top:54%;gap:10px;max-height:calc(100vh - 150px);overflow:auto;padding:4px 0}
+    .lz-ask{font-size:17px}
+    .lz-tier{font-size:13px;padding:9px 11px;gap:10px}
+    .lz-tier b{width:44px}
+    .lz-hint{display:none}
+    .lz-cta .btn{font-size:14px;padding:12px 16px}
+  }
   @media (prefers-reduced-motion: reduce){
-    #landing .lz-scene :is(path,ellipse){stroke-dashoffset:0}
-    #landing .lz-glow,#landing .lz-flame,#landing .lz-cta{opacity:1;transform:none}
+    #landing .lz-cover{opacity:0}
+    #landing :is(.lz-brand,.lz-ey,.lz-purpose,.lz-ask,.lz-ask .w,.lz-tier,.lz-cta,.lz-hint){opacity:1;transform:none;filter:none;animation:none}
+    #landing .lz-veil,#landing .lz-blob{animation:none}
+    #landing #lzEmbers{display:none}
+    #landing .lz-veil{background:radial-gradient(95vmax 95vmax at 50% 44%,transparent 45%,rgba(10,10,11,.42) 100%)}
   }
 
   /* Liquid glass: translucent tint + heavy frost + specular edge + depth. The
      scroll-story scene behind blurs into soft moving gold light through them. */
-  .card{position:relative;display:flex;flex-direction:column;gap:13px;padding:20px;
+  .card{position:relative;display:flex;flex-direction:column;gap:0;padding:0;overflow:hidden;
     border-radius:var(--radius);border:1px solid var(--cardBorder);
     background:color-mix(in srgb, var(--panel) var(--cardMix,100%), transparent);
     backdrop-filter:blur(var(--cardBlur,0px)) saturate(1.4);
@@ -295,6 +339,38 @@
     box-shadow:0 14px 42px var(--cardShadow), inset 0 1px 0 var(--cardSheen)}
   .card.soon{border-color:rgba(205,167,102,.5)}
   @media (max-width:640px){ :root{--cardBlur:13px} }   /* lighter frost on phones */
+  /* Photo banner — the room leads the card. Generated on-device per venue until a
+     spot carries a real licensed photo (s.photo → <img> swap in buildCard). */
+  .card-inner{display:flex;flex-direction:column;gap:13px;padding:16px 20px 20px}
+  .card-photo{position:relative;height:170px;background:#0b0a09;overflow:hidden;flex:none}
+  .card-photo canvas,.card-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  /* Scrim: the caption has to stay legible over ANY photo, including a bright
+     sunlit dining room. Hold near-opaque through the whole caption band, then
+     release quickly so the image still reads above it. */
+  /* z-index is load-bearing: ::after is the last child, so without it the scrim
+     paints OVER the caption and greys the white text out. Scrim 1, text 2. */
+  .card-photo::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;
+    background:linear-gradient(to top, rgba(4,4,6,.94) 0%, rgba(4,4,6,.88) 20%,
+      rgba(4,4,6,.70) 38%, rgba(4,4,6,.36) 56%, rgba(4,4,6,.08) 76%, rgba(4,4,6,.28) 100%)}
+  /* Sits over unpredictable pixels — a bright tablecloth washed the brand ink
+     out, so the chip carries its own dark plate and a text shadow. */
+  .card-photo .pill{position:absolute;top:12px;right:13px;z-index:2;background:rgba(0,0,0,.62);
+    -webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);
+    border:1px solid rgba(255,255,255,.22);border-radius:6px;padding:4px 8px;
+    text-shadow:0 1px 3px rgba(0,0,0,.85);filter:brightness(1.28) saturate(1.1)}
+  .cp-cap{position:absolute;left:17px;right:14px;bottom:13px;z-index:2}
+  /* Tight dark shadow for edge contrast + a wide soft one to lift off busy
+     pixels. Both, because either alone fails on some photo. */
+  .cp-cap .name{color:#fff;font-size:19px;line-height:1.2;
+    text-shadow:0 1px 3px rgba(0,0,0,.95), 0 2px 16px rgba(0,0,0,.75)}
+  .cp-cap .sub{color:rgba(255,255,255,.95);margin-top:4px;line-height:1.35;
+    text-shadow:0 1px 3px rgba(0,0,0,.9), 0 1px 12px rgba(0,0,0,.65);
+    display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  /* Google Places photos require photographer attribution — tiny, top-left. */
+  .cp-credit{position:absolute;top:12px;left:13px;z-index:2;font-size:9px;letter-spacing:.4px;
+    color:rgba(255,255,255,.55);background:rgba(0,0,0,.35);border-radius:5px;padding:2px 6px;
+    max-width:55%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .metaline{display:flex;align-items:center;justify-content:space-between;gap:12px}
   .card-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
   .name{font-family:var(--serif);font-weight:600;font-size:17.5px;line-height:1.22;letter-spacing:-.3px}
   .sub{color:var(--muted);font-size:12px;margin-top:5px;letter-spacing:.1px}
@@ -411,148 +487,147 @@
     .brand small{display:none}            /* hide only the long "as of…" subtext */
     .seg button{padding:8px 13px}
   }
+  /* Hackathon: "Get me in" concierge panel (web/concierge.js) */
+  .modal.cg{max-width:660px;max-height:calc(100vh - 40px);overflow:auto}
+  .cg-ask textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:11px;padding:12px 13px;
+    color:var(--txt);font:inherit;font-size:14.5px;line-height:1.45;resize:vertical;min-height:66px}
+  .cg-ask textarea:focus{outline:none;border-color:color-mix(in srgb,var(--accent2) 55%,transparent)}
+  .cg-row{display:flex;align-items:center;gap:10px;margin-top:10px}
+  .cg-row .btn{flex:0 0 auto}
+  .cg-ctx{flex:1;color:var(--faint);font-size:12px;min-width:0}
+  .cg-ctx a{color:var(--muted)}
+  .cg-mic{width:38px;height:38px;flex:none;border-radius:50%;border:1px solid var(--line);background:var(--panel2);
+    color:var(--txt);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .15s,color .15s}
+  .cg-mic:hover{border-color:var(--line2)}
+  .cg-mic.rec{border-color:var(--resy);color:var(--resy);box-shadow:0 0 0 4px color-mix(in srgb,var(--resy) 22%,transparent);animation:cgPulse 1.2s ease-in-out infinite}
+  .cg-mic.busy{color:var(--accent2);border-color:color-mix(in srgb,var(--accent2) 45%,transparent)}
+  @keyframes cgPulse{50%{box-shadow:0 0 0 9px color-mix(in srgb,var(--resy) 8%,transparent)}}
+  .cg-status{color:var(--muted);font-size:12.5px;margin-top:14px;min-height:18px}
+  .cg-steps{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+  .cg-steps li{font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted);
+    display:inline-flex;gap:6px;align-items:center}
+  .cg-steps li small{color:var(--faint);font-size:11px}
+  .cg-steps li.ok{color:var(--txt)}
+  .cg-steps li.err{color:var(--soon);border-color:color-mix(in srgb,var(--soon) 45%,transparent)}
+  .cg-steps li.run::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);animation:cgBlink 1s infinite}
+  @keyframes cgBlink{50%{opacity:.25}}
+  .cg-plan{margin-top:16px;display:flex;flex-direction:column;gap:12px}
+  .cg-tier{border:1px solid var(--line);border-radius:13px;padding:13px 14px;background:var(--panel2)}
+  .cg-tier h3{margin:0 0 6px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent2)}
+  .cg-tier p{margin:0;font-size:14px;line-height:1.55}
+  .cg-tier a{color:var(--accent2)}
+  .cg-answer{white-space:pre-wrap;overflow-wrap:anywhere}
+  .cg-cards{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .cg-card{flex:1 1 180px;min-width:0;border:1px solid var(--line);border-radius:11px;padding:10px 11px;background:var(--panel);font-size:12.5px}
+  .cg-card b{display:block;font-size:13.5px;margin-bottom:2px}
+  .cg-card .sub{display:block;color:var(--faint);font-size:11.5px}
+  .cg-slots{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+  .cg-slots a{font-size:12px;border:1px solid color-mix(in srgb,var(--good) 45%,transparent);color:var(--good);
+    border-radius:8px;padding:3px 8px;text-decoration:none}
+  .cg-slots a:hover{background:color-mix(in srgb,var(--good) 10%,transparent)}
+  .cg-st{display:inline-block;margin-top:6px;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .cg-st.open{color:var(--good)} .cg-st.none{color:var(--soon)} .cg-st.unknown{color:var(--faint)}
+  .cg-count{font-variant-numeric:tabular-nums;font-size:22px;font-weight:600;letter-spacing:.5px;margin:4px 0 2px}
+  .cg-tips{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:12.5px}
+  .cg-tips li{margin:2px 0}
+  .cg-watch{border-color:color-mix(in srgb,var(--accent2) 40%,transparent)}
+  .cg-link{color:var(--accent2);text-decoration:underline;cursor:pointer;background:none;border:none;padding:0;font:inherit;font-size:12px}
+  .cg-hero{display:block;width:100%;height:auto;border-radius:12px;margin:0 0 16px;border:1px solid var(--line);
+    filter:saturate(.92)}
+  .cg-hero[hidden]{display:none}
+  .card-photo img.muse-art{object-fit:cover}
+  /* Hackathon: concierge band above the grid (every city) and the phone dock */
+  .cg-band{position:relative;display:grid;grid-template-columns:minmax(200px,34%) 1fr;margin:14px 0 22px;
+    border:1px solid color-mix(in srgb,var(--accent2) 32%,transparent);border-radius:16px;overflow:hidden;background:var(--panel);min-height:200px}
+  .cg-band-art{position:relative;min-height:150px;background:url(art/hero.webp) 60% 42%/cover no-repeat;filter:brightness(.85)}
+  .cg-band-art::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 55%,var(--panel))}
+  .cg-band-txt{padding:22px 24px;display:flex;flex-direction:column;gap:8px;justify-content:center;min-width:0}
+  .cg-band-ey{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent2);font-weight:600}
+  .cg-band-txt h2{margin:0;font-family:var(--serif);font-size:clamp(20px,2.6vw,28px);font-weight:500;letter-spacing:-.02em;line-height:1.15;text-wrap:balance}
+  .cg-band-txt p{margin:0;color:var(--muted);font-size:13.5px;max-width:60ch}
+  .cg-band-field{display:flex;align-items:center;gap:8px;border:1px solid var(--line2);border-radius:12px;padding:6px 6px 6px 8px;background:var(--bg);margin-top:6px;max-width:640px}
+  .cg-band-field:focus-within{border-color:color-mix(in srgb,var(--accent2) 55%,transparent)}
+  .cg-band-field input{flex:1;min-width:0;background:none;border:0;color:var(--txt);font:inherit;font-size:14.5px;padding:8px 4px;outline:none}
+  .cg-band-field input::placeholder{color:var(--faint)}
+  .cg-band-mic{width:36px;height:36px;flex:none;border-radius:50%;border:1px solid var(--line2);background:var(--panel2);color:var(--txt);
+    display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color .15s}
+  .cg-band-mic svg{width:15px;height:15px}
+  .cg-band-mic:hover{border-color:var(--accent2)}
+  .cg-band-mic.ring{animation:cgRing 2.2s ease-out 3}
+  @keyframes cgRing{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent2) 55%,transparent)}100%{box-shadow:0 0 0 14px transparent}}
+  .cg-band-go{flex:none;background:var(--accent2);color:#1a1410;border:0;border-radius:9px;padding:10px 14px;font:600 13px/1 var(--serif);cursor:pointer;white-space:nowrap}
+  .cg-band-go:hover{filter:brightness(1.06)}
+  html.fx .cg-band{opacity:0;transform:translateY(12px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+  html.fx .cg-band.in{opacity:1;transform:none}
+  @media (max-width:720px){
+    .cg-band{grid-template-columns:1fr}
+    .cg-band-art{min-height:120px}
+    .cg-band-art::after{background:linear-gradient(180deg,transparent 50%,var(--panel))}
+    .cg-band-txt{padding:14px 16px 16px}
+    .cg-band-go{padding:10px 12px}
+  }
+  .cg-dock{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translate(-50%,0);z-index:900;
+    display:inline-flex;align-items:center;gap:10px;background:color-mix(in srgb,var(--panel) 92%,transparent);
+    border:1px solid color-mix(in srgb,var(--accent2) 45%,transparent);border-radius:999px;padding:8px 8px 8px 16px;color:var(--txt);
+    font:500 14px/1 var(--serif);cursor:pointer;backdrop-filter:blur(10px);box-shadow:0 14px 34px rgba(0,0,0,.45);animation:cgDockIn .5s cubic-bezier(.2,.9,.2,1)}
+  .cg-dock[hidden]{display:none}
+  .cg-dock span{color:var(--muted);font-weight:400}
+  .cg-dock i{width:32px;height:32px;border-radius:50%;background:var(--accent2);color:#1a1410;display:grid;place-items:center;animation:cgRing 2.4s ease-out 1.2s 3}
+  .cg-dock i svg{width:15px;height:15px}
+  @keyframes cgDockIn{from{opacity:0;transform:translate(-50%,24px)}to{opacity:1;transform:translate(-50%,0)}}
+  .cg-ask .ex{color:var(--faint);font-size:12px;margin:6px 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+  /* Planner switch: Muse Wonder (Meta API) or Muse Spark Open (open weights on Baseten). */
+  .cg-model{display:inline-flex;margin-left:auto;border:1px solid color-mix(in srgb,var(--muted) 35%,transparent);border-radius:999px;overflow:hidden;vertical-align:middle}
+  .cg-model button{font:inherit;font-size:11px;letter-spacing:.02em;padding:3px 10px;background:transparent;color:var(--muted);border:0;cursor:pointer;white-space:nowrap}
+  .cg-model button.on{background:var(--accent2);color:#1a1410}
+  .cg-ask .ex a{color:var(--muted)}
 </style>
 </head>
 <body>
-<!-- First-visit landing: the table sets itself, the tagline reads out, and we
-     ask for location before entering. CSS-driven (starts when .playing is added),
-     shown once (t42-entered). Removed from the DOM after the user enters. -->
+<!-- First-visit landing: Candle-Glow Void (glow, liquid gold haze, ember
+     canvas) behind the brand; in the middle the demo ask types itself, a real
+     answer lands in three tiers, then the ways in. Shown once (t42-entered),
+     starts when .playing is added, .typed once the sentence completes. -->
 <div id="landing" hidden aria-label="Welcome to Table for Two">
-  <div class="lz-inner">
-    <div class="lz-brand">
-      <!-- Brand insignia (true art, cleanly extracted from the source logo). -->
-      <img class="lz-logo" src="icons/mark.png" alt="Table for Two" width="72" height="72" />
-      <div class="lz-wordmark">Table for Two</div>
-      <div class="lz-tagline">Any city. Any craving.</div>
+  <div class="lz-glow" aria-hidden="true"></div>
+  <div class="lz-liquid" aria-hidden="true"><div class="lz-blob b1"></div><div class="lz-blob b2"></div><div class="lz-blob b3"></div></div>
+  <canvas id="lzEmbers" aria-hidden="true"></canvas>
+  <div class="lz-veil" aria-hidden="true"></div>
+  <div class="lz-cover" aria-hidden="true"></div>
+  <div class="lz-brand">
+    <div class="lz-wordmark">tablefortwo<span class="dot">.</span></div>
+  </div>
+  <div class="lz-stage">
+    <div class="lz-ey">The restaurant booking agent</div>
+    <h1 class="lz-purpose">The <em>best reservations</em> in your city, <span class="booked">booked for you</span></h1>
+    <div class="lz-ask"><span id="lzAsk"></span></div>
+    <div class="lz-tiers" aria-label="Example answer">
+      <div class="lz-tier"><b>Now</b><div>Carbone: nothing open live. Marea has a table for four that night.<div class="sl"><i>19:30</i><i>20:15</i><i>20:30</i><i>20:45</i><i>21:00</i></div></div></div>
+      <div class="lz-tier"><b>Drop</b><div>Carbone releases daily at 10:00 AM ET, 30 days out. Refresh at exactly 10:00:00.</div></div>
+      <div class="lz-tier"><b>Watch</b><div>Alert armed for Carbone, Saturday 7 to 9 pm, party of four.</div></div>
     </div>
-    <svg class="lz-scene" viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-      <!-- A distant city skyline behind the table — the two-top reads as a
-           rooftop dinner with the whole city out past the candlelight. Faint +
-           thin so it sits back in space; drawn first so depth builds back→front. -->
-      <g class="lz-skyline" stroke-opacity=".17" stroke-width="1.3">
-        <!-- left + right silhouettes are intentionally different: setback towers,
-             a pitched roof, water towers, varied slab widths and heights. -->
-        <path d="M60,258 V238 H98 V214 H120 V196 H132 V174 H146 V160 H154 V174 H162 V196 H176 V210 H200 V150 H222 V176 H250 V228 H272 V206 H296 V190 H322 V216 H352 V202 H380 V258"/>
-        <path d="M418,258 V208 H440 V190 H458 V214 H478 V168 H500 V184 H524 V158 H536 V184 H548 V212 H572 L590,188 L610,212 V196 H634 V172 H660 V204 H686 V226 H710 V210 H730 V240 H745 V258"/>
-        <path d="M211,150 V132"/><path d="M530,158 V138"/>
-        <path d="M182,210 V202 H192 V210"/><path d="M666,204 V196 H676 V204"/>
-        <path class="lz-horizon" d="M44,262 Q400,257 756,262" stroke-opacity=".1"/>
-      </g>
-      <g class="lz-floor" stroke-opacity=".22">
-        <path d="M40,618 L350,330"/><path d="M760,618 L450,330"/>
-        <path d="M0,540 Q400,510 800,540"/><path d="M60,618 Q400,585 740,618"/>
-      </g>
-      <g class="lz-table">
-        <ellipse cx="400" cy="372" rx="200" ry="46"/>
-        <path d="M200,376 A200,46 0 0 0 600,376"/>
-        <path d="M392,418 Q388,480 386,540"/><path d="M408,418 Q412,480 414,540"/>
-        <ellipse cx="400" cy="548" rx="72" ry="15"/>
-      </g>
-      <g class="lz-cloth" stroke-opacity=".6">
-        <path d="M228,400 q-10,28 0,52"/><path d="M572,400 q10,28 0,52"/>
-      </g>
-      <g class="lz-plate"><ellipse cx="303" cy="368" rx="42" ry="11"/><ellipse cx="303" cy="368" rx="27" ry="7"/>
-        <ellipse cx="497" cy="368" rx="42" ry="11"/><ellipse cx="497" cy="368" rx="27" ry="7"/></g>
-      <g class="lz-glass">
-        <ellipse cx="252" cy="312" rx="13" ry="4"/><path d="M239,312 q2,20 13,24"/><path d="M265,312 q-2,20 -13,24"/><path d="M252,336 v18"/><path d="M240,356 a12,3.5 0 0 0 24,0"/>
-        <ellipse cx="548" cy="312" rx="13" ry="4"/><path d="M535,312 q2,20 13,24"/><path d="M561,312 q-2,20 -13,24"/><path d="M548,336 v18"/><path d="M536,356 a12,3.5 0 0 0 24,0"/>
-      </g>
-      <g class="lz-chairs">
-        <g class="lz-chairL">
-          <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/><path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/><path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/><path d="M140,474 q30,-9 62,-2"/>
-        </g>
-        <g class="lz-chairR" transform="translate(800,0) scale(-1,1)">
-          <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/><path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/><path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/><path d="M140,474 q30,-9 62,-2"/>
-        </g>
-      </g>
-      <g class="lz-candle"><path d="M393,330 v-32"/><path d="M407,330 v-32"/><ellipse cx="400" cy="297" rx="7" ry="2.6"/><ellipse cx="400" cy="333" rx="16" ry="4.6"/></g>
-      <circle class="lz-glow" cx="400" cy="280" r="60" fill="url(#glowGrad)" stroke="none"/>
-      <path class="lz-flame" d="M400,290 q7,-11 0,-21 q-7,10 0,21" stroke-width="1.4" fill="rgba(232,195,122,.3)"/>
-    </svg>
     <div class="lz-cta">
-      <button id="lzNear" class="btn book avail" style="--c:var(--good)">Find restaurants near me</button>
+      <button id="lzGo" class="btn book go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Get me in</button>
+      <button id="lzNear" class="btn book" style="--c:var(--good)">Find tables near me</button>
       <button id="lzBrowse" class="linkbtn">Browse all cities</button>
-      <div id="lzMsg" class="lz-msg" role="status"></div>
     </div>
+    <div class="lz-hint">Say where, when and how many. The concierge checks live tables, times the next drop and sets a watch if it's full.</div>
+    <div id="lzMsg" class="lz-msg" role="status"></div>
   </div>
 </div>
 
 <!-- Sticky slim bar: lives OUTSIDE <header> so it stays pinned for the whole
      page scroll (a sticky element only sticks within its own parent's box). -->
-<!-- Scroll story: a gold line-art table for two sets itself as you scroll.
-     Fixed decorative layer behind everything; GSAP ScrollTrigger scrubs it.
-     Hidden for reduced-motion users and in map view. -->
 <div id="vanta-bg" aria-hidden="true"></div>
-<div id="tableScene" aria-hidden="true">
-  <svg viewBox="0 0 800 620" fill="none" stroke="var(--sceneInk)" stroke-width="1.6" stroke-linecap="round">
-    <defs>
-      <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#e8c37a" stop-opacity=".55"/>
-        <stop offset="60%" stop-color="#c9a86a" stop-opacity=".18"/>
-        <stop offset="100%" stop-color="#c9a86a" stop-opacity="0"/>
-      </radialGradient>
-    </defs>
-    <g id="scFloor" stroke-opacity=".22">
-      <path d="M40,618 L350,330"/><path d="M760,618 L450,330"/>
-      <path d="M0,540 Q400,510 800,540"/><path d="M60,618 Q400,585 740,618"/>
-    </g>
-    <g id="scTable">
-      <ellipse cx="400" cy="372" rx="200" ry="46"/>
-      <path d="M200,376 A200,46 0 0 0 600,376"/>
-      <path d="M392,418 Q388,480 386,540"/><path d="M408,418 Q412,480 414,540"/>
-      <ellipse cx="400" cy="548" rx="72" ry="15"/>
-    </g>
-    <g id="scCloth" stroke-opacity=".6">
-      <path d="M228,400 q-10,28 0,52"/><path d="M572,400 q10,28 0,52"/>
-      <path d="M310,412 q-4,22 2,38"/><path d="M490,412 q4,22 -2,38"/>
-    </g>
-    <g id="scPlateL"><ellipse cx="303" cy="368" rx="42" ry="11"/><ellipse cx="303" cy="368" rx="27" ry="7"/></g>
-    <g id="scPlateR"><ellipse cx="497" cy="368" rx="42" ry="11"/><ellipse cx="497" cy="368" rx="27" ry="7"/></g>
-    <g id="scGlassL">
-      <ellipse cx="252" cy="312" rx="13" ry="4"/>
-      <path d="M239,312 q2,20 13,24"/><path d="M265,312 q-2,20 -13,24"/>
-      <path d="M252,336 v18"/><path d="M240,356 a12,3.5 0 0 0 24,0"/>
-    </g>
-    <g id="scGlassR">
-      <ellipse cx="548" cy="312" rx="13" ry="4"/>
-      <path d="M535,312 q2,20 13,24"/><path d="M561,312 q-2,20 -13,24"/>
-      <path d="M548,336 v18"/><path d="M536,356 a12,3.5 0 0 0 24,0"/>
-    </g>
-    <g id="scChairL">
-      <g id="scChairLi">
-        <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/>
-        <path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/>
-        <path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/>
-        <path d="M140,474 q30,-9 62,-2"/>
-      </g>
-    </g>
-    <g id="scChairR" transform="translate(800,0) scale(-1,1)">
-      <g id="scChairRi">
-        <path d="M148,296 q-12,66 -7,122"/><path d="M164,300 q-9,58 -6,112"/>
-        <path d="M141,418 q30,-11 60,-2"/><path d="M142,424 h56"/>
-        <path d="M146,426 q-5,58 -14,86"/><path d="M196,424 q7,58 14,86"/>
-        <path d="M140,474 q30,-9 62,-2"/>
-      </g>
-    </g>
-    <g id="scCandle">
-      <path d="M393,330 v-32"/><path d="M407,330 v-32"/>
-      <ellipse cx="400" cy="297" rx="7" ry="2.6"/>
-      <ellipse cx="400" cy="333" rx="16" ry="4.6"/>
-    </g>
-    <circle id="scGlow" cx="400" cy="280" r="46" fill="url(#glowGrad)" stroke="none"/>
-    <path id="scFlame" d="M400,290 q7,-11 0,-21 q-7,10 0,21" stroke-width="1.4" fill="rgba(232,195,122,.28)"/>
-    <text id="scCaption" x="400" y="212" text-anchor="middle" stroke="none" fill="var(--sceneInk)"
-      style="font-family:var(--serif),Georgia,serif;font-style:italic;font-size:27px;letter-spacing:1.5px">your table is ready ✌︎</text>
-  </svg>
-</div>
 <div class="topbar-bar" id="topbarBar">
   <div class="wrap topbar">
     <div class="brand">
-      <img class="mark" src="icons/mark.png" alt="" width="22" height="22" />
-      <span class="nm">Table for Two</span>
+      <img class="mark" src="icons/favicon.svg" alt="" width="26" height="26" />
+      <span class="nm">tablefortwo<span class="dot">.</span></span>
       <small id="srcMeta"></small>
     </div>
     <div class="spacer"></div>
+    <button class="alertbtn" id="cgOpen" title="Ask the concierge to get you in">Get me in</button>
     <button class="alertbtn" id="alertBtn" title="Get alerted when a table opens" hidden>Get alerts</button>
     <button class="iconbtn" id="themeToggle" title="Toggle light / dark" aria-label="Toggle theme"><span class="ticon" id="themeIcon"></span></button>
   </div>
@@ -585,6 +660,34 @@
       <div id="watchList" class="watch-list"></div>
       <button class="linkbtn" id="signOut">Sign out</button>
     </div>
+  </div>
+</div>
+
+<!-- Hackathon: the "Get me in" concierge. Text (or voice) in, a NOW / DROP / WATCH
+     plan out, streamed from the Muse Wonder agent in agent/ (web/concierge.js). -->
+<div class="modal-scrim" id="cgScrim" hidden>
+  <div class="modal cg" role="dialog" aria-modal="true" aria-labelledby="cgTitle">
+    <button class="modal-x" id="cgClose" aria-label="Close">✕</button>
+    <h2 id="cgTitle">Get me in.</h2>
+    <p class="modal-sub">Say where, when and how many. The concierge checks live tables, times the next drop, lines up alternates and sets the watch. Muse Wonder plans, or Muse Spark Open on open weights; our data and Resy answer.</p>
+    <img class="cg-hero" id="cgHero" src="art/hero.webp" alt="" width="1400" height="933" loading="lazy" />
+
+    <div class="cg-ask">
+      <textarea id="cgText" rows="2" placeholder="Get four of us into Carbone this Saturday around eight, or something similar in the West Village if that's impossible."></textarea>
+      <div class="cg-row">
+        <button class="cg-mic" id="cgMic" title="Hold to talk" aria-label="Hold to talk" hidden>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+        </button>
+        <span class="cg-ctx" id="cgCtx"></span>
+        <button class="btn book avail" id="cgGo" style="--c:var(--good)">Ask the concierge</button>
+      </div>
+      <p class="ex"><a href="#" id="cgExample">Use the example</a> · Ctrl/Cmd + Enter sends
+        <span class="cg-model" id="cgModel" role="group" aria-label="Planner model"><button type="button" data-model="wonder" title="Muse Wonder 1.0 on the Meta Model API">Muse Wonder</button><button type="button" data-model="spark-open" title="Muse Spark Open, Meta's open-weights model, served by Baseten">Spark Open · open weights</button></span></p>
+    </div>
+    <div class="cg-status" id="cgStatus"></div>
+    <ol class="cg-steps" id="cgSteps"></ol>
+    <div class="cg-plan" id="cgPlan" hidden></div>
+    <div class="modal-msg" id="cgMsg"></div>
   </div>
 </div>
 
@@ -706,14 +809,25 @@
 </header>
 
 <main class="wrap">
+  <!-- Hackathon: the concierge band. The ask field lives in the page on every city;
+       text or the mic hands off to the Get-me-in panel (web/concierge.js). -->
+  <section id="cgBand" class="cg-band" aria-label="The concierge">
+    <div class="cg-band-art" aria-hidden="true"></div>
+    <div class="cg-band-txt">
+      <div class="cg-band-ey">The concierge</div>
+      <h2>Say where, when and how many.</h2>
+      <p>Live tables, the exact drop, and a watch if it's full. Planned by Muse Wonder over our data.</p>
+      <form class="cg-band-field" id="cgBandForm" autocomplete="off">
+        <button type="button" class="cg-band-mic" id="cgBandMic" aria-label="Talk to the concierge" title="Talk to the concierge" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+        <input id="cgBandInput" type="text" placeholder="Try: Carbone, Saturday, four of us, around eight" aria-label="Ask the concierge" />
+        <button type="submit" class="cg-band-go">Get me in</button>
+      </form>
+    </div>
+  </section>
   <div id="justOpened" class="just-opened" style="display:none"></div>
   <div id="grid" class="grid"></div>
   <div id="map" data-lenis-prevent></div>
   <div id="state" class="state hide"></div>
-  <!-- Closing tableau: open space at the end of the list where the scroll story
-       finishes — the set table, lit candle, and a word. Pure spacing; the art is
-       the fixed #tableScene behind it. -->
-  <div id="tableau" aria-hidden="true"></div>
   <footer>
     <div style="margin-bottom:10px">Don't see your city? <a href="#" id="reqCityLink" style="color:var(--accent2)">Request it →</a>
       &nbsp;·&nbsp; Missing a great spot? <a href="#" id="reqSpotLink" style="color:var(--accent2)">Nominate it →</a></div>
@@ -724,6 +838,8 @@
     <br/><a href="/privacy/" style="color:var(--muted)">Privacy</a> · <a href="/terms/" style="color:var(--muted)">Terms</a> · <a href="mailto:support@tablefortwo.city" style="color:var(--muted)">support@tablefortwo.city</a>
   </footer>
 </main>
+<!-- Hackathon: phone dock for the concierge, shown once the band scrolls away. -->
+<button id="cgDock" class="cg-dock" type="button" hidden>Get me in <span>· say it</span><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></i></button>
 
 <!-- Leaflet is loaded lazily by loadLeaflet() on first map open (saves ~150KB
      off first load). Because it loads AFTER Lenis by then, Leaflet's window.L
@@ -830,6 +946,9 @@ function normalizeSpot(s, city){
     walkIns:!!s.walkIns, walkIn:s.walkIn||null,
     tips:Array.isArray(s.tips)?s.tips:[], signatureDish:s.signatureDish||'',
     lastVerified:s.lastVerified||'',
+    // Real venue photo (harvest_photos.py) + its source credit; card falls back
+    // to the generated banner when absent.
+    photo:s.photo||'', photoAttr:s.photoAttr||'',
     // Provenance: named critic/blog endorsements (the anti-slop trust signal) and
     // the free-text note on why the table is hard to get.
     sources:Array.isArray(s.sources)?s.sources:[], evidence:s.evidence||''
@@ -924,7 +1043,8 @@ function fmtWhen(date){
   const f=new Intl.DateTimeFormat('en-US',{timeZone:cityTz,weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
   return f.format(date);
 }
-const PLAT_COLOR={Resy:'var(--resy)',Tock:'var(--tock)',OpenTable:'var(--opentable)',SevenRooms:'var(--sevenrooms)'};
+const PLAT_COLOR={Resy:'var(--resy)',Tock:'var(--tock)',OpenTable:'var(--opentable)',SevenRooms:'var(--sevenrooms)',
+  TheFork:'var(--thefork)',CoverManager:'var(--covermanager)'};   // Spain + EU platforms
 function platColor(p){ return PLAT_COLOR[p]||'var(--invite)'; }
 
 // Today's date (YYYY-MM-DD) in the active city's timezone — for prefilled links.
@@ -950,6 +1070,11 @@ function prefillUrl(s){
   if(!url) return '';
   try{
     const u=new URL(url), h=u.hostname;
+    // Only inject date/party on platforms whose URLs understand them. EU spots
+    // (TheFork/CoverManager) and plain websites get the link untouched —
+    // spraying ?date= on an arbitrary booking widget or homepage breaks trust.
+    const KNOWN=['resy.com','opentable.com','exploretock.com','sevenrooms.com'];
+    if(!KNOWN.some(k=>h.includes(k))) return url;
     if(h.includes('opentable.com')) u.searchParams.set('dateTime',todayISO()+'T19:00');
     else u.searchParams.set('date',todayISO());
     return partyParam(u.toString(), party);
@@ -996,6 +1121,7 @@ function diffWord(n){ return DIFF_WORDS[Math.min(5,Math.max(1,Math.round(n)))||3
 /* ---------- App state ---------- */
 let RAW=[];            // normalized spots for current city
 let META=null;
+let ART={};            // spot id -> Muse Image venue plate path (art/<city>/manifest.json)
 let SNIPER=null;       // cancellation-radar feed (cities/just-opened.json)
 let cityKey='nyc';
 let party=2;           // booking party size; "table for two" is the default, not a limit
@@ -1037,6 +1163,13 @@ async function loadCity(){
   try{
     const {meta,spots}=await src.load();
     RAW=spots; META=meta;
+    // Muse Image venue plates (scripts/muse_art.py): art/<city>/manifest.json lists
+    // the spots that have one; buildCard prefers it over the platform photo.
+    ART={};
+    try{
+      const r=await fetch(bust('art/'+cityKey+'/manifest.json'),{cache:'no-store'});
+      if(r.ok) for(const a of await r.json()) if(a.id&&a.file) ART[a.id]='art/'+cityKey+'/'+a.file;
+    }catch(e){ /* no art for this city */ }
     $('srcMeta').textContent='· '+spots.length+' spots';
     buildFilters();
     hideState();
@@ -1170,19 +1303,64 @@ function render(){
   if(!list.length){ showState('<h2>No matches</h2><p>Try clearing a filter.</p>'); return; }
   // Scene windows: every couple of card-rows, a clear full-width band lets the
   // scroll-story table show through unobstructed — glimpses of the story mid-list.
-  let sinceWindow=0;
   hideState();
   const frag=document.createDocumentFragment();
-  for(const {s,drop} of list){
-    frag.appendChild(buildCard(s,drop));
-    if(++sinceWindow===9 && list.length>12){
-      const w=document.createElement('div'); w.className='scene-window'; frag.appendChild(w);
-      sinceWindow=0;
-    }
-  }
+  for(const {s,drop} of list) frag.appendChild(buildCard(s,drop));   // one continuous grid
   grid.appendChild(frag);
   tick();
 }
+
+/* ---------- Generated card imagery ----------
+   Deterministic per venue (id-seeded), tinted per cuisine — a warm, dim stand-in
+   until a spot carries a real licensed photo (s.photo → <img> swap below).
+   Fixed internal resolution + object-fit:cover, so no layout-timing dependency. */
+function cuisineHue(c){ c=(c||'').toLowerCase();
+  if(/ital|pizza|pasta|trattor/.test(c)) return 20;
+  if(/japan|sushi|omakase|izakaya|ramen/.test(c)) return 158;
+  if(/korean|steak|bbq|grill|chophouse/.test(c)) return 8;
+  if(/indian|thai|spice|szechuan|sichuan/.test(c)) return 33;
+  if(/seafood|oyster|fish|scandi|nordic|raw/.test(c)) return 192;
+  if(/mexic|latin|taquer/.test(c)) return 26;
+  if(/french|bistro|contemporary|american|new|tasting/.test(c)) return 40;
+  return 30; }
+function drawPhoto(g,key,cuisine,w,h){
+  let sd=2166136261; const str=String(key||'x');
+  for(let i=0;i<str.length;i++){ sd=(sd^str.charCodeAt(i))*16777619>>>0; }
+  const rnd=()=>{ sd=(sd*1664525+1013904223)>>>0; return sd/4294967296; };
+  const hue=cuisineHue(cuisine);
+  const base=g.createLinearGradient(0,0,w,h);
+  base.addColorStop(0,'hsl('+hue+',42%,14%)'); base.addColorStop(.6,'hsl('+((hue+8)%360)+',34%,9%)'); base.addColorStop(1,'hsl('+hue+',30%,5%)');
+  g.fillStyle=base; g.fillRect(0,0,w,h);
+  const blooms=2+Math.floor(rnd()*3);
+  for(let i=0;i<blooms;i++){ const x=rnd()*w,y=rnd()*h*0.72,r=Math.max(w,h)*(0.24+rnd()*0.4);
+    const rg=g.createRadialGradient(x,y,2,x,y,r);
+    rg.addColorStop(0,'hsla('+(28+rnd()*22)+',82%,62%,'+(0.09+rnd()*0.12)+')'); rg.addColorStop(1,'transparent');
+    g.fillStyle=rg; g.beginPath(); g.arc(x,y,r,0,7); g.fill(); }
+  const px=w*(0.3+rnd()*0.4),py=h*(0.52+rnd()*0.18),pr=Math.min(w,h)*(0.26+rnd()*0.13);
+  const pg=g.createRadialGradient(px,py-pr*0.3,pr*0.1,px,py,pr);
+  pg.addColorStop(0,'hsla('+(hue+12)+',52%,42%,0.55)'); pg.addColorStop(.7,'hsla('+hue+',40%,18%,0.3)'); pg.addColorStop(1,'transparent');
+  g.fillStyle=pg; g.beginPath(); g.ellipse(px,py,pr,pr*0.6,0,0,7); g.fill();
+  const surf=g.createLinearGradient(0,h*0.6,0,h); surf.addColorStop(0,'transparent'); surf.addColorStop(1,'hsla('+hue+',28%,6%,0.92)');
+  g.fillStyle=surf; g.fillRect(0,h*0.58,w,h*0.42);
+  const vg=g.createRadialGradient(w/2,h*0.42,Math.min(w,h)*0.28,w/2,h/2,Math.max(w,h)*0.8);
+  vg.addColorStop(0,'transparent'); vg.addColorStop(1,'rgba(0,0,0,0.55)'); g.fillStyle=vg; g.fillRect(0,0,w,h);
+  const gn=Math.min(1500,Math.floor(w*h*0.02));
+  for(let i=0;i<gn;i++){ g.fillStyle='rgba(255,255,255,'+(rnd()*0.03)+')'; g.fillRect(rnd()*w,rnd()*h,1,1); }
+}
+function paintPhoto(cv,s){
+  const w=480,h=150; cv.width=w; cv.height=h;
+  const g=cv.getContext&&cv.getContext('2d'); if(!g) return;
+  drawPhoto(g,s.id||s.name,s.cuisine||'',w,h);
+}
+/* A hotlinked photo died (404 / hotlink block) → generated banner, not a hole. */
+window.t42PhotoFail=function(img){
+  try{
+    const cv=document.createElement('canvas'); cv.setAttribute('aria-hidden','true');
+    const stub={id:img.getAttribute('data-pid'), cuisine:img.getAttribute('data-cuisine')};
+    const wrap=img.parentElement; img.replaceWith(cv); paintPhoto(cv,stub);
+    const cr=wrap&&wrap.querySelector('.cp-credit'); if(cr) cr.remove();
+  }catch(e){}
+};
 
 function buildCard(s,drop){
   const el=document.createElement('div'); el.className='card';
@@ -1193,9 +1371,13 @@ function buildCard(s,drop){
   const walkTag = s.walkIns
     ? '<span class="tag walk">✓ Walk-ins'+(s.walkIn&&s.walkIn.doors?' · '+s.walkIn.doors:'')+'</span>'
     : '<span class="tag nowalk">✕ No walk-ins</span>';
+  // No drop schedule ≠ exclusivity: a Spanish chiringuito is walk-in, not
+  // invitation-only. Only /invitation/ platforms earn that label.
   const schedLabel = s.releaseSchedule && s.releaseSchedule!=='none'
     ? ((s.releaseTime?s.releaseTime+' · ':'')+s.releaseSchedule+(s.bookingWindow?' · '+s.bookingWindow+' out':''))
-    : 'Invitation only / varies';
+    : /invitation/i.test(s.platform||'') ? 'Invitation only / varies'
+    : s.platform==='Phone' ? (s.walkIns?'Walk in, or reserve by phone':'Reservations by phone')
+    : s.walkIns ? 'Walk-ins welcome' : 'Rolling availability';
   const open=state==='open';
   const noBook = !s.platformUrl || /invitation/i.test(s.platform||'');
   const bookLabel = open ? '✓ Booking Available'
@@ -1216,17 +1398,23 @@ function buildCard(s,drop){
       }).join('')+'</div>'
     : '';
 
+  const art=(typeof ART!=='undefined'&&ART[s.id])||'';
   el.innerHTML=`
-    <div class="card-head">
-      <div>
+    <div class="card-photo">
+      ${art?`<img class="muse-art" src="${attr(art)}" alt="" loading="lazy" data-pid="${attr(s.id||'')}" data-cuisine="${attr(s.cuisine||'')}" onerror="t42PhotoFail(this)">`
+        :s.photo?`<img src="${attr(s.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-pid="${attr(s.id||'')}" data-cuisine="${attr(s.cuisine||'')}" onerror="t42PhotoFail(this)">`:`<canvas data-photo aria-hidden="true"></canvas>`}
+      ${art?`<span class="cp-credit" title="Original art generated with Muse Image from the signature dish">Art · Muse Image</span>`
+        :s.photo&&s.photoAttr?`<span class="cp-credit" title="Photo: ${attr(s.photoAttr)}">Photo · ${esc(s.photoAttr)}</span>`:''}
+      <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
+      <div class="cp-cap">
         <div class="name">${esc(s.name)}</div>
         <div class="sub">${esc(s.neighborhood)} · ${esc(s.cuisine)}</div>
       </div>
-      <div>
-        <span class="pill" style="color:${platColor(s.platform)}">${esc(s.platform||'—')}</span>
-        <div class="diff" title="Booking difficulty ${s.difficulty}/5 — ${esc(diffWord(s.difficulty))}">${dots}</div>
-        <div class="price">${esc(s.priceRange)}</div>
-      </div>
+    </div>
+    <div class="card-inner">
+    <div class="metaline">
+      <div class="price">${esc(s.priceRange)}</div>
+      <div class="diff" title="Booking difficulty ${s.difficulty}/5 — ${esc(diffWord(s.difficulty))}">${dots}</div>
     </div>
     ${vetted}
     <div class="drop" data-drop>
@@ -1248,7 +1436,9 @@ function buildCard(s,drop){
       ${watchable(s)?`<button class="btn watchb" data-watch="${attr(s.id)}" title="Alert me the moment a table for two opens up here">${BELL}<span>Alert me</span></button>`:''}
       ${s.website&&s.platformUrl!==s.website?`<a class="btn ghost" href="${attr(s.website)}" target="_blank" rel="noopener">Site</a>`:''}
       ${s.walkIns&&!s.platformUrl?'<span class="btn ghost">Walk-in only</span>':''}
+    </div>
     </div>`;
+  const pcv=el.querySelector('[data-photo]'); if(pcv) paintPhoto(pcv,s);
   const wb=el.querySelector('[data-watch]');
   if(wb){
     if(window.t42Watched && window.t42Watched(s.id)) markWatchBtn(wb,true);
@@ -1309,8 +1499,16 @@ function paintCard(c){
   // unknown — live auto-check is Resy-only; offer a one-click check on the platform
   const noBook = !s.platformUrl || /invitation/i.test(s.platform||'');
   c.dropEl.className='drop none'; c.lblEl.textContent=noBook?'Booking':'Availability';
-  c.timeEl.textContent=noBook?'Invite / varies':'Check next 7 days';
-  c.whenEl.textContent=noBook?c.schedLabel:('Live status is Resy-only — opens '+(s.platform||'the platform')+', party 2');
+  // Platform-honest headline: "Invite / varies" is ONLY for invitation venues —
+  // a phone-first or walk-in room says so plainly (the Spain fix).
+  c.timeEl.textContent = noBook
+    ? (/invitation/i.test(s.platform||'') ? 'Invite / varies'
+       : s.platform==='Phone' ? 'Reserve by phone'
+       : s.walkIns ? 'Walk right in' : 'See options')
+    : 'Check next 7 days';
+  c.whenEl.textContent = noBook ? c.schedLabel
+    : s.platform==='Resy' ? ('Live status is Resy-only — opens Resy, party 2')
+    : ('Check availability on '+(s.platform||'the platform')+' · party 2');
 }
 
 /* ---------- Live tick (1s) — only countdowns change ---------- */
@@ -1609,19 +1807,90 @@ async function submitCityRequest(payload){
 /* First-visit landing: the table sets itself, the tagline reads out, then the
    user chooses to share location or browse. Resolves to a cityKey (from
    geolocation) or null (browse all). Shown once; returning visitors skip it. */
+/* Landing embers: 110 candle-spark dots rising over the Candle-Glow Void.
+   Canvas 2D, no library; returns a stop function. Reduced motion never starts
+   it (runLanding gates on the same flag that flattens the CSS). */
+function startLandingEmbers(el,cv){
+  const ctx=cv.getContext('2d'); if(!ctx) return ()=>{};
+  const COUNT=110, COLORS=['201,168,106','220,194,140','244,243,241'];
+  let W=0,H=0,parts=[],stopped=false,t=0,last=performance.now();
+  function size(){
+    const r=el.getBoundingClientRect(), dpr=Math.min(window.devicePixelRatio||1,1.5);
+    W=r.width; H=r.height;
+    cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  function spawn(p){
+    p=p||{};
+    p.x=Math.random()*W; p.y=H*(0.55+Math.random()*0.5);
+    p.r=0.6+Math.random()*1.5; p.vy=6+Math.random()*13;
+    p.ph=Math.random()*Math.PI*2; p.sw=4+Math.random()*10;
+    p.c=COLORS[Math.random()<0.82?0:(Math.random()<0.85?1:2)];
+    p.a=0.15+Math.random()*0.5;
+    return p;
+  }
+  size(); for(let i=0;i<COUNT;i++) parts.push(spawn({}));
+  addEventListener('resize',size);
+  (function frame(now){
+    if(stopped) return;
+    const dt=Math.min(0.05,(now-last)/1000); last=now; t+=dt;
+    if(!document.hidden){
+      ctx.clearRect(0,0,W,H);
+      for(const p of parts){
+        p.y-=p.vy*dt;
+        const x=p.x+Math.sin(t*0.7+p.ph)*p.sw;
+        const flick=0.72+0.28*Math.sin(t*2.2+p.ph*3.1);
+        const fade=Math.min(1,(p.y/H)*1.6);
+        ctx.beginPath(); ctx.arc(x,p.y,p.r,0,Math.PI*2);
+        ctx.fillStyle=`rgba(${p.c},${(p.a*flick*fade).toFixed(3)})`;
+        ctx.shadowColor='rgba(220,194,140,.8)'; ctx.shadowBlur=6; ctx.fill(); ctx.shadowBlur=0;
+        if(p.y<-6) spawn(p);
+      }
+    }
+    requestAnimationFrame(frame);
+  })(last);
+  return ()=>{ stopped=true; removeEventListener('resize',size); };
+}
+
 function runLanding(){
   return new Promise(res=>{
     const el=$('landing'); if(!el){ res(null); return; }
     el.hidden=false;
     requestAnimationFrame(()=>el.classList.add('playing'));
+    // The ask types itself once the door has opened: one real sentence, the same
+    // one the concierge panel offers as its example.
+    const SENT="Get four of us into Carbone this Saturday around eight, or something similar in the West Village.";
+    const ask=$('lzAsk');
+    const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const stopEmbers=(!reduce && $('lzEmbers')) ? startLandingEmbers(el,$('lzEmbers')) : null;
+    if(ask){
+      if(reduce){ ask.textContent=SENT; el.classList.add('typed'); }
+      else{
+        // Word by word: each word rises in on its own delay once the door has opened.
+        const words=SENT.split(' ');
+        ask.textContent='';
+        words.forEach((w,i)=>{
+          const sp=document.createElement('span'); sp.className='w'; sp.textContent=w;
+          sp.style.animationDelay=(1500+i*120)+'ms'; ask.appendChild(sp);
+          if(i<words.length-1) ask.appendChild(document.createTextNode(' '));
+        });
+        setTimeout(()=>el.classList.add('typed'), 1500+words.length*120+350);
+      }
+    }
     let done=false;
-    const leave=(city)=>{
+    const leave=(city,then)=>{
       if(done) return; done=true;
+      if(stopEmbers) stopEmbers();
+      document.documentElement.classList.remove('lz-first');   // shell fades in under the leaving landing
       el.classList.add('leaving');
       try{ window.__lenis && window.__lenis.start(); }catch(e){}   // release scroll lock
-      setTimeout(()=>{ el.hidden=true; el.remove(); }, 650);
+      setTimeout(()=>{ el.hidden=true; el.remove(); if(then) then(); }, 650);
       res(city);
     };
+    // Primary: into the concierge with the typed ask ready to send.
+    $('lzGo').onclick=()=>leave(null,()=>{
+      const cg=window.t42Concierge; if(!cg) return;
+      cg.setText(SENT); cg.open();
+    });
     $('lzNear').onclick=async()=>{
       $('lzMsg').textContent='Finding your city…';
       const loc=await geoLocate();
@@ -1644,6 +1913,7 @@ function runLanding(){
 (async function boot(){
   initTheme();
   if(location.protocol==='file:'){
+    document.documentElement.classList.remove('lz-first');
     showState('<h2>⚠ Open via the local server, not a file</h2>'+
       '<p style="max-width:520px;margin:0 auto;line-height:1.6">You\'re viewing this as a <b>file://</b> path, so the browser blocks loading the city data '+
       '(and it silently falls back to NYC only, with no availability).<br><br>'+
@@ -1651,13 +1921,25 @@ function runLanding(){
     return;
   }
   showState('<div class="spin"></div><h2>Starting…</h2>');
-  await loadManifest();
   let saved=null, entered=null;
   try{ saved=localStorage.getItem('t42-city'); entered=localStorage.getItem('t42-entered'); }catch(e){}
   // Deep link from an SEO city page (/?city=<key>) wins over everything: someone
   // arriving on "hardest tables in Chicago" must land in Chicago, entered or not.
   let param=null;
   try{ param=new URLSearchParams(location.search).get('city'); }catch(e){}
+  // Pure first visit: the landing needs nothing from the manifest, so start it
+  // NOW (the shell is already held by .lz-first) and let the manifest load
+  // while the ask types itself — awaiting the fetch first was the flicker.
+  if(!entered && !saved && !param){
+    const landingP=runLanding();                 // first visit: the welcome portal
+    await loadManifest();
+    const chosen=await landingP;
+    if(chosen && DATA_SOURCES[chosen]) cityKey=chosen;
+    try{ localStorage.setItem('t42-entered','1'); if(chosen) localStorage.setItem('t42-city',chosen); }catch(e){}
+    document.documentElement.classList.remove('lz-first');
+  }else{
+  await loadManifest();
+  document.documentElement.classList.remove('lz-first');
   if(param && DATA_SOURCES[param] && DATA_SOURCES[param].available){
     cityKey=param;
     try{ localStorage.setItem('t42-entered','1'); localStorage.setItem('t42-city',param); }catch(e){}
@@ -1685,6 +1967,7 @@ function runLanding(){
       }
     }
   }
+  }
   initCitySelect();
   initPartySelect();
   const ds=$('diffScale'); if(ds) ds.innerHTML=[1,2,3,4,5].map(n=>'<i style="background:'+diffColor(n)+'"></i>').join('');
@@ -1704,60 +1987,6 @@ if('serviceWorker' in navigator){
     if(hadSW && !reloaded){ reloaded=true; location.reload(); }
   });
 }
-</script>
-
-<!-- Scroll story driver: GSAP + ScrollTrigger scrub the table-for-two scene.
-     Loads from CDN; if it fails (offline PWA), the scene simply shows fully set. -->
-<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script defer>
-window.addEventListener('load',function(){
-  const scene=document.getElementById('tableScene');
-  if(!scene || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  if(!window.gsap || !window.ScrollTrigger){ return; }   // CDN missed: static full scene
-  gsap.registerPlugin(ScrollTrigger);
-
-  // Prime every stroke to draw itself in (free-plugin-less drawSVG).
-  const drawables=[];
-  scene.querySelectorAll('#scFloor, #scTable, #scCloth, #scPlateL, #scPlateR, #scGlassL, #scGlassR, #scCandle')
-    .forEach(g=>g.querySelectorAll('path,ellipse,circle,line').forEach(el=>{
-      let L=0; try{ L=el.getTotalLength(); }catch(e){ return; }
-      el.style.strokeDasharray=L; el.style.strokeDashoffset=L;
-      el.dataset.len=L; drawables.push(el);
-    }));
-  const draw=(sel,tl,pos,dur,stag)=>tl.to(sel,{strokeDashoffset:0,duration:dur,stagger:stag,ease:'none'},pos);
-
-  gsap.set(['#scChairLi','#scChairRi','#scFlame','#scGlow','#scCaption'],{autoAlpha:0});
-  gsap.set('#scFlame',{scaleY:.2,transformOrigin:'50% 100%'});
-
-  // One timeline scrubbed across the whole page; finishes as you reach the bottom.
-  const tl=gsap.timeline({defaults:{ease:'none'},
-    scrollTrigger:{trigger:document.body,start:'top top',end:'bottom bottom',scrub:.7,invalidateOnRefresh:true}});
-  draw('#scFloor *',tl,0,1.2,.12);
-  draw('#scTable *',tl,.9,1.9,.22);
-  draw('#scCloth *',tl,2.7,.8,.1);
-  draw('#scPlateL *',tl,3.4,.7,.15); draw('#scPlateR *',tl,3.7,.7,.15);
-  draw('#scGlassL *',tl,4.5,.9,.1);  draw('#scGlassR *',tl,4.8,.9,.1);
-  tl.fromTo('#scChairLi',{x:-70,autoAlpha:0},{x:0,autoAlpha:1,duration:1.2},5.8);
-  tl.fromTo('#scChairRi',{x:70,autoAlpha:0},{x:0,autoAlpha:1,duration:1.2},6.1);
-  draw('#scCandle *',tl,7.3,.9,.12);
-  tl.to('#scFlame',{autoAlpha:1,scaleY:1,duration:.7},8.3);
-  tl.to('#scGlow',{autoAlpha:1,duration:1.1},8.5);
-  tl.fromTo('#scCaption',{autoAlpha:0,y:10},{autoAlpha:1,y:0,duration:.9},9.0);
-  tl.to({},{duration:.4},9.6);   // breathing room at the end
-
-  // The flame lives: a gentle flicker + glow pulse, independent of scroll.
-  gsap.to('#scFlame',{scaleY:.9,skewX:2,duration:.22,repeat:-1,yoyo:true,ease:'sine.inOut',transformOrigin:'50% 100%'});
-  gsap.to('#scGlow',{scale:1.08,duration:1.6,repeat:-1,yoyo:true,ease:'sine.inOut',transformOrigin:'50% 50%'});
-
-  // Short pages (few cards) can't scroll far — show the finished scene instead.
-  function fit(){ const s=document.scrollingElement;
-    if(s.scrollHeight-innerHeight<800){ tl.progress(1); } }
-  fit();
-  // City switches change page height; keep trigger measurements honest.
-  new MutationObserver(()=>{ ScrollTrigger.refresh(); fit(); })
-    .observe(document.getElementById('grid'),{childList:true});
-});
 </script>
 
 <!-- ── Motion layer ─────────────────────────────────────────────────────────
@@ -1953,6 +2182,9 @@ async function hydrateWatched(){
   }catch(e){ /* tables not ready — bells just stay idle */ }
 }
 window.t42Watched = id => watched.has(curCity().key+'|'+id);
+// The concierge (web/concierge.js) forwards a signed-in guest's token so
+// create_watch can write their real watchlist row; null when signed out.
+window.t42Token = async () => { const s = ready ? await getSession().catch(()=>null) : null; return s ? s.access_token : null; };
 window.t42Watch = async (spot, btn) => {
   const session = ready ? await getSession().catch(()=>null) : null;
   const c = curCity();
@@ -2067,6 +2299,35 @@ async function backendReady(){
     refresh();   // handles a magic-link redirect landing back with a fresh session
   }
 })();
+</script>
+<!-- Hackathon: "Get me in" concierge panel. -->
+<script type="module">
+import { initConcierge, initVoice } from './web/concierge.js';
+const $=id=>document.getElementById(id);
+const cg = initConcierge({
+  getCity: () => { const s=$('city'); return { key:s.value, label:(s.options[s.selectedIndex]||{}).textContent||s.value }; },
+  getParty: () => +($('party')?.value)||2,
+  getToken: async () => { try{ return window.t42Token ? await window.t42Token() : null; }catch(e){ return null; } },
+});
+const voice = initVoice();   // null where MediaRecorder is missing or no service is configured
+window.t42Concierge = cg;    // the landing's "Get me in" hands the typed ask here
+
+// The band above the grid: text submits straight into the panel, the mic opens it listening.
+const band=$('cgBand'), bf=$('cgBandForm'), bi=$('cgBandInput'), bm=$('cgBandMic');
+if(cg && bf){
+  bf.addEventListener('submit', e=>{ e.preventDefault(); const v=bi.value.trim(); cg.open(); if(v){ cg.setText(v); cg.ask(v); } });
+  if(bm && voice){ bm.hidden=false; bm.classList.add('ring'); bm.onclick=()=>{ cg.open(); voice.start().catch(()=>{}); }; }
+  const EX=['Carbone, Saturday, four of us, around eight','something romantic in the West Village tonight','Lilia next Friday, party of two'];
+  let k=0; setInterval(()=>{ if(bi && !bi.value && document.activeElement!==bi){ k=(k+1)%EX.length; bi.placeholder='Try: '+EX[k]; } }, 3500);
+  requestAnimationFrame(()=>requestAnimationFrame(()=>band.classList.add('in')));
+}
+// Phone dock: appears once the band has scrolled away, hides while the panel is open.
+const dock=$('cgDock');
+if(cg && dock && band && 'IntersectionObserver' in window){
+  const small=()=>matchMedia('(max-width: 640px)').matches;
+  new IntersectionObserver(es=>{ es.forEach(en=>{ dock.hidden = en.isIntersecting || !small() || !$('cgScrim').hidden; }); },{threshold:0}).observe(band);
+  dock.onclick=()=>{ dock.hidden=true; cg.open(); if(voice) voice.start().catch(()=>{}); };
+}
 </script>
 </body>
 </html>

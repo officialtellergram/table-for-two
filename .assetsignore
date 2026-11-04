@@ -1,0 +1,31 @@
+# What `wrangler deploy` must NOT upload as static assets (assets.directory is ".").
+# Secrets and local state first.
+.claude/
+.git/
+.githooks/
+.github/
+.wrangler/
+.dev.vars*
+.env*
+agent/.watches.json
+# Server-side and tooling: the site is index.html + web/ + cities/ + icons/ + art/.
+agent/
+scraper/
+scripts/
+supabase/
+tests/
+docs/
+design/
+deploy/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.py
+*.pyc
+*.md
+*.toml
+*.jsonc
+.gitignore
+.assetsignore
+package.json
+package-lock.json
