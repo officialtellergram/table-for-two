@@ -2,7 +2,7 @@
    The page and its scripts are network-first (so a deploy shows on the very next
    load, with the cache as the offline fallback); icons, art and fonts are
    cache-first; city data is always fetched fresh so the radar feed never goes stale. */
-const CACHE = 't42-v96';   // bump on deploy so stale shells are swept on activate
+const CACHE = 't42-v97';   // bump on deploy so stale shells are swept on activate
 const SHELL = [
   './', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
