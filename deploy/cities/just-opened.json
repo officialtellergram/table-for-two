@@ -1,36 +1,22 @@
 {
-  "generated": "2026-11-13T16:38:00+00:00",
+  "generated": "2026-11-13T22:19:08+00:00",
   "party": 2,
   "windowDays": 3,
   "count": 200,
   "new": 0,
   "items": [
     {
-      "city": "nyc",
-      "spotId": "lilia",
-      "name": "Lilia",
-      "neighborhood": "Williamsburg",
-      "cuisine": "Italian",
-      "date": "2026-11-13",
-      "time": "16:15",
-      "type": "Indoor",
-      "party": 2,
-      "url": "https://resy.com/cities/new-york-ny/venues/lilia?date=2026-11-13&seats=2",
-      "firstSeen": "2026-11-13T16:38:00+00:00",
-      "new": false
-    },
-    {
       "city": "dc",
-      "spotId": "maru-san",
-      "name": "Maru San",
+      "spotId": "little-pearl",
+      "name": "Little Pearl",
       "neighborhood": "Capitol Hill",
-      "cuisine": "Nikkei (Japanese-Peruvian) handroll counter",
-      "date": "2026-11-15",
-      "time": "19:00",
-      "type": "A La Carte Menu",
+      "cuisine": "New American tasting menu",
+      "date": "2026-11-14",
+      "time": "18:30",
+      "type": "Bar Seat",
       "party": 2,
-      "url": "https://resy.com/cities/washington-dc/venues/maru-san?date=2026-11-15&seats=2",
-      "firstSeen": "2026-11-13T16:38:00+00:00",
+      "url": "https://resy.com/cities/washington-dc/venues/little-pearl?date=2026-11-14&seats=2",
+      "firstSeen": "2026-11-13T22:19:08+00:00",
       "new": false
     },
     {
@@ -2803,6 +2789,20 @@
       "party": 2,
       "url": "https://resy.com/cities/boston-ma/venues/la-padrona?date=2026-11-13&seats=2",
       "firstSeen": "2026-11-13T16:38:00+00:00",
+      "new": false
+    },
+    {
+      "city": "dc",
+      "spotId": "maru-san",
+      "name": "Maru San",
+      "neighborhood": "Capitol Hill",
+      "cuisine": "Nikkei (Japanese-Peruvian) handroll counter",
+      "date": "2026-11-15",
+      "time": "11:00",
+      "type": "A La Carte Menu",
+      "party": 2,
+      "url": "https://resy.com/cities/washington-dc/venues/maru-san?date=2026-11-15&seats=2",
+      "firstSeen": "2026-11-13T01:17:44+00:00",
       "new": false
     }
   ]
