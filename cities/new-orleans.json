@@ -200,8 +200,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "",
       "releaseDay": "",
-      "bookingWindow": "52 days",
-      "bookingWindowDays": 52,
+      "bookingWindow": "45 days",
+      "bookingWindowDays": 45,
       "walkIns": false,
       "walkIn": {
         "doors": "",
@@ -1052,8 +1052,8 @@
       "releaseSchedule": "daily",
       "releaseTime": "10:00 AM CT",
       "releaseDay": "",
-      "bookingWindow": "30 days",
-      "bookingWindowDays": 30,
+      "bookingWindow": "28 days",
+      "bookingWindowDays": 28,
       "walkIns": false,
       "walkIn": null,
       "tips": [
